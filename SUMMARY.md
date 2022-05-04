@@ -16,8 +16,8 @@
 * [1.3 Inflation Control](economic-bases/1.3-inflation-control.md)
 * [1.4 Dividends](economic-bases/1.4-dividends.md)
 * [1.5 Debentures](economic-bases/1.5-debentures.md)
-* [1.6 Distribution mechanics](economic-bases/distribution-mechanics.md)
-* [1.7 Tokenomics](economic-bases/mint-usdtoken.md)
+* [1.6 Distribution mechanics](about-project/distribution-mechanics.md)
+* [1.7 Tokenomics](about-project/mint-usdtoken.md)
 
 ## Defi as a Service (DaaS) <a href="#daas" id="daas"></a>
 
