@@ -1,2 +1,2 @@
-# 1.6 Distribution mechanics
+# Distribution mechanics
 
