@@ -7,8 +7,7 @@
 * [Introduction](about-project/introduction.md)
 * [Purpose](about-project/purpose.md)
 * [Ecosystem](about-project/ecosystem.md)
-* [Mint $token](about-project/mint-usdtoken.md)
-* [Distribution mechanics](about-project/distribution-mechanics.md)
+* [Management](about-project/management.md)
 
 ## economic bases
 
@@ -17,8 +16,10 @@
 * [1.3 Inflation Control](economic-bases/1.3-inflation-control.md)
 * [1.4 Dividends](economic-bases/1.4-dividends.md)
 * [1.5 Debentures](economic-bases/1.5-debentures.md)
+* [1.6 Distribution mechanics](economic-bases/distribution-mechanics.md)
+* [1.7 Tokenomics](economic-bases/mint-usdtoken.md)
 
-## Defi as a Service (DaaS)  <a href="#daas" id="daas"></a>
+## Defi as a Service (DaaS) <a href="#daas" id="daas"></a>
 
 * [2.1 How it works](daas/2.1-how-it-works.md)
 * [2.2 Multi Strategy investments](daas/2.2-multi-strategy-investments.md)
@@ -30,14 +31,14 @@
 * [3.2 Balance sheet](accountability/3.2-balance-sheet.md)
 * [3.3 Future releases and obligations](accountability/3.3-future-releases-and-obligations.md)
 
-## DAO&#x20;
+## DAO
 
 * [4.1 Core DAO (Boardroom)](dao/4.1-core-dao-boardroom/README.md)
   * [4.1.1 Page 5](dao/4.1-core-dao-boardroom/4.1.1-page-5.md)
 * [4.2 Community DAO (Treasury)](dao/4.2-community-dao-treasury/README.md)
   * [4.2.1 Page 6](dao/4.2-community-dao-treasury/4.2.1-page-6.md)
 
-## Community&#x20;
+## Community
 
 * [5.1 Official community actions](community/5.1-official-community-actions.md)
 * [5.2 Marketing](community/5.2-marketing.md)
@@ -51,12 +52,11 @@
 
 ## Social Links
 
-* [7.1 Social Medias](social-links/7.1-social-medias.md)
-* [7.2 Develop network](social-links/7.2-develop-network.md)
-* [7.3 Press](social-links/7.3-press.md)
-* [7.4 Ambassadors Program](social-links/7.4-ambassadors-program.md)
-* [7.5 IR - investor relationship](social-links/7.5-ir-investor-relationship.md)
-* [7.6 PR - Public relationship](social-links/7.6-pr-public-relationship.md)
+* [Social Medias](social-links/7.1-social-medias.md)
+* [Develop network](social-links/7.2-develop-network.md)
+* [Press](social-links/7.3-press.md)
+* [Ambassadors Program](social-links/7.4-ambassadors-program.md)
+* [IR - investor relationship](social-links/7.5-ir-investor-relationship.md)
 
 ## FAQs
 
