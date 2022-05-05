@@ -13,11 +13,11 @@
 
 * [1.1 Presentation](economic-bases/1.1-presentation.md)
 * [1.2 Fundamentals](economic-bases/1.2-fundamentals.md)
-* [1.3 Inflation Control](economic-bases/1.3-inflation-control.md)
-* [1.4 Dividends](economic-bases/1.4-dividends.md)
-* [1.5 Debentures](economic-bases/1.5-debentures.md)
-* [1.6 Distribution mechanics](about-project/distribution-mechanics.md)
-* [1.7 Tokenomics](about-project/mint-usdtoken.md)
+* [1.3 Tokenomics](economic-bases/mint-usdtoken/README.md)
+  * [1.3.1 Inflation Control](economic-bases/mint-usdtoken/1.3-inflation-control.md)
+  * [1.3.2 Distribution mechanics](economic-bases/mint-usdtoken/distribution-mechanics.md)
+  * [1.3.4 Dividends](economic-bases/mint-usdtoken/1.4-dividends.md)
+* [1.4 Debentures](economic-bases/1.5-debentures.md)
 
 ## Defi as a Service (DaaS) <a href="#daas" id="daas"></a>
 
@@ -34,10 +34,10 @@
 ## Governance
 
 * [4.1 Executive Team](governance/4.1-executive-team.md)
-* [4.2 Core DAO (Boardroom)](governance/4.1-core-dao-boardroom/README.md)
-  * [4.2.1 Page 5](governance/4.1-core-dao-boardroom/4.1.1-page-5.md)
-* [4.3 Community DAO (Treasury)](governance/4.2-community-dao-treasury/README.md)
-  * [4.3.1 Page 6](governance/4.2-community-dao-treasury/4.2.1-page-6.md)
+* [4.2 Core DAO (Boardroom)](dao/4.1-core-dao-boardroom/README.md)
+  * [4.2.1 Page 5](dao/4.1-core-dao-boardroom/4.1.1-page-5.md)
+* [4.3 Community DAO (Treasury)](dao/4.2-community-dao-treasury/README.md)
+  * [4.3.1 Page 6](dao/4.2-community-dao-treasury/4.2.1-page-6.md)
 
 ## Community
 
