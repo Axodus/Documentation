@@ -1,2 +1,3 @@
-# Mint $token
+# 1.7 Tokenomics
 
+tbd

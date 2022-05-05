@@ -31,12 +31,13 @@
 * [3.2 Balance sheet](accountability/3.2-balance-sheet.md)
 * [3.3 Future releases and obligations](accountability/3.3-future-releases-and-obligations.md)
 
-## DAO
+## Governance
 
-* [4.1 Core DAO (Boardroom)](dao/4.1-core-dao-boardroom/README.md)
-  * [4.1.1 Page 5](dao/4.1-core-dao-boardroom/4.1.1-page-5.md)
-* [4.2 Community DAO (Treasury)](dao/4.2-community-dao-treasury/README.md)
-  * [4.2.1 Page 6](dao/4.2-community-dao-treasury/4.2.1-page-6.md)
+* [4.1 Executive Team](governance/4.1-executive-team.md)
+* [4.2 Core DAO (Boardroom)](governance/4.1-core-dao-boardroom/README.md)
+  * [4.2.1 Page 5](governance/4.1-core-dao-boardroom/4.1.1-page-5.md)
+* [4.3 Community DAO (Treasury)](governance/4.2-community-dao-treasury/README.md)
+  * [4.3.1 Page 6](governance/4.2-community-dao-treasury/4.2.1-page-6.md)
 
 ## Community
 

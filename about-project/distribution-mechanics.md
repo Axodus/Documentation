@@ -1,2 +1,3 @@
-# Distribution mechanics
+# 1.6 Distribution mechanics
 
+tbd
