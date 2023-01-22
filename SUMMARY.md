@@ -16,14 +16,17 @@
 * [1.3 Tokenomics](economic-bases/mint-usdtoken/README.md)
   * [1.3.1 Inflation Control](economic-bases/mint-usdtoken/1.3-inflation-control.md)
   * [1.3.2 Distribution mechanics](economic-bases/mint-usdtoken/distribution-mechanics.md)
-  * [1.3.4 Dividends](economic-bases/mint-usdtoken/1.4-dividends.md)
-* [1.4 Debentures](economic-bases/1.5-debentures.md)
+  * [1.3.3 Dividends](economic-bases/mint-usdtoken/1.4-dividends.md)
+* [1.4 Debentures](economic-bases/1.5-debentures/README.md)
+  * [1.4.1 Debentures convertible into shares](economic-bases/1.5-debentures/1.4.1-debentures-convertible-into-shares.md)
+  * [1.4.2 Non-convertible or simple debentures](economic-bases/1.5-debentures/1.4.2-non-convertible-or-simple-debentures.md)
+  * [1.4.3 Exchangeable debentures](economic-bases/1.5-debentures/1.4.3-exchangeable-debentures.md)
+  * [1.4.4 Incentivized debentures and common debentures](economic-bases/1.5-debentures/1.4.4-incentivized-debentures-and-common-debentures.md)
 
 ## Defi as a Service (DaaS) <a href="#daas" id="daas"></a>
 
 * [2.1 How it works](daas/2.1-how-it-works.md)
 * [2.2 Multi Strategy investments](daas/2.2-multi-strategy-investments.md)
-* [2.3 Profits distribution](daas/2.3-profits-distribution.md)
 
 ## Accountability
 
@@ -33,23 +36,19 @@
 
 ## Governance
 
-* [4.1 Executive Team](governance/4.1-executive-team.md)
-* [4.2 Core DAO (Boardroom)](dao/4.1-core-dao-boardroom/README.md)
-  * [4.2.1 Page 5](dao/4.1-core-dao-boardroom/4.1.1-page-5.md)
-* [4.3 Community DAO (Treasury)](dao/4.2-community-dao-treasury/README.md)
-  * [4.3.1 Page 6](dao/4.2-community-dao-treasury/4.2.1-page-6.md)
-
-## Community
-
-* [5.1 Official community actions](community/5.1-official-community-actions.md)
-* [5.2 Marketing](community/5.2-marketing.md)
-* [5.3 Partnerships](community/5.3-partnerships.md)
+* [4.1 Governance model](governance/4.1-governance-model.md)
+* [4.2 Executive DAO (Core Dev)](governance/4.1-executive-team.md)
+* [4.3 Boardroom Council](governance/4.1-core-dao-boardroom.md)
+* [4.4 Community DAO](dao/4.2-community-dao-treasury/README.md)
+  * [4.4.1 Official community actions](governance/4.2-community-dao-treasury/4.4.1-official-community-actions.md)
+  * [4.4.2 Marketing](governance/4.2-community-dao-treasury/4.4.2-marketing.md)
+  * [4.4.3 Partnerships](governance/4.2-community-dao-treasury/4.4.3-partnerships.md)
 
 ## Team
 
-* [6.1 Core Team](team/6.1-core-team.md)
-* [6.2 Boardroom](team/6.2-boardroom.md)
-* [6.3 Governors elected (Community)](team/6.3-governors-elected-community.md)
+* [5.1 Core Team](team/6.1-core-team.md)
+* [5.2 Boardroom](team/6.2-boardroom.md)
+* [5.3 Governors elected (Community)](team/6.3-governors-elected-community.md)
 
 ## Social Links
 
@@ -61,4 +60,11 @@
 
 ## FAQs
 
-* [Soon](faqs/soon.md)
+* [What is Axodus?](faqs/soon.md)
+* [What is the goal of Axodus?](faqs/what-is-the-goal-of-axodus.md)
+* [How will Axodus make me money?](faqs/how-will-axodus-make-me-money.md)
+* [What makes Axodus unique?](faqs/what-makes-axodus-unique.md)
+* [How will Axodus protect me from inflation?](faqs/how-will-axodus-protect-me-from-inflation.md)
+* [What products/services does Axodus offer?](faqs/what-products-services-does-axodus-offer.md)
+* [Who are the founders of Axodus?](faqs/who-are-the-founders-of-axodus.md)
+* [How can I get started with Axodus?](faqs/how-can-i-get-started-with-axodus.md)
