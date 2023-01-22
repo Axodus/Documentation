@@ -17,7 +17,7 @@
   * [1.3.1 Inflation Control](economic-bases/mint-usdtoken/1.3-inflation-control.md)
   * [1.3.2 Distribution mechanics](economic-bases/mint-usdtoken/distribution-mechanics.md)
   * [1.3.3 Dividends](economic-bases/mint-usdtoken/1.4-dividends.md)
-* [1.4 Debentures](economic-bases/1.5-debentures/README.md)
+* [1.4 Debentures](economic-bases/1.5-debentures.md)
   * [1.4.1 Debentures convertible into shares](economic-bases/1.5-debentures/1.4.1-debentures-convertible-into-shares.md)
   * [1.4.2 Non-convertible or simple debentures](economic-bases/1.5-debentures/1.4.2-non-convertible-or-simple-debentures.md)
   * [1.4.3 Exchangeable debentures](economic-bases/1.5-debentures/1.4.3-exchangeable-debentures.md)
@@ -38,7 +38,7 @@
 
 * [4.1 Governance model](governance/4.1-governance-model.md)
 * [4.2 Executive DAO (Core Dev)](governance/4.1-executive-team.md)
-* [4.3 Boardroom Council](governance/4.1-core-dao-boardroom.md)
+* [4.3 Boardroom Council](dao/4.1-core-dao-boardroom/README.md)
 * [4.4 Community DAO](dao/4.2-community-dao-treasury/README.md)
   * [4.4.1 Official community actions](governance/4.2-community-dao-treasury/4.4.1-official-community-actions.md)
   * [4.4.2 Marketing](governance/4.2-community-dao-treasury/4.4.2-marketing.md)
@@ -58,13 +58,14 @@
 * [Ambassadors Program](social-links/7.4-ambassadors-program.md)
 * [IR - investor relationship](social-links/7.5-ir-investor-relationship.md)
 
-## FAQs
+## miscellaneous&#x20;
 
-* [What is Axodus?](faqs/soon.md)
-* [What is the goal of Axodus?](faqs/what-is-the-goal-of-axodus.md)
-* [How will Axodus make me money?](faqs/how-will-axodus-make-me-money.md)
-* [What makes Axodus unique?](faqs/what-makes-axodus-unique.md)
-* [How will Axodus protect me from inflation?](faqs/how-will-axodus-protect-me-from-inflation.md)
-* [What products/services does Axodus offer?](faqs/what-products-services-does-axodus-offer.md)
-* [Who are the founders of Axodus?](faqs/who-are-the-founders-of-axodus.md)
-* [How can I get started with Axodus?](faqs/how-can-i-get-started-with-axodus.md)
+* [FAQ](miscellaneous/faq/README.md)
+  * [What is Axodus?](miscellaneous/faq/soon.md)
+  * [What is the goal of Axodus?](miscellaneous/faq/what-is-the-goal-of-axodus.md)
+  * [How will Axodus make me money?](miscellaneous/faq/how-will-axodus-make-me-money.md)
+  * [What makes Axodus unique?](miscellaneous/faq/what-makes-axodus-unique.md)
+  * [How will Axodus protect me from inflation?](miscellaneous/faq/how-will-axodus-protect-me-from-inflation.md)
+  * [Who are the founders of Axodus?](miscellaneous/faq/who-are-the-founders-of-axodus.md)
+  * [What products/services does Axodus offer?](miscellaneous/faq/what-products-services-does-axodus-offer.md)
+  * [How can I get started with Axodus?](miscellaneous/faq/how-can-i-get-started-with-axodus.md)
