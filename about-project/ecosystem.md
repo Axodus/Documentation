@@ -24,7 +24,7 @@ Mining rewards from all the emissions are shared only between those who staked B
 **>> Proof of Stake mining (PoS)** - We will invest a significant percentage of our treasury in Validators from the most diverse networks, who are politically comfortable with our philosophy and who can give us political support in the polls when necessary. We also plan, in a second moment, to run our own validators.
 
 * [Axodus Games](https://games.axodus.finance)&#x20;
-  * NFT GameFi - Jogos NFT de jogos com multi estratégia de desenvolvimento e rendimentos play-to-win&#x20;
+  * NFT GameFi - NFT gaming games with multi strategy development and play-to-win yields
   * Game development - NFT game developments with the most varied themes and that can be traded on our exclusive marketplace platform
 * [Axodus Business](https://business.axodus.finance)&#x20;
 
