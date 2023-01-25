@@ -6,6 +6,4 @@ Mauricio Z. - Brazilian, 38 years old, with more than 20 years of experience in 
 
 Alex - Canadian, 24 years old, education in business, experience in the creation of various online businesses, marketing, and sales. Passion for personal finance
 
-Alii - Maldivian, 30 years old, 6 years of experience in mobile and backend development.&#x20;
-
-\
+Alii - Maldivian
