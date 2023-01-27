@@ -4,7 +4,10 @@
 
 ## about project
 
-* [Introduction](about-project/introduction.md)
+* [Introduction](about-project/introduction/README.md)
+  * [What is an ETF](about-project/introduction/what-is-an-etf.md)
+  * [What is ETF DaaS](about-project/introduction/what-is-etf-daas.md)
+  * [What is Blockchain and how it works](about-project/introduction/what-is-blockchain-and-how-it-works.md)
 * [Purpose](about-project/purpose.md)
 * [Ecosystem](about-project/ecosystem.md)
 * [Management](about-project/management.md)
