@@ -15,7 +15,7 @@ Our platform for structured trading operations aims to maximise returns from tre
 * SwingTrading: Our TA professionals with vast knowledge and extensive experience in variable income markets with great accuracy in operations seeking to maximize investor returns.&#x20;
 * [Axodus Mining](https://mining.axodus.finance)
 
-**>> BTC hashrate PoW mining** - In partnership with Minto Finance. Minto is an international team that established a high-tech data center for Bitcoin mining with a capacity of over 40.000 miners. Minto uses the energy of hydroelectric power plants, which do not harm the environment. Minto pays close attention to the energy industry and only uses renewable resources with a neutral carbon footprint, therefore all mined BTC are eco-friendly.
+**>> BTC hashrate PoW mining** - In partnership with Minto Finance. Minto is an international team that established a high-tech data center for Bitcoin mining with a capacity of over 40,000 miners. Minto uses the energy of hydroelectric power plants, which do not harm the environment. Minto pays close attention to the energy industry and only uses renewable resources with a neutral carbon footprint, therefore all mined BTC are eco-friendly.
 
 Minto offers the shortest way to create savings for the common man, for whom traditional mining is already off-limits.
 
@@ -28,7 +28,7 @@ Mining rewards from all the emissions are shared only between those who staked B
   * Game development - NFT game developments with the most varied themes and that can be traded on our exclusive marketplace platform
 * [Axodus Business](https://business.axodus.finance)&#x20;
 
-Tokenization of company ou ​products strategically positioned with the entire Axodus business methodology and who must follow strict security, KYC and governance processes. We develop projects for the most diverse types and segments.
+Tokenization of company or ​products strategically positioned with the entire Axodus business methodology and who must follow strict security, KYC and governance processes. We develop projects for the most diverse types and segments.
 
 * [Axodus Marketplace](https://marketplace.axodus.finance)
 

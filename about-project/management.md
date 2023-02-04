@@ -6,7 +6,7 @@ Tripartite administration:
 
 Executive team: Professionals responsible for the determination and execution of actions. Professionals are under the Boardroom's jurisdiction, which is the one who can hire or fire members, determine salaries and bonuses to be paid to professionals.
 
-Boardroom: Executives entitled to a seat on the board with voting rights. Investors with at least 2.5% of the company are automatically appointed to the boardroom and are subject to a hearing by the other directors for approval.&#x20;
+Boardroom: Executives entitled to a seat on the board with voting rights. Investors with at least 2.5% of the company ( Shares) are automatically appointed to the boardroom and are subject to a hearing by the other directors for approval.&#x20;
 
 Community: The community will hold the treasure key. This means that all actions proposed by the project executives must be voted on by the community and endorsed. The community must elect its executive representatives (DAO) who will be the majority of signatories of the treasury portfolio, which will be decisive for the release or not of the money to be applied/executed by the project administration.
 
