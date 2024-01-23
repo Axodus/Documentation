@@ -7,6 +7,6 @@ We are investment managers who will propose and subsequently perform investments
 \
 
 
-****
+
 
 \

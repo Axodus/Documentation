@@ -7,4 +7,3 @@ By participating in the project you will be directly protected against inflation
 \
 
 
-****
