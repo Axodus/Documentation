@@ -1,7 +1,3 @@
----
-description: Welcome to Axodus Finance
----
-
 # Getting Started
 
 The first DAAS (Defi As A Service) ETF system fully focused on the investor.
