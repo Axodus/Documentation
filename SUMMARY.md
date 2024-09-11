@@ -4,7 +4,7 @@
 
 ## about project
 
-* [Introduction](about-project/introduction.md)
+* [Introduction](<README (1).md>)
   * [What is an ETF](about-project/introduction/what-is-an-etf.md)
   * [What is ETF DaaS](about-project/introduction/what-is-etf-daas.md)
   * [What is Blockchain and how it works](about-project/introduction/what-is-blockchain-and-how-it-works.md)
@@ -45,10 +45,10 @@
 * [4.1 Governance model](governance/4.1-governance-model.md)
 * [4.2 Executive DAO (Core Dev)](governance/4.2-executive-dao-core-dev.md)
 * [4.3 Boardroom Council](dao/4.1-core-dao-boardroom/README.md)
-* [4.4 Community DAO](dao/4.2-community-dao-treasury/README.md)
-  * [4.4.1 Official community actions](governance/4.2-community-dao-treasury/4.4.1-official-community-actions.md)
-  * [4.4.2 Marketing](governance/4.2-community-dao-treasury/4.4.2-marketing.md)
-  * [4.4.3 Partnerships](governance/4.2-community-dao-treasury/4.4.3-partnerships.md)
+* [4.4 Community DAO](governance/4.4-community-dao/README.md)
+  * [4.4.1 Official community actions](governance/4.4-community-dao/4.4.1-official-community-actions.md)
+  * [4.4.2 Marketing](governance/4.4-community-dao/4.4.2-marketing.md)
+  * [4.4.3 Partnerships](governance/4.4-community-dao/4.4.3-partnerships.md)
 
 ## Team
 
