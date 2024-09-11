@@ -4,7 +4,7 @@
 
 ## about project
 
-* [Introduction](about-project/introduction/README.md)
+* [Introduction](about-project/introduction.md)
   * [What is an ETF](about-project/introduction/what-is-an-etf.md)
   * [What is ETF DaaS](about-project/introduction/what-is-etf-daas.md)
   * [What is Blockchain and how it works](about-project/introduction/what-is-blockchain-and-how-it-works.md)
@@ -16,15 +16,18 @@
 
 * [1.1 Presentation](economic-bases/1.1-presentation.md)
 * [1.2 Fundamentals](economic-bases/1.2-fundamentals.md)
-* [1.3 Tokenomics](economic-bases/mint-usdtoken/README.md)
-  * [1.3.1 Inflation Control](economic-bases/mint-usdtoken/1.3-inflation-control.md)
-  * [1.3.2 Distribution mechanics](economic-bases/mint-usdtoken/distribution-mechanics.md)
-  * [1.3.3 Dividends](economic-bases/mint-usdtoken/1.4-dividends.md)
-* [1.4 Debentures](economic-bases/1.5-debentures/README.md)
+* [1.3 Tokenomics](about-project/mint-usdtoken.md)
+  * [1.3.1 Inflation Control](economic-bases/1.3-inflation-control.md)
+  * [1.3.2 Distribution mechanics](about-project/distribution-mechanics.md)
+  * [1.3.3 Dividends](economic-bases/1.4-dividends.md)
+* [1.4 Debentures](economic-bases/1.5-debentures.md)
   * [1.4.1 Debentures convertible into shares](economic-bases/1.5-debentures/1.4.1-debentures-convertible-into-shares.md)
   * [1.4.2 Non-convertible or simple debentures](economic-bases/1.5-debentures/1.4.2-non-convertible-or-simple-debentures.md)
   * [1.4.3 Exchangeable debentures](economic-bases/1.5-debentures/1.4.3-exchangeable-debentures.md)
   * [1.4.4 Incentivized debentures and common debentures](economic-bases/1.5-debentures/1.4.4-incentivized-debentures-and-common-debentures.md)
+* [1.5 Derivatives](economic-bases/1.5-derivatives.md)
+* [1.6 Treasury Investments](economic-bases/1.6-treasury-investments.md)
+* [1.7 Risk & Compliance](economic-bases/1.7-risk-and-compliance.md)
 
 ## Defi as a Service (DaaS) <a href="#daas" id="daas"></a>
 
@@ -40,9 +43,9 @@
 ## Governance
 
 * [4.1 Governance model](governance/4.1-governance-model.md)
-* [4.2 Executive DAO (Core Dev)](governance/4.1-executive-team.md)
-* [4.3 Boardroom Council](governance/4.1-core-dao-boardroom.md)
-* [4.4 Community DAO](governance/4.2-community-dao-treasury/README.md)
+* [4.2 Executive DAO (Core Dev)](governance/4.2-executive-dao-core-dev.md)
+* [4.3 Boardroom Council](dao/4.1-core-dao-boardroom/README.md)
+* [4.4 Community DAO](dao/4.2-community-dao-treasury/README.md)
   * [4.4.1 Official community actions](governance/4.2-community-dao-treasury/4.4.1-official-community-actions.md)
   * [4.4.2 Marketing](governance/4.2-community-dao-treasury/4.4.2-marketing.md)
   * [4.4.3 Partnerships](governance/4.2-community-dao-treasury/4.4.3-partnerships.md)
