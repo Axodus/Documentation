@@ -81,5 +81,5 @@ Avoid no written scope, no change log, claims without evidence, governance-sensi
 - [Security Overview](../security/overview.md)
 - [Governance Alignment](governance-alignment.md)
 - [Tokenomics Overview](../tokenomics/overview.md)
-- [Trading Risk Model](../trading/risk-model.md)
+- [Trading Risk Management](../trading/risk-management.md)
 - [ACS Risk Review](../acs/risk-review.md)

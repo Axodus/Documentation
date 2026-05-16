@@ -162,11 +162,19 @@ export default defineConfig({
         text: 'Trading',
         items: [
           { text: 'Overview', link: '/trading/overview' },
-          { text: 'Internal Infrastructure', link: '/trading/internal-trading-infrastructure' },
+          { text: 'Architecture', link: '/trading/architecture' },
+          { text: 'Internal Trading', link: '/trading/internal-trading' },
           { text: 'User-Facing Strategies', link: '/trading/user-facing-strategies' },
-          { text: 'API Key Security', link: '/trading/api-key-security' },
-          { text: 'Risk Model', link: '/trading/risk-model' },
-          { text: 'Strategy Access', link: '/trading/strategy-access' }
+          { text: 'Strategy Lifecycle', link: '/trading/strategy-lifecycle' },
+          { text: 'Scalper Futures', link: '/trading/scalper-futures' },
+          { text: 'Access Model', link: '/trading/access-model' },
+          { text: 'CEX API Security', link: '/trading/cex-api-security' },
+          { text: 'Risk Management', link: '/trading/risk-management' },
+          { text: 'Governance Alignment', link: '/trading/governance-alignment' },
+          { text: 'Treasury Alignment', link: '/trading/treasury-alignment' },
+          { text: 'ACS and Trinity', link: '/trading/acs-trinity-integration' },
+          { text: 'Reporting and Accountability', link: '/trading/reporting-and-accountability' },
+          { text: 'Compliance and User Disclosures', link: '/trading/compliance-and-user-disclosures' }
         ]
       },
       {
