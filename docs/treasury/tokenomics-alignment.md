@@ -1,49 +1,48 @@
 # Tokenomics Alignment
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Treasury
 
 ---
 
 ## Purpose
 
-Tokenomics creates treasury implications. Rewards, fees, locked balances, marketplace credits, burn mechanics, liquidity allocations, and `$Neurons` utility may create inflows, outflows, liabilities, obligations, or reporting requirements.
+Tokenomics creates treasury implications. Under the current NEURONS model, Treasury alignment focuses on controlled issuance, supply reporting, burn reporting, campaign monitoring, signer authority review, and future cross-chain reconciliation.
 
 ## Scope
 
-This document defines how Treasury reviews tokenomics flows and coordinates with the [Tokenomics](../tokenomics/overview.md), [Academy](../academy/overview.md), and [Marketplace](../marketplace/overview.md) nuclei.
+This document defines how Treasury reviews tokenomics flows and coordinates with the [Tokenomics](../tokenomics/overview.md), [Academy](../academy/overview.md), and [Marketplace](../marketplace/overview.md) nuclei without assuming undefined allocation, staking, marketplace, or locked reward mechanics.
 
 ## Interfaces
 
-- Treasury fee if implemented.
-- Reward budgets for Academy, Marketplace, governance, contributors, or campaigns.
-- Locked rewards that may create internal credit, future claim, or other accounting implications.
-- Marketplace credits that may require settlement rules.
-- Liquidity support if governance and policy approve.
-- Burn mechanics if contract-supported.
-- Token payment revenue if marketplace or business flows support `$Neurons`.
-- Partner reward campaigns that affect treasury budget or reporting.
+- Maximum supply monitoring.
+- PoK-authorized mint event reporting.
+- Campaign issuance monitoring.
+- Burn event reporting.
+- Signer and mint authority review.
+- Cross-chain supply reconciliation if LayerZero support is activated.
+- Future marketplace, governance, staking, or liquidity features if separately defined.
 
 ## Treasury Questions
 
-Treasury review should ask whether rewards are treasury-funded, preallocated, or minted; whether locked rewards create liabilities; whether locked rewards can be spent in Marketplace; who settles value when locked rewards are spent; whether fees are collected to Treasury; whether burns and liquidity fees are reported; whether reward programs are budget-limited; and what governance review is required for tokenomics changes.
+Treasury review should ask whether a tokenomics action changes supply, creates a mint authorization campaign, burns tokens, changes signer authority, changes mint limits, affects reporting, introduces future marketplace settlement, or creates a treasury obligation.
 
 ## Reward Budget Review
 
-Reward budget review is required for new Academy reward programs, high-value Learn-to-Win campaigns, paid course reward rules, partner campaigns, locked reward utility expansion, and marketplace credit conversion.
+Review is required for high-volume PoK issuance campaigns, authorization signer changes, mint limit changes, burn policy changes, cross-chain activation, marketplace payment activation, staking design, DAO treasury design, or public sale planning.
 
-Review fields should include program, source nucleus, expected participants, reward amount or formula, maximum budget, locked or unlocked status, treasury cost, reporting requirement, abuse controls, and governance status.
+Review fields should include program, source nucleus, expected participants, authorized amount or formula, maximum campaign issuance if applicable, signer authority, per-user controls, treasury cost if any, reporting requirement, abuse controls, and governance status.
 
 ## Locked Reward Liability
 
-Locked rewards may be treated as internal utility, future claim, non-transferable points, or treasury-settled credit depending on policy, accounting, legal review, and contract behavior. Axodus must not publish a final liability model before those dependencies are validated.
+Locked rewards, treasury token allocation, treasury fee, liquidity fee, staking rewards, and marketplace settlement are not defined in the current NEURONS model. They must not be treated as active treasury obligations unless contract and policy updates define them.
 
 ## Reporting Fields
 
-Treasury reporting may include reward budget allocated, rewards issued, locked rewards issued, rewards claimed, rewards spent, rewards revoked, token fees collected, treasury fee amount if any, burn amount if any, liquidity allocation if any, marketplace credit settlement, open commitments, governance references, and risk notes.
+Treasury reporting may include maximum supply, current total supply, minted amount, burned amount, remaining supply capacity, mint events by program, signer or role changes, cross-chain reconciliation if enabled, open commitments, governance references, and risk notes.
 
 ## Risk Considerations
 
-Risk includes hidden liabilities, reward budget overrun, marketplace value leakage, contract-policy mismatch, fee claim error, and governance capture through reward distribution.
+Risk includes undocumented treasury obligations, signer compromise, uncontrolled campaign issuance, supply reconciliation errors, contract-policy mismatch, unsupported fee claims, and future liquidity assumptions.

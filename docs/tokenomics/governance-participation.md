@@ -1,53 +1,49 @@
 # Governance Participation
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Future
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics / Governance
 
 ---
 
 ## Purpose
 
-`$Neurons` may support governance participation, but token-based governance must be designed carefully.
+This page clarifies the relationship between NEURONS and governance.
 
-Token ownership does not automatically create governance power unless Governance, contracts, and policy define it.
+## Current Status
 
-## Scope
+DAO governance using NEURONS is a future extension. The current Neurons Token System does not define voting power, proposal rights, delegation, voting weights, quorum, thresholds, DAO treasury allocation, or governance staking.
 
-This page covers possible voting, proposal, signaling, delegation, reputation hybrid, product governance, and locked reward participation models.
+## What NEURONS Provides Today
 
-## Use Cases
+NEURONS provides a controlled ERC-20 token system with capped supply and PoK-authorized minting. Token ownership alone should not be documented as governance authority unless governance contracts and policy define it.
 
-Possible governance use cases include voting, proposal creation, signaling, delegation, reputation or certification hybrids, and product governance if policy defines them.
+## Future Governance Questions
 
-## Eligibility Fields
+Before governance participation is activated, Axodus must define:
 
-Eligibility rules should define governance layer, eligible asset or status, minimum balance if any, whether locked rewards count, certification requirements, DAO status requirements, delegation support, quadratic or sublinear weighting, caps, anti-sybil requirements, contract reference, and governance status.
+- which governance layer uses NEURONS;
+- whether token balance affects voting;
+- whether PoK history affects voting;
+- whether voting is token-weighted, capped, quadratic, reputation-based, or hybrid;
+- proposal thresholds;
+- delegation rules;
+- snapshot rules;
+- sybil resistance;
+- treasury and security constraints.
 
-## Locked Rewards and Governance
+## Documentation Rule
 
-Do not assume locked rewards have governance power.
+Do not claim active DAO governance, voting rights, proposal power, delegation, staking governance, or locked reward voting until implementation and governance policy validate those features.
 
-Possible models include no governance power, signaling only, capped weight, reduced weight, Proof of Knowledge requirement, quadratic weighting, or unlock-before-voting. None should be documented as active unless Governance and contracts confirm it.
+## Risk Considerations
 
-## Governance Layer Mapping
-
-Executive DAO participation may be restricted by role. Boardroom Council participation may use threshold, reputation, or seat models if defined. Community DAO is likely the user-facing participation layer, but voting mechanics must be implemented before being claimed. Local DAOs may have custom rules or plugins that must align with the Axodus Constitution for official integration.
-
-## Risks and Controls
-
-Risks include large holder dominance, reward farming capture, sybil attacks, low-information voting, credential gatekeeping, snapshot mismatch, and governance complexity.
-
-Controls may include clear eligibility rules, snapshot definitions, anti-sybil controls, caps on locked reward weight, Proof of Knowledge for sensitive participation, quadratic or reputation hybrids if approved, delegation transparency, proposal education, execution receipts, and accountability.
-
-## Governance Requirements
-
-Governance review is required to enable `$Neurons` voting power, allow locked rewards to vote, change vote weight formulas, change proposal thresholds, add quadratic voting, add reputation or certification gates, change DAO federation access rules, or change product governance rules.
+Future token governance may introduce capture risk, sybil risk, large-holder dominance, snapshot manipulation, low-information voting, and legal or compliance uncertainty.
 
 ## Related Pages
 
 - [Governance Overview](../governance/overview.md)
-- [DAO Federation](../governance/dao-federation.md)
-- [Proposal Lifecycle](../governance/proposal-lifecycle.md)
-- [Proof of Knowledge](../academy/proof-of-knowledge.md)
+- [NEURONS Token](neurons-token.md)
+- [Utility Model](utility-model.md)
+- [Risk and Compliance](risk-and-compliance.md)

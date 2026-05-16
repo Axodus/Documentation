@@ -1,57 +1,49 @@
-# Locked Rewards
+# Locked Rewards Status
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Needs Review
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics
 
 ---
 
 ## Purpose
 
-Locked rewards are restricted reward balances that may support internal utility without necessarily becoming immediately transferable market assets.
+This page clarifies that locked rewards are not part of the current Neurons Token System design.
 
-## Scope
+## Current Status
 
-Locked rewards are central to making Academy incentives sustainable, but they depend on policy, contract enforcement, accounting rules, Marketplace settlement, and governance decisions.
+The current token model defines controlled minting through Proof-of-Knowledge, not a locked reward balance system.
 
-## Definition
+Locked rewards, internal credits, vesting schedules, unlock conditions, and marketplace-spendable locked balances are **not currently defined** in the NEURONS contract model described here.
 
-Locked rewards are reward balances restricted by contract or accounting from free transfer, with defined internal utility or unlock rules if any.
+## What Is Supported Instead
 
-Locked rewards are not automatically liquid tokens, guaranteed income, guaranteed unlocks, automatic voting power, freely tradable balances, or final features without contract validation.
+The current supported mechanism is authorized minting:
 
-## Statuses
+- eligibility or Proof-of-Knowledge is validated;
+- an EIP-712 authorization is signed;
+- `PoKMinter.sol` enforces amount limits, daily limits, cooldown, nonce, and supply cap;
+- NEURONS is minted if all checks pass.
 
-Locked reward statuses may include `Proposed`, `Issued Locked`, `Internal Use Only`, `Marketplace Eligible`, `Access Eligible`, `Governance Eligible`, `Unlock Pending`, `Unlocked`, `Spent`, `Revoked`, or `Expired`.
+## Future Possibility
 
-## Same-Token Locked Design
+Locked rewards may be reconsidered in the future only if a specific contract or accounting model defines:
 
-Axodus may prefer using `$Neurons` as the core token with locked and unlocked states rather than creating unnecessary token fragmentation. This is a conceptual direction unless contracts and platform accounting validate it.
+- whether locked balances exist;
+- whether they are transferable;
+- whether they can be spent;
+- whether they can vote;
+- whether they unlock;
+- whether they create treasury or accounting obligations.
 
-Possible implementation patterns include locked balance contracts, internal credit accounting, dual-balance token models, voucher or credit models, and soulbound credit or attestations.
+## Documentation Rule
 
-## Unlock Conditions
-
-Possible unlock conditions may include paid course completion, higher Proof of Knowledge, time-based vesting, Marketplace spend conversion, governance-approved milestones, identity or anti-sybil checks if policy requires, or no unlock for internal-use-only rewards.
-
-No unlock condition should be presented as active until policy and contracts confirm it.
-
-## Internal Utility
-
-Locked rewards may support Marketplace, Academy, product access, or governance utility only if policy and contracts allow it. Governance use is especially sensitive because free reward farming can become governance capture.
-
-## Marketplace and Governance Questions
-
-Open questions include who receives value when locked rewards are spent, whether tutors receive unlocked `$Neurons`, whether rewards are burned or transferred, whether refunds are allowed, whether locked rewards can vote, whether caps are needed, and whether Proof of Knowledge is required.
-
-## Risks
-
-Risks include unenforced locks, user confusion, reward farming, Marketplace abuse, governance capture, and contract complexity.
+Do not describe locked rewards as active, spendable, transferable, claimable, or governance-eligible unless contract behavior and policy confirm those properties.
 
 ## Related Pages
 
 - [Reward Policy](reward-policy.md)
 - [Academy Rewards](academy-rewards.md)
-- [Marketplace Utility](marketplace-utility.md)
-- [Governance Participation](governance-participation.md)
+- [Contract Dependencies](contract-dependencies.md)
+- [Risk and Compliance](risk-and-compliance.md)

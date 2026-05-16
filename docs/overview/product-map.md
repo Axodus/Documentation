@@ -23,7 +23,7 @@ This document maps Axodus product and operational nuclei.
 | DaaS / DeFi | DeFi-as-a-Service, ETF-oriented models, staking, liquidity | Draft |
 | Marketplace | Product, course, license, service, and agent distribution | Planned |
 | Treasury | Capital allocation, preservation, reporting, risk limits | Draft |
-| Tokenomics | `$Neurons` utility, rewards, access, governance participation | Draft |
+| Tokenomics | NEURONS controlled issuance, PoK minting, supply cap, burn support, and future utility | Draft |
 | ACS | AI-assisted analysis, monitoring, review, and operations | Draft |
 | Accountability | Public reports, records, release notes, disclosures | Draft |
 | Security | Smart contract, wallet, API, governance, and treasury security | Draft |

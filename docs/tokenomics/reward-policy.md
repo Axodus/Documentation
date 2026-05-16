@@ -1,55 +1,58 @@
 # Reward Policy
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics
 
 ---
 
 ## Purpose
 
-Reward Policy defines who is eligible, what they can receive, when they receive it, whether it is locked, how it can be used, how it is reported, and what happens if abuse is detected.
-
-Rewards must be sustainable, meaningful, abuse-resistant, contract-aware, and governance-aligned.
+Reward Policy defines how NEURONS may be issued through controlled, verifiable eligibility flows.
 
 ## Scope
 
-Reward sources may include Academy, Marketplace, Governance, Business, community contributions, partner programs, and other governance-approved incentive programs.
+The current reward model should be understood as PoK-authorized issuance. It does not define staking rewards, DAO rewards, vesting rewards, or fixed allocation pools.
 
-## Reward Policy Is Not
+## Supported Reward Pattern
 
-Reward Policy is not guaranteed income, unlimited distribution, a marketing promise, automatic unlocked token claim, or substitute for contract validation.
+Rewards can be supported when they are represented as authorized mint events that satisfy the Neurons Token System rules:
 
-## Reward Status Model
+- valid Proof-of-Knowledge or eligibility authorization;
+- EIP-712 signature;
+- ECDSA validation;
+- unused nonce;
+- maximum 100 NEURONS per transaction;
+- maximum 1,000 NEURONS per user per day;
+- 1-hour cooldown;
+- global supply cap availability.
 
-Reward states may include `Proposed`, `Approved`, `Pending`, `Eligible`, `Issued Locked`, `Issued Unlocked`, `Internal Use Only`, `Claimable`, `Claimed`, `Spent`, `Revoked`, `Expired`, `Paused`, or `Needs Review`.
+## Possible Reward Contexts
+
+Possible reward contexts include Academy participation, knowledge validation, campaign participation, controlled airdrops, and other eligibility-based programs.
+
+Each program requires a defined authorization policy and must avoid financial-return language.
 
 ## Reward Policy Object
 
-Reward policies should define source nucleus, program name, reward asset, amount or formula, reward budget, eligibility conditions, required proof, assessment requirements, free or paid context, lock status, internal-use rules, transferability rules, claim conditions, unlock conditions, expiration, anti-abuse rules, governance status, treasury impact, contract reference, reporting requirement, version, effective date, and review date.
+A reward policy should define program name, source application, eligibility criteria, proof requirement, authorized signer role, maximum reward amount, campaign budget if applicable, per-user limit, cooldown applicability, nonce policy, anti-abuse checks, reporting fields, contract reference, and status.
 
-## Eligibility and Budget Controls
+## Not Currently Defined
 
-Eligibility should be clear, measurable, abuse-resistant, and should not imply market value. Possible conditions include course completion, Proof of Knowledge, certification level, Marketplace purchase, governance participation, contribution validation, DAO status, token balance, time or milestone conditions, and anti-sybil validation if policy defines.
-
-Budget controls may include program limits, per-user limits, per-course limits, time-based caps, campaign duration, treasury review thresholds, governance review thresholds, emergency pause conditions, and reporting cadence.
+The current model does not define locked reward balances, automatic vesting, staking emissions, DAO treasury rewards, investor allocations, or public sale emissions.
 
 ## Anti-Abuse Controls
 
-Controls may include Proof of Knowledge, assessment randomization, attempt limits, cooldowns, wallet pattern analysis if policy allows, manual review for high rewards, ACS risk flagging, Marketplace self-dealing detection, governance influence caps, and revocation policy if supported.
+Controls include PoK validation, nonce uniqueness, cooldown, daily limits, per-transaction limits, signer review, campaign monitoring, anomaly detection, and pause controls where implemented.
 
-## Governance Requirements
+## Risk Considerations
 
-Governance review is required for high-value reward programs, reward budget changes, unlock policy changes, locked reward utility changes, locked reward voting eligibility, partner reward campaigns with tokenomics impact, free vs paid reward rule changes, and mint authority or reward contract changes.
-
-## Risks
-
-Risks include reward farming, sybil attacks, budget overrun, unclear unlocks, governance capture, Marketplace abuse, and contract mismatch.
+Risks include reward farming, sybil behavior, signer compromise, off-chain eligibility errors, excessive campaign issuance, user confusion, and contract-policy mismatch.
 
 ## Related Pages
 
+- [PoK Minting](pok-minting.md)
 - [Academy Rewards](academy-rewards.md)
-- [Locked Rewards](locked-rewards.md)
-- [Treasury Alignment](treasury-alignment.md)
+- [Supply and Emission](supply-and-emission.md)
 - [Risk and Compliance](risk-and-compliance.md)

@@ -201,18 +201,21 @@ export default defineConfig({
         text: 'Tokenomics',
         items: [
           { text: 'Overview', link: '/tokenomics/overview' },
-          { text: '$Neurons Token', link: '/tokenomics/neurons-token' },
-          { text: 'Utility Model', link: '/tokenomics/utility-model' },
+          { text: 'NEURONS Token', link: '/tokenomics/neurons-token' },
+          { text: 'Technical Architecture', link: '/tokenomics/technical-architecture' },
           { text: 'Supply and Emission', link: '/tokenomics/supply-and-emission' },
+          { text: 'PoK Minting', link: '/tokenomics/pok-minting' },
+          { text: 'Contract Dependencies', link: '/tokenomics/contract-dependencies' },
+          { text: 'Cross-Chain Readiness', link: '/tokenomics/cross-chain-readiness' },
+          { text: 'Utility Model', link: '/tokenomics/utility-model' },
           { text: 'Reward Policy', link: '/tokenomics/reward-policy' },
-          { text: 'Locked Rewards', link: '/tokenomics/locked-rewards' },
           { text: 'Academy Rewards', link: '/tokenomics/academy-rewards' },
           { text: 'Marketplace Utility', link: '/tokenomics/marketplace-utility' },
           { text: 'Governance Participation', link: '/tokenomics/governance-participation' },
           { text: 'Treasury Alignment', link: '/tokenomics/treasury-alignment' },
-          { text: 'Contract Dependencies', link: '/tokenomics/contract-dependencies' },
-          { text: 'Risk and Compliance', link: '/tokenomics/risk-and-compliance' },
-          { text: 'Reporting and Accountability', link: '/tokenomics/reporting-and-accountability' }
+          { text: 'Locked Rewards Status', link: '/tokenomics/locked-rewards' },
+          { text: 'Reporting and Accountability', link: '/tokenomics/reporting-and-accountability' },
+          { text: 'Risk and Compliance', link: '/tokenomics/risk-and-compliance' }
         ]
       },
       {

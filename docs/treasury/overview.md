@@ -24,7 +24,7 @@ Treasury does not provide investment advice, does not guarantee profit, and must
 - Review treasury risk before material financial actions.
 - Coordinate with Governance for sensitive approvals.
 - Coordinate with Trading for internal strategy allocations, PnL, drawdown, and exposure reporting.
-- Coordinate with Tokenomics for rewards, fees, locked balances, and marketplace credit implications.
+- Coordinate with Tokenomics for controlled issuance, burn reporting, supply monitoring, and future utility implications.
 - Publish or preserve financial accountability records.
 
 ## Ecosystem Interfaces

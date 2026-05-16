@@ -46,7 +46,7 @@ A liquidity policy should define reserve category, target amount or ratio, asset
 
 ## Liquidity Events
 
-Expected outflows include operational payments, marketplace settlements, reward campaigns, and infrastructure invoices. Unexpected outflows include incident response, emergency patches, legal or compliance review, and security recovery. Expected inflows may include Business revenue, Marketplace fees, Academy revenue, implemented treasury fees, or realized trading revenue.
+Expected outflows include operational payments, marketplace settlements, reward campaigns, and infrastructure invoices. Unexpected outflows include incident response, emergency patches, legal or compliance review, and security recovery. Expected inflows may include Business revenue, Marketplace fees, Academy revenue, future token-related fees if implemented, or realized trading revenue.
 
 ## Risk Considerations
 

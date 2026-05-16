@@ -27,7 +27,7 @@ This document defines treasury risk categories, controls, limit types, review re
 - Operational risk from process, infrastructure, configuration, or human failure.
 - Custody risk from wallet, key, multisig, or account failure.
 - Governance risk from bypass, capture, or unclear authority.
-- Tokenomics liability risk from rewards, locked balances, or credits.
+- Tokenomics liability risk from unsupported utility claims, future marketplace credits, or undefined reward obligations.
 - Reporting risk from incomplete or misleading financial status.
 - Regulatory uncertainty around financial structures.
 

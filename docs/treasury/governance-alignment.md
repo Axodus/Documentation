@@ -17,7 +17,7 @@ This document defines governance-sensitive treasury actions, routing levels, app
 
 ## Governance-Sensitive Actions
 
-Governance sensitivity may arise from capital allocation, reserve rebalance, liquidity support, large transfers, payments to vendors or DAOs, exchange or protocol exposure, live trading strategies, leverage, derivatives, reward budgets, treasury fees, locked reward settlement, tutor settlement policy, marketplace credit settlement, multisig signer changes, wallet control changes, emergency recovery, public financial reports, and incident reports.
+Governance sensitivity may arise from capital allocation, reserve rebalance, liquidity support, large transfers, payments to vendors or DAOs, exchange or protocol exposure, live trading strategies, leverage, derivatives, reward budgets, token mint authority changes, token burn policy changes, cross-chain activation, future token fee design, future marketplace settlement, multisig signer changes, wallet control changes, emergency recovery, public financial reports, and incident reports.
 
 ## Routing Levels
 

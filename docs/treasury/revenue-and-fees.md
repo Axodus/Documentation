@@ -21,13 +21,13 @@ This document defines revenue sources, fee types, routing categories, revenue re
 - Marketplace activity, including platform fees, course sales, service sales, royalties, or commissions when policy defines them.
 - Academy activity, including paid courses, certifications, or partner training programs.
 - Trading activity, including realized internal strategy revenue or implemented strategy access products.
-- Tokenomics flows, including treasury fees, operational fees, burn reporting, or liquidity reporting if contracts support them.
+- Tokenomics flows, including mint reporting, burn reporting, and future fee reporting only if contracts support them.
 - DaaS or DeFi services when approved.
 - Grants, sponsorships, or partner contributions.
 
 ## Fee Types
 
-Potential fee types include treasury fees, marketplace fees, operational fees, service fees, subscription fees, royalties, commissions, and performance fees. Performance fees are compliance-sensitive and require product, legal, governance, and policy review before public use.
+Potential fee types include marketplace fees, operational fees, service fees, subscription fees, royalties, commissions, and performance fees. Token-level treasury, liquidity, or burn fees are not defined in the current NEURONS tokenomics model. Performance fees are compliance-sensitive and require product, legal, governance, and policy review before public use.
 
 ## Revenue Routing
 
@@ -39,7 +39,7 @@ A revenue flow record should include source, product or service, public-safe cou
 
 ## Historical Tokenomics Fee References
 
-Historical planning references mention burn, liquidity, and treasury fee values. These are **Needs Review** until validated against production contracts and governance records. They must not be described as active token mechanics without verification.
+Older planning material referenced burn, liquidity, and treasury fee concepts. Those concepts are superseded for the current NEURONS documentation unless a future contract and governance record reintroduce them. They must not be described as active token mechanics.
 
 ## Risk Considerations
 

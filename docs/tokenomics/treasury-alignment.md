@@ -1,47 +1,52 @@
 # Treasury Alignment
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics / Treasury
 
 ---
 
 ## Purpose
 
-Tokenomics must align with Treasury because rewards, fees, liquidity support, Marketplace credits, partner campaigns, burn mechanics, and token utility can affect sustainability, reporting, and governance accountability.
+Tokenomics must align with Treasury because issuance, burn, future marketplace utility, future staking, and future governance features can affect reporting and sustainability.
 
 ## Scope
 
-This page covers treasury-related token flows, treasury questions, review requirements, reporting fields, sustainability controls, and risks.
+This page describes current treasury implications of NEURONS and separates them from future or undefined treasury models.
 
-## Treasury-Related Flows
+## Current Treasury Implications
 
-Treasury-related tokenomics flows may include treasury fees, reward budgets, liquidity support, Marketplace settlement, partner campaigns, operational fees, and burn mechanics if implemented.
+The current model affects Treasury through:
 
-## Treasury Questions
+- maximum supply monitoring;
+- mint event reporting;
+- burn event reporting;
+- campaign or eligibility program tracking;
+- future cross-chain supply reconciliation;
+- operational review of signer and mint authority controls.
 
-Tokenomics work should answer which token flows affect Treasury, whether fees are on-chain or off-chain, whether rewards are distributed from Treasury or preallocated pools, who controls budgets, whether locked rewards are liabilities or credits, whether Marketplace spend creates Treasury cost, how partner rewards are accounted, whether liquidity allocations are reported, what governance approval is required, and what reporting cadence applies.
+## Not Currently Defined
 
-## Review Requirements
+The current model does not define DAO treasury allocation, treasury token percentage, treasury fee, liquidity fee, burn fee, staking rewards, or marketplace settlement funded by Treasury.
 
-Treasury review is required for reward budget changes, high-value campaigns, treasury fee changes, liquidity allocation changes, Marketplace credit settlement, locked reward conversion models, partner reward programs, tokenomics changes affecting revenue or expense, and material burn or fee parameter changes.
+## Treasury Questions for Future Features
+
+Future tokenomics work should answer whether a feature creates treasury inflows, outflows, liabilities, liquidity obligations, reporting duties, or governance approval requirements.
+
+Examples include marketplace payments, public sale, staking, DAO treasury allocation, liquidity support, partner campaigns, and cross-chain liquidity.
 
 ## Reporting Fields
 
-Treasury reporting should include reporting period, reward budget allocated, rewards issued, locked/unlocked rewards issued, rewards claimed, rewards spent, fees collected, burn amount if any, liquidity allocation if any, treasury allocation if any, Marketplace credit settlement if any, governance decisions, open liabilities or commitments, and risk notes.
+Treasury-aligned tokenomics reporting may include total supply, minted amount, burned amount, remaining supply capacity, mint events by program, signer or role change events, cross-chain supply reconciliation if enabled, incidents, and limitations.
 
-## Sustainability Controls
+## Risk Considerations
 
-Controls may include reward budget limits, treasury review thresholds, governance approval for material changes, periodic reward program reviews, locked reward usage limits, Marketplace settlement limits, campaign expiration, reporting cadence, and emergency pauses for abuse or budget risk.
-
-## Risks
-
-Risks include hidden liabilities, reward overcommitment, liquidity assumptions, fee opacity, treasury leakage, and governance bypass.
+Risks include undocumented treasury obligations, unsupported fee claims, supply reconciliation errors, signer compromise, unclear campaign budgets, and future liquidity assumptions.
 
 ## Related Pages
 
 - [Treasury Overview](../treasury/overview.md)
-- [Reward Policy](reward-policy.md)
-- [Marketplace Utility](marketplace-utility.md)
+- [Supply and Emission](supply-and-emission.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
+- [Risk and Compliance](risk-and-compliance.md)

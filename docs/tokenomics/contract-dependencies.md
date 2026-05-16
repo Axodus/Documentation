@@ -1,53 +1,62 @@
 # Contract Dependencies
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics / Security
 
 ---
 
 ## Purpose
 
-Tokenomics is only real when policy and contracts agree. Documentation must not claim behavior that contracts or platform accounting cannot enforce.
+Tokenomics claims must match contract behavior. This page defines the contract dependencies for the current Neurons Token System.
 
-## Scope
+## Core Contracts
 
-This page covers contract dependencies for supply, fees, rewards, locks, claims, Marketplace payments, governance participation, treasury flows, revocation, events, reporting, and security.
+- `Neurons.sol`: ERC-20 token, maximum supply, mint, burn, role controls, and pause controls.
+- `PoKMinter.sol`: controlled minting through Proof-of-Knowledge authorization, limits, and cooldown.
+- `ECDSAVerifier.sol`: EIP-712 / ECDSA verification, domain validation, and nonce protection.
+- `NeuronsOFTAdapter.sol`: planned cross-chain adapter for LayerZero OFT v2.
 
-## Possible Contract Components
+## Required Validation
 
-Possible components include the `$Neurons` token contract, reward controller, locked balance contract, Marketplace payment contract, governance snapshot or voting adapter, treasury controller, access controller, and proof or attestation contract.
+Before public claims are marked `Active`, implementation must validate:
 
-These components are not confirmed production architecture unless implementation validates them.
-
-## Validation Requirements
-
-Validation is required for supply, decimals, minting authority, burn mechanics, fees, destinations, reward issuance, budget controls, locked reward enforcement, internal use, unlock conditions, Marketplace payment assets, settlement, refunds, governance voting power, snapshots, delegation, proposal thresholds, treasury reporting, and admin controls.
+- token name, symbol, decimals, and maximum supply;
+- initial emission configuration;
+- mint role boundaries;
+- PoK authorization flow;
+- EIP-712 domain and typed data;
+- ECDSA signer recovery;
+- nonce consumption;
+- maximum per transaction;
+- maximum per user per day;
+- cooldown;
+- supply cap enforcement;
+- burn behavior;
+- pause behavior;
+- access-control roles;
+- LayerZero adapter behavior if enabled.
 
 ## Contract Behavior Statuses
 
-Use `Verified`, `Planned`, `Draft`, `Experimental`, `Needs Validation`, or `Deprecated` to describe contract-dependent behavior.
+Use `Verified`, `Draft`, `Planned`, `Experimental`, `Needs Review`, or `Deprecated`.
 
-## Documentation Rules
+## Not Currently Defined
 
-Do not describe contract behavior as active without verification. Distinguish testnet from production and proof of concept from final contract. Mention governance control when parameters are mutable. Mention audits or security reviews only if they exist. Do not expose private keys, admin secrets, or sensitive deployment details.
+The current contract model does not define allocation percentages, vesting schedules, staking rewards, DAO treasury rules, liquidity allocation, or public sale distribution.
 
 ## Events and Reporting
 
-Events may support reports if implemented, including reward policy creation, reward issuance, claims, locks, unlocks, spending, revocation, fee collection, burns, treasury allocation, Marketplace payment, governance eligibility updates, and access rule updates.
+Events should support mint reporting, burn reporting, nonce use, authorization failures where appropriate, role changes, pause events, and future cross-chain transfer reporting.
 
 ## Security Requirements
 
-Security expectations include role-based access control, least privilege admin roles, pause controls where needed, governance-controlled parameter changes, test coverage, transfer edge case review, Marketplace refund abuse review, governance snapshot attack review, and security review before production for sensitive contracts.
-
-## Risks
-
-Risks include admin key risk, lock bypass, fee miscalculation, Marketplace exploit, governance snapshot attack, event reporting gaps, and upgrade risk.
+The system should include unit tests, integration tests, replay attack tests, daily limit abuse tests, cooldown tests, supply cap tests, role review, pause testing, and external audit consideration before high-value production use.
 
 ## Related Pages
 
-- [Security Overview](../security/overview.md)
-- [Smart Contract Security](../security/smart-contract-security.md)
-- [Governance Overview](../governance/overview.md)
+- [Technical Architecture](technical-architecture.md)
+- [PoK Minting](pok-minting.md)
+- [Cross-Chain Readiness](cross-chain-readiness.md)
 - [Risk and Compliance](risk-and-compliance.md)

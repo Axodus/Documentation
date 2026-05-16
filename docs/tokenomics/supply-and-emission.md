@@ -1,59 +1,88 @@
 # Supply and Emission
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics
 
 ---
 
 ## Purpose
 
-Supply and emission define how `$Neurons` may exist, be allocated, distributed, rewarded, locked, unlocked, burned, or reported.
+Supply and emission define how NEURONS can be created, limited, burned, and reported.
 
-## Scope
+## Supply
 
-Supply and emission affect sustainability, user expectations, treasury reporting, reward policy, governance participation, and public communication. Public documentation must not claim final supply or fee mechanics unless verified in contracts and governance records.
+| Metric | Value |
+| --- | ---: |
+| Maximum supply | 10,000,000 NEURONS |
+| Decimals | 18 |
+| Initial emission | Defined at deploy or contract configuration |
+| Future emission | Only through authorized minting |
+| Unlimited inflation | No |
+| Supply cap enforcement | Yes |
 
-## Historical Supply Reference
+## Emission Model
 
-Historical or planned references mention a 10,000,000 supply. This is `Needs Contract Validation` and must not be presented as final production supply unless the production contract confirms it.
+NEURONS uses controlled minting. Emission depends on:
 
-## Supply Concepts
+- valid cryptographic authorization;
+- unused nonce;
+- amount within the per-transaction limit;
+- user within the daily limit;
+- cooldown compliance;
+- available supply below the maximum cap.
 
-- Total supply: maximum or current number of tokens defined by contract or policy.
-- Circulating supply: amount available and transferable if applicable.
-- Locked supply: amount restricted by contract, vesting, or internal accounting.
-- Allocated supply: amount assigned to categories or programs.
-- Reward budget: portion available for rewards under policy.
-- Treasury reserve: portion controlled or accounted by Treasury if defined.
-- Burned supply: amount removed if burn mechanics exist.
+## Mint Validity Formula
 
-## Emission Categories
+```txt
+Valid mint =
+valid signature
++ unused nonce
++ amount <= 100 NEURONS
++ user daily minted amount <= 1,000 NEURONS
++ cooldown respected
++ totalSupply + amount <= 10,000,000 NEURONS
+```
 
-Emission or allocation categories may include Academy rewards, Marketplace incentives, governance incentives, community contributions, partner campaigns, treasury or liquidity allocations, and team or ecosystem allocations. Each category requires purpose, status, governance context, budget, and reporting rules.
+## Economic Limits
 
-## Emission Controls
+| Parameter | Value | Economic effect |
+| --- | ---: | --- |
+| Maximum supply | 10,000,000 | Enforces hard scarcity |
+| Maximum per transaction | 100 | Prevents large single-operation mint events |
+| Maximum per user per day | 1,000 | Limits individual daily distribution |
+| Cooldown | 1 hour | Reduces spam and automation abuse |
+| Nonce | Unique per authorization | Prevents proof reuse |
+| PoK authorization | Required | Ties minting to verifiable eligibility |
 
-Controls may include maximum reward budgets, per-user limits, per-course limits, campaign budgets, time-based limits, governance approval for high-value emissions, anti-sybil checks, Proof of Knowledge requirements, treasury impact review, and reporting requirements.
+## Distribution Status
 
-## Minting and Burn Considerations
+The current documentation does not define a fixed distribution among team, investors, advisors, treasury, liquidity, or public sale participants.
 
-Possible models include fixed supply, controlled minting, reward pool distribution, or internal credit accounting. Do not claim a minting model unless verified.
+| Distribution type | Status |
+| --- | --- |
+| PoK-authorized mint | Supported |
+| Campaign distribution | Supported through authorizations |
+| Controlled airdrop | Supported through authorized minting |
+| Participation rewards | Supported by emission logic |
+| Team vesting | Not defined |
+| Public sale | Not defined |
+| Staking rewards | Future |
+| DAO treasury | Future |
+| DEX liquidity | To be defined |
 
-Historical references mention a 0.35% burn fee. This is `Needs Contract Validation`. Burn mechanics must not be presented as price support.
+## Burn
 
-## Governance Requirements
+Burn support is part of the architecture. Burn mechanics must be described as supply reduction behavior only. They must not be framed as price support or token appreciation guarantees.
 
-Governance review is required for material changes to total supply, mint authority, reward budgets, emission schedule, burn parameters, treasury allocation, liquidity allocation, locked reward unlock policy, or partner campaigns above defined thresholds.
+## Risk Considerations
 
-## Risks
-
-Risks include uncontrolled emission, unclear supply, contract-policy mismatch, reward budget exhaustion, sell pressure, governance capture, and final numbers being published before validation.
+Supply risk includes unauthorized mint attempts, replay attacks, excessive issuance, automation abuse, admin compromise, cross-chain accounting errors, and mismatch between documentation and deployed contracts.
 
 ## Related Pages
 
-- [`$Neurons` Token](neurons-token.md)
-- [Reward Policy](reward-policy.md)
-- [Treasury Alignment](treasury-alignment.md)
+- [NEURONS Token](neurons-token.md)
+- [PoK Minting](pok-minting.md)
 - [Contract Dependencies](contract-dependencies.md)
+- [Risk and Compliance](risk-and-compliance.md)

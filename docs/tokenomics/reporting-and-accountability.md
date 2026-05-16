@@ -1,53 +1,49 @@
 # Reporting and Accountability
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics / Accountability
 
 ---
 
 ## Purpose
 
-Tokenomics must be accountable. If rewards are issued, fees collected, tokens burned, locked rewards spent, Marketplace credits used, governance eligibility changed, or treasury allocations made, those flows should be reportable.
+Tokenomics reporting ensures that NEURONS supply, minting, burn, authorization, and future cross-chain behavior remain auditable.
 
 ## Scope
 
-This page defines tokenomics report types, reporting fields, accountability records, cadence, public vs internal reporting, triggers, and reporting risks.
+This page defines reporting for the current controlled issuance model. It does not assume active staking, DAO governance, locked rewards, allocation percentages, or marketplace settlement.
 
 ## Report Types
 
-Reports may include tokenomics reports, reward reports, Academy reward reports, Marketplace token utility reports, treasury tokenomics reports, governance tokenomics records, and contract validation records.
+Reports may include supply reports, mint reports, burn reports, PoK issuance reports, authorization failure summaries, role-change reports, pause incident reports, cross-chain reconciliation reports if enabled, and public correction notices.
 
 ## Reporting Fields
 
-Reports should include reporting period, verified token contract reference if available, supply status, verified total supply if available, circulating supply if available, locked supply if available, reward budget, rewards issued, claimed, locked, unlocked, spent, revoked, or expired, fees collected, burn amount if any, liquidity allocation if any, treasury allocation if any, Marketplace settlement summary, governance changes, risks, limitations, open questions, and next review date.
+Reports should include reporting period, token contract reference if available, maximum supply, current total supply, minted amount, burned amount, remaining mint capacity, mint events by program, per-user limit enforcement summary where appropriate, nonce/replay incidents if any, signer or role changes, pause events, cross-chain supply data if enabled, risks, assumptions, limitations, and next review.
 
 ## Accountability Records
 
-Records may include reward policy records, reward distribution records, fee records, Marketplace settlement records, governance decision records, and contract validation records.
-
-## Cadence
-
-Reporting may be event-based for material governance or contract changes, periodic when reward programs or Marketplace flows are active, campaign-end for reward or BBA programs, incident-based for abuse or mismatch, and quarterly or annual when mature financial reporting exists.
+Records may include mint authorization records, nonce usage records, program eligibility records, signer role records, burn records, pause records, contract validation records, and cross-chain adapter validation records.
 
 ## Public vs Internal Reporting
 
-Public reports should include summaries, major metrics, governance changes, risk notes, no secrets, and no private user data. Internal reports may include detailed wallet or user analysis if policy allows, abuse flags, operational notes, reviewer comments, and sensitive review notes.
+Public reports should summarize supply, issuance, burn, program categories, major incidents, and limitations without exposing private user data or security-sensitive operational details.
 
-Do not expose private data or security-sensitive details in public reports.
+Internal reports may include signer review notes, abuse analysis, detailed authorization logs, and sensitive incident investigation data when policy allows.
 
-## Accountability Triggers
+## Reporting Triggers
 
-Triggers include new reward policy, high-value reward campaign, fee parameter change, treasury fee collection, Marketplace locked reward spend launch, governance participation change, token contract deployment or upgrade, material burn or mint event, reward abuse incident, and public tokenomics claim correction.
+Triggers include contract deployment, mint authority change, material mint campaign, burn event, pause event, replay attempt incident, daily-limit abuse incident, public claim correction, LayerZero adapter testing, and cross-chain activation.
 
-## Risks
+## Risk Considerations
 
-Risks include incomplete reporting, misleading metrics, privacy leaks, unverified numbers, and missing governance links.
+Risks include incomplete supply reporting, unverified contract references, user privacy leaks, missing nonce records, bridge reconciliation errors, and public documentation drifting away from deployed contracts.
 
 ## Related Pages
 
 - [Accountability Overview](../accountability/overview.md)
 - [Treasury Reporting and Accountability](../treasury/reporting-and-accountability.md)
-- [Governance Records](../accountability/governance-records.md)
+- [Contract Dependencies](contract-dependencies.md)
 - [Risk and Compliance](risk-and-compliance.md)

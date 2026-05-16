@@ -1,49 +1,56 @@
 # Risk and Compliance
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Tokenomics
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
+Owner: Axodus Tokenomics / Security
 
 ---
 
 ## Purpose
 
-Tokenomics is one of the most sensitive documentation areas in Axodus. The goal is precise, useful, truthful, and reviewable language.
+Tokenomics documentation must be precise, technically grounded, and careful about legal, financial, and security claims.
 
 This page is not legal advice and does not claim legal compliance or securities classification.
 
 ## Scope
 
-This page defines tokenomics risks, prohibited claims, safe language, controls, review triggers, and incident scenarios.
+This page covers risks in the current Neurons Token System: controlled minting, signature authorization, supply cap enforcement, access control, burn support, and future cross-chain expansion.
 
 ## Risk Categories
 
-Risks include investment language, reward farming, sybil attacks, contract mismatch, governance capture, treasury sustainability issues, Marketplace abuse, unverified token claims, regulatory uncertainty, security risk, and user confusion around locked, unlocked, internal-use, or claimable statuses.
+| Risk | Mitigation |
+| --- | --- |
+| Unauthorized mint | EIP-712 authorization and ECDSA verification |
+| Replay attack | Unique nonce per authorization |
+| Excessive emission | Supply cap and mint limits |
+| Mint spam | 1-hour cooldown |
+| Individual abuse | Daily per-user limit |
+| Operational failure | Pausable controls where implemented |
+| Admin compromise | Access Control and multisig recommended |
+| Cross-chain risk | Modular adapter and LayerZero testing |
+| Multi-chain inflation | Global supply reconciliation |
+| Documentation mismatch | Contract validation before active claims |
 
 ## Prohibited Public Claims
 
-Do not claim guaranteed profit, guaranteed APY, guaranteed yield, passive income, risk-free rewards, guaranteed price appreciation, guaranteed liquidity, audits without real audit, partnerships without confirmation, legal compliance without qualified review, transferable locked rewards without contract support, governance power for locked rewards without policy, or final supply and fees without contract validation.
+Do not claim guaranteed profit, guaranteed APY, guaranteed yield, passive income, risk-free rewards, guaranteed price appreciation, guaranteed liquidity, active staking, active DAO governance, vesting schedules, allocation percentages, audited status, production deployment addresses, legal compliance, or cross-chain activation unless verified.
 
 ## Safe Language
 
-Preferred language includes ecosystem utility, reward eligibility, access mechanism, governance participation if policy supports it, internal use if supported, locked rewards subject to contract rules, planned, draft, active if verified, subject to governance approval, subject to contract validation, and risk disclosure required.
-
-## Risk Controls
-
-Controls include claim review, safe language standards, Proof of Knowledge, limits, locked rewards, ACS abuse detection, manual review, cooldowns, contract validation, status labels, testnet vs production distinction, reward budgets, treasury review, governance thresholds, Marketplace settlement policy, refund policy, self-dealing detection, and governance review.
+Use language such as controlled issuance, fixed maximum supply, PoK-authorized minting, EIP-712 signature authorization, ECDSA verification, nonce protection, cooldown, daily limits, burn support, prepared for cross-chain expansion, planned, future, draft, and subject to validation.
 
 ## Review Triggers
 
-Review is required for public tokenomics page updates, BBA campaigns about `$Neurons`, reward launches, partner rewards, Marketplace token payment launches, locked reward spend, governance participation changes, fee parameter changes, supply or minting claims, audit or security claims, and treasury fee or revenue claims.
+Review is required for supply claims, mint rule changes, signer authority changes, EIP-712 domain changes, burn behavior changes, public reward campaigns, marketplace utility claims, governance utility claims, staking claims, LayerZero adapter activation, audit claims, and deployment references.
 
 ## Incident Scenarios
 
-Potential incidents include false supply claims, reward abuse, Marketplace credit exploits, governance capture attempts, and contract mismatch. Responses should include correction, validation, escalation, investigation, pause if controls exist, and reporting if material.
+Potential incidents include signer compromise, authorization replay attempt, invalid nonce handling, daily limit bypass attempt, cooldown bypass attempt, role misconfiguration, pause failure, bridge accounting mismatch, and public documentation errors.
 
 ## Related Pages
 
+- [Technical Architecture](technical-architecture.md)
+- [PoK Minting](pok-minting.md)
 - [Contract Dependencies](contract-dependencies.md)
-- [Reward Policy](reward-policy.md)
-- [Governance Participation](governance-participation.md)
 - [Reporting and Accountability](reporting-and-accountability.md)

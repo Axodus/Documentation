@@ -1,63 +1,61 @@
 # Utility Model
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
+Status: Draft
+Version: 0.2.0
+Last Updated: 2026-05-16
 Owner: Axodus Tokenomics
 
 ---
 
 ## Purpose
 
-The utility model defines how `$Neurons` may support actions, access, participation, rewards, and coordination inside Axodus.
+The utility model defines current and future uses of NEURONS without overstating features that are not implemented.
 
-Utility must be tied to real ecosystem functions and implementation. It must not be presented as price support.
+## Current Utility
 
-## Utility Categories
+| Utility | Status |
+| --- | --- |
+| ERC-20 transferability | Current |
+| PoK-controlled minting | Current |
+| Burn support | Current / supported |
+| Cross-chain integration | Prepared |
+| Participation incentives through PoK | Possible |
+| DAO governance | Future |
+| Staking | Future |
+| Ecosystem rewards | Future |
+| Payment for services | Future |
+| Multi-chain liquidity | Future |
 
-- Academy: Learn-to-Win rewards, course access or discounts if supported, Proof of Knowledge progression, internal learning balance, and tutor or course incentives.
-- Marketplace: payments, discounts, internal credit usage, locked reward spend, service purchases, or course purchases if implemented.
-- Governance: governance participation, voting eligibility, proposal access, or DAO federation context if defined.
-- Product access: access to Trading tools, courses, Marketplace features, services, or subscriptions if policy defines.
-- Business: service payment, partner programs, or BBA credits if supported.
-- Treasury: reward budget accounting, liquidity context, and treasury fee if implemented.
-- ACS: possible access or consumption metering only if policy defines it.
+## Current Utility Interpretation
 
-## Utility Status Model
+The current utility is technical and issuance-focused: NEURONS can exist as an ERC-20 token, be minted through controlled Proof-of-Knowledge flows, be burned where supported, and later connect to cross-chain infrastructure.
 
-Utility may be marked as `Active`, `Planned`, `Experimental`, `Governance Required`, `Contract Validation Required`, or `Deprecated`.
+## Future Utility Surfaces
+
+Future utilities may include Academy participation incentives, Marketplace or service payments, governance participation, staking, ecosystem rewards, analytics dashboards, and external application integrations.
+
+These utilities require separate product, contract, treasury, governance, and security validation before they can be documented as active.
 
 ## Access Utility
 
-Access utility means a token, balance, certification, DAO status, purchase, or other policy-defined condition may grant access to a product, feature, course, strategy, or service.
-
-Access rules should define the product, required condition, minimum amount if any, whether locked balances count, certification requirements, duration, revocation conditions, governance status, and contract reference.
-
-Do not claim token-gated access or minimum balances unless implementation or approved policy confirms them.
-
-## Reward Utility
-
-Reward utility means `$Neurons` may be earned or assigned through policy-defined learning, participation, contribution, or product flows. Rewards require eligibility, anti-abuse controls, budgets, and contract or accounting implementation.
-
-Rewards are not income promises.
-
-## Marketplace Utility
-
-Marketplace utility may include payment, discounts, internal credits, access unlocks, or loyalty/progression mechanics if implemented. Settlement rules must be defined before Marketplace utility is documented as final.
+Token-gated access, minimum balances, product access, Trading strategy access, or Marketplace privileges must not be claimed as active unless implementation and policy define the rule.
 
 ## Governance Utility
 
-Governance utility may include token-weighted participation, quadratic participation, reputation or certification hybrids, delegation, or proposal access if defined by Governance and implementation.
+DAO governance is a future extension. NEURONS ownership does not currently imply voting rights, proposal rights, delegation, or governance weight unless governance contracts and policy define it.
 
-Locked rewards must not automatically be counted as governance power.
+## Staking Utility
+
+Staking is a future extension. Documentation must not describe staking rewards, staking APY, lock periods, validator economics, or reward rates until a validated staking design exists.
 
 ## Anti-Patterns
 
-Avoid utility as price-support language, access rules without revocation conditions, Marketplace utility without settlement, voting power from free rewards without controls, and token usage everywhere without clear reason.
+Avoid presenting utility as price support, using vague “ecosystem value” claims, implying guaranteed benefits, or treating future features as deployed.
 
 ## Related Pages
 
-- [Academy Rewards](academy-rewards.md)
+- [NEURONS Token](neurons-token.md)
+- [PoK Minting](pok-minting.md)
 - [Marketplace Utility](marketplace-utility.md)
 - [Governance Participation](governance-participation.md)
 - [Risk and Compliance](risk-and-compliance.md)
