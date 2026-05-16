@@ -9,11 +9,13 @@ Owner: ACS Nucleus
 
 ## Purpose
 
-ACS is the AI coordination and automation support layer for Axodus.
+ACS means AI Coordination System. It is the AI-assisted operational intelligence, analysis, orchestration, and support layer for Axodus.
 
 ## Scope
 
-ACS supports request analysis, technical validation, governance pre-screening, risk classification, documentation generation, market analysis, operational monitoring, and agent-assisted decision support.
+ACS supports request analysis, technical validation, governance pre-screening, risk classification, documentation generation, market analysis, operational monitoring, technical scoping, treasury and trading review support, knowledge continuity, and structured handoff to human operators.
+
+ACS is not a chatbot layer, unrestricted autonomous executor, governance replacement, treasury controller, smart contract deployer, security auditor, legal reviewer, or final decision oracle.
 
 ## Responsibilities
 
@@ -22,6 +24,29 @@ ACS supports request analysis, technical validation, governance pre-screening, r
 - Assist Trading and Treasury monitoring.
 - Help with documentation and reporting.
 - Identify risks and incomplete assumptions.
+- Support Academy, Marketplace, Tokenomics, Security, and Accountability review.
+- Preserve operational context through semantic memory.
+- Prepare reviewable outputs for humans and governance.
+
+## Core Architecture
+
+ACS should be understood as a layered system:
+
+- Agent identity layer
+- Orchestration layer
+- Knowledge layer
+- Tool and MCP layer
+- Review layer
+- Execution handoff layer
+- Audit layer
+
+See [ACS Architecture](architecture.md).
+
+## Core Agent Archetypes
+
+- [Morpheus](morpheus.md): strategy, narrative, governance alignment, and ecosystem coherence.
+- [Trinity](trinity.md): trading, operations, execution intelligence, P&L review, and risk monitoring.
+- [Agent Smith](agent-smith.md): adversarial intelligence, stress testing, abuse resistance, and unsafe-access friction.
 
 ## Authority Limit
 
@@ -29,7 +54,17 @@ ACS supports but does not replace governance, human review, security review, tre
 
 ## Related Documents
 
+- [Architecture](architecture.md)
 - [Agent Roles](agent-roles.md)
 - [Runtime](runtime.md)
 - [Governance Alignment](governance-alignment.md)
-- [Risk Review](risk-review.md)
+- [Business Integration](business-integration.md)
+- [Tooling and MCP](tooling-and-mcp.md)
+- [Memory and Knowledge](memory-and-knowledge.md)
+- [Security and Risk](security-and-risk.md)
+- [Human Oversight](human-oversight.md)
+- [Accountability](accountability.md)
+
+## Current Status
+
+ACS is documented as a draft operating model. Any automated tool access, memory updates, governance support, trading analysis, treasury support, or execution handoff must be validated against actual implementation and permissions before being described as active.
