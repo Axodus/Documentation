@@ -15,11 +15,15 @@ This VitePress site is the canonical documentation surface for the rebuilt Axodu
 
 It documents Axodus as a modular DeFi ecosystem with governance, Business, Academy, Trading, Treasury, ACS, Marketplace, Tokenomics, Security, and Accountability nuclei.
 
+The site is derived from the Axodus knowledge layer, repository instructions, and reviewed planning materials. Knowledge packs are internal semantic memory; this site is the human-facing documentation surface.
+
 ## Start Here
 
 - [Ecosystem Overview](overview/ecosystem-overview.md)
 - [Core Principles](overview/core-principles.md)
 - [Product Map](overview/product-map.md)
+- [Constitutional Model](overview/constitutional-model.md)
+- [Terminology](overview/terminology.md)
 - [Governance](governance/overview.md)
 - [Security](security/overview.md)
 - [Glossary](glossary/terms.md)

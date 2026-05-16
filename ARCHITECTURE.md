@@ -19,7 +19,7 @@ It covers the conceptual architecture, major nuclei, governance coordination mod
 
 Axodus is organized as a governed, modular ecosystem. Governance coordinates product access, treasury decisions, constitutional alignment, DAO federation, plugin approvals, risk review, and public accountability.
 
-The ecosystem is composed of nuclei that each own a specific domain:
+The ecosystem is composed of nuclei that each own a specific domain, workflow, governance relation, and risk profile:
 
 - Governance coordinates decisions and execution.
 - Business receives and manages formal requests.
@@ -30,32 +30,50 @@ The ecosystem is composed of nuclei that each own a specific domain:
 - Marketplace commercializes products, courses, licenses, services, and access mechanisms.
 - Tokenomics aligns incentives through `$Neurons` utility, rewards, governance participation, and access logic.
 - Accountability publishes records, reports, release notes, and governance execution evidence.
+- Security protects contracts, wallets, APIs, governance workflows, treasury execution, and disclosure processes.
+
+## Architectural Layers
+
+Axodus should be understood through layered responsibilities:
+
+| Layer | Purpose | Includes |
+| --- | --- | --- |
+| Constitutional | Define values, guardrails, DAO federation rules, and accountability expectations | Constitution, governance principles, federation eligibility, ecosystem constraints |
+| Governance | Coordinate decisions, proposals, approvals, treasury-sensitive actions, and legitimacy | Executive DAO, Boardroom Council, Community DAO, lifecycle, execution records |
+| Operational | Convert requests into structured work and delivery | Business, ACS runtime, service catalog, milestones, change requests |
+| Product | Provide ecosystem-facing and user-facing capabilities | Academy, Trading, Mining, Marketplace, DaaS / DeFi, BBA, Lottery, MCPs |
+| Financial | Manage capital, incentives, rewards, liquidity, and exposure | Treasury, Tokenomics, Rewards, Risk Management, ETF DaaS concepts |
+| Intelligence | Assist analysis, classification, monitoring, and operational reasoning | ACS, Morpheus, Trinity, Agent Smith, future agents, MCP integrations |
+| Accountability | Make decisions, releases, financial activity, and governance outcomes traceable | Reports, release notes, governance records, treasury summaries, incident records |
+| Interface | Expose ecosystem functions to users and operators | Documentation portal, dashboards, governance UI, Marketplace UI, Academy UI, APIs |
 
 ## Conceptual Diagram
 
 ```mermaid
 flowchart TD
-    Core[Axodus Core] --> Governance[Governance Layer]
-    Governance --> Constitution[Constitutional Rules]
-    Governance --> DAOs[DAO Federation]
-    DAOs --> LocalDAOs[Local DAOs]
-    Governance --> Products[Product Nuclei]
-    Products --> Business[Business]
+    Constitution[Constitutional Layer] --> Governance[Governance Layer]
+    Governance --> Federation[DAO Federation]
+    Federation --> LocalDAOs[Local DAOs / Sub-DAOs]
+    Governance --> Operational[Operational Layer]
+    Operational --> Business[Business Runtime]
+    Operational --> ACS[ACS / AI Agents]
+    Governance --> Products[Product Layer]
     Products --> Academy[Academy]
     Products --> Trading[Trading]
+    Products --> Marketplace[Marketplace]
     Products --> DeFi[DaaS / DeFi]
     Products --> Mining[Mining]
-    Products --> Marketplace[Marketplace]
-    Governance --> Treasury[Treasury]
-    Treasury --> Risk[Risk Management]
-    Treasury --> Accountability[Accountability]
-    ACS[ACS / AI Agents] --> Governance
+    Governance --> Financial[Financial Layer]
+    Financial --> Treasury[Treasury]
+    Financial --> Tokenomics[Tokenomics]
+    Financial --> Risk[Risk Management]
+    Governance --> Accountability[Accountability Layer]
+    ACS --> Governance
     ACS --> Business
-    ACS --> Trading
     ACS --> Risk
-    Users[Users / DAOs / Partners] --> Business
-    Users --> Academy
-    Users --> Marketplace
+    Interfaces[Interface Layer] --> Users[Users / DAOs / Partners]
+    Interfaces --> Products
+    Interfaces --> Governance
 ```
 
 ## Governance as Coordination Layer
@@ -81,6 +99,23 @@ Treasury is an institutional capital layer. It requires governance oversight, al
 ## ACS as Operational Intelligence
 
 ACS agents support analysis, validation, risk review, documentation, monitoring, and decision support. They do not replace governance, human review, security review, or final accountability.
+
+## System Boundaries
+
+- Public documentation explains the ecosystem, educates contributors, and avoids private operational secrets.
+- Knowledge packs under `.knowledge` provide semantic memory for agents and documentation generation. They are not public-facing documentation by default.
+- `/Documents` stores planning material, drafts, research, and historical context.
+- Source code repositories remain the source of truth for implementation, contracts, UI, backend, and deployment automation.
+
+## Architecture Invariants
+
+- Every nucleus must have a clear purpose.
+- Every financial flow must include risk context.
+- Every governance action must be traceable.
+- Every Business request must have scope and status.
+- Every agentic output must be reviewable.
+- Every token reward flow must be contract-defined or policy-defined before being described as final.
+- Every public claim must match actual implementation status.
 
 ## Status
 

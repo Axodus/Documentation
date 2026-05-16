@@ -27,7 +27,13 @@ This document maps Axodus product and operational nuclei.
 | ACS | AI-assisted analysis, monitoring, review, and operations | Draft |
 | Accountability | Public reports, records, release notes, disclosures | Draft |
 | Security | Smart contract, wallet, API, governance, and treasury security | Draft |
+| BBA | Blockchain-native business, advertising, campaign, and growth support | Draft |
+| Lottery / Lotto | Gamified Web3 draw mechanics subject to compliance and fairness constraints | Planned |
+| MCPs | Tool and communication integration layer for agents, services, and operational modules | Planned |
+| Compute | Compute and AI infrastructure services, if implemented | Planned |
 
 ## Notes
 
 Statuses are documentation statuses, not deployment confirmations.
+
+Every nucleus should have a clear purpose, dependencies, governance touchpoints, risk considerations, and future work before it is treated as canonical.
