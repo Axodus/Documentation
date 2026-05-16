@@ -19,6 +19,8 @@ It explains the current governance design, layered DAO model, constitutional gov
 
 Governance is the coordination heart of Axodus. It coordinates product access, treasury decisions, DAO federation, constitutional alignment, plugin approvals, public accountability, and strategic execution.
 
+Governance is not a marketing label, a simple voting page, a token price narrative, or an AI autopilot. It is the operating system that connects proposals, review, approval, execution, receipts, and public records.
+
 ## Current Governance Design
 
 The current design uses three primary layers:
@@ -28,6 +30,15 @@ The current design uses three primary layers:
 - Community DAO
 
 These layers may evolve as implementation, legal review, security review, and DAO tooling mature.
+
+## Operating Principles
+
+- Transparency: decisions, execution records, treasury actions, and proposal context must be understandable.
+- Sustainability: governance should prioritize long-term ecosystem health over short-term speculative decisions.
+- Auditability: on-chain records, off-chain context, execution receipts, and rationale should be preserved.
+- Constitutional alignment: local DAOs may have autonomy, but official participation requires shared guardrails.
+- Risk awareness: treasury, smart contract, token, trading, and plugin changes require stronger review.
+- Community legitimacy: public participation should remain visible and resistant to capture where possible.
 
 ## Executive DAO
 
@@ -53,14 +64,22 @@ Local DAOs may operate with autonomy while remaining aligned with constitutional
 
 A typical proposal lifecycle is:
 
-1. Draft
-2. Discussion
-3. Risk classification
-4. Governance requirement check
-5. Vote or approval process
-6. Execution planning
-7. Execution
-8. Receipt, reporting, and archive
+1. Idea or request
+2. Intake
+3. Classification
+4. Context enrichment
+5. ACS-assisted advisory analysis when useful
+6. Human review
+7. Governance routing
+8. Public discussion when required
+9. Vote or approval
+10. Execution preparation
+11. Execution
+12. Execution receipt
+13. Accountability publication
+14. Archive
+
+See [Proposal Lifecycle](docs/governance/proposal-lifecycle.md).
 
 ## Plugin Requests
 
@@ -73,3 +92,7 @@ ACS may support proposal analysis, risk review, technical validation, governance
 ## Accountability
 
 Governance decisions should produce records: proposal context, vote results, execution receipts, off-chain rationale, on-chain references where possible, and follow-up reporting.
+
+## Risk-Based Routing
+
+Not every governance action requires the same process. Low-risk documentation changes may require lightweight review. Medium-risk policy or service changes may require nucleus review and governance visibility. High-risk treasury, smart contract, plugin, federation, token reward, or trading access changes require formal proposals, ACS analysis, layered review, execution receipts, and public accountability. Critical security or treasury emergencies require defined emergency handling and post-action reporting.

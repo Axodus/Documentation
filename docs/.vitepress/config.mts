@@ -34,7 +34,11 @@ export default defineConfig({
           { text: 'Community DAO', link: '/governance/community-dao' },
           { text: 'DAO Federation', link: '/governance/dao-federation' },
           { text: 'Governance Lifecycle', link: '/governance/governance-lifecycle' },
-          { text: 'Plugin Requests', link: '/governance/plugin-requests' }
+          { text: 'Proposal Lifecycle', link: '/governance/proposal-lifecycle' },
+          { text: 'Plugin Requests', link: '/governance/plugin-requests' },
+          { text: 'Execution Receipts', link: '/governance/execution-receipts' },
+          { text: 'Governance Risk', link: '/governance/governance-risk' },
+          { text: 'Accountability', link: '/governance/accountability' }
         ]
       },
       {

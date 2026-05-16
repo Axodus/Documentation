@@ -14,21 +14,30 @@ This document defines the expected lifecycle for Axodus governance work.
 ## Lifecycle
 
 1. Idea or request
-2. Draft proposal
-3. Discussion
-4. Business intake if service or development work is required
+2. Intake
+3. Classification
+4. Context enrichment
 5. ACS-assisted advisory analysis
-6. Risk classification
-7. Treasury and security review when applicable
-8. Vote or approval process
-9. Execution planning
-10. Execution
-11. Reporting
-12. Archive
+6. Human review
+7. Governance routing
+8. Public discussion when required
+9. Vote or approval
+10. Execution preparation
+11. Execution
+12. Execution receipt
+13. Accountability publication
+14. Archive
 
 ## Execution Records
 
 Records should include proposal text, rationale, risk notes, vote outcome, execution owner, execution receipt, and follow-up obligations.
+
+## Risk-Based Routing
+
+- Low risk: documentation updates, non-sensitive copy changes, or minor process clarifications. Review may remain lightweight.
+- Medium risk: service runtime changes, product policy changes, or non-treasury integrations. Review should include the responsible nucleus and governance visibility when policy-related.
+- High risk: treasury actions, smart contract changes, custom governance plugins, token reward policy, or trading strategy access policy. Review should include ACS analysis, human review, governance review, risk disclosure, execution receipt, and accountability output when material.
+- Critical risk: exploit response, treasury emergency, or constitutional exception. Review should include emergency or high-authority review, security review, treasury or Boardroom review, public post-action reporting, and rollback or containment planning.
 
 ## Risk Considerations
 

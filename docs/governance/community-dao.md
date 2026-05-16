@@ -21,11 +21,25 @@ It covers public proposals, feedback, voting, governance participation, and comm
 - Participate in governance decisions.
 - Review product feedback.
 - Support transparency and public accountability.
+- Signal ecosystem preferences.
+- Provide feedback on roadmap and products.
+- Hold leadership and councils accountable.
 
 ## Governance Design
 
 The Community DAO may use mechanisms intended to reduce capture, such as eligibility rules, delegation, reputation, or quadratic voting. These mechanisms are design options until implemented and verified.
 
+## Decision Types
+
+- Community signaling
+- Product feedback
+- Ecosystem preferences
+- Public proposal support
+- Non-critical parameter preferences
+- Education and reputation-related governance
+
 ## Risk Considerations
 
 Community governance should address sybil behavior, voter apathy, bribery, rushed campaigns, misinformation, and unclear proposal scope.
+
+Community voting alone may not be sufficient for treasury, smart contract, plugin, or other security-sensitive actions. Those decisions may require layered review.
