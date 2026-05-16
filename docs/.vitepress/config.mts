@@ -61,7 +61,16 @@ export default defineConfig({
       {
         text: 'Products',
         items: [
-          { text: 'Academy', link: '/academy/overview' },
+          { text: 'Academy Overview', link: '/academy/overview' },
+          { text: 'Learn-to-Win', link: '/academy/learn-to-win' },
+          { text: 'Proof of Knowledge', link: '/academy/proof-of-knowledge' },
+          { text: 'Course Publishing', link: '/academy/course-publishing' },
+          { text: 'Tutor Validation', link: '/academy/tutor-validation' },
+          { text: 'Token Reward Flows', link: '/academy/token-reward-flows' },
+          { text: 'Locked Rewards', link: '/academy/locked-rewards' },
+          { text: 'Marketplace Integration', link: '/academy/marketplace-integration' },
+          { text: 'Governance Alignment', link: '/academy/governance-alignment' },
+          { text: 'Academy Risk', link: '/academy/academy-risk' },
           { text: 'Trading', link: '/trading/overview' },
           { text: 'Mining', link: '/mining/overview' },
           { text: 'DeFi / DaaS', link: '/defi/overview' },
