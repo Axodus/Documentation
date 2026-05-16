@@ -1,13 +1,87 @@
-# Getting Started
+# Axodus Documentation
 
-The first DAAS (Defi As A Service) ETF system fully focused on the investor.
+Status: Draft
+Version: 0.1.0
+Last Updated: 2026-05-16
+Owner: Axodus Core
 
-We are investment managers who will propose and subsequently perform investments in all segments of the Crypto market. We will create various income streams and distribute it to our investors. Together, all leaders, investors, and participants will build a powerful and lasting income system. Our goal may seem a little bold at first, but we understand that.
+---
 
-&#x20;
+## Overview
 
-After all, just a quick Google search on the subject and you will notice the large amount of fraudulent or unsustainable projects. We will operate in full transparency and never leave our investors any doubt about our actions or, more importantly, about the safety or their funds.
+Axodus is a modular DeFi ecosystem designed around sustainable DeFi-as-a-Service infrastructure, ETF-oriented treasury models, governance coordination, education, transparent accountability, and specialized product nuclei.
 
-Our professionals will manage the daily investment activities and our unique multi-DAO system will ensure every investor and participant's best interest is always at the forefront of any decision. It will be through these efforts that we will bring comfort and convenience to our investors. Get ready to enjoy the income from your investment in Axodus.
+Axodus is not a single product, trading bot, token, or DAO interface. It is an ecosystem architecture that connects governance, business workflows, treasury controls, Academy onboarding, Trading infrastructure, Marketplace distribution, ACS / AI agent support, token utility, and public accountability.
 
-\
+## Documentation Status
+
+This documentation is under active reconstruction.
+
+Some legacy materials in this repository were written for an earlier GitBook-based documentation model and may be obsolete. The current documentation prioritizes the updated Axodus architecture and should not be interpreted as a final production specification unless explicitly marked as `Active`.
+
+The new documentation framework is VitePress. Canonical published documentation lives in [`/docs`](docs/index.md).
+
+## Ecosystem Map
+
+- Governance
+- Business
+- Academy
+- Trading
+- Mining
+- Marketplace
+- DaaS / DeFi
+- Treasury
+- Tokenomics
+- ACS / AI Agents
+- Accountability
+- Security
+
+## Start Here
+
+- [Architecture](ARCHITECTURE.md)
+- [Governance](GOVERNANCE.md)
+- [Roadmap](ROADMAP.md)
+- [Security](SECURITY.md)
+- [Contributing](CONTRIBUTING.md)
+- [Glossary](GLOSSARY.md)
+- [Documentation Site](docs/index.md)
+
+## Documentation Sections
+
+- [Ecosystem Overview](docs/overview/ecosystem-overview.md)
+- [Governance](docs/governance/overview.md)
+- [Business](docs/business/overview.md)
+- [Academy](docs/academy/overview.md)
+- [Trading](docs/trading/overview.md)
+- [Treasury](docs/treasury/overview.md)
+- [Tokenomics](docs/tokenomics/overview.md)
+- [ACS / AI Agents](docs/acs/overview.md)
+- [Accountability](docs/accountability/overview.md)
+- [Security](docs/security/overview.md)
+
+## Repository Guidance
+
+- [Documentation Standards](.instructions/DOCUMENTATION_STANDARDS.md)
+- [Content Guardrails](.instructions/CONTENT_GUARDRAILS.md)
+- [Rebuild Protocol](.instructions/REBUILD_PROTOCOL.md)
+- [Review Checklist](.instructions/REVIEW_CHECKLIST.md)
+- [Planning and Historical References](Documents/README.md)
+
+## Important Risk Note
+
+Axodus documentation must not promise guaranteed profit, guaranteed APY, risk-free yield, passive income certainty, or fixed treasury performance. Trading, DeFi, treasury, token, mining, and strategy documents must include appropriate risk context.
+
+## Local Documentation Development
+
+Install dependencies and run VitePress:
+
+```bash
+npm install
+npm run docs:dev
+```
+
+Build the static documentation:
+
+```bash
+npm run docs:build
+```
