@@ -170,6 +170,24 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Tokenomics',
+        items: [
+          { text: 'Overview', link: '/tokenomics/overview' },
+          { text: '$Neurons Token', link: '/tokenomics/neurons-token' },
+          { text: 'Utility Model', link: '/tokenomics/utility-model' },
+          { text: 'Supply and Emission', link: '/tokenomics/supply-and-emission' },
+          { text: 'Reward Policy', link: '/tokenomics/reward-policy' },
+          { text: 'Locked Rewards', link: '/tokenomics/locked-rewards' },
+          { text: 'Academy Rewards', link: '/tokenomics/academy-rewards' },
+          { text: 'Marketplace Utility', link: '/tokenomics/marketplace-utility' },
+          { text: 'Governance Participation', link: '/tokenomics/governance-participation' },
+          { text: 'Treasury Alignment', link: '/tokenomics/treasury-alignment' },
+          { text: 'Contract Dependencies', link: '/tokenomics/contract-dependencies' },
+          { text: 'Risk and Compliance', link: '/tokenomics/risk-and-compliance' },
+          { text: 'Reporting and Accountability', link: '/tokenomics/reporting-and-accountability' }
+        ]
+      },
+      {
         text: 'Institutional Layers',
         items: [
           { text: 'Treasury', link: '/treasury/overview' },
