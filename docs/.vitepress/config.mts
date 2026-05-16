@@ -69,8 +69,15 @@ export default defineConfig({
           { text: 'Runtime', link: '/business/runtime' },
           { text: 'Service Catalog', link: '/business/service-catalog' },
           { text: 'Client Lifecycle', link: '/business/client-lifecycle' },
+          { text: 'Delivery Lifecycle', link: '/business/delivery-lifecycle' },
+          { text: 'Change Requests', link: '/business/change-requests' },
           { text: 'DAO Service Requests', link: '/business/dao-service-requests' },
-          { text: 'BBA', link: '/business/bba' }
+          { text: 'Plugin Requests', link: '/business/plugin-requests' },
+          { text: 'BBA', link: '/business/bba' },
+          { text: 'ACS Integration', link: '/business/acs-integration' },
+          { text: 'Governance Alignment', link: '/business/governance-alignment' },
+          { text: 'Risk and Compliance', link: '/business/risk-and-compliance' },
+          { text: 'Accountability', link: '/business/accountability' }
         ]
       },
       {
