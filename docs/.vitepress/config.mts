@@ -81,6 +81,25 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Runtime',
+        items: [
+          { text: 'Overview', link: '/runtime/overview' },
+          { text: 'Architecture', link: '/runtime/architecture' },
+          { text: 'Request Lifecycle', link: '/runtime/request-lifecycle' },
+          { text: 'Status Model', link: '/runtime/status-model' },
+          { text: 'Validation and Confirmation', link: '/runtime/validation-and-confirmation' },
+          { text: 'Communication Cadence', link: '/runtime/communication-cadence' },
+          { text: 'Milestones', link: '/runtime/milestones' },
+          { text: 'Change Control', link: '/runtime/change-control' },
+          { text: 'Governance Escalation', link: '/runtime/governance-escalation' },
+          { text: 'Execution Handoff', link: '/runtime/execution-handoff' },
+          { text: 'Delays and Blockers', link: '/runtime/delays-and-blockers' },
+          { text: 'Accountability Records', link: '/runtime/accountability-records' },
+          { text: 'Risk Controls', link: '/runtime/risk-controls' },
+          { text: 'ACS Integration', link: '/runtime/acs-integration' }
+        ]
+      },
+      {
         text: 'Academy',
         items: [
           { text: 'Overview', link: '/academy/overview' },
