@@ -57,4 +57,4 @@ Avoid decisions without records, execution without receipts, acceptance without 
 - [Governance Execution Receipts](../governance/execution-receipts.md)
 - [Business Accountability](../business/accountability.md)
 - [ACS Accountability](../acs/accountability.md)
-- [Treasury Reporting](../treasury/reporting.md)
+- [Treasury Reporting and Accountability](../treasury/reporting-and-accountability.md)

@@ -48,6 +48,6 @@ Risks include incomplete reporting, misleading metrics, privacy leaks, unverifie
 ## Related Pages
 
 - [Accountability Overview](../accountability/overview.md)
-- [Treasury Reporting](../treasury/reporting.md)
+- [Treasury Reporting and Accountability](../treasury/reporting-and-accountability.md)
 - [Governance Records](../accountability/governance-records.md)
 - [Risk and Compliance](risk-and-compliance.md)

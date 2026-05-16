@@ -178,6 +178,26 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Treasury',
+        items: [
+          { text: 'Overview', link: '/treasury/overview' },
+          { text: 'Architecture', link: '/treasury/architecture' },
+          { text: 'Treasury Policy', link: '/treasury/treasury-policy' },
+          { text: 'Capital Allocation', link: '/treasury/capital-allocation' },
+          { text: 'Reserves and Liquidity', link: '/treasury/reserves-and-liquidity' },
+          { text: 'Revenue and Fees', link: '/treasury/revenue-and-fees' },
+          { text: 'Risk Management', link: '/treasury/risk-management' },
+          { text: 'Strategy Oversight', link: '/treasury/strategy-oversight' },
+          { text: 'Trading Alignment', link: '/treasury/trading-alignment' },
+          { text: 'Tokenomics Alignment', link: '/treasury/tokenomics-alignment' },
+          { text: 'Governance Alignment', link: '/treasury/governance-alignment' },
+          { text: 'Custody and Security', link: '/treasury/custody-and-security' },
+          { text: 'Reporting and Accountability', link: '/treasury/reporting-and-accountability' },
+          { text: 'ACS and Trinity Integration', link: '/treasury/acs-trinity-integration' },
+          { text: 'Compliance and Disclosures', link: '/treasury/compliance-and-disclosures' }
+        ]
+      },
+      {
         text: 'Tokenomics',
         items: [
           { text: 'Overview', link: '/tokenomics/overview' },
