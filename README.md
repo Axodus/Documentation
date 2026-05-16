@@ -13,6 +13,8 @@ Axodus is a modular DeFi ecosystem designed around sustainable DeFi-as-a-Service
 
 Axodus is not a single product, trading bot, token, or DAO interface. It is an ecosystem architecture that connects governance, business workflows, treasury controls, Academy onboarding, Trading infrastructure, Marketplace distribution, ACS / AI agent support, token utility, and public accountability.
 
+The core documentation treats Axodus as a governed operational network. Product access, treasury activity, token utility, agent-assisted workflows, and DAO federation are expected to remain traceable through governance, risk management, and accountability processes.
+
 ## Documentation Status
 
 This documentation is under active reconstruction.
@@ -36,6 +38,8 @@ The new documentation framework is VitePress. Canonical published documentation 
 - Accountability
 - Security
 
+Additional planned or context-dependent nuclei may include Lottery / Lotto, MCPs, Compute, and BBA / Blockchain Business & Advertising. These should be documented with explicit status labels before being treated as active systems.
+
 ## Start Here
 
 - [Architecture](ARCHITECTURE.md)
@@ -49,6 +53,9 @@ The new documentation framework is VitePress. Canonical published documentation 
 ## Documentation Sections
 
 - [Ecosystem Overview](docs/overview/ecosystem-overview.md)
+- [Core Principles](docs/overview/core-principles.md)
+- [Constitutional Model](docs/overview/constitutional-model.md)
+- [Terminology](docs/overview/terminology.md)
 - [Governance](docs/governance/overview.md)
 - [Business](docs/business/overview.md)
 - [Academy](docs/academy/overview.md)

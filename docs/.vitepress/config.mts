@@ -19,7 +19,9 @@ export default defineConfig({
           { text: 'Start Here', link: '/' },
           { text: 'Ecosystem Overview', link: '/overview/ecosystem-overview' },
           { text: 'Core Principles', link: '/overview/core-principles' },
-          { text: 'Product Map', link: '/overview/product-map' }
+          { text: 'Product Map', link: '/overview/product-map' },
+          { text: 'Constitutional Model', link: '/overview/constitutional-model' },
+          { text: 'Terminology', link: '/overview/terminology' }
         ]
       },
       {
