@@ -20,7 +20,7 @@ This document maps Axodus product and operational nuclei.
 | Academy | Education, onboarding, Proof of Knowledge, token utility | Draft |
 | DEX | Decentralized swaps, liquidity pools, routing, listings, and execution risk controls | Draft |
 | Trading | Internal strategies and user-facing strategy tools | Draft |
-| Mining | Mining product and reward model planning | Planned |
+| Mining | Mining, validation, infrastructure, reward accounting, monitoring, and risk-aware user product models | Draft |
 | DaaS / DeFi | DeFi-as-a-Service, ETF-oriented models, staking, liquidity | Draft |
 | Marketplace | Commercial exchange layer for listings, services, courses, settlement, reputation, and disputes | Draft |
 | Treasury | Capital allocation, preservation, reporting, risk limits | Draft |

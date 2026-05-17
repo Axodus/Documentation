@@ -224,9 +224,27 @@ export default defineConfig({
         text: 'Mining',
         items: [
           { text: 'Overview', link: '/mining/overview' },
-          { text: 'Product Model', link: '/mining/product-model' },
-          { text: 'Reward Model', link: '/mining/reward-model' },
-          { text: 'Risk Considerations', link: '/mining/risk-considerations' }
+          { text: 'Architecture', link: '/mining/architecture' },
+          { text: 'Mining Models', link: '/mining/mining-models' },
+          { text: 'Infrastructure and Operations', link: '/mining/infrastructure-and-operations' },
+          { text: 'Hardware, Energy and Uptime', link: '/mining/hardware-energy-and-uptime' },
+          { text: 'Pools, Hashrate and Network Difficulty', link: '/mining/pools-hashrate-and-network-difficulty' },
+          { text: 'Node and Validator Operations', link: '/mining/node-and-validator-operations' },
+          { text: 'User-Facing Products', link: '/mining/user-facing-products' },
+          { text: 'Rewards and Payouts', link: '/mining/rewards-and-payouts' },
+          { text: 'Costs, Fees and Profitability', link: '/mining/costs-fees-and-profitability' },
+          { text: 'Treasury Alignment', link: '/mining/treasury-alignment' },
+          { text: 'Tokenomics Alignment', link: '/mining/tokenomics-alignment' },
+          { text: 'Governance Alignment', link: '/mining/governance-alignment' },
+          { text: 'Marketplace, Business and BBA Alignment', link: '/mining/marketplace-business-and-bba-alignment' },
+          { text: 'Academy and User Education', link: '/mining/academy-and-user-education' },
+          { text: 'Trading and Risk Hedging', link: '/mining/trading-and-risk-hedging' },
+          { text: 'Security and Custody', link: '/mining/security-and-custody' },
+          { text: 'Monitoring and Telemetry', link: '/mining/monitoring-and-telemetry' },
+          { text: 'ACS Integration', link: '/mining/acs-integration' },
+          { text: 'Reporting and Accountability', link: '/mining/reporting-and-accountability' },
+          { text: 'Sustainability and Responsible Operations', link: '/mining/sustainability-and-responsible-operations' },
+          { text: 'Risk and Compliance', link: '/mining/risk-and-compliance' }
         ]
       },
       {
