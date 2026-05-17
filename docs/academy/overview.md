@@ -15,6 +15,10 @@ Academy is the education, onboarding, certification, and token utility nucleus o
 
 Academy covers Learn-to-Win, Proof of Knowledge, user education, tutor validation, course publishing, reward logic, and Marketplace integration.
 
+## Ecosystem Role
+
+Academy is the education and readiness layer for Axodus. It prepares users, tutors, DAO participants, and partners to understand product access, governance participation, marketplace activity, token utility, and risk before using advanced ecosystem workflows.
+
 ## Overview
 
 Axodus Academy is not only a content library or a generic LMS. It is an ecosystem-level education engine that connects learning, user progression, Proof of Knowledge, Learn-to-Win, certifications, tutor and partner publishing, Marketplace commerce, and `$Neurons` utility.
@@ -49,7 +53,7 @@ Academy should teach users how to safely interact with DeFi, governance, trading
 
 Academy may serve learners, free-course learners, paid-course learners, tutors, companies, partners, DAO participants, marketplace buyers, reviewers, and ACS-assisted workflows.
 
-## Key Workflows
+## Documentation Map
 
 - [Learn-to-Win](learn-to-win.md)
 - [Proof of Knowledge](proof-of-knowledge.md)

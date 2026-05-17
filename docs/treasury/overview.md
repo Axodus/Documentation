@@ -17,6 +17,10 @@ Treasury covers asset and wallet records, reserve policy, liquidity planning, ca
 
 Treasury does not provide investment advice, does not guarantee profit, and must not operate as an uncontrolled trading account or hidden wallet.
 
+## Ecosystem Role
+
+Treasury is the capital stewardship and financial accountability layer for Axodus. It connects reserves, revenue, allocation policy, Trading exposure, DeFi exposure, tokenomics alignment, custody controls, governance approvals, and public reporting.
+
 ## Responsibilities
 
 - Preserve operational runway and ecosystem continuity.
@@ -45,7 +49,7 @@ Treasury connects directly to [Governance](../governance/overview.md), [Trading]
 
 Treasury documentation is under active reconstruction. Policies, thresholds, wallet registries, and reporting cadence remain draft until confirmed through governance, security, and operational review.
 
-## Navigation
+## Documentation Map
 
 - [Architecture](architecture.md)
 - [Treasury Policy](treasury-policy.md)

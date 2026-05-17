@@ -9,7 +9,7 @@ Owner: Axodus Lottery / Tokenomics
 
 ## Purpose
 
-CryptoDraw may create utility surfaces for NEURONS, but lottery tokenomics must be handled carefully.
+CryptoDraw may create utility surfaces for $Neurons, but lottery tokenomics must be handled carefully.
 
 ## Scope
 
@@ -17,13 +17,13 @@ Token use in lottery contexts must not imply investment returns, guaranteed winn
 
 ## Possible Interfaces
 
-NEURONS or other assets may be accepted for tickets if governance, compliance, treasury, and contract policy allow it. Holding or using NEURONS may unlock access or discounts if approved. Promotional rewards may exist only if legal, treasury, and governance policy support them.
+$Neurons or other assets may be accepted for tickets if governance, compliance, treasury, and contract policy allow it. Holding or using $Neurons may unlock access or discounts if approved. Promotional rewards may exist only if legal, treasury, and governance policy support them.
 
 Locked or internal-use rewards must not be assumed valid for lottery entries. Using locked rewards for lottery participation can create compliance and abuse risk.
 
 ## Policy Questions
 
-Questions include whether NEURONS can buy tickets, whether locked rewards can be used, whether free entries are allowed, whether discounts are allowed, whether prizes are paid in NEURONS or another asset, whether fees are collected in NEURONS, and whether participation affects governance power.
+Questions include whether $Neurons can buy tickets, whether locked rewards can be used, whether free entries are allowed, whether discounts are allowed, whether prizes are paid in $Neurons or another asset, whether fees are collected in $Neurons, and whether participation affects governance power.
 
 ## Risk Considerations
 
@@ -32,7 +32,7 @@ Risks include investment framing, reward abuse, misuse of locked rewards, token 
 ## Related Pages
 
 - [Tokenomics Overview](../tokenomics/overview.md)
-- [NEURONS Token](../tokenomics/neurons-token.md)
+- [$Neurons Token](../tokenomics/neurons-token.md)
 - [Treasury and Fees](treasury-and-fees.md)
 - [Risk and Compliance](risk-and-compliance.md)
 

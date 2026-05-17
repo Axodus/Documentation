@@ -27,6 +27,8 @@ The new documentation framework is VitePress. Canonical published documentation 
 
 - Governance
 - Business
+- BBA Agency
+- Runtime
 - Academy
 - DEX
 - Trading
@@ -40,7 +42,7 @@ The new documentation framework is VitePress. Canonical published documentation 
 - Accountability
 - Security
 
-Additional planned or context-dependent nuclei may include MCPs, Compute, and BBA / Blockchain Business & Advertising. These should be documented with explicit status labels before being treated as active systems.
+Additional planned or context-dependent nuclei may include MCPs and Compute. These should be documented with explicit status labels before being treated as active systems.
 
 ## Start Here
 
@@ -60,12 +62,17 @@ Additional planned or context-dependent nuclei may include MCPs, Compute, and BB
 - [Terminology](docs/overview/terminology.md)
 - [Governance](docs/governance/overview.md)
 - [Business](docs/business/overview.md)
+- [BBA Agency](docs/bba-agency/overview.md)
+- [Runtime](docs/runtime/overview.md)
 - [Academy](docs/academy/overview.md)
 - [DEX](docs/dex/overview.md)
+- [DeFi](docs/defi/overview.md)
 - [Trading](docs/trading/overview.md)
 - [Treasury](docs/treasury/overview.md)
 - [Tokenomics](docs/tokenomics/overview.md)
 - [Lottery / CryptoDraw](docs/lottery/overview.md)
+- [Marketplace](docs/marketplace/overview.md)
+- [Mining](docs/mining/overview.md)
 - [ACS / AI Agents](docs/acs/overview.md)
 - [Accountability](docs/accountability/overview.md)
 - [Security](docs/security/overview.md)

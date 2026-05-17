@@ -9,7 +9,7 @@ Owner: Axodus Treasury
 
 ## Purpose
 
-Tokenomics creates treasury implications. Under the current NEURONS model, Treasury alignment focuses on controlled issuance, supply reporting, burn reporting, campaign monitoring, signer authority review, and future cross-chain reconciliation.
+Tokenomics creates treasury implications. Under the current $Neurons model, Treasury alignment focuses on controlled issuance, supply reporting, burn reporting, campaign monitoring, signer authority review, and future cross-chain reconciliation.
 
 ## Scope
 
@@ -37,7 +37,7 @@ Review fields should include program, source nucleus, expected participants, aut
 
 ## Locked Reward Liability
 
-Locked rewards, treasury token allocation, treasury fee, liquidity fee, staking rewards, and marketplace settlement are not defined in the current NEURONS model. They must not be treated as active treasury obligations unless contract and policy updates define them.
+Locked rewards, treasury token allocation, treasury fee, liquidity fee, staking rewards, and marketplace settlement are not defined in the current $Neurons model. They must not be treated as active treasury obligations unless contract and policy updates define them.
 
 ## Reporting Fields
 

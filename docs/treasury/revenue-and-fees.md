@@ -27,7 +27,7 @@ This document defines revenue sources, fee types, routing categories, revenue re
 
 ## Fee Types
 
-Potential fee types include marketplace fees, operational fees, service fees, subscription fees, royalties, commissions, and performance fees. Token-level treasury, liquidity, or burn fees are not defined in the current NEURONS tokenomics model. Performance fees are compliance-sensitive and require product, legal, governance, and policy review before public use.
+Potential fee types include marketplace fees, operational fees, service fees, subscription fees, royalties, commissions, and performance fees. Token-level treasury, liquidity, or burn fees are not defined in the current $Neurons tokenomics model. Performance fees are compliance-sensitive and require product, legal, governance, and policy review before public use.
 
 ## Revenue Routing
 
@@ -39,7 +39,7 @@ A revenue flow record should include source, product or service, public-safe cou
 
 ## Historical Tokenomics Fee References
 
-Older planning material referenced burn, liquidity, and treasury fee concepts. Those concepts are superseded for the current NEURONS documentation unless a future contract and governance record reintroduce them. They must not be described as active token mechanics.
+Older planning material referenced burn, liquidity, and treasury fee concepts. Those concepts are superseded for the current $Neurons documentation unless a future contract and governance record reintroduce them. They must not be described as active token mechanics.
 
 ## Risk Considerations
 

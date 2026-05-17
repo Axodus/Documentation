@@ -15,7 +15,7 @@ This page clarifies that locked rewards are not part of the current Neurons Toke
 
 The current token model defines controlled minting through Proof-of-Knowledge, not a locked reward balance system.
 
-Locked rewards, internal credits, vesting schedules, unlock conditions, and marketplace-spendable locked balances are **not currently defined** in the NEURONS contract model described here.
+Locked rewards, internal credits, vesting schedules, unlock conditions, and marketplace-spendable locked balances are **not currently defined** in the $Neurons contract model described here.
 
 ## What Is Supported Instead
 
@@ -24,7 +24,7 @@ The current supported mechanism is authorized minting:
 - eligibility or Proof-of-Knowledge is validated;
 - an EIP-712 authorization is signed;
 - `PoKMinter.sol` enforces amount limits, daily limits, cooldown, nonce, and supply cap;
-- NEURONS is minted if all checks pass.
+- $Neurons is minted if all checks pass.
 
 ## Future Possibility
 

@@ -3,7 +3,7 @@
 Status: Draft
 Version: 0.1.0
 Last Updated: 2026-05-17
-Owner: Axodus Mining / Marketplace / Business / BBA-Agency
+Owner: Axodus Mining / Marketplace / Business / BBA Agency
 
 ---
 
@@ -35,5 +35,5 @@ Risks include overpromised profit, service scope confusion, seller quality issue
 
 - [Marketplace Overview](../marketplace/overview.md)
 - [Business Overview](../business/overview.md)
-- [BBA-Agency Overview](../bba-agency/overview.md)
+- [BBA Agency Overview](../bba-agency/overview.md)
 

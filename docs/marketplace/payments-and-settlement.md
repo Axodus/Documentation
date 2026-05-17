@@ -13,7 +13,7 @@ Marketplace payments and settlement must be transparent, auditable, and aligned 
 
 ## Payment Methods
 
-Possible payment methods include direct crypto payment, NEURONS payment if approved and implemented, locked credit payment if policy and settlement models exist, fiat or card if a gateway is implemented, DEX swap checkout if implemented, and hybrid payments if supported.
+Possible payment methods include direct crypto payment, $Neurons payment if approved and implemented, locked credit payment if policy and settlement models exist, fiat or card if a gateway is implemented, DEX swap checkout if implemented, and hybrid payments if supported.
 
 ## Settlement Models
 

@@ -19,7 +19,7 @@ Mining is not a guaranteed income platform, passive income guarantee, fixed-yiel
 
 ## Ecosystem Role
 
-Mining connects to [Treasury](../treasury/overview.md) for capital allocation and mined asset accounting, [Governance](../governance/overview.md) for product and payout policy, [Tokenomics](../tokenomics/overview.md) for NEURONS access if approved, [Trading](../trading/overview.md) for mined asset conversion and risk context, [Marketplace](../marketplace/overview.md) and [Business](../business/overview.md) for services, [BBA-Agency](../bba-agency/overview.md) for claim review, [Academy](../academy/overview.md) for user education, [ACS](../acs/overview.md) for advisory support, and [Accountability](../accountability/overview.md) for reports.
+Mining connects to [Treasury](../treasury/overview.md) for capital allocation and mined asset accounting, [Governance](../governance/overview.md) for product and payout policy, [Tokenomics](../tokenomics/overview.md) for $Neurons access if approved, [Trading](../trading/overview.md) for mined asset conversion and risk context, [Marketplace](../marketplace/overview.md) and [Business](../business/overview.md) for services, [BBA Agency](../bba-agency/overview.md) for claim review, [Academy](../academy/overview.md) for user education, [ACS](../acs/overview.md) for advisory support, and [Accountability](../accountability/overview.md) for reports.
 
 ## Documentation Map
 

@@ -17,6 +17,10 @@ Runtime gives work a beginning, middle, and end. It prevents requests from being
 
 Runtime applies across Business, Governance, ACS, Academy, Trading, Treasury, Marketplace, BBA, technical delivery, and documentation. It is not a single UI, informal chat flow, unrestricted automation layer, or replacement for human or governance accountability.
 
+## Ecosystem Role
+
+Runtime is the cross-nucleus operating discipline for Axodus. It standardizes how work is received, classified, reviewed, escalated, approved, executed, changed, delivered, accepted, and archived.
+
 ## Core Model
 
 Runtime uses:
@@ -66,7 +70,7 @@ Runtime uses:
 - Sensitive execution requires review.
 - Material execution requires a receipt.
 
-## Runtime Map
+## Documentation Map
 
 - [Architecture](architecture.md)
 - [Request Lifecycle](request-lifecycle.md)
@@ -81,6 +85,10 @@ Runtime uses:
 - [Accountability Records](accountability-records.md)
 - [Risk Controls](risk-controls.md)
 - [ACS Integration](acs-integration.md)
+
+## Risk Considerations
+
+Runtime failures can create unclear ownership, uncontrolled scope, hidden approvals, missed governance escalation, weak records, delivery disputes, or unsafe execution. Sensitive requests must remain traceable from intake through acceptance or rejection.
 
 ## Current Status
 

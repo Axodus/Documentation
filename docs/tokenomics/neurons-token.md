@@ -1,4 +1,4 @@
-# NEURONS Token
+# $Neurons Token
 
 Status: Draft
 Version: 0.2.0
@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics
 
 ## Purpose
 
-This page defines the current NEURONS token specification and documentation framing.
+This page defines the current $Neurons token specification and documentation framing.
 
 ## Token Specification
 
@@ -19,7 +19,7 @@ This page defines the current NEURONS token specification and documentation fram
 | Symbol | NEURONS |
 | Standard | ERC-20 |
 | Decimals | 18 |
-| Maximum supply | 10,000,000 NEURONS |
+| Maximum supply | 10,000,000 $Neurons |
 | Mint model | Controlled by Proof-of-Knowledge authorization |
 | Burn | Supported by architecture |
 | Cross-chain | Prepared for LayerZero / OFT v2 |
@@ -27,7 +27,7 @@ This page defines the current NEURONS token specification and documentation fram
 
 ## Definition
 
-NEURONS is a utility token system designed for controlled issuance, cryptographic authorization, anti-abuse protections, and future cross-chain growth.
+$Neurons is a utility token system designed for controlled issuance, cryptographic authorization, anti-abuse protections, and future cross-chain growth.
 
 The economic design is based on scarcity and controlled minting rather than a predefined allocation table.
 
@@ -45,13 +45,13 @@ The economic design is based on scarcity and controlled minting rather than a pr
 
 ## Canonical Naming
 
-Use `NEURONS` for the token symbol and `Neurons` for the token name. `$Neurons` may appear in prose where the documentation refers to the ecosystem token concept, but technical specifications should use `NEURONS`.
+Use `$Neurons` as the canonical public documentation name. Use `NEURONS` only when referencing the technical ERC-20 symbol.
 
-## What NEURONS Is Not
+## What $Neurons Is Not
 
-NEURONS must not be presented as an investment contract, guaranteed appreciating asset, guaranteed yield token, fixed-income instrument, risk-free reward, or passive income mechanism.
+$Neurons must not be presented as an investment contract, guaranteed appreciating asset, guaranteed yield token, fixed-income instrument, risk-free reward, or passive income mechanism.
 
-NEURONS documentation must not claim active DAO governance, staking, vesting, liquidity allocation, public sale allocation, or treasury distribution unless those features are implemented and validated.
+$Neurons documentation must not claim active DAO governance, staking, vesting, liquidity allocation, public sale allocation, or treasury distribution unless those features are implemented and validated.
 
 ## Current Status
 

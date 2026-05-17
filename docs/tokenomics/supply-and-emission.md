@@ -9,13 +9,13 @@ Owner: Axodus Tokenomics
 
 ## Purpose
 
-Supply and emission define how NEURONS can be created, limited, burned, and reported.
+Supply and emission define how $Neurons can be created, limited, burned, and reported.
 
 ## Supply
 
 | Metric | Value |
 | --- | ---: |
-| Maximum supply | 10,000,000 NEURONS |
+| Maximum supply | 10,000,000 $Neurons |
 | Decimals | 18 |
 | Initial emission | Defined at deploy or contract configuration |
 | Future emission | Only through authorized minting |
@@ -24,7 +24,7 @@ Supply and emission define how NEURONS can be created, limited, burned, and repo
 
 ## Emission Model
 
-NEURONS uses controlled minting. Emission depends on:
+$Neurons uses controlled minting. Emission depends on:
 
 - valid cryptographic authorization;
 - unused nonce;
@@ -39,10 +39,10 @@ NEURONS uses controlled minting. Emission depends on:
 Valid mint =
 valid signature
 + unused nonce
-+ amount <= 100 NEURONS
-+ user daily minted amount <= 1,000 NEURONS
++ amount <= 100 $Neurons
++ user daily minted amount <= 1,000 $Neurons
 + cooldown respected
-+ totalSupply + amount <= 10,000,000 NEURONS
++ totalSupply + amount <= 10,000,000 $Neurons
 ```
 
 ## Economic Limits
@@ -82,7 +82,7 @@ Supply risk includes unauthorized mint attempts, replay attacks, excessive issua
 
 ## Related Pages
 
-- [NEURONS Token](neurons-token.md)
+- [$Neurons Token](neurons-token.md)
 - [PoK Minting](pok-minting.md)
 - [Contract Dependencies](contract-dependencies.md)
 - [Risk and Compliance](risk-and-compliance.md)

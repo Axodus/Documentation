@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics / Accountability
 
 ## Purpose
 
-Tokenomics reporting ensures that NEURONS supply, minting, burn, authorization, and future cross-chain behavior remain auditable.
+Tokenomics reporting ensures that $Neurons supply, minting, burn, authorization, and future cross-chain behavior remain auditable.
 
 ## Scope
 

@@ -19,7 +19,7 @@ Marketplace is not a guaranteed-income platform, investment marketplace, unrevie
 
 ## Ecosystem Role
 
-Marketplace connects [Academy](../academy/overview.md) courses and tutors, [Business](../business/overview.md) service delivery, [BBA-Agency](../bba-agency/overview.md) positioning and claim review, [Tokenomics](../tokenomics/overview.md) utility if approved, [Treasury](../treasury/overview.md) settlement reporting, [DEX](../dex/overview.md) and [DeFi](../defi/overview.md) integrations if implemented, [Governance](../governance/overview.md) policy controls, [ACS](../acs/overview.md) advisory support, and [Accountability](../accountability/overview.md) records.
+Marketplace connects [Academy](../academy/overview.md) courses and tutors, [Business](../business/overview.md) service delivery, [BBA Agency](../bba-agency/overview.md) positioning and claim review, [Tokenomics](../tokenomics/overview.md) utility if approved, [Treasury](../treasury/overview.md) settlement reporting, [DEX](../dex/overview.md) and [DeFi](../defi/overview.md) integrations if implemented, [Governance](../governance/overview.md) policy controls, [ACS](../acs/overview.md) advisory support, and [Accountability](../accountability/overview.md) records.
 
 ## Documentation Map
 

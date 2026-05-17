@@ -17,6 +17,10 @@ DeFi covers DaaS, ETF-oriented DaaS, protocol integrations, vault-like structure
 
 Axodus DeFi is not a guaranteed-yield platform, passive-income promise, risk-free product, unreviewed farming engine, regulated ETF, or substitute for user education, security review, or governance.
 
+## Ecosystem Role
+
+DeFi is the protocol and DaaS product layer for Axodus. It translates decentralized finance opportunities into scoped, risk-reviewed, governable, educational, and reportable products or services.
+
 ## Operating Direction
 
 DaaS is the primary operating direction: packaging DeFi capabilities into structured, scoped, governable, and reportable services. ETF DaaS is a design direction for diversified, ETF-oriented DeFi exposure, but it must not be described as a regulated ETF unless legal, regulatory, governance, and product structures establish that status.

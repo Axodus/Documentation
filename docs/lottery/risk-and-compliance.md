@@ -29,7 +29,7 @@ Use language such as lottery product concept, planned, draft, testnet only, subj
 
 ## Review Triggers
 
-Required review triggers include public launch, paid ticket sales, prize funding, NEURONS ticket use, free promotional entries, jurisdiction or age access, legal or licensing claims, VRF or audit claims, partnership or public lottery references, marketing campaigns, treasury revenue claims, and fixed prize commitments.
+Required review triggers include public launch, paid ticket sales, prize funding, $Neurons ticket use, free promotional entries, jurisdiction or age access, legal or licensing claims, VRF or audit claims, partnership or public lottery references, marketing campaigns, treasury revenue claims, and fixed prize commitments.
 
 ## Required Reviews
 

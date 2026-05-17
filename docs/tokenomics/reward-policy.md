@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics
 
 ## Purpose
 
-Reward Policy defines how NEURONS may be issued through controlled, verifiable eligibility flows.
+Reward Policy defines how $Neurons may be issued through controlled, verifiable eligibility flows.
 
 ## Scope
 
@@ -23,8 +23,8 @@ Rewards can be supported when they are represented as authorized mint events tha
 - EIP-712 signature;
 - ECDSA validation;
 - unused nonce;
-- maximum 100 NEURONS per transaction;
-- maximum 1,000 NEURONS per user per day;
+- maximum 100 $Neurons per transaction;
+- maximum 1,000 $Neurons per user per day;
 - 1-hour cooldown;
 - global supply cap availability.
 

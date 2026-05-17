@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics / Academy
 
 ## Purpose
 
-PoK minting defines how NEURONS can be issued through Proof-of-Knowledge authorization and cryptographic validation.
+PoK minting defines how $Neurons can be issued through Proof-of-Knowledge authorization and cryptographic validation.
 
 ## Scope
 
@@ -19,16 +19,16 @@ This page covers the `PoKMinter.sol` and `ECDSAVerifier.sol` flow, including EIP
 
 | Rule | Value |
 | --- | ---: |
-| Maximum per transaction | 100 NEURONS |
-| Maximum per user per day | 1,000 NEURONS |
+| Maximum per transaction | 100 $Neurons |
+| Maximum per user per day | 1,000 $Neurons |
 | Cooldown between mints | 1 hour |
-| Global maximum supply | 10,000,000 NEURONS |
+| Global maximum supply | 10,000,000 $Neurons |
 
 ## Effective User Limit
 
 ```txt
-per-transaction limit = 100 NEURONS
-daily user limit = 1,000 NEURONS
+per-transaction limit = 100 $Neurons
+daily user limit = 1,000 $Neurons
 cooldown = 1 mint per hour
 ```
 
@@ -64,7 +64,7 @@ Each authorization uses a nonce. Once consumed, the nonce cannot be reused.
 4. User submits authorization to `PoKMinter.sol`.
 5. `PoKMinter.sol` calls `ECDSAVerifier.sol`.
 6. System validates signature, nonce, transaction limit, daily limit, cooldown, and supply cap.
-7. `Neurons.sol` mints NEURONS to the recipient.
+7. `Neurons.sol` mints $Neurons to the recipient.
 8. The nonce is marked used.
 9. The issuance is recorded on-chain.
 

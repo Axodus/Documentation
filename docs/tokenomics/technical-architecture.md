@@ -26,7 +26,7 @@ The architecture separates the ERC-20 token, mint control, cryptographic verific
 
 ## `Neurons.sol`
 
-`Neurons.sol` is the economic core of the system. It implements ERC-20 behavior, enforces the 10,000,000 NEURONS maximum supply, permits minting only through authorized roles or contracts, supports token burn, and may support emergency pause behavior.
+`Neurons.sol` is the economic core of the system. It implements ERC-20 behavior, enforces the 10,000,000 $Neurons maximum supply, permits minting only through authorized roles or contracts, supports token burn, and may support emergency pause behavior.
 
 ## `PoKMinter.sol`
 
@@ -38,7 +38,7 @@ The architecture separates the ERC-20 token, mint control, cryptographic verific
 
 ## `NeuronsOFTAdapter.sol`
 
-`NeuronsOFTAdapter.sol` prepares NEURONS for future cross-chain operation through LayerZero OFT v2 patterns. The final bridge model may use burn/mint or lock/mint depending on adapter configuration and security review.
+`NeuronsOFTAdapter.sol` prepares $Neurons for future cross-chain operation through LayerZero OFT v2 patterns. The final bridge model may use burn/mint or lock/mint depending on adapter configuration and security review.
 
 ## Architecture Flow
 
@@ -51,7 +51,7 @@ User or application
   -> ECDSAVerifier.sol
   -> validation of signature, nonce, limits, cooldown, and supply cap
   -> Neurons.sol
-  -> NEURONS minted to recipient
+  -> $Neurons minted to recipient
 ```
 
 ## Security Position

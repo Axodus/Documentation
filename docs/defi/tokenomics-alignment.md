@@ -9,17 +9,17 @@ Owner: Axodus DeFi / Tokenomics
 
 ## Purpose
 
-DeFi can create future utility for NEURONS, but tokenomics must not be used to hide risk, imply investment returns, or claim active mechanics that are not implemented.
+DeFi can create future utility for $Neurons, but tokenomics must not be used to hide risk, imply investment returns, or claim active mechanics that are not implemented.
 
 ## Interfaces
 
 Potential interfaces include access eligibility, future staking models, incentives, liquidity programs, fees if implemented, and governance participation if defined by Tokenomics and Governance.
 
-Under the current NEURONS model, DeFi tokenomics claims must respect the controlled issuance model and must not invent active staking rewards, DAO treasury allocation, token fee routing, or fixed distribution mechanics.
+Under the current $Neurons model, DeFi tokenomics claims must respect the controlled issuance model and must not invent active staking rewards, DAO treasury allocation, token fee routing, or fixed distribution mechanics.
 
 ## Policy Questions
 
-Tokenomics review should ask whether NEURONS grants DeFi access, whether rewards or incentives are funded and contract-supported, whether DeFi fees exist, whether incentives affect governance power, whether reward budgets are sustainable, and whether token claims are contract-validated.
+Tokenomics review should ask whether $Neurons grants DeFi access, whether rewards or incentives are funded and contract-supported, whether DeFi fees exist, whether incentives affect governance power, whether reward budgets are sustainable, and whether token claims are contract-validated.
 
 ## Risk Considerations
 
@@ -28,6 +28,6 @@ Risks include reward farming, liquidity mining exits, sell pressure from unlocke
 ## Related Pages
 
 - [Tokenomics Overview](../tokenomics/overview.md)
-- [NEURONS Token](../tokenomics/neurons-token.md)
+- [$Neurons Token](../tokenomics/neurons-token.md)
 - [Risk Management](risk-management.md)
 - [Compliance and Disclosures](compliance-and-disclosures.md)

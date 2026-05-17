@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics
 
 ## Purpose
 
-The utility model defines current and future uses of NEURONS without overstating features that are not implemented.
+The utility model defines current and future uses of $Neurons without overstating features that are not implemented.
 
 ## Current Utility
 
@@ -28,7 +28,7 @@ The utility model defines current and future uses of NEURONS without overstating
 
 ## Current Utility Interpretation
 
-The current utility is technical and issuance-focused: NEURONS can exist as an ERC-20 token, be minted through controlled Proof-of-Knowledge flows, be burned where supported, and later connect to cross-chain infrastructure.
+The current utility is technical and issuance-focused: $Neurons can exist as an ERC-20 token, be minted through controlled Proof-of-Knowledge flows, be burned where supported, and later connect to cross-chain infrastructure.
 
 ## Future Utility Surfaces
 
@@ -42,7 +42,7 @@ Token-gated access, minimum balances, product access, Trading strategy access, o
 
 ## Governance Utility
 
-DAO governance is a future extension. NEURONS ownership does not currently imply voting rights, proposal rights, delegation, or governance weight unless governance contracts and policy define it.
+DAO governance is a future extension. $Neurons ownership does not currently imply voting rights, proposal rights, delegation, or governance weight unless governance contracts and policy define it.
 
 ## Staking Utility
 
@@ -54,7 +54,7 @@ Avoid presenting utility as price support, using vague “ecosystem value” cla
 
 ## Related Pages
 
-- [NEURONS Token](neurons-token.md)
+- [$Neurons Token](neurons-token.md)
 - [PoK Minting](pok-minting.md)
 - [Marketplace Utility](marketplace-utility.md)
 - [Governance Participation](governance-participation.md)

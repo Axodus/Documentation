@@ -17,6 +17,10 @@ Trading may support ecosystem revenue, treasury strategy, market intelligence, p
 
 Trading covers internal strategy research, treasury trading support, CEX API strategy products, user-facing trading tools, strategy access policy, Academy trading education, API key security guidance, performance reporting, risk reporting, ACS/Trinity analysis, and governance review for material trading policies.
 
+## Ecosystem Role
+
+Trading is the market strategy and execution intelligence layer for Axodus. It supports treasury-aware strategy research, risk-reviewed internal operations, user-facing strategy products, Academy education, ACS/Trinity analysis, and accountability reporting.
+
 ## What Trading Is Not
 
 Trading is not financial advice, a guaranteed-profit system, a passive-income promise, a risk-free bot platform, a broker, an exchange, a custody solution by default, unrestricted treasury trading, or a replacement for user judgment.
@@ -51,6 +55,10 @@ Trading connects with Treasury for internal allocations and reporting, Governanc
 - [ACS and Trinity Integration](acs-trinity-integration.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 - [Compliance and User Disclosures](compliance-and-user-disclosures.md)
+
+## Risk Considerations
+
+Trading involves market, liquidity, exchange, API, leverage, automation, operational, strategy, governance, and user-error risk. No Trading page may imply guaranteed profit, guaranteed revenue, risk-free execution, fixed returns, or certainty from bots, signals, backtests, or prior performance.
 
 ## Current Status
 

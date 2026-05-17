@@ -115,14 +115,28 @@ export default defineConfig({
         ]
       },
       {
-        text: 'BBA-Agency',
+        text: 'BBA Agency',
         items: [
           { text: 'Overview', link: '/bba-agency/overview' },
+          { text: 'Positioning', link: '/bba-agency/positioning' },
+          { text: 'Service Model', link: '/bba-agency/service-model' },
+          { text: 'Client Intake', link: '/bba-agency/client-intake' },
+          { text: 'Campaign Lifecycle', link: '/bba-agency/campaign-lifecycle' },
+          { text: 'Claim Review', link: '/bba-agency/claim-review' },
+          { text: 'Growth Operations', link: '/bba-agency/growth-operations' },
+          { text: 'Content and Narrative', link: '/bba-agency/content-and-narrative' },
+          { text: 'Brand Architecture', link: '/bba-agency/brand-architecture' },
+          { text: 'Web3 Launch Support', link: '/bba-agency/web3-launch-support' },
+          { text: 'DAO and Governance Communication', link: '/bba-agency/dao-and-governance-communication' },
+          { text: 'Academy and Marketplace Alignment', link: '/bba-agency/academy-and-marketplace-alignment' },
+          { text: 'ACS Agent Workflow', link: '/bba-agency/acs-agent-workflow' },
+          { text: 'Reporting and Accountability', link: '/bba-agency/reporting-and-accountability' },
+          { text: 'Risk and Compliance', link: '/bba-agency/risk-and-compliance' },
           { text: 'Business BBA', link: '/business/bba' }
         ]
       },
       {
-        text: 'Defi',
+        text: 'DeFi',
         items: [
           { text: 'DeFi Overview', link: '/defi/overview' },
           { text: 'Architecture', link: '/defi/architecture' },
@@ -145,7 +159,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Dex',
+        text: 'DEX',
         items: [
           { text: 'Overview', link: '/dex/overview' },
           { text: 'Architecture', link: '/dex/architecture' },
@@ -290,7 +304,7 @@ export default defineConfig({
         text: 'Tokenomics',
         items: [
           { text: 'Overview', link: '/tokenomics/overview' },
-          { text: 'NEURONS Token', link: '/tokenomics/neurons-token' },
+          { text: '$Neurons Token', link: '/tokenomics/neurons-token' },
           { text: 'Technical Architecture', link: '/tokenomics/technical-architecture' },
           { text: 'Supply and Emission', link: '/tokenomics/supply-and-emission' },
           { text: 'PoK Minting', link: '/tokenomics/pok-minting' },

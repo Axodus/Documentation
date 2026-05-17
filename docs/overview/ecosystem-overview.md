@@ -31,10 +31,14 @@ The ecosystem should reduce speculative opacity, educate users before advanced f
 
 - [Governance](../governance/overview.md)
 - [Business](../business/overview.md)
+- [BBA Agency](../bba-agency/overview.md)
+- [Runtime](../runtime/overview.md)
 - [Academy](../academy/overview.md)
 - [Trading](../trading/overview.md)
 - [Mining](../mining/overview.md)
 - [DaaS / DeFi](../defi/overview.md)
+- [DEX](../dex/overview.md)
+- [Lottery / CryptoDraw](../lottery/overview.md)
 - [Marketplace](../marketplace/overview.md)
 - [Treasury](../treasury/overview.md)
 - [Tokenomics](../tokenomics/overview.md)
@@ -42,7 +46,7 @@ The ecosystem should reduce speculative opacity, educate users before advanced f
 - [Accountability](../accountability/overview.md)
 - [Security](../security/overview.md)
 
-Additional planned or contextual nuclei may include Lottery / Lotto, MCPs, Compute, and BBA / Blockchain Business & Advertising. These require explicit status labels before being treated as active systems.
+Additional planned or contextual nuclei may include MCPs and Compute. These require explicit status labels before being treated as active systems.
 
 ## Core Flow
 

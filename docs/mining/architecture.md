@@ -20,7 +20,7 @@ Axodus Mining architecture separates infrastructure, networks, pools, validators
 - Reward accounting layer: mined rewards, validator rewards, fees, costs, net estimates, and payout liabilities.
 - User product layer: subscriptions, user allocations, dashboards, payout rules, eligibility, and disclosures.
 - Treasury layer: capital allocation, custody, conversion policy, reserves, and reporting.
-- Tokenomics layer: NEURONS access, discounts, product gating, and fee policy if approved.
+- Tokenomics layer: $Neurons access, discounts, product gating, and fee policy if approved.
 - Governance layer: mining policy, product approval, payout policy, risk limits, and emergency pause.
 - Security and custody layer: wallets, pool credentials, API keys, payout addresses, hardware access, and dashboards.
 - Monitoring and telemetry layer: hashrate, uptime, temperature, power, pool status, rewards, and alerts.

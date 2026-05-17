@@ -15,6 +15,10 @@ Governance is the core coordination system for Axodus.
 
 This overview covers the layered DAO model, Constitution, federation, proposal lifecycle, plugin model, Business relationship, ACS relationship, Treasury relationship, and Accountability obligations.
 
+## Ecosystem Role
+
+Governance is the coordination heart of Axodus. It aligns product access, constitutional constraints, DAO federation, treasury-sensitive decisions, plugin approvals, roadmap direction, and public accountability across the ecosystem.
+
 ## Overview
 
 Axodus Governance coordinates strategic, technical, financial, and community decisions across the ecosystem through a layered DAO model, constitutional guardrails, federated DAO participation, and accountable execution flows.
@@ -32,20 +36,20 @@ Governance is required because Axodus is not a single product. It contains multi
 - Route proposals to the correct review layer.
 - Trigger public accountability for material decisions.
 
-## Key Workflows
+## Documentation Map
 
 - [Proposal lifecycle](proposal-lifecycle.md)
 - Risk classification and routing
 - Vote or approval process
 - Execution planning
-- [Execution receipt](execution-receipts.md)
+- [Execution receipts](execution-receipts.md)
 - [Governance accountability](accountability.md)
 
 ## Dependencies
 
 Governance depends on Business for formal intake, Treasury for capital impact analysis, ACS for advisory review, Security for sensitive execution, and Accountability for records.
 
-## Related Documents
+## Governance Documents
 
 - [Constitutional Governance](constitutional-governance.md)
 - [Executive DAO](executive-dao.md)

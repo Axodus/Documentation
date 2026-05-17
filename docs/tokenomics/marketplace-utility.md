@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics / Marketplace
 
 ## Purpose
 
-Marketplace utility describes possible future uses of NEURONS in marketplace or service contexts.
+Marketplace utility describes possible future uses of $Neurons in marketplace or service contexts.
 
 ## Scope
 
@@ -17,7 +17,7 @@ The current Neurons Token System does not define active marketplace payments, ma
 
 ## Current Status
 
-Marketplace utility is future or conditional. NEURONS is technically ERC-20 compatible and could be integrated into marketplace flows later, but payment and settlement rules are not defined in the current tokenomics model.
+Marketplace utility is future or conditional. $Neurons is technically ERC-20 compatible and could be integrated into marketplace flows later, but payment and settlement rules are not defined in the current tokenomics model.
 
 ## Possible Future Models
 
@@ -39,7 +39,7 @@ Before activation, Marketplace documentation must define accepted assets, seller
 
 ## Not Currently Defined
 
-Locked reward spending, seller settlement using locked balances, marketplace credit conversion, and burn-on-spend are not defined in the current NEURONS model.
+Locked reward spending, seller settlement using locked balances, marketplace credit conversion, and burn-on-spend are not defined in the current $Neurons model.
 
 ## Risk Considerations
 

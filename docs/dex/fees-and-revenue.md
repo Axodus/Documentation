@@ -23,7 +23,7 @@ Fee records should include fee type, scope, rate or formula, asset, amount, dest
 
 ## Governance Requirements
 
-Governance is required for changing swap fees, protocol fees, treasury fees, router fees, fee destinations, liquidity incentives, fees for NEURONS-related pools, or public fee claims.
+Governance is required for changing swap fees, protocol fees, treasury fees, router fees, fee destinations, liquidity incentives, fees for $Neurons-related pools, or public fee claims.
 
 ## Reporting
 

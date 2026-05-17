@@ -19,7 +19,7 @@ CryptoDraw is a lottery product concept. It is not a guaranteed winning system, 
 
 ## Ecosystem Role
 
-Lottery connects to [Governance](../governance/overview.md) for game parameters and activation, [Treasury](../treasury/overview.md) for prize and fee accounting, [Tokenomics](../tokenomics/overview.md) for any NEURONS-related policy, [Academy](../academy/overview.md) for user education, [BBA-Agency](../bba-agency/overview.md) for careful public communication, [ACS](../acs/overview.md) for advisory review, [Security](../security/overview.md) for contract and runtime review, and [Accountability](../accountability/overview.md) for draw records.
+Lottery connects to [Governance](../governance/overview.md) for game parameters and activation, [Treasury](../treasury/overview.md) for prize and fee accounting, [Tokenomics](../tokenomics/overview.md) for any $Neurons-related policy, [Academy](../academy/overview.md) for user education, [BBA Agency](../bba-agency/overview.md) for careful public communication, [ACS](../acs/overview.md) for advisory review, [Security](../security/overview.md) for contract and runtime review, and [Accountability](../accountability/overview.md) for draw records.
 
 ## Current Status
 

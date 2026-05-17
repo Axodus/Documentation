@@ -13,7 +13,7 @@ This VitePress site is the canonical documentation surface for the rebuilt Axodu
 
 ## Scope
 
-It documents Axodus as a modular DeFi ecosystem with Governance, Business, Academy, DEX, Trading, Treasury, Lottery, ACS, Marketplace, Tokenomics, Security, and Accountability nuclei.
+It documents Axodus as a modular DeFi ecosystem with Governance, Business, BBA Agency, Runtime, Academy, DEX, DeFi, Trading, Treasury, Lottery, ACS, Marketplace, Mining, Tokenomics, Security, and Accountability nuclei and support layers.
 
 The site is derived from the Axodus knowledge layer, repository instructions, and reviewed planning materials. Knowledge packs are internal semantic memory; this site is the human-facing documentation surface.
 
@@ -25,10 +25,20 @@ The site is derived from the Axodus knowledge layer, repository instructions, an
 - [Constitutional Model](overview/constitutional-model.md)
 - [Terminology](overview/terminology.md)
 - [Governance](governance/overview.md)
+- [Business](business/overview.md)
+- [BBA Agency](bba-agency/overview.md)
+- [Runtime](runtime/overview.md)
+- [Academy](academy/overview.md)
 - [DEX](dex/overview.md)
+- [DeFi](defi/overview.md)
+- [Trading](trading/overview.md)
+- [Treasury](treasury/overview.md)
+- [Tokenomics](tokenomics/overview.md)
 - [Lottery / CryptoDraw](lottery/overview.md)
 - [Marketplace](marketplace/overview.md)
 - [Mining](mining/overview.md)
+- [ACS](acs/overview.md)
+- [Accountability](accountability/overview.md)
 - [Security](security/overview.md)
 - [Glossary](glossary/terms.md)
 

@@ -3,7 +3,7 @@
 Status: Draft
 Version: 0.1.0
 Last Updated: 2026-05-17
-Owner: Axodus Marketplace / Business / BBA-Agency
+Owner: Axodus Marketplace / Business / BBA Agency
 
 ---
 
@@ -37,6 +37,6 @@ Triggers include guaranteed business results, ROI, marketing performance, offici
 ## Related Pages
 
 - [Business Overview](../business/overview.md)
-- [BBA-Agency Overview](../bba-agency/overview.md)
+- [BBA Agency Overview](../bba-agency/overview.md)
 - [Runtime Overview](../runtime/overview.md)
 

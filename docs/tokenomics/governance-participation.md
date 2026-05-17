@@ -9,21 +9,21 @@ Owner: Axodus Tokenomics / Governance
 
 ## Purpose
 
-This page clarifies the relationship between NEURONS and governance.
+This page clarifies the relationship between $Neurons and governance.
 
 ## Current Status
 
-DAO governance using NEURONS is a future extension. The current Neurons Token System does not define voting power, proposal rights, delegation, voting weights, quorum, thresholds, DAO treasury allocation, or governance staking.
+DAO governance using $Neurons is a future extension. The current Neurons Token System does not define voting power, proposal rights, delegation, voting weights, quorum, thresholds, DAO treasury allocation, or governance staking.
 
-## What NEURONS Provides Today
+## What $Neurons Provides Today
 
-NEURONS provides a controlled ERC-20 token system with capped supply and PoK-authorized minting. Token ownership alone should not be documented as governance authority unless governance contracts and policy define it.
+$Neurons provides a controlled ERC-20 token system with capped supply and PoK-authorized minting. Token ownership alone should not be documented as governance authority unless governance contracts and policy define it.
 
 ## Future Governance Questions
 
 Before governance participation is activated, Axodus must define:
 
-- which governance layer uses NEURONS;
+- which governance layer uses $Neurons;
 - whether token balance affects voting;
 - whether PoK history affects voting;
 - whether voting is token-weighted, capped, quadratic, reputation-based, or hybrid;
@@ -44,6 +44,6 @@ Future token governance may introduce capture risk, sybil risk, large-holder dom
 ## Related Pages
 
 - [Governance Overview](../governance/overview.md)
-- [NEURONS Token](neurons-token.md)
+- [$Neurons Token](neurons-token.md)
 - [Utility Model](utility-model.md)
 - [Risk and Compliance](risk-and-compliance.md)

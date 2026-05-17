@@ -26,6 +26,10 @@ Business may receive and coordinate:
 
 Business must identify the responsible nucleus, define scope, map dependencies, classify risk, detect governance touchpoints, coordinate delivery, manage change requests, validate acceptance, and preserve records.
 
+## Ecosystem Role
+
+Business is the formal demand intake and service coordination layer for Axodus. It converts requests from clients, DAOs, partners, communities, and internal teams into scoped work that can be reviewed, priced, governed, delivered, validated, and reported.
+
 ## Operating Model
 
 The Business runtime is organized around these layers:
@@ -49,7 +53,7 @@ The Business runtime is organized around these layers:
 - Maintain clear communication with clients, DAOs, partners, and internal teams.
 - Preserve intake, scope, change, delivery, acceptance, and accountability records.
 
-## Key Workflows
+## Documentation Map
 
 - [Request Intake](request-intake.md)
 - [Business Runtime](runtime.md)

@@ -13,7 +13,7 @@ DEX parameters can affect user safety, treasury revenue, liquidity, token utilit
 
 ## Governance-Sensitive Items
 
-Sensitive items include official listings, verified status, warning or blocking policy, official pool creation, incentivized pools, treasury-supported pools, swap fees, protocol fees, treasury fees, LP fee distribution, LP incentives, NEURONS incentives if defined, marketplace checkout, accepted assets, and emergency pause.
+Sensitive items include official listings, verified status, warning or blocking policy, official pool creation, incentivized pools, treasury-supported pools, swap fees, protocol fees, treasury fees, LP fee distribution, LP incentives, $Neurons incentives if defined, marketplace checkout, accepted assets, and emergency pause.
 
 ## Routing Levels
 

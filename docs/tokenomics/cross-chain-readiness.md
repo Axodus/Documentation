@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics / Security
 
 ## Purpose
 
-This document describes the planned cross-chain direction for NEURONS.
+This document describes the planned cross-chain direction for $Neurons.
 
 ## Scope
 
@@ -23,7 +23,7 @@ In a burn/mint model:
 
 ```txt
 Chain A:
-user sends NEURONS to bridge
+user sends $Neurons to bridge
 tokens are burned or locked
 
 LayerZero:
@@ -35,7 +35,7 @@ equivalent tokens are released or minted
 
 ## Goals
 
-- Expand NEURONS to multiple EVM-compatible networks.
+- Expand $Neurons to multiple EVM-compatible networks.
 - Improve accessibility for users.
 - Enable future multi-chain liquidity.
 - Preserve global supply integrity.

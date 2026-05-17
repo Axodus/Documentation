@@ -13,11 +13,11 @@ DEX activity can affect Treasury through fee revenue, treasury-supported liquidi
 
 ## Interfaces
 
-Interfaces include protocol revenue if implemented, treasury liquidity under policy, treasury LP positions, liquidity incentives, marketplace settlement, and NEURONS liquidity reporting if approved.
+Interfaces include protocol revenue if implemented, treasury liquidity under policy, treasury LP positions, liquidity incentives, marketplace settlement, and $Neurons liquidity reporting if approved.
 
 ## Review Triggers
 
-Treasury review is required for treasury-supported pools, treasury LP positions, protocol fees to Treasury, liquidity incentive budgets, DEX checkout settlement flows, official NEURONS liquidity programs, fee destination changes, and high-risk pool exposure.
+Treasury review is required for treasury-supported pools, treasury LP positions, protocol fees to Treasury, liquidity incentive budgets, DEX checkout settlement flows, official $Neurons liquidity programs, fee destination changes, and high-risk pool exposure.
 
 ## Report Fields
 

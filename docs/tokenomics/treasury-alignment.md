@@ -13,7 +13,7 @@ Tokenomics must align with Treasury because issuance, burn, future marketplace u
 
 ## Scope
 
-This page describes current treasury implications of NEURONS and separates them from future or undefined treasury models.
+This page describes current treasury implications of $Neurons and separates them from future or undefined treasury models.
 
 ## Current Treasury Implications
 

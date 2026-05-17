@@ -37,7 +37,7 @@ Local DAOs may require specific plugins, parameters, workflows, or extensions. A
 
 ## Product Nuclei
 
-Axodus is organized into multiple nuclei: Governance, Business, Academy, Trading, Mining, DaaS / DeFi, Marketplace, ACS / AI Agents, Treasury, Risk Management, Accountability, Tokenomics, Lottery / Lotto, MCPs, and BBA / Blockchain Business & Advertising.
+Axodus is organized into multiple nuclei and support layers: Governance, Business, BBA Agency / Blockchain Business & Advertising, Runtime, Academy, Trading, Mining, DaaS / DeFi, DEX, Marketplace, ACS / AI Agents, Treasury, Risk Management, Accountability, Tokenomics, Lottery / CryptoDraw, and MCPs.
 
 Some products are more mature than others. Documentation must distinguish active, planned, experimental, and conceptual modules.
 

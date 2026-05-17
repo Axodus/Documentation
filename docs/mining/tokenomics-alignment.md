@@ -9,15 +9,15 @@ Owner: Axodus Mining / Tokenomics
 
 ## Purpose
 
-Mining can create utility surfaces for NEURONS, but tokenomics must not imply guaranteed mining returns, token appreciation, fixed income, or ROI.
+Mining can create utility surfaces for $Neurons, but tokenomics must not imply guaranteed mining returns, token appreciation, fixed income, or ROI.
 
 ## Interfaces
 
-NEURONS may support mining product access, subscription payment, discounts, reward routing, internal credit, governance participation, or treasury fees only if policy and implementation support those uses.
+$Neurons may support mining product access, subscription payment, discounts, reward routing, internal credit, governance participation, or treasury fees only if policy and implementation support those uses.
 
 ## Policy Questions
 
-Questions include whether NEURONS can buy mining subscriptions, whether holding NEURONS unlocks dashboards or product access, whether locked rewards can be used, whether payouts are in mined assets or NEURONS, whether rewards are locked or unlocked, who funds discounts, whether participation affects governance power, and how token flows are reported.
+Questions include whether $Neurons can buy mining subscriptions, whether holding $Neurons unlocks dashboards or product access, whether locked rewards can be used, whether payouts are in mined assets or $Neurons, whether rewards are locked or unlocked, who funds discounts, whether participation affects governance power, and how token flows are reported.
 
 ## Record Fields
 
@@ -30,6 +30,6 @@ Risks include investment framing, locked reward misuse, unfunded reward liabilit
 ## Related Pages
 
 - [Tokenomics Overview](../tokenomics/overview.md)
-- [NEURONS Token](../tokenomics/neurons-token.md)
+- [$Neurons Token](../tokenomics/neurons-token.md)
 - [Risk and Compliance](risk-and-compliance.md)
 

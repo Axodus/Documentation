@@ -9,7 +9,7 @@ Owner: Axodus Tokenomics / Academy
 
 ## Purpose
 
-Academy rewards are a likely use case for PoK-authorized NEURONS issuance.
+Academy rewards are a likely use case for PoK-authorized $Neurons issuance.
 
 ## Scope
 
@@ -25,16 +25,16 @@ Academy reward issuance should be modeled as controlled minting:
 4. The authorization is signed through EIP-712.
 5. The learner submits the authorization to `PoKMinter.sol`.
 6. The contract enforces signature, nonce, amount, daily limit, cooldown, and supply cap.
-7. NEURONS is minted if all checks pass.
+7. $Neurons is minted if all checks pass.
 
 ## Reward Limits
 
 Academy rewards are subject to the same system limits:
 
-- 100 NEURONS maximum per transaction;
-- 1,000 NEURONS maximum per user per day;
+- 100 $Neurons maximum per transaction;
+- 1,000 $Neurons maximum per user per day;
 - 1-hour cooldown between mints;
-- global supply cap of 10,000,000 NEURONS.
+- global supply cap of 10,000,000 $Neurons.
 
 ## Program Requirements
 
