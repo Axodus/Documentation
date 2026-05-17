@@ -31,6 +31,7 @@ The new documentation framework is VitePress. Canonical published documentation 
 - DEX
 - Trading
 - Mining
+- Lottery / CryptoDraw
 - Marketplace
 - DaaS / DeFi
 - Treasury
@@ -39,7 +40,7 @@ The new documentation framework is VitePress. Canonical published documentation 
 - Accountability
 - Security
 
-Additional planned or context-dependent nuclei may include Lottery / Lotto, MCPs, Compute, and BBA / Blockchain Business & Advertising. These should be documented with explicit status labels before being treated as active systems.
+Additional planned or context-dependent nuclei may include MCPs, Compute, and BBA / Blockchain Business & Advertising. These should be documented with explicit status labels before being treated as active systems.
 
 ## Start Here
 
@@ -64,6 +65,7 @@ Additional planned or context-dependent nuclei may include Lottery / Lotto, MCPs
 - [Trading](docs/trading/overview.md)
 - [Treasury](docs/treasury/overview.md)
 - [Tokenomics](docs/tokenomics/overview.md)
+- [Lottery / CryptoDraw](docs/lottery/overview.md)
 - [ACS / AI Agents](docs/acs/overview.md)
 - [Accountability](docs/accountability/overview.md)
 - [Security](docs/security/overview.md)

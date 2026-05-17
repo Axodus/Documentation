@@ -181,7 +181,26 @@ export default defineConfig({
       {
         text: 'Lottery',
         items: [
-          { text: 'Overview', link: '/lottery/overview' }
+          { text: 'Overview', link: '/lottery/overview' },
+          { text: 'CryptoDraw', link: '/lottery/cryptodraw' },
+          { text: 'Game Models', link: '/lottery/game-models' },
+          { text: 'Lotofacil-Style Model', link: '/lottery/lotofacil-style-model' },
+          { text: 'SuperSete-Style Model', link: '/lottery/supersete-style-model' },
+          { text: 'Ticket Model', link: '/lottery/ticket-model' },
+          { text: 'Draw Lifecycle', link: '/lottery/draw-lifecycle' },
+          { text: 'Randomness and VRF', link: '/lottery/randomness-and-vrf' },
+          { text: 'Merkle and Indexing', link: '/lottery/merkle-and-indexing' },
+          { text: 'Prize Pools and Payouts', link: '/lottery/prize-pools-and-payouts' },
+          { text: 'Claims and Settlement', link: '/lottery/claims-and-settlement' },
+          { text: 'Treasury and Fees', link: '/lottery/treasury-and-fees' },
+          { text: 'Tokenomics Alignment', link: '/lottery/tokenomics-alignment' },
+          { text: 'Governance Alignment', link: '/lottery/governance-alignment' },
+          { text: 'Security and Smart Contracts', link: '/lottery/security-and-smart-contracts' },
+          { text: 'Operations and Runtime', link: '/lottery/operations-and-runtime' },
+          { text: 'ACS Integration', link: '/lottery/acs-integration' },
+          { text: 'Reporting and Accountability', link: '/lottery/reporting-and-accountability' },
+          { text: 'Responsible Participation', link: '/lottery/responsible-participation' },
+          { text: 'Risk and Compliance', link: '/lottery/risk-and-compliance' }
         ]
       },
       {
