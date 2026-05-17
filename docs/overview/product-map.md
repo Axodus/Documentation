@@ -22,7 +22,7 @@ This document maps Axodus product and operational nuclei.
 | Trading | Internal strategies and user-facing strategy tools | Draft |
 | Mining | Mining product and reward model planning | Planned |
 | DaaS / DeFi | DeFi-as-a-Service, ETF-oriented models, staking, liquidity | Draft |
-| Marketplace | Product, course, license, service, and agent distribution | Planned |
+| Marketplace | Commercial exchange layer for listings, services, courses, settlement, reputation, and disputes | Draft |
 | Treasury | Capital allocation, preservation, reporting, risk limits | Draft |
 | Tokenomics | NEURONS controlled issuance, PoK minting, supply cap, burn support, and future utility | Draft |
 | ACS | AI-assisted analysis, monitoring, review, and operations | Draft |

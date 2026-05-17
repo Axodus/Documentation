@@ -173,9 +173,26 @@ export default defineConfig({
         text: 'Marketplace',
         items: [
           { text: 'Overview', link: '/marketplace/overview' },
-          { text: 'Product Types', link: '/marketplace/product-types' },
-          { text: 'Academy Integration', link: '/marketplace/academy-integration' },
-          { text: 'Token Utility', link: '/marketplace/token-utility' }
+          { text: 'Architecture', link: '/marketplace/architecture' },
+          { text: 'Listing Model', link: '/marketplace/listing-model' },
+          { text: 'Service Catalog', link: '/marketplace/service-catalog' },
+          { text: 'Seller / Provider Model', link: '/marketplace/seller-provider-model' },
+          { text: 'Buyer Flow', link: '/marketplace/buyer-flow' },
+          { text: 'Payments and Settlement', link: '/marketplace/payments-and-settlement' },
+          { text: 'Fees and Revenue', link: '/marketplace/fees-and-revenue' },
+          { text: 'Credits and Locked Rewards', link: '/marketplace/credits-and-locked-rewards' },
+          { text: 'Tokenomics Alignment', link: '/marketplace/tokenomics-alignment' },
+          { text: 'Academy Alignment', link: '/marketplace/academy-alignment' },
+          { text: 'Business and BBA Alignment', link: '/marketplace/business-and-bba-alignment' },
+          { text: 'DEX and DeFi Integration', link: '/marketplace/dex-and-defi-integration' },
+          { text: 'Governance Alignment', link: '/marketplace/governance-alignment' },
+          { text: 'Treasury Alignment', link: '/marketplace/treasury-alignment' },
+          { text: 'Reputation and Quality', link: '/marketplace/reputation-and-quality' },
+          { text: 'Disputes, Refunds and Support', link: '/marketplace/disputes-refunds-and-support' },
+          { text: 'Security and Data Protection', link: '/marketplace/security-and-data-protection' },
+          { text: 'ACS Integration', link: '/marketplace/acs-integration' },
+          { text: 'Reporting and Accountability', link: '/marketplace/reporting-and-accountability' },
+          { text: 'Risk and Compliance', link: '/marketplace/risk-and-compliance' }
         ]
       },
       {

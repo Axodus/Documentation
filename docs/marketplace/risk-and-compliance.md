@@ -1,0 +1,37 @@
+# Risk and Compliance
+
+Status: Draft
+Version: 0.1.0
+Last Updated: 2026-05-17
+Owner: Axodus Marketplace
+
+---
+
+## Purpose
+
+Marketplace risk includes commerce risk, seller risk, buyer protection risk, token payment risk, locked credit risk, regulated category risk, data privacy risk, and claim risk.
+
+## Scope
+
+This page defines documentation guardrails and review triggers. It does not provide legal conclusions and must not describe Marketplace as legally compliant without qualified review.
+
+## Risk Categories
+
+Risks include seller claim risk, buyer expectation risk, payment failure, token volatility, locked credit liability, settlement failure, refund disputes, regulated categories, financial claims, data privacy, fraud, and security incidents.
+
+## Prohibited Claims
+
+Do not claim guaranteed seller revenue, guaranteed buyer results, guaranteed ROI, guaranteed trading profit, guaranteed DeFi yield, risk-free purchases, withdrawable or transferable locked rewards without confirmation, credits with cash value without policy, official seller without verification, certified status without basis, legal compliance without review, audit status without audit, or active DEX checkout without implementation.
+
+## Safe Language
+
+Use language such as marketplace listing, seller status, subject to listing terms, subject to refund policy, subject to review, subject to governance approval, subject to tokenomics policy, locked rewards may be restricted, internal credit if approved, results may vary, no guaranteed revenue, no guaranteed buyer outcome, active if verified, planned, and draft.
+
+## Sensitive Categories
+
+Sensitive categories include Trading strategy access, DeFi or DaaS services, lottery-related products, token sales or investment-like products, professional certifications, legal, tax or financial advice, security audit claims, restricted goods, identity or KYC services, and high-value custom services.
+
+## Review Triggers
+
+Triggers include new sensitive categories, token or locked reward spending claims, seller official or verified claims, financial performance claims, DeFi or Trading listings, refund policy changes, marketplace fee changes, DEX checkout integration, public marketplace revenue claims, and dispute or fraud incidents.
+

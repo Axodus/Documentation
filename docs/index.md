@@ -27,6 +27,7 @@ The site is derived from the Axodus knowledge layer, repository instructions, an
 - [Governance](governance/overview.md)
 - [DEX](dex/overview.md)
 - [Lottery / CryptoDraw](lottery/overview.md)
+- [Marketplace](marketplace/overview.md)
 - [Security](security/overview.md)
 - [Glossary](glossary/terms.md)
 
