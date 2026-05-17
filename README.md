@@ -28,6 +28,7 @@ The new documentation framework is VitePress. Canonical published documentation 
 - Governance
 - Business
 - Academy
+- DEX
 - Trading
 - Mining
 - Marketplace
@@ -59,6 +60,7 @@ Additional planned or context-dependent nuclei may include Lottery / Lotto, MCPs
 - [Governance](docs/governance/overview.md)
 - [Business](docs/business/overview.md)
 - [Academy](docs/academy/overview.md)
+- [DEX](docs/dex/overview.md)
 - [Trading](docs/trading/overview.md)
 - [Treasury](docs/treasury/overview.md)
 - [Tokenomics](docs/tokenomics/overview.md)

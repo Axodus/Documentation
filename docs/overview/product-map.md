@@ -18,6 +18,7 @@ This document maps Axodus product and operational nuclei.
 | Governance | Coordination, proposals, DAO federation, execution records | Draft |
 | Business | Intake, scoping, service delivery, change requests | Draft |
 | Academy | Education, onboarding, Proof of Knowledge, token utility | Draft |
+| DEX | Decentralized swaps, liquidity pools, routing, listings, and execution risk controls | Draft |
 | Trading | Internal strategies and user-facing strategy tools | Draft |
 | Mining | Mining product and reward model planning | Planned |
 | DaaS / DeFi | DeFi-as-a-Service, ETF-oriented models, staking, liquidity | Draft |

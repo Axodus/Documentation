@@ -147,7 +147,26 @@ export default defineConfig({
       {
         text: 'Dex',
         items: [
-          { text: 'Dex Overview', link: '/dex/overview' }
+          { text: 'Overview', link: '/dex/overview' },
+          { text: 'Architecture', link: '/dex/architecture' },
+          { text: 'Swap Model', link: '/dex/swap-model' },
+          { text: 'Liquidity Pools', link: '/dex/liquidity-pools' },
+          { text: 'Routing and Aggregation', link: '/dex/routing-and-aggregation' },
+          { text: 'Listing Policy', link: '/dex/listing-policy' },
+          { text: 'Fees and Revenue', link: '/dex/fees-and-revenue' },
+          { text: 'LP Model', link: '/dex/lp-model' },
+          { text: 'Slippage and Price Impact', link: '/dex/slippage-and-price-impact' },
+          { text: 'MEV and Execution Risk', link: '/dex/mev-and-execution-risk' },
+          { text: 'Security and Smart Contracts', link: '/dex/security-and-smart-contracts' },
+          { text: 'Governance Alignment', link: '/dex/governance-alignment' },
+          { text: 'Treasury Alignment', link: '/dex/treasury-alignment' },
+          { text: 'Tokenomics Alignment', link: '/dex/tokenomics-alignment' },
+          { text: 'Trading Integration', link: '/dex/trading-integration' },
+          { text: 'Marketplace Integration', link: '/dex/marketplace-integration' },
+          { text: 'Academy and User Education', link: '/dex/academy-and-user-education' },
+          { text: 'ACS Integration', link: '/dex/acs-integration' },
+          { text: 'Reporting and Accountability', link: '/dex/reporting-and-accountability' },
+          { text: 'Risk and Disclosures', link: '/dex/risk-and-disclosures' }
         ]
       },
       {
