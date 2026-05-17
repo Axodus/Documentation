@@ -122,15 +122,31 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Defi / Dex',
+        text: 'Defi',
         items: [
           { text: 'DeFi Overview', link: '/defi/overview' },
-          { text: 'DaaS Model', link: '/defi/daas-model' },
+          { text: 'Architecture', link: '/defi/architecture' },
+          { text: 'DaaS', link: '/defi/daas' },
           { text: 'ETF DaaS', link: '/defi/etf-daas' },
-          { text: 'Staking', link: '/defi/staking' },
-          { text: 'Derivatives', link: '/defi/derivatives' },
-          { text: 'Debentures', link: '/defi/debentures' },
-          { text: 'Liquidity', link: '/defi/liquidity' },
+          { text: 'Protocol Model', link: '/defi/protocol-model' },
+          { text: 'Vaults and Strategies', link: '/defi/vaults-and-strategies' },
+          { text: 'Staking and Yield', link: '/defi/staking-and-yield' },
+          { text: 'Liquidity Model', link: '/defi/liquidity-model' },
+          { text: 'Derivatives and Debentures', link: '/defi/derivatives-and-debentures' },
+          { text: 'Risk Management', link: '/defi/risk-management' },
+          { text: 'Security and Smart Contracts', link: '/defi/security-and-smart-contracts' },
+          { text: 'Governance Alignment', link: '/defi/governance-alignment' },
+          { text: 'Treasury Alignment', link: '/defi/treasury-alignment' },
+          { text: 'Tokenomics Alignment', link: '/defi/tokenomics-alignment' },
+          { text: 'Academy and User Education', link: '/defi/academy-and-user-education' },
+          { text: 'ACS Integration', link: '/defi/acs-integration' },
+          { text: 'Reporting and Accountability', link: '/defi/reporting-and-accountability' },
+          { text: 'Compliance and Disclosures', link: '/defi/compliance-and-disclosures' }
+        ]
+      },
+      {
+        text: 'Dex',
+        items: [
           { text: 'Dex Overview', link: '/dex/overview' }
         ]
       },
