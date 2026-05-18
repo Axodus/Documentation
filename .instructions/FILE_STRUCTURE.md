@@ -1,8 +1,8 @@
 # Documentation File Structure
 
 Status: Active
-Version: 0.2.0
-Last Updated: 2026-05-17
+Version: 0.3.0
+Last Updated: 2026-05-18
 Owner: Axodus Core
 
 ---
@@ -43,6 +43,8 @@ Canonical public documentation lives under `/docs`.
 
 - `/docs/index.md`
 - `/docs/.vitepress/config.mts`
+- `/docs/.vitepress/theme/index.ts`
+- `/docs/.vitepress/theme/custom.css`
 - `/docs/overview/`
 - `/docs/governance/`
 - `/docs/business/`
@@ -88,6 +90,16 @@ The current documentation site must expose these ecosystem nuclei or support lay
 | Glossary | `/docs/glossary/` | Draft |
 
 MCP and compute-related materials may be referenced inside ACS, Runtime, or future product pages until they are promoted into full standalone documentation areas.
+
+## Public Reference Pages
+
+The overview section includes public reference pages that support UI navigation and documentation interpretation:
+
+- `/docs/overview/documentation-status.md`
+- `/docs/overview/risk-notices.md`
+- `/docs/overview/documentation-standards.md`
+
+These pages summarize public-facing rules. Internal execution protocols remain in `/.instructions`.
 
 ## Required Overview Contract
 

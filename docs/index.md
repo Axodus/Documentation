@@ -1,51 +1,91 @@
-# Axodus Documentation
+---
+layout: home
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Core
+hero:
+  name: Axodus Documentation
+  text: Governed DeFi infrastructure for treasury coordination, education, token utility, and modular product nuclei.
+  tagline: The canonical public documentation surface for the Axodus ecosystem.
+  actions:
+    - theme: brand
+      text: Start with the Ecosystem
+      link: /overview/ecosystem-overview
+    - theme: alt
+      text: Governance Model
+      link: /governance/overview
+    - theme: alt
+      text: Product Map
+      link: /overview/product-map
 
+features:
+  - title: Governance First
+    details: Constitutional governance, DAO coordination, proposal routing, execution records, and accountability.
+  - title: Treasury Aware
+    details: Capital allocation, reporting expectations, custody controls, and risk-managed financial operations.
+  - title: Modular Nuclei
+    details: Academy, Business, Marketplace, Trading, DeFi, DEX, Mining, Lottery, ACS, and BBA Agency documentation.
 ---
 
-## Purpose
+<div class="axodus-portal">
+  <section class="axodus-section">
+    <h2>Documentation Status</h2>
+    <p>
+      Axodus documentation is under active reconstruction. Pages marked Draft, Planned, Prototype, Testnet, Needs Review, or Active if Verified are not final production specifications unless implementation evidence and governance records support that status.
+    </p>
+    <div class="status-row">
+      <span class="status-badge draft">Draft</span>
+      <span class="status-badge planned">Planned</span>
+      <span class="status-badge needs-review">Needs Review</span>
+      <span class="status-badge">Active if Verified</span>
+    </div>
+  </section>
 
-This VitePress site is the canonical documentation surface for the rebuilt Axodus documentation repository.
+  <section class="axodus-section">
+    <h2>Core Pillars</h2>
+    <p>
+      Start with the control, capital, token, education, and intelligence layers that define how Axodus coordinates ecosystem work.
+    </p>
+    <div class="doc-grid">
+      <a class="nucleus-card" href="/governance/overview"><strong>Governance</strong><span>Constitutional coordination, DAO federation, proposal lifecycle, and execution boundaries.</span></a>
+      <a class="nucleus-card" href="/treasury/overview"><strong>Treasury</strong><span>Capital stewardship, reserve policy, risk limits, reporting, and governance oversight.</span></a>
+      <a class="nucleus-card" href="/tokenomics/overview"><strong>Tokenomics</strong><span>$Neurons controlled issuance, PoK minting, utility boundaries, and risk framing.</span></a>
+      <a class="nucleus-card" href="/academy/overview"><strong>Academy</strong><span>Education, onboarding, Proof of Knowledge, course flows, and cautious reward documentation.</span></a>
+      <a class="nucleus-card" href="/acs/overview"><strong>ACS / AI Agents</strong><span>Advisory analysis, agent roles, governance support, human oversight, and risk review.</span></a>
+      <a class="nucleus-card" href="/accountability/overview"><strong>Accountability</strong><span>Governance records, financial reporting, release notes, limitations, and public transparency.</span></a>
+    </div>
+  </section>
 
-## Scope
+  <section class="axodus-section">
+    <h2>Product Nuclei</h2>
+    <p>
+      Explore the product and service areas that make up the Axodus ecosystem. Each nucleus documents scope, status, dependencies, governance touchpoints, and risk considerations.
+    </p>
+    <div class="doc-grid">
+      <a class="nucleus-card" href="/trading/overview"><strong>Trading</strong><span>Internal strategy infrastructure, user-facing strategy access, API safety, and market risk.</span></a>
+      <a class="nucleus-card" href="/defi/overview"><strong>DeFi / DaaS</strong><span>DeFi-as-a-Service, ETF-oriented concepts, protocol models, liquidity, and disclosures.</span></a>
+      <a class="nucleus-card" href="/dex/overview"><strong>DEX</strong><span>Swap model, liquidity pools, routing, listings, execution risks, and reporting.</span></a>
+      <a class="nucleus-card" href="/mining/overview"><strong>Mining</strong><span>Infrastructure, mining models, costs, rewards, operations, and responsible disclosure.</span></a>
+      <a class="nucleus-card" href="/marketplace/overview"><strong>Marketplace</strong><span>Listings, sellers, payments, credits, quality, disputes, and integrations.</span></a>
+      <a class="nucleus-card" href="/lottery/overview"><strong>Lottery / CryptoDraw</strong><span>Game models, ticket flow, draw lifecycle, randomness, claims, and responsible participation.</span></a>
+      <a class="nucleus-card" href="/business/overview"><strong>Business</strong><span>Formal request intake, service scoping, delivery runtime, change control, and validation.</span></a>
+      <a class="nucleus-card" href="/bba-agency/overview"><strong>BBA Agency</strong><span>Blockchain business communication, positioning, campaign lifecycle, and claim review.</span></a>
+      <a class="nucleus-card" href="/runtime/overview"><strong>Runtime</strong><span>Cross-nucleus operating lifecycle for requests, approvals, execution, change, and archive.</span></a>
+    </div>
+  </section>
 
-It documents Axodus as a modular DeFi ecosystem with Governance, Business, BBA Agency, Runtime, Academy, DEX, DeFi, Trading, Treasury, Lottery, ACS, Marketplace, Mining, Tokenomics, Security, and Accountability nuclei and support layers.
+  <section class="axodus-section">
+    <h2>Reference</h2>
+    <div class="doc-grid">
+      <a class="nucleus-card" href="/overview/documentation-status"><strong>Documentation Status</strong><span>How to interpret maturity labels and active-if-verified language.</span></a>
+      <a class="nucleus-card" href="/overview/risk-notices"><strong>Risk Notices</strong><span>Reusable risk language for DeFi, trading, treasury, token, mining, lottery, and marketplace pages.</span></a>
+      <a class="nucleus-card" href="/overview/documentation-standards"><strong>Documentation Standards</strong><span>Public-facing summary of writing, terminology, and content safety rules.</span></a>
+      <a class="nucleus-card" href="/glossary/terms"><strong>Glossary</strong><span>Canonical terminology for Axodus nuclei, governance, ACS, $Neurons, and product concepts.</span></a>
+    </div>
+  </section>
 
-The site is derived from the Axodus knowledge layer, repository instructions, and reviewed planning materials. Knowledge packs are internal semantic memory; this site is the human-facing documentation surface.
-
-## Start Here
-
-- [Ecosystem Overview](overview/ecosystem-overview.md)
-- [Core Principles](overview/core-principles.md)
-- [Product Map](overview/product-map.md)
-- [Constitutional Model](overview/constitutional-model.md)
-- [Terminology](overview/terminology.md)
-- [Governance](governance/overview.md)
-- [Business](business/overview.md)
-- [BBA Agency](bba-agency/overview.md)
-- [Runtime](runtime/overview.md)
-- [Academy](academy/overview.md)
-- [DEX](dex/overview.md)
-- [DeFi](defi/overview.md)
-- [Trading](trading/overview.md)
-- [Treasury](treasury/overview.md)
-- [Tokenomics](tokenomics/overview.md)
-- [Lottery / CryptoDraw](lottery/overview.md)
-- [Marketplace](marketplace/overview.md)
-- [Mining](mining/overview.md)
-- [ACS](acs/overview.md)
-- [Accountability](accountability/overview.md)
-- [Security](security/overview.md)
-- [Glossary](glossary/terms.md)
-
-## Status Notice
-
-The documentation is under active reconstruction. Documents marked `Draft`, `Planned`, or `Needs Review` are not final production specifications.
-
-## Risk Notice
-
-Axodus documentation must not be interpreted as financial advice, a guarantee of returns, a guarantee of APY, or a claim that any strategy is risk-free.
+  <section class="axodus-section risk-notice">
+    <strong>Risk Notice</strong>
+    <p>
+      Axodus documentation must not be interpreted as financial advice or as a guarantee of APY, yield, ROI, profit, payout, token appreciation, execution quality, lottery outcome, or risk-free result.
+    </p>
+  </section>
+</div>
