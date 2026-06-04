@@ -53,6 +53,19 @@ REQ-02A does not publish VitePress documentation, run a VitePress build, or alte
 - risk and compliance review where applicable;
 - publication authority confirmation.
 
+REQ-03 inventories the VitePress documentation surface only. It does not authorize:
+
+- VitePress publication;
+- CI/CD publication changes;
+- deployment configuration changes;
+- local build as publication evidence;
+- production release claims;
+- financial, tokenomics, APY, treasury, settlement, trading, DEX, lottery, mining payout, marketplace value transfer, or governance execution claims.
+
+Production claims require coordinator approval.
+
+Financial, tokenomics, APY, treasury, payout, settlement, trading, DEX, lottery, marketplace value-transfer, and mining reward claims require additional review before publication.
+
 ## Legacy GitBook Boundary
 
 GitBook references are legacy/deprecated unless the coordinator explicitly re-approves GitBook as a publication target. Legacy GitBook content must not be treated as the active publication source.

@@ -73,6 +73,36 @@ VitePress validation should eventually confirm:
 
 Do not run a VitePress build unless a future request explicitly permits it.
 
+REQ-03 cross-references:
+
+- `.instructions/VITEPRESS_ASSET_INVENTORY.md`
+- `.instructions/VITEPRESS_ALIGNMENT.md`
+- `.instructions/VITEPRESS_VALIDATION_PLAN.md`
+
+REQ-03 required checks:
+
+- VitePress config exists or absence is documented.
+- Docs source root exists or absence is documented.
+- Nav/sidebar paths are inventoried.
+- Package scripts are inventoried.
+- Asset/public directories are inventoried.
+- Build command is known or unknown state is documented.
+- Publication target is known or unknown state is documented.
+- GitBook references are legacy-only.
+- No secrets are present in docs/config inspected; sensitive keyword hits must be reviewed without copying secret values into reports.
+
+REQ-03 result:
+
+- VitePress config exists at `docs/.vitepress/config.mts`.
+- Docs source root exists at `docs/`.
+- Nav/sidebar are declared in `docs/.vitepress/config.mts`.
+- Package scripts are known: `docs:dev`, `docs:build`, `docs:preview`.
+- No source `docs/public`, `docs/assets`, `docs/images`, or `docs/img` directory was detected.
+- Generated `docs/.vitepress/dist/` and `docs/.vitepress/cache/` exist locally and are ignored by git.
+- Build command is known but not run.
+- Publication target is not formally approved; `og:url` metadata references a Vercel URL, but no repo-local deployment workflow was found.
+- GitBook references remain legacy-only or historical.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

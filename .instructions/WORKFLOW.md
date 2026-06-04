@@ -60,6 +60,25 @@ Documentation can be drafted by authorized contributors. Approval depends on sco
 
 REQ-02 does not approve publication.
 
+## VitePress Workflow
+
+1. Draft documentation change.
+2. Local structural review.
+3. VitePress inventory alignment.
+4. Candidate validation.
+5. Approval review.
+6. Publication authorization.
+7. Published release.
+8. Post-publication audit.
+
+Documentation source changes do not equal publication approval.
+
+A successful local build does not equal publication approval.
+
+Published docs must not contain unapproved financial, tokenomics, treasury, APY, governance, legal, or production-readiness claims.
+
+REQ-03 completes inventory alignment only. It does not approve VitePress build, preview, deployment, publication, or release claims.
+
 ## Documentation States
 
 | State | Meaning |

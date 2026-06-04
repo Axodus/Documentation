@@ -15,7 +15,7 @@ After REQ-02: L4 candidate.
 
 Documentation is an L4 candidate after REQ-02: the local `.instructions` recovery layer is structurally defined and ready for validation/review. This does not grant final L4 acceptance, official VitePress publication, production documentation approval, global docs versioning migration, governance approval, or any runtime/execution authority.
 
-Final L4 requires ownership, versioning, publication authority, VitePress asset inventory/alignment, and validation evidence to be formally approved or verified.
+Final L4 requires ownership, versioning, publication authority, VitePress structural/local build readiness, link/content validation, and source-of-truth evidence to be formally approved or verified.
 
 ## Evidence Created
 
@@ -35,9 +35,9 @@ Final L4 requires ownership, versioning, publication authority, VitePress asset 
 ## Known Gaps
 
 - Documentation versioning path is not formally approved.
-- VitePress documentation asset inventory and alignment have not been validated.
+- VitePress documentation asset inventory and alignment baseline is complete in REQ-03; structural/local build readiness and link/content validation remain pending.
 - Publication authority is documented as gated, not verified as granted.
-- Documentation asset inventory is not complete.
+- Documentation asset inventory baseline is complete for VitePress source/config/navigation/scripts; legacy `/Documents` classification and publication-quality content review remain incomplete.
 - Legacy content under `/Documents` and any historical GitBook material may contain obsolete assumptions.
 
 ## Execution State
@@ -73,8 +73,36 @@ Documentation nucleus remains L4 candidate.
 
 Final L4 remains blocked by:
 
-- VitePress asset inventory;
+- VitePress structural/local build readiness;
 - VitePress build/documentation structure validation;
 - publication authority confirmation;
 - versioning path decision;
 - documentation source-of-truth validation.
+
+## REQ-03 - VitePress Asset Inventory & Alignment
+
+Status: COMPLETE
+
+Active platform: VitePress
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- VitePress source root, config, navigation/sidebar, theme files, package scripts, generated output locations, and major content directories are inventoried.
+- Documentation may be marked final L4 only after REQ-04 structural validation/local build readiness and publication/source-of-truth authority blockers are resolved or explicitly accepted.
+- Publication remains disabled without explicit approval.
+
+Execution state:
+
+- Runtime code: UNCHANGED
+- Package files: UNCHANGED
+- Docs publication: DISABLED
+- Production release claim: DISABLED
+- VitePress build: NOT RUN
+
+REQ-03 evidence:
+
+- `.instructions/VITEPRESS_ASSET_INVENTORY.md`
+- `.instructions/VITEPRESS_ALIGNMENT.md`
+- `.instructions/VITEPRESS_VALIDATION_PLAN.md`
+- `.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md`

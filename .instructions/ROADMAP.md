@@ -26,8 +26,8 @@ Owner: Documentation Coordinator
 
 ## L5 Readiness Tasks
 
-1. Complete Documentation Asset Inventory.
-2. Complete VitePress asset inventory and alignment review.
+1. Keep Documentation Asset Inventory current after REQ-03.
+2. Complete VitePress structural validation and local build readiness.
 3. Map `/docs`, `/Documents`, root files, and legacy materials into draft/candidate/approved/published/deprecated states.
 4. Define versioning implementation path after coordinator decision.
 5. Establish review evidence for canonical public claims.
@@ -52,4 +52,14 @@ Owner: Documentation Coordinator
 
 ## Next Request
 
-REQ-03 - Documentation Asset Inventory & VitePress Alignment.
+REQ-04 - VitePress Structural Validation & Local Build Readiness.
+
+## Request Sequence
+
+| Request | Status | Purpose |
+|---|---|---|
+| REQ-03 - Documentation Asset Inventory & VitePress Alignment | Complete | Inventoried VitePress source/config/navigation/assets/scripts and documented alignment baseline. |
+| REQ-04 - VitePress Structural Validation & Local Build Readiness | Pending | Run approved structural checks, local build readiness validation, and link/content validation planning. |
+| REQ-05 - Documentation Publication Governance & Release Workflow | Pending | Confirm publication authority, release workflow, deployment target, approval evidence, and post-publication audit rules. |
+
+REQ-04 and REQ-05 are not complete.

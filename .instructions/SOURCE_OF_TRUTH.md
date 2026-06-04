@@ -40,7 +40,7 @@ Source-of-truth hierarchy:
 4. VitePress documentation source files.
 5. Published documentation output.
 
-REQ-02A does not validate VitePress content and does not run a VitePress build. VitePress asset inventory and alignment are the next request scope.
+REQ-03 creates the VitePress asset inventory and alignment baseline. It does not validate VitePress build output, approve publication, or grant final L4.
 
 Official/public claims must not exceed reviewed and approved documentation. If legacy GitBook content conflicts with current local governance docs, record the drift and do not silently overwrite either source.
 

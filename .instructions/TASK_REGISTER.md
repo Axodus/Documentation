@@ -10,11 +10,19 @@ Owner: Documentation Coordinator
 | ID | Title | Status | Owner Role | Dependencies | Notes |
 |---|---|---|---|---|---|
 | DOC-TASK-001 | Recover Documentation `.instructions` | Complete in REQ-02 | Documentation Coordinator | REQ-01 global docs recovery | Required operational files created or completed. |
-| DOC-TASK-002 | Map existing documentation assets | Pending | Documentation Coordinator | REQ-02A | Scope for REQ-03. Must cover `/docs`, VitePress config/navigation, `/Documents`, root files, and legacy material. |
+| DOC-TASK-002 | Map existing documentation assets | Partially Complete in REQ-03 | Documentation Coordinator | REQ-02A | VitePress `/docs`, config/navigation, scripts, generated output, and key root/docs files inventoried. Full `/Documents` classification remains future scope. |
 | DOC-TASK-003 | Identify empty placeholder docs | Pending | Documentation Coordinator | REQ-01 BUB finding | Root global placeholders include `SECURITY.md`, `STANDARDS.md`, `PRODUCTS.md`, `MCP.md`, `TOKENOMICS.md`; Documentation placeholders require inventory. |
-| DOC-TASK-004 | Align VitePress documentation surface with local docs | Pending | Documentation Coordinator | DOC-TASK-002 | Must not publish or run builds during inventory unless explicitly approved. |
+| DOC-TASK-004 | Align VitePress documentation surface with local docs | Complete in REQ-03 | Documentation Coordinator | DOC-TASK-002 | VitePress alignment baseline documented; build/publication remain blocked. |
 | DOC-TASK-009 | Correct publication target from GitBook to VitePress | Complete in REQ-02A | Documentation Coordinator | REQ-02 | GitBook is legacy/not active; VitePress is active documentation platform. |
 | DOC-TASK-005 | Define versioning implementation path | Pending | Portfolio Coordinator | REQ-01 versioning strategy | Option B preferred; Option C via Documentation acceptable fallback. |
 | DOC-TASK-006 | Define publication approval flow | Candidate | Documentation Coordinator | OWNERSHIP.md and PUBLICATION_BOUNDARIES.md | Flow documented, not yet externally verified. |
 | DOC-TASK-007 | Create documentation validation checklist | Complete in REQ-02 | Documentation Coordinator | VALIDATION.md | Candidate/approved/published validation stages defined. |
 | DOC-TASK-008 | Prepare L4 validation package | Complete in REQ-02 | Documentation Coordinator | Required `.instructions` files | L4 candidate only; not final L4. |
+| DOC-REQ03-001 | Inventory VitePress source structure | Complete in REQ-03 | Documentation Coordinator | REQ-02A | Source root, content directories, index page, generated output, and cache locations inventoried. |
+| DOC-REQ03-002 | Inventory VitePress config and nav/sidebar | Complete in REQ-03 | Documentation Coordinator | REQ-02A | `docs/.vitepress/config.mts` and nav/sidebar declarations inventoried; static configured-link target check found no missing Markdown targets. |
+| DOC-REQ03-003 | Inventory assets/public directories | Complete in REQ-03 | Documentation Coordinator | REQ-02A | No source `docs/public`, `docs/assets`, `docs/images`, or `docs/img` detected; generated dist assets exist and remain ignored. |
+| DOC-REQ03-004 | Inventory package scripts and build command | Complete in REQ-03 | Documentation Coordinator | REQ-02A | `docs:dev`, `docs:build`, and `docs:preview` documented; build not run. |
+| DOC-REQ03-005 | Identify placeholder/empty docs | Complete in REQ-03 | Documentation Coordinator | REQ-02A | No empty source docs detected; `docs/security/disclosure-policy.md` remains placeholder. |
+| DOC-REQ03-006 | Define VitePress validation stages | Complete in REQ-03 | Documentation Coordinator | REQ-02A | Stage 0 through Stage 5 validation plan created. |
+| DOC-REQ03-007 | Update Documentation status and blockers | Complete in REQ-03 | Documentation Coordinator | REQ-02A | STATUS and BLOCKER_REGISTER updated; final L4 remains blocked. |
+| DOC-REQ03-008 | Prepare REQ-04 structural validation handoff | Complete in REQ-03 | Documentation Coordinator | REQ-03 | REQ-04 defined as VitePress Structural Validation & Local Build Readiness. |
