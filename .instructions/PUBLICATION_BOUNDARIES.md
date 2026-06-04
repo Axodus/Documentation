@@ -1,0 +1,80 @@
+# Documentation Publication Boundaries
+
+Status: Active Recovery
+Version: 0.1.0
+Last Updated: 2026-06-04
+Owner: Documentation Coordinator
+
+---
+
+## What This Workspace Can Prepare
+
+The Documentation nucleus can prepare:
+
+- draft documentation;
+- candidate documentation;
+- documentation structure;
+- review checklists;
+- validation reports;
+- source-of-truth maps;
+- publication packages;
+- drift reports;
+- docs quality recommendations.
+
+## What This Workspace Cannot Publish Without Approval
+
+This workspace cannot publish or approve:
+
+- production documentation;
+- financial promises;
+- tokenomics finality;
+- APY/yield claims;
+- treasury commitments;
+- governance outcomes;
+- audit or partnership claims;
+- contract addresses;
+- deployment status;
+- live integrations;
+- execution readiness.
+
+## GitBook Publication Boundaries
+
+Official GitBook:
+
+`https://axodus-finance.gitbook.io/docs/`
+
+REQ-02 does not publish to GitBook. GitBook publication requires:
+
+- candidate content;
+- validation checklist;
+- required owner/reviewer/approver;
+- risk and compliance review where applicable;
+- publication authority confirmation.
+
+## Financial Claim Boundaries
+
+Financial content must not claim:
+
+- guaranteed returns;
+- risk-free products;
+- guaranteed APY;
+- passive income certainty;
+- treasury performance certainty;
+- investment advice;
+- final token economics unless approved and verified.
+
+## Tokenomics/APY/Treasury Boundaries
+
+Tokenomics, APY, treasury, staking, mining, marketplace settlement, DEX, lottery, and trading content require additional review. Drafts must clearly mark planned, simulated, mock, read-only, or blocked states.
+
+## Legal/Compliance Boundaries
+
+Legal or compliance-sensitive documentation requires explicit review. Lottery, securities-like token claims, investment language, trading claims, and payout language must stay conservative and non-final unless approved.
+
+## Governance Approval Requirements
+
+Documentation can record governance outcomes only when approval evidence exists. Governance votes do not override legal, security, compliance, or safety constraints.
+
+## Publication State Rule
+
+Draft or candidate material must not be presented as published or official.

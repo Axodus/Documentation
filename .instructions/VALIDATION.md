@@ -1,0 +1,110 @@
+# Documentation Validation
+
+Status: Active Recovery
+Version: 0.1.0
+Last Updated: 2026-06-04
+Owner: Documentation Coordinator
+
+---
+
+## Candidate Validation
+
+Before documentation is considered candidate:
+
+- required `.instructions` files exist and are non-empty;
+- status/version/owner metadata is present where appropriate;
+- source-of-truth boundary is stated;
+- no production or execution claim exceeds approved evidence;
+- risk language is present for financial, token, treasury, trading, DeFi, DEX, mining, marketplace, lottery, and governance content;
+- publication state is not overstated;
+- blockers are recorded.
+
+## Approved Validation
+
+Before documentation is considered approved:
+
+- candidate validation passes;
+- required owner/reviewer/approver is identified;
+- affected nucleus docs are checked for conflicts;
+- global root `.instructions` are checked for portfolio status conflicts;
+- Core source-of-truth and registry rules are checked for architecture claims;
+- security-sensitive content receives safety review;
+- unresolved blockers are either closed or explicitly accepted.
+
+## Published Validation
+
+Before documentation is published:
+
+- approved validation passes;
+- publication target is confirmed;
+- GitBook or VitePress route is identified;
+- links/navigation are checked;
+- public claims are reviewed;
+- financial/token/legal/compliance claims are approved;
+- version and publication date are recorded.
+
+## Cross-Reference Validation
+
+Check documentation against:
+
+- global root `.instructions`;
+- official GitBook at `https://axodus-finance.gitbook.io/docs/`;
+- nucleus-specific `.instructions`;
+- financial/accountability docs;
+- governance docs;
+- Core source-of-truth and registry rules.
+
+REQ-02 does not perform full GitBook alignment. That is REQ-03 scope.
+
+## Validation Checklist
+
+- [ ] Required `.instructions` files exist.
+- [ ] Required `.instructions` files are non-empty.
+- [ ] Source-of-truth hierarchy is documented.
+- [ ] Ownership and approval rules are documented.
+- [ ] Versioning states are documented.
+- [ ] Publication boundaries are documented.
+- [ ] Security boundaries are documented.
+- [ ] Task register exists.
+- [ ] Blocker register exists.
+- [ ] Recovery report exists.
+- [ ] No runtime code changed.
+- [ ] No package files changed.
+- [ ] No build/test/install/service command run.
+- [ ] No publication executed.
+- [ ] No secrets touched.
+- [ ] No execution-sensitive behavior enabled.
+
+## REQ-02 Safe Validation Commands
+
+```bash
+DOCS_WORKSPACE="/opt/Axodus/Documentation"
+DOCS_INSTRUCTIONS="$DOCS_WORKSPACE/.instructions"
+
+test -d "$DOCS_WORKSPACE"
+test -d "$DOCS_INSTRUCTIONS"
+
+for f in \
+README.md \
+STATUS.md \
+ROADMAP.md \
+WORKFLOW.md \
+SOURCE_OF_TRUTH.md \
+OWNERSHIP.md \
+VERSIONING.md \
+VALIDATION.md \
+PUBLICATION_BOUNDARIES.md \
+SECURITY.md \
+TASK_REGISTER.md \
+BLOCKER_REGISTER.md
+do
+  test -s "$DOCS_INSTRUCTIONS/$f"
+done
+
+test -s "$DOCS_INSTRUCTIONS/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md"
+find "$DOCS_INSTRUCTIONS" -maxdepth 2 -type f | sort
+```
+
+## Forbidden Validation
+
+Do not run builds, package installs, package tests, publishing commands, deployment commands, services, migrations, trading scripts, swap scripts, settlement scripts, wallet scripts, or on-chain commands unless a future request explicitly approves them.
