@@ -37,7 +37,7 @@ Before documentation is published:
 
 - approved validation passes;
 - publication target is confirmed;
-- GitBook or VitePress route is identified;
+- VitePress route/publication target is identified;
 - links/navigation are checked;
 - public claims are reviewed;
 - financial/token/legal/compliance claims are approved;
@@ -48,13 +48,30 @@ Before documentation is published:
 Check documentation against:
 
 - global root `.instructions`;
-- official GitBook at `https://axodus-finance.gitbook.io/docs/`;
+- VitePress documentation source files;
+- VitePress config and navigation/sidebar structure;
+- legacy GitBook references only as deprecated historical context;
 - nucleus-specific `.instructions`;
 - financial/accountability docs;
 - governance docs;
 - Core source-of-truth and registry rules.
 
-REQ-02 does not perform full GitBook alignment. That is REQ-03 scope.
+REQ-02A does not perform full VitePress alignment. That is REQ-03 scope.
+
+## VitePress Validation Planning
+
+VitePress validation should eventually confirm:
+
+- documentation source tree exists;
+- VitePress config exists;
+- navigation/sidebar structure is coherent;
+- internal links are valid;
+- build command is known;
+- build command is safe and local;
+- publication target is documented;
+- no production publication occurs without approval.
+
+Do not run a VitePress build unless a future request explicitly permits it.
 
 ## Validation Checklist
 

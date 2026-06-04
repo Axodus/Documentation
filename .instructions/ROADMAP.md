@@ -20,14 +20,14 @@ Owner: Documentation Coordinator
 
 1. Verify all required `.instructions` files exist and are non-empty.
 2. Validate the documentation workflow against root global docs.
-3. Confirm publication boundaries include GitBook, VitePress, financial claims, tokenomics, treasury, and legal/compliance constraints.
+3. Confirm publication boundaries include VitePress, legacy GitBook handling, financial claims, tokenomics, treasury, and legal/compliance constraints.
 4. Confirm source-of-truth rules do not exceed Core/Registry authority.
 5. Confirm no runtime, package, build, publish, wallet, treasury, trading, swap, payout, settlement, or on-chain behavior was changed.
 
 ## L5 Readiness Tasks
 
 1. Complete Documentation Asset Inventory.
-2. Complete GitBook alignment review against `https://axodus-finance.gitbook.io/docs/`.
+2. Complete VitePress asset inventory and alignment review.
 3. Map `/docs`, `/Documents`, root files, and legacy materials into draft/candidate/approved/published/deprecated states.
 4. Define versioning implementation path after coordinator decision.
 5. Establish review evidence for canonical public claims.
@@ -52,4 +52,4 @@ Owner: Documentation Coordinator
 
 ## Next Request
 
-REQ-03 - Documentation Asset Inventory & GitBook Alignment.
+REQ-03 - Documentation Asset Inventory & VitePress Alignment.

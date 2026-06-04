@@ -19,19 +19,30 @@ This file defines source-of-truth boundaries for the Documentation nucleus.
 | Documentation `.instructions` | Documentation workflow, validation, publishing standards, source alignment, and documentation quality. |
 | Core `.instructions` / Core Registry | Ecosystem coordination semantics, architectural boundaries, registry/source-of-truth concepts. |
 | Nucleus `.instructions` | Local product/workspace constraints, validation commands, implementation boundaries, status, and safety rules. |
-| Official GitBook | Public-facing documentation only when content is verified as approved/published. |
-| Local `/docs` | Current VitePress documentation surface, candidate/published depending on approval state. |
+| VitePress documentation source | Active Axodus technical documentation build and publication surface, candidate/published depending on approval state. |
+| Legacy GitBook references | Deprecated historical references only; not the active publication target. |
+| Local `/docs` | Current VitePress source tree for technical documentation. |
 | `/Documents` | Planning, references, research, historical material; not canonical by default. |
 
-## Official GitBook Relationship
+## Documentation Platform
 
-Official GitBook URL:
+The active Axodus documentation system is VitePress.
 
-`https://axodus-finance.gitbook.io/docs/`
+VitePress is the technical documentation build and publication surface for the Documentation nucleus.
 
-REQ-02 does not validate GitBook content and does not publish to GitBook. GitBook alignment is the next request scope.
+GitBook references, if found in older instructions or reports, are legacy references and must not be treated as the active publication target unless the coordinator explicitly re-approves GitBook.
 
-Official/public claims must not exceed reviewed and approved documentation. If GitBook content conflicts with current local governance docs, record the drift and do not silently overwrite either source.
+Source-of-truth hierarchy:
+
+1. Coordinator-approved portfolio instructions.
+2. Global `/opt/Axodus/.instructions` governance and portfolio docs.
+3. Documentation nucleus `.instructions`.
+4. VitePress documentation source files.
+5. Published documentation output.
+
+REQ-02A does not validate VitePress content and does not run a VitePress build. VitePress asset inventory and alignment are the next request scope.
+
+Official/public claims must not exceed reviewed and approved documentation. If legacy GitBook content conflicts with current local governance docs, record the drift and do not silently overwrite either source.
 
 ## Local Workspace Docs
 

@@ -37,19 +37,25 @@ This workspace cannot publish or approve:
 - live integrations;
 - execution readiness.
 
-## GitBook Publication Boundaries
+## VitePress Publication Boundaries
 
-Official GitBook:
+Active documentation platform:
 
-`https://axodus-finance.gitbook.io/docs/`
+VitePress.
 
-REQ-02 does not publish to GitBook. GitBook publication requires:
+VitePress is the active Axodus documentation build and publication surface for the Documentation nucleus.
+
+REQ-02A does not publish VitePress documentation, run a VitePress build, or alter deployment settings. VitePress publication requires:
 
 - candidate content;
 - validation checklist;
 - required owner/reviewer/approver;
 - risk and compliance review where applicable;
 - publication authority confirmation.
+
+## Legacy GitBook Boundary
+
+GitBook references are legacy/deprecated unless the coordinator explicitly re-approves GitBook as a publication target. Legacy GitBook content must not be treated as the active publication source.
 
 ## Financial Claim Boundaries
 

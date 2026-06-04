@@ -10,9 +10,10 @@ Owner: Documentation Coordinator
 | ID | Title | Status | Owner Role | Dependencies | Notes |
 |---|---|---|---|---|---|
 | DOC-TASK-001 | Recover Documentation `.instructions` | Complete in REQ-02 | Documentation Coordinator | REQ-01 global docs recovery | Required operational files created or completed. |
-| DOC-TASK-002 | Map existing documentation assets | Pending | Documentation Coordinator | REQ-02 | Scope for REQ-03. Must cover `/docs`, `/Documents`, root files, GitBook, and legacy material. |
+| DOC-TASK-002 | Map existing documentation assets | Pending | Documentation Coordinator | REQ-02A | Scope for REQ-03. Must cover `/docs`, VitePress config/navigation, `/Documents`, root files, and legacy material. |
 | DOC-TASK-003 | Identify empty placeholder docs | Pending | Documentation Coordinator | REQ-01 BUB finding | Root global placeholders include `SECURITY.md`, `STANDARDS.md`, `PRODUCTS.md`, `MCP.md`, `TOKENOMICS.md`; Documentation placeholders require inventory. |
-| DOC-TASK-004 | Align official GitBook with local docs | Pending | Documentation Coordinator | DOC-TASK-002 | Must not publish during inventory. |
+| DOC-TASK-004 | Align VitePress documentation surface with local docs | Pending | Documentation Coordinator | DOC-TASK-002 | Must not publish or run builds during inventory unless explicitly approved. |
+| DOC-TASK-009 | Correct publication target from GitBook to VitePress | Complete in REQ-02A | Documentation Coordinator | REQ-02 | GitBook is legacy/not active; VitePress is active documentation platform. |
 | DOC-TASK-005 | Define versioning implementation path | Pending | Portfolio Coordinator | REQ-01 versioning strategy | Option B preferred; Option C via Documentation acceptable fallback. |
 | DOC-TASK-006 | Define publication approval flow | Candidate | Documentation Coordinator | OWNERSHIP.md and PUBLICATION_BOUNDARIES.md | Flow documented, not yet externally verified. |
 | DOC-TASK-007 | Create documentation validation checklist | Complete in REQ-02 | Documentation Coordinator | VALIDATION.md | Candidate/approved/published validation stages defined. |

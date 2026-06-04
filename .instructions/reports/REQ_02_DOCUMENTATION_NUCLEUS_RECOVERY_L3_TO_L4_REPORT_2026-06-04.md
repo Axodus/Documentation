@@ -128,16 +128,16 @@ Actual results:
 
 ## Maturity Assessment
 
-Documentation is an L4 candidate after REQ-02: the local `.instructions` recovery layer is structurally defined and ready for validation/review. This does not grant final L4 acceptance, official GitBook publication, production documentation approval, global docs versioning migration, governance approval, or any runtime/execution authority.
+Documentation is an L4 candidate after REQ-02: the local `.instructions` recovery layer is structurally defined and ready for validation/review. This does not grant final L4 acceptance, official VitePress publication, production documentation approval, global docs versioning migration, governance approval, or any runtime/execution authority.
 
-Documentation nucleus is not final L4 until versioning, ownership, GitBook alignment, and publication authority are formally approved or verified.
+Documentation nucleus is not final L4 until versioning, ownership, VitePress asset inventory/alignment, and publication authority are formally approved or verified.
 
 REQ-02 creates the operational recovery layer. It does not publish official documentation and does not approve production claims.
 
 ## Blockers
 
 - Documentation versioning path is not formally approved.
-- Official GitBook alignment is not fully validated in REQ-02.
+- VitePress asset inventory and alignment are not validated in REQ-02.
 - Publication authority is documented as gated, not verified as granted.
 - Root `/opt/Axodus` is not a Git repository and should not be initialized without explicit approval.
 - Empty placeholder global docs remain a global gap.
@@ -150,7 +150,7 @@ REQ-02 creates the operational recovery layer. It does not publish official docu
 - No repository restructuring.
 - No documentation folders moved.
 - No existing documentation deleted.
-- No publication to GitBook.
+- No publication to VitePress.
 - No production docs publication state changed.
 - No runtime source code changed.
 - No package files changed.
@@ -172,4 +172,4 @@ Execution Boundaries: PRESERVED
 
 ## Recommended Next Request
 
-REQ-03 - Documentation Asset Inventory & GitBook Alignment.
+REQ-03 - Documentation Asset Inventory & VitePress Alignment.
