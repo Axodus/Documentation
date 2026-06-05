@@ -74,3 +74,11 @@ Owner: Documentation Coordinator
 | DOC-REQ08-006 | Validate terminology and maturity alignment | Complete in REQ-08 | Documentation Coordinator | REQ-07 | Changed pages remain Draft and aligned with L4 candidate posture. |
 | DOC-REQ08-007 | Apply small validation-fix edits if safe | Not Needed in REQ-08 | Documentation Coordinator | REQ-08 | No content validation fixes were required. |
 | DOC-REQ08-008 | Create REQ-09 publication governance handoff | Complete in REQ-08 | Documentation Coordinator | REQ-08 | Handoff created with status `PROCEED_WITH_WARNINGS`. |
+| DOC-REQ09-001 | Read REQ-08 publication governance handoff | Complete in REQ-09 | Documentation Coordinator | REQ-08 | Handoff was `PROCEED_WITH_WARNINGS`. |
+| DOC-REQ09-002 | Define publication governance workflow | Complete in REQ-09 | Documentation Coordinator | REQ-08 | `DOCUMENTATION_PUBLICATION_GOVERNANCE.md` created. |
+| DOC-REQ09-003 | Create publication authority matrix | Complete in REQ-09 | Documentation Coordinator | REQ-09 | `DOCUMENTATION_PUBLICATION_AUTHORITY_MATRIX.md` created. |
+| DOC-REQ09-004 | Create VitePress release approval checklist | Complete in REQ-09 | Documentation Coordinator | REQ-09 | `VITEPRESS_RELEASE_APPROVAL_CHECKLIST.md` created. |
+| DOC-REQ09-005 | Create release candidate policy | Complete in REQ-09 | Documentation Coordinator | REQ-09 | `DOCUMENTATION_RELEASE_CANDIDATE_POLICY.md` created. |
+| DOC-REQ09-006 | Create rollback and post-publication audit policy | Complete in REQ-09 | Documentation Coordinator | REQ-09 | `DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md` created. |
+| DOC-REQ09-007 | Create REQ-10 publication execution handoff | Complete in REQ-09 | Documentation Coordinator | REQ-09 | Handoff created with status `READY_WITH_APPROVAL_BLOCKERS`. |
+| DOC-REQ09-008 | Create Documentation Sprint 01 closeout report | Complete in REQ-09 | Documentation Coordinator | REQ-09 | Sprint closeout report created; publication remains disabled. |

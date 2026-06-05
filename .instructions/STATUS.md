@@ -310,3 +310,42 @@ REQ-08 evidence:
 - `.instructions/DOCUMENTATION_CLAIM_SAFETY_VALIDATION.md`
 - `.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE_HANDOFF.md`
 - `.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md`
+
+## REQ-09 - Documentation Publication Governance & Release Workflow
+
+Status: COMPLETE
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- REQ-09 defines publication governance.
+- REQ-09 does not authorize publication.
+- Publication remains disabled until a separately approved publication execution request.
+
+Publication governance:
+
+- Authority matrix: COMPLETE
+- Release checklist: COMPLETE
+- Release candidate policy: COMPLETE
+- Rollback and post-publication audit: COMPLETE
+- REQ-10 handoff: READY_WITH_APPROVAL_BLOCKERS
+
+Execution state:
+
+- Runtime code: UNCHANGED
+- Package files: UNCHANGED
+- Lockfiles: UNCHANGED
+- Deployment config: UNCHANGED
+- VitePress publication: DISABLED
+- Production release claim: DISABLED
+
+REQ-09 evidence:
+
+- `.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE.md`
+- `.instructions/DOCUMENTATION_PUBLICATION_AUTHORITY_MATRIX.md`
+- `.instructions/VITEPRESS_RELEASE_APPROVAL_CHECKLIST.md`
+- `.instructions/DOCUMENTATION_RELEASE_CANDIDATE_POLICY.md`
+- `.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md`
+- `.instructions/REQ_10_HANDOFF_DOCUMENTATION_PUBLICATION_EXECUTION.md`
+- `.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md`
+- `.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md`

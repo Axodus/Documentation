@@ -185,6 +185,29 @@ Rules:
 | Published | Available through approved public documentation surface. |
 | Deprecated | Replaced or retired; retained for history only. |
 
+## Publication Governance Workflow
+
+Publication requires:
+
+1. Validated VitePress structure.
+2. Successful or accepted local build validation.
+3. Completed content inventory.
+4. Completed draft corrections.
+5. Completed content quality and claim-safety validation.
+6. Publication authority review.
+7. Coordinator approval.
+8. Release checklist completion.
+9. Rollback readiness.
+10. Separate publication execution authorization.
+
+Rules:
+
+- Local build does not authorize publication.
+- Candidate content does not authorize publication.
+- Release governance does not execute publication.
+- REQ-09 does not publish documentation.
+- Publication execution must be a separate approved request.
+
 ## Boundary
 
 Documentation changes must not alter runtime behavior. Documentation cannot enable production execution, wallet signing, treasury movement, trading, swaps, payouts, settlement, credentials, or on-chain writes.

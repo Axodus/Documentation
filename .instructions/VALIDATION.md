@@ -265,6 +265,33 @@ REQ-08 result:
 
 Passing REQ-08 does not authorize publication, production-readiness claims, or execution-sensitive claims.
 
+## REQ-09 Publication Governance Validation
+
+REQ-09 is valid when:
+
+- publication governance document exists;
+- authority matrix exists;
+- release approval checklist exists;
+- release candidate policy exists;
+- rollback and post-publication audit document exists;
+- REQ-10 handoff exists;
+- publication remains disabled;
+- deployment configuration remains unchanged;
+- package files remain unchanged;
+- no publication command was run.
+
+REQ-09 result:
+
+- Publication governance: COMPLETE.
+- Authority matrix: COMPLETE.
+- Release checklist: COMPLETE.
+- Release candidate policy: COMPLETE.
+- Rollback and post-publication audit: COMPLETE.
+- REQ-10 handoff: READY_WITH_APPROVAL_BLOCKERS.
+- VitePress publication: DISABLED.
+
+REQ-09 does not authorize publication. Publication execution requires a separate approved request.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

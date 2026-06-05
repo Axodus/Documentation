@@ -65,9 +65,12 @@ REQ-04 - VitePress Structural Validation & Local Build Readiness.
 | REQ-06 - Documentation Content Inventory & Editorial Gap Analysis | Complete | Inventoried 248 VitePress content pages, documented editorial gaps, registered high-risk claim categories, and created REQ-07 handoff. |
 | REQ-07 - Documentation Content Correction Drafts | Complete | Applied conservative draft/candidate corrections to authorized P1/P2 pages and created REQ-08 validation handoff. |
 | REQ-08 - Documentation Content Quality, Links & Consistency Validation | Complete | Validated corrected draft/candidate content, links/navigation, and claim safety before publication governance. |
-| REQ-09 - Documentation Publication Governance & Release Workflow | Pending | Define and validate approval, release, rollback, authority, and post-publication workflow. |
+| REQ-09 - Documentation Publication Governance & Release Workflow | Complete | Defined publication governance, authority matrix, release checklist, rollback, audit, and REQ-10 handoff. |
+| REQ-10 - Documentation Publication Execution Request | Blocked Until Explicit Approval | Future publication execution request; not authorized by REQ-09. |
 
-REQ-09 is not complete.
+REQ-10 is blocked until explicit approval.
+
+DOCUMENTATION SPRINT 01: COMPLETE.
 
 ## Active Documentation Sprint
 

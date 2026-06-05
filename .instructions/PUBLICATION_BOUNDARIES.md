@@ -194,3 +194,21 @@ REQ-09 must define publication governance.
 Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review before publication.
 
 REQ-08 validation evidence may support publication-governance planning, but it does not approve release, deployment, public publication, production-readiness claims, or high-risk claims.
+
+## REQ-09 Publication Governance Boundary
+
+Publication is disabled by default.
+
+REQ-09 does not authorize publication.
+
+Publication requires separate explicit approval.
+
+CI/CD must not be changed.
+
+Deployment settings must not be changed.
+
+Publication commands must not be run.
+
+Public financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review.
+
+REQ-10 is blocked until explicit approval, publication target confirmation, command authorization, reviewer approvals, and rollback readiness are documented.
