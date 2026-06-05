@@ -42,3 +42,11 @@ Owner: Documentation Coordinator
 | DOC-REQ04-006 | Determine package manager and build command | Complete in REQ-04 | Documentation Coordinator | REQ-03 | `npm run docs:build` recommended; npm/pnpm ambiguity documented. |
 | DOC-REQ04-007 | Determine local build readiness | Complete in REQ-04 | Documentation Coordinator | REQ-03 | Build readiness classified `READY_WITH_CONDITIONS`. |
 | DOC-REQ04-008 | Create REQ-05 local build validation handoff | Complete in REQ-04 | Documentation Coordinator | REQ-04 | Handoff classified `PROCEED_WITH_CONDITIONS`. |
+| DOC-REQ05-001 | Verify REQ-04 build handoff | Complete in REQ-05 | Documentation Coordinator | REQ-04 | Handoff was `PROCEED_WITH_CONDITIONS`; conditions were documented before build. |
+| DOC-REQ05-002 | Confirm package manager and build command | Complete in REQ-05 | Documentation Coordinator | REQ-04 | Used `npm run docs:build` from REQ-04 handoff. |
+| DOC-REQ05-003 | Confirm dependencies are already available | Complete in REQ-05 | Documentation Coordinator | REQ-04 | `node_modules/`, VitePress binary, and VitePress package were present before build. |
+| DOC-REQ05-004 | Record pre-build git status | Complete in REQ-05 | Documentation Coordinator | REQ-04 | Pre-build status was clean: `## main...origin/main`. |
+| DOC-REQ05-005 | Execute local VitePress build if authorized | Complete in REQ-05 | Documentation Coordinator | REQ-04 | Build executed with exit code `0`; no install, dev, preview, publish, or deploy command run. |
+| DOC-REQ05-006 | Review build output | Complete in REQ-05 | Documentation Coordinator | REQ-05 | Output exists under ignored `docs/.vitepress/dist/`; warning recorded for chunk size. |
+| DOC-REQ05-007 | Record post-build git status | Complete in REQ-05 | Documentation Coordinator | REQ-05 | Post-build status remained clean before documentation updates. |
+| DOC-REQ05-008 | Create REQ-06 content inventory handoff | Complete in REQ-05 | Documentation Coordinator | REQ-05 | Handoff created with status `PROCEED_WITH_WARNINGS`. |

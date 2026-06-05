@@ -158,6 +158,43 @@ Successful local build does not equal publication approval.
 
 Publication approval requires explicit authorization.
 
+## Local Build Validation Requirements
+
+REQ-05 evidence files:
+
+- `.instructions/VITEPRESS_LOCAL_BUILD_VALIDATION.md`
+- `.instructions/VITEPRESS_BUILD_OUTPUT_REVIEW.md`
+- `.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md`
+
+Before running build:
+
+- REQ-04 handoff must be PROCEED or PROCEED_WITH_CONDITIONS.
+- Build command must be known.
+- No install may be required.
+- Dependencies must already be available.
+- Command must not publish or deploy.
+- Output path must be known or discoverable.
+- Pre-build git status must be recorded.
+
+After running build:
+
+- Build result must be recorded.
+- Warnings/errors must be summarized.
+- Output directory must be inspected.
+- Generated artifacts must not be staged.
+- Post-build git status must be recorded.
+- REQ-06 handoff must be created.
+
+REQ-05 result:
+
+- Build result: PASS_WITH_WARNINGS.
+- Build command: `npm run docs:build`.
+- Generated output reviewed: YES.
+- Generated artifacts staged: NO.
+- REQ-06 handoff: PROCEED_WITH_WARNINGS.
+
+Passing local build does not authorize publication, content approval, production-readiness claims, or execution-sensitive claims.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

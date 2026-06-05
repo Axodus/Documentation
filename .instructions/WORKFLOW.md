@@ -114,6 +114,19 @@ REQ-04 does not authorize build execution.
 
 REQ-05 may run only the approved local build validation command and must not install dependencies, publish docs, start dev/preview servers, change package files, or change deployment configuration.
 
+## Local Build Validation Workflow
+
+Local VitePress build validation is allowed only after structural readiness is documented.
+
+Rules:
+
+- Local build does not equal publication.
+- Local build does not approve content.
+- Local build does not approve financial, tokenomics, APY, treasury, governance, legal, security, production-readiness, or execution claims.
+- Build output must not be staged unless explicitly approved.
+- Publication remains disabled until REQ-09 or a separately approved publication request.
+- REQ-05 output may be used as evidence for REQ-06 content inventory, but not as publication authority.
+
 ## Documentation States
 
 | State | Meaning |

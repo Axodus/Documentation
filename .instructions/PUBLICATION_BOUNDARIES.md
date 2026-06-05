@@ -138,3 +138,19 @@ Passing REQ-04 does not authorize content rewrites.
 Published docs must not contain unapproved financial, APY, tokenomics, treasury, legal, governance, production-readiness, security, or execution claims.
 
 REQ-04 does not run a build, start a dev server, publish documentation, or approve release readiness.
+
+## REQ-05 Local Build Validation Boundary
+
+VitePress local build validation does not authorize publication.
+
+Passing build does not approve content.
+
+Passing build does not approve production-readiness claims.
+
+CI/CD publication must not be changed.
+
+Deployment settings must not be changed.
+
+Published docs require explicit approval.
+
+REQ-05 build output must remain local, ignored, unstaged, and uncommitted unless a future approved publication/build-output policy says otherwise.
