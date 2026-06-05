@@ -79,6 +79,28 @@ Published docs must not contain unapproved financial, tokenomics, treasury, APY,
 
 REQ-03 completes inventory alignment only. It does not approve VitePress build, preview, deployment, publication, or release claims.
 
+## Content Change Workflow
+
+Documentation content changes must follow this workflow:
+
+1. Inventory.
+2. Editorial gap analysis.
+3. Draft correction.
+4. Candidate validation.
+5. Approval review.
+6. Publication authorization.
+7. Publication.
+8. Post-publication audit.
+
+Rules:
+
+- Draft content is not official documentation.
+- Candidate content is not publication approval.
+- Passing local build is not publication approval.
+- Publication requires explicit approval.
+- Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review.
+- Content rewrites must not start before the content inventory and editorial gap analysis are documented.
+
 ## Documentation States
 
 | State | Meaning |

@@ -97,3 +97,28 @@ Documentation can record governance outcomes only when approval evidence exists.
 ## Publication State Rule
 
 Draft or candidate material must not be presented as published or official.
+
+## Content Publication Boundary
+
+Content changes may be prepared locally as draft or candidate.
+
+Content changes must not be treated as published or official unless publication is explicitly approved.
+
+The following claims require explicit review before publication:
+
+- APY;
+- returns;
+- investment performance;
+- treasury;
+- tokenomics;
+- governance authority;
+- audits;
+- security guarantees;
+- production readiness;
+- wallet/on-chain execution;
+- trading;
+- swaps;
+- payouts;
+- legal/compliance.
+
+Content corrections must not imply that execution, treasury, wallet, trading, swaps, payouts, settlement, or on-chain writes are enabled.

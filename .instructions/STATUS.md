@@ -59,7 +59,7 @@ REQ-02 creates an operational recovery layer. It does not publish to GitBook, Vi
 
 ## Next Recommended Request
 
-REQ-03 - Documentation Asset Inventory & VitePress Alignment.
+REQ-04 - VitePress Structural Validation & Local Build Readiness.
 
 ## Publication Platform
 
@@ -106,3 +106,31 @@ REQ-03 evidence:
 - `.instructions/VITEPRESS_ALIGNMENT.md`
 - `.instructions/VITEPRESS_VALIDATION_PLAN.md`
 - `.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md`
+
+## Documentation Content Change Pipeline
+
+Status: CREATED
+
+Active platform:
+
+VitePress
+
+Current maturity:
+
+L4 candidate
+
+Content change status:
+
+- Content inventory: PENDING
+- Editorial gap analysis: PENDING
+- Draft content corrections: PENDING
+- Content validation: PENDING
+- Publication governance: PENDING
+
+Publication:
+
+DISABLED
+
+Maturity note:
+
+Documentation remains L4 candidate. Content changes may be prepared as draft/candidate only. Publication requires explicit approval.

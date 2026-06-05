@@ -26,3 +26,11 @@ Owner: Documentation Coordinator
 | DOC-REQ03-006 | Define VitePress validation stages | Complete in REQ-03 | Documentation Coordinator | REQ-02A | Stage 0 through Stage 5 validation plan created. |
 | DOC-REQ03-007 | Update Documentation status and blockers | Complete in REQ-03 | Documentation Coordinator | REQ-02A | STATUS and BLOCKER_REGISTER updated; final L4 remains blocked. |
 | DOC-REQ03-008 | Prepare REQ-04 structural validation handoff | Complete in REQ-03 | Documentation Coordinator | REQ-03 | REQ-04 defined as VitePress Structural Validation & Local Build Readiness. |
+| DOC-SPRINT01-001 | Define content change pipeline | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-03 | Created `DOCUMENTATION_CONTENT_CHANGE_PIPELINE.md`. |
+| DOC-SPRINT01-002 | Update Documentation roadmap sequence | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-03 | REQ-04 through REQ-09 defined in corrected order. |
+| DOC-SPRINT01-003 | Define content inventory request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-03 | REQ-06 defines content inventory and editorial gap analysis. |
+| DOC-SPRINT01-004 | Define editorial gap analysis request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-03 | Editorial gap classifications and high-risk topics defined. |
+| DOC-SPRINT01-005 | Define draft correction request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-06 | REQ-07 defines controlled draft/candidate corrections. |
+| DOC-SPRINT01-006 | Define content validation request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-07 | REQ-08 defines quality, links, consistency, and claim validation. |
+| DOC-SPRINT01-007 | Define publication governance request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-08 | REQ-09 defines publication governance and release workflow. |
+| DOC-SPRINT01-008 | Update blockers and status | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-03 | STATUS and BLOCKER_REGISTER updated for content pipeline blockers. |

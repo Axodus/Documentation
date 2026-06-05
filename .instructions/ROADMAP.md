@@ -34,14 +34,15 @@ Owner: Documentation Coordinator
 
 ## Publication Pipeline Tasks
 
-1. Draft documentation updates.
-2. Run internal validation checklist.
-3. Review source-of-truth and risk language.
-4. Confirm owner and approver.
-5. Prepare candidate publication package.
-6. Obtain publication approval.
-7. Publish through approved workflow only.
-8. Record published version and source links.
+1. Complete VitePress structural validation.
+2. Complete local build validation.
+3. Complete content inventory.
+4. Complete editorial gap analysis.
+5. Prepare controlled draft content corrections.
+6. Validate content quality, links, and consistency.
+7. Confirm publication governance and release workflow.
+8. Publish only through separately approved publication action.
+9. Record published version and source links.
 
 ## Governance Approval Tasks
 
@@ -59,7 +60,33 @@ REQ-04 - VitePress Structural Validation & Local Build Readiness.
 | Request | Status | Purpose |
 |---|---|---|
 | REQ-03 - Documentation Asset Inventory & VitePress Alignment | Complete | Inventoried VitePress source/config/navigation/assets/scripts and documented alignment baseline. |
-| REQ-04 - VitePress Structural Validation & Local Build Readiness | Pending | Run approved structural checks, local build readiness validation, and link/content validation planning. |
-| REQ-05 - Documentation Publication Governance & Release Workflow | Pending | Confirm publication authority, release workflow, deployment target, approval evidence, and post-publication audit rules. |
+| REQ-04 - VitePress Structural Validation & Local Build Readiness | Pending | Validate source root, config, theme, nav/sidebar, assets, and build readiness without running a build by default. |
+| REQ-05 - VitePress Local Build Validation | Pending | Run documented local VitePress build only if safe, dependencies are available, no install is required, and no publication is triggered. |
+| REQ-06 - Documentation Content Inventory & Editorial Gap Analysis | Pending | Inventory all VitePress documentation content and identify editorial gaps before any rewrite. |
+| REQ-07 - Documentation Content Correction Drafts | Pending | Create controlled draft/candidate content corrections based on REQ-06 findings. |
+| REQ-08 - Documentation Content Quality, Links & Consistency Validation | Pending | Validate corrected draft/candidate content before publication governance. |
+| REQ-09 - Documentation Publication Governance & Release Workflow | Pending | Define and validate approval, release, rollback, authority, and post-publication workflow. |
 
-REQ-04 and REQ-05 are not complete.
+REQ-04 through REQ-09 are not complete.
+
+## Active Documentation Sprint
+
+### DOCUMENTATION SPRINT 01 - VitePress Validation & Documentation Content Change Pipeline
+
+Sequence:
+
+1. REQ-04 - VitePress Structural Validation & Local Build Readiness
+2. REQ-05 - VitePress Local Build Validation
+3. REQ-06 - Documentation Content Inventory & Editorial Gap Analysis
+4. REQ-07 - Documentation Content Correction Drafts
+5. REQ-08 - Documentation Content Quality, Links & Consistency Validation
+6. REQ-09 - Documentation Publication Governance & Release Workflow
+
+Execution policy:
+
+- Structure before build.
+- Build before content validation.
+- Inventory before rewriting.
+- Draft corrections before publication.
+- Validation before approval.
+- Approval before publication.

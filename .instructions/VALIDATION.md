@@ -103,6 +103,27 @@ REQ-03 result:
 - Publication target is not formally approved; `og:url` metadata references a Vercel URL, but no repo-local deployment workflow was found.
 - GitBook references remain legacy-only or historical.
 
+## Content Validation Requirements
+
+Before content can be considered candidate, validate:
+
+- internal links;
+- navigation/sidebar consistency;
+- terminology consistency;
+- no unsupported APY or return promises;
+- no investment advice;
+- no unsupported security/audit claims;
+- no production-readiness claims exceeding actual maturity;
+- no execution claims for treasury, wallet, trading, swaps, payouts, or on-chain writes;
+- no secrets or operational leakage;
+- alignment with global `.instructions`;
+- alignment with nucleus `.instructions`;
+- alignment with the maturity register.
+
+Content validation does not authorize publication.
+
+Content validation must occur after content inventory, editorial gap analysis, and draft correction. Passing validation returns content to candidate state only unless publication is separately approved.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.
