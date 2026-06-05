@@ -242,6 +242,29 @@ REQ-07 result:
 
 REQ-07 does not replace REQ-08 content quality validation.
 
+## REQ-08 Content Validation Requirements
+
+REQ-08 is valid when:
+
+- changed files from REQ-07 are validated;
+- internal links are checked statically;
+- nav/sidebar consistency is checked;
+- high-risk claims are inspected;
+- unsupported claims are removed or blocked;
+- no secrets are present;
+- no publication occurred;
+- REQ-09 handoff exists.
+
+REQ-08 result:
+
+- Content quality: PASS_WITH_WARNINGS.
+- Link/navigation: PASS_WITH_WARNINGS.
+- Claim safety: PASS_WITH_WARNINGS.
+- REQ-09 handoff: PROCEED_WITH_WARNINGS.
+- Public content validation fixes: NONE.
+
+Passing REQ-08 does not authorize publication, production-readiness claims, or execution-sensitive claims.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

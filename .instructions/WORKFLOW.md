@@ -131,6 +131,24 @@ Rules:
 - REQ-08 validation is mandatory after draft corrections.
 - REQ-07 corrections must remain reviewable through `DOCUMENTATION_DRAFT_CHANGELOG.md` and `DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md`.
 
+## Candidate Content Validation Workflow
+
+Candidate content validation must confirm:
+
+- content quality;
+- link/navigation consistency;
+- claim safety;
+- maturity alignment;
+- source-of-truth alignment;
+- no publication without approval.
+
+Rules:
+
+- Passing REQ-08 prepares REQ-09.
+- Passing REQ-08 does not authorize publication.
+- Candidate content remains unpublished until publication governance is approved.
+- High-risk claims remain blocked from publication until enhanced reviews are recorded.
+
 ## REQ-04 to REQ-05 Build Handoff Workflow
 
 1. Complete structural validation without running a build.

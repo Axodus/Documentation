@@ -66,3 +66,11 @@ Owner: Documentation Coordinator
 | DOC-REQ07-006 | Create claim resolution notes | Complete in REQ-07 | Documentation Coordinator | REQ-07 | `DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md` created. |
 | DOC-REQ07-007 | Create REQ-08 validation handoff | Complete in REQ-07 | Documentation Coordinator | REQ-07 | Handoff created with status `PROCEED_WITH_WARNINGS`. |
 | DOC-REQ07-008 | Validate documentation-only diff | Complete in REQ-07 | Documentation Coordinator | REQ-07 | Final validation performed before commit. |
+| DOC-REQ08-001 | Read REQ-08 validation handoff | Complete in REQ-08 | Documentation Coordinator | REQ-07 | Handoff was `PROCEED_WITH_WARNINGS`. |
+| DOC-REQ08-002 | Validate changed pages from REQ-07 | Complete in REQ-08 | Documentation Coordinator | REQ-07 | 15 changed pages validated as candidate content with warnings. |
+| DOC-REQ08-003 | Validate internal links statically | Complete in REQ-08 | Documentation Coordinator | REQ-07 | 25 internal links inspected in changed pages; 0 missing targets. |
+| DOC-REQ08-004 | Validate nav/sidebar consistency | Complete in REQ-08 | Documentation Coordinator | REQ-07 | 275 config nav/sidebar links inspected; 0 missing targets. |
+| DOC-REQ08-005 | Validate high-risk claim handling | Complete in REQ-08 | Documentation Coordinator | REQ-07 | No unsafe claims found; high-risk reviews remain required before publication. |
+| DOC-REQ08-006 | Validate terminology and maturity alignment | Complete in REQ-08 | Documentation Coordinator | REQ-07 | Changed pages remain Draft and aligned with L4 candidate posture. |
+| DOC-REQ08-007 | Apply small validation-fix edits if safe | Not Needed in REQ-08 | Documentation Coordinator | REQ-08 | No content validation fixes were required. |
+| DOC-REQ08-008 | Create REQ-09 publication governance handoff | Complete in REQ-08 | Documentation Coordinator | REQ-08 | Handoff created with status `PROCEED_WITH_WARNINGS`. |

@@ -182,3 +182,15 @@ Passing REQ-07 does not approve publication.
 Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review.
 
 REQ-07 corrections must not be treated as official release content until REQ-08 validation and publication governance are complete.
+
+## REQ-08 Content Validation Boundary
+
+Passing REQ-08 does not authorize publication.
+
+Candidate content is not published content.
+
+REQ-09 must define publication governance.
+
+Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review before publication.
+
+REQ-08 validation evidence may support publication-governance planning, but it does not approve release, deployment, public publication, production-readiness claims, or high-risk claims.

@@ -276,3 +276,37 @@ REQ-07 evidence:
 - `.instructions/DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md`
 - `.instructions/REQ_08_HANDOFF_DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md`
 - `.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md`
+
+## REQ-08 - Documentation Content Quality, Links & Consistency Validation
+
+Status: COMPLETE
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Content validation evidence is created.
+- Passing content validation does not authorize publication.
+- REQ-09 publication governance is required before any publication.
+
+Validation result:
+
+- Content quality: PASS_WITH_WARNINGS
+- Link/navigation: PASS_WITH_WARNINGS
+- Claim safety: PASS_WITH_WARNINGS
+- REQ-09 handoff: PROCEED_WITH_WARNINGS
+
+Execution state:
+
+- Runtime code: UNCHANGED
+- Package files: UNCHANGED
+- Lockfiles: UNCHANGED
+- Docs publication: DISABLED
+- Production release claim: DISABLED
+
+REQ-08 evidence:
+
+- `.instructions/DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md`
+- `.instructions/DOCUMENTATION_LINK_AND_NAV_VALIDATION.md`
+- `.instructions/DOCUMENTATION_CLAIM_SAFETY_VALIDATION.md`
+- `.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE_HANDOFF.md`
+- `.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md`
