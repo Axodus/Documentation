@@ -195,6 +195,32 @@ REQ-05 result:
 
 Passing local build does not authorize publication, content approval, production-readiness claims, or execution-sensitive claims.
 
+## REQ-06 Content Inventory Validation
+
+REQ-06 is valid when:
+
+- all detected Markdown pages are inventoried;
+- nav/sidebar coverage is documented;
+- placeholders and empty pages are flagged;
+- high-risk claims are registered;
+- editorial gaps are documented;
+- REQ-07 handoff exists;
+- no content rewrite was performed;
+- publication remains disabled.
+
+REQ-06 result:
+
+- Markdown pages inventoried: 248.
+- Nav/sidebar targets detected: 248.
+- Missing nav/sidebar targets: 0.
+- Orphan pages: 0.
+- Placeholder or empty pages flagged: 6.
+- Editorial gap analysis: COMPLETE.
+- High-risk claims register: COMPLETE.
+- REQ-07 handoff: PROCEED_WITH_CONDITIONS.
+
+REQ-06 inventory and gap analysis do not authorize publication, claim approval, production readiness, or content rewrites outside a future scoped request.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

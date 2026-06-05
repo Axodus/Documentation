@@ -206,3 +206,39 @@ REQ-05 evidence:
 - `.instructions/VITEPRESS_BUILD_OUTPUT_REVIEW.md`
 - `.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md`
 - `.instructions/reports/REQ_05_VITEPRESS_LOCAL_BUILD_VALIDATION_2026-06-05.md`
+
+## REQ-06 - Documentation Content Inventory & Editorial Gap Analysis
+
+Status: COMPLETE
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Content inventory evidence is created.
+- Content correction is not started in REQ-06.
+- Publication remains disabled.
+- High-risk claim review remains required before publication.
+
+Content pipeline:
+
+- Content inventory: COMPLETE
+- Editorial gap analysis: COMPLETE
+- High-risk claims register: COMPLETE
+- REQ-07 handoff: PROCEED_WITH_CONDITIONS
+
+Execution state:
+
+- Runtime code: UNCHANGED
+- Package files: UNCHANGED
+- Lockfiles: UNCHANGED
+- Docs content rewrite: NOT PERFORMED
+- Docs publication: DISABLED
+- Production release claim: DISABLED
+
+REQ-06 evidence:
+
+- `.instructions/DOCUMENTATION_CONTENT_INVENTORY.md`
+- `.instructions/DOCUMENTATION_EDITORIAL_GAP_ANALYSIS.md`
+- `.instructions/DOCUMENTATION_HIGH_RISK_CLAIMS_REGISTER.md`
+- `.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md`
+- `.instructions/reports/REQ_06_DOCUMENTATION_CONTENT_INVENTORY_AND_EDITORIAL_GAP_ANALYSIS_2026-06-05.md`

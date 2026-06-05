@@ -101,6 +101,23 @@ Rules:
 - Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review.
 - Content rewrites must not start before the content inventory and editorial gap analysis are documented.
 
+## Content Inventory Workflow
+
+Content inventory precedes all content rewriting.
+
+Inventory must classify:
+
+- page status;
+- navigation status;
+- risk level;
+- review requirements;
+- correction priority;
+- high-risk claims.
+
+No page may be rewritten before it is inventoried or explicitly scoped for correction.
+
+REQ-06 completed inventory and editorial gap analysis only. It does not authorize publication or content approval.
+
 ## REQ-04 to REQ-05 Build Handoff Workflow
 
 1. Complete structural validation without running a build.

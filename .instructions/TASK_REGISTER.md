@@ -50,3 +50,11 @@ Owner: Documentation Coordinator
 | DOC-REQ05-006 | Review build output | Complete in REQ-05 | Documentation Coordinator | REQ-05 | Output exists under ignored `docs/.vitepress/dist/`; warning recorded for chunk size. |
 | DOC-REQ05-007 | Record post-build git status | Complete in REQ-05 | Documentation Coordinator | REQ-05 | Post-build status remained clean before documentation updates. |
 | DOC-REQ05-008 | Create REQ-06 content inventory handoff | Complete in REQ-05 | Documentation Coordinator | REQ-05 | Handoff created with status `PROCEED_WITH_WARNINGS`. |
+| DOC-REQ06-001 | Resolve VitePress content root | Complete in REQ-06 | Documentation Coordinator | REQ-05 | Active content root resolved as `docs/`. |
+| DOC-REQ06-002 | Inventory Markdown pages | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 248 Markdown pages inventoried under `docs/`, excluding generated output. |
+| DOC-REQ06-003 | Map nav/sidebar coverage | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 248 nav/sidebar targets mapped; 0 missing targets and 0 orphan pages found. |
+| DOC-REQ06-004 | Identify placeholders and empty pages | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 6 placeholder/context pages flagged. |
+| DOC-REQ06-005 | Identify duplicate or overlapping pages | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 11 repeated page-title groups flagged for terminology consistency review. |
+| DOC-REQ06-006 | Identify editorial gaps | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 38 editorial gap records created. |
+| DOC-REQ06-007 | Register high-risk claims | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 17 sensitive claim categories registered by static keyword inspection. |
+| DOC-REQ06-008 | Create REQ-07 correction handoff | Complete in REQ-06 | Documentation Coordinator | REQ-06 | Handoff created with status `PROCEED_WITH_CONDITIONS`. |

@@ -154,3 +154,19 @@ Deployment settings must not be changed.
 Published docs require explicit approval.
 
 REQ-05 build output must remain local, ignored, unstaged, and uncommitted unless a future approved publication/build-output policy says otherwise.
+
+## REQ-06 Content Inventory Boundary
+
+Inventory does not authorize publication.
+
+Gap analysis does not authorize publication.
+
+Claim review does not approve claims.
+
+High-risk claims must be reviewed before publication.
+
+Draft correction must occur before candidate validation.
+
+Candidate validation must occur before publication governance.
+
+REQ-06 does not rewrite documentation content, approve public claims, or change publication state.
