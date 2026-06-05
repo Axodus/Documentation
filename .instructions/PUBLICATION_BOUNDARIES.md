@@ -170,3 +170,15 @@ Draft correction must occur before candidate validation.
 Candidate validation must occur before publication governance.
 
 REQ-06 does not rewrite documentation content, approve public claims, or change publication state.
+
+## REQ-07 Draft Correction Boundary
+
+Draft corrections do not authorize publication.
+
+Candidate content does not authorize publication.
+
+Passing REQ-07 does not approve publication.
+
+Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review.
+
+REQ-07 corrections must not be treated as official release content until REQ-08 validation and publication governance are complete.

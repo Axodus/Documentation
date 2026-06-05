@@ -58,3 +58,11 @@ Owner: Documentation Coordinator
 | DOC-REQ06-006 | Identify editorial gaps | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 38 editorial gap records created. |
 | DOC-REQ06-007 | Register high-risk claims | Complete in REQ-06 | Documentation Coordinator | REQ-05 | 17 sensitive claim categories registered by static keyword inspection. |
 | DOC-REQ06-008 | Create REQ-07 correction handoff | Complete in REQ-06 | Documentation Coordinator | REQ-06 | Handoff created with status `PROCEED_WITH_CONDITIONS`. |
+| DOC-REQ07-001 | Read REQ-06 correction handoff | Complete in REQ-07 | Documentation Coordinator | REQ-06 | Handoff was `PROCEED_WITH_CONDITIONS`. |
+| DOC-REQ07-002 | Create correction plan | Complete in REQ-07 | Documentation Coordinator | REQ-06 | `DOCUMENTATION_CONTENT_CORRECTION_PLAN.md` created. |
+| DOC-REQ07-003 | Apply draft content corrections | Complete in REQ-07 | Documentation Coordinator | REQ-06 | 15 authorized content pages corrected as draft/candidate. |
+| DOC-REQ07-004 | Resolve or flag high-risk claims | Complete in REQ-07 | Documentation Coordinator | REQ-06 | Claims softened, disclaimed, marked draft, or left for review. |
+| DOC-REQ07-005 | Update draft changelog | Complete in REQ-07 | Documentation Coordinator | REQ-07 | `DOCUMENTATION_DRAFT_CHANGELOG.md` created. |
+| DOC-REQ07-006 | Create claim resolution notes | Complete in REQ-07 | Documentation Coordinator | REQ-07 | `DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md` created. |
+| DOC-REQ07-007 | Create REQ-08 validation handoff | Complete in REQ-07 | Documentation Coordinator | REQ-07 | Handoff created with status `PROCEED_WITH_WARNINGS`. |
+| DOC-REQ07-008 | Validate documentation-only diff | Complete in REQ-07 | Documentation Coordinator | REQ-07 | Final validation performed before commit. |

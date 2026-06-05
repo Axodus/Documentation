@@ -2,7 +2,7 @@
 
 Status: Draft  
 Version: 0.1.0  
-Last Updated: 2026-05-16  
+Last Updated: 2026-06-05
 Owner: Governance Nucleus
 
 ---
@@ -29,7 +29,7 @@ Treasury updates should include asset movements, allocation changes, risk exposu
 
 ## Relationship to Execution Receipts
 
-Execution receipts are the bridge between approved governance intent and completed action. They feed governance records, financial reports, treasury reporting, release notes, federation registries, and plugin registries.
+Execution receipts are the bridge between approved governance intent and action that has verifiable completion evidence. They feed governance records, financial reports, treasury reporting, release notes, federation registries, and plugin registries only when the underlying action and record source can be reviewed.
 
 ## Governance Touchpoints
 
@@ -41,4 +41,6 @@ Governance without records weakens trust. Records must not exaggerate implementa
 
 ## Current Status
 
-This accountability model is a documentation and process requirement. Final storage, publication cadence, templates, and automation remain to be defined.
+This accountability model is a documentation and process requirement. Final storage, publication cadence, templates, and automation remain planned and require governance/coordinator approval before they are treated as official operating procedure.
+
+This page does not approve execution, treasury actions, publication of financial reports, governance automation, or production indexing.

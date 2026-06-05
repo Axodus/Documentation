@@ -221,6 +221,27 @@ REQ-06 result:
 
 REQ-06 inventory and gap analysis do not authorize publication, claim approval, production readiness, or content rewrites outside a future scoped request.
 
+## REQ-07 Draft Correction Validation
+
+REQ-07 is valid when:
+
+- every changed file is listed in `DOCUMENTATION_DRAFT_CHANGELOG.md`;
+- claim changes are documented in `DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md`;
+- high-risk claims are removed, softened, disclaimed, blocked, or marked for review;
+- no package files changed;
+- no publication occurred;
+- REQ-08 handoff exists.
+
+REQ-07 result:
+
+- Correction plan: COMPLETE.
+- Draft changes applied: YES.
+- Changed content files listed: 15.
+- High-risk claims resolved: PARTIAL.
+- REQ-08 handoff: PROCEED_WITH_WARNINGS.
+
+REQ-07 does not replace REQ-08 content quality validation.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

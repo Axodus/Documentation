@@ -118,6 +118,19 @@ No page may be rewritten before it is inventoried or explicitly scoped for corre
 
 REQ-06 completed inventory and editorial gap analysis only. It does not authorize publication or content approval.
 
+## Draft Content Correction Workflow
+
+Draft content corrections must be based on REQ-06 inventory and editorial gap analysis.
+
+Rules:
+
+- Draft content is not official documentation.
+- Candidate content is not publication approval.
+- Corrections must not introduce unsupported APY, return, security, audit, production, treasury, trading, swap, payout, wallet, or on-chain claims.
+- High-risk claims require enhanced review.
+- REQ-08 validation is mandatory after draft corrections.
+- REQ-07 corrections must remain reviewable through `DOCUMENTATION_DRAFT_CHANGELOG.md` and `DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md`.
+
 ## REQ-04 to REQ-05 Build Handoff Workflow
 
 1. Complete structural validation without running a build.

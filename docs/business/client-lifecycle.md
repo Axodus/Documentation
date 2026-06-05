@@ -2,7 +2,7 @@
 
 Status: Draft  
 Version: 0.1.0  
-Last Updated: 2026-05-16  
+Last Updated: 2026-06-05
 Owner: Axodus Business
 
 ---
@@ -24,7 +24,7 @@ This lifecycle applies to Business-managed engagements. It does not replace gove
 5. Classification: identify request type, responsible nucleus, risk, and governance touchpoints.
 6. Scope and proposal: define deliverables, timeline, resources, funding model, and acceptance criteria.
 7. Approval and onboarding: confirm authority, records, communication channel, and delivery setup.
-8. Delivery: execute work against approved scope.
+8. Delivery: perform scoped delivery work against approved scope.
 9. Change management: handle new requests or scope changes.
 10. Acceptance: confirm whether deliverables match approved scope.
 11. Support or iteration: define post-delivery support or the next phase.
@@ -56,4 +56,8 @@ Acceptance criteria should include deliverables, functional requirements, docume
 
 ## Current Status
 
-The lifecycle is a documentation baseline. Specific CRM tooling, status storage, and commercial agreement templates remain to be defined.
+The lifecycle is a documentation baseline. Specific CRM tooling, status storage, and commercial agreement templates remain planned and require coordinator, Business owner, legal/compliance, and security review where applicable.
+
+This page does not approve commercial terms, treasury movement, tokenomics commitments, governance outcomes, production delivery promises, or financial results.
+
+Business delivery language refers to scoped service delivery only. It does not authorize transaction execution, wallet signing, treasury operations, governance execution, or production deployment.

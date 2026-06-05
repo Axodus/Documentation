@@ -2,7 +2,7 @@
 
 Status: Draft  
 Version: 0.1.0  
-Last Updated: 2026-05-16  
+Last Updated: 2026-06-05
 Owner: Security
 
 ---
@@ -34,4 +34,14 @@ Security risk includes smart contract vulnerabilities, wallet compromise, API ke
 
 ## Security Contact
 
-Security Contact: To be defined.
+Security contact:
+
+`Pending coordinator/security approval`
+
+This draft does not publish an official public disclosure contact, audit program, bug bounty, or incident-response SLA.
+
+## Publication Boundary
+
+Security pages describe expectations and review boundaries. They do not prove that Axodus products are audited, production-ready, vulnerability-free, or safe for live fund movement.
+
+Security-sensitive claims require evidence and review before publication, especially claims about smart contracts, wallets, credentials, treasury operations, trading APIs, production deployments, audits, and incident response.

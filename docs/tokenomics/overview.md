@@ -2,14 +2,14 @@
 
 Status: Draft
 Version: 0.2.0
-Last Updated: 2026-05-16
+Last Updated: 2026-06-05
 Owner: Axodus Tokenomics
 
 ---
 
 ## Purpose
 
-Axodus Tokenomics documents the `$Neurons` Token System: an ERC-20 token infrastructure with fixed maximum supply, controlled issuance, cryptographic authorization, anti-abuse limits, and planned cross-chain expansion.
+Axodus Tokenomics documents the draft/candidate `$Neurons` Token System: an ERC-20 token infrastructure model with fixed maximum supply, controlled issuance, cryptographic authorization, anti-abuse limits, and planned cross-chain expansion, subject to source-of-truth verification before public finalization.
 
 ## Scope
 
@@ -37,6 +37,8 @@ The current model is **controlled issuance tokenomics**, not allocation-based to
 - burn support;
 - preparation for LayerZero OFT v2 cross-chain expansion.
 
+These parameters require source-of-truth verification against contracts, implementation records, and governance/security review before they can be treated as final public tokenomics.
+
 ## What Is Not Defined
 
 The current model does not define:
@@ -50,7 +52,7 @@ The current model does not define:
 - liquidity allocation;
 - fixed percentage distribution tables.
 
-These items must remain `Planned`, `Future`, or `To Be Defined` unless contracts, governance records, and implementation documents define them.
+These items must remain `Planned`, `Future`, or `Requires Review` unless contracts, governance records, and implementation documents define them.
 
 ## System Pillars
 
@@ -82,3 +84,7 @@ These items must remain `Planned`, `Future`, or `To Be Defined` unless contracts
 ## Risk Considerations
 
 `$Neurons` must not be documented as an investment product, guaranteed return asset, guaranteed yield token, passive income mechanism, or legally finalized governance/staking system. Future utility requires contract, product, security, and governance validation.
+
+## Draft Boundary
+
+This page is draft/candidate tokenomics documentation. It does not approve public sale terms, allocation percentages, staking economics, treasury allocation, DEX liquidity, investment claims, APY, or production token launch status.

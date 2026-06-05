@@ -242,3 +242,37 @@ REQ-06 evidence:
 - `.instructions/DOCUMENTATION_HIGH_RISK_CLAIMS_REGISTER.md`
 - `.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md`
 - `.instructions/reports/REQ_06_DOCUMENTATION_CONTENT_INVENTORY_AND_EDITORIAL_GAP_ANALYSIS_2026-06-05.md`
+
+## REQ-07 - Documentation Content Correction Drafts
+
+Status: COMPLETE
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Content corrections are draft/candidate only.
+- Content corrections do not authorize publication.
+- REQ-08 validation is required before publication governance.
+
+Content correction:
+
+- Correction plan: COMPLETE
+- Draft changes applied: YES
+- High-risk claims resolved: PARTIAL
+- REQ-08 handoff: PROCEED_WITH_WARNINGS
+
+Execution state:
+
+- Runtime code: UNCHANGED
+- Package files: UNCHANGED
+- Lockfiles: UNCHANGED
+- Docs publication: DISABLED
+- Production release claim: DISABLED
+
+REQ-07 evidence:
+
+- `.instructions/DOCUMENTATION_CONTENT_CORRECTION_PLAN.md`
+- `.instructions/DOCUMENTATION_DRAFT_CHANGELOG.md`
+- `.instructions/DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md`
+- `.instructions/REQ_08_HANDOFF_DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md`
+- `.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md`
