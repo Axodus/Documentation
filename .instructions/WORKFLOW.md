@@ -101,6 +101,19 @@ Rules:
 - Financial, tokenomics, APY, treasury, governance, legal, security, and execution-sensitive claims require enhanced review.
 - Content rewrites must not start before the content inventory and editorial gap analysis are documented.
 
+## REQ-04 to REQ-05 Build Handoff Workflow
+
+1. Complete structural validation without running a build.
+2. Confirm package scripts and dependency evidence.
+3. Confirm local build command appears local-only.
+4. Confirm output directories are ignored/generated.
+5. Record package manager ambiguity or decision.
+6. Hand off to REQ-05 only with documented proceed status.
+
+REQ-04 does not authorize build execution.
+
+REQ-05 may run only the approved local build validation command and must not install dependencies, publish docs, start dev/preview servers, change package files, or change deployment configuration.
+
 ## Documentation States
 
 | State | Meaning |

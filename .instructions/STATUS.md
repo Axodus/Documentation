@@ -134,3 +134,39 @@ DISABLED
 Maturity note:
 
 Documentation remains L4 candidate. Content changes may be prepared as draft/candidate only. Publication requires explicit approval.
+
+## REQ-04 - VitePress Structural Validation & Local Build Readiness
+
+Status: COMPLETE
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Static structural evidence is complete enough to hand off to REQ-05 with conditions.
+- Documentation may be considered final L4 only after structure, navigation, source root, config, local build validation, content inventory, and publication authority are validated or explicitly accepted.
+- Publication remains disabled.
+- Content changes remain pending and must follow the Documentation Content Change Pipeline.
+
+Validation result:
+
+- Structure: PASS_WITH_WARNINGS
+- Link/navigation review: PASS_WITH_WARNINGS
+- Build readiness: READY_WITH_CONDITIONS
+- REQ-05 handoff: PROCEED_WITH_CONDITIONS
+- Build executed: NO
+
+Execution state:
+
+- Runtime code: UNCHANGED
+- Package files: UNCHANGED
+- Docs content rewrite: NOT PERFORMED
+- Docs publication: DISABLED
+- Production release claim: DISABLED
+
+REQ-04 evidence:
+
+- `.instructions/VITEPRESS_STRUCTURE_VALIDATION.md`
+- `.instructions/VITEPRESS_BUILD_READINESS.md`
+- `.instructions/VITEPRESS_LINK_AND_NAVIGATION_REVIEW.md`
+- `.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md`
+- `.instructions/reports/REQ_04_VITEPRESS_STRUCTURAL_VALIDATION_AND_LOCAL_BUILD_READINESS_2026-06-05.md`

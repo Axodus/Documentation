@@ -124,6 +124,40 @@ Content validation does not authorize publication.
 
 Content validation must occur after content inventory, editorial gap analysis, and draft correction. Passing validation returns content to candidate state only unless publication is separately approved.
 
+## REQ-04 Validation Ladder
+
+1. Inventory validation.
+2. Structural validation.
+3. Link/navigation static validation.
+4. Local build readiness.
+5. REQ-05 build handoff.
+6. Local build execution.
+7. Content inventory.
+8. Content correction.
+9. Content validation.
+10. Publication governance.
+
+REQ-04 cross-references:
+
+- `.instructions/VITEPRESS_STRUCTURE_VALIDATION.md`
+- `.instructions/VITEPRESS_BUILD_READINESS.md`
+- `.instructions/VITEPRESS_LINK_AND_NAVIGATION_REVIEW.md`
+- `.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md`
+
+REQ-04 result:
+
+- Structure: PASS_WITH_WARNINGS.
+- Link/navigation review: PASS_WITH_WARNINGS.
+- Build readiness: READY_WITH_CONDITIONS.
+- REQ-05 handoff: PROCEED_WITH_CONDITIONS.
+- Local build execution: NOT RUN.
+
+Local build readiness does not equal successful build.
+
+Successful local build does not equal publication approval.
+
+Publication approval requires explicit authorization.
+
 ## Validation Checklist
 
 - [ ] Required `.instructions` files exist.

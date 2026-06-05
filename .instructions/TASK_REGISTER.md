@@ -34,3 +34,11 @@ Owner: Documentation Coordinator
 | DOC-SPRINT01-006 | Define content validation request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-07 | REQ-08 defines quality, links, consistency, and claim validation. |
 | DOC-SPRINT01-007 | Define publication governance request | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-08 | REQ-09 defines publication governance and release workflow. |
 | DOC-SPRINT01-008 | Update blockers and status | Complete in Documentation Sprint 01 | Documentation Coordinator | REQ-03 | STATUS and BLOCKER_REGISTER updated for content pipeline blockers. |
+| DOC-REQ04-001 | Validate VitePress source root and config | Complete in REQ-04 | Documentation Coordinator | REQ-03 | `docs/` and `docs/.vitepress/config.mts` validated by static inspection. |
+| DOC-REQ04-002 | Validate theme/customization structure | Complete in REQ-04 | Documentation Coordinator | REQ-03 | `docs/.vitepress/theme/index.ts` and `custom.css` validated by static inspection. |
+| DOC-REQ04-003 | Validate nav/sidebar route targets | Complete in REQ-04 | Documentation Coordinator | REQ-03 | 249 unique config links resolved to existing Markdown targets by static inspection. |
+| DOC-REQ04-004 | Review internal markdown links statically | Complete in REQ-04 | Documentation Coordinator | REQ-03 | Static Markdown local-link inspection found no missing local targets. |
+| DOC-REQ04-005 | Review asset references statically | Complete in REQ-04 | Documentation Coordinator | REQ-03 | No source asset references or missing asset targets found. |
+| DOC-REQ04-006 | Determine package manager and build command | Complete in REQ-04 | Documentation Coordinator | REQ-03 | `npm run docs:build` recommended; npm/pnpm ambiguity documented. |
+| DOC-REQ04-007 | Determine local build readiness | Complete in REQ-04 | Documentation Coordinator | REQ-03 | Build readiness classified `READY_WITH_CONDITIONS`. |
+| DOC-REQ04-008 | Create REQ-05 local build validation handoff | Complete in REQ-04 | Documentation Coordinator | REQ-04 | Handoff classified `PROCEED_WITH_CONDITIONS`. |

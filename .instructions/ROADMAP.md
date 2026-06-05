@@ -60,14 +60,14 @@ REQ-04 - VitePress Structural Validation & Local Build Readiness.
 | Request | Status | Purpose |
 |---|---|---|
 | REQ-03 - Documentation Asset Inventory & VitePress Alignment | Complete | Inventoried VitePress source/config/navigation/assets/scripts and documented alignment baseline. |
-| REQ-04 - VitePress Structural Validation & Local Build Readiness | Pending | Validate source root, config, theme, nav/sidebar, assets, and build readiness without running a build by default. |
+| REQ-04 - VitePress Structural Validation & Local Build Readiness | Complete | Validated source root, config, theme, nav/sidebar, assets, and build readiness without running a build. |
 | REQ-05 - VitePress Local Build Validation | Pending | Run documented local VitePress build only if safe, dependencies are available, no install is required, and no publication is triggered. |
 | REQ-06 - Documentation Content Inventory & Editorial Gap Analysis | Pending | Inventory all VitePress documentation content and identify editorial gaps before any rewrite. |
 | REQ-07 - Documentation Content Correction Drafts | Pending | Create controlled draft/candidate content corrections based on REQ-06 findings. |
 | REQ-08 - Documentation Content Quality, Links & Consistency Validation | Pending | Validate corrected draft/candidate content before publication governance. |
 | REQ-09 - Documentation Publication Governance & Release Workflow | Pending | Define and validate approval, release, rollback, authority, and post-publication workflow. |
 
-REQ-04 through REQ-09 are not complete.
+REQ-05 through REQ-09 are not complete.
 
 ## Active Documentation Sprint
 

@@ -122,3 +122,19 @@ The following claims require explicit review before publication:
 - legal/compliance.
 
 Content corrections must not imply that execution, treasury, wallet, trading, swaps, payouts, settlement, or on-chain writes are enabled.
+
+## REQ-04 Structural Validation Boundary
+
+VitePress publication remains disabled.
+
+CI/CD publication must not be changed.
+
+Deployment settings must not be changed.
+
+Local build readiness does not authorize publication.
+
+Passing REQ-04 does not authorize content rewrites.
+
+Published docs must not contain unapproved financial, APY, tokenomics, treasury, legal, governance, production-readiness, security, or execution claims.
+
+REQ-04 does not run a build, start a dev server, publish documentation, or approve release readiness.
