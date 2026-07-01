@@ -1,0 +1,77 @@
+# Axodus Portfolio L/D Matrix
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Status: ESTABLISHED
+
+Root versioning state: `/opt/Axodus` is not a Git repository. This matrix is local/unversioned portfolio evidence.
+
+## Matrix
+
+| Nucleus | Organizational Maturity L-Level | Development Maturity D-Level | Alignment |
+| --- | --- | --- | --- |
+| Core | L5 | D3 | High L / strong implementation foundation |
+| Governance | L5 | D3 | High L / strong implementation foundation |
+| Documentation | L4 Readiness | D2 | L and D reasonably aligned for documentation product |
+| Dex | L4 Readiness | D3 | L and D aligned around read-only provider readiness |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION | UNASSESSED | L4 non-production closure accepted; D-Level intentionally unassigned pending taxonomy/evidence assessment |
+| AxodusAPP | L4_CONSOLIDATED | D3+ | Consolidated portfolio intelligence hub; production and execution gated |
+| Business | L4 Consolidated | D2 | High L / lower D by design; non-executive coordination runtime |
+| Marketplace | L4_CONSOLIDATED | D4 | Controlled non-production maturity; HOLD / BACKLOG_READY |
+| Academy | L4_CONSOLIDATED | D3+ | Validated integrated non-production learner experience; gates closed |
+| Mining | L4_CONSOLIDATED | D3+ | Validated integrated non-production preview chain; gates closed |
+| ACS | L4 Readiness | D3+ | `L4_READINESS_ADOPTED`; validated local integration with production and execution authority still blocked |
+| Trading | L4 Candidate | D3 | Strong D for local integrated trading-core validation |
+| BBA-Agency | L3 | D2 | L and D aligned for mock/local recovery state |
+| Lottery | L3 | D2 | L and D aligned for mock/local recovery state |
+
+## Distribution
+
+| L-Level Group | D0 | D1 | D2 | D3 | D3+ | D4 | D5 | UNASSESSED |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| L5 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
+| L4 Consolidated / Readiness / Candidate | 0 | 0 | 2 | 2 | 4 | 1 | 0 | 1 |
+| L3 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+
+## High L / Lower D
+
+| Nucleus | Reason |
+| --- | --- |
+| Business | L4 Consolidated because governance-support and coordination evidence is complete; D2 because implementation is intentionally non-executive and bounded to registry/runtime/validation surfaces. |
+| Defi | L4 Readiness from planning and readiness artifacts; D2 because production-adjacent treasury, custody and execution surfaces remain blocked. |
+| Documentation | L4 Readiness with D2 because the product is primarily a VitePress documentation system rather than a broader application runtime. |
+
+## Strong D Relative To Portfolio
+
+| Nucleus | Reason |
+| --- | --- |
+| Governance | Broad code/test surface across app/backend/contracts/subgraph and read-only API contracts. |
+| AxodusAPP | Integration shell has substantial frontend and validation evidence. |
+| Trading | Local database-backed validation and trading-core implementation are stronger than its execution authority. |
+| Dex | Read-only provider track, mock fallback, scanner and tests create integrated non-executive functionality. |
+| Core | Shared package and conformance foundation has strong library-level implementation. |
+| ACS | Fresh build/test/check, boundary enforcement, security review and integrated registry/consumer evidence support D3+ while production and execution authority remain closed. |
+
+## Boundary Note
+
+D-level does not grant execution authority. D3 integrated functionality in Dex, Trading, Core, Governance or AxodusAPP does not authorize swaps, trading, wallet signing, treasury movement, settlement, payout, governance execution or production operation.
+
+ACS D3+ likewise does not authorize production operation, provisioning, permission enforcement, state mutation, provider execution, Hummingbot runtime execution, or L4 Consolidated status.
+
+## 2026-06-23 - ACS Governance Adoption Note
+
+ACS moved from `L4_CANDIDATE` to `L4_READINESS` by decision `ADOPT_L4_READINESS`. D-Level remains `D3+`. L4 Consolidated remains `NO`; production status remains `NON_PRODUCTION`; execution remains `EXECUTION_GATED`; authority remains `NO_MUTATION_AUTHORITY`.
+
+## 2026-06-23 - ACS Closure Note
+
+ACS remains `L4_READINESS` with D-Level `D3+`. The ACS governance track is now `PAUSED_AND_HANDOFF`; `ACS-GOV-03` is deferred to avoid governance looping and `ACS-GOV-04` is not opened. This does not change L4 Consolidated status, which remains `NO`.

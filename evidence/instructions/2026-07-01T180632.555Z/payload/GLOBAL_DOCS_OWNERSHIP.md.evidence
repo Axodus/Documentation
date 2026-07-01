@@ -1,0 +1,134 @@
+# Global Docs Ownership Policy
+
+Last updated: 2026-06-04
+
+Scope: `/opt/Axodus/.instructions`
+
+Status: REQ-01 recovery artifact for Global Docs / Instructions L1 to L2.
+
+This ownership policy governs documentation and coordination records only. It does not grant production execution, wallet signing, treasury movement, trading, swaps, payouts, settlement, credential use, or on-chain writes.
+
+## Roles
+
+| Role | Responsibility |
+|---|---|
+| Portfolio Coordinator | Owns portfolio-level direction, request queue sequencing, maturity framework acceptance, and final decisions for cross-nucleus conflicts. |
+| Documentation Coordinator | Maintains global `.instructions` structure, report format, source-of-truth policy, and documentation validation procedure. |
+| Nucleus Owner | Owns local nucleus `.instructions`, local implementation constraints, local validation commands, and local blocker accuracy. |
+| Safety Reviewer | Reviews changes that affect production/execution boundaries, credentials, treasury, trading, swaps, settlement, payouts, wallet signing, or on-chain writes. |
+| Agent Coder | Executes approved documentation/code tasks, preserves boundaries, validates artifacts, and reports results. |
+
+## Review and Approval
+
+| Change Category | Review Required | Approval Required |
+|---|---|---|
+| Low-risk doc correction | Documentation Coordinator or Agent Coder | No coordinator approval unless semantics change |
+| Portfolio status update | Documentation Coordinator | Portfolio Coordinator |
+| Maturity classification update | Documentation Coordinator and affected Nucleus Owner | Portfolio Coordinator |
+| Sprint/request/task creation | Documentation Coordinator | Portfolio Coordinator |
+| Safety boundary change | Safety Reviewer and affected Nucleus Owner | Explicit Portfolio Coordinator approval |
+| Execution permission change | Safety Reviewer, affected Nucleus Owner, and Portfolio Coordinator | Explicit Portfolio Coordinator approval |
+| Versioning/repository structure change | Documentation Coordinator and affected repo owner | Explicit Portfolio Coordinator approval |
+
+## Update Cadence
+
+- After every completed request/recast/sprint: update status, roadmap, blocker register, and report index if applicable.
+- After every maturity change: update maturity register, portfolio status, and affected nucleus status when allowed.
+- After every HOLD or blocker change: update blocker register and affected roadmap.
+- Before any implementation sprint: confirm the latest global and nucleus `.instructions` do not conflict.
+
+## Coordinator Approval Required
+
+Coordinator approval is required for:
+
+- changing maturity level or portfolio state;
+- creating or reordering portfolio request queues;
+- modifying global safety boundaries;
+- changing execution permission;
+- selecting a global docs versioning home;
+- repository restructuring;
+- moving global docs into a repo;
+- adding production-ready or execution-ready claims.
+
+## Nucleus Owner Approval Required
+
+Nucleus owner approval is required when a global change:
+
+- changes local implementation constraints;
+- changes local validation expectations;
+- changes local safety boundaries;
+- changes local roadmap status;
+- promotes a local mock/read-only interface toward integration;
+- references local runtime behavior as official.
+
+## Safety Rule
+
+Any change that enables or implies production execution, wallet signing, treasury movement, trading, swaps, payouts, settlement, credential use, or on-chain writes requires explicit coordinator approval. It cannot be inferred from documentation updates, maturity labels, request queue placement, or prior local/mock validation.
+
+## Documentation Change Classes
+
+### Low-Risk Doc Correction
+
+Examples:
+
+- typo fix;
+- broken internal link correction;
+- date/report pointer correction;
+- clarifying existing non-execution language.
+
+### Portfolio Status Update
+
+Examples:
+
+- adding completed request status;
+- adding validation results;
+- recording root non-Git status;
+- updating next recommended request.
+
+### Maturity Classification Update
+
+Examples:
+
+- L1 to L2 recovery;
+- HOLD to BACKLOG;
+- ADVANCE to HOLD;
+- updated confidence level.
+
+### Sprint/Request/Task Creation
+
+Examples:
+
+- creating a new REQ document;
+- reordering queue priority;
+- adding exit criteria.
+
+### Safety Boundary Change
+
+Examples:
+
+- changing a DISABLED flow to GATED;
+- adding a new allowed execution path;
+- changing credential or wallet handling.
+
+### Execution Permission Change
+
+Examples:
+
+- enabling live trading;
+- allowing settlement;
+- allowing production DB;
+- allowing on-chain writes;
+- allowing wallet signing.
+
+### Versioning/Repository Structure Change
+
+Examples:
+
+- making `/opt/Axodus` a Git repo;
+- moving global `.instructions` under Core;
+- moving global `.instructions` under Documentation;
+- creating a dedicated global docs repository.
+
+## L2 Evidence
+
+This policy contributes to L2 recovery by defining who owns, reviews, and approves global docs changes. L2 remains candidate/validated only after validation passes and the versioning decision remains explicitly documented as pending.

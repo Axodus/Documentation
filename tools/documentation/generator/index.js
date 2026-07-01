@@ -154,3 +154,11 @@ function stableTimestamp(documents) {
     .sort()
   return `${dates.at(-1) ?? '1970-01-01'}T00:00:00Z`
 }
+
+export {
+  compareSnapshots,
+  createInstructionsSnapshot,
+  listSnapshots,
+  loadInstructionsSnapshot,
+  validateInstructionsSnapshot,
+} from '../evidence/index.js'

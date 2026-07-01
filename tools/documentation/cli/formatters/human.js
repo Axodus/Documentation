@@ -1,5 +1,6 @@
 export function formatHuman(payload, options = {}) {
   if (payload.kind === 'GENERATION') return formatGeneration(payload)
+  if (payload.kind === 'EVIDENCE') return formatEvidence(payload)
   const { statistics } = payload
   const lines = [
     `Documentation CLI ${payload.cli_version}`,
@@ -25,6 +26,32 @@ export function formatHuman(payload, options = {}) {
     `Execution time: ${payload.execution_time_ms} ms`,
     `Exit status: ${payload.exit_code}`,
   )
+  return `${lines.join('\n')}\n`
+}
+
+function formatEvidence(payload) {
+  const lines = [
+    `Documentation Evidence: ${payload.command}`,
+    `Status: ${payload.status}`,
+  ]
+  if (payload.snapshot_id) lines.push(`Snapshot: ${payload.snapshot_id}`)
+  if (payload.operation === 'CREATE') {
+    lines.push(
+      `Files: ${payload.statistics.files}`,
+      `Directories: ${payload.statistics.directories}`,
+      `Redactions: ${payload.statistics.redactions} across ${payload.statistics.affected_files} files`,
+    )
+  } else if (payload.operation === 'LIST') {
+    lines.push(`Snapshots: ${payload.statistics.snapshots}`)
+  } else {
+    lines.push(
+      `Added: ${payload.statistics.added_files}`,
+      `Removed: ${payload.statistics.removed_files}`,
+      `Modified: ${payload.statistics.modified_files}`,
+      `Metadata changes: ${payload.statistics.metadata_changes}`,
+    )
+  }
+  lines.push(`Execution time: ${payload.execution_time_ms} ms`, `Exit status: ${payload.exit_code}`)
   return `${lines.join('\n')}\n`
 }
 

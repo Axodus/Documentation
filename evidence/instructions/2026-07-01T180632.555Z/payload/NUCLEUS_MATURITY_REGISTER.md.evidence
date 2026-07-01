@@ -1,0 +1,352 @@
+# Axodus Nucleus Maturity Register
+
+Last updated: 2026-06-30
+
+## 2026-06-30 - Canonical Portfolio Maturity Snapshot
+
+This snapshot supersedes older operational rows for current-state interpretation. Historical sections are retained as evidence of prior decisions.
+
+| Nucleus | Accepted L-Level | Accepted D-Level | Status | Authority boundary |
+|---|---|---|---|---|
+| Core | L5 | D3 | HOLD | NON_PRODUCTION / EXECUTION_GATED |
+| Governance | L5 | D3 | HOLD | NO_MUTATION_AUTHORITY / EXECUTION_GATED |
+| Business | L4_CONSOLIDATED | D2 | CONSOLIDATED_NON_EXECUTIVE | Business remains non-executive |
+| AxodusAPP | L4_CONSOLIDATED | D3+ | PORTFOLIO_INTELLIGENCE_HUB | NON_PRODUCTION / EXECUTION_GATED |
+| Marketplace | L4_CONSOLIDATED | D4 | HOLD / BACKLOG_READY | NON_PRODUCTION / EXECUTION_GATED |
+| ACS | L4_READINESS | D3+ | PAUSED / HANDED_OFF | NO_MUTATION_AUTHORITY; L4 Consolidated: NO |
+| Academy | L4_CONSOLIDATED | D3+ | COMPLETE_NON_PRODUCTION | NO_PRODUCTION_AUTHORITY |
+| Mining | L4_CONSOLIDATED | D3+ | COMPLETE_NON_PRODUCTION | NO_PRODUCTION_AUTHORITY / gates CLOSED |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION | UNASSESSED | GATED; blockers OPEN; ADMIN_MUTATION UNSAFE | NO_PRODUCTION_AUTHORITY / financial gates CLOSED |
+| Dex | L4_READINESS | D3 | READ_ONLY_PROVIDER_RELIABILITY_READY | NON_PRODUCTION / EXECUTION_GATED |
+| Documentation | L4_READINESS | D2 | ACTIVE_DOCUMENTATION_PLATFORM | Publication authority/versioning unresolved |
+| Trading | L4_CANDIDATE | D3 | HOLD / EXECUTION_BLOCKED | HIGH risk |
+| BBA-Agency | L3 | D2 | HOLD / PREPARATION | NON_PRODUCTION |
+| Lottery | L3 | D2 | HOLD | HIGH risk |
+
+Maturity labels do not confer production, execution, financial or mutation authority. The next recommended cycle is `DOCUMENTATION-EPIC-01`.
+
+## 2026-06-23 - ACS Closure Register Update
+
+This update records closure/handoff state only. It does not promote ACS and does not grant production or execution authority.
+
+| Nucleus | Current Maturity | D-Level | Governance Track | Consolidated | Next ACS Action |
+|---|---|---|---|---|---|
+| ACS | L4 Readiness | D3+ | `PAUSED_AND_HANDOFF` | `NO` | `ONLY_WHEN_FORMAL_L4_CONSOLIDATED_ASSESSMENT_IS_INTENDED` |
+
+ACS notes:
+
+- `ACS-GOV-03` is `DEFERRED_TO_AVOID_GOVERNANCE_LOOP`
+- `ACS-GOV-04` is `NOT_OPENED`
+- production remains `NON_PRODUCTION`
+- execution remains `EXECUTION_GATED`
+- authority remains `NO_MUTATION_AUTHORITY`
+- next portfolio focus should move away from ACS toward `ACADEMY-EPIC-01 - Academy L4 Consolidation`
+
+## 2026-06-10 - CROSS-REQ-02 Dependency Registry Update
+
+The cross-nucleus dependency registry now records 58 official dependencies:
+
+- 33 nucleus-level dependencies;
+- 25 opportunity/product/service dependencies;
+- 6 unverified dependencies kept out of official dependency entries.
+
+Registry status: CROSS_NUCLEUS_DEPENDENCY_REGISTRY_ESTABLISHED
+
+Next maturity support request: CROSS-REQ-03 - Readiness & Ownership Alignment.
+
+No maturity level is promoted by CROSS-REQ-02. The registry records dependency visibility only.
+
+## 2026-06-09 - CROSS-REQ-01 Opportunity Registry Update
+
+Business remains `L4 Consolidated` as the non-executive portfolio coordination, readiness, governance-support and operational visibility nucleus.
+
+The global opportunity registry now records 25 official opportunities across:
+
+- Business
+- Core
+- Governance
+- Documentation
+- Dex
+- Defi
+- AxodusAPP
+- Marketplace
+- Academy
+- Mining
+- ACS
+- Trading
+- BBA-Agency
+- Lottery
+
+Registry status: GLOBAL_OPPORTUNITY_REGISTRY_ESTABLISHED
+
+Next maturity support request: CROSS-REQ-02 - Cross-Nucleus Dependency Registry.
+
+No maturity level is promoted by CROSS-REQ-01. The registry records opportunity visibility only.
+
+## 2026-06-08 - PORTFOLIO-REQ-03 Gated Advancement Register
+
+This section is the active gated advancement view after Trading revalidation and ACS gate review.
+
+| Nucleus | Current Maturity | Evidence Quality | Portfolio Risk | Advancement Recommendation | Next Recommended Work |
+|---|---|---|---|---|---|
+| Core | L5 | HIGH | LOW | HOLD | Consumer pilot review and RC authority only after explicit approval. |
+| Governance | L5 | HIGH | MEDIUM | HOLD | Maintain backlog control; no transport/executor activation without gate. |
+| Documentation | L4 Readiness | HIGH | MEDIUM | HOLD | Resolve publication authority/versioning before publication execution. |
+| Dex | L4 Readiness | HIGH | MEDIUM | HOLD | Pause functional evolution after DEX-REQ-11; maintain provider reliability evidence. |
+| Business | L4 Candidate | HIGH | MEDIUM | ADVANCE | Business L4 Consolidation focused on persistence, billing boundaries and integration readiness. |
+| Mining | L4 Candidate | MEDIUM | MEDIUM | HOLD | Provider warning cleanup and payout boundary hardening. |
+| Academy | L4 Candidate | MEDIUM | MEDIUM | HOLD | Reward, persistence and contract deployment boundary decision. |
+| Marketplace | L4 Candidate | HIGH | HIGH | HOLD | Payment and settlement governance boundary decision. |
+| ACS | L4 Candidate | HIGH | HIGH | HOLD | Execution authority and credential boundary review. |
+| BBA-Agency | L3 | MEDIUM | MEDIUM | HOLD | Keep paused after L3 candidate evidence; resolve schema/claim review before stronger maturity. |
+| Lottery | L3 | MEDIUM | HIGH | HOLD | Compliance, randomness, prize and payout gates before any advancement. |
+| Trading | L4 Candidate | HIGH | HIGH | HOLD | Credential Vault and execution gate review. |
+| Defi | L4 Readiness | MEDIUM | HIGH | HOLD | Phase 3 planning only until custody/treasury/governance gates are approved. |
+| AxodusAPP | L4 Readiness | MEDIUM | MEDIUM | HOLD | Integration expansion after selected nucleus consolidation. |
+
+Portfolio recommendation: PORTFOLIO_READY_FOR_SELECTIVE_L4_ADVANCEMENT
+
+Selected next cycle: Business L4 Consolidation
+
+No entry in this register authorizes production readiness, treasury movement, wallet signing, trading execution, swaps, payment/payout/settlement execution, minting, production credentials or on-chain writes.
+
+Framework: `.instructions/NUCLEUS_MATURITY_FRAMEWORK.md`
+
+Audit mode: documentation and portfolio classification only. No builds, tests, installs, runtime services, package changes, product source edits, production configs, secrets, settlement, trading, swaps, payouts, wallet signing, or on-chain writes were executed.
+
+## Central Register
+
+| Nucleus | Current Level | Level Name | Confidence | Portfolio State | Evidence | Main Blockers | Next Target | Next Recommended Work |
+|---|---:|---|---|---|---|---|---:|---|
+| ACS | L5 | Contratualizado | High | HOLD | `.instructions` has API contracts, policy matrix, security model, OpenClaw readiness review, and 147/147 test evidence in prior docs; AxodusAPP ACS routes exist. | Execution-sensitive scope; Governance/Core alignment; real Hummingbot/runtime mutation and trading remain forbidden. | L6 | Tenant-scoped workflow receipt model and report-only backtest design, no live/paper runtime mutation. |
+| Academy | L4 | Visível no App | High | ADVANCE | Instructions exist; Academy routes/module are visible in AxodusAPP; mock PoK validation, local JSON persistence, in-memory test adapter, OpenAPI, Fastify routes, repository contracts, and contract read models were found. | No current `STATUS.md`; production DB/Postgres adapter, contract writes, minting, transfers, withdrawals, real certification issuance, and treasury execution remain disabled. | L5 | Approve DB schema planning, preserve read-only/governance/treasury boundaries, and run full validation when allowed. |
+| AxodusAPP | L4 | Visível no App | High | ADVANCE | `STATUS.md` records recovered build/tests, app shell, tenant runtime, Governance local/mock/read-only integration, and module routes. | Real backend integration pending; no wallet, settlement, treasury, marketplace minting, DEX swap, or production transaction flow. | L5 | Balanced read-only contract alignment across modules after portfolio allocation. |
+| BBA-Agency | L3 candidate | Mock/Local | Medium | PAUSE / PORTFOLIO BALANCING | BBA-REQ-01 through BBA-REQ-03 created current audit, validation baseline, mock/local model, fixture baseline, permission/claim boundaries, and local validation evidence; fixture JSON, typecheck, contract violation, permission denial, and cost guard probes passed under mock/no-token env. | Fixture `nucleus` is not directly validated against `BbaNucleusSchema` by a dedicated command; BBA schemas are not wired into active `CONTRACT_MAP`; production claim review remains pending; production campaign execution and production claims blocked. | Portfolio balancing | Pause BBA after L3 candidate evidence and move next focus to Lottery Recovery - L2 to L3. |
+| Business | L4 | Visível no App | Medium | ADVANCE | Instructions define mock/read-only business runtime, repository contracts, ACS bridge, non-execution flags, and AxodusAPP `/business/*` visibility. | No current `STATUS.md`; persistence and real approvals, billing, treasury unlocks, ACS provisioning, and governance proposal creation remain blocked. | L5 | Produce current validation evidence and review repository contracts before persistence implementation. |
+| Core | L5 | Contratualizado | High | BACKLOG | `STATUS.md` records pre-RC hardening, conformance, public API surface checks, consumer certification, registry/docs indexes, and product profiles. | Pre-RC only; Governance/ACS consumer pilot reviews incomplete; no runtime/adapters/product logic/execution authority. | L6 | Consumer pilot review and registry confirmation after portfolio allocation. |
+| Defi | L4 | Visível no App | Medium-High | ADVANCE | `STATUS.md` records Phase 2 local/dev workflow foundation, contracts, read-only APIs, OpenAPI/mock package, simulated receipts, proposal-draft-only flows, AxodusAPP mocks, and Phase 3 planning. | Phase 3 implementation not approved; real fund movement, staking delegation, ETF rebalance, adapter authority, custody, validator scoring, oracle/accounting/reconciliation, and production deployment blocked. | L5 | New planning decision cycle for Governance execution and custody approval; no staking implementation. |
+| Dex | L3 | Mock/Local | Medium | BACKLOG | Instructions and reports cover vendor hygiene, token-list policy, `packages/dex-registry`, fake fixtures, registry validation, and route metadata planning. Narrow registry subtrack has L5 evidence. | No `STATUS.md`; mounted interface preserved/blocked; routing, swaps, settlement, treasury, live token-list changes, and vendor mutation disabled. | L4 | DEX backlog continuation for route metadata and read-only interface branding after portfolio sprint. |
+| Documentation | L3 | Mock/Local | Medium | RECOVER | `.instructions` exists with documentation standards, content guardrails, file structure, rebuild protocol, and review checklist; prior `docs:build` pass and local VitePress surface evidence were found. | No nucleus `STATUS.md`, `ROADMAP.md`, `WORKFLOW.md`, or `SECURITY.md`; no current validation run or link-check gate; global docs root is not a Git repo. | L4 | Normalize Documentation nucleus status/workflow/security and add a docs validation/link-check gate when approved. |
+| Governance | L5 | Contratualizado | High | HOLD | `STATUS.md` records recovered validation, repository interfaces, mock adapter, read models, local/mock query/indexer services, API contract types, and transport planning. Narrow local/read-only areas may be partial L6. | Governance API Transport Track is BACKLOG CONTROLLED; no new HTTP routes/controllers, real DB, AxodusAPP real client, executor, treasury, or on-chain writes. | HOLD | Backlog control, validation maintenance, flake/security notes, and portfolio balance only. |
+| Lottery | L2 | Validado | Medium | BACKLOG | Instructions exist; mock/read-only FastAPI and frontend fallback evidence found; validation commands and tests exist. | No `STATUS.md`; compliance/legal, randomness/VRF, prize, payout, treasury, contracts, audit design, and misleading `TASKS.md` content. | L3 | Fix instructions hygiene and create validation report before contract/randomness planning. |
+| Marketplace | L5 | Contratualizado | High | ADVANCE | Instructions exist; Marketplace routes/module are visible in AxodusAPP; local JSON/API persistence, frontend mock fallback, DTO/repository/controller interfaces, and broad `/api/marketplace` endpoint contracts were found. | No `STATUS.md`; wallet transaction, blockchain write, external payment gateway, treasury movement, production LayerZero/bridge, and contract settlement remain blocked. | L6 | Run documented validation when allowed, then reconcile AxodusAPP Marketplace UI with nucleus API/runtime contracts. |
+| Mining | L3 | Mock/Local | Medium-High | ADVANCE | Instructions exist; package commands and tests exist; read-only mock API, non-executing provider flags, contracts, and AxodusAPP `/mining/*` visibility were found. | No `STATUS.md`; provider custody, accounting/reconciliation, compliance, payout, treasury, and real provider execution blocked. | L4 | Create current validation report and harden provider evidence/Governance proposal-intent mapping. |
+| Trading | L4 | Visível no App | High | HOLD | Instructions record local Postgres E2E recovery, `npm run trading:local:e2e -- --cleanup --json` PASS evidence, local/paper boundaries, credential vault planning, Trading Core contracts/APIs, and product surface routing through WhiteRabbit/ACS/Marketplace/Defi/DEX/Academy/tenant DAO pages. Branch is `dev...origin/dev [ahead 1]`. | No `STATUS.md`; live trading, CEX execution, withdrawals, real keys, production Credential Vault/KMS/HSM, treasury actions, production DB, and vendor/nested repo ownership remain blocked. | L5 | Commit/split ahead work if valid, keep local E2E before persistence changes, and harden Credential Vault decisioning. |
+| Global Docs / Instructions | L1 | Documentado | Medium | RECOVER | Root `.instructions` exists and this RECAST 01 creates the framework, register, portfolio status, roadmap, blocker register, workflow, and report. | `/opt/Axodus` is not a Git repository; RECAST 00 artifacts were missing; global docs are workspace-local and cannot be committed from root. | L2 | Establish versioning/coordination source and run a documentation consistency validation in the next portfolio sprint. |
+
+## STATUS.md Presence
+
+| Nucleus | `.instructions` | `STATUS.md` | Action |
+|---|---|---|---|
+| ACS | Present | Missing | Document absence; future recovery task. |
+| Academy | Present | Missing | Document absence; future recovery task. |
+| AxodusAPP | Present | Present | Minimal maturity block updated. |
+| BBA-Agency | Present | Present | Minimal maturity block updated. |
+| Business | Present | Missing | Document absence; future recovery task. |
+| Core | Present | Present | Minimal maturity block updated. |
+| Defi | Present | Present | Minimal maturity block updated. |
+| Dex | Present | Missing | Document absence; future recovery task. |
+| Documentation | Present | Missing | Document absence; future recovery task. |
+| Governance | Present | Present | Minimal maturity block updated. |
+| Lottery | Present | Missing | Document absence; future recovery task. |
+| Marketplace | Present | Missing | Document absence; future recovery task. |
+| Mining | Present | Missing | Document absence; future recovery task. |
+| Trading | Present | Missing | Document absence; future recovery task. |
+
+## Portfolio Summary
+
+- Total nuclei audited: 15 including Global Docs / Instructions.
+- Average maturity level: 3.60.
+- Highest maturity level: L5.
+- Highest maturity nuclei: ACS, Core, Governance, Marketplace.
+- Lowest maturity level: L1.
+- Lowest maturity nucleus: Global Docs / Instructions.
+- Lowest product nuclei: BBA-Agency and Lottery at L2.
+- Nuclei in L0/L1: Global Docs / Instructions.
+- Nuclei in HOLD: ACS, Governance, Trading.
+- Nuclei needing RECOVER: BBA-Agency, Documentation, Global Docs / Instructions.
+- Nuclei requiring AUDIT MORE: none assigned, but nuclei without `STATUS.md` need recovery documentation.
+- Recommended next portfolio sprint: PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation.
+
+## Global Execution Boundary
+
+No nucleus is production-ready in this register. Production execution, treasury movement, wallet signing, on-chain writes, live trading, DEX swaps, settlement, marketplace minting/value transfer, mining payouts, lottery randomness/prize/payout, and production credentials remain disabled or gated.
+
+## 2026-06-08 - PORTFOLIO-REQ-01 Normalized Target Nuclei
+
+Scope: Academy, ACS, Business, Marketplace, Mining, Trading.
+
+Classification policy: conservative documentation normalization. Levels below are not production approvals and do not supersede stronger future validation evidence. They create comparable status baselines across nuclei that previously lacked consolidated `STATUS.md`.
+
+| Nucleus | Normalized Level | Recommendation | Evidence Created | Next Request |
+|---|---|---|---|---|
+| Academy | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | `.instructions/STATUS.md`, `ACADEMY_MATURITY_ASSESSMENT.md` | ACADEMY-REQ-01 - Current Validation Evidence and Production Boundary Review |
+| ACS | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | `.instructions/STATUS.md`, `ACS_MATURITY_ASSESSMENT.md` | ACS-REQ-01 - Current Local Validation and Guarded Execution Boundary Report |
+| Business | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | `.instructions/STATUS.md`, `BUSINESS_MATURITY_ASSESSMENT.md` | BUSINESS-REQ-01 - Validation Refresh and Repository Contract Baseline |
+| Marketplace | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | `.instructions/STATUS.md`, `MARKETPLACE_MATURITY_ASSESSMENT.md` | MARKETPLACE-REQ-01 - Current Validation Evidence and Payment/Settlement Boundary Review |
+| Mining | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | `.instructions/STATUS.md`, `MINING_MATURITY_ASSESSMENT.md` | MINING-REQ-01 - Current Validation Evidence and Provider Boundary Review |
+| Trading | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | `.instructions/STATUS.md`, `TRADING_MATURITY_ASSESSMENT.md` | TRADING-REQ-01 - Current Validation Evidence and Credential Vault Boundary Review |
+
+Global report: `.instructions/reports/PORTFOLIO_STATUS_NORMALIZATION_REPORT_2026-06-08.md`
+
+Versioning note: this register is local/unversioned at `/opt/Axodus` because the root is not a Git repository.
+
+## 2026-06-08 - PORTFOLIO-REQ-02 Validation Refresh Decisions
+
+| Nucleus | Previous Level | Validation Result | Decision | Current Level | Next Request |
+|---|---|---|---|---|---|
+| Business | L3 candidate | PASS | PROMOTE_TO_L4_CANDIDATE | L4 candidate | BUSINESS-REQ-02 - Persistence and Billing Boundary Decision |
+| Mining | L3 candidate | PASS_WITH_WARNINGS | PROMOTE_TO_L4_CANDIDATE | L4 candidate | MINING-REQ-02 - Provider Boundary Hardening and Warning Cleanup |
+| Academy | L3 candidate | PASS_WITH_WARNINGS | PROMOTE_TO_L4_CANDIDATE | L4 candidate | ACADEMY-REQ-02 - Reward, Persistence and Contract Deployment Boundary Decision |
+| Marketplace | L3 candidate | PASS | PROMOTE_TO_L4_CANDIDATE | L4 candidate | MARKETPLACE-REQ-02 - Payment and Settlement Governance Boundary Decision |
+| ACS | L3 candidate | PASS | KEEP_L3_CANDIDATE | L3 candidate | ACS-REQ-02 - L4 Candidate Gate Review for Guarded ACS Contracts |
+| Trading | L3 candidate | PASS_WITH_E2E_GAP | REQUIRES_REVALIDATION | L3 candidate / revalidation required | TRADING-REQ-02 - Safe Local Postgres E2E Revalidation |
+
+No decision above authorizes production readiness, wallet signing, treasury movement, trading execution, swaps, payment/settlement execution, payouts, minting, production credentials or on-chain writes.
+
+## 2026-06-08 - TRADING-REQ-04 Trading Revalidation Update
+
+| Nucleus | Previous Level | Validation Result | Decision | Current Level | Next Request |
+|---|---|---|---|---|---|
+| Trading | L3 candidate / revalidation required | PASS | PROMOTE_TO_L4_CANDIDATE | L4 candidate | TRADING-REQ-05 - Credential Vault and Execution Gate Review |
+
+Evidence:
+
+- `npm run trading:local:e2e -- --json --cleanup` passed under `trading-core/services/trading-core`.
+- Local Postgres on `127.0.0.1:55433`.
+- Schema version `0002_trading_events_tenant_id.sql`.
+- Mock/simulation-only output confirmed.
+- `liveTradingEnabled: false`.
+- `productionReady: false`.
+
+This update does not authorize production exchange execution, production credentials, withdrawals, treasury movement, wallet signing or on-chain writes.
+
+## 2026-06-08 - ACS-GATE-01 ACS Gate Review Update
+
+| Nucleus | Previous Level | Validation Result | Decision | Current Level | Next Request |
+|---|---|---|---|---|---|
+| ACS | L3 candidate | PASS | PROMOTE_TO_L4_CANDIDATE | L4 candidate | ACS-GATE-02 - Execution Authority and Credential Boundary Review |
+
+Evidence:
+
+- `npm run check` passed.
+- Build passed.
+- 152 tests passed.
+- Guarded execution, default-deny, Hummingbot sandbox, secret handling, tenant/product access, receipts and telemetry boundaries are validated.
+
+This update does not authorize autonomous execution, Hummingbot runtime, live/paper trading runtime, production credentials, secrets access, treasury movement, wallet signing or on-chain writes.
+## 2026-06-10 - CROSS-REQ-03 Ownership and Readiness Alignment
+
+This update records ownership/readiness alignment only. It does not change maturity levels by itself.
+
+| Nucleus | Current Maturity | Alignment Readiness | Ownership Confidence | Notes |
+|---|---|---|---|---|
+| Core | L5 | READINESS_APPROVED | HIGH | Architecture/consumer pilot evidence remains the advancement gate. |
+| Governance | L5 | READINESS_APPROVED | HIGH | Governance execution remains gated. |
+| Documentation | L4 Readiness | READINESS_APPROVED | HIGH | Publication authority and root versioning remain unresolved. |
+| Dex | L4 Readiness | READINESS_READY | HIGH | Read-only provider reliability ready; DEX execution blocked. |
+| Defi | L4 Readiness | READINESS_ASSESSED | MEDIUM | Treasury/custody approval path remains blocked. |
+| AxodusAPP | L4 Readiness | READINESS_ASSESSED | MEDIUM | Read-only consumer contracts needed before expansion. |
+| Business | L4 Consolidated | READINESS_READY | HIGH | Non-executive portfolio coordination owner. |
+| Marketplace | L4 Candidate | READINESS_ASSESSED | HIGH | Settlement/payment authority blocked. |
+| Academy | L4 Candidate | READINESS_ASSESSED | MEDIUM | Rewards/certification authority blocked. |
+| Mining | L4 Candidate | READINESS_ASSESSED | MEDIUM | Provider/payout boundary hardening remains needed. |
+| ACS | L4 Candidate | READINESS_ASSESSED | HIGH | Execution authority and credential boundaries blocked. |
+| Trading | L4 Candidate | READINESS_ASSESSED | HIGH | Credential vault and execution gate review needed. |
+| BBA-Agency | L3 | READINESS_ASSESSED | MEDIUM | Schema and claim review remain open. |
+| Lottery | L3 | READINESS_ASSESSED | MEDIUM | Compliance/randomness/payout gates blocked. |
+
+Global alignment artifacts:
+
+- `/opt/Axodus/.instructions/AXODUS_READINESS_OWNERSHIP_ALIGNMENT.md`
+- `/opt/Axodus/.instructions/AXODUS_OWNERSHIP_MATRIX.md`
+- `/opt/Axodus/.instructions/AXODUS_READINESS_GAP_REGISTER.md`
+- `/opt/Axodus/.instructions/reports/CROSS_REQ_03_READINESS_OWNERSHIP_ALIGNMENT_REPORT_2026-06.md`
+
+Versioning note:
+
+These global artifacts are local/unversioned because `/opt/Axodus` is not a Git repository.
+
+## 2026-06-10 - CROSS-REQ-04 Governance and Execution Boundary Review
+
+This update records authority boundaries only. It does not promote any nucleus and does not grant execution authority.
+
+| Nucleus | Current Maturity | Boundary Classification | Execution Authorized | Production Authorized |
+|---|---|---|---|---|
+| Core | L5 | GOVERNANCE_GATED | NO | NO |
+| Governance | L5 | GOVERNANCE_GATED | NO | NO |
+| Documentation | L4 Readiness | NON_EXECUTIVE | NO | NO |
+| Dex | L4 Readiness | READ_ONLY | NO | NO |
+| Defi | L4 Readiness | TREASURY_GATED | NO | NO |
+| AxodusAPP | L4 Readiness | READ_ONLY | NO | NO |
+| Business | L4 Consolidated | NON_EXECUTIVE | NO | NO |
+| Marketplace | L4 Candidate | EXECUTION_SENSITIVE_BLOCKED | NO | NO |
+| Academy | L4 Candidate | EXECUTION_SENSITIVE_BLOCKED | NO | NO |
+| Mining | L4 Candidate | TREASURY_GATED | NO | NO |
+| ACS | L4 Candidate | EXECUTION_SENSITIVE_BLOCKED | NO | NO |
+| Trading | L4 Candidate | EXECUTION_SENSITIVE_BLOCKED | NO | NO |
+| BBA-Agency | L3 | MOCK_LOCAL | NO | NO |
+| Lottery | L3 | EXECUTION_SENSITIVE_BLOCKED | NO | NO |
+
+Global boundary artifacts:
+
+- `/opt/Axodus/.instructions/AXODUS_GOVERNANCE_EXECUTION_BOUNDARY_REVIEW.md`
+- `/opt/Axodus/.instructions/AXODUS_EXECUTION_AUTHORITY_MATRIX.md`
+- `/opt/Axodus/.instructions/AXODUS_BLOCKED_ACTION_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_BOUNDARY_CONFLICT_REGISTER.md`
+- `/opt/Axodus/.instructions/reports/CROSS_REQ_04_GOVERNANCE_EXECUTION_BOUNDARY_REVIEW_2026-06.md`
+
+Versioning note:
+
+These global artifacts are local/unversioned because `/opt/Axodus` is not a Git repository.
+
+## 2026-06-10 - CROSS-REQ-05 Promotion Board Refresh
+
+This update records refreshed promotion-board recommendations. It does not promote any nucleus to production and does not grant execution authority.
+
+| Nucleus | Current Maturity | Refreshed Board Decision | Integration Readiness | Boundary Risk | Notes |
+|---|---|---|---|---|---|
+| Core | L5 | HOLD | MEDIUM | MEDIUM | Pre-RC and consumer pilot gates remain. |
+| Governance | L5 | HOLD | MEDIUM | HIGH | Executor/mutation paths remain blocked. |
+| Documentation | L4 Readiness | HOLD | MEDIUM | MEDIUM | Publication authority/versioning unresolved. |
+| Dex | L4 Readiness | HOLD | HIGH | HIGH | Read-only readiness strong; functional evolution paused. |
+| Defi | L4 Readiness | HOLD | LOW | CRITICAL | Treasury/custody implementation not approved. |
+| AxodusAPP | L4 Readiness | PROMOTE | HIGH | MEDIUM | Selected for read-only integration expansion. |
+| Business | L4 Consolidated | HOLD | HIGH | MEDIUM | Already consolidated; supports the next cycle. |
+| Marketplace | L4 Candidate | HOLD | MEDIUM | HIGH | Settlement/payment/minting blocked. |
+| Academy | L4 Candidate | HOLD | MEDIUM | HIGH | Rewards/certification/contract boundaries blocked. |
+| Mining | L4 Candidate | HOLD | MEDIUM | HIGH | Provider/payout/custody blocked. |
+| ACS | L4 Candidate | HOLD | MEDIUM | CRITICAL | Execution authority/credentials blocked. |
+| Trading | L4 Candidate | HOLD | MEDIUM | CRITICAL | Live trading/credentials/withdrawals blocked. |
+| BBA-Agency | L3 | HOLD | LOW | MEDIUM | Schema/claim review open. |
+| Lottery | L3 | HOLD | LOW | CRITICAL | Compliance/randomness/prize/payout blocked. |
+
+Selected next cycle:
+
+AxodusAPP Integration Expansion.
+
+Versioning note:
+
+These global artifacts are local/unversioned because `/opt/Axodus` is not a Git repository.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Maturity Registration
+
+This section registers the ACS-EPIC-01 local-scope outcome. It does not promote ACS to L4 Consolidated and grants no production or execution authority.
+
+| Nucleus | EPIC State | Current L-Level | Recommended L-Level | D-Level | Validation | Security | Boundary | Production | Execution | Mutation Authority | Portfolio Sync | L4 Consolidated |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ACS | `ACS-EPIC-01_COMPLETE_LOCAL_SCOPE` | `L4_CANDIDATE` | `L4_READINESS` | `D3+` | `BUILD_TEST_CHECK_PASSING` | `SECURITY_REVIEW_COMPLETED` | `BOUNDARY_ENFORCEMENT_TESTS_COMPLETED` | `NON_PRODUCTION` | `EXECUTION_GATED` | `NO_MUTATION_AUTHORITY` | `GLOBAL_REGISTERS_SYNCED` | `NO` |
+
+Recommendation: `PROMOTE_TO_L4_READINESS`.
+
+Marketplace remains on its existing `HOLD` / `BACKLOG_READY` non-executive path. This registration does not modify Marketplace maturity or authority.
+
+## 2026-06-23 - ACS-GOV-01 L4 Readiness Adoption
+
+| Nucleus | Governance Decision | Previous L-Level | Current L-Level | D-Level | Production | Execution | Mutation Authority | L4 Consolidated | Next Target |
+|---|---|---|---|---|---|---|---|---|---|
+| ACS | `L4_READINESS_ADOPTED` | `L4_CANDIDATE` | `L4_READINESS` | `D3+` | `NON_PRODUCTION` | `EXECUTION_GATED` | `NO_MUTATION_AUTHORITY` | `NO` | `L4_CONSOLIDATED_ASSESSMENT_ONLY_AFTER_GOVERNANCE_GATES` |
+
+Decision: `ADOPT_L4_READINESS`.
+
+The adoption supersedes the prior recommendation state but does not alter ACS authority. All execution-sensitive and production blockers remain active. Marketplace remains `HOLD` / `BACKLOG_READY`; Business remains non-executive; Trading live/paper execution, production credentials and withdrawals remain blocked.

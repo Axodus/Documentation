@@ -1,0 +1,277 @@
+# PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation Report - 2026-06-04
+
+## Executive Summary
+
+PORTFOLIO SPRINT 01 converts the RECAST 01 maturity audit into an ordered execution queue. The allocation prioritizes structural recovery first, controlled L3/L4 advancement second, and HOLD/backlog control for mature or execution-sensitive nuclei.
+
+No runtime implementation was performed. No nucleus is production-ready or execution-authorized.
+
+## Baseline Used
+
+Primary baseline:
+
+- `.instructions/reports/PORTFOLIO_RECAST_01_NUCLEUS_MATURITY_AUDIT_REPORT_2026-06-03.md`
+
+Supporting baseline:
+
+- `.instructions/NUCLEUS_MATURITY_FRAMEWORK.md`
+- `.instructions/NUCLEUS_MATURITY_REGISTER.md`
+- `.instructions/PORTFOLIO_STATUS.md`
+- `.instructions/PORTFOLIO_ROADMAP.md`
+- `.instructions/BLOCKER_REGISTER.md`
+- `.instructions/ECOSYSTEM_STATUS.md`
+- `.instructions/ROADMAP.md`
+- `.instructions/WORKFLOW.md`
+
+Baseline facts:
+
+- RECAST 01 is complete.
+- Average maturity: L3.60.
+- Highest maturity level: L5.
+- Lowest maturity level: L1.
+- Lowest product nuclei: BBA-Agency and Lottery at L2.
+- Global Docs / Instructions is L1.
+- Governance is HOLD / PILOT COMPLETE / BACKLOG CONTROLLED.
+- ACS, Governance, and Trading are HOLD.
+- BBA-Agency, Documentation, and Global Docs / Instructions require RECOVER.
+- `/opt/Axodus` is not a Git repository.
+
+## Methodology
+
+- Read the Sprint 01 request and RECAST 01 artifacts.
+- Confirmed `/opt/Axodus` is not a Git repository.
+- Inspected root `.instructions`.
+- Inspected nucleus `.instructions` file presence for STATUS, ROADMAP, WORKFLOW, SECURITY, TASKS, and BUB_AGENTS.
+- Ran safe per-nucleus `git status --short --branch -uno`.
+- Started five bounded read-only BUB audit agents.
+- Created a balanced allocation table and request queue.
+- Updated global roadmap/status/blockers.
+- Did not run builds, tests, installs, services, or runtime commands.
+
+## Nuclei Inspected
+
+- ACS
+- Academy
+- AxodusAPP
+- BBA-Agency
+- Business
+- Core
+- Defi
+- Dex
+- Documentation
+- Governance
+- Lottery
+- Marketplace
+- Mining
+- Trading
+- Global Docs / Instructions
+
+## BUB Agent Usage Summary
+
+Five BUB slices were started in read-only mode:
+
+| Slice | Scope | Status at Report Creation |
+|---|---|---|
+| BUB-01 | Global Docs / Documentation / Core | Timed out before final validation |
+| BUB-02 | Governance / AxodusAPP / ACS | Timed out before final validation |
+| BUB-03 | BBA-Agency / Business / Academy | Timed out before final validation |
+| BUB-04 | Defi / Dex / Trading | Timed out before final validation |
+| BUB-05 | Marketplace / Mining / Lottery | Timed out before final validation |
+
+All BUB agents were constrained to no edits, no package changes, no builds/tests/installs, no services, no secrets, no execution, and no destructive git.
+
+Because the BUB agents did not return before final validation, final allocation uses direct local inspection plus the RECAST 01 baseline.
+
+## Maturity Table
+
+| Nucleus | Level | Level Name | Confidence | Portfolio State | Next Target |
+|---|---:|---|---|---|---:|
+| ACS | L5 | Contratualizado | High | HOLD | L6 |
+| Academy | L4 | Visível no App | High | ADVANCE | L5 |
+| AxodusAPP | L4 | Visível no App | High | ADVANCE | L5 |
+| BBA-Agency | L2 | Validado | Medium | RECOVER | L3 |
+| Business | L4 | Visível no App | Medium | ADVANCE | L5 |
+| Core | L5 | Contratualizado | High | BACKLOG | L6 |
+| Defi | L4 | Visível no App | Medium-High | ADVANCE | L5 |
+| Dex | L3 | Mock/Local | Medium | BACKLOG | L4 |
+| Documentation | L3 | Mock/Local | Medium | RECOVER | L4 |
+| Governance | L5 | Contratualizado | High | HOLD | HOLD |
+| Lottery | L2 | Validado | Medium | BACKLOG | L3 |
+| Marketplace | L5 | Contratualizado | High | ADVANCE | L6 |
+| Mining | L3 | Mock/Local | Medium-High | ADVANCE | L4 |
+| Trading | L4 | Visível no App | High | HOLD | L5 |
+| Global Docs / Instructions | L1 | Documentado | Medium | RECOVER | L2 |
+
+## Sprint Allocation Table
+
+Detailed allocation is maintained in `.instructions/PORTFOLIO_SPRINT_01_ALLOCATION.md`.
+
+| Priority | Nucleus | Track | Next Request |
+|---:|---|---|---|
+| 1 | Global Docs / Instructions | Structural recovery | REQ-01 |
+| 2 | Documentation | Nucleus recovery | REQ-02 |
+| 3 | BBA-Agency | Mock/local recovery | REQ-03 |
+| 4 | Lottery | Controlled recovery | REQ-04 |
+| 5 | Dex | No-swap visibility planning | REQ-05 |
+| 6 | Mining | Visibility consolidation | REQ-06 |
+| 7 | Academy | Contract consolidation | REQ-07 |
+| 8 | Business | Contract consolidation | REQ-08 |
+| 9 | Defi | Non-executing contract consolidation | REQ-09 |
+| 10 | Marketplace | L6 readiness gap analysis | REQ-10 |
+| 11 | AxodusAPP | Real-data readiness planning | REQ-11 |
+| 12 | Core | L6 backlog control | REQ-12 |
+| 13 | Governance | HOLD backlog control | REQ-13 |
+| 14 | ACS | HOLD backlog control | REQ-14 |
+| 15 | Trading | HOLD backlog control | REQ-15 |
+
+## Per-Nucleus Next Work
+
+- ACS: HOLD backlog control, dependency/risk documentation only.
+- Academy: L5 contract/read-model consolidation without credential/reward execution.
+- AxodusAPP: L5 real-data readiness plan without real execution.
+- BBA-Agency: L3 mock/local validation and claim-review recovery.
+- Business: L5 contract/read-only approval model consolidation.
+- Core: L6 backlog criteria and consumer certification map only.
+- Defi: L5 non-executing Phase 3 contract/interface planning.
+- Dex: L4 read-only/no-swap visibility planning.
+- Documentation: structural nucleus recovery.
+- Governance: HOLD backlog control, no API transport implementation.
+- Lottery: controlled L3 recovery with compliance/randomness/payout gates.
+- Marketplace: L6 readiness gap analysis with no payments/settlement.
+- Mining: L4 visibility and provider boundary consolidation.
+- Trading: HOLD backlog control, credential-vault planning only.
+- Global Docs / Instructions: versioning/ownership/source-of-truth recovery.
+
+## Per-Nucleus Blocked Work
+
+- ACS: runtime mutation, Hummingbot control, trading, treasury movement, credential access, Governance/Core bypass.
+- Academy: real credential issuance, reward execution, minting, transfers, withdrawals.
+- AxodusAPP: real execution, wallet signing, production backend switching, treasury, settlement.
+- BBA-Agency: production campaigns, real billing, external automation execution, payment flows.
+- Business: real approvals, persistence promotion, production business execution, financial commitments.
+- Core: execution authority, treasury controls, product decisions, production runtime authority.
+- Defi: custody, staking execution, rebalancing, validator scoring execution, fund movement.
+- Dex: swaps, routing execution, settlement, linked fork mutation, token-list repo mutation.
+- Documentation: official release publishing without approval and product behavior changes.
+- Governance: API transport implementation, HTTP routes/controllers, real DB, AxodusAPP real client, executor, treasury, on-chain writes.
+- Lottery: prize execution, payouts, treasury movement, production VRF, contract deployment, on-chain writes.
+- Marketplace: wallet transactions, blockchain writes, payment gateways, treasury, settlement, minting, value transfer.
+- Mining: provider custody, accounting execution, treasury, payout execution, real provider execution.
+- Trading: live trading, real keys, withdrawals, production KMS/HSM, production DB, treasury, vendor changes.
+- Global Docs / Instructions: Git init, root move, destructive restructuring, deleting reports.
+
+## Dependency Map
+
+- REQ-01 precedes broad global documentation expansion.
+- REQ-02 precedes official Documentation release claims.
+- REQ-03 precedes BBA production-like claims.
+- REQ-04 precedes Lottery randomness/prize/payout design work.
+- REQ-05 precedes any DEX read-only UI implementation.
+- REQ-06 precedes provider/payout/accounting work.
+- REQ-07 through REQ-11 must remain non-executing and should not bypass recovery priorities.
+- REQ-12 through REQ-15 are HOLD/backlog control and should not become implementation sprints.
+
+## HOLD Policy
+
+HOLD nuclei are ACS, Governance, and Trading.
+
+Allowed HOLD work:
+
+- backlog control;
+- gap/risk documentation;
+- contract/interface inventory;
+- validation maintenance notes;
+- dependency maps.
+
+Forbidden HOLD work:
+
+- runtime mutation;
+- API transport implementation;
+- live trading;
+- real credentials;
+- treasury movement;
+- on-chain writes;
+- production DB;
+- executor activation.
+
+## Recovery Policy
+
+Recovery priority is:
+
+1. Global Docs / Instructions.
+2. Documentation.
+3. BBA-Agency.
+4. Lottery as controlled recovery.
+
+Exit criteria must include file ownership, missing-doc repair, validation checklist, and production-disabled language.
+
+## Advancement Policy
+
+L3/L4 advancement is limited to:
+
+- read-only visibility maps;
+- contract documentation;
+- API/read-model documentation;
+- validation plans;
+- blocker maps;
+- mock/local exit criteria.
+
+Advancement does not authorize production runtime or execution.
+
+## Risk Register Additions
+
+- Root `/opt/Axodus` is not a Git repository.
+- Global Docs / Instructions lacks a formal Git versioning decision.
+- Multiple nuclei lack `STATUS.md`.
+- Documentation nucleus lacks core `.instructions` workflow/status/security/roadmap/task files.
+- Governance API transport is not approved.
+- DEX linked fork/token-list boundaries remain protected.
+- Trading live execution, credentials, KMS/HSM, withdrawals, and production DB are blocked.
+- Treasury, settlement, swaps, payouts, wallet signing, production credentials, and on-chain writes remain globally blocked.
+
+## Recommended Request Queue
+
+The queue is defined in `.instructions/PORTFOLIO_REQUEST_QUEUE.md`.
+
+First request: REQ-01 - Global Docs / Instructions Recovery - L1 to L2.
+
+## Files Created
+
+- `.instructions/PORTFOLIO_SPRINT_01_ALLOCATION.md`
+- `.instructions/PORTFOLIO_REQUEST_QUEUE.md`
+- `.instructions/reports/PORTFOLIO_SPRINT_01_BALANCED_ROADMAP_AND_SPRINT_ALLOCATION_2026-06-04.md`
+
+## Files Updated
+
+- `.instructions/PORTFOLIO_ROADMAP.md`
+- `.instructions/PORTFOLIO_STATUS.md`
+- `.instructions/BLOCKER_REGISTER.md`
+
+## Validation Commands
+
+Required validation:
+
+```bash
+cd /opt/Axodus
+test -f .instructions/NUCLEUS_MATURITY_FRAMEWORK.md
+test -f .instructions/NUCLEUS_MATURITY_REGISTER.md
+test -f .instructions/PORTFOLIO_STATUS.md
+test -f .instructions/PORTFOLIO_ROADMAP.md
+test -f .instructions/BLOCKER_REGISTER.md
+test -f .instructions/PORTFOLIO_SPRINT_01_ALLOCATION.md
+test -f .instructions/PORTFOLIO_REQUEST_QUEUE.md
+test -f .instructions/reports/PORTFOLIO_SPRINT_01_BALANCED_ROADMAP_AND_SPRINT_ALLOCATION_2026-06-04.md
+git status --short --branch || true
+```
+
+Validation result:
+
+- Required Sprint 01 files: PASS.
+- Root git status: expected non-Git failure, documented as `/opt/Axodus` is not a Git repository.
+- Boundary text search for Sprint 01 queue, REQ-01 through REQ-15, and no-execution statements: PASS.
+
+## Final Status
+
+PORTFOLIO SPRINT 01: COMPLETE as a documentation/planning allocation after validation.
+
+No runtime source code changed. No package files changed. No builds/tests/installs run. No services started. No secrets touched. No trading, swaps, settlement, treasury, payouts, wallet signing, or on-chain writes executed.

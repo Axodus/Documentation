@@ -1,0 +1,137 @@
+# AXODUS-PORTFOLIO-REQ-01 Portfolio Panorama Refresh Report
+
+Date: 2026-06-30
+
+Status: `PASS`
+
+Portfolio Panorama: `REFRESHED`
+
+Production: `NOT_ENABLED`
+
+Execution: `NOT_ENABLED`
+
+Financial Gates: `PRESERVED_CLOSED`
+
+Next Recommended EPIC: `DOCUMENTATION-EPIC-01`
+
+## Summary
+
+The global panorama now reflects the accepted ACS closure and Academy, Mining and Defi non-production closures. Canonical current-state sections supersede older dated snapshots without deleting historical evidence. No maturity update grants operational authority.
+
+`/opt/Axodus` is not a Git repository. Global `.instructions` files remain local/unversioned portfolio control artifacts.
+
+## Files Inspected
+
+The existing global status, maturity, blocker, roadmap, development, opportunity, dependency, ownership, readiness, authority, boundary, integration, promotion and recommendation artifacts under `/opt/Axodus/.instructions/` were inspected.
+
+Nucleus evidence inspected:
+
+- ACS: `STATUS.md`, `HANDOFF.md`, `BLOCKER_REGISTER.md`, and `reports/ACS_L4_READINESS_CLOSURE_AND_PORTFOLIO_HANDOFF.md`;
+- Academy: `STATUS.md`, `HANDOFF.md`, `ACADEMY_EPIC_01.md`, `ACADEMY_MATURITY_ASSESSMENT.md`, and `BLOCKER_REGISTER.md`;
+- Mining: `STATUS.md`, `HANDOFF.md`, `MINING_EPIC_01_CLOSURE.md`, `MINING_MATURITY_ASSESSMENT.md`, and `BLOCKER_REGISTER.md`;
+- Defi: `STATUS.md`, `HANDOFF.md`, `BLOCKER_REGISTER.md`, `RISK_REGISTER.md`, `AUTHORITY_BOUNDARY_MATRIX.md`, and `reports/DEFI_EPIC_01_FINAL_MATURITY_AND_CLOSURE_REPORT.md`.
+
+## Files Updated
+
+- `PORTFOLIO_STATUS.md`
+- `NUCLEUS_MATURITY_REGISTER.md`
+- `BLOCKER_REGISTER.md`
+- `PORTFOLIO_ROADMAP.md`
+- `PORTFOLIO_DEVELOPMENT_REGISTER.md`
+- `PORTFOLIO_L_D_MATRIX.md`
+- `PORTFOLIO_DEVELOPMENT_RANKING.md`
+- `PORTFOLIO_DEVELOPMENT_GAP_ANALYSIS.md`
+- `AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `AXODUS_CROSS_NUCLEUS_DEPENDENCY_REGISTRY.md`
+- `AXODUS_DEPENDENCY_GRAPH_SUMMARY.md`
+- `AXODUS_READINESS_OWNERSHIP_ALIGNMENT.md`
+- `AXODUS_OWNERSHIP_MATRIX.md`
+- `AXODUS_READINESS_GAP_REGISTER.md`
+- `AXODUS_GOVERNANCE_EXECUTION_BOUNDARY_REVIEW.md`
+- `AXODUS_EXECUTION_AUTHORITY_MATRIX.md`
+- `AXODUS_BLOCKED_ACTION_REGISTRY.md`
+- `AXODUS_BOUNDARY_CONFLICT_REGISTER.md`
+- `AXODUS_PORTFOLIO_INTEGRATION_ASSESSMENT.md`
+- `AXODUS_PROMOTION_BOARD_REFRESHED.md`
+- `AXODUS_NEXT_CYCLE_RECOMMENDATION.md`
+- `reports/PORTFOLIO_PANORAMA_REFRESH_REPORT_2026-06-30.md`
+
+## Accepted Nucleus States
+
+| Nucleus | L-Level | D-Level | Accepted status | Boundary |
+|---|---|---|---|---|
+| Core | L5 | D3 | HOLD | NON_PRODUCTION / EXECUTION_GATED |
+| Governance | L5 | D3 | HOLD | NO_MUTATION_AUTHORITY / EXECUTION_GATED |
+| Business | L4_CONSOLIDATED | D2 | CONSOLIDATED_NON_EXECUTIVE | NON_EXECUTIVE |
+| AxodusAPP | L4_CONSOLIDATED | D3+ | PORTFOLIO_INTELLIGENCE_HUB | NON_PRODUCTION / EXECUTION_GATED |
+| Marketplace | L4_CONSOLIDATED | D4 | HOLD / BACKLOG_READY | NON_PRODUCTION / EXECUTION_GATED |
+| ACS | L4_READINESS | D3+ | PAUSED / HANDED_OFF | L4 Consolidated NO; NO_MUTATION_AUTHORITY |
+| Academy | L4_CONSOLIDATED | D3+ | COMPLETE_NON_PRODUCTION | NO_PRODUCTION_AUTHORITY |
+| Mining | L4_CONSOLIDATED | D3+ | COMPLETE_NON_PRODUCTION | NO_PRODUCTION_AUTHORITY; gates CLOSED |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION | UNASSESSED | GATED; blockers OPEN; ADMIN_MUTATION UNSAFE | NO_PRODUCTION_AUTHORITY; financial gates CLOSED |
+| Dex | L4_READINESS | D3 | READ_ONLY_PROVIDER_RELIABILITY_READY | NON_PRODUCTION / EXECUTION_GATED |
+| Documentation | L4_READINESS | D2 | ACTIVE_DOCUMENTATION_PLATFORM | Publication authority/versioning unresolved |
+| Trading | L4_CANDIDATE | D3 | HOLD / EXECUTION_BLOCKED | HIGH risk |
+| BBA-Agency | L3 | D2 | HOLD / PREPARATION | NON_PRODUCTION |
+| Lottery | L3 | D2 | HOLD | HIGH risk |
+
+## Global Risk Changes
+
+- Academy and Mining advance from older candidate/D2 snapshots to accepted L4 Consolidated/D3+ non-production closure states; execution-sensitive risks are unchanged.
+- Defi advances from the older readiness snapshot to `L4_CONSOLIDATED_NON_PRODUCTION`; D-Level remains unassessed and critical blockers remain open.
+- ACS closure is a pause/handoff, not L4 Consolidated promotion.
+- Marketplace remains backlog-ready, not the immediate priority.
+- Documentation publication authority and versioning are the preferred control gap to resolve.
+
+## Blockers Preserved
+
+Globally blocked: production, treasury execution, custody, wallet/signing, financial execution, provider execution, contract writes, real yield, settlement, payouts, billing execution, real credentials, production APIs, production databases, regulated product readiness and investment recommendation.
+
+Academy certification/rewards/minting, Mining real mining/hashrate/equipment/capital allocation, Defi financial and admin mutation surfaces, Trading live exchange activity, Lottery randomness/prizes/compliance, Marketplace settlement, and ACS provisioning/runtime mutation also remain blocked.
+
+## Next Recommended Cycle
+
+Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+
+Alternatives:
+
+- `BBA-AGENCY-EPIC-01 - BBA-Agency L4 Candidate Advancement`;
+- `DEFI-REMEDIATION-EPIC-01 - Defi Security Surface and Execution Boundary Remediation`.
+
+Not recommended now: Marketplace Phase 12A, Academy EPIC-02, Mining EPIC-02, ACS GOV-03/GOV-04, Trading execution, Lottery execution, or Defi features before remediation.
+
+## Validation Results
+
+- `git status --short --untracked-files=all`: returned `fatal: not a git repository`; global files are local/unversioned.
+- `git diff --check`: skipped because there is no Git repository.
+- Markdown table-shape check across all 22 updated/created artifacts: PASS.
+- Required accepted-state and refresh-stamp scan: PASS.
+- Trailing-whitespace scan: no new defect; four pre-existing two-space Markdown hard breaks remain in a historical `PORTFOLIO_STATUS.md` section.
+
+## Delivery Reality Check
+
+### Actually Updated
+
+The 21 existing global panorama artifacts listed above were updated, and this dated report was created. Canonical status/maturity tables, development classifications, promotion/integration selection and next-cycle recommendation were refreshed.
+
+### Only Documented
+
+Maturity transitions, closure acceptance, risk interpretation, blocker posture, roadmap ordering and recommendation are documentation/control-plane changes only. No implementation, deployment, provider integration, credential setup, database migration, contract action or operational execution occurred.
+
+### Still Blocked
+
+Production, treasury execution, custody, wallet/signing, financial execution, provider execution, contract writes, real yield, settlement, payouts, billing execution, real credentials, production APIs, production databases, regulated product readiness and investment recommendation remain blocked globally.
+
+## Acceptance
+
+`AXODUS-PORTFOLIO-REQ-01: PASS`
+
+`Portfolio Panorama: REFRESHED`
+
+`Production: NOT_ENABLED`
+
+`Execution: NOT_ENABLED`
+
+`Financial Gates: PRESERVED_CLOSED`
+
+`Next Recommended EPIC: DOCUMENTATION-EPIC-01`

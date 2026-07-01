@@ -98,6 +98,19 @@ test('argument parser requires one generator mode', () => {
   assert.throws(() => parseArguments(['generate', '--write', '--check']), /exactly one/)
 })
 
+test('argument parser requires both snapshot comparison identifiers', () => {
+  const parsed = parseArguments([
+    'snapshot-compare',
+    '--snapshot', '2026-07-01T000000Z',
+    '--reference', '2026-06-30T000000Z',
+  ])
+  assert.equal(parsed.options.snapshot, '2026-07-01T000000Z')
+  assert.throws(
+    () => parseArguments(['snapshot-compare', '--snapshot', '2026-07-01T000000Z']),
+    /requires --snapshot and --reference/,
+  )
+})
+
 test('docs:check diagnostics preserve public API parity', async () => {
   const api = await validateRepository()
   const payload = await json('check')

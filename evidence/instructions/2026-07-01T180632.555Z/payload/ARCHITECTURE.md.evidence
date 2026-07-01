@@ -1,0 +1,225 @@
+# Axodus Global Architecture
+
+## Architectural Direction
+
+Axodus evolves as a federated operating ecosystem composed of interoperable governance, treasury, execution, educational, AI, and financial domains.
+
+The ecosystem is intentionally modular.
+
+No workspace should become a monolith.
+
+---
+
+# Core Architecture Layers
+
+
+Users
+  ↓
+Constitutional Governance Layer
+  ↓
+Local Governance Layer
+  ↓
+Constitutional Enforcement Layer
+  ↓
+Protocol Execution Layer
+  ↓
+Product Infrastructure Layer
+  ↓
+Cross-chain Coordination Layer
+  ↓
+AI Orchestration Layer
+
+---
+
+# Governance Layer
+
+The governance layer is composed of two governance nuclei:
+
+* Constitutional Governance
+* Local Governance
+
+Constitutional Governance is powered by `$Neurons`.
+
+It defines federal standards, ecosystem capabilities, constitutional conditions, guardrails, and ecosystem-wide legitimacy.
+
+Local Governance is controlled by each federated startup, DAO, company, product, or community.
+
+Local Governance may use `$Neurons`, local tokens, auto-generated platform tokens, multisigs, gauges, reputation systems, NFT governance, or plugin-defined models.
+
+Local autonomy is allowed, but every local governance model must remain constitutionally compatible.
+
+The governance layer coordinates:
+
+* DAOs
+* federation records
+* proposal lifecycle
+* permissions
+* execution authorization
+* treasury policies
+* constitutional enforcement
+* Constitutional Guardrails with transparent reason codes
+
+Governance is chain-agnostic.
+
+Harmony is a supported adapter, not the canonical governance core.
+
+Do not use opaque automatic exclusion language.
+
+Restricted governance actions must be expressed as Constitutional Guardrails with explicit reason codes.
+
+---
+
+# Federation Model
+
+Axodus uses a federated DAO architecture.
+
+Each DAO:
+
+* remains autonomous
+* owns local permissions
+* owns local treasury rights
+* may join federations
+* may share execution capabilities
+* must remain constitutionally compatible
+
+Federation membership never overrides explicit local governance permissions, and local permissions never bypass Constitutional Governance constraints.
+
+---
+
+# Chain Roles
+
+## Execution Chains
+
+Canonical governance and treasury authority.
+
+## Voting Chains
+
+Voting participation and governance power aggregation.
+
+## Spoke Chains
+
+Operational product execution and infrastructure hosting.
+
+---
+
+# Registry Philosophy
+
+The registry layer is the ecosystem source of truth.
+
+Registries define:
+
+* chains
+* deployments
+* plugins
+* capabilities
+* permissions
+* execution rights
+* adapters
+* treasury compatibility
+
+Registries must support:
+
+* on-chain verification
+* off-chain indexing
+* append-only metadata
+* deterministic references
+
+---
+
+# Plugin Philosophy
+
+Custom behavior belongs in:
+
+* plugins
+* setup processors
+* adapters
+* conditions
+
+Avoid deep protocol forks whenever possible.
+
+Preserve:
+
+* upgradeability
+* modularity
+* governance transparency
+* permission boundaries
+
+---
+
+# Treasury Philosophy
+
+Treasury systems must:
+
+* remain auditable
+* expose execution receipts
+* support governance routing
+* support federation-aware execution
+* preserve accounting integrity
+
+No hidden operator authority is allowed.
+
+---
+
+# AI Orchestration Layer
+
+AI systems are treated as operational tooling.
+
+AI execution must:
+
+* remain bounded
+* remain permissioned
+* remain auditable
+* expose execution logs
+* support governance review
+
+AI systems must never become hidden governance authorities.
+
+---
+
+# Frontend Philosophy
+
+Frontends are operating dashboards.
+
+Business logic belongs in:
+
+* contracts
+* SDKs
+* backend services
+* indexers
+
+Frontends should:
+
+* visualize
+* coordinate
+* aggregate
+* monitor
+* orchestrate
+
+Avoid embedding governance logic in frontend state.
+
+---
+
+# Backend Philosophy
+
+Backends are:
+
+* indexers
+* aggregators
+* orchestrators
+* telemetry providers
+* execution coordinators
+
+Backends must not become centralized authorities.
+
+---
+
+# Operational Rule
+
+All systems must remain:
+
+* modular
+* replaceable
+* composable
+* observable
+* governable
+* auditable

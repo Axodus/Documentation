@@ -1,0 +1,207 @@
+# PORTFOLIO-REQ-03A — Development Maturity Baseline Report
+
+Status: DEVELOPMENT_BASELINE_ESTABLISHED
+
+Root versioning state: `/opt/Axodus` is not a Git repository. Global portfolio files are local/unversioned.
+
+## Methodology
+
+This report introduces D-level development maturity as a second axis beside L-level organizational maturity.
+
+Evidence reviewed:
+
+- root portfolio status, roadmap, maturity register and blocker register;
+- portfolio normalization, validation refresh and gated advancement reports;
+- cross-nucleus opportunity, dependency, ownership and boundary reports;
+- local `.instructions` status, validation, handoff, blocker and maturity assessment files;
+- repository structure, source footprint, tests, docs, package scripts and implemented product surfaces.
+
+The assessment is conservative. A D-level measures implementation depth, not production readiness. D3 does not authorize trading, DEX execution, wallet signing, treasury movement, settlement, payout, governance execution or production operation.
+
+## Nuclei Reviewed
+
+Core, Governance, Documentation, Dex, Defi, AxodusAPP, Business, Marketplace, Academy, Mining, ACS, Trading, BBA-Agency, Lottery.
+
+## Code Evidence Reviewed
+
+| Nucleus | Files Scanned | Code Files | Test Files | Doc Files | Package Manifests | Notable Surface |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Core | 300 | 67 | 11 | 140 | 20 | Shared packages, services and conformance scripts. |
+| Governance | 3,787 | 3,229 | 768 | 218 | 10 | App, backend, contracts, subgraph and read-only API contracts. |
+| Documentation | 620 | 0 | 0 | 615 | 1 | VitePress documentation system. |
+| Dex | 201 | 68 | 17 | 68 | 9 | Read-only provider, mock data, validation and boundary scanner evidence. |
+| Defi | 223 | 69 | 19 | 49 | 3 | Services, API, indexer and contract-oriented local surfaces. |
+| AxodusAPP | 577 | 411 | 38 | 59 | 1 | React integration shell and frontend test/build surface. |
+| Business | 173 | 95 | 15 | 58 | 1 | Runtime, validators, registry models and mock API. |
+| Marketplace | 202 | 131 | 11 | 29 | 3 | API and web product surface. |
+| Academy | 164 | 86 | 3 | 35 | 1 | Frontend, API and contract readiness surfaces. |
+| Mining | 68 | 45 | 6 | 13 | 1 | UI/API and mining readiness surfaces. |
+| ACS | 187 | 60 | 33 | 57 | 1 | Guarded runtime and test surface. |
+| Trading | 365 | 236 | 5 | 113 | 2 | Trading core, services and local Postgres E2E path. |
+| BBA-Agency | 93 | 51 | 20 | 32 | 1 | Mock/local service delivery model and tests. |
+| Lottery | 1,776 | 1,436 | 38 | 39 | 1 | Mock/local lottery UI/API/test surface. |
+
+## Validation Evidence Reviewed
+
+| Nucleus | Validation Evidence |
+| --- | --- |
+| Core | Package scripts include check, test and conformance. |
+| Governance | Status evidence reports 4,551 passing and 5 pending tests. |
+| Documentation | VitePress build/content validation exists; docs build scripts present. |
+| Dex | Typecheck, lint, test, build and boundary scanner evidence exists. |
+| Defi | Local service/API/indexer/contract validation evidence exists with execution-sensitive limits. |
+| AxodusAPP | Build passes and test evidence reports 130 passing tests. |
+| Business | `npm run check` evidence with 102 passing tests. |
+| Marketplace | Validation evidence reports 102 passing tests across API and web. |
+| Academy | Typecheck, lint, test, build and contract checks are documented. |
+| Mining | Validation evidence reports 47 passing tests with warnings. |
+| ACS | Build passes and 152 tests pass. |
+| Trading | Safe local Postgres E2E evidence passed; 240 passing and 1 skipped test reported. |
+| BBA-Agency | Typecheck, contract, permission and cost validation evidence exists. |
+| Lottery | Vitest, lint and API pytest evidence exists with mock/local restrictions. |
+
+## Development Matrix
+
+| Nucleus | L-Level | D-Level | Functional Completeness |
+| --- | --- | --- | ---: |
+| Core | L5 | D3 | 65% |
+| Governance | L5 | D3 | 70% |
+| Documentation | L4 Readiness | D2 | 60% |
+| Dex | L4 Readiness | D3 | 65% |
+| Defi | L4 Readiness | D2 | 45% |
+| AxodusAPP | L4 Readiness | D3 | 70% |
+| Business | L4 Consolidated | D2 | 55% |
+| Marketplace | L4 Candidate | D2 | 60% |
+| Academy | L4 Candidate | D2 | 55% |
+| Mining | L4 Candidate | D2 | 45% |
+| ACS | L4 Candidate | D2 | 50% |
+| Trading | L4 Candidate | D3 | 65% |
+| BBA-Agency | L3 | D2 | 45% |
+| Lottery | L3 | D2 | 45% |
+
+## Implementation Ranking
+
+1. Governance
+2. AxodusAPP
+3. Trading
+4. Dex
+5. Core
+6. Marketplace
+7. Documentation
+8. Business
+9. Academy
+10. ACS
+11. Defi
+12. Mining
+13. BBA-Agency
+14. Lottery
+
+## L vs D Comparison
+
+High L / lower D:
+
+- Business: L4 Consolidated / D2.
+- Defi: L4 Readiness / D2.
+- Documentation: L4 Readiness / D2.
+
+Low L / higher D:
+
+- Trading: L4 Candidate / D3.
+
+Balanced:
+
+- Core, Governance, Dex, AxodusAPP, Marketplace, Academy, Mining, ACS, BBA-Agency, Lottery.
+
+## Highest Development Maturity
+
+D3 nuclei:
+
+- Core
+- Governance
+- Dex
+- AxodusAPP
+- Trading
+
+## Lowest Development Maturity
+
+No reviewed nucleus is D0 or D1. The lowest assigned group is D2:
+
+- Documentation
+- Defi
+- Business
+- Marketplace
+- Academy
+- Mining
+- ACS
+- BBA-Agency
+- Lottery
+
+## Most Balanced Nuclei
+
+Core, Governance, Dex, AxodusAPP, Marketplace, Academy, Mining, ACS, BBA-Agency and Lottery have D-levels that broadly match their current documented L-level and execution constraints.
+
+## Most Documentation-Heavy Nuclei
+
+Documentation, Business and Defi.
+
+Documentation is documentation-heavy by purpose. Business is documentation-heavy by governance-support role while still having runtime/model implementation. Defi is documentation-heavy because execution-sensitive implementation remains gated.
+
+## Most Product-Heavy Nuclei
+
+Governance, AxodusAPP, Trading, Dex and Marketplace.
+
+## Portfolio Recommendations
+
+1. Keep D-level separate from L-level. Do not treat implementation depth as production authorization.
+2. Use AxodusAPP as the next safe product sprint target because it can consume portfolio registries and status intelligence read-only.
+3. Keep Business as non-executive coordination. Do not force Business into product execution merely because it is L4 Consolidated.
+4. Keep Defi, Mining, Lottery, Trading, Marketplace and Dex execution-sensitive features blocked unless separate governance, treasury, compliance and validation approvals exist.
+5. Add future D-level refreshes after each major product sprint.
+
+## Suggested Next Product Sprint
+
+AxodusAPP Integration Expansion.
+
+Rationale:
+
+- high implementation maturity;
+- passing build/test evidence;
+- central role as portfolio shell;
+- can deliver visible value by consuming read-only global registries;
+- avoids treasury, settlement, payout, wallet, DEX and trading execution.
+
+## Files Created
+
+- `/opt/Axodus/.instructions/PORTFOLIO_DEVELOPMENT_REGISTER.md`
+- `/opt/Axodus/.instructions/PORTFOLIO_L_D_MATRIX.md`
+- `/opt/Axodus/.instructions/PORTFOLIO_DEVELOPMENT_RANKING.md`
+- `/opt/Axodus/.instructions/PORTFOLIO_DEVELOPMENT_GAP_ANALYSIS.md`
+- `/opt/Axodus/.instructions/reports/PORTFOLIO_DEVELOPMENT_MATURITY_BASELINE_REPORT_2026-06.md`
+
+## Files Updated
+
+None. This request created baseline artifacts only.
+
+## Validation
+
+Required validation checks:
+
+- development register exists;
+- L/D matrix exists;
+- development ranking exists;
+- development gap analysis exists;
+- report exists;
+- every reviewed nucleus has a D-level;
+- every D-level includes evidence;
+- no production readiness claim is introduced;
+- no execution authority is granted.
+
+Validation result: PASS.
+
+## Boundary Confirmation
+
+This request did not modify product code, add features, add integrations, change package files, install dependencies, grant execution authority, claim production readiness, enable treasury behavior, enable wallet signing, enable settlement, enable payouts, enable trading, enable DEX execution or enable on-chain behavior.
+
+## Assessment
+
+DEVELOPMENT_BASELINE_ESTABLISHED

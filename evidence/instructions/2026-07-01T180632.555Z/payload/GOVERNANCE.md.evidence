@@ -1,0 +1,185 @@
+# Axodus Governance
+
+## Governance Model
+
+Axodus Governance has two distinct governance nuclei:
+
+1. **Constitutional Governance**
+2. **Local Governance**
+
+These nuclei are complementary, not interchangeable.
+
+Constitutional Governance defines ecosystem legitimacy.
+
+Local Governance defines local operating authority.
+
+---
+
+# Constitutional Governance
+
+Constitutional Governance is powered by `$Neurons`.
+
+This layer is responsible for ecosystem-wide authority and compatibility.
+
+It defines:
+
+* federal governance standards
+* chain and plugin capabilities
+* constitutional conditions
+* ecosystem guardrails
+* treasury and execution constraints
+* DAO federation requirements
+* cross-chain legitimacy rules
+* agent execution boundaries
+* transparent reason codes for blocked or restricted actions
+
+Constitutional Governance is not a local management system.
+
+It should not micromanage every startup, DAO, product, company, or community.
+
+Its responsibility is to preserve ecosystem integrity.
+
+---
+
+# Local Governance
+
+Local Governance is controlled by each federated startup, DAO, company, product, or community.
+
+Local Governance may use:
+
+* `$Neurons`
+* local tokens
+* auto-generated platform tokens
+* multisigs
+* gauges
+* reputation systems
+* NFT governance
+* plugin-defined governance models
+* hybrid voting and execution models
+
+Local governance models may differ across the federation.
+
+This diversity is allowed and expected.
+
+Local autonomy is valid only when it remains constitutionally compatible.
+
+---
+
+# DAO Tenant Accounts
+
+Each federated SubDAO must also be represented as an operational tenant account inside Axodus.
+
+The Governance Operations Center should therefore be framed as a DAO Tenant Operations Center, where each tenant represents a governed business unit.
+
+Tenant context must make this hierarchy visible:
+
+* Axodus Root DAO
+* Federation / Constitution
+* Tenant DAO / SubDAO Account
+* Treasury
+* Members / Roles
+* Products Enabled
+* Agents Assigned
+* Proposals / Operations
+* Receipts / Execution
+
+Registry state, standing, guardrails, plugin capabilities and indexed governance sources must answer these tenant-level questions:
+
+* what is this tenant allowed to do?
+* why?
+* under which authority?
+* with which limits?
+* using which plugin or source?
+
+Frontend surfaces may render tenant state, but enforcement, sanctions, treasury restrictions and constitutional validity must remain sourced from registries, contracts, indexers and backend guardrails.
+
+---
+
+# Constitutional Compatibility
+
+Every local governance model must remain compatible with Constitutional Governance.
+
+Compatibility means:
+
+* local governance must respect federal standards
+* local execution must respect constitutional conditions
+* local treasury actions must respect ecosystem guardrails
+* local plugins must expose clear capabilities
+* local voting models must be explicit and auditable
+* local permissions must not bypass federal constraints
+* local agents must remain bounded by constitutional execution rules
+
+Local autonomy is not sovereignty outside the Axodus constitutional model.
+
+---
+
+# Constitutional Guardrails
+
+Axodus must not use opaque automatic exclusion language or hidden blocking logic.
+
+Use **Constitutional Guardrails** instead.
+
+Guardrails must be:
+
+* explicit
+* auditable
+* explainable
+* reversible through governance where appropriate
+* attached to transparent reason codes
+
+Every blocked, restricted, warned, degraded, or delayed governance action should expose a reason code.
+
+Examples:
+
+* `CHAIN_NOT_CONSTITUTIONALLY_ENABLED`
+* `PLUGIN_CAPABILITY_NOT_REGISTERED`
+* `LOCAL_GOVERNANCE_MODEL_INCOMPATIBLE`
+* `TREASURY_POLICY_REQUIRES_REVIEW`
+* `EXECUTION_CHAIN_NOT_AUTHORIZED`
+* `VOTING_POWER_SOURCE_NOT_VERIFIED`
+* `INDEXER_STATE_NOT_READY`
+* `REMOTE_EXECUTION_GUARDRAIL_ACTIVE`
+* `AGENT_PERMISSION_SCOPE_EXCEEDED`
+
+Reason codes must be visible to operators, indexers, SDKs, frontends, and future agents.
+
+---
+
+# Chain-Agnostic Governance
+
+Harmony is a supported legacy adapter and client-product surface.
+
+Harmony Governance is not Axodus Constitutional Governance.
+
+Axodus Governance must remain chain-agnostic and registry-driven.
+
+Chains declare capabilities.
+
+Plugins declare governance models.
+
+Constitutional Governance determines whether those capabilities and models are compatible with the Axodus federation.
+
+---
+
+# Implementation Guidance
+
+Governance infrastructure should model:
+
+* constitutional authority
+* local governance authority
+* plugin-level capabilities
+* voting power source
+* execution mode
+* treasury authority
+* compatibility status
+* guardrail reason codes
+
+Do not hardcode local governance behavior into the frontend.
+
+Do not assume `$Neurons` is the only valid local governance asset.
+
+Do not assume local autonomy removes constitutional compatibility requirements.
+
+Do not implement hidden exclusion systems.
+
+Use transparent Constitutional Guardrails.

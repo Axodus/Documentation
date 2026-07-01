@@ -18,7 +18,10 @@
     "docs:exceptions:check": "node tools/documentation/cli/index.js exceptions",
     "docs:check": "node tools/documentation/cli/index.js check",
     "docs:generate": "node tools/documentation/cli/index.js generate --write",
-    "docs:generate:check": "node tools/documentation/cli/index.js generate --check"
+    "docs:generate:check": "node tools/documentation/cli/index.js generate --check",
+    "docs:snapshot": "node tools/documentation/cli/index.js snapshot",
+    "docs:snapshot:list": "node tools/documentation/cli/index.js snapshot-list",
+    "docs:snapshot:compare": "node tools/documentation/cli/index.js snapshot-compare"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

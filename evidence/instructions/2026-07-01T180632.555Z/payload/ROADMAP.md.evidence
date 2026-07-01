@@ -1,0 +1,50 @@
+# Axodus Roadmap
+
+Last updated: 2026-06-04
+
+Current roadmap source: `.instructions/PORTFOLIO_ROADMAP.md`
+
+Current baseline: RECAST 01 - Nucleus Maturity Audit & Baseline Register.
+
+## Portfolio Sequence
+
+1. PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation.
+2. PORTFOLIO SPRINT 02 - Lowest-Level Nucleus Recovery.
+3. PORTFOLIO SPRINT 03 - Second Lowest-Level Nucleus Recovery.
+4. PORTFOLIO SPRINT 04 - Cross-Nucleus AxodusAPP Visibility Planning.
+
+## Immediate Planning Constraints
+
+- Governance remains HOLD / PILOT COMPLETE / BACKLOG CONTROLLED.
+- Governance API transport implementation must not continue without portfolio approval.
+- DEX 04O/04P and later work remain backlog/future continuation.
+- Trading remains local/paper-only; live trading, real keys, withdrawals, production DB, and treasury movement are blocked.
+- L1 nuclei should be recovered before broadening production-sensitive work.
+- No roadmap item authorizes production execution.
+
+## Next Recommended Sprint
+
+PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation.
+
+Expected output:
+
+- approved next-request ordering;
+- recovery target selection for L1 nuclei;
+- status/reporting baseline requirements for nuclei missing `STATUS.md`;
+- explicit hold rules for Governance, ACS, and Trading;
+- no runtime implementation.
+
+## REQ-01 - Global Docs / Instructions Recovery
+
+Status: COMPLETE
+
+Result:
+
+- Global Docs / Instructions L2 evidence created.
+- Source-of-truth, ownership, versioning strategy, and validation procedure now exist.
+- `/opt/Axodus` remains not a Git repository.
+- Versioning migration is not executed and requires coordinator decision.
+
+Next recommended request:
+
+- REQ-02 - Documentation Nucleus Recovery - L3 to L4.

@@ -1,0 +1,400 @@
+# Dreaming Output Templates
+
+## Usage
+
+These templates standardize Dreaming Mode outputs for ACS/OpenClaw agents.
+
+Dreaming reports are structured memory proposals. They are not canonical truth.
+
+Security boundary: do not include secrets, credentials, private keys, wallet seed phrases, auth headers, API tokens, or raw sensitive logs in any template output.
+
+## 1. Agent Local Dream
+
+```markdown
+# Agent Local Dream
+
+## Time Window
+
+- From:
+- To:
+
+## Agent Identity
+
+- Name:
+- Slug:
+- Role:
+
+## Scope
+
+Describe the agent-owned scope reviewed in this dream.
+
+## Source Context
+
+- Recent conversations:
+- Recent agent notes:
+- Recent sprint outputs:
+- Local task logs:
+- Relevant Core references:
+
+## Relevant Events
+
+- Event:
+  - Source:
+  - Impact:
+  - Confidence: High / Medium / Low
+
+## Decisions Detected
+
+- Decision:
+  - Status: observed / inferred / confirmed
+  - Source:
+  - Confidence:
+
+## Stable Facts
+
+- Fact:
+  - Source:
+  - Confidence:
+
+## Open Questions
+
+- Question:
+  - Owner:
+  - Needed decision:
+
+## Blockers
+
+- Blocker:
+  - Severity:
+  - Owner:
+  - Suggested next step:
+
+## Risks
+
+- Risk:
+  - Severity:
+  - Evidence:
+  - Mitigation:
+
+## Cross-Nucleus Impacts
+
+- Impact:
+  - Affected nuclei:
+  - Confidence:
+
+## Memory Candidates
+
+- Statement:
+  - Class: Ephemeral / Session / Nucleus / Cross-Nucleus / Canonical Candidate
+  - Source context:
+  - Reason to remember:
+  - Expiration rule:
+  - Confidence:
+  - Recommended owner:
+
+## Items To Ignore / Forget
+
+- Item:
+  - Reason:
+  - Expiration:
+
+## Suggested Follow-Up Tasks
+
+- Task:
+  - Owner:
+  - Priority:
+
+## Confidence Assessment
+
+Overall confidence: High / Medium / Low
+
+## Boundary Statement
+
+This report proposes memory candidates only. It does not update canonical truth.
+```
+
+## 2. Nucleus Dream
+
+```markdown
+# Nucleus Dream
+
+## Time Window
+
+- From:
+- To:
+
+## Nucleus
+
+- Name:
+- Owner:
+- Active status:
+
+## Scope
+
+Describe nucleus-specific context reviewed.
+
+## Source Context
+
+- Nucleus instructions:
+- Sprint reports:
+- Agent dreams reviewed:
+- Repo/workspace notes:
+- Core references:
+
+## Domain Changes
+
+- Change:
+  - Source:
+  - Impact:
+  - Confidence:
+
+## Decisions Detected
+
+- Decision:
+  - Status:
+  - Source:
+  - Confidence:
+
+## Blockers
+
+- Blocker:
+  - Severity:
+  - Affected work:
+  - Suggested next action:
+
+## Risks
+
+- Risk:
+  - Severity:
+  - Evidence:
+  - Mitigation:
+
+## Cross-Nucleus Impacts
+
+- Impact:
+  - Affected nuclei:
+  - Required coordination:
+
+## Memory Candidates
+
+- Statement:
+  - Class: Nucleus / Cross-Nucleus / Canonical Candidate
+  - Source context:
+  - Reason to remember:
+  - Expiration rule:
+  - Confidence:
+  - Recommended owner:
+
+## Items To Discard
+
+- Item:
+  - Reason:
+
+## Suggested Follow-Up Tasks
+
+- Task:
+  - Owner:
+  - Priority:
+
+## Confidence Assessment
+
+Overall confidence: High / Medium / Low
+```
+
+## 3. ACS Global Dream Digest
+
+```markdown
+# ACS Global Dream Digest
+
+## Time Window
+
+- From:
+- To:
+
+## Active Agents Reviewed
+
+- Agent:
+  - Dream output:
+  - Coverage:
+
+## Active Nuclei Reviewed
+
+- Nucleus:
+  - Dream output:
+  - Coverage:
+
+## Executive Summary
+
+Concise global synthesis.
+
+## Stable Decisions
+
+- Decision:
+  - Source:
+  - Affected nuclei:
+  - Confidence:
+
+## New Cross-Nucleus Dependencies
+
+- Dependency:
+  - Source:
+  - Affected nuclei:
+  - Owner:
+
+## Conflicts / Drift Detected
+
+- Conflict:
+  - Sources:
+  - Risk:
+  - Recommended resolution:
+
+## Duplicate Memories
+
+- Duplicate:
+  - Sources:
+  - Recommended canonical owner:
+
+## Canonical Memory Candidates
+
+- Statement:
+  - Source context:
+  - Reason to remember:
+  - Suggested registry location:
+  - Confidence:
+
+## Nucleus-Level Memory Candidates
+
+- Statement:
+  - Nucleus:
+  - Owner:
+  - Confidence:
+
+## Items To Discard
+
+- Item:
+  - Reason:
+
+## Recommended Core Registry Updates
+
+- Proposed update:
+  - Target location:
+  - Required approval:
+
+## Recommended Next Actions
+
+- Action:
+  - Owner:
+  - Priority:
+
+## Risk Notes
+
+- Risk:
+  - Severity:
+  - Mitigation:
+
+## Confidence Assessment
+
+Overall confidence: High / Medium / Low
+
+## Boundary
+
+This digest does not approve or overwrite Core memory.
+```
+
+## 4. Memory Candidate List
+
+```markdown
+# Memory Candidate List
+
+## Time Window
+
+- From:
+- To:
+
+## Sources Reviewed
+
+- Source:
+  - Type:
+  - Reliability:
+
+## Candidates
+
+### Candidate 1
+
+- Statement:
+- Class: Ephemeral / Session / Nucleus / Cross-Nucleus / Canonical Candidate
+- Source context:
+- Reason to remember:
+- Affected nuclei:
+- Recommended owner:
+- Expiration rule:
+- Promotion criteria met:
+- Risks:
+- Confidence: High / Medium / Low
+
+## Rejected / Ignored Items
+
+- Statement:
+  - Reason:
+  - Suggested class if any:
+
+## Follow-Up Tasks
+
+- Task:
+  - Owner:
+  - Priority:
+```
+
+## 5. Core Memory Review
+
+```markdown
+# Core Memory Review
+
+## Time Window
+
+- From:
+- To:
+
+## Sources Reviewed
+
+- Source:
+  - Type:
+  - Reliability:
+
+## Approved Canonical Candidates
+
+- Statement:
+  - Owner:
+  - Affected nuclei:
+  - Reason:
+  - Suggested registry location:
+  - Confidence:
+
+## Rejected Candidates
+
+- Statement:
+  - Reason for rejection:
+  - Should remain: Ephemeral / Session / Nucleus / Cross-Nucleus / Discarded
+
+## Conflicts Requiring Human Review
+
+- Conflict:
+  - Sources:
+  - Required decision:
+
+## Suggested Core Registry Changes
+
+- Change:
+  - Target file/location:
+  - Approval needed:
+
+## Suggested Agent Context Updates
+
+- Agent:
+  - Context update:
+  - Source:
+
+## Final Notes
+
+This report is a recommendation only. No canonical file should be changed without explicit approval unless a future Core workflow authorizes it.
+```

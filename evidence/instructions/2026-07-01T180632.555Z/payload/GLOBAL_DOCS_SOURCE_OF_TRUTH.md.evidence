@@ -1,0 +1,123 @@
+# Global Docs Source of Truth Policy
+
+Last updated: 2026-06-04
+
+Scope: `/opt/Axodus/.instructions`
+
+Status: REQ-01 recovery artifact for Global Docs / Instructions L1 to L2.
+
+This policy defines documentation authority only. It does not grant runtime authority, production authority, trading authority, swap authority, settlement authority, treasury authority, payout authority, wallet-signing authority, credential authority, or on-chain authority.
+
+## Authority Layers
+
+| Layer | Owns | Does Not Own |
+|---|---|---|
+| Global `.instructions` | Portfolio coordination, maturity framework, sprint/request/task taxonomy, cross-nucleus blockers, portfolio roadmap allocation, global safety boundaries, request queue | Product runtime behavior, local implementation details, production execution permission |
+| Nucleus `.instructions` | Local implementation constraints, validation commands, safety boundaries, local status, local workflow, architecture notes, local blocker evidence | Cross-nucleus priority unless explicitly accepted into global portfolio docs |
+| Core docs / `.instructions` | Ecosystem coordination semantics, federation principles, constitutional/architectural boundaries, registry concepts, public API policy, execution authority boundaries | Product backend implementation, treasury execution, product-specific runtime behavior |
+| Documentation nucleus docs | Documentation tooling, publishing standards, docs quality processes, content guardrails, rebuild/review protocols | Portfolio maturity decisions, product behavior, execution permission |
+| AxodusAPP docs | Frontend integration shell boundaries, module visibility, UI route/status contracts, mock-to-real readiness plans | Backend authority, treasury/settlement/trading/swaps, production execution approval |
+
+## Global Docs Control
+
+Global `.instructions` controls:
+
+- portfolio maturity model;
+- sprint/request/task naming and ordering;
+- cross-nucleus roadmap allocation;
+- cross-nucleus blocker register;
+- global production-disabled boundaries;
+- portfolio-level recovery and HOLD policies;
+- request queue sequencing;
+- reports for coordination-level work.
+
+## Nucleus Docs Control
+
+Nucleus `.instructions` controls:
+
+- local architecture constraints;
+- local validation commands;
+- local implementation boundaries;
+- local security restrictions;
+- nucleus status and roadmap;
+- local blocker and risk evidence;
+- workspace-specific agent guidance.
+
+Global docs must not override a stricter local nucleus safety boundary. When a local nucleus forbids an action, the action remains forbidden unless the nucleus docs and portfolio docs are both updated by an explicit approved request.
+
+## Core Docs Control
+
+Core controls the constitutional and architectural vocabulary of the ecosystem:
+
+- federation semantics;
+- registry/source-of-truth concepts;
+- execution authority boundaries;
+- public API policies;
+- consumer certification concepts;
+- ecosystem coordination principles.
+
+Core is not a product backend and is not execution authority. Global docs may reference Core principles, but they must not treat Core as approval for product execution.
+
+Core Registry presence must not imply authorization, implementation, production approval, runtime activation, or policy approval. If global docs conflict with Core source-of-truth or registry rules, record drift rather than silently reconciling the conflict.
+
+## Documentation Nucleus Control
+
+Documentation controls:
+
+- documentation build and publishing processes;
+- content quality standards;
+- documentation review workflow;
+- docs site structure and tooling;
+- guardrails for claims and official language.
+
+Global docs may define portfolio documentation requirements, but Documentation nucleus should define how documentation is built, reviewed, and published.
+
+Documentation should maintain the canonical public documentation surface and institutional knowledge base. Drafts, sprint text, memory, and planning reports must not become official public facts unless reviewed and migrated through Documentation/Core source-of-truth rules.
+
+## AxodusAPP Docs Control
+
+AxodusAPP controls:
+
+- frontend route visibility;
+- integration shell boundaries;
+- UI module status;
+- mock/read-only frontend behavior;
+- frontend-specific validation and readiness plans.
+
+AxodusAPP docs do not authorize backend execution, wallet signing, treasury movement, DEX swaps, marketplace settlement, mining payouts, lottery payouts, trading, or on-chain writes.
+
+## Conflict Resolution
+
+Resolve conflicts in this order:
+
+1. Latest explicit coordinator-approved request for the same scope.
+2. Global production/execution safety boundary, if stricter.
+3. Nucleus `.instructions`, if stricter for local implementation.
+4. Core boundary docs for architectural/constitutional semantics.
+5. Documentation nucleus docs for docs tooling and publishing process.
+6. Existing report evidence from the latest completed request/recast/sprint.
+
+If conflict remains unresolved, do not implement. Record the conflict in the blocker register and request coordinator decision.
+
+## Portfolio Override Rule
+
+Portfolio-level decisions may allocate priority, classify maturity, and place nuclei in HOLD/RECOVER/BACKLOG/ADVANCE. Portfolio-level decisions do not automatically grant implementation or execution permission.
+
+Any decision that enables or implies production execution, wallet signing, treasury movement, trading, swaps, payouts, settlement, credential use, or on-chain writes requires explicit coordinator approval and must be reflected in both portfolio docs and the affected nucleus docs.
+
+## Local Constraint Rule
+
+Local nucleus constraints override generic global assumptions when they are more restrictive. Examples:
+
+- a local DEX token-list/fork protection rule blocks global cleanup assumptions;
+- a Trading credential rule blocks generic integration assumptions;
+- a Governance HOLD rule blocks generic API advancement;
+- a Core pre-RC rule blocks generic release or execution assumptions.
+
+## Runtime Behavior Rule
+
+Runtime/product behavior is not defined by global docs unless explicitly linked to and accepted by the relevant product nucleus. Global docs are coordination records, not hidden product implementation specs.
+
+## L2 Evidence
+
+This policy contributes to L2 recovery for Global Docs / Instructions by defining source-of-truth ownership and conflict resolution. L2 remains candidate/validated only after the validation procedure passes and the unresolved versioning decision is recorded.

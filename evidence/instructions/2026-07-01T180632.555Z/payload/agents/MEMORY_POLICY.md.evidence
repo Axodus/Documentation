@@ -1,0 +1,133 @@
+# ACS / OpenClaw Memory Policy
+
+## Purpose
+
+This policy defines how Dreaming Mode classifies memory and prevents uncontrolled memory growth.
+
+Dreaming outputs are proposals. Canonical memory requires Core review or an explicitly approved workflow.
+
+## Memory Classes
+
+| Class | Definition | Storage Recommendation | Retention / Expiration | Promotion Criteria | Owner |
+| --- | --- | --- | --- | --- | --- |
+| Ephemeral | Temporary execution detail with little future value | Local run notes only | Expire after current run or same day | Usually not promoted | Agent |
+| Session | Useful for the current work cycle or sprint | Current sprint/status notes | Expire after sprint or when task closes | Can become Nucleus if still relevant | Agent or sprint owner |
+| Nucleus | Relevant to one Axodus domain | Nucleus dream or nucleus instructions | Review periodically by nucleus owner | Stable, domain-specific, non-secret | Nucleus owner |
+| Cross-Nucleus | Affects multiple Axodus domains | Coordinator digest and memory candidates | Keep until Core review | Impacts multiple nuclei and is stable | ACS Coordinator |
+| Canonical Candidate | Proposed stable project truth pending review | Memory candidate registry or Core review report | Keep until accepted/rejected | Stable, sourced, useful, non-secret | Core reviewer |
+| Canonical | Approved source-of-truth knowledge | Core registry or approved `.instructions` location | Persistent until superseded | Explicit approval or accepted Core workflow | Core |
+
+## Examples
+
+### Ephemeral
+
+- today's failed command;
+- temporary local install problem;
+- transient branch issue;
+- noisy runtime log with no architectural impact.
+
+### Session
+
+- current sprint objective;
+- pending implementation task;
+- validation checklist for the active work cycle;
+- temporary blocker that should be revisited soon.
+
+### Nucleus
+
+- Governance uses Constitutional and Local governance models;
+- Academy distributes Locked/Unlocked `$Neurons`;
+- Trading separates backtest, paper, live, and treasury execution.
+
+### Cross-Nucleus
+
+- Core Registry is the canonical source of truth;
+- ACS agents must consume Core docs;
+- AxodusAPP is a frontend orchestrator for multiple nuclei;
+- governance/security rules constrain operational agent behavior.
+
+### Canonical Candidate
+
+- an explicitly confirmed nucleus ownership decision;
+- a stable architecture decision repeated across validated sprint reports;
+- an accepted terminology rule pending placement in Core docs.
+
+### Canonical
+
+- official Axodus nuclei list;
+- governance-first architecture;
+- `$Neurons` token naming;
+- approved product boundaries;
+- architectural decisions already accepted into Core documentation.
+
+## What Agents Should Remember
+
+Agents should propose memory candidates for:
+
+- stable architecture decisions;
+- approved terminology;
+- nucleus ownership;
+- sprint outcomes;
+- unresolved blockers;
+- cross-nucleus dependencies;
+- user or project preferences that affect future planning;
+- governance/security rules;
+- canonical repository paths;
+- decisions explicitly confirmed by the project owner.
+
+## What Agents Must Not Remember
+
+Agents must not persist:
+
+- credentials;
+- private keys;
+- secrets;
+- wallet seed phrases;
+- API keys;
+- auth headers;
+- private tokens;
+- temporary logs without impact;
+- speculative ideas not approved;
+- duplicate summaries;
+- emotional noise;
+- obsolete implementation details;
+- failed experiments unless they became known constraints;
+- raw runtime logs containing sensitive payloads.
+
+## Promotion Rules
+
+A memory candidate can be promoted only if it is:
+
+- stable;
+- explicitly approved or repeatedly confirmed by reliable sources;
+- useful across future sessions;
+- non-secret;
+- non-temporary;
+- non-speculative;
+- aligned with Axodus architecture;
+- assigned to a clear owner.
+
+## Rejection Rules
+
+Reject or downgrade a candidate when it is:
+
+- too temporary;
+- insufficiently sourced;
+- duplicated elsewhere;
+- speculative;
+- sensitive or secret-bearing;
+- obsolete;
+- relevant only to a local session;
+- contradicted by Core or Governance documentation.
+
+## Storage Rules
+
+- Store local agent dreams under `~/.openclaw/main_workspace/dreaming/outputs/agents/<agent-name>/`.
+- Store nucleus dreams under `~/.openclaw/main_workspace/dreaming/outputs/nuclei/<nucleus-name>/`.
+- Store coordinator digests under `~/.openclaw/main_workspace/dreaming/outputs/coordinator/`.
+- Store memory candidates under `~/.openclaw/main_workspace/dreaming/outputs/memory-candidates/`.
+- Store review packages under `~/.openclaw/main_workspace/dreaming/outputs/registry-sync/`.
+
+## Security Rule
+
+If a candidate contains or implies sensitive material, redact or block it before persistence. Do not store the raw value in any memory class.

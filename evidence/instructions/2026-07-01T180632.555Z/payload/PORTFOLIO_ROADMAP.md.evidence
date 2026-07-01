@@ -1,0 +1,638 @@
+# Axodus Portfolio Roadmap
+
+Last refreshed: 2026-06-30
+
+## Current Portfolio Sequence
+
+1. `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation` — next best move; governance/documentation consolidation only, with no publication or production authority implied.
+2. `BBA-AGENCY-EPIC-01 - BBA-Agency L4 Candidate Advancement` — alternate bounded local/non-production track.
+3. `DEFI-REMEDIATION-EPIC-01 - Defi Security Surface and Execution Boundary Remediation` — alternate remediation-only track; no feature implementation or financial authority.
+
+Current holds:
+
+- Marketplace Phase 12A remains `HOLD / BACKLOG_READY`, not immediate priority.
+- Academy EPIC-02 and Mining EPIC-02 are not automatic follow-ons.
+- ACS remains paused; do not open `ACS-GOV-03` or `ACS-GOV-04`.
+- Trading and Lottery execution work remains blocked.
+- Defi feature implementation remains blocked until remediation is completed and separately reviewed.
+
+This roadmap sequence does not open production, financial, treasury, custody, execution, wallet/signing, settlement, payout, billing, provider or contract-write gates. Older roadmap sections are historical planning records.
+
+Last updated: 2026-06-23
+
+## 2026-06-23 - ACS Closure Handoff
+
+Status: COMPLETE
+
+ACS closure outcome:
+
+- ACS remains `L4_READINESS` / `D3+`
+- ACS remains `NON_PRODUCTION` / `EXECUTION_GATED` / `NO_MUTATION_AUTHORITY`
+- `ACS-GOV-03` is `DEFERRED_TO_AVOID_GOVERNANCE_LOOP`
+- `ACS-GOV-04` is `NOT_OPENED`
+- ACS returns only when a formal L4 Consolidated assessment is intentionally requested
+
+Portfolio shift:
+
+1. `ACADEMY-EPIC-01 - Academy L4 Consolidation`
+2. `MINING-EPIC-01 - Mining L4 Consolidation`
+
+Boundary:
+
+This roadmap update does not authorize ACS L4 Consolidated promotion or any production/execution authority.
+
+## 2026-06-09 - Cross-Nucleus Integration Cycle
+
+Status: IN_PROGRESS
+
+Completed:
+
+- CROSS-REQ-01 - Global Opportunity Registry.
+- CROSS-REQ-02 - Cross-Nucleus Dependency Registry.
+
+Created:
+
+- `.instructions/AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `.instructions/reports/CROSS_REQ_01_GLOBAL_OPPORTUNITY_REGISTRY_REPORT_2026-06.md`
+- `.instructions/AXODUS_CROSS_NUCLEUS_DEPENDENCY_REGISTRY.md`
+- `.instructions/AXODUS_DEPENDENCY_GRAPH_SUMMARY.md`
+- `.instructions/reports/CROSS_REQ_02_CROSS_NUCLEUS_DEPENDENCY_REGISTRY_REPORT_2026-06.md`
+
+Next:
+
+1. CROSS-REQ-03 - Readiness & Ownership Alignment.
+2. Use dependency entries as ownership/responsibility edges.
+3. Map owner, supporter, approver, executor, consumer and blocker-owner roles.
+4. Preserve all no-execution boundaries.
+
+Boundary:
+
+The Cross-Nucleus Integration Cycle is visibility, classification, ownership and readiness work only. It does not authorize product implementation, provider integration, treasury movement, wallet signing, trading, swaps, settlement, payouts, ACS provisioning or on-chain writes.
+
+## 2026-06-08 - Portfolio Gated Advancement Review
+
+Status: COMPLETE
+
+Portfolio recommendation: PORTFOLIO_READY_FOR_SELECTIVE_L4_ADVANCEMENT
+
+Selected next cycle: Business L4 Consolidation
+
+Rationale:
+
+- Trading revalidation passed and Trading is L4 candidate.
+- ACS gate review passed and ACS is L4 candidate.
+- Business, Mining, Academy and Marketplace were promoted to L4 candidate during the validation refresh.
+- Documentation and Dex are L4 readiness tracks with publication/execution boundaries preserved.
+- Core and Governance remain high-confidence L5 contractual nuclei, but not production/runtime expansion targets.
+
+Next cycle:
+
+1. Business L4 Consolidation.
+2. Preserve billing, payment, treasury, ACS provisioning and governance execution as blocked.
+3. Produce stronger persistence, repository contract, billing boundary and integration readiness evidence.
+4. Do not start production billing, payment, treasury or customer execution.
+
+Deferred cycles:
+
+- Marketplace L4 Consolidation: deferred due to payment/settlement/value-transfer risk.
+- Academy L4 Consolidation: deferred due to reward, certification, contract deployment and treasury risk.
+- Mining L4 Consolidation: deferred until provider/payout warnings and custody boundaries are hardened.
+- Dex L4 Consolidation: paused after DEX-REQ-11 by executive directive.
+- AxodusAPP Integration Expansion: deferred until at least one domain nucleus completes bounded L4 consolidation.
+- Cross-Nucleus Integration Cycle: deferred until Business L4 consolidation produces stable contracts.
+- Defi Phase 3 Planning: remains planning-only and requires separate governance/custody decision.
+
+No roadmap item authorizes production readiness, live trading, swaps, wallet signing, treasury movement, payment/payout/settlement execution, minting, production credentials or on-chain writes.
+
+Current baseline: RECAST 01 - Nucleus Maturity Audit & Baseline Register.
+
+Current allocation: PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation.
+
+## Near-Term Portfolio Order
+
+1. PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation.
+2. PORTFOLIO SPRINT 02 - Lowest-Level Nucleus Recovery.
+3. PORTFOLIO SPRINT 03 - Second Lowest-Level Nucleus Recovery.
+4. PORTFOLIO SPRINT 04 - Cross-Nucleus AxodusAPP Visibility Planning.
+
+## Sprint Intent
+
+### PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation
+
+Purpose: decide which ADVANCE, HOLD, RECOVER, and BACKLOG nuclei receive the next approved request slots.
+
+Expected output:
+
+- balanced sprint allocation;
+- no Governance-only acceleration while HOLD is active;
+- explicit recovery sequencing for L1 nuclei;
+- explicit validation/reporting sequencing for nuclei without `STATUS.md`.
+
+### PORTFOLIO SPRINT 02 - Lowest-Level Nucleus Recovery
+
+Purpose: repair the weakest documentation/versioning/validation baseline.
+
+Candidate nuclei:
+
+- Global Docs / Instructions;
+- Documentation;
+- BBA-Agency.
+
+### PORTFOLIO SPRINT 03 - Second Lowest-Level Nucleus Recovery
+
+Purpose: continue recovery after the first L1 target is normalized.
+
+Candidate work:
+
+- create missing nucleus `STATUS.md` files where explicitly approved;
+- normalize Lottery instruction content;
+- create current validation reports for lower-evidence nuclei.
+
+### PORTFOLIO SPRINT 04 - Cross-Nucleus AxodusAPP Visibility Planning
+
+Purpose: plan read-only/mock visibility across product nuclei without enabling execution.
+
+Candidate nuclei:
+
+- Academy;
+- Marketplace;
+- Mining;
+- Defi;
+- Business;
+- Dex.
+
+## Backlog Notes
+
+- DEX 04O/04P and later DEX work remain future DEX continuation, not blockers for RECAST 01.
+- Trading Vault/KMS and vendor ownership planning remains a HOLD-safe planning topic only.
+- Governance API transport implementation remains backlog controlled and must not continue without portfolio approval.
+- Core consumer pilot work remains pre-RC and non-executing.
+
+## Production Boundary
+
+No roadmap item authorizes production runtime, production credentials, wallet signing, swaps, live trading, settlement, treasury movement, payouts, marketplace minting/value transfer, or on-chain writes.
+
+## 2026-06-08 - Portfolio Status Normalization
+
+Status: COMPLETE
+
+Purpose:
+
+Normalize `STATUS.md`, blocker, validation, handoff and maturity assessment evidence for nuclei that lacked consolidated status baselines.
+
+Completed target nuclei:
+
+- Academy
+- ACS
+- Business
+- Marketplace
+- Mining
+- Trading
+
+Result:
+
+- All six target nuclei now have local `.instructions/STATUS.md`.
+- All six target nuclei are conservatively documented as L3 candidates pending current validation refresh.
+- No production execution, treasury movement, wallet signing, trading, swaps, payout, settlement, minting or on-chain behavior was authorized.
+
+Next cycle:
+
+PORTFOLIO VALIDATION REFRESH
+
+Recommended order:
+
+1. Business - dependency/validation baseline.
+2. Mining - validation and provider boundary review.
+3. Academy - validation and reward/contract boundary review.
+4. Marketplace - validation and payment/settlement boundary review.
+5. ACS - guarded execution validation under HOLD.
+6. Trading - credential and local E2E validation under HOLD.
+
+## 2026-06-08 - Portfolio Validation Refresh
+
+Status: COMPLETE_WITH_BLOCKERS
+
+Result:
+
+- Business promoted to L4 candidate.
+- Mining promoted to L4 candidate.
+- Academy promoted to L4 candidate.
+- Marketplace promoted to L4 candidate.
+- ACS kept as L3 candidate pending explicit L4 gate review.
+- Trading requires revalidation because real local Postgres E2E was not executed.
+
+Next cycle:
+
+PORTFOLIO GATED ADVANCEMENT REVIEW
+
+Recommended order:
+
+1. Trading - safe local Postgres E2E revalidation.
+2. ACS - L4 candidate gate review for guarded ACS contracts.
+3. Marketplace - payment and settlement governance boundary decision.
+4. Academy - reward, persistence and contract deployment boundary decision.
+5. Business - persistence and billing boundary decision.
+6. Mining - provider warning cleanup and payout boundary hardening.
+
+No roadmap item authorizes production readiness, live trading, swaps, wallet signing, treasury movement, payment/payout/settlement execution, minting, production credentials or on-chain writes.
+
+## 2026-06-08 - Trading Revalidation Closeout
+
+Status: COMPLETE
+
+Result:
+
+- Trading safe local Postgres E2E revalidation passed.
+- Trading promoted to L4 candidate for local durable persistence/readiness evidence.
+- Trading remains non-production and execution-gated.
+
+Updated next cycle order:
+
+1. ACS - L4 candidate gate review for guarded ACS contracts.
+2. Trading - Credential Vault and execution gate review.
+3. Marketplace - payment and settlement governance boundary decision.
+4. Academy - reward, persistence and contract deployment boundary decision.
+5. Business - persistence and billing boundary decision.
+6. Mining - provider warning cleanup and payout boundary hardening.
+
+## 2026-06-08 - ACS L4 Candidate Gate Closeout
+
+Status: COMPLETE
+
+Result:
+
+- ACS evidence review passed.
+- ACS promoted to L4 candidate.
+- ACS remains non-production and execution-gated.
+
+Updated next cycle order:
+
+1. ACS - Execution authority and Credential Vault boundary review.
+2. Trading - Credential Vault and execution gate review.
+3. Marketplace - payment and settlement governance boundary decision.
+4. Academy - reward, persistence and contract deployment boundary decision.
+5. Business - persistence and billing boundary decision.
+6. Mining - provider warning cleanup and payout boundary hardening.
+
+## PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation
+
+Sprint status: COMPLETE as planning allocation once the Sprint 01 report, allocation register, request queue, and validation checks are present.
+
+Sprint objective: convert the RECAST 01 maturity audit into a controlled request queue that prioritizes ecosystem balance instead of advancing only the strongest nuclei.
+
+### Priority Order
+
+1. Global Docs / Instructions - resolve versioning/ownership and L1 to L2 recovery plan.
+2. Documentation - recover nucleus structure and L3 to L4 plan.
+3. BBA-Agency - recover L2 to L3. COMPLETE as L3 candidate.
+4. Lottery - controlled recovery from L2 to L3. NEXT.
+5. Dex - plan L3 to L4 visibility without swaps.
+6. Mining - consolidate L3 to L4 visibility.
+7. Academy, Business, Defi, Marketplace, AxodusAPP - controlled contract/read-model/readiness advancement.
+8. Core, Governance, ACS, Trading - HOLD/BACKLOG control only.
+
+### Recovery Nuclei
+
+- Global Docs / Instructions.
+- Documentation.
+- BBA-Agency.
+- Lottery as controlled recovery if sprint capacity allows.
+
+### HOLD Nuclei
+
+- ACS.
+- Governance.
+- Trading.
+
+### Next Execution Queue
+
+The active queue is `.instructions/PORTFOLIO_REQUEST_QUEUE.md`.
+
+Initial order:
+
+1. REQ-01 - Global Docs / Instructions Recovery.
+2. REQ-02 - Documentation Nucleus Recovery.
+3. REQ-03 - BBA-Agency Recovery. COMPLETE as L3 candidate.
+4. REQ-04 - Lottery Recovery. NEXT.
+5. REQ-05 - Dex Visibility Planning.
+6. REQ-06 - Mining Visibility Consolidation.
+7. REQ-07 through REQ-11 - bounded L4/L5 contract/readiness planning.
+8. REQ-12 through REQ-15 - backlog/HOLD control only.
+
+### Safety Policy
+
+- No runtime source code.
+- No package changes.
+- No installs, builds, services, deploys, or tests unless a future request explicitly approves a safe validation command.
+- No secrets or credential paths.
+- No trading, swaps, settlement, treasury, payouts, wallet signing, or on-chain writes.
+- No linked/vendor repo mutation.
+
+## 2026-06-06 - BBA-Agency Recovery Closeout
+
+BBA-Agency recovery is complete as `L3 candidate`.
+
+Result:
+- BBA-REQ-01 complete.
+- BBA-REQ-02 complete.
+- BBA-REQ-03 complete.
+- Production/external execution remains disabled.
+
+Next portfolio action:
+Return to portfolio balancing and proceed with `Lottery Recovery - L2 to L3`.
+- No production readiness claims.
+
+### REQ-01 - Global Docs / Instructions Recovery - L1 to L2
+
+Status: COMPLETE
+
+Outcome:
+
+- source-of-truth policy created;
+- ownership policy created;
+- versioning strategy created;
+- validation procedure created;
+- root non-Git/versioning blocker documented;
+- no repository restructuring executed.
+
+Decision Required:
+
+- Select official versioning home for global Axodus instructions.
+
+Next:
+
+- REQ-02 - Documentation Nucleus Recovery - L3 to L4.
+
+### REQ-02 - Documentation Nucleus Recovery - L3 to L4
+
+Status: COMPLETE
+
+Outcome:
+
+- Documentation nucleus `.instructions` operational layer recovered;
+- Documentation is L4 candidate;
+- publication remains not approved;
+- VitePress documentation asset inventory and alignment remained unvalidated before REQ-03;
+- runtime/product behavior unchanged.
+
+Next:
+
+- REQ-03 - Documentation Asset Inventory & VitePress Alignment.
+
+### REQ-03 - Documentation Asset Inventory & VitePress Alignment
+
+Status: COMPLETE
+
+Outcome:
+
+- VitePress source/config/navigation/sidebar/theme/scripts/content inventory completed;
+- VitePress alignment and validation-stage docs created;
+- static configured-link target check found no missing Markdown targets;
+- no build, publish, package, runtime, or deployment change occurred;
+- Documentation remains L4 candidate.
+
+Next:
+
+- REQ-04 - VitePress Structural Validation & Local Build Readiness.
+
+### REQ-04 - VitePress Structural Validation & Local Build Readiness
+
+Status: COMPLETE
+
+Outcome:
+
+- VitePress structural validation completed with warnings;
+- link/navigation static review completed with warnings;
+- local build readiness classified `READY_WITH_CONDITIONS`;
+- REQ-05 handoff classified `PROCEED_WITH_CONDITIONS`;
+- build was not run;
+- no package, runtime, deployment, publication, or content rewrite occurred.
+
+Next:
+
+- REQ-05 - VitePress Local Build Validation.
+
+### REQ-05 - VitePress Local Build Validation
+
+Status: COMPLETE
+
+Result:
+
+- local VitePress build executed with `npm run docs:build`;
+- build result `PASS_WITH_WARNINGS`;
+- generated output reviewed at `docs/.vitepress/dist/`;
+- generated artifacts were not staged;
+- no install, package change, deployment change, publication, dev server, preview server, runtime change, or content rewrite occurred;
+- Documentation remains L4 candidate.
+
+Next:
+
+- REQ-06 - Documentation Content Inventory & Editorial Gap Analysis.
+
+### REQ-06 - Documentation Content Inventory and Editorial Gap Analysis
+
+Status: COMPLETE
+
+Result:
+
+- active VitePress `docs/` content inventory completed;
+- 248 Markdown pages inventoried;
+- nav/sidebar coverage complete for existing pages;
+- editorial gap analysis and high-risk claims register created;
+- REQ-07 handoff classified `PROCEED_WITH_CONDITIONS`;
+- no content rewrite, publication, package change, build, install, deployment change, or runtime change occurred.
+
+Next:
+
+- REQ-07 - Documentation Content Correction Drafts.
+
+### REQ-07 - Documentation Content Correction Drafts
+
+Status: COMPLETE
+
+Result:
+
+- conservative draft/candidate content corrections applied to 15 authorized pages;
+- correction plan, draft changelog, claim resolution notes, and REQ-08 handoff created;
+- no publication, build, install, package change, deployment change, runtime change, or production behavior occurred;
+- Documentation remains L4 candidate.
+
+Next:
+
+- REQ-08 - Documentation Content Quality, Links & Consistency Validation.
+
+### REQ-08 - Documentation Content Quality, Links and Consistency Validation
+
+Status: COMPLETE
+
+Result:
+
+- candidate content quality validated with warnings;
+- link/navigation validation completed with warnings;
+- claim safety validation completed with warnings;
+- REQ-09 publication governance handoff classified `PROCEED_WITH_WARNINGS`;
+- no publication, build, install, package change, deployment change, runtime change, or broad content rewrite occurred;
+- Documentation remains L4 candidate.
+
+Next:
+
+- REQ-09 - Documentation Publication Governance & Release Workflow.
+
+### REQ-09 - Documentation Publication Governance and Release Workflow
+
+Status: COMPLETE
+
+Result:
+
+- publication governance workflow defined;
+- publication authority matrix created;
+- VitePress release approval checklist created;
+- release candidate policy created;
+- rollback and post-publication audit policy created;
+- REQ-10 handoff classified `READY_WITH_APPROVAL_BLOCKERS`;
+- Documentation Sprint 01 closeout report created;
+- publication remains disabled;
+- Documentation remains L4 candidate.
+
+Next:
+
+- REQ-10 - Documentation Publication Execution Request, BLOCKED UNTIL EXPLICIT APPROVAL.
+
+### Documentation Sprint 01 Closeout
+
+Status: COMPLETE
+
+Result:
+
+- REQ-04 through REQ-09 completed;
+- VitePress structure, build, content, validation, correction, and publication-governance evidence created;
+- publication execution remains blocked until explicit approval.
+
+### DOCUMENTATION SPRINT 01 - VitePress Validation & Documentation Content Change Pipeline
+
+Status: COMPLETE
+
+Outcome:
+
+- corrected Documentation roadmap to avoid jumping from build readiness directly to publication governance;
+- added content inventory, editorial gap analysis, draft correction, and content quality validation stages;
+- publication remains gated and disabled;
+- no runtime, package, build, publish, or public content rewrite occurred.
+
+Corrected sequence:
+
+1. REQ-04 - VitePress Structural Validation & Local Build Readiness
+2. REQ-05 - VitePress Local Build Validation
+3. REQ-06 - Documentation Content Inventory & Editorial Gap Analysis
+4. REQ-07 - Documentation Content Correction Drafts
+5. REQ-08 - Documentation Content Quality, Links & Consistency Validation
+6. REQ-09 - Documentation Publication Governance & Release Workflow
+
+Next:
+
+- REQ-04 - VitePress Structural Validation & Local Build Readiness.
+## 2026-06-10 - Cross-Nucleus Integration Cycle
+
+Completed:
+
+1. CROSS-REQ-01 - Global Opportunity Registry.
+2. CROSS-REQ-02 - Cross-Nucleus Dependency Registry.
+3. CROSS-REQ-03 - Readiness & Ownership Alignment.
+4. CROSS-REQ-04 - Governance & Execution Boundary Review.
+5. CROSS-REQ-05 - Portfolio Integration Assessment & Promotion Board Refresh.
+
+Current result:
+
+- Global opportunity registry established.
+- Cross-nucleus dependency registry established.
+- Readiness and ownership alignment established.
+- Governance and execution boundary review established.
+- Portfolio integration assessment and refreshed promotion board established.
+- Business remains the non-executive portfolio coordination nucleus.
+- Execution-sensitive responsibilities remain with the owning nuclei and require separate governance/treasury/security/architecture review.
+
+Next:
+
+1. AxodusAPP Integration Expansion.
+2. Resolve root global docs versioning/ownership.
+3. Define treasury/financial ownership and escalation path.
+4. Define Business-to-AxodusAPP read-only consumer contract.
+5. Review ACS, Trading, Marketplace, Mining, Lottery, Defi and Dex execution-sensitive gates before any implementation cycle.
+
+Selected next cycle:
+
+AxodusAPP Integration Expansion
+
+Initial request:
+
+AXODUSAPP-REQ-01 - Read-Only Portfolio Registry Consumer Contract.
+
+Boundary:
+
+The selected cycle must remain read-only and presentation-focused. No wallet signing, transaction flow, settlement, payout, trading, DEX execution, ACS provisioning, production backend dependency, production credentials or production readiness is authorized.
+
+Boundary:
+
+No portfolio integration, production execution or production readiness is authorized by this roadmap entry.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Portfolio Sync Closeout
+
+Status: `COMPLETE`
+
+Registered outcome:
+
+- `ACS-EPIC-01_COMPLETE_LOCAL_SCOPE`
+- current L-Level `L4_CANDIDATE`
+- recommended L-Level `L4_READINESS`
+- D-Level `D3+`
+- `GLOBAL_REGISTERS_SYNCED`
+- L4 Consolidated `NO`
+
+Next ACS governance action is limited to disposition of the `PROMOTE_TO_L4_READINESS` recommendation. It is not an implementation, execution, production, or L4 Consolidation cycle.
+
+Marketplace remains `HOLD` / `BACKLOG_READY`; its payment, settlement, minting, treasury, wallet and production boundaries remain closed.
+
+## 2026-06-23 - ACS-GOV-01 Governance Adoption Closeout
+
+Status: `COMPLETE`
+
+Decision:
+
+- `ADOPT_L4_READINESS`
+- governance adoption: `L4_READINESS_ADOPTED`
+- current L-Level: `L4_READINESS`
+- previous L-Level: `L4_CANDIDATE`
+- D-Level: `D3+`
+- L4 Consolidated: `NO`
+
+Next target:
+
+- `L4_CONSOLIDATED_ASSESSMENT_ONLY_AFTER_GOVERNANCE_GATES`
+
+This roadmap entry opens no implementation or authority-expansion cycle. Production, execution and mutation gates remain closed.
+
+## 2026-06-23 - ACS-GOV-02 L4 Consolidated Governance Gate Definition
+
+Status: `COMPLETE`
+
+Result:
+
+- recommendation: `GOVERNANCE_GATE_DEFINITION_ONLY`
+- current L-Level remains `L4_READINESS`
+- D-Level remains `D3+`
+- L4 Consolidated remains `NO`
+- production remains `NON_PRODUCTION`
+- execution remains `EXECUTION_GATED`
+- authority remains `NO_MUTATION_AUTHORITY`
+
+Required before any future assessment:
+
+- fresh validation/security/boundary/register evidence
+- separate assessment authorization
+- security-control disposition and threat/incident documentation
+- cross-nucleus consistency review
+- canonical blocked-action integrity verification
+- delivery reality check
+- portfolio governance, ACS technical, security and cross-nucleus reviewer sign-off
+
+Next governance request: `ACS-GOV-03 - L4 Consolidated Gate Evidence Refresh and Readiness Review`.

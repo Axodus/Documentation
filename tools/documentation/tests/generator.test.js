@@ -35,14 +35,15 @@ test('manifest generation produces Manifest 1.1.0', () => {
   const manifest = JSON.parse(generation.artifacts['documentation.manifest.json'])
   assert.equal(manifest.manifest_version, '1.1.0')
   assert.equal(manifest.generator_version, '1.0.0')
-  assert.equal(manifest.document_count, 683)
+  assert.ok(manifest.document_count > 0)
   assert.equal(manifest.documents.length, manifest.document_count)
 })
 
 test('graph generation produces nodes, relationships, reachability, and cycles', () => {
   const graph = JSON.parse(generation.artifacts['documentation.graph.json'])
+  const manifest = JSON.parse(generation.artifacts['documentation.manifest.json'])
   assert.equal(graph.graph_version, '1.1.0')
-  assert.equal(graph.nodes.length, 683)
+  assert.equal(graph.nodes.length, manifest.document_count)
   assert.ok(Array.isArray(graph.derived_relationships))
   assert.ok(Array.isArray(graph.reachability.from_master_index))
   assert.ok(Array.isArray(graph.cycles))

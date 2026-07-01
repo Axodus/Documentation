@@ -1,0 +1,169 @@
+# Axodus Ownership Matrix
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-03 - Readiness & Ownership Alignment
+
+Versioning note: `/opt/Axodus` is not a Git repository. This matrix is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Responsibility Definitions
+
+| Responsibility | Meaning |
+|---|---|
+| OWNER | Primary accountable owner for the artifact or scope. |
+| SUPPORTER | Supporting evidence, implementation context or review contributor. |
+| APPROVER | Required approval path before advancement. |
+| EXECUTOR | Real execution owner if a separate future request authorizes execution. |
+| REVIEWER | Required reviewer for architecture, governance, treasury, security or documentation impact. |
+| CONSUMER | Nucleus consuming the artifact or dependency output. |
+| BLOCKER_OWNER | Owner responsible for blocker resolution or explicit acceptance. |
+| ESCALATION_OWNER | Owner/path responsible when a blocker or dependency exceeds current readiness. |
+
+## Nucleus-Level Ownership Table
+
+| Nucleus | Primary Role | Owner | Supporters | Approver | Execution Owner | Ownership Confidence | Readiness State |
+|---|---|---|---|---|---|---|---|
+| Core | Architecture and shared substrate | Core | Governance, ACS, Business, Documentation | ARCHITECTURE_REVIEW | Core only if separately approved | HIGH | READINESS_APPROVED |
+| Governance | Governance authority and read-only governance contracts | Governance | Core, Business, AxodusAPP, Documentation | GOVERNANCE_REVIEW | Governance only if separately approved | HIGH | READINESS_APPROVED |
+| Documentation | Publication governance and documentation evidence | Documentation | Business, Core, Governance | BUSINESS_REVIEW plus publication authority | NONE | HIGH | READINESS_APPROVED |
+| Dex | Read-only provider reliability and DEX boundary | Dex | Business, AxodusAPP, Defi, Core | ARCHITECTURE_REVIEW | Dex only if separately approved | HIGH | READINESS_READY |
+| Defi | Treasury strategy and custody planning | Defi | Business, Governance, Core | TREASURY_REVIEW | Defi/Treasury only if separately approved | MEDIUM | READINESS_ASSESSED |
+| AxodusAPP | Integration shell and read-only presentation | AxodusAPP | Business, Governance, Dex, Documentation | ARCHITECTURE_REVIEW | NONE in current scope | MEDIUM | READINESS_ASSESSED |
+| Business | Non-executive portfolio coordination | Business | All nuclei | BUSINESS_REVIEW and owner escalation | NONE | HIGH | READINESS_READY |
+| Marketplace | Marketplace settlement-boundary readiness | Marketplace | Business, Governance, Defi, AxodusAPP | TREASURY_REVIEW | Marketplace only if separately approved | HIGH | READINESS_ASSESSED |
+| Academy | Education and reward-boundary readiness | Academy | Business, Governance, Defi, AxodusAPP | GOVERNANCE_REVIEW | Academy only if separately approved | MEDIUM | READINESS_ASSESSED |
+| Mining | Mining provider and payout-boundary readiness | Mining | Business, Defi, Governance | TREASURY_REVIEW | Mining only if separately approved | MEDIUM | READINESS_ASSESSED |
+| ACS | Guarded runtime and execution-authority boundary | ACS | Business, Core, Governance, Trading | EXECUTION_REVIEW | ACS only if separately approved | HIGH | READINESS_ASSESSED |
+| Trading | Trading persistence and execution-gate readiness | Trading | Business, ACS, Governance, Defi | EXECUTION_REVIEW | Trading only if separately approved | HIGH | READINESS_ASSESSED |
+| BBA-Agency | Agency service delivery boundary | BBA-Agency | Business, ACS, Marketplace | BUSINESS_REVIEW | BBA-Agency only if separately approved | MEDIUM | READINESS_ASSESSED |
+| Lottery | Lottery compliance/randomness/payout boundary | Lottery | Business, Governance, Defi, Core | EXECUTION_REVIEW | Lottery only if separately approved | MEDIUM | READINESS_ASSESSED |
+
+## Opportunity-Level Ownership Table
+
+| Opportunity ID | Primary Owner | Supporting Owners | Approving Authority | Execution Owner | Business Role | Governance Role | Readiness State | Ownership Confidence |
+|---|---|---|---|---|---|---|---|---|
+| OPP-001 | Business | Documentation, Core, AxodusAPP | BUSINESS_REVIEW | NONE | OWNER | NO_DIRECT_ROLE | READINESS_APPROVED | HIGH |
+| OPP-002 | Business | Documentation, Core, AxodusAPP | BUSINESS_REVIEW | NONE | OWNER | NO_DIRECT_ROLE | READINESS_APPROVED | HIGH |
+| OPP-003 | Business | Documentation, Core, AxodusAPP | ARCHITECTURE_REVIEW | NONE | OWNER | REVIEWER_IF_ADVANCEMENT_IMPACT | READINESS_DRAFT | MEDIUM |
+| OPP-004 | Business | Governance, Core, AxodusAPP, ACS | GOVERNANCE_REVIEW | Governance | OWNER_OF_RECORD | APPROVER_AND_EXECUTOR_IF_APPROVED | READINESS_ASSESSED | HIGH |
+| OPP-005 | Business | Core, Defi, Governance, AxodusAPP | TREASURY_REVIEW | Defi/Treasury | OWNER_OF_RECORD | REVIEWER | READINESS_ASSESSED | HIGH |
+| OPP-006 | Business | Dex, Defi, Governance, AxodusAPP | EXECUTION_REVIEW | Dex | OWNER_OF_RECORD | REVIEWER | READINESS_ASSESSED | HIGH |
+| OPP-007 | Business | Governance, Harmony DAO, AxodusAPP | GOVERNANCE_REVIEW | Governance | OWNER_OF_RECORD | APPROVER_AND_EXECUTOR_IF_APPROVED | READINESS_ASSESSED | MEDIUM |
+| OPP-008 | Business | Governance, Harmony DAO | GOVERNANCE_REVIEW | Governance | OWNER_OF_RECORD | APPROVER_AND_EXECUTOR_IF_APPROVED | READINESS_ASSESSED | MEDIUM |
+| OPP-009 | Business | Governance, Harmony DAO | GOVERNANCE_REVIEW | Governance | OWNER_OF_RECORD | APPROVER_AND_EXECUTOR_IF_APPROVED | READINESS_ASSESSED | MEDIUM |
+| OPP-010 | Business | ACS, Core, AxodusAPP | EXECUTION_REVIEW | ACS | OWNER_OF_RECORD | REVIEWER_IF_PROVISIONING | READINESS_ASSESSED | MEDIUM |
+| OPP-011 | Business | ACS, Governance, AxodusAPP | BUSINESS_REVIEW | ACS if separately approved | OWNER_OF_RECORD | REVIEWER_IF_AUTONOMY | READINESS_ASSESSED | HIGH |
+| OPP-012 | Business | All nuclei | ARCHITECTURE_REVIEW | NONE | OWNER | REVIEWER_IF_POLICY_IMPACT | READINESS_READY | HIGH |
+| OPP-013 | Marketplace | Business, Governance, Defi, AxodusAPP | TREASURY_REVIEW | Marketplace | SUPPORTER | REVIEWER | READINESS_ASSESSED | HIGH |
+| OPP-014 | Academy | Business, Governance, Defi, AxodusAPP | GOVERNANCE_REVIEW | Academy | SUPPORTER | REVIEWER | READINESS_ASSESSED | MEDIUM |
+| OPP-015 | Mining | Business, Defi, Governance, AxodusAPP | TREASURY_REVIEW | Mining | SUPPORTER | REVIEWER | READINESS_ASSESSED | MEDIUM |
+| OPP-016 | Trading | Business, ACS, Governance, Defi | EXECUTION_REVIEW | Trading | SUPPORTER | REVIEWER | READINESS_ASSESSED | HIGH |
+| OPP-017 | ACS | Business, Governance, Core, Trading | EXECUTION_REVIEW | ACS | SUPPORTER | REVIEWER | READINESS_ASSESSED | HIGH |
+| OPP-018 | Defi | Business, Governance, Core | TREASURY_REVIEW | Defi/Treasury | SUPPORTER | REVIEWER | READINESS_ASSESSED | MEDIUM |
+| OPP-019 | Dex | Business, AxodusAPP, Core, Defi | ARCHITECTURE_REVIEW | NONE in current read-only scope | SUPPORTER | NO_DIRECT_ROLE | READINESS_READY | HIGH |
+| OPP-020 | AxodusAPP | Business, Governance, Documentation, product nuclei | ARCHITECTURE_REVIEW | NONE | SUPPORTER | REVIEWER_IF_GOVERNANCE_SURFACE | READINESS_ASSESSED | MEDIUM |
+| OPP-021 | Documentation | Business, Core, Governance | BUSINESS_REVIEW plus publication authority | NONE | SUPPORTER | REVIEWER_IF_GOVERNANCE_CLAIM | READINESS_APPROVED | HIGH |
+| OPP-022 | Lottery | Business, Governance, Defi, Core | EXECUTION_REVIEW | Lottery | SUPPORTER | REVIEWER | READINESS_ASSESSED | MEDIUM |
+| OPP-023 | BBA-Agency | Business, ACS, Marketplace | BUSINESS_REVIEW | BBA-Agency if separately approved | SUPPORTER | NO_DIRECT_ROLE | READINESS_ASSESSED | MEDIUM |
+| OPP-024 | Core | Governance, ACS, Documentation | ARCHITECTURE_REVIEW | Core if separately approved | SUPPORTER | REVIEWER_IF_CONSUMER_PILOT | READINESS_APPROVED | HIGH |
+| OPP-025 | Governance | AxodusAPP, Core, Business | GOVERNANCE_REVIEW | NONE in current read-only scope | SUPPORTER | OWNER | READINESS_APPROVED | HIGH |
+
+## Dependency-Level Ownership Table
+
+| Dependency ID | Dependency Owner | Dependency Consumer | Responsible Nucleus | Escalation Owner | Blocking Owner | Resolution Owner |
+|---|---|---|---|---|---|---|
+| DEP-NN-001 | Core | Business | Core | Core/Architecture | Core | Core |
+| DEP-NN-002 | Governance | Business | Governance | Governance | Governance | Governance |
+| DEP-NN-003 | Defi/Treasury | Business | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-004 | Dex | Business | Dex | Dex plus Execution Review | Dex | Dex |
+| DEP-NN-005 | Marketplace | Business | Marketplace | Marketplace plus Treasury Review | Marketplace | Marketplace |
+| DEP-NN-006 | Trading | Business | Trading | Trading plus Execution Review | Trading | Trading |
+| DEP-NN-007 | Academy | Business | Academy | Academy plus Governance Review | Academy | Academy |
+| DEP-NN-008 | Mining | Business | Mining | Mining plus Treasury Review | Mining | Mining |
+| DEP-NN-009 | ACS | Business | ACS | ACS plus Execution Review | ACS | ACS |
+| DEP-NN-010 | AxodusAPP | Business | AxodusAPP | AxodusAPP Architecture Review | AxodusAPP | AxodusAPP |
+| DEP-NN-011 | Documentation | Business | Documentation | Documentation/Publication Review | Documentation | Documentation |
+| DEP-NN-012 | Lottery | Business | Lottery | Lottery plus Execution Review | Lottery | Lottery |
+| DEP-NN-013 | BBA-Agency | Business | BBA-Agency | BBA-Agency plus Business Review | BBA-Agency | BBA-Agency |
+| DEP-NN-014 | Governance | Marketplace | Governance | Governance | Governance | Governance |
+| DEP-NN-015 | Defi/Treasury | Marketplace | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-016 | AxodusAPP | Marketplace | AxodusAPP | AxodusAPP Architecture Review | AxodusAPP | AxodusAPP |
+| DEP-NN-017 | Governance | Academy | Governance | Governance | Governance | Governance |
+| DEP-NN-018 | Defi/Treasury | Academy | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-019 | AxodusAPP | Academy | AxodusAPP | AxodusAPP Architecture Review | AxodusAPP | AxodusAPP |
+| DEP-NN-020 | Defi/Treasury | Mining | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-021 | Governance | Mining | Governance | Governance | Governance | Governance |
+| DEP-NN-022 | Core | ACS | Core | Core/Architecture | Core | Core |
+| DEP-NN-023 | Governance | ACS | Governance | Governance | Governance | Governance |
+| DEP-NN-024 | ACS | Trading | ACS | ACS plus Execution Review | ACS | ACS |
+| DEP-NN-025 | Governance | Trading | Governance | Governance/Execution Review | Governance | Governance |
+| DEP-NN-026 | Defi/Treasury | Trading | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-027 | Governance | Lottery | Governance | Governance/Compliance | Governance | Governance |
+| DEP-NN-028 | Defi/Treasury | Lottery | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-029 | Governance | Documentation | Governance | Governance/Publication Review | Governance | Governance |
+| DEP-NN-030 | AxodusAPP | Dex | AxodusAPP | AxodusAPP Architecture Review | AxodusAPP | AxodusAPP |
+| DEP-NN-031 | Defi/Treasury | Dex | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-NN-032 | Governance | AxodusAPP | Governance | Governance/Architecture | Governance | Governance |
+| DEP-NN-033 | Business | AxodusAPP | Business | Business/Architecture | Business | Business |
+| DEP-OPP-001 | Documentation | OPP-001 | Documentation | Documentation/Business Review | Documentation | Documentation |
+| DEP-OPP-002 | Core | OPP-002 | Core | Core/Architecture | Core | Core |
+| DEP-OPP-003 | AxodusAPP | OPP-003 | AxodusAPP | AxodusAPP/Architecture | AxodusAPP | AxodusAPP |
+| DEP-OPP-004 | Governance | OPP-004 | Governance | Governance | Governance | Governance |
+| DEP-OPP-005 | Defi/Treasury | OPP-005 | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-OPP-006 | Dex | OPP-006 | Dex | Dex/Execution Review | Dex | Dex |
+| DEP-OPP-007 | Governance | OPP-007 | Governance | Governance | Governance | Governance |
+| DEP-OPP-008 | Governance | OPP-008 | Governance | Governance | Governance | Governance |
+| DEP-OPP-009 | Governance | OPP-009 | Governance | Governance | Governance | Governance |
+| DEP-OPP-010 | ACS | OPP-010 | ACS | ACS/Execution Review | ACS | ACS |
+| DEP-OPP-011 | ACS | OPP-011 | ACS | ACS/Architecture Review | ACS | ACS |
+| DEP-OPP-012 | Business | OPP-012 | Business | Business/Architecture | Business | Business |
+| DEP-OPP-013 | Marketplace | OPP-013 | Marketplace | Marketplace/Treasury Review | Marketplace | Marketplace |
+| DEP-OPP-014 | Academy | OPP-014 | Academy | Academy/Governance Review | Academy | Academy |
+| DEP-OPP-015 | Mining | OPP-015 | Mining | Mining/Treasury Review | Mining | Mining |
+| DEP-OPP-016 | Trading | OPP-016 | Trading | Trading/Execution Review | Trading | Trading |
+| DEP-OPP-017 | ACS | OPP-017 | ACS | ACS/Execution Review | ACS | ACS |
+| DEP-OPP-018 | Defi/Treasury | OPP-018 | Defi | Defi/Treasury | Defi | Defi/Treasury |
+| DEP-OPP-019 | Dex | OPP-019 | Dex | Dex/Architecture Review | Dex | Dex |
+| DEP-OPP-020 | AxodusAPP | OPP-020 | AxodusAPP | AxodusAPP/Architecture | AxodusAPP | AxodusAPP |
+| DEP-OPP-021 | Documentation | OPP-021 | Documentation | Documentation/Publication Review | Documentation | Documentation |
+| DEP-OPP-022 | Lottery | OPP-022 | Lottery | Lottery/Execution Review | Lottery | Lottery |
+| DEP-OPP-023 | BBA-Agency | OPP-023 | BBA-Agency | BBA-Agency/Business Review | BBA-Agency | BBA-Agency |
+| DEP-OPP-024 | Core | OPP-024 | Core | Core/Architecture | Core | Core |
+| DEP-OPP-025 | Governance | OPP-025 | Governance | Governance | Governance | Governance |
+
+## Ownership Ambiguities
+
+| Ambiguity | Current Handling | Required Next Action |
+|---|---|---|
+| Root global docs are local/unversioned. | Mark all root artifacts as local/unversioned. | Select versioned repository or continue explicit local-only governance. |
+| Treasury/Financial Core is referenced as an authority but not represented as a distinct nucleus. | Map to Defi/Treasury for now. | Formalize treasury ownership before execution-sensitive planning. |
+| Harmony DAO is an external dependency, not an Axodus nucleus. | Keep as supporting owner only. | Document external owner and approval path before plugin advancement. |
+| Business-to-AxodusAPP ownership transfer for registry UI is not formalized. | Keep Business as data/model owner and AxodusAPP as presentation owner. | Create read-only consumer contract before implementation. |
+| Wallet/account custody ownership crosses AxodusAPP, Core and product nuclei. | Keep wallet execution disabled. | Define wallet boundary contract before wallet-adjacent work. |
+
+## Ownership Transfer Points
+
+| Source Artifact | Transfer Target | Transfer Condition |
+|---|---|---|
+| Business governance readiness package | Governance | Governance scope is complete and requires owner review. |
+| Business financial readiness package | Defi/Treasury | Treasury, settlement, custody, revenue or payout scope appears. |
+| Business ACS readiness package | ACS | Provisioning, isolation, memory, agent or permission scope appears. |
+| Business product catalog record | Documentation/AxodusAPP | Record is approved for read-only publication or presentation. |
+| Portfolio dependency blocker | Owning nucleus | Blocker requires owner validation or resolution. |
+| Execution-sensitive planning item | Owning execution nucleus plus review authority | Separate request is approved with explicit gates. |
+
+## Boundary Statement
+
+This matrix records ownership only. It does not authorize implementation, integration, production publication, governance execution, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, billing execution, production credentials or on-chain writes.

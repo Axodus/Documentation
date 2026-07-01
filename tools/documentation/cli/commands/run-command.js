@@ -10,6 +10,11 @@ import {
   generateAll,
   writeGeneratedArtifacts,
 } from '../../generator/index.js'
+import {
+  compareSnapshots,
+  createInstructionsSnapshot,
+  listSnapshots,
+} from '../../evidence/index.js'
 import { CLI_VERSION, COMMANDS, EXIT_CODES } from '../shared/constants.js'
 
 export async function runCommand(commandName, options = {}) {
@@ -20,6 +25,7 @@ export async function runCommand(commandName, options = {}) {
     throw error
   }
   if (command.kind === 'GENERATION') return runGenerator(options)
+  if (command.kind === 'EVIDENCE') return runEvidence(command.operation, options)
   const root = process.cwd()
   await verifyConfiguredInputs(commandName, options, root)
   const result = await validateRepository({
@@ -46,6 +52,65 @@ export async function runCommand(commandName, options = {}) {
     exit_code: failed ? EXIT_CODES.VALIDATION_FAILED : EXIT_CODES.SUCCESS,
     statistics,
     diagnostics,
+  }
+}
+
+async function runEvidence(operation, options) {
+  try {
+    if (operation === 'CREATE') {
+      const snapshot = await createInstructionsSnapshot({ root: process.cwd() })
+      return {
+        kind: 'EVIDENCE',
+        command: 'snapshot',
+        operation,
+        status: snapshot.created ? 'CREATED' : 'UNCHANGED',
+        exit_code: EXIT_CODES.SUCCESS,
+        snapshot_id: snapshot.snapshot_id,
+        statistics: {
+          files: snapshot.files,
+          directories: snapshot.directories,
+          snapshot_size: snapshot.snapshot_size,
+          redactions: snapshot.redacted_entries.count,
+          affected_files: snapshot.redacted_entries.affected_files.length,
+          redaction_categories: snapshot.redacted_entries.categories,
+        },
+        diagnostics: [],
+      }
+    }
+    if (operation === 'LIST') {
+      const registry = await listSnapshots({ root: process.cwd() })
+      return {
+        kind: 'EVIDENCE',
+        command: 'snapshot-list',
+        operation,
+        status: 'SUCCESS',
+        exit_code: EXIT_CODES.SUCCESS,
+        registry_version: registry.registry_version,
+        evidence_version: registry.evidence_version,
+        statistics: { snapshots: registry.snapshots.length },
+        snapshots: registry.snapshots,
+        diagnostics: [],
+      }
+    }
+    const comparison = await compareSnapshots(options.snapshot, options.reference, { root: process.cwd() })
+    return {
+      kind: 'EVIDENCE',
+      command: 'snapshot-compare',
+      operation,
+      status: comparison.equal ? 'IDENTICAL' : 'CHANGED',
+      exit_code: EXIT_CODES.SUCCESS,
+      statistics: {
+        added_files: comparison.added_files.length,
+        removed_files: comparison.removed_files.length,
+        modified_files: comparison.modified_files.length,
+        metadata_changes: comparison.metadata_changes.length,
+      },
+      comparison,
+      diagnostics: [],
+    }
+  } catch (error) {
+    if (error?.code === 'ENOENT') error.exitCode = EXIT_CODES.CONFIGURATION_ERROR
+    throw error
   }
 }
 

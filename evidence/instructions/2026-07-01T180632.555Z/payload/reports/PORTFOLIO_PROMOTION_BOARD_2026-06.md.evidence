@@ -1,0 +1,72 @@
+# Portfolio Promotion Board - 2026-06
+
+Date: 2026-06-08
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This promotion board is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Board Decision Summary
+
+Portfolio recommendation: `PORTFOLIO_READY_FOR_SELECTIVE_L4_ADVANCEMENT`
+
+Selected next cycle: `Business L4 Consolidation`
+
+No board decision authorizes production readiness, secrets, wallet signing, treasury movement, swaps, trading, minting, settlement, payouts, production credentials or on-chain writes.
+
+## Promotion Board
+
+| Nucleus | Board Decision | Current Maturity | Rationale |
+|---|---|---|---|
+| Core | HOLD | L5 | Keep pre-RC contractual track stable; consumer pilot and RC authority remain incomplete. |
+| Governance | HOLD | L5 | High evidence, but transport/API execution, persistence, executor, treasury and on-chain authority remain blocked. |
+| Documentation | HOLD | L4 Readiness | VitePress/content/governance evidence is complete enough for readiness, but publication authority/versioning remain unresolved. |
+| Dex | HOLD | L4 Readiness | DEX-REQ-11 closed the technical readiness track; functional DEX evolution is paused by executive directive. |
+| Business | PROMOTE | L4 Candidate | Strong validation evidence and lower immediate execution risk make Business the selected L4 consolidation target. |
+| Mining | HOLD | L4 Candidate | Validation passed with warnings; payout, provider custody and treasury gates remain active. |
+| Academy | HOLD | L4 Candidate | Validation passed; rewards, certification, contract deployment, minting and treasury gates remain active. |
+| Marketplace | HOLD | L4 Candidate | Validation passed; value-transfer, settlement, payment, wallet, bridge and treasury risk is high. |
+| ACS | HOLD | L4 Candidate | Gate passed; execution authority, credentials, Hummingbot runtime, trading and treasury remain blocked. |
+| BBA-Agency | HOLD | L3 | L3 candidate evidence is sufficient; schema alignment and production claim review remain open. |
+| Lottery | HOLD | L3 | L3 mock/local evidence exists; compliance, randomness, prize, payout, treasury and on-chain blockers remain high. |
+| Trading | HOLD | L4 Candidate | Local Postgres E2E passed; live trading, credentials, withdrawals, production DB and treasury remain blocked. |
+| Defi | HOLD | L4 Readiness | Phase 3 planning is approved as planning only; custody, staking, oracle/reconciliation and treasury gates remain blocked. |
+| AxodusAPP | HOLD | L4 Readiness | Integration shell is viable, but uneven module readiness and real backend integration remain pending. |
+
+## Selective Advancement Target
+
+Selected target: Business
+
+Decision: `PROMOTE`
+
+Promotion meaning:
+
+- advance Business into a bounded L4 consolidation cycle;
+- improve persistence/billing boundary clarity;
+- strengthen integration contracts;
+- preserve non-production state.
+
+Promotion does not mean:
+
+- production billing approval;
+- payment execution;
+- treasury movement;
+- ACS production provisioning;
+- governance proposal execution;
+- production readiness.
+
+## Hold Reasons By Category
+
+| Category | Nuclei | Reason |
+|---|---|---|
+| Production/execution authority | ACS, Trading, Defi, Dex, Governance | Execution-sensitive authority is not approved. |
+| Value transfer/payment/payout | Marketplace, Mining, Lottery, Academy, Business | Payment, reward, payout, minting, billing or treasury gates remain active. |
+| Publication/versioning | Documentation | Publication authority and versioning remain unresolved. |
+| Integration symmetry | AxodusAPP, BBA-Agency | Integration coverage or schema/runtime alignment needs further evidence. |
+| Pre-RC stability | Core | Core remains contractual/pre-RC and should not be expanded into runtime. |
+
+## Board Recommendation
+
+Proceed with `Business L4 Consolidation` as the next cycle.
+
+The next cycle must remain evidence-backed, non-production, non-treasury, non-payment-executing and non-governance-executing.

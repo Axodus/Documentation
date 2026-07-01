@@ -1,0 +1,129 @@
+# Axodus Next Cycle Recommendation
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: ACS-CLOSE-01 Portfolio Handoff Follow-Through
+
+Versioning note: `/opt/Axodus` is not a Git repository. This recommendation is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Selected Next Cycle
+
+`DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`
+
+Alternatives:
+
+- `BBA-AGENCY-EPIC-01 - BBA-Agency L4 Candidate Advancement`
+- `DEFI-REMEDIATION-EPIC-01 - Defi Security Surface and Execution Boundary Remediation`
+
+Explicitly not selected: Marketplace Phase 12A, Academy EPIC-02, Mining EPIC-02, ACS GOV-03/GOV-04, Trading execution, Lottery execution, or Defi feature implementation before remediation.
+
+## Selection Rationale
+
+Documentation publication authority and root/global versioning are the clearest unresolved portfolio-wide control gaps. Consolidating ownership, version semantics, approval evidence and publication boundaries improves every nucleus without activating product or financial execution.
+
+This cycle is governance and documentation consolidation only. It does not itself authorize publication, production deployment, provider access, credentials, signing or mutation.
+
+## Why Other Options Were Not Selected
+
+| Option | Reason Not Selected |
+|---|---|
+| Marketplace L4 Consolidation | Settlement/payment/minting and treasury risk remain high. |
+| AxodusAPP Integration Expansion | Not selected; AxodusAPP is already the consolidated portfolio intelligence hub and remains execution-gated. |
+| Academy L4 Consolidation | Complete as `ACADEMY-EPIC-01`; EPIC-02 is not automatic. |
+| Mining L4 Consolidation | Complete as `MINING-EPIC-01`; EPIC-02 is not automatic. |
+| ACS L4 Consolidation | ACS is intentionally paused at `L4_READINESS`; do not reopen `ACS-GOV-03` unless a formal L4 Consolidated assessment is intended. |
+| Trading L4 Consolidation | Credential vault, exchange execution and withdrawal gates are critical. |
+| Defi feature implementation | Remediation must precede features; financial, custody and execution gates remain closed. |
+| Dex L4 Consolidation | Functional Dex evolution is paused; execution boundaries remain high-risk. |
+| Documentation publication execution | The consolidation cycle is selected, but publication execution remains unauthorized. |
+| BBA-Agency L4 Preparation | L3 schema/claim review gaps remain. |
+| Lottery L4 Preparation | Compliance/randomness/prize/payout blockers are critical. |
+| Portfolio Revalidation Refresh | Current cross-nucleus evidence is fresh enough for a bounded next cycle. |
+| Cross-Nucleus Integration Follow-up | CROSS-REQ-01 through CROSS-REQ-05 already establish the current integration governance baseline. |
+
+## Preconditions For The Next Cycle
+
+- Academy remains non-production and bounded.
+- No treasury, reward-real, certification-on-chain or contract-execution authority is introduced.
+- No production backend dependency is required.
+- ACS remains paused at `L4_READINESS`.
+- No product nucleus execution authority is inferred from maturity work.
+- Root global docs remain marked local/unversioned unless a versioned home is approved.
+
+## Expected First Request
+
+`DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`
+
+Expected scope:
+
+- define canonical publication ownership and approval evidence;
+- consolidate root/global versioning rules and source-of-truth precedence;
+- define rollback, provenance and release-record requirements;
+- preserve the existing publication block until separate authority is approved;
+- avoid all production, financial, provider and contract-write flows.
+
+## Boundary Statement
+
+This recommendation does not authorize implementation, production readiness, governance execution, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payout, lottery payout, ACS provisioning, billing execution, production credentials or on-chain writes.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Recommendation Sync
+
+ACS registered recommendation:
+
+- EPIC state: `ACS-EPIC-01_COMPLETE_LOCAL_SCOPE`
+- current L-Level: `L4_CANDIDATE`
+- recommended L-Level: `L4_READINESS`
+- recommendation: `PROMOTE_TO_L4_READINESS`
+- D-Level: `D3+`
+- portfolio sync: `GLOBAL_REGISTERS_SYNCED`
+- L4 Consolidated: `NO`
+
+No ACS implementation cycle is opened by this sync. Marketplace remains `HOLD` / `BACKLOG_READY` and non-executive where referenced. All production and execution-sensitive capabilities remain blocked.
+
+## 2026-06-23 - ACS-GOV-01 Adopted Recommendation
+
+Decision: `ADOPT_L4_READINESS`
+
+Registered state:
+
+- governance adoption: `L4_READINESS_ADOPTED`
+- previous L-Level: `L4_CANDIDATE`
+- current L-Level: `L4_READINESS`
+- D-Level: `D3+`
+- production: `NON_PRODUCTION`
+- execution: `EXECUTION_GATED`
+- authority: `NO_MUTATION_AUTHORITY`
+- L4 Consolidated: `NO`
+- global register sync: `COMPLETE`
+
+Next target is `L4_CONSOLIDATED_ASSESSMENT_ONLY_AFTER_GOVERNANCE_GATES`. This is an assessment gate, not authorization to implement, execute, provision, use credentials, sign, move treasury, trade, settle, pay out, bill, connect production infrastructure, execute providers, mutate contracts/permissions/state, or run Hummingbot.
+
+Marketplace remains `HOLD` / `BACKLOG_READY` or non-executive where referenced.
+
+## 2026-06-23 - ACS-GOV-02 Gate Definition Recommendation
+
+Final recommendation: `GOVERNANCE_GATE_DEFINITION_ONLY`
+
+ACS is not ready to be assessed until the defined evidence-freshness, governance-adoption, authority-boundary, production-surface, security-controls, cross-nucleus-consistency, blocked-actions-integrity, non-production-classification, delivery-reality and human-sign-off gates are prepared and reviewed.
+
+Closure update:
+
+- ACS remains `L4_READINESS` / `D3+`
+- ACS governance track is `PAUSED_AND_HANDOFF`
+- `ACS-GOV-03` is `DEFERRED_TO_AVOID_GOVERNANCE_LOOP`
+- `ACS-GOV-04` is `NOT_OPENED`
+- ACS returns only when a formal L4 Consolidated assessment is intentionally requested
+
+Superseded recommendation: `ACADEMY-EPIC-01` is complete and is not an automatic next step.

@@ -1,0 +1,95 @@
+# CODER ORIENTATION — AXODUS
+
+Version: 0.1 Draft  
+Status: Agent Coder Instruction
+
+---
+
+## 1. Mission
+
+Build Axodus as a modular, DAO-first, governance-centered ecosystem.
+
+Do not treat modules as isolated products. Treat each module as part of a governed economic network.
+
+---
+
+## 2. Current Execution Priority
+
+Frontend is being prepared as the App Shell and product hub.
+
+Current priority:
+
+- sanitize UI/CSS;
+- standardize pages;
+- prepare module containers;
+- keep components reusable;
+- enable future backend integration;
+- avoid hardcoded product-specific architecture when generic abstractions are possible.
+
+---
+
+## 3. Architecture Principles
+
+- Governance-first
+- DAO-centric
+- Modular products
+- Shared UI components
+- Reusable service adapters
+- Strong typing where applicable
+- Environment-based configuration
+- No duplicated CSS patterns
+- Mobile-first responsiveness
+- Security-aware integrations
+
+---
+
+## 4. Product Modules
+
+Initial modules:
+
+- Governance
+- Business
+- BBA
+- Marketplace
+- Academy
+- Mining
+- Trading
+- Staking / DeFi
+- DEX
+- Vault
+- MCP Servers
+- Compute Network
+- Lottery, not launch priority
+
+---
+
+## 5. Naming and Token Rules
+
+The token symbol is `$Neurons`.
+
+Do not use `NRS` unless explicitly required by legacy code and clearly mapped.
+
+---
+
+## 6. Governance Model
+
+DAO and governance concepts should be represented as first-class UI and backend concepts.
+
+Important concepts:
+
+- Root DAO
+- Partner DAO
+- Constitution
+- Treasury
+- Proposal
+- Vote
+- Execution
+- Product Access
+- Federation Standing
+- Constitutional Standing
+
+---
+
+## 7. Final Rule
+
+When in doubt, build the smaller reusable foundation instead of a one-off product page.

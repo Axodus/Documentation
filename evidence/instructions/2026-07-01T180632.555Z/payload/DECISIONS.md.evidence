@@ -1,0 +1,36 @@
+# Axodus Global Decisions
+
+## Decision — Governance Has Constitutional And Local Nuclei
+
+Axodus Governance has two distinct governance nuclei:
+
+1. Constitutional Governance, powered by `$Neurons`.
+2. Local Governance, controlled by each federated startup, DAO, company, product, or community.
+
+Constitutional Governance defines federal standards, chain and plugin capabilities, constitutional conditions, ecosystem guardrails, treasury constraints, and ecosystem-wide legitimacy.
+
+Local Governance may use `$Neurons`, local tokens, auto-generated platform tokens, multisigs, gauges, reputation systems, NFT governance, or plugin-defined models.
+
+Local autonomy is allowed, but every local governance model must remain constitutionally compatible.
+
+Opaque automatic exclusion language is not part of the Axodus governance model.
+
+Governance restrictions must be represented as Constitutional Guardrails with transparent reason codes.
+
+## Decision — Constitutional Layer Is Registry-Observable State
+
+The Governance backend registry must expose a normalized Constitutional Governance layer for every chain.
+
+This layer models:
+
+* constitutional capabilities
+* constitutional conditions
+* authority model
+* federation model
+* execution model
+
+Frontend surfaces may render this state, but they must not infer constitutional validity, sanctions, execution authority, treasury permissions, or federation membership.
+
+The source of truth remains the registry, contracts, indexers, guardrails, and backend execution layers.
+
+Harmony remains a legacy voting/spoke adapter and must not be represented as an Axodus constitutional execution chain.

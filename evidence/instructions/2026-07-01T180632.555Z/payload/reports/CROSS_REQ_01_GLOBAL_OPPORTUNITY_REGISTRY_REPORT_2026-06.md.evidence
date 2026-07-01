@@ -1,0 +1,169 @@
+# CROSS-REQ-01 - Global Opportunity Registry Report
+
+Date: 2026-06-09
+
+Workspace: `/opt/Axodus`
+
+## Summary
+
+CROSS-REQ-01 established the Axodus Global Opportunity Registry as a local/unversioned portfolio visibility artifact.
+
+The registry consolidates documented opportunities, product candidates, readiness tracks and strategic initiatives across all major Axodus nuclei using the Business L4 lifecycle, product catalog, risk/governance and dependency frameworks.
+
+Final assessment: `GLOBAL_OPPORTUNITY_REGISTRY_ESTABLISHED`
+
+Recommended next request: `CROSS-REQ-02 - Cross-Nucleus Dependency Registry`
+
+## Workspace State
+
+- Root workspace: `/opt/Axodus`
+- Root versioning: not a Git repository
+- Global artifacts: local/unversioned
+- Business resolved repository path: `/mnt/d/Rede/Github/Axodus/Business`
+- Product functionality changed: no
+- Package files changed: no
+- Runtime behavior changed: no
+
+## Root Versioning State
+
+`/opt/Axodus` is not a Git repository. Root global docs under `/opt/Axodus/.instructions` remain local/unversioned unless a versioned documentation repository is explicitly selected.
+
+## Business Frameworks Used
+
+- `/opt/Axodus/Business/docs/business/opportunity-pipeline-framework.md`
+- `/opt/Axodus/Business/docs/business/product-catalog-and-portfolio-registry.md`
+- `/opt/Axodus/Business/docs/business/risk-and-governance-classification.md`
+- `/opt/Axodus/Business/docs/business/dependency-and-integration-map.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_PORTFOLIO_HANDOFF.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_L4_CONSOLIDATION_ASSESSMENT.md`
+
+## Nuclei Scanned
+
+- Core
+- Governance
+- Documentation
+- Dex
+- Defi
+- AxodusAPP
+- Business
+- Marketplace
+- Academy
+- Mining
+- ACS
+- Trading
+- BBA-Agency
+- Lottery
+
+## Opportunity Count
+
+| Type | Count |
+|---|---:|
+| Official registry entries | 25 |
+| Unverified / needs documentation entries | 6 |
+| Nuclei covered as primary owners | 14 |
+
+## Registry Methodology
+
+The registry includes only opportunities supported by repository or portfolio evidence.
+
+Primary evidence sources:
+
+- Business L4 framework documents;
+- global portfolio status, roadmap, blocker and maturity registers;
+- portfolio gated advancement and promotion board reports;
+- nucleus status, roadmap, handoff, blocker, validation and maturity assessment files;
+- recent Trading, ACS, Dex, Documentation, BBA and Lottery request reports where applicable.
+
+Items mentioned in request context but not supported by documentation were placed under `Unverified / Needs Documentation` rather than official registry entries.
+
+## Evidence Quality Summary
+
+| Evidence Quality | Count | Notes |
+|---|---:|---|
+| HIGH | 14 | Strong status/report/framework evidence. |
+| MEDIUM | 11 | Structured evidence exists, but product/runtime or governance gaps remain. |
+| LOW | 0 | No official entry was based only on weak evidence. |
+| UNKNOWN | 0 | Unknown evidence items were not promoted to official entries. |
+
+## Risk Summary
+
+| Risk Level | Count | Notes |
+|---|---:|---|
+| LOW | 2 | Documentation/process-only Business registry/catalog entries. |
+| MEDIUM | 9 | Readiness, integration, reporting or schema-bound opportunities. |
+| HIGH | 8 | Governance, provider, settlement, reward, payout or ACS-adjacent opportunities. |
+| CRITICAL | 6 | Treasury, custody, lottery, live trading, ACS execution or vault-related sensitivity. |
+| UNKNOWN | 0 | Not used for official entries. |
+
+## Execution Sensitivity Summary
+
+| Execution Sensitivity | Count | Notes |
+|---|---:|---|
+| NONE | 3 | Process/documentation/registry only. |
+| LOW | 6 | Read-only, reporting, transport tests or provider visibility. |
+| MEDIUM | 5 | Business workflow, ACS-adjacent service or integration readiness. |
+| HIGH | 7 | Governance, payment, reward, payout, DEX or settlement-adjacent readiness. |
+| CRITICAL | 4 | Vault/custody, live trading, ACS execution and lottery payout/randomness paths. |
+| UNKNOWN | 0 | Not used for official entries. |
+
+## Unverified Opportunities
+
+- Market Operations Oracle
+- MCP Business Services
+- Business Intelligence Services
+- Institutional Services
+- Generic Data Products
+- Generic Analytics Services
+
+These were not promoted into official registry entries because documentation did not provide enough product-level evidence.
+
+## Blockers Summary
+
+Portfolio-wide blockers preserved:
+
+- production readiness is not approved;
+- root global docs are local/unversioned;
+- execution-sensitive opportunities require separate gate reviews;
+- treasury, wallet, trading, DEX execution, marketplace settlement, mining payout, lottery payout, ACS provisioning and on-chain writes remain blocked;
+- unverified concepts require documentation before registry promotion.
+
+## Recommended Next Request
+
+`CROSS-REQ-02 - Cross-Nucleus Dependency Registry`
+
+Purpose:
+
+- convert the opportunity registry into explicit dependency edges;
+- map owner/supporter/consumer relationships;
+- classify dependency risk, readiness and escalation paths;
+- preserve all no-execution boundaries.
+
+## Files Created
+
+- `/opt/Axodus/.instructions/AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `/opt/Axodus/.instructions/reports/CROSS_REQ_01_GLOBAL_OPPORTUNITY_REGISTRY_REPORT_2026-06.md`
+
+## Files Updated
+
+- `/opt/Axodus/.instructions/PORTFOLIO_STATUS.md`
+- `/opt/Axodus/.instructions/PORTFOLIO_ROADMAP.md`
+- `/opt/Axodus/.instructions/NUCLEUS_MATURITY_REGISTER.md`
+- `/opt/Axodus/.instructions/BLOCKER_REGISTER.md`
+- `/opt/Axodus/Business/.instructions/HANDOFF.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_PORTFOLIO_HANDOFF.md`
+
+## Validation
+
+Checks required:
+
+- registry file exists;
+- report file exists;
+- all official registry rows have required fields;
+- no production readiness claim introduced;
+- no execution authority granted;
+- no treasury, wallet, settlement, payout, trading or on-chain behavior enabled;
+- unverified ideas are not promoted into official registry entries.
+
+## Boundary Confirmation
+
+No product functionality was implemented. No APIs, integrations, MCP services, providers, governance execution, treasury execution, trading execution, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, wallet signing, on-chain writes or production readiness claims were introduced.

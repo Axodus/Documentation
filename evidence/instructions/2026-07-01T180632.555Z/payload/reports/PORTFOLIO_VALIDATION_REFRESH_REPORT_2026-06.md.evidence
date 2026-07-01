@@ -1,0 +1,317 @@
+# PORTFOLIO-REQ-02 - Portfolio Validation Refresh Report
+
+Date: 2026-06-08
+
+Root workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This global report is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Summary
+
+PORTFOLIO-REQ-02 refreshed validation evidence for the L3 candidate nuclei targeted after Portfolio Status Normalization:
+
+- Business
+- Mining
+- Academy
+- Marketplace
+- ACS
+- Trading
+
+No product features were added. No production integrations, wallet signing, treasury movement, swaps, minting, settlement, payouts, production credentials, secrets, contract deployment or production readiness claims were introduced.
+
+Portfolio result: PORTFOLIO_VALIDATION_REFRESH_COMPLETED_WITH_BLOCKERS
+
+## Repository Commits
+
+| Nucleus | Commit |
+|---|---|
+| Business | `da6eca4aeadbf83a8cca80ba510575ea1f14c12a` |
+| Mining | `374206676ea876bc64c33bb4874a3619d8bcb512` |
+| Academy | `42730d27bbd56c10233479250ef19f595cd65b29` |
+| Marketplace | `8e4c53901c7c713ba4d7ed3ae9b43bb40dc7c6cc` |
+| ACS | `63d3747894152890f8c5e8a18ad55b770bcdb5b1` |
+| Trading | `21ca24b0b51bdeb16bc969e7f7696ac3a9b0462d` |
+
+Root global docs commit: none. `/opt/Axodus` is not a Git repository.
+
+## Validation Matrix
+
+| Nucleus | Previous Maturity | Current Decision | Commands Executed | Result |
+|---|---|---|---|---|
+| Business | L3 candidate | PROMOTE_TO_L4_CANDIDATE | `npm run check` | PASS: build, validator, 102 tests |
+| Mining | L3 candidate | PROMOTE_TO_L4_CANDIDATE | `pnpm test`, `pnpm typecheck`, `pnpm lint`, `pnpm build` | PASS_WITH_WARNINGS: 47 tests, typecheck, lint, build |
+| Academy | L3 candidate | PROMOTE_TO_L4_CANDIDATE | `npm run typecheck`, `npm run lint`, `npm run test -- --run`, `npm run build`, `npm run test:contracts` | PASS_WITH_WARNINGS: 20 tests, build, 6 contract tests |
+| Marketplace | L3 candidate | PROMOTE_TO_L4_CANDIDATE | `pnpm -r test`, `pnpm -r lint`, `pnpm -r build` | PASS: 102 tests, lint, build |
+| ACS | L3 candidate | KEEP_L3_CANDIDATE | `npm run check` | PASS: build, 152 tests; L4 gate still requires explicit review |
+| Trading | L3 candidate | REQUIRES_REVALIDATION | `npm run typecheck`, `npm test` in `trading-core/services/trading-core` | PASS_WITH_E2E_GAP: 240 passed / 1 skipped |
+
+## Nucleus Findings
+
+### Business
+
+Current maturity: L4 candidate
+
+Previous maturity: L3 candidate
+
+Validation result:
+
+- `npm run check`: PASS
+- build: PASS
+- mock validator: PASS
+- tests: PASS, 102 tests
+
+Blockers:
+
+- Production billing: ACTIVE
+- Treasury/revenue execution: ACTIVE
+- Dependency/validation incomplete: RESOLVED for current evidence
+
+Risks:
+
+- Billing, treasury, ACS provisioning and governance execution remain production-sensitive.
+
+Dependencies:
+
+- Governance approval.
+- Billing/payment authority.
+- Treasury/revenue policy.
+- Persistence approval.
+
+Recommended next request:
+
+BUSINESS-REQ-02 - Persistence and Billing Boundary Decision
+
+### Mining
+
+Current maturity: L4 candidate
+
+Previous maturity: L3 candidate
+
+Validation result:
+
+- `pnpm test`: PASS, 47 tests
+- `pnpm typecheck`: PASS
+- `pnpm lint`: PASS
+- `pnpm build`: PASS
+
+Warnings:
+
+- React Router future-flag warnings during UI tests.
+- zero-size chart warning during UI test.
+- Vite chunk-size warning during build.
+
+Blockers:
+
+- Payout execution: ACTIVE
+- Provider custody/execution: ACTIVE
+- Validation refresh: RESOLVED
+
+Risks:
+
+- Warnings are UI/tooling warnings and do not affect no-payout/no-custody boundaries.
+
+Dependencies:
+
+- Provider custody policy.
+- Payout/treasury policy.
+- Compliance/accounting/reconciliation review.
+
+Recommended next request:
+
+MINING-REQ-02 - Provider Boundary Hardening and Warning Cleanup
+
+### Academy
+
+Current maturity: L4 candidate
+
+Previous maturity: L3 candidate
+
+Validation result:
+
+- `npm run typecheck`: PASS
+- `npm run lint`: PASS
+- `npm run test -- --run`: PASS, 20 tests
+- `npm run build`: PASS with Rollup/chunk-size warnings
+- `npm run test:contracts`: PASS, 6 Solidity tests
+
+Blockers:
+
+- Production reward authority: ACTIVE
+- Production persistence: ACTIVE
+- Validation refresh: RESOLVED
+
+Risks:
+
+- Reward, certification, minting, deployment and treasury boundaries remain production-sensitive.
+
+Dependencies:
+
+- Governance approval.
+- Treasury/reward policy.
+- Contract review/audit.
+- Production persistence decision.
+
+Recommended next request:
+
+ACADEMY-REQ-02 - Reward, Persistence and Contract Deployment Boundary Decision
+
+### Marketplace
+
+Current maturity: L4 candidate
+
+Previous maturity: L3 candidate
+
+Validation result:
+
+- `pnpm -r test`: PASS, 102 tests
+- `pnpm -r lint`: PASS
+- `pnpm -r build`: PASS
+
+Blockers:
+
+- Payment execution: ACTIVE
+- Value transfer/settlement: ACTIVE
+- Validation refresh: RESOLVED
+
+Risks:
+
+- Marketplace has validated local/web/API behavior, but payment, settlement, bridge, minting, wallet and treasury authority remain blocked.
+
+Dependencies:
+
+- Payment/compliance review.
+- Settlement/treasury policy.
+- Contract/audit gates if value-bearing behavior is introduced.
+
+Recommended next request:
+
+MARKETPLACE-REQ-02 - Payment and Settlement Governance Boundary Decision
+
+### ACS
+
+Current maturity: L3 candidate
+
+Previous maturity: L3 candidate
+
+Validation result:
+
+- `npm run check`: PASS
+- build: PASS
+- tests: PASS, 152 tests
+
+Blockers:
+
+- Execution authority not approved: ACTIVE
+- Hummingbot runtime blocked: ACTIVE
+- Validation refresh: RESOLVED
+
+Risks:
+
+- ACS is execution-sensitive. L4 candidate should require an explicit Governance/Core gate review, not automatic promotion from tests alone.
+
+Dependencies:
+
+- Governance/Core authority alignment.
+- Credential vault policy.
+- Risk/compliance review.
+- Sandbox-only validation scope.
+
+Recommended next request:
+
+ACS-REQ-02 - L4 Candidate Gate Review for Guarded ACS Contracts
+
+### Trading
+
+Current maturity: L3 candidate / requires revalidation
+
+Previous maturity: L3 candidate
+
+Validation result:
+
+- Nested path: `trading-core/services/trading-core`
+- `npm run typecheck`: PASS
+- `npm test`: PASS, 240 passed / 1 skipped
+- skipped: real local Postgres E2E test
+
+Blockers:
+
+- Live trading blocked: ACTIVE
+- Production credentials blocked: ACTIVE
+- Root `package.json` absent: ACTIVE
+- Real local Postgres E2E not executed: ACTIVE
+- Current validation refresh: UNKNOWN until E2E is executed
+
+Risks:
+
+- Strong Trading Core local tests exist, but current durable local E2E evidence is incomplete.
+- Live trading, exchange execution, withdrawals, production credentials and treasury remain blocked.
+
+Dependencies:
+
+- Safe local Postgres environment.
+- Credential Vault policy.
+- Governance/risk/compliance approval for any future execution-sensitive track.
+
+Recommended next request:
+
+TRADING-REQ-02 - Safe Local Postgres E2E Revalidation
+
+## Promotion Candidates
+
+Promoted to L4 candidate:
+
+- Business
+- Mining
+- Academy
+- Marketplace
+
+Not promoted:
+
+- ACS: keep L3 candidate pending explicit L4 gate review.
+- Trading: requires revalidation due skipped real local Postgres E2E.
+
+## Validation Gaps
+
+- Business: production billing/treasury/persistence gates remain open despite validation PASS.
+- Mining: UI/chart and build chunk warnings remain.
+- Academy: e2e smoke remains future; production reward/contract deployment gates remain open.
+- Marketplace: payment/settlement/value-transfer governance remains open.
+- ACS: L4 candidate gate review required.
+- Trading: real local Postgres E2E not executed in this request.
+
+## Cross-Nucleus Dependencies
+
+- Governance approval for execution-sensitive behavior.
+- Core/ACS authority alignment before autonomous or guarded execution.
+- Treasury policy before any value movement.
+- Payment/compliance review before billing/settlement.
+- Credential Vault before Trading or ACS credential-sensitive work.
+- AxodusAPP/Core contract review before broader integration claims.
+
+## Portfolio Risk Summary
+
+Portfolio uncertainty is reduced because current validation evidence now exists for all target nuclei. Remaining risk is concentrated in execution-sensitive domains:
+
+- billing/payment;
+- treasury/revenue/payout movement;
+- wallet/on-chain behavior;
+- marketplace settlement and minting;
+- ACS guarded execution;
+- Trading credentials and live/paper runtime boundaries.
+
+## Recommended Next Cycle
+
+PORTFOLIO GATED ADVANCEMENT REVIEW
+
+Recommended order:
+
+1. Trading safe local Postgres E2E revalidation.
+2. ACS L4 candidate gate review.
+3. Marketplace payment/settlement governance boundary decision.
+4. Academy reward/persistence/contract deployment boundary decision.
+5. Business persistence/billing boundary decision.
+6. Mining provider warning cleanup and payout boundary hardening.
+
+## Final Result
+
+PORTFOLIO_VALIDATION_REFRESH_COMPLETED_WITH_BLOCKERS

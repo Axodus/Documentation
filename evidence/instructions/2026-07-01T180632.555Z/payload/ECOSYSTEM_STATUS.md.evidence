@@ -1,0 +1,222 @@
+# Axodus Ecosystem Status
+
+Last updated: 2026-06-04
+
+Primary source of truth for maturity: `.instructions/NUCLEUS_MATURITY_REGISTER.md`
+
+Framework: `.instructions/NUCLEUS_MATURITY_FRAMEWORK.md`
+
+Current phase: RECAST 01 - Nucleus Maturity Audit & Baseline Register.
+
+## Portfolio Summary
+
+- Total nuclei audited: 15 including Global Docs / Instructions.
+- Average maturity level: 3.60.
+- Highest maturity level: L5.
+- Lowest maturity level: L1.
+- No nucleus is production-ready.
+- Governance is HOLD / PILOT COMPLETE / BACKLOG CONTROLLED.
+- Global docs are workspace-local because `/opt/Axodus` is not a Git repository.
+
+## Current Nucleus Status
+
+| Nucleus | Level | Portfolio State | Production Status | Next Work |
+|---|---:|---|---|---|
+| ACS | L5 | HOLD | Production forbidden | Tenant-scoped receipts/backtest planning only. |
+| Academy | L4 | ADVANCE | Production reward/credentialing blocked | DB schema planning and full validation when approved. |
+| AxodusAPP | L4 | ADVANCE | Production execution disabled | Balanced read-only contract alignment. |
+| BBA-Agency | L2 | RECOVER | Production claims blocked | Define non-production validation and claim-review gate. |
+| Business | L4 | ADVANCE | Persistence/execution blocked | Validation evidence and repository contract review. |
+| Core | L5 | BACKLOG | Execution authority forbidden | Consumer pilot review after allocation. |
+| Defi | L4 | ADVANCE | Fund movement blocked | Governance execution and custody decision planning only. |
+| Dex | L3 | BACKLOG | Swaps/routing/settlement disabled | DEX backlog continuation for read-only route metadata/interface work. |
+| Documentation | L4 candidate | RECOVER | Publication not approved | REQ-07 draft content corrections complete with warnings; REQ-08 content quality validation pending. |
+| Governance | L5 | HOLD | Production execution blocked | Backlog control and validation maintenance only. |
+| Lottery | L2 | BACKLOG | Randomness/prize/payout blocked | Instructions hygiene and validation report. |
+| Marketplace | L5 | ADVANCE | Settlement/minting/value transfer blocked | Validation gate, API/runtime contract reconciliation, and app alignment. |
+| Mining | L3 | ADVANCE | Provider/payout blocked | Validation report and provider evidence planning. |
+| Trading | L4 | HOLD | Live trading/withdrawals blocked | Vault/KMS, local E2E discipline, and vendor ownership planning only. |
+| Global Docs / Instructions | L1 -> L2 evidence created | RECOVER | Not applicable | Coordinator decision required for official versioning home. |
+
+## Global Production Boundary
+
+Production execution, treasury movement, wallet signing, on-chain writes, live trading, DEX swaps, settlement, marketplace minting/value transfer, mining payouts, lottery randomness/prize/payout, and production credentials remain disabled or gated across the ecosystem.
+
+## REQ-01 Global Docs Recovery
+
+Status: COMPLETE as documentation/governance/versioning planning.
+
+Created L2 evidence:
+
+- global source-of-truth policy;
+- global ownership policy;
+- global versioning strategy;
+- global validation procedure.
+
+Still unresolved:
+
+- formal versioning home is not selected;
+- `/opt/Axodus` remains not a Git repository;
+- no root Git restructuring is approved.
+
+## REQ-02 Documentation Recovery
+
+Status: COMPLETE as documentation governance recovery.
+
+Documentation nucleus is L4 candidate, not final L4.
+
+Created evidence:
+
+- Documentation status;
+- roadmap;
+- workflow;
+- source-of-truth policy;
+- ownership policy;
+- versioning policy;
+- validation procedure;
+- publication boundaries;
+- security policy;
+- task register;
+- blocker register;
+- recovery report.
+
+REQ-03 update:
+
+- VitePress asset inventory and alignment baseline is complete.
+- Structural build/link validation remains unresolved.
+- Publication authority verification remains unresolved.
+- Documentation remains L4 candidate.
+
+## REQ-02A Documentation Publication Target Correction
+
+Status: COMPLETE as documentation alignment correction.
+
+- Active Documentation platform: VitePress.
+- GitBook status: legacy / not active.
+- Documentation remains L4 candidate.
+- Next: REQ-04 - VitePress Structural Validation & Local Build Readiness.
+- publication authority verification;
+- final versioning path;
+- documentation asset inventory.
+
+## Documentation Sprint 01 VitePress and Content Pipeline
+
+Status: COMPLETE as documentation planning correction.
+
+- Corrected request sequence: REQ-04 through REQ-09.
+- Content inventory and editorial gap analysis are now explicit before content rewrites.
+- Draft corrections and content validation are explicit before publication governance.
+- Publication remains disabled.
+- Documentation remains L4 candidate.
+- Next: REQ-04 - VitePress Structural Validation & Local Build Readiness.
+
+## REQ-04 VitePress Structural Validation
+
+Status: COMPLETE as structural/build-readiness validation.
+
+- Structure: PASS_WITH_WARNINGS.
+- Link/navigation review: PASS_WITH_WARNINGS.
+- Build readiness: READY_WITH_CONDITIONS.
+- REQ-05 handoff: PROCEED_WITH_CONDITIONS.
+- Build executed: NO.
+- Documentation remains L4 candidate.
+- Next: REQ-05 - VitePress Local Build Validation.
+
+## REQ-05 VitePress Local Build Validation
+
+Status: COMPLETE
+
+Result:
+
+- Build command: `npm run docs:build`.
+- Build result: PASS_WITH_WARNINGS.
+- Generated output: `docs/.vitepress/dist/`.
+- Generated artifacts staged: NO.
+- Publication: DISABLED.
+- REQ-06 handoff: PROCEED_WITH_WARNINGS.
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Local build evidence exists, but content inventory, content validation, publication authority, and versioning blockers remain.
+- Next: REQ-06 - Documentation Content Inventory & Editorial Gap Analysis.
+
+## REQ-06 Documentation Content Inventory and Editorial Gap Analysis
+
+Status: COMPLETE
+
+Result:
+
+- Content inventory: COMPLETE.
+- Editorial gap analysis: COMPLETE.
+- High-risk claims register: COMPLETE.
+- Markdown pages inventoried: 248.
+- Missing nav/sidebar targets: 0.
+- Orphan pages: 0.
+- REQ-07 handoff: PROCEED_WITH_CONDITIONS.
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Content correction has not started.
+- Publication remains disabled.
+- Next: REQ-07 - Documentation Content Correction Drafts.
+
+## REQ-07 Documentation Content Correction Drafts
+
+Status: COMPLETE
+
+Result:
+
+- Correction plan: COMPLETE.
+- Draft changes applied: YES.
+- Changed content files: 15.
+- High-risk claims resolved: PARTIAL.
+- REQ-08 handoff: PROCEED_WITH_WARNINGS.
+- Publication: DISABLED.
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Content quality validation and publication governance remain pending.
+- Next: REQ-08 - Documentation Content Quality, Links & Consistency Validation.
+
+## REQ-08 Documentation Content Quality, Links and Consistency Validation
+
+Status: COMPLETE
+
+Result:
+
+- Content quality: PASS_WITH_WARNINGS.
+- Link/navigation: PASS_WITH_WARNINGS.
+- Claim safety: PASS_WITH_WARNINGS.
+- REQ-09 handoff: PROCEED_WITH_WARNINGS.
+- Publication: DISABLED.
+
+Maturity impact:
+
+- Documentation remains L4 candidate.
+- Candidate validation evidence exists, but publication governance and reviewer approval remain pending.
+- Next: REQ-09 - Documentation Publication Governance & Release Workflow.
+
+## REQ-09 Documentation Publication Governance and Release Workflow
+
+Status: COMPLETE
+
+Result:
+
+- Publication governance: COMPLETE.
+- Authority matrix: COMPLETE.
+- Release checklist: COMPLETE.
+- Release candidate policy: COMPLETE.
+- Rollback/post-publication audit: COMPLETE.
+- REQ-10 handoff: READY_WITH_APPROVAL_BLOCKERS.
+- Publication: DISABLED.
+
+Current maturity:
+
+Documentation remains L4 candidate.
+
+Next:
+
+REQ-10 - Documentation Publication Execution Request, BLOCKED UNTIL EXPLICIT APPROVAL.

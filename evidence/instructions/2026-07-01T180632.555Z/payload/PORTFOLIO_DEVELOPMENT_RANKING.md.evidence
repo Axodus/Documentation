@@ -1,0 +1,62 @@
+# Axodus Portfolio Development Ranking
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Status: ESTABLISHED
+
+Root versioning state: `/opt/Axodus` is not a Git repository. This ranking is local/unversioned portfolio evidence.
+
+Ranking basis: actual implementation maturity, not organizational maturity. The ranking weighs code surface, validation evidence, UI/API/SDK depth, mocks, tests, integration progress and functional completeness. It does not rank production readiness.
+
+## Ranking
+
+| Rank | Nucleus | D-Level | Functional Completeness | Evidence Strength | Rationale |
+| ---: | --- | --- | ---: | --- | --- |
+| 1 | Governance | D3 | 70% | HIGH | Largest implementation and test surface; app/backend/contracts/subgraph/read-only API evidence. |
+| 2 | AxodusAPP | D3+ | 70% | HIGH | Strong frontend integration shell with passing build and 130 passing tests. |
+| 3 | Trading | D3 | 65% | HIGH | Trading-core and local Postgres E2E evidence support integrated local functionality. |
+| 4 | Dex | D3 | 65% | HIGH | Read-only provider architecture, mock fallback, scanner and validation create integrated visibility functionality. |
+| 5 | Core | D3 | 65% | MEDIUM | Shared foundation packages and conformance tests support ecosystem integration. |
+| 6 | Marketplace | D4 | 60% | HIGH | API/web product surface with 102 passing tests, while settlement remains blocked. |
+| 7 | Documentation | D2 | 60% | MEDIUM | Functional VitePress documentation system with build/content evidence. |
+| 8 | Business | D2 | 55% | HIGH | Non-executive runtime, validators, registry models and 102 tests; intentionally limited product behavior. |
+| 9 | Academy | D3+ | 55% | MEDIUM | Frontend/API/contracts evidence and local validation support local product functionality. |
+| 10 | ACS | D3+ | 50% | HIGH | Integrated readiness/permission/gate/consumer surfaces with fresh build/test/check and completed security/boundary evidence; execution/provisioning authority remains blocked. |
+| 11 | Defi | UNASSESSED | 45% | MEDIUM | Services/API/indexer/contracts evidence exists, but execution-sensitive roadmap remains blocked. |
+| 12 | Mining | D3+ | 45% | MEDIUM | UI/API and 47 passing tests with warnings; payout/provider maturity is limited. |
+| 13 | BBA-Agency | D2 | 45% | MEDIUM | Mock/local service delivery functionality with tests and fixtures; schema integration gaps remain. |
+| 14 | Lottery | D2 | 45% | MEDIUM | Mock/local lottery UI/API/tests exist, but critical payout/randomness/compliance blockers cap progress. |
+
+## Highest Development Maturity
+
+Core, Governance, Dex and Trading are the current D3 group; AxodusAPP, Academy, Mining and ACS are D3+; Marketplace is D4 within non-production controls.
+
+ACS is registered separately at D3+. Its prior comparative rank is retained because `ACS-FOLLOWUP-01` does not reassess other nuclei.
+
+## Lowest Development Maturity
+
+No target nucleus remains D0 or D1. The lowest assigned development group is D2, with Documentation, Business, BBA-Agency and Lottery; Defi remains UNASSESSED showing the lowest functional completeness estimates due to execution-sensitive blockers or lower integration depth.
+
+## Most Product-Heavy Nuclei
+
+Governance, AxodusAPP, Trading, Marketplace, Dex.
+
+## Most Documentation-Heavy Nuclei
+
+Documentation, Business, Defi. Business is documentation-heavy by portfolio role, not by lack of implementation evidence.
+
+## Recommended Next Portfolio Cycle
+
+`DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+
+Rationale: publication authority and versioning are the clearest portfolio-wide control gap. The cycle is consolidation-only and grants no publication, production or execution authority.

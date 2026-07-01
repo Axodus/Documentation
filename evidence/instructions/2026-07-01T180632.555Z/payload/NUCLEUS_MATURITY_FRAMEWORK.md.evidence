@@ -1,0 +1,48 @@
+# Axodus Nucleus Maturity Framework
+
+Last updated: 2026-06-03
+
+## Recast Baseline
+
+RECAST 00 artifacts were not present in `/opt/Axodus/.instructions` during this audit. This framework is recorded in RECAST 01 under the coordinator-approved execution gate from the request text and is now the active baseline for this audit.
+
+This framework is for audit and portfolio planning. It does not grant production authority, execution authority, settlement authority, wallet-signing authority, trading authority, swap authority, payout authority, or treasury authority.
+
+## Maturity Levels
+
+| Level | Name | Meaning |
+|---:|---|---|
+| L0 | Não Mapeado | No reliable local evidence of purpose, status, or operating boundary. |
+| L1 | Documentado | Instructions, status, purpose, or roadmap evidence exists, but validation and runtime evidence are absent or stale. |
+| L2 | Validado | Local validation commands are known and have passing or explicitly documented evidence, or a limited validation baseline is documented. |
+| L3 | Mock/Local | Mock data, fixtures, local adapters, local services, or non-executing workflows exist with some test or implementation evidence. |
+| L4 | Visível no App | The nucleus has visible read-only or mock UI/API surfaces in AxodusAPP or an equivalent local interface. |
+| L5 | Contratualizado | Formal contracts, interfaces, API schemas, route contracts, policy matrices, package contracts, or registry contracts exist. |
+| L6 | Integrado Local | Local backend/app/API/service integration is proven across nuclei or services without production execution. |
+| L7 | Candidato a Produção | A production-readiness gate has explicit governance, security, audit, deployment, rollback, monitoring, and operational evidence. |
+
+## Portfolio States
+
+| State | Meaning |
+|---|---|
+| ADVANCE | Ready for the next maturity step inside approved local/mock/read-only boundaries. |
+| HOLD | Do not advance until portfolio balance improves or an explicit gate is approved. |
+| RECOVER | Needs documentation, validation, or hygiene repair before normal progression. |
+| AUDIT MORE | Evidence is insufficient for reliable classification. |
+| BACKLOG | Valid work exists but is not a current portfolio priority. |
+
+## Confidence
+
+| Confidence | Use |
+|---|---|
+| High | Multiple local evidence sources agree, with recent status or validation documentation. |
+| Medium | Evidence exists but was not freshly validated during this audit. |
+| Low | Evidence is incomplete, stale, missing, or mostly inferred from structure. |
+
+## Boundary Rules
+
+- `LOCAL_VALIDATED`, L3, L4, L5, and L6 do not imply production readiness.
+- L7 must not be assigned without explicit governance, security, audit, deployment, rollback, monitoring, and operational evidence.
+- Financial, execution, trading, DEX, treasury, settlement, marketplace minting, payout, lottery, mining payout, wallet-signing, or on-chain behavior is production-blocked by default.
+- A mature subtrack does not automatically raise the full nucleus. Use the lower overall level for portfolio average and document advanced subtracks separately.
+- Missing evidence lowers classification.

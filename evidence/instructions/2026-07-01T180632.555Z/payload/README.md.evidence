@@ -1,0 +1,238 @@
+# Axodus Ecosystem
+
+## Purpose
+
+Axodus is a federated governance and financial operating ecosystem designed to coordinate decentralized organizations, treasury systems, AI-assisted execution, DeFi infrastructure, educational systems, marketplaces, trading systems, and future autonomous economic agents.
+
+This repository structure represents the operational foundation of the Axodus ecosystem.
+
+The objective is not to build isolated products, but interoperable protocol layers coordinated through governance, constitutional conditions, modular infrastructure, and execution-oriented architecture.
+
+---
+
+# Ecosystem Principles
+
+- Governance-first architecture
+- Modular and federated systems
+- DAO-native execution
+- Long-term sustainability
+- Security and auditability
+- Transparent operational flows
+- AI-assisted coordination
+- Chain-agnostic interoperability
+- Execution isolation between domains
+- Upgradeability without governance centralization
+
+---
+
+# Workspace Structure
+
+Each workspace represents an operational domain of the ecosystem.
+
+
+/opt/Axodus
+├── Academy
+├── BBA-Agency
+├── Business
+├── Defi
+├── Dex
+├── Governance
+├── Lottery
+├── Marketplace
+├── MCP
+├── Mining
+└── Trading
+
+Each workspace may contain:
+
+* contracts
+* backend services
+* frontend applications
+* SDKs
+* plugins
+* deployment tooling
+* AI agent tooling
+* governance integrations
+
+---
+
+# .instructions Philosophy
+
+Every workspace contains a `.instructions` directory.
+
+This directory is the operational source of truth for:
+
+* implementation plans
+* architectural decisions
+* workflows
+* coding standards
+* task tracking
+* execution sequencing
+* security requirements
+* deployment procedures
+
+The `.instructions` layer exists to preserve architectural coherence between:
+
+* humans
+* AI agents
+* repositories
+* execution environments
+
+This layer should remain execution-oriented and continuously updated.
+
+## Agent Memory and Dreaming Policy
+
+Core-owned ACS/OpenClaw agent memory policy lives under:
+
+- `.instructions/agents/DREAMING_MODE.md`
+- `.instructions/agents/MEMORY_POLICY.md`
+- `.instructions/agents/DREAMING_OUTPUT_TEMPLATES.md`
+- `.instructions/agents/CRON_STRATEGY.md`
+- `.instructions/agents/CORE_MEMORY_REVIEW.md`
+
+These documents define scheduled Dreaming Mode as a memory proposal and
+synthesis routine. Dreaming outputs are not canonical truth until reviewed
+through the Core memory process.
+
+---
+
+# Core Ecosystem Domains
+
+## Governance
+
+Federated DAO operating system with two governance nuclei:
+
+* Constitutional Governance, powered by `$Neurons`
+* Local Governance, controlled by each federated startup, DAO, company, product, or community
+
+Constitutional Governance defines federal standards, capabilities, conditions, guardrails, and ecosystem-wide legitimacy.
+
+Local Governance may use `$Neurons`, local tokens, auto-generated platform tokens, multisigs, gauges, reputation systems, NFT governance, or plugin-defined models.
+
+Local autonomy is allowed, but all local governance must remain constitutionally compatible.
+
+## Defi
+
+Treasury infrastructure, vaults, ETFs, staking, liquidity systems, and financial execution.
+
+## Trading
+
+Trading infrastructure, automation, AI-assisted execution, market intelligence, and strategy systems.
+
+## MCP
+
+AI orchestration, memory systems, autonomous execution, plugins, agent coordination, and operational tooling.
+
+## Academy
+
+Educational infrastructure, Proof-of-Knowledge systems, certification, learning incentives, and onboarding.
+
+## Marketplace
+
+Digital asset distribution, product access, service coordination, and commercial infrastructure.
+
+## Mining
+
+Mining infrastructure, validator systems, compute coordination, and hardware-oriented operations.
+
+## Business
+
+Operational and enterprise coordination layer.
+
+## BBA-Agency
+
+Branding, advertising, communication, and ecosystem visibility.
+
+---
+
+# Governance Philosophy
+
+Governance is not isolated from operations.
+
+All operational domains are expected to:
+
+* expose governance hooks
+* support treasury accountability
+* expose auditable execution flows
+* remain compatible with constitutional enforcement
+
+Axodus governance operates as a federated multichain system.
+
+No single chain should become a hard dependency for ecosystem continuity.
+
+The governance model must distinguish Constitutional Governance from Local Governance.
+
+Constitutional Governance is powered by `$Neurons` and defines ecosystem-level legitimacy, standards, conditions, and guardrails.
+
+Local Governance belongs to each federated startup, DAO, company, product, or community and may use different voting assets, permission models, and plugin-defined mechanisms.
+
+Axodus must not rely on opaque automatic exclusion behavior.
+
+Restricted actions should be represented as Constitutional Guardrails with transparent reason codes visible to users, operators, SDKs, indexers, and future agents.
+
+---
+
+# AI Agent Philosophy
+
+AI agents are operational executors, not sovereign authorities.
+
+Agents may:
+
+* coordinate workflows
+* generate proposals
+* monitor systems
+* execute bounded actions
+* generate reports
+* assist development
+
+Agents must never bypass:
+
+* constitutional rules
+* DAO permissions
+* treasury restrictions
+* execution boundaries
+
+All agent execution must remain auditable.
+
+---
+
+# Operational Rule
+
+Architecture coherence is more important than implementation speed.
+
+Every new system must:
+
+* preserve modularity
+* preserve auditability
+* expose explicit boundaries
+* avoid hidden coupling
+* document dependencies
+* remain governance-compatible
+
+---
+
+# Current Priority
+
+The current ecosystem priority is:
+
+1. Governance Core
+2. Registry Architecture
+3. Constitutional Conditions
+4. Treasury Infrastructure
+5. AI Orchestration
+6. Product Federation
+7. Frontend Operating Dashboards
+8. Cross-chain Coordination
+
+---
+
+# Non-Negotiables
+
+* Preserve Aragon OSx compatibility where applicable.
+* Avoid unnecessary protocol forks.
+* Avoid hardcoded chain assumptions.
+* Preserve DAO autonomy.
+* Preserve plugin-oriented architecture.
+* Preserve execution traceability.
+* Security takes priority over speed.
+* Governance integrity takes priority over convenience.

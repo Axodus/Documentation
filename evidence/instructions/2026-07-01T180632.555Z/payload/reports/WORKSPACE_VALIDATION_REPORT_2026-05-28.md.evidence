@@ -1,0 +1,294 @@
+# Workspace Validation Report - 2026-05-28
+
+Status: diagnostic pass only  
+Root: `/opt/Axodus`  
+Execution mode: no fixes, no production configuration, no live trading, no settlement, no real adapters, no fund movement
+
+## Scope
+
+This pass inspected the Axodus root instructions and the available workspace `.instructions` directories before validation.
+
+`/opt/Axodus` itself is not a Git worktree. The workspace entries are symlinks to `/mnt/d/Rede/Github/Axodus/*`.
+
+Existing workspace instruction directories were found for:
+
+- `Governance`
+- `AxodusAPP`
+- `Defi`
+- `Trading`
+- `Marketplace`
+- `Academy`
+- `Business`
+- `ACS`
+- `Mining`
+- `Dex`
+- `Lottery`
+- `Documentation`
+
+No `.instructions` directory was found for `BBA-Agency`. `/opt/Axodus/Core` is missing.
+
+## Validation Summary
+
+| Core | Result | Notes |
+| --- | --- | --- |
+| Governance | Hold | TypeScript gate passed, but `yarn test:unit` timed out at `Using MockDB...`. |
+| AxodusAPP | Hold | `npm run build` passed. `npm test` failed: 5 failed tests across 4 files. |
+| Core | Hold | `/opt/Axodus/Core` is missing. |
+| Defi | Ready for next sprint | Phase 2 security gate and service typechecks passed. |
+| Trading | Hold | `trading:local:e2e` failed due missing local DB env `TRADING_DB_HOST`. Nested vendor repos are dirty. |
+| Marketplace | Ready for next sprint | Recursive tests and build passed. |
+| Academy | Ready for next sprint | Contract compile, API build, web build, and focused PoK/reward tests passed. |
+| Mining | Ready for next sprint | Tests, typecheck, and build passed. |
+| DEX | Hold | Parent is clean, but token-list/vendor nested repos are dirty and `interface` status scan timed out. |
+| Business | Not released by this pass | Git clean, but no validation command was requested in this execution. |
+| ACS | Not released by this pass | Git clean, but no validation command was requested in this execution. |
+| Lottery | Not released by this pass | Git clean, but no validation command was requested in this execution. |
+| BBA-Agency | Not released by this pass | Git clean, but no `.instructions` directory and no validation command was requested. |
+| Documentation | Not released by this pass | Git clean on `main`, but no validation command was requested. |
+
+## Commands Executed
+
+### Governance
+
+Working directory: `/opt/Axodus/Governance/Aragon-app-backend`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `./node_modules/.bin/tsc --noEmit` | Passed | No compiler output. |
+| `yarn test:unit` | Failed / timed out | Last output: `Using MockDB...`; command exited with timeout code `124`. |
+
+Notes:
+
+- `Aragon-app-backend/package.json` does not define a `build` script, despite older docs mentioning `yarn build`.
+- The TypeScript gate generated a tracked modification in `dist/tsconfig.tsbuildinfo`. It was not reverted in this diagnostic pass.
+
+### AxodusAPP
+
+Working directory: `/opt/Axodus/AxodusAPP`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `npm run build` | Passed | Vite build completed in `2m 42s`. Existing large chunk and plugin timing warnings remain. |
+| `npm test` | Failed | 4 failed test files, 5 failed tests, 107 passed tests. |
+
+Observed failures:
+
+- `tests/academy/AcademyModule.test.jsx`: `useTenantContext must be used within TenantProvider`.
+- `tests/marketplace/MarketplaceNavigation.test.jsx`: `useTenantContext must be used within TenantProvider`.
+- `tests/governance/GovernanceOperationsSmoke.test.jsx`: multiple elements matched `/featured dao tenants/i`.
+- `tests/governance/GovernanceOperationsSmoke.test.jsx`: Governance Operations Center smoke timed out after 10000 ms.
+- `tests/governance/GovernanceOperationsSmoke.test.jsx`: `@walletconnect/logger` ESM/CJS packaging issue; Vitest suggests inlining `@walletconnect/logger`.
+
+### Defi
+
+Working directory: `/opt/Axodus/Defi`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `node scripts/phase2-workflow-security-gate.mjs` | Passed | `Phase 2 workflow security gate verified.` |
+| `npm --prefix services/api run typecheck` | Passed | `tsc -p tsconfig.json --noEmit` completed. |
+| `npm --prefix services/indexer run typecheck` | Passed | `tsc -p tsconfig.json --noEmit` completed. |
+
+### Trading
+
+Working directory: `/opt/Axodus/Trading/trading-core/services/trading-core`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `npm run trading:local:e2e` | Failed | Build completed, then runtime failed before E2E because `TRADING_DB_HOST` was missing. |
+
+Failure:
+
+```text
+TradingDatabaseConfigError: Missing required Trading database env: TRADING_DB_HOST.
+```
+
+No live trading, paper trading, provider execution, or Hummingbot runtime action was enabled by this command.
+
+### Marketplace
+
+Working directory: `/opt/Axodus/Marketplace`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `pnpm -r test` | Passed | API: 57 tests passed. Web: 45 tests passed. |
+| `pnpm -r build` | Passed | API TypeScript build and web Vite build completed. |
+
+### Mining
+
+Working directory: `/opt/Axodus/Mining`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `pnpm test` | Passed | 4 test files passed, 47 tests passed. |
+| `pnpm typecheck` | Passed | Client and server TypeScript checks completed. |
+| `pnpm build` | Passed | Typecheck, web build, and API build completed. |
+
+Warnings:
+
+- React Router future flag warnings during tests.
+- Chart container width/height warning in test environment.
+- Web build chunk larger than 500 kB.
+
+### Academy
+
+Working directory: `/opt/Axodus/Academy`
+
+| Command | Result | Evidence |
+| --- | --- | --- |
+| `npm run compile` | Passed | Hardhat compiled 5 Solidity files with solc `0.8.18`. |
+| `npm run build:api` | Passed | `tsc -p tsconfig.json` completed. |
+| `npm run build:web` | Passed | Vite build completed in `5m 52s`. |
+| `npm test -- --run tests/academyLearning.test.ts` | Passed | 1 test file passed, 20 tests passed. |
+
+Warnings:
+
+- Rollup removed unsupported `/*#__PURE__*/` comment annotations from WalletConnect dependency files.
+- Web build chunk larger than 500 kB.
+
+## Consolidated Git Status
+
+Top-level workspace status at the time of inspection:
+
+| Core | Path | Branch | Ahead/Behind | Tracked changes | Untracked files | Nested repos / vendor forks | Overwrite risk |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Governance | `/opt/Axodus/Governance` | `dev` | 0/0 vs `origin/dev` | Clean before validation; now `m Aragon-app-backend` due generated nested artifact | None observed at parent | Git submodules: `Aragon-app-backend`, `AragonOSX`, `aragon-app`, `conditions`, `osx-plugin-template-hardhat`, `protocol-factory` | Medium |
+| AxodusAPP | `/opt/Axodus/AxodusAPP` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| Core | `/opt/Axodus/Core` | Missing | N/A | N/A | N/A | N/A | High |
+| Defi | `/opt/Axodus/Defi` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| Trading | `/opt/Axodus/Trading` | `dev` | 0/0 vs `origin/dev` | `M .gitignore` | None observed at parent | `condor`, `hummingbot-api`, `mcp`, `quants-lab`, `tradingbot` | High |
+| Marketplace | `/opt/Axodus/Marketplace` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| Academy | `/opt/Axodus/Academy` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| Business | `/opt/Axodus/Business` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| ACS | `/opt/Axodus/ACS` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| Mining | `/opt/Axodus/Mining` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| DEX | `/opt/Axodus/Dex` | `dev` | 0/0 vs `origin/dev` | Clean at parent | None observed at parent | `default-token-list`, `interface`, `token-lists` | High |
+| Lottery | `/opt/Axodus/Lottery` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Low |
+| BBA-Agency | `/opt/Axodus/BBA-Agency` | `dev` | 0/0 vs `origin/dev` | Clean | None observed | None | Medium due missing `.instructions` |
+| Documentation | `/opt/Axodus/Documentation` | `main` | 0/0 vs `origin/main` | Clean | None observed | None | Low |
+
+Worktrees:
+
+- Each inspected top-level Git repository reported a single current worktree at its resolved `/mnt/d/Rede/Github/Axodus/*` path.
+- No additional worktree entries were observed.
+
+## Nested Repository Findings
+
+### Governance Nested Repos
+
+| Repo | Branch | Ahead/Behind | Status | Risk |
+| --- | --- | --- | --- | --- |
+| `Governance/Aragon-app-backend` | `axodus/governance-executor-sprint-02` | No upstream | Clean before validation; now `M dist/tsconfig.tsbuildinfo` generated by `tsc` | Medium |
+| `Governance/AragonOSX` | `develop` | 0/0 vs `origin/develop` | Clean | Low |
+| `Governance/aragon-app` | `dev` | 0/0 vs `origin/dev` | Clean | Low |
+| `Governance/conditions` | `main` | 0/0 vs `origin/main` | Clean | Medium: nested libs show uninitialized submodule entries |
+| `Governance/osx-plugin-template-hardhat` | `main` | 0/0 vs `origin/main` | Clean | Low |
+| `Governance/protocol-factory` | `main` | 0/0 vs `origin/main` | Clean | Medium: nested libs show uninitialized submodule entries |
+
+### DEX Nested Repos
+
+`Dex/.gitmodules` declares `default-token-list`, `token-lists`, and `interface`, but the parent `Dex` index did not report gitlink entries from `git ls-files -s`. Treat these as vendor/nested repos requiring an explicit ownership plan before edits.
+
+| Repo | Branch | Ahead/Behind | Status | Risk |
+| --- | --- | --- | --- | --- |
+| `Dex/default-token-list` | `main` | 0/0 vs `origin/main` | Many tracked modifications across config, workflows, package files, token JSON, scripts, tests, and lockfiles | High |
+| `Dex/token-lists` | `main` | 0/0 vs `origin/main` | Many tracked modifications across workflows, package files, source, tests, schema, and lockfiles | High |
+| `Dex/interface` | `dev` | 0/0 vs `origin/dev` | `git status` and untracked scan timed out | High |
+
+### Trading Nested Repos
+
+`Trading/.gitmodules` declares `condor`, `hummingbot-api`, `mcp`, `quants-lab`, and `tradingbot`, but the parent `Trading` index did not report gitlink entries from `git ls-files -s`. Treat these as vendor/nested repos requiring an explicit ownership plan before edits.
+
+| Repo | Branch | Ahead/Behind | Status | Risk |
+| --- | --- | --- | --- | --- |
+| `Trading/condor` | `main` | 0/0 vs `origin/main` | Many tracked modifications across Python app, frontend, handlers, MCP server, Docker, lockfiles | High |
+| `Trading/hummingbot-api` | `main` | 0/0 vs `origin/main` | Many tracked modifications across routers, services, controllers, Docker, DB files, and credential config paths | Critical |
+| `Trading/mcp` | `main` | 0/0 vs `origin/main` | Many tracked modifications across MCP package, tools, config examples, Docker, lockfiles | High |
+| `Trading/quants-lab` | `main` | Ahead 10, behind 303 vs `origin/main` | No tracked modifications; untracked `hummingbot` | High |
+| `Trading/tradingbot` | `dev` | 0/0 vs `origin/dev` | Clean | Medium |
+
+## Risk Zones
+
+The following zones remain hold-only and must not be overwritten without a separate plan:
+
+- `/opt/Axodus/Trading/.gitignore`
+- `/opt/Axodus/Dex/default-token-list`
+- `/opt/Axodus/Dex/token-lists`
+- `/opt/Axodus/Dex/interface`
+- `/opt/Axodus/Trading/condor`
+- `/opt/Axodus/Trading/hummingbot-api`
+- `/opt/Axodus/Trading/mcp`
+- `/opt/Axodus/Trading/quants-lab`
+- `/opt/Axodus/Trading/tradingbot`
+
+Additional risk:
+
+- `Trading/hummingbot-api` has tracked modifications under `bots/credentials/master_account/*`. Contents were not inspected in this pass, but the path is security-sensitive.
+- `Trading/.gitignore` already had a tracked local change adding `.env` and `*.sql`.
+- `Governance/Aragon-app-backend` has no upstream branch configured.
+- `Governance/Aragon-app-backend/dist/tsconfig.tsbuildinfo` was modified by the diagnostic TypeScript gate.
+
+## Blocked Modules
+
+| Module | Blocker |
+| --- | --- |
+| Core | Workspace path missing. |
+| Governance | Unit test harness timed out at MockDB initialization. |
+| AxodusAPP | Test suite fails in tenant context, Governance smoke assertions, and WalletConnect Vitest ESM handling. |
+| Trading | Local E2E requires `TRADING_DB_HOST` and probably the rest of the local DB env contract. |
+| DEX | Nested token-list repos are dirty; `Dex/interface` status scan timed out. |
+
+## Recommended Next Fix Sprints
+
+1. Governance validation recovery sprint
+   - Decide whether `dist/tsconfig.tsbuildinfo` should be ignored, untracked, or intentionally committed.
+   - Fix or replace the `yarn test:unit` MockDB bootstrap path.
+   - Add a real package `build` script or update docs to use the TypeScript gate explicitly.
+   - Configure upstream for `Aragon-app-backend` if this branch is meant to continue.
+
+2. AxodusAPP test stabilization sprint
+   - Wrap affected Academy and Marketplace tests with `TenantProvider`.
+   - Update Governance smoke selectors for duplicated `Featured DAO Tenants` text.
+   - Investigate the Governance Operations Center timeout.
+   - Configure Vitest dependency handling for `@walletconnect/logger`.
+
+3. Trading local E2E environment sprint
+   - Document the required local `TRADING_DB_*` environment contract.
+   - Add preflight output that lists missing variables before running the E2E.
+   - Keep local E2E isolated from live trading and provider execution.
+   - Create an ownership plan for dirty nested Trading repos before edits.
+
+4. DEX vendor/submodule hygiene sprint
+   - Decide whether `default-token-list`, `token-lists`, and `interface` are true submodules, vendor forks, or independent nested repos.
+   - Resolve dirty token-list fork state before DEX feature work.
+   - Investigate why `Dex/interface` status scans time out.
+
+5. Trading vendor hygiene sprint
+   - Freeze `condor`, `hummingbot-api`, `mcp`, and `quants-lab` until ownership and diff boundaries are documented.
+   - Review `quants-lab` divergence: ahead 10, behind 303, plus untracked `hummingbot`.
+   - Treat `hummingbot-api` credential paths as security-sensitive.
+
+## Modules Cleared For Immediate Next Sprint
+
+Cleared by this validation pass:
+
+- `Defi`
+- `Marketplace`
+- `Academy`
+- `Mining`
+
+Conditionally usable for documentation/planning only, not execution-cleared by this pass:
+
+- `Business`
+- `ACS`
+- `Lottery`
+- `BBA-Agency`
+- `Documentation`
+
+Remain on hold:
+
+- `Core`
+- `Governance`
+- `AxodusAPP`
+- `Trading`
+- `DEX`

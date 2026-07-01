@@ -1,0 +1,209 @@
+# Axodus Governance and Execution Boundary Review
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-04 - Governance & Execution Boundary Review
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This review is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Purpose
+
+This review defines the current approval and execution boundaries across Axodus nuclei.
+
+It answers who may approve, who may execute, which nuclei are non-executive, which nuclei are execution-sensitive, which approvals are required, and which actions remain blocked.
+
+This review does not implement integrations, APIs, product functionality, MCP services, providers, governance execution, treasury execution, trading execution, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, wallet signing, on-chain writes or production readiness.
+
+## Inputs Reviewed
+
+- `/opt/Axodus/.instructions/AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_CROSS_NUCLEUS_DEPENDENCY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_DEPENDENCY_GRAPH_SUMMARY.md`
+- `/opt/Axodus/.instructions/AXODUS_READINESS_OWNERSHIP_ALIGNMENT.md`
+- `/opt/Axodus/.instructions/AXODUS_OWNERSHIP_MATRIX.md`
+- `/opt/Axodus/.instructions/AXODUS_READINESS_GAP_REGISTER.md`
+- `/opt/Axodus/Business/docs/business/risk-and-governance-classification.md`
+- `/opt/Axodus/Business/docs/business/dependency-and-integration-map.md`
+- `/opt/Axodus/Business/docs/business/product-catalog-and-portfolio-registry.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_PORTFOLIO_HANDOFF.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_L4_CONSOLIDATION_ASSESSMENT.md`
+- Global portfolio status, roadmap, maturity and blocker docs.
+- Available nucleus STATUS, SECURITY, BLOCKER_REGISTER, HANDOFF, VALIDATION and maturity assessment files.
+
+Prior cross-nucleus outputs are established. No partial-output limitation was found.
+
+## Authority Principles
+
+- Maturity does not grant execution authority.
+- Readiness does not grant production authority.
+- Business can classify, coordinate, prepare handoffs and route escalation, but cannot execute sensitive actions.
+- Governance approval is required for DAO, proposal, voting, federation, constitutional or governance-plugin actions.
+- Treasury approval is required for funds, custody, settlement, revenue, debenture, billing, payout or treasury exposure.
+- Architecture review is required for cross-nucleus contracts, persistence, APIs, UI consumption, provider selection and ownership transfers.
+- Execution review is required for wallet signing, on-chain writes, trading, DEX swaps, marketplace settlement, mining payouts, lottery execution, ACS provisioning, production credentials or live provider action.
+
+## Action Authority Levels
+
+| Level | Name | Allowed Actions | Prohibited Actions | Required Approvals | Evidence Requirements |
+|---|---|---|---|---|---|
+| LEVEL_0_DOCUMENTATION | Documentation | Status, reports, roadmaps, handoffs, local registries | Production claims, publication without authority, execution approval | Business or Documentation review | Source docs and boundary statement |
+| LEVEL_1_READINESS | Readiness | Assessments, maturity reviews, blocker mapping, handoff packages | Implementation, execution, fund movement, production operation | Business review plus owner review if sensitive | STATUS, maturity assessment, blocker register |
+| LEVEL_2_READ_ONLY | Read-only | Read-only data, mock/provider visibility, dashboards without transaction controls | Mutations, signing, transaction submission, settlement, payouts | Architecture review where cross-nucleus | Read-only contract and boundary tests |
+| LEVEL_3_LOCAL_VALIDATION | Local validation | Local tests, mock/local fixtures, local DB validation, static scanners | Production DB, production credentials, external execution | Owning nucleus plus Architecture if needed | Validation report and non-production config |
+| LEVEL_4_CONTROLLED_INTEGRATION | Controlled integration | Read-only or guarded integration planning with explicit fallback and no execution | Required provider dependency, hidden write path, live fund impact | Architecture plus owning nucleus review | Contract, rollback, health/freshness and risk evidence |
+| LEVEL_5_EXECUTION_SENSITIVE | Execution-sensitive | Planning only unless separately approved | Wallet signing, swaps, trading, settlement, payouts, treasury movement, ACS provisioning, on-chain writes | Owning nucleus, Governance/Treasury/Security/Portfolio Board as applicable | Separate execution request, audit/rollback/security evidence |
+| LEVEL_6_PRODUCTION | Production | None currently authorized by this review | Production claims, production users/funds/credentials/services | Explicit production governance approval | Production approval record, audit and operations evidence |
+
+## Boundary Classification Model
+
+| Classification | Meaning |
+|---|---|
+| NON_EXECUTIVE | May coordinate, document, classify or prepare handoffs; cannot execute product or financial workflows. |
+| READ_ONLY | May expose or consume read-only data; cannot mutate state or initiate execution. |
+| MOCK_LOCAL | May run mock/local validation or fixtures; no external execution. |
+| EXECUTION_SENSITIVE_BLOCKED | Owns a sensitive execution domain, but execution is currently blocked. |
+| GOVERNANCE_GATED | Requires governance approval before advancement. |
+| TREASURY_GATED | Requires treasury/financial approval before advancement. |
+| PRODUCTION_GATED | Requires production authority before external operation. |
+| EXECUTION_AUTHORIZED | Explicit execution authority exists. Not used in the current portfolio state. |
+| UNKNOWN | Evidence is insufficient. |
+
+## Boundary Classification Summary
+
+| Nucleus | Boundary Classification | Rationale |
+|---|---|---|
+| Core | GOVERNANCE_GATED | L5/pre-RC architecture authority, but consumer pilots and RC approval remain explicit gates. |
+| Governance | GOVERNANCE_GATED | Governance authority owner, but proposal/vote/executor/mutation paths remain blocked. |
+| Documentation | NON_EXECUTIVE | Publication governance exists, but publication authority and versioning remain blocked. |
+| Dex | READ_ONLY | L4 readiness is read-only/provider reliability; DEX swaps and routing execution are blocked. |
+| Defi | TREASURY_GATED | Treasury/custody planning exists; treasury execution remains blocked. |
+| AxodusAPP | READ_ONLY | Integration shell and presentation layer; wallet/trading execution remains blocked. |
+| Business | NON_EXECUTIVE | L4 consolidated coordination and classification nucleus; no execution authority. |
+| Marketplace | EXECUTION_SENSITIVE_BLOCKED | Owns marketplace settlement/payment boundaries; execution blocked. |
+| Academy | EXECUTION_SENSITIVE_BLOCKED | Rewards/certification/contract execution blocked. |
+| Mining | TREASURY_GATED | Provider/payout/custody boundaries require treasury approval. |
+| ACS | EXECUTION_SENSITIVE_BLOCKED | Runtime/provisioning/autonomy authority blocked. |
+| Trading | EXECUTION_SENSITIVE_BLOCKED | Trading, credentials and exchange execution blocked. |
+| BBA-Agency | MOCK_LOCAL | L3 service delivery evidence; real billing/campaign/client execution blocked. |
+| Lottery | EXECUTION_SENSITIVE_BLOCKED | Randomness/prize/payout/compliance execution blocked. |
+
+## Governance Authority Summary
+
+| Nucleus | Can Create Governance Package | Can Submit Governance Proposal | Can Approve Governance Proposal | Can Execute Governance Action | Required Approvals | Current Blockers |
+|---|---|---|---|---|---|---|
+| Core | YES | NO | NO | NO | ARCHITECTURE_REVIEW, GOVERNANCE_REVIEW if authority scope changes | RC and consumer pilot evidence incomplete. |
+| Governance | YES | BLOCKED | BLOCKED | BLOCKED | GOVERNANCE_REVIEW plus explicit executor gate | Proposal/vote/executor/mutation disabled. |
+| Documentation | YES for publication-sensitive docs | NO | NO | NO | Publication authority, GOVERNANCE_REVIEW for governance claims | Publication not authorized. |
+| Dex | YES for DEX boundary package | NO | NO | NO | EXECUTION_REVIEW for execution-sensitive DEX scope | Swaps/routing/liquidity blocked. |
+| Defi | YES for treasury/governance package | NO | NO | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW | Custody/treasury execution blocked. |
+| AxodusAPP | YES for UI/contract boundary package | NO | NO | NO | ARCHITECTURE_REVIEW, GOVERNANCE_REVIEW for governance surfaces | Real backend/wallet flow blocked. |
+| Business | YES | NO | NO | NO | BUSINESS_REVIEW then owner escalation | Business is non-executive. |
+| Marketplace | YES for settlement governance package | NO | NO | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW | Settlement/payment/minting blocked. |
+| Academy | YES for reward/certification governance package | NO | NO | NO | GOVERNANCE_REVIEW | Rewards/certification/contract writes blocked. |
+| Mining | YES for payout/provider governance package | NO | NO | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW | Provider/payout blocked. |
+| ACS | YES for execution authority package | NO | NO | NO | EXECUTION_REVIEW, GOVERNANCE_REVIEW, ARCHITECTURE_REVIEW | Provisioning/autonomy blocked. |
+| Trading | YES for credential/execution gate package | NO | NO | NO | EXECUTION_REVIEW, GOVERNANCE_REVIEW, TREASURY_REVIEW if funds affected | Live trading/credentials blocked. |
+| BBA-Agency | YES for claim/service package | NO | NO | NO | BUSINESS_REVIEW, Documentation/claim review | Production claims and external execution blocked. |
+| Lottery | YES for compliance/randomness package | NO | NO | NO | EXECUTION_REVIEW, GOVERNANCE_REVIEW, TREASURY_REVIEW | Compliance, randomness and payout blocked. |
+
+## Treasury Authority Summary
+
+| Nucleus | Can Request Treasury Review | Can Model Treasury Impact | Can Approve Treasury Movement | Can Execute Treasury Movement | Can Distribute Revenue | Can Process Payout | Required Approvals | Current Blockers |
+|---|---|---|---|---|---|---|---|---|
+| Core | YES | LIMITED | NO | NO | NO | NO | TREASURY_REVIEW if fund impact appears | Treasury owner not formalized. |
+| Governance | YES | LIMITED | NO | NO | NO | NO | TREASURY_REVIEW plus GOVERNANCE_REVIEW | Treasury release/executor blocked. |
+| Documentation | NO | NO | NO | NO | NO | NO | Publication review only | Not a treasury nucleus. |
+| Dex | YES | YES for exposure | NO | NO | NO | NO | TREASURY_REVIEW, EXECUTION_REVIEW | Liquidity and treasury integrations blocked. |
+| Defi | YES | YES | BLOCKED | BLOCKED | BLOCKED | BLOCKED | TREASURY_REVIEW, GOVERNANCE_REVIEW, EXECUTION_REVIEW | Custody, settlement, staking and movement blocked. |
+| AxodusAPP | NO | LIMITED display only | NO | NO | NO | NO | ARCHITECTURE_REVIEW if display changes | Wallet/fund handling blocked. |
+| Business | YES | YES readiness only | NO | NO | NO | NO | TREASURY_REVIEW by owner | Business cannot move, approve or release funds. |
+| Marketplace | YES | YES settlement readiness only | NO | NO | NO | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW | Payments/settlement/minting blocked. |
+| Academy | YES for rewards | YES readiness only | NO | NO | NO | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW | Rewards/treasury movement blocked. |
+| Mining | YES | YES payout readiness only | NO | NO | NO | NO | TREASURY_REVIEW | Payout/provider custody blocked. |
+| ACS | NO unless runtime affects funds | NO | NO | NO | NO | NO | EXECUTION_REVIEW if trading/funds affected | Provisioning/credentials blocked. |
+| Trading | YES | YES exposure only | NO | NO | NO | NO | TREASURY_REVIEW, EXECUTION_REVIEW | Withdrawals/treasury/exchange execution blocked. |
+| BBA-Agency | YES for billing claims | LIMITED | NO | NO | NO | NO | BUSINESS_REVIEW, TREASURY_REVIEW if billing | Real billing/payment blocked. |
+| Lottery | YES | YES payout/prize readiness only | NO | NO | NO | NO | TREASURY_REVIEW, EXECUTION_REVIEW | Prize/payout/treasury blocked. |
+
+## Execution Authority Summary
+
+No nucleus has current portfolio-wide execution authorization for production-sensitive actions.
+
+| Nucleus | Product Workflow | Financial Workflow | Settlement | Payout | Trading | DEX Execution | ACS/MCP Provisioning | On-Chain Write | Wallet Signing | Required Approvals | Current Blockers |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Core | LIMITED architecture only | NO | NO | NO | NO | NO | NO | NO | NO | ARCHITECTURE_REVIEW | Runtime/adapters/execution authority blocked. |
+| Governance | BLOCKED | NO | NO | NO | NO | NO | NO | BLOCKED | NO | GOVERNANCE_REVIEW, EXECUTION_REVIEW | Executor/mutations blocked. |
+| Documentation | NO | NO | NO | NO | NO | NO | NO | NO | NO | Publication authority | Publication blocked. |
+| Dex | READ_ONLY | NO | NO | NO | NO | BLOCKED | NO | NO | NO | EXECUTION_REVIEW, TREASURY_REVIEW | Swaps/routing/liquidity blocked. |
+| Defi | PLANNING_ONLY | BLOCKED | BLOCKED | BLOCKED | NO | NO | NO | BLOCKED | BLOCKED | TREASURY_REVIEW, EXECUTION_REVIEW | Custody/treasury/staking blocked. |
+| AxodusAPP | READ_ONLY | NO | NO | NO | NO | NO | NO | BLOCKED | BLOCKED | ARCHITECTURE_REVIEW, EXECUTION_REVIEW | Wallet/transaction flow blocked. |
+| Business | READINESS_ONLY | NO | NO | NO | NO | NO | NO | NO | NO | Owner-specific review | Non-executive by design. |
+| Marketplace | BLOCKED | BLOCKED | BLOCKED | NO | NO | NO | NO | BLOCKED | BLOCKED | TREASURY_REVIEW, GOVERNANCE_REVIEW | Payment/settlement/minting blocked. |
+| Academy | BLOCKED for reward/certification execution | BLOCKED | NO | BLOCKED if rewards | NO | NO | NO | BLOCKED | BLOCKED | GOVERNANCE_REVIEW, TREASURY_REVIEW | Rewards/contracts blocked. |
+| Mining | BLOCKED | BLOCKED | NO | BLOCKED | NO | NO | NO | NO | NO | TREASURY_REVIEW, EXECUTION_REVIEW | Payout/provider execution blocked. |
+| ACS | BLOCKED | NO | NO | NO | BLOCKED if trading-adjacent | NO | BLOCKED | NO | NO | EXECUTION_REVIEW, ARCHITECTURE_REVIEW | Provisioning/autonomy blocked. |
+| Trading | BLOCKED | BLOCKED | NO | NO | BLOCKED | NO | NO | BLOCKED if required | BLOCKED | EXECUTION_REVIEW, TREASURY_REVIEW | Live trading/credentials/withdrawals blocked. |
+| BBA-Agency | MOCK_LOCAL | BLOCKED billing | NO | NO | NO | NO | NO | NO | NO | BUSINESS_REVIEW | Campaigns, billing, CRM dispatch blocked. |
+| Lottery | MOCK_LOCAL | BLOCKED | NO | BLOCKED | NO | NO | NO | BLOCKED | BLOCKED | EXECUTION_REVIEW, TREASURY_REVIEW | Randomness/prize/payout blocked. |
+
+## Production Authority Summary
+
+| Nucleus | Can Claim Production Readiness | Can Operate Production Service | Can Use Production Credentials | Can Use Production Database | Can Serve External Users | Can Handle User Funds | Required Approvals | Current Blockers |
+|---|---|---|---|---|---|---|---|---|
+| Core | NO | NO | NO | NO | NO | NO | RC/production approval | Pre-RC only. |
+| Governance | NO | NO | NO | NO | NO | NO | Governance production approval | Executor/backend production blocked. |
+| Documentation | NO | NO | NO | NO | Publication blocked | NO | Publication authority | Publication command not authorized. |
+| Dex | NO | NO | NO | NO | NO | NO | Execution and production review | Read-only/provider reliability only. |
+| Defi | NO | NO | NO | NO | NO | NO | Treasury/governance approval | Treasury/custody blocked. |
+| AxodusAPP | NO | NO | NO | NO | NO | NO | Architecture/production approval | Integration shell only. |
+| Business | NO | NO | NO | NO | NO | NO | Owner-specific production review | Non-executive coordination only. |
+| Marketplace | NO | NO | NO | NO | NO | NO | Treasury/governance production review | Settlement/payment blocked. |
+| Academy | NO | NO | NO | NO | NO | NO | Governance/treasury approval | Rewards/certification blocked. |
+| Mining | NO | NO | NO | NO | NO | NO | Treasury/execution approval | Provider/payout blocked. |
+| ACS | NO | NO | NO | NO | NO | NO | ACS execution authority | Provisioning/secrets blocked. |
+| Trading | NO | NO | NO | NO | NO | NO | Execution/treasury approval | Credentials/exchange blocked. |
+| BBA-Agency | NO | NO | NO | NO | NO | NO | Business/claim/compliance review | Production claim review open. |
+| Lottery | NO | NO | NO | NO | NO | NO | Compliance/execution/treasury approval | Public lottery launch blocked. |
+
+## High-Risk Boundary Areas
+
+- Treasury/custody/revenue/payout authority.
+- Governance proposal, voting, execution and DAO registry mutation.
+- Wallet signing, private keys and account custody.
+- Trading execution, exchange connectivity and withdrawals.
+- DEX swaps, routing, liquidity and aggregation execution.
+- Marketplace settlement, payment, minting and value transfer.
+- Mining provider execution and payouts.
+- Lottery randomness, prizes and payouts.
+- ACS/MCP provisioning, memory access, autonomy and runtime permissions.
+- Production credentials, databases, users and claims.
+
+## Current Boundary Decision
+
+No `EXECUTION_AUTHORIZED` classification is assigned. Every execution-sensitive action remains blocked unless a future request presents explicit owner approval, governance/treasury/security evidence, rollback/audit evidence and production boundary approval where applicable.
+
+## Recommended Resolution Sequence
+
+1. CROSS-REQ-05 - Portfolio Integration Assessment & Promotion Board Refresh.
+2. Formalize root global docs versioning and publication ownership.
+3. Formalize Treasury/Financial Core authority.
+4. Define Business-to-AxodusAPP read-only consumer contract.
+5. Run owner-specific boundary decisions for Marketplace, Academy, Mining, ACS, Trading, Defi, Lottery and Dex.
+
+## Assessment
+
+GOVERNANCE_EXECUTION_BOUNDARY_REVIEW_ESTABLISHED

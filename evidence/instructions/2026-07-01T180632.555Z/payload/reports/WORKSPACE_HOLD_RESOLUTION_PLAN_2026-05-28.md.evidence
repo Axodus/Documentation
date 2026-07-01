@@ -1,0 +1,222 @@
+# Workspace Hold Resolution Plan - 2026-05-28
+
+Status: post-validation recovery plan  
+Updated on: 2026-05-29  
+Root: `/opt/Axodus`  
+Scope: cross-nucleus workspace recovery, not Core feature execution
+
+## Executive Decision
+
+`/opt/Axodus/Core` is structurally recovered.
+
+Core should leave the previous `Hold` reason caused by a missing workspace path. It is not classified as `Ready for next sprint` yet because this request did not execute Core validation commands and Core's own instructions mark it as `PRE-RC HARDENING`, `Runtime Status: DO NOT START`, and `Release Status: NOT RC YET`.
+
+Updated Core classification:
+
+- Primary: `Planning only`
+- Secondary: `Mock/local only`
+- Guardrails: `Production blocked`, `Execution forbidden`
+
+## Core Recovery Check
+
+| Item | Result |
+| --- | --- |
+| Workspace path | `/opt/Axodus/Core` exists |
+| Symlink target | `/mnt/d/Rede/Github/Axodus/Core/` |
+| Resolved path | `/mnt/d/Rede/Github/Axodus/Core` |
+| Git root | `/mnt/d/Rede/Github/Axodus/Core` |
+| Branch | `dev` |
+| Upstream | `origin/dev` |
+| Ahead/behind | `0/0` |
+| Working tree | Clean |
+| Last commit | `bbc4932 2026-05-28 15:12:39 -0300 docs(core): establish wiki source of truth` |
+| `.instructions` | Present |
+
+Core scripts available from `package.json`:
+
+| Script | Command | Classification |
+| --- | --- | --- |
+| `check` | `npm run check --workspaces --if-present` | Pre-RC validation |
+| `test` | TypeScript compilation into `.tmp-tests/*` plus `node --test tooling/tests/*.test.mjs` | Pre-RC validation; generates temporary artifacts |
+| `conformance` | TypeScript compile of conformance package plus `node tooling/conformance/run-conformance.mjs` | Pre-RC validation; generates temporary artifacts |
+
+Recommended minimum Core validation sequence for a dedicated Core validation sprint:
+
+1. `npm run check --workspaces --if-present`
+2. `npm test`
+3. `npm run conformance`
+4. Recheck `git status --short --branch` and remove only known temporary artifacts if explicitly authorized by the sprint plan.
+
+These validations were not executed in this request to preserve the "do not alter Core code" and "do not touch generated artifacts" restrictions. Core tests are expected to create `.tmp-tests` or `.tmp-conformance` directories.
+
+## Module Reclassification
+
+| Module | Classification | Reason | Next action |
+| --- | --- | --- | --- |
+| Core | `Planning only`, `Mock/local only`, `Production blocked`, `Execution forbidden` | Symlink recovered, repo clean, but Core is pre-RC and runtime/release remain forbidden. | Run dedicated Core pre-RC validation sprint. |
+| Defi | `Ready for next sprint`, `Mock/local only`, `Production blocked` | Phase 2 security gate and service typechecks passed in Execution 00. | Re-run Phase 2 gate and service typechecks before implementation sprint start. |
+| Marketplace | `Ready for next sprint`, `Mock/local only`, `Production blocked` | Recursive tests and build passed in Execution 00. | Re-run `pnpm -r test` and `pnpm -r build` before implementation sprint start. |
+| Academy | `Ready for next sprint`, `Mock/local only`, `Production blocked` | Contract compile, API build, web build, and focused PoK/reward tests passed in Execution 00. | Re-run compile/build/focused PoK reward tests before implementation sprint start. |
+| Mining | `Ready for next sprint`, `Mock/local only`, `Production blocked` | Tests, typecheck, and build passed in Execution 00. | Re-run `pnpm test`, `pnpm typecheck`, and `pnpm build` before implementation sprint start. |
+| Governance | `Hold`, `Production blocked` | `yarn test:unit` timed out at MockDB initialization; generated `dist/tsconfig.tsbuildinfo` remained modified after TypeScript gate. | Governance validation recovery sprint. |
+| AxodusAPP | `Hold`, `Mock/local only`, `Production blocked` | Build passed but `npm test` failed: tenant provider test setup, duplicated Governance selector, smoke timeout, WalletConnect Vitest ESM issue. | AxodusAPP test stabilization sprint. |
+| Trading | `Critical hold`, `Execution forbidden`, `Production blocked`, `Mock/local only` | Local E2E failed due missing `TRADING_DB_HOST`; nested Trading repos have high-risk dirty vendor state. | Trading local E2E env sprint plus vendor hygiene sprint before feature work. |
+| DEX | `Critical hold`, `Execution forbidden`, `Production blocked` | Parent clean, but token-list/vendor nested repos are dirty and `Dex/interface` status scan timed out. | DEX vendor/submodule hygiene sprint. |
+| Business | `Planning only`, `Production blocked` | Git clean in Execution 00, but no validation command was requested or run. | Define and run Business validation gate before implementation. |
+| ACS | `Planning only`, `Execution forbidden`, `Production blocked` | Git clean in Execution 00, but no validation command was requested or run; ACS policies prohibit runtime/Hummingbot/backtest execution without gates. | Define and run ACS validation gate before implementation. |
+| Lottery | `Planning only`, `Production blocked` | Git clean in Execution 00, but no validation command was requested or run. | Define and run Lottery validation gate before implementation. |
+| BBA-Agency | `Planning only`, `Production blocked` | Git clean in Execution 00, but no workspace `.instructions` directory was found and no validation command was requested. | Add/confirm `.instructions`, then define validation gate. |
+| Documentation | `Planning only` | Git clean on `main` in Execution 00, but no validation command was requested or run. | Define docs build/link validation before documentation sprint. |
+
+## Holds And Corrective Sprints
+
+### Governance - Hold
+
+Current blocker:
+
+- `yarn test:unit` timed out at `Using MockDB...`.
+- `Aragon-app-backend/package.json` lacks a `build` script although older docs reference `yarn build`.
+- `Governance/Aragon-app-backend/dist/tsconfig.tsbuildinfo` is a generated tracked artifact modified by validation.
+
+Corrective sprint:
+
+- `Governance Validation Recovery Sprint`
+
+Re-run after fixes:
+
+- `./node_modules/.bin/tsc --noEmit`
+- `yarn test:unit`
+- Any documented backend build equivalent after the build script/docs mismatch is resolved.
+
+### AxodusAPP - Hold
+
+Current blocker:
+
+- `npm test` failed with 5 failed tests across 4 files.
+- Failures include missing `TenantProvider` in tests, duplicated `Featured DAO Tenants` text query, Governance smoke timeout, and WalletConnect logger ESM/CJS handling.
+
+Corrective sprint:
+
+- `AxodusAPP Test Stabilization Sprint`
+
+Re-run after fixes:
+
+- `npm run build`
+- `npm test`
+- Prefer adding `npm run typecheck` if the sprint touches runtime/context boundaries.
+
+### Trading - Critical Hold
+
+Current blocker:
+
+- `npm run trading:local:e2e` failed because `TRADING_DB_HOST` is missing.
+- Parent `Trading/.gitignore` has a tracked local change.
+- Nested repos `condor`, `hummingbot-api`, `mcp`, and `quants-lab` carry high-risk vendor state.
+- `hummingbot-api` includes tracked modifications under credential-adjacent paths.
+- `quants-lab` is ahead 10 and behind 303 vs `origin/main`, with untracked `hummingbot`.
+
+Corrective sprints:
+
+- `Trading Local E2E Environment Sprint`
+- `Trading Vendor Hygiene Sprint`
+
+Re-run after fixes:
+
+- `npm run trading:local:e2e` from `/opt/Axodus/Trading/trading-core/services/trading-core`
+- Git status checks for parent and nested Trading repos
+
+Execution remains forbidden:
+
+- No live trading.
+- No paper trading unless explicitly approved by a future gate.
+- No provider execution.
+- No Hummingbot runtime mutation.
+- No credential inspection or edits.
+
+### DEX - Critical Hold
+
+Current blocker:
+
+- Parent repo is clean, but nested token-list/vendor repos are dirty.
+- `Dex/interface` status and untracked scans timed out.
+- `.gitmodules` declares nested repos, but parent index did not report gitlink entries.
+
+Corrective sprint:
+
+- `DEX Vendor/Submodule Hygiene Sprint`
+
+Re-run after fixes:
+
+- Parent `git status --short --branch`
+- Nested status for `default-token-list`, `token-lists`, and `interface`
+- DEX validation commands only after vendor ownership is documented
+
+Execution remains forbidden:
+
+- No settlement.
+- No token-list refactor.
+- No vendor fork rewrite.
+- No production addresses.
+
+## Ready Modules
+
+The following modules are released for the next implementation sprint, subject to re-running their last passing validation gates immediately before sprint start:
+
+1. `Defi`
+2. `Marketplace`
+3. `Academy`
+4. `Mining`
+
+These modules remain mock/local-only unless a future sprint explicitly approves production integration.
+
+## Planning Only Modules
+
+The following modules should remain planning-only until each receives a module-specific validation gate:
+
+1. `Core`
+2. `Business`
+3. `ACS`
+4. `Lottery`
+5. `BBA-Agency`
+6. `Documentation`
+
+Core is included here because it is structurally recovered but still pre-RC and execution-forbidden.
+
+## Critical Hold Modules
+
+1. `Trading`
+2. `DEX`
+
+Both are blocked by nested/vendor repository risk. Do not modify nested repos, vendor forks, token lists, credential paths, generated artifacts, runtime surfaces, settlement paths, or trading execution surfaces without a separate plan.
+
+## Next Recommended Order
+
+1. Run `Governance Validation Recovery Sprint` to clear MockDB/unit timeout and generated artifact policy.
+2. Run `AxodusAPP Test Stabilization Sprint` to restore frontend test reliability.
+3. Run `Trading Local E2E Environment Sprint` with no live trading or provider execution.
+4. Run `Trading Vendor Hygiene Sprint` before touching nested Trading repos.
+5. Run `DEX Vendor/Submodule Hygiene Sprint` before DEX feature work.
+6. Run `Core Pre-RC Validation Sprint` to execute `npm run check --workspaces --if-present`, `npm test`, and `npm run conformance`.
+7. Define validation gates for `Business`, `ACS`, `Lottery`, `BBA-Agency`, and `Documentation`.
+
+## Risk Preservation Rules
+
+Do not modify:
+
+- Trading nested repos
+- DEX nested repos
+- credential paths
+- vendor forks
+- token-list repos
+- generated artifacts
+- Core runtime/adapters/release tags
+
+Do not enable:
+
+- runtime execution
+- settlement
+- production configuration
+- live trading
+- paper trading
+- real adapters
+- treasury or chain execution

@@ -1,0 +1,96 @@
+# Axodus Execution Authority Matrix
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-04 - Governance & Execution Boundary Review
+
+Versioning note: `/opt/Axodus` is not a Git repository. This matrix is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Matrix Summary
+
+No reviewed nucleus currently has production execution authority. The matrix records current authority boundaries only.
+
+| Nucleus | Governance Authority | Treasury Authority | Execution Authority | Production Authority | Approvals Required | Active Blockers |
+|---|---|---|---|---|---|---|
+| Core | Can review architecture/governance packages; cannot execute governance | Can request/model limited impact; cannot approve/move funds | Architecture only; no product execution | NO | ARCHITECTURE_REVIEW, RC approval | Consumer pilot and RC evidence incomplete |
+| Governance | Can prepare/review governance packages; proposal/vote/executor blocked | Can request treasury review; cannot move funds | Governance execution blocked | NO | GOVERNANCE_REVIEW, EXECUTION_REVIEW | Proposal, vote, DAO mutation and executor disabled |
+| Documentation | Can review publication/governance-sensitive claims | NONE | NONE | NO | Publication authority, Business/Documentation review | Publication command and authority blocked |
+| Dex | Can prepare DEX boundary package | Can model exposure; cannot move treasury | Read-only only; swaps/routing/liquidity blocked | NO | ARCHITECTURE_REVIEW, EXECUTION_REVIEW, TREASURY_REVIEW | DEX execution and treasury exposure blocked |
+| Defi | Can prepare treasury/governance package | Planning/modeling only; movement blocked | Treasury/custody/staking blocked | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW, EXECUTION_REVIEW | Custody, staking, treasury movement and implementation blocked |
+| AxodusAPP | Can prepare UI/contract boundary package | Display only; no funds | Read-only shell only; wallet/signing blocked | NO | ARCHITECTURE_REVIEW, EXECUTION_REVIEW if wallet-adjacent | Wallet/trading/transaction flow blocked |
+| Business | Can classify and create readiness packages | Can model readiness only; cannot approve/move funds | NON_EXECUTIVE | NO | BUSINESS_REVIEW plus owner escalation | Billing, treasury, ACS, governance and execution blocked |
+| Marketplace | Can prepare settlement governance package | Settlement/payment modeling only | Settlement/payment/minting blocked | NO | TREASURY_REVIEW, GOVERNANCE_REVIEW, EXECUTION_REVIEW | Payments, settlement, minting, wallet blocked |
+| Academy | Can prepare reward/certification governance package | Reward modeling only | Reward/certification/contract execution blocked | NO | GOVERNANCE_REVIEW, TREASURY_REVIEW | Rewards, certification issuance, contract writes blocked |
+| Mining | Can prepare provider/payout governance package | Payout modeling only | Provider and payout execution blocked | NO | TREASURY_REVIEW, EXECUTION_REVIEW | Provider custody/execution and payouts blocked |
+| ACS | Can prepare/review non-executive readiness and authority packages | NONE | Provisioning, autonomy, production permission/state mutation and runtime execution blocked | NO | EXECUTION_REVIEW, ARCHITECTURE_REVIEW, GOVERNANCE_REVIEW, SECURITY_REVIEW | Credentials, secrets, wallet/signing, providers, Hummingbot/runtime and mutation authority blocked |
+| Trading | Can prepare credential/execution gate package | Exposure modeling only | Trading/exchange/withdrawal execution blocked | NO | EXECUTION_REVIEW, TREASURY_REVIEW, GOVERNANCE_REVIEW | Production credentials, exchange execution, withdrawals blocked |
+| BBA-Agency | Can prepare claim/service package | Billing modeling only | Mock/local only; campaigns/CRM blocked | NO | BUSINESS_REVIEW, claim/compliance review | Billing, client execution, campaign dispatch blocked |
+| Lottery | Can prepare compliance/randomness package | Prize/payout modeling only | Randomness/prize/payout/on-chain execution blocked | NO | EXECUTION_REVIEW, TREASURY_REVIEW, GOVERNANCE_REVIEW, compliance review | Compliance, VRF, prize, payout and launch blocked |
+
+## Authority Counts
+
+| Authority State | Count |
+|---|---:|
+| NON_EXECUTIVE or read-only/planning only | 6 |
+| Execution-sensitive but blocked | 8 |
+| Production authorized | 0 |
+| Treasury movement authorized | 0 |
+| Governance execution authorized | 0 |
+| Wallet signing authorized | 0 |
+| On-chain writes authorized | 0 |
+
+## Approval Path Map
+
+| Approval Path | Required For | Current Result |
+|---|---|---|
+| BUSINESS_REVIEW | Low/medium non-executive classification and readiness package creation | Allowed for planning only |
+| ARCHITECTURE_REVIEW | Cross-nucleus contracts, UI consumption, persistence/API, provider and ownership transfers | Required before controlled integration |
+| GOVERNANCE_REVIEW | DAO, governance plugin, proposal, vote, federation, constitutional or public authority scope | Required; execution still separately blocked |
+| TREASURY_REVIEW | Funding, custody, settlement, revenue, billing, payout, debenture or treasury exposure | Required; movement remains blocked |
+| EXECUTION_REVIEW | Wallet signing, on-chain writes, trading, DEX, settlement, payouts, ACS provisioning, production credentials | Required; no current authorization |
+| PUBLICATION_AUTHORITY | Public docs publication, public claims, release workflow | Required; publication remains blocked |
+| PRODUCTION_APPROVAL | Production services, external users, production DB/credentials/funds | Required; no current authorization |
+
+## Boundary Statement
+
+This matrix does not grant execution authority. It records that all production, treasury, wallet, settlement, payout, trading, DEX execution, ACS provisioning and on-chain authorities remain disabled or blocked.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Authority Registration
+
+| Field | ACS Value |
+|---|---|
+| Current L-Level | `L4_CANDIDATE` |
+| Recommended L-Level | `L4_READINESS` |
+| D-Level | `D3+` |
+| Production | `NON_PRODUCTION` |
+| Execution | `EXECUTION_GATED` |
+| Mutation authority | `NO_MUTATION_AUTHORITY` |
+| L4 Consolidated | `NO` |
+
+The maturity registration does not change the authority matrix. Marketplace authority also remains unchanged and blocked for payment, settlement, minting, wallet and treasury execution.
+
+## 2026-06-23 - ACS-GOV-02 Future Assessment Authority Gate
+
+Current governance baseline: `L4_READINESS_ADOPTED`; current L-Level `L4_READINESS`; previous L-Level `L4_CANDIDATE`; D-Level `D3+`; L4 Consolidated `NO`.
+
+A future L4 Consolidated assessment must prove, on fresh evidence:
+
+- ACS remains `NON_PRODUCTION`
+- ACS remains `EXECUTION_GATED`
+- ACS remains `NO_MUTATION_AUTHORITY`
+- control-plane and consumer surfaces remain local/config-first/read-only or mock
+- no production permission enforcement, state mutation, provisioning, provider execution or hidden integration bypass exists
+
+L4 Consolidated, if ever adopted, would not itself grant production or execution authority. Any authority change requires a separate action-specific governance process.

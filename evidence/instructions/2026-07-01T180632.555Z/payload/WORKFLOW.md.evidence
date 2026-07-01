@@ -1,0 +1,73 @@
+# Axodus Portfolio Workflow
+
+Last updated: 2026-06-04
+
+## Execution Model
+
+Use this sequence for portfolio work:
+
+1. Request or Recast draft.
+2. Read-only workspace inspection.
+3. Evidence collection from `.instructions`, status files, reports, package scripts, and safe git summaries.
+4. Agent execution inside the approved scope.
+5. Report creation.
+6. Coordinator validation.
+7. Optional per-repository commit only when the repository is a Git worktree and the docs are intended to be versioned.
+8. Next request allocation.
+
+## Request Rules
+
+- One request should have one clear objective.
+- Audit requests classify or document; they must not become implementation sprints.
+- Execution-sensitive work must declare forbidden actions.
+- Linked/vendor repos require explicit approval before modification.
+- Production-gated flows require governance, security, risk, audit, deployment, rollback, and operations evidence.
+- Reports must be created before final validation.
+- Status docs must be updated after portfolio-shaping requests.
+- No destructive git actions without explicit approval.
+- No background assumptions should override workspace-local `.instructions`.
+
+## RECAST 01 Rules
+
+- No backend code, frontend code, smart contracts, APIs, adapters, DB migrations, package files, runtime configs, or product source files may be changed.
+- No builds, tests, installs, services, deployments, or execution flows may be run.
+- Nucleus `STATUS.md` files may receive a minimal `## Nucleus Maturity` block only if the file already exists.
+- Missing `STATUS.md` files must be documented centrally rather than created.
+- Root `/opt/Axodus` is not a Git repository, so global docs are workspace-local.
+
+## Protected Areas
+
+- DEX linked forks and token-list repos.
+- Trading nested/vendor repos and credential paths.
+- Native interface clones or mounted interface checkouts unless explicitly approved.
+- Generated artifacts.
+- Secrets, `.env`, credentials, wallet keys, private RPCs, production DB configs.
+
+## Global Forbidden Actions
+
+- real fund movement;
+- treasury movement;
+- live trading;
+- CEX withdrawal;
+- DEX swap execution;
+- settlement execution;
+- marketplace minting or value transfer;
+- lottery prize, payout, or randomness execution;
+- mining payout execution;
+- production wallet signing;
+- production private keys or RPC secrets;
+- on-chain writes;
+- production readiness claims without explicit evidence.
+
+## Global Docs Recovery Workflow
+
+REQ-01 establishes the L2 recovery workflow for global docs:
+
+1. Confirm `/opt/Axodus` root status.
+2. Validate required global docs exist.
+3. Preserve the root non-Git blocker.
+4. Keep versioning strategy as DECISION REQUIRED until coordinator approval.
+5. Do not run `git init`, move docs, delete reports, or restructure repositories.
+6. Update blocker/status/roadmap/report artifacts after each global docs request.
+
+Global docs changes remain documentation-only unless a future request explicitly approves a versioning migration.

@@ -18,6 +18,8 @@ const VALUE_OPTIONS = new Set([
   'exceptions',
   'output',
   'reference-date',
+  'snapshot',
+  'reference',
 ])
 
 export class CliArgumentError extends Error {
@@ -75,6 +77,12 @@ function validateCombinations(command, options) {
   }
   if (command !== 'generate' && (options.write || options.check)) {
     throw new CliArgumentError('--write and --check are valid only for the generate command.')
+  }
+  if (command === 'snapshot-compare' && (!options.snapshot || !options.reference)) {
+    throw new CliArgumentError('snapshot-compare requires --snapshot and --reference.')
+  }
+  if (command !== 'snapshot-compare' && (options.snapshot || options.reference)) {
+    throw new CliArgumentError('--snapshot and --reference are valid only for snapshot-compare.')
   }
 }
 

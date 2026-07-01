@@ -1,0 +1,148 @@
+# PORTFOLIO-REQ-01 - Portfolio Status Normalization Report
+
+Date: 2026-06-08
+
+Scope:
+
+- Academy
+- ACS
+- Business
+- Marketplace
+- Mining
+- Trading
+
+Root workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This global report and global portfolio updates are local/unversioned unless later migrated to a versioned portfolio documentation repository.
+
+## Summary
+
+PORTFOLIO-REQ-01 created consolidated local `.instructions/STATUS.md` files and maturity assessments for all six target nuclei. The cycle intentionally did not implement product features, did not enable production execution, and did not promote maturity from roadmap alone.
+
+All six nuclei are conservatively documented as L3 candidates or below for comparable portfolio governance until current validation evidence is refreshed.
+
+Portfolio cycle result: PORTFOLIO_STATUS_NORMALIZED
+
+## Repository Commits
+
+| Nucleus | Commit |
+|---|---|
+| Academy | `1934a1d5e5fa64d10d8d7ecef91f65b10ced97a0` |
+| ACS | `4a3ce307313f0c653411ed78822c8ebcf1ab103e` |
+| Business | `875e7c5e6e0dc5f08e116c728533e4c64ca37893` |
+| Marketplace | `0e60e6560a848dbce5345eb8c257796ad20be56e` |
+| Mining | `544c6831b3ddf7fc74523486480db248e2b0ed6b` |
+| Trading | `639969fe0658ab33f2764daa57ee8994ceee207d` |
+
+Root global docs commit: none. `/opt/Axodus` is not a Git repository.
+
+## Status Table
+
+| Nucleus | STATUS.md | Maturity | Recommendation | Ready State | Next Recommended Request |
+|---|---|---|---|---|---|
+| Academy | Created | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | Ready for L3 validation refresh | ACADEMY-REQ-01 - Current Validation Evidence and Production Boundary Review |
+| ACS | Created | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | Ready for L3 validation refresh with HOLD gates | ACS-REQ-01 - Current Local Validation and Guarded Execution Boundary Report |
+| Business | Created | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | Ready for L3 validation refresh after dependency confirmation | BUSINESS-REQ-01 - Validation Refresh and Repository Contract Baseline |
+| Marketplace | Created | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | Ready for L3 validation refresh | MARKETPLACE-REQ-01 - Current Validation Evidence and Payment/Settlement Boundary Review |
+| Mining | Created | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | Ready for L3 validation refresh | MINING-REQ-01 - Current Validation Evidence and Provider Boundary Review |
+| Trading | Created | L3 - Local validation candidate | DOCUMENTED_AS_L3_CANDIDATE | Ready for nested local E2E validation refresh with HOLD gates | TRADING-REQ-01 - Current Validation Evidence and Credential Vault Boundary Review |
+
+## Evidence Used
+
+| Nucleus | Evidence |
+|---|---|
+| Academy | `.instructions`, `package.json`, `academy.openapi.json`, `src/`, `contracts/`, `tests/`, existing mock/frontend-first and PoK/reward-readiness decisions |
+| ACS | `.instructions`, `package.json`, `src/`, `tests/`, API contracts, policy matrix, guarded execution docs, Hummingbot sandbox boundaries |
+| Business | `.instructions`, `package.json`, `src/`, `tests/`, repository contracts, persistence model, backend boundaries, billing and DAO docs |
+| Marketplace | `.instructions`, `package.json`, `pnpm-workspace.yaml`, docs, product/subscription/billing/digital asset docs |
+| Mining | `.instructions`, `package.json`, `src/`, tests, local/mock mining visibility and non-executing provider docs |
+| Trading | `.instructions`, `trading-core/`, Trading Core architecture, runtime, credential vault, local E2E runbooks and open risks |
+
+## Missing Files Before Normalization
+
+All six target nuclei were missing:
+
+- `.instructions/STATUS.md`
+- `.instructions/BLOCKER_REGISTER.md`
+- `.instructions/VALIDATION.md`
+- `.instructions/HANDOFF.md`
+
+All six now have these files plus a nucleus-specific maturity assessment.
+
+## Blockers
+
+| Nucleus | Main Blockers |
+|---|---|
+| Academy | Production reward authority, certification issuance, contract deployment/writes, treasury and current validation refresh |
+| ACS | Execution authority, Hummingbot runtime/API/trading, secrets, Governance/Core alignment and validation refresh |
+| Business | Production billing, payment flows, treasury/revenue execution, ACS provisioning, governance execution and dependency validation |
+| Marketplace | Payment gateway, wallet transactions, minting, bridge, settlement, treasury and validation refresh |
+| Mining | Provider custody, payout execution, treasury, compliance/accounting/reconciliation and validation refresh |
+| Trading | Live trading, CEX execution, withdrawals, production credentials, Credential Vault runtime, production DB, treasury and validation refresh |
+
+## Dependencies
+
+Common dependencies:
+
+- Governance approval for execution-sensitive behavior.
+- Security/compliance review before production claims.
+- Treasury policy before any value movement.
+- Current validation evidence before maturity promotion.
+- AxodusAPP/Core consumer contract review where applicable.
+
+Nucleus-specific dependencies are documented in each local `STATUS.md`.
+
+## Production And Execution Policy
+
+Global production status: DISABLED
+
+Not authorized by this cycle:
+
+- production readiness claims;
+- real billing;
+- payment execution;
+- wallet signing;
+- on-chain writes;
+- token minting/transfers;
+- treasury movement;
+- trading execution;
+- DEX swaps or liquidity routing;
+- mining payouts;
+- marketplace settlement;
+- ACS autonomous execution;
+- production exchange credentials.
+
+## Validation Summary
+
+Validation performed in this cycle:
+
+- file existence checks for all created `STATUS.md` and maturity assessment files;
+- markdown structure inspection;
+- forbidden-claim scan across new/updated `.instructions` files;
+- root Git check confirming `/opt/Axodus` is not a Git repository.
+
+Product validation commands run where safe:
+
+| Nucleus | Command | Result |
+|---|---|---|
+| Academy | `npm run typecheck && npm run lint && npm run test -- --run` | PASS; tests 1 file / 20 tests |
+| ACS | `npm test` | PASS; build PASS and 152 tests PASS |
+| Business | Not run | BLOCKED; `node_modules` missing and no install approved |
+| Marketplace | `pnpm -r test` | PASS; 11 files / 102 tests |
+| Mining | `pnpm test` | PASS_WITH_WARNINGS; 4 files / 47 tests, React Router/chart warnings |
+| Trading | Not run | BLOCKED; no root `package.json`, nested E2E path requires dedicated request |
+
+Product validation was not used to authorize production execution or to promote beyond the conservative L3 candidate baseline.
+
+## Portfolio-Level Recommendation
+
+The portfolio now has comparable baseline status files for the six previously undocumented nuclei. The next cycle should not resume DEX functional work. It should execute targeted validation-refresh requests in priority order:
+
+1. Business dependency/validation baseline.
+2. Mining validation and provider boundary review.
+3. Academy validation and reward/contract boundary review.
+4. Marketplace validation and payment/settlement boundary review.
+5. ACS guarded execution validation under HOLD.
+6. Trading credential and local E2E validation under HOLD.
+
+Recommendation: PORTFOLIO_STATUS_NORMALIZED

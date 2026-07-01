@@ -1,0 +1,107 @@
+# Axodus Global Opportunity Registry
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-09
+
+Request: CROSS-REQ-01 - Global Opportunity Registry
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This registry is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Purpose
+
+This registry consolidates documented opportunities, product candidates, initiatives and strategic concepts across Axodus nuclei.
+
+It creates visibility, classification, ownership and readiness structure. It does not implement product features, APIs, providers, MCP services, governance execution, treasury execution, wallet signing, trading, swaps, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, on-chain writes or production readiness.
+
+## Classification Models
+
+Lifecycle state values: `IDEA`, `INTAKE`, `ASSESSMENT`, `APPROVED`, `PLANNED`, `READY_FOR_IMPLEMENTATION`, `IN_DEVELOPMENT`, `VALIDATED`, `OPERATING`, `SUNSET`, `RETIRED`, `UNKNOWN`.
+
+Category values: `Product`, `Infrastructure`, `Research`, `Governance`, `Data Product`, `Service`, `Platform`, `Integration`, `Experimental`.
+
+Risk values: `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`, `UNKNOWN`.
+
+Readiness values: `0 = Unknown`, `1 = Draft`, `2 = Assessed`, `3 = Approved`, `4 = Ready`.
+
+Evidence quality values: `HIGH`, `MEDIUM`, `LOW`, `UNKNOWN`.
+
+Execution sensitivity values: `NONE`, `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`, `UNKNOWN`.
+
+Governance requirement values: `NO_GOVERNANCE_REVIEW`, `BUSINESS_REVIEW`, `ARCHITECTURE_REVIEW`, `GOVERNANCE_REVIEW`, `TREASURY_REVIEW`, `EXECUTION_REVIEW`, `UNKNOWN`.
+
+Treasury sensitivity values: `NONE`, `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`, `UNKNOWN`.
+
+## Official Registry Entries
+
+| Opportunity ID | Title | Description | Primary Nucleus | Supporting Nuclei | Lifecycle State | Category | Risk Level | Readiness Level | Evidence Quality | Execution Sensitivity | Governance Requirement | Treasury Sensitivity | Current Blockers | Source Documents | Recommended Next Action |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| OPP-001 | Business Opportunity Registry | Structured opportunity intake, lifecycle, gates and readiness metadata for portfolio planning. | Business | Documentation, Core, AxodusAPP | PLANNED | Service | LOW | 3 = Approved | HIGH | NONE | BUSINESS_REVIEW | NONE | Root global registry is local/unversioned; no persistence/UI implementation approved. | Business `opportunity-pipeline-framework.md`; Business `product-catalog-and-portfolio-registry.md`; Business portfolio handoff | Use as the source model for CROSS-REQ-02 dependency registry. |
+| OPP-002 | Business Product Catalog And Portfolio Registry | Product, ownership, dependency, maturity and restriction visibility for Business-managed initiatives. | Business | Documentation, Core, AxodusAPP | PLANNED | Service | LOW | 3 = Approved | HIGH | NONE | BUSINESS_REVIEW | NONE | No production portfolio workflow or automated advancement approved. | Business `product-catalog-and-portfolio-registry.md`; Business L4 assessment | Keep catalog documentation aligned with this global registry. |
+| OPP-003 | Portfolio Intelligence | Future analytics/visibility over portfolio status, maturity, risks, dependencies and telemetry inputs. | Business | Documentation, Core, AxodusAPP | IDEA | Data Product | MEDIUM | 1 = Draft | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | No automated maturity promotion, treasury decision or production claim allowed. | Business product catalog; Business dependency map; portfolio gated review | Keep conceptual until dependency registry and read-only consumer contract exist. |
+| OPP-004 | Governance.Country | Governance platform operational visibility and ecosystem legitimacy product record. | Business | Governance, Core, AxodusAPP, ACS | OPERATING | Platform | CRITICAL | 2 = Assessed | HIGH | HIGH | GOVERNANCE_REVIEW | HIGH | No proposal creation, voting, execution, registry mutation or treasury release by Business. | Business product catalog; Business runtime/mock evidence; Governance status | Keep visible as product record; execution remains Governance-owned and gated. |
+| OPP-005 | Vault.Country | Recovery vault infrastructure visibility and resilience product record. | Business | Core, Defi, Governance, AxodusAPP | OPERATING | Infrastructure | CRITICAL | 2 = Assessed | HIGH | CRITICAL | TREASURY_REVIEW | CRITICAL | No treasury movement, custody, wallet signing, settlement or recovery execution. | Business product catalog; Business revenue/routing evidence; Defi planning | Hold as visibility-only until treasury/custody governance exists. |
+| OPP-006 | Dex.Country | DEX aggregator/infrastructure visibility and revenue-routing readiness product record. | Business | Dex, Defi, Governance, AxodusAPP | OPERATING | Infrastructure | HIGH | 2 = Assessed | HIGH | HIGH | EXECUTION_REVIEW | HIGH | No swaps, routing execution, liquidity operations, settlement or treasury movement. | Business product catalog; Dex DEX-REQ-11 report; Dex status | Keep aligned with Dex L4 readiness provider reliability track. |
+| OPP-007 | Harmony RP Voting Plugin | DAO governance plugin readiness and lifecycle visibility for Harmony-oriented governance scope. | Business | Governance, Harmony DAO, AxodusAPP | ASSESSMENT | Governance | HIGH | 2 = Assessed | MEDIUM | HIGH | GOVERNANCE_REVIEW | MEDIUM | No plugin deployment, voting, proposal creation or DAO registry mutation by Business. | Business product catalog; `PLUGIN_ECONOMY.md`; Business mock data | Keep under governance assessment; no execution request yet. |
+| OPP-008 | Delegation Voting Plugin | Delegated local governance support tracked as mock/plugin lifecycle record. | Business | Governance, Harmony DAO | IN_DEVELOPMENT | Governance | HIGH | 2 = Assessed | MEDIUM | HIGH | GOVERNANCE_REVIEW | LOW | No voting execution, DAO mutation or permission escalation by Business. | Business product catalog; `PLUGIN_ECONOMY.md`; Business mock data | Keep mock-only and require Governance review before any real use. |
+| OPP-009 | Native Token Voting Plugin | Native governance asset voting model visibility. | Business | Governance, Harmony DAO | ASSESSMENT | Governance | HIGH | 2 = Assessed | MEDIUM | HIGH | GOVERNANCE_REVIEW | MEDIUM | No token voting execution, wallet signing or DAO registry mutation. | Business product catalog; `PLUGIN_ECONOMY.md`; Business mock data | Hold for Governance compatibility and token authority review. |
+| OPP-010 | Sample Enterprise ACS Runtime | Enterprise ACS service readiness, isolation and permission visibility. | Business | ACS, Core, AxodusAPP | ASSESSMENT | Service | HIGH | 2 = Assessed | MEDIUM | HIGH | EXECUTION_REVIEW | MEDIUM | No MCP provisioning, agent startup, memory access, deployment, billing or KYC. | Business product catalog; ACS docs; Business ACS orchestration evidence | Use ACS-GATE evidence before any provisioning-oriented request. |
+| OPP-011 | Business Intake Assistant ACS Runtime | Mock request classification and runtime summarization support for Business operators. | Business | ACS, Governance, AxodusAPP | OPERATING | Service | MEDIUM | 2 = Assessed | HIGH | MEDIUM | BUSINESS_REVIEW | LOW | No autonomous execution, MCP provisioning or memory access by Business. | Business product catalog; Business handoff; ACS L4 gate report | Keep read-only/mock and include in dependency registry. |
+| OPP-012 | Business Non-Executive Coordination Layer | Business as the L4 Consolidated portfolio coordination, readiness, governance-support and operational visibility nucleus. | Business | All nuclei | VALIDATED | Platform | MEDIUM | 4 = Ready | HIGH | MEDIUM | ARCHITECTURE_REVIEW | MEDIUM | Production billing, treasury, governance execution, ACS provisioning and persistence implementation remain blocked. | Business L4 consolidation assessment; Business portfolio handoff | Use Business as planning layer for cross-nucleus dependency registry. |
+| OPP-013 | Marketplace Payment And Settlement Readiness | Future readiness path for Marketplace payment, settlement, minting, wallet, bridge and treasury gates. | Marketplace | Business, Governance, Defi, AxodusAPP | ASSESSMENT | Product | HIGH | 2 = Assessed | HIGH | HIGH | TREASURY_REVIEW | HIGH | Payment execution, value transfer, settlement, minting, wallet, bridge and treasury remain blocked. | Marketplace status/maturity; portfolio validation refresh; promotion board | Hold until payment/settlement governance boundary decision. |
+| OPP-014 | Academy Rewards And Certification Readiness | Future readiness path for rewards, certification issuance, contract deployment and treasury-sensitive education flows. | Academy | Business, Governance, Defi, AxodusAPP | ASSESSMENT | Product | HIGH | 2 = Assessed | MEDIUM | HIGH | GOVERNANCE_REVIEW | HIGH | Production rewards, certification issuance, contract writes, minting and treasury movement remain blocked. | Academy status/maturity; portfolio validation refresh | Hold for reward, persistence and contract deployment boundary decision. |
+| OPP-015 | Mining Provider And Payout Readiness | Future readiness path for provider custody, execution, accounting/reconciliation, compliance and payout boundaries. | Mining | Business, Defi, Governance, AxodusAPP | ASSESSMENT | Product | HIGH | 2 = Assessed | MEDIUM | HIGH | TREASURY_REVIEW | HIGH | Payout execution, provider custody/execution, accounting/reconciliation and treasury remain blocked. | Mining status/maturity; portfolio validation refresh | Hold for provider boundary hardening and warning cleanup. |
+| OPP-016 | Trading Credential Vault And Execution Gate Readiness | Future gate path after local durable persistence validation for credentials, exchange execution and production database boundaries. | Trading | Business, ACS, Governance, Defi | VALIDATED | Platform | CRITICAL | 2 = Assessed | HIGH | CRITICAL | EXECUTION_REVIEW | HIGH | Live trading, production credentials, withdrawals, production DB, treasury, wallet and on-chain actions remain blocked. | Trading E2E revalidation report; Trading maturity assessment | Hold for Credential Vault and execution gate review. |
+| OPP-017 | ACS Execution Authority Readiness | Future gate path for ACS execution authority, credentials, Hummingbot runtime and autonomous workflow restrictions. | ACS | Business, Governance, Core, Trading | VALIDATED | Platform | CRITICAL | 2 = Assessed | HIGH | CRITICAL | EXECUTION_REVIEW | HIGH | Autonomous execution, credentials, secrets, Hummingbot runtime, trading and treasury remain blocked. | ACS-GATE-01 report; ACS maturity assessment | Hold for ACS execution authority and credential boundary review. |
+| OPP-018 | Defi Phase 3 Treasury Strategy Readiness | Planning track for custody, staking, validator scoring, oracle/reconciliation and treasury controls. | Defi | Business, Governance, Core | PLANNED | Research | CRITICAL | 2 = Assessed | MEDIUM | CRITICAL | TREASURY_REVIEW | CRITICAL | Phase 3 implementation not approved; custody, staking, oracle/reconciliation and treasury execution blocked. | Defi Phase 3 planning reports; portfolio gated review | Keep planning-only until governance/custody approval cycle. |
+| OPP-019 | Dex Provider Reliability And Read-Only Data | Read-only provider normalization, cache, TTL, stale data, fallback and provider health reliability track. | Dex | Business, AxodusAPP, Core, Defi | VALIDATED | Data Product | MEDIUM | 4 = Ready | HIGH | LOW | ARCHITECTURE_REVIEW | LOW | Functional Dex evolution paused; no swaps, routing execution, liquidity or treasury integration approved. | Dex DEX-REQ-11 report; Dex status; promotion board | Preserve L4 readiness and feed read-only dependency registry. |
+| OPP-020 | AxodusAPP Integration Shell Expansion | Integration shell expansion for read-only/module-aligned visibility across matured nuclei. | AxodusAPP | Business, Governance, Documentation, product nuclei | ASSESSMENT | Integration | MEDIUM | 2 = Assessed | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | Uneven module maturity and real backend integration pending; no wallet/transaction flow approved. | AxodusAPP status; portfolio gated review; Business dependency map | Defer until Business dependency registry and one domain consolidation are stable. |
+| OPP-021 | Documentation Publication Readiness | VitePress publication governance, release checklist, rollback and future publication request track. | Documentation | Business, Core, Governance | VALIDATED | Infrastructure | MEDIUM | 3 = Approved | HIGH | NONE | BUSINESS_REVIEW | NONE | Publication authority and root/global versioning remain unresolved; publication commands not authorized. | Documentation Sprint 01 closeout; publication governance handoff | Resolve publication authority/versioning before any publication execution. |
+| OPP-022 | Lottery Randomness And Payout Readiness | Future path for compliance, randomness/VRF, prize, payout, treasury and on-chain lottery boundaries. | Lottery | Business, Governance, Defi, Core | ASSESSMENT | Experimental | CRITICAL | 2 = Assessed | MEDIUM | CRITICAL | EXECUTION_REVIEW | CRITICAL | Compliance, VRF/randomness, prize, payout, treasury, wallet and on-chain execution blocked. | Lottery L3 assessment; Lottery status/blockers | Keep L3; require compliance/randomness/prize/payout governance review before advancement. |
+| OPP-023 | BBA-Agency Service Delivery Readiness | Future path for mock/local agency service delivery, production claim review, schemas and external execution boundaries. | BBA-Agency | Business, ACS, Marketplace | VALIDATED | Service | MEDIUM | 2 = Assessed | MEDIUM | MEDIUM | BUSINESS_REVIEW | LOW | Schema mapping and production claim review open; real billing, CRM dispatch, campaigns and external APIs blocked. | BBA L3 assessment; BBA blocker register | Keep paused until schema/claim review is approved. |
+| OPP-024 | Core Consumer Pilot And RC Readiness | Pre-RC consumer pilot readiness for Governance and ACS plus registry/wiki confirmation. | Core | Governance, ACS, Documentation | ASSESSMENT | Infrastructure | MEDIUM | 3 = Approved | HIGH | LOW | ARCHITECTURE_REVIEW | LOW | Governance and ACS consumer pilot reviews incomplete; RC approval not recorded; runtime/adapters blocked. | Core status; Core tasks | Complete consumer pilot review before any RC proposal. |
+| OPP-025 | Governance Read-Only API Transport Contract Tests | Pure/static route registry contract testing path for future read-only Governance transport boundaries. | Governance | AxodusAPP, Core, Business | PLANNED | Governance | MEDIUM | 3 = Approved | HIGH | LOW | GOVERNANCE_REVIEW | LOW | HTTP routes/controllers/server wiring, DB adapters, mutations, executor and treasury remain blocked. | Governance status/roadmap; Governance REQUEST 22 notes | Execute REQUEST 23 only as pure/static GET-only contract test harness if approved. |
+
+## Unverified / Needs Documentation
+
+These items appeared in request context or examples but were not promoted into official registry entries because the inspected documentation did not provide enough product-level evidence.
+
+| Item | Reason | Required Documentation Before Promotion |
+|---|---|---|
+| Market Operations Oracle | Business product catalog explicitly lists it as not registered because no Business product evidence exists. | Business opportunity entry, owner, category, risk review and source documents. |
+| MCP Business Services | Business catalog notes MCP/ACS services as future provisioning/integration risks, not a specific approved product. | Specific service definition, ACS boundary, owner and approval path. |
+| Business Intelligence Services | Capability direction exists, but no specific product-level record was found. | Product candidate record and evidence source. |
+| Institutional Services | Enterprise/institutional domain exists, but only sample enterprise ACS runtime has product-level evidence. | Specific opportunity or service record with source documents. |
+| Generic Data Products | Data Product is a category, not a standalone opportunity. | Named data product and owner. |
+| Generic Analytics Services | Analytics Product is a category, not a standalone opportunity. | Named analytics product and owner. |
+
+## Registry Summary
+
+| Metric | Count |
+|---|---:|
+| Official opportunities | 25 |
+| Unverified opportunities | 6 |
+| Primary nuclei covered | 14 |
+| High or critical risk entries | 14 |
+| High or critical execution sensitivity entries | 11 |
+| High evidence entries | 14 |
+
+## Boundary Statement
+
+This registry is a portfolio visibility artifact only. It does not authorize implementation, deployment, production publication, production credentials, treasury movement, wallet signing, trading, DEX swaps, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, on-chain writes, governance execution, billing execution or production readiness.
+
+## Recommended Next Request
+
+CROSS-REQ-02 - Cross-Nucleus Dependency Registry

@@ -1,0 +1,58 @@
+# Axodus Portfolio Sprint 01 Allocation
+
+Last updated: 2026-06-04
+
+Baseline: RECAST 01 - Nucleus Maturity Audit & Baseline Register.
+
+Sprint objective: convert the RECAST 01 maturity baseline into a balanced next-request allocation without allowing over-advancement of mature or execution-sensitive nuclei.
+
+## Allocation Policy
+
+- Recovery work receives first priority.
+- L3/L4 advancement is allowed only through documentation, contracts, read models, validation plans, and mock/read-only boundaries.
+- L5 nuclei are not accelerated unless the work is backlog control, gap analysis, or non-executing documentation.
+- HOLD nuclei do not advance implementation in this sprint.
+- No production execution, trading, swaps, settlement, treasury, payouts, wallet signing, credentials, or on-chain writes are approved.
+
+## Sprint Allocation Table
+
+| Priority | Nucleus | Current Level | State | Sprint Track | Allowed Work | Blocked Work | Exit Criteria | Next Request |
+|---:|---|---:|---|---|---|---|---|---|
+| 1 | Global Docs / Instructions | L1 | RECOVER | Structural recovery | Versioning options, source-of-truth map, ownership model, root-doc validation checklist | Git init, root move, destructive restructuring, deleting reports | Formal versioning/ownership decision and L2 recovery checklist accepted | REQ-01 |
+| 2 | Documentation | L3 | RECOVER | Nucleus recovery | STATUS/ROADMAP/WORKFLOW/SECURITY recovery plan, docs build/readiness criteria, publishing workflow | Product behavior changes, official release publishing, strategy overwrite | Structural docs plan complete and L4 criteria defined | REQ-02 |
+| 3 | BBA-Agency | L2 | RECOVER | Mock/local recovery | Validation plan, route evidence checklist, TypeScript/Zod contract checks, claim review | Production campaigns, real billing, external automation execution, payment flows | L3 mock/local evidence gate defined and claim-risk checklist complete | REQ-03 |
+| 4 | Lottery | L2 | BACKLOG | Controlled recovery | Mock/read-only route validation plan, compliance boundaries, randomness/VRF design stub, prize/payout gates | Prize execution, payouts, treasury, production VRF, contract deployment, on-chain writes | Lottery moved to controlled recovery with L3 exit criteria | REQ-04 |
+| 5 | Dex | L3 | BACKLOG | Visibility planning | Route metadata docs, registry-to-app read-only map, token-list boundaries, no-swap visibility plan | Swaps, routing execution, settlement, linked fork mutation, token-list repo mutation, treasury | L4 visibility plan complete with explicit no-swap/no-settlement gates | REQ-05 |
+| 6 | Mining | L3 | ADVANCE | Visibility consolidation | AxodusAPP visibility map, provider mock/read-only contract docs, non-execution flag review, payout/accounting gates | Provider custody, accounting execution, treasury, payout execution, real provider execution | L4 visibility and read-only contract exit criteria documented | REQ-06 |
+| 7 | Academy | L4 | ADVANCE | Contract consolidation | OpenAPI/read-model docs, repository contract review, mock PoK boundary, reward/credential gates | Real credential issuance, reward execution, minting, transfers, withdrawals | L5 contract/read-model consolidation checklist complete | REQ-07 |
+| 8 | Business | L4 | ADVANCE | Contract consolidation | ACS bridge contracts, repository contract consolidation, approval-state read models, AxodusAPP route contract map | Real approvals, persistence promotion, production business execution, financial commitments | L5 contract consolidation and persistence blocker map complete | REQ-08 |
+| 9 | Defi | L4 | ADVANCE | Non-executing contract consolidation | Phase 3 contract planning, adapter boundaries, simulated receipts, accounting/reconciliation design | Custody, staking, rebalancing, validator scoring execution, fund movement, production oracle/accounting | L5 interface/contract planning complete without implementation authority | REQ-09 |
+| 10 | Marketplace | L5 | ADVANCE | L6 gap analysis | Endpoint contract completeness review, production blocker map, settlement/payment boundaries, bridge/LayerZero gates | Wallet tx, blockchain writes, external payment gateways, treasury, production bridge messages, settlement, minting, value transfer | L6 readiness gap report complete with no production enablement | REQ-10 |
+| 11 | AxodusAPP | L4 | ADVANCE | Real-data readiness planning | Integration contract map, module visibility matrix, mock-to-real transition checklist, frontend boundaries | Real execution, wallet signing, production backend switching, treasury, settlement | L5 readiness plan complete and execution boundary matrix accepted | REQ-11 |
+| 12 | Core | L5 | BACKLOG | L6 backlog control | Consumer certification map, public API stability criteria, registry ownership docs, versioning policy | Execution authority, treasury controls, product decisions, runtime authority | L6 backlog/control criteria documented; no implementation pulled forward | REQ-12 |
+| 13 | Governance | L5 | HOLD | HOLD backlog control | API transport gap docs, executor gate docs, read-only contract inventory, validation maintenance | API transport implementation, HTTP routes/controllers, real DB, AxodusAPP real client, executor, treasury, on-chain writes | HOLD reaffirmed and backlog constraints current | REQ-13 |
+| 14 | ACS | L5 | HOLD | HOLD backlog control | Contract docs, readiness gaps, risk docs, dependency map | Runtime mutation, Hummingbot control, trading, treasury, credentials, Governance/Core bypass | HOLD reaffirmed and controlled dependency map current | REQ-14 |
+| 15 | Trading | L4 | HOLD | HOLD backlog control | Credential vault planning, paper/local boundary docs, live-trading blockers, vendor ownership plan | Live trading, real keys, withdrawals, production KMS/HSM, production DB, treasury, vendor changes | HOLD reaffirmed and live/credential blocker register current | REQ-15 |
+
+## Allocation Bias
+
+| Category | Target Bias | Assigned Priority Range |
+|---|---:|---|
+| Recovery work | 40% | Priorities 1-4 |
+| L3/L4 controlled advancement | 35% | Priorities 5-11 |
+| HOLD/backlog control | 15% | Priorities 12-15 |
+| Portfolio governance/documentation | 10% | Global docs, report, queue, roadmap/status/blockers |
+
+## Dependencies
+
+- REQ-01 should precede broad root/global docs changes because `/opt/Axodus` is not a Git repository.
+- REQ-02 should precede production-facing Documentation claims.
+- REQ-03 and REQ-04 should precede any BBA/Lottery production-like route or claim expansion.
+- REQ-05 must precede DEX UI visibility implementation and must keep swaps/settlement disabled.
+- REQ-06 should precede Mining payout/provider integration work.
+- REQ-07 through REQ-11 are contract/readiness planning only and must not enable real execution.
+- REQ-12 through REQ-15 are backlog-control requests and should not compete for implementation priority while recovery work is open.
+
+## Final Boundary
+
+This allocation does not approve runtime features, production configs, credentials, installs, builds, services, live trading, swaps, settlement, treasury movement, payouts, wallet signing, on-chain writes, vendor mutation, or token-list changes.

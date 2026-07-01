@@ -1,0 +1,151 @@
+# Axodus Cross-Nucleus Dependency Registry
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-02 - Cross-Nucleus Dependency Registry
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This registry is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Purpose
+
+This registry converts documented opportunities and nucleus relationships into explicit dependency records.
+
+It creates portfolio dependency visibility only. It does not implement integrations, APIs, product functionality, MCP services, providers, governance execution, treasury execution, trading execution, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, wallet signing, on-chain writes or production readiness.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Evidence Sync
+
+ACS-EPIC-01 completed the local readiness, permission, gate, blocked-action, consumer, preview, alignment, boundary, security, validation, assessment and handoff evidence chain.
+
+Dependency disposition:
+
+- ACS current L-Level remains `L4_CANDIDATE`; `L4_READINESS` is recommended.
+- ACS D-Level is registered as `D3+`.
+- ACS is `NON_PRODUCTION`, `EXECUTION_GATED`, and has `NO_MUTATION_AUTHORITY`.
+- Existing ACS execution-blocking dependencies remain blocking.
+- Business/AxodusAPP/Marketplace references remain read-only or non-executive.
+- Marketplace remains `HOLD` / `BACKLOG_READY` where referenced.
+
+This evidence sync changes no dependency into execution authority.
+
+## Models
+
+Dependency type values: `NUCLEUS_TO_NUCLEUS`, `OPPORTUNITY_TO_NUCLEUS`, `PRODUCT_TO_NUCLEUS`, `SERVICE_TO_NUCLEUS`, `UNVERIFIED`.
+
+Dependency category values: `Strategic`, `Operational`, `Technical`, `Governance`, `Financial`, `Execution-Sensitive`, `Documentation`, `Validation`, `Security`, `Data`.
+
+Criticality, risk, execution sensitivity and treasury sensitivity values: `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`, `UNKNOWN`.
+
+Governance requirement values: `NO_GOVERNANCE_REVIEW`, `BUSINESS_REVIEW`, `ARCHITECTURE_REVIEW`, `GOVERNANCE_REVIEW`, `TREASURY_REVIEW`, `EXECUTION_REVIEW`, `UNKNOWN`.
+
+Readiness state values: `CONCEPT`, `MAPPED`, `REVIEWED`, `APPROVED`, `READY`, `OPERATIONAL`, `UNKNOWN`.
+
+Blocking status values: `NOT_BLOCKING`, `BLOCKING_CURRENT_WORK`, `BLOCKING_L4_CONSOLIDATION`, `BLOCKING_EXECUTION`, `BLOCKING_PRODUCTION`, `UNKNOWN`.
+
+## Official Dependency Entries
+
+| Dependency ID | Dependency Type | Source Nucleus or Opportunity | Target Nucleus | Description | Dependency Category | Criticality | Risk Level | Execution Sensitivity | Governance Requirement | Treasury Sensitivity | Readiness State | Blocking Status | Evidence Quality | Source Documents | Recommended Action |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| DEP-NN-001 | NUCLEUS_TO_NUCLEUS | Business | Core | Business depends on Core for architecture, identity conventions, runtime boundaries and shared security posture. | Technical | HIGH | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | MAPPED | NOT_BLOCKING | HIGH | Business dependency map; Core status | Keep Core architecture review before Business persistence/backend alignment. |
+| DEP-NN-002 | NUCLEUS_TO_NUCLEUS | Business | Governance | Business depends on Governance for proposal, DAO, federation and governance authority boundaries. | Governance | CRITICAL | HIGH | HIGH | GOVERNANCE_REVIEW | MEDIUM | MAPPED | BLOCKING_EXECUTION | HIGH | Business dependency map; Governance status | Keep all real governance actions owned by Governance. |
+| DEP-NN-003 | NUCLEUS_TO_NUCLEUS | Business | Defi | Business depends on Defi/Treasury for treasury, settlement, custody, revenue and debenture authority. | Financial | CRITICAL | HIGH | CRITICAL | TREASURY_REVIEW | CRITICAL | MAPPED | BLOCKING_EXECUTION | HIGH | Business dependency map; Defi planning | Keep financial bridge packages non-executing. |
+| DEP-NN-004 | NUCLEUS_TO_NUCLEUS | Business | Dex | Business depends on Dex for DEX infrastructure status and execution boundaries around Dex.Country. | Execution-Sensitive | HIGH | HIGH | HIGH | EXECUTION_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business dependency map; Dex DEX-REQ-11 report | Maintain visibility-only Dex dependency. |
+| DEP-NN-005 | NUCLEUS_TO_NUCLEUS | Business | Marketplace | Business depends on Marketplace for settlement, payment, product access and value-transfer boundaries. | Financial | HIGH | HIGH | HIGH | TREASURY_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business dependency map; Marketplace maturity assessment | Keep Marketplace settlement authority outside Business. |
+| DEP-NN-006 | NUCLEUS_TO_NUCLEUS | Business | Trading | Business depends on Trading for credential, exchange and execution boundary status used in portfolio visibility. | Execution-Sensitive | HIGH | HIGH | CRITICAL | EXECUTION_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business dependency map; Trading E2E report | Keep Trading execution and credentials gated. |
+| DEP-NN-007 | NUCLEUS_TO_NUCLEUS | Business | Academy | Business depends on Academy for education, certification, reward and onboarding boundaries. | Operational | MEDIUM | MEDIUM | HIGH | GOVERNANCE_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business dependency map; Academy maturity assessment | Keep reward/certification execution Academy-owned. |
+| DEP-NN-008 | NUCLEUS_TO_NUCLEUS | Business | Mining | Business depends on Mining for provider, custody, accounting and payout boundary status. | Financial | HIGH | HIGH | HIGH | TREASURY_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business dependency map; Mining maturity assessment | Keep provider/payout dependency visible but non-executing. |
+| DEP-NN-009 | NUCLEUS_TO_NUCLEUS | Business | ACS | Business depends on ACS for readiness packages, provisioning boundaries, permission/isolation and human review. | Execution-Sensitive | CRITICAL | HIGH | CRITICAL | EXECUTION_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business dependency map; ACS gate report | Keep ACS provisioning and runtime execution blocked. |
+| DEP-NN-010 | NUCLEUS_TO_NUCLEUS | Business | AxodusAPP | Business depends on AxodusAPP for future read-only presentation of product/portfolio registry concepts. | Technical | HIGH | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | MAPPED | NOT_BLOCKING | MEDIUM | Business dependency map; AxodusAPP status | Defer UI expansion until registry/dependency contracts settle. |
+| DEP-NN-011 | NUCLEUS_TO_NUCLEUS | Business | Documentation | Business depends on Documentation for publication-safe records, reports and external-facing claims. | Documentation | MEDIUM | LOW | NONE | BUSINESS_REVIEW | NONE | MAPPED | NOT_BLOCKING | HIGH | Business dependency map; Documentation sprint closeout | Keep docs publication and versioning gates explicit. |
+| DEP-NN-012 | NUCLEUS_TO_NUCLEUS | Business | Lottery | Business depends on Lottery for lottery compliance, randomness, prize and payout boundary status if portfolio intelligence references it. | Execution-Sensitive | HIGH | HIGH | CRITICAL | EXECUTION_REVIEW | CRITICAL | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business dependency map; Lottery L3 assessment | Keep Lottery at mock/local until compliance and payout reviews. |
+| DEP-NN-013 | NUCLEUS_TO_NUCLEUS | Business | BBA-Agency | Business depends on BBA-Agency for agency campaign, claim and external execution boundary status. | Operational | MEDIUM | MEDIUM | MEDIUM | BUSINESS_REVIEW | LOW | MAPPED | BLOCKING_L4_CONSOLIDATION | MEDIUM | Business dependency map; BBA L3 assessment | Resolve claim/schema gaps before stronger BBA maturity. |
+| DEP-NN-014 | NUCLEUS_TO_NUCLEUS | Marketplace | Governance | Marketplace value-transfer scope depends on governance approval before any settlement or minting authority. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | Marketplace maturity assessment; portfolio blocker register | Require payment/settlement governance boundary decision. |
+| DEP-NN-015 | NUCLEUS_TO_NUCLEUS | Marketplace | Defi | Marketplace depends on treasury/financial approval for payment, settlement, minting and value-transfer flows. | Financial | CRITICAL | HIGH | HIGH | TREASURY_REVIEW | CRITICAL | REVIEWED | BLOCKING_EXECUTION | HIGH | Marketplace maturity assessment; blocker register | Keep settlement and treasury disabled. |
+| DEP-NN-016 | NUCLEUS_TO_NUCLEUS | Marketplace | AxodusAPP | Marketplace depends on AxodusAPP for UI presentation without transaction authority. | Technical | MEDIUM | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | REVIEWED | NOT_BLOCKING | MEDIUM | Marketplace status; AxodusAPP status | Keep marketplace UI read-only/non-settling until approvals. |
+| DEP-NN-017 | NUCLEUS_TO_NUCLEUS | Academy | Governance | Academy rewards, certifications and contract-related scopes depend on governance review. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Academy maturity assessment | Route reward/certification authority to governance gate. |
+| DEP-NN-018 | NUCLEUS_TO_NUCLEUS | Academy | Defi | Academy value-bearing rewards depend on treasury/financial review. | Financial | HIGH | HIGH | HIGH | TREASURY_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Academy maturity assessment | Keep rewards and treasury movement disabled. |
+| DEP-NN-019 | NUCLEUS_TO_NUCLEUS | Academy | AxodusAPP | Academy depends on AxodusAPP for learning surface visibility. | Technical | MEDIUM | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | REVIEWED | NOT_BLOCKING | MEDIUM | Academy status; AxodusAPP status | Keep app visibility aligned with non-production claims. |
+| DEP-NN-020 | NUCLEUS_TO_NUCLEUS | Mining | Defi | Mining payouts, custody and accounting depend on treasury/financial review. | Financial | CRITICAL | HIGH | HIGH | TREASURY_REVIEW | CRITICAL | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Mining maturity assessment; blocker register | Keep payout/custody execution blocked. |
+| DEP-NN-021 | NUCLEUS_TO_NUCLEUS | Mining | Governance | Mining provider and payout advancement depends on governance approval. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Mining maturity assessment | Require provider/payout governance boundary review. |
+| DEP-NN-022 | NUCLEUS_TO_NUCLEUS | ACS | Core | ACS execution authority and policy boundaries depend on Core authority model. | Security | CRITICAL | HIGH | CRITICAL | ARCHITECTURE_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | ACS status; Core status | Keep ACS aligned to Core before execution planning. |
+| DEP-NN-023 | NUCLEUS_TO_NUCLEUS | ACS | Governance | ACS execution-sensitive paths depend on Governance/Core approval. | Governance | CRITICAL | HIGH | CRITICAL | GOVERNANCE_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | ACS gate report; Governance status | Require ACS-GATE-02 before execution authority. |
+| DEP-NN-024 | NUCLEUS_TO_NUCLEUS | Trading | ACS | Trading depends on ACS for potential guarded automation/orchestration readiness without execution. | Execution-Sensitive | HIGH | HIGH | CRITICAL | EXECUTION_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | Trading status; ACS status | Keep ACS/Trading integration non-executing. |
+| DEP-NN-025 | NUCLEUS_TO_NUCLEUS | Trading | Governance | Trading execution and credential gates depend on governance/risk approval. | Governance | CRITICAL | CRITICAL | CRITICAL | EXECUTION_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | Trading E2E report; blocker register | Require Credential Vault and execution gate review. |
+| DEP-NN-026 | NUCLEUS_TO_NUCLEUS | Trading | Defi | Trading treasury, withdrawal and financial exposure dependencies remain blocked. | Financial | CRITICAL | CRITICAL | CRITICAL | TREASURY_REVIEW | CRITICAL | REVIEWED | BLOCKING_EXECUTION | HIGH | Trading blocker register | Keep withdrawals and treasury movement disabled. |
+| DEP-NN-027 | NUCLEUS_TO_NUCLEUS | Lottery | Governance | Lottery public launch, compliance and prize rules depend on governance/legal review. | Governance | CRITICAL | HIGH | CRITICAL | EXECUTION_REVIEW | CRITICAL | REVIEWED | BLOCKING_PRODUCTION | MEDIUM | Lottery L3 assessment; blocker register | Keep lottery mock/local until compliance gate. |
+| DEP-NN-028 | NUCLEUS_TO_NUCLEUS | Lottery | Defi | Lottery prize, payout and treasury paths depend on financial/treasury review. | Financial | CRITICAL | CRITICAL | CRITICAL | TREASURY_REVIEW | CRITICAL | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Lottery blocker register | Keep prize and payout disabled. |
+| DEP-NN-029 | NUCLEUS_TO_NUCLEUS | Documentation | Governance | Documentation publication claims touching governance require enhanced review. | Documentation | MEDIUM | MEDIUM | NONE | GOVERNANCE_REVIEW | LOW | REVIEWED | BLOCKING_PRODUCTION | HIGH | Documentation publication governance | Keep publication approval separate. |
+| DEP-NN-030 | NUCLEUS_TO_NUCLEUS | Dex | AxodusAPP | Dex read-only provider data depends on AxodusAPP for future visibility only. | Data | MEDIUM | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | READY | NOT_BLOCKING | HIGH | Dex DEX-REQ-11 report; AxodusAPP status | Preserve read-only source attribution and freshness. |
+| DEP-NN-031 | NUCLEUS_TO_NUCLEUS | Dex | Defi | Dex.Country and DEX readiness have treasury/debenture exposure dependencies. | Financial | HIGH | HIGH | HIGH | TREASURY_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business product catalog; Dex report | Keep DEX treasury exposure non-executing. |
+| DEP-NN-032 | NUCLEUS_TO_NUCLEUS | AxodusAPP | Governance | AxodusAPP governance surfaces depend on read-only/mock Governance adapter boundaries. | Technical | MEDIUM | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | REVIEWED | NOT_BLOCKING | HIGH | AxodusAPP status; Governance status | Keep mock/read-only adapter until backend transport gate. |
+| DEP-NN-033 | NUCLEUS_TO_NUCLEUS | AxodusAPP | Business | AxodusAPP future portfolio views depend on Business catalog and opportunity/dependency records. | Data | HIGH | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | MAPPED | BLOCKING_L4_CONSOLIDATION | MEDIUM | AxodusAPP status; Business handoff | Defer UI expansion until CROSS registries stabilize. |
+| DEP-OPP-001 | SERVICE_TO_NUCLEUS | OPP-001 Business Opportunity Registry | Documentation | Opportunity registry depends on Documentation for publication-safe records and claims. | Documentation | MEDIUM | LOW | NONE | BUSINESS_REVIEW | NONE | APPROVED | NOT_BLOCKING | HIGH | Global opportunity registry; Business opportunity framework | Keep registry local/unversioned until versioning is selected. |
+| DEP-OPP-002 | SERVICE_TO_NUCLEUS | OPP-002 Business Product Catalog And Portfolio Registry | Core | Product catalog depends on Core architecture conventions and registry alignment. | Technical | HIGH | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | APPROVED | NOT_BLOCKING | HIGH | Business product catalog; Core status | Maintain Core review before runtime-backed catalog. |
+| DEP-OPP-003 | OPPORTUNITY_TO_NUCLEUS | OPP-003 Portfolio Intelligence | AxodusAPP | Portfolio Intelligence depends on AxodusAPP only for future read-only presentation. | Data | MEDIUM | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | CONCEPT | BLOCKING_L4_CONSOLIDATION | MEDIUM | Global opportunity registry; AxodusAPP status | Do not implement UI until dependency registry is reviewed. |
+| DEP-OPP-004 | PRODUCT_TO_NUCLEUS | OPP-004 Governance.Country | Governance | Governance.Country depends on Governance for any real proposal, vote, approval or DAO action. | Governance | CRITICAL | CRITICAL | HIGH | GOVERNANCE_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business product catalog; Governance status | Keep Governance as execution owner. |
+| DEP-OPP-005 | PRODUCT_TO_NUCLEUS | OPP-005 Vault.Country | Defi | Vault.Country depends on Defi/Treasury for custody, settlement and treasury authority. | Financial | CRITICAL | CRITICAL | CRITICAL | TREASURY_REVIEW | CRITICAL | MAPPED | BLOCKING_EXECUTION | HIGH | Business product catalog; Defi planning | Require treasury/custody gate before any execution. |
+| DEP-OPP-006 | PRODUCT_TO_NUCLEUS | OPP-006 Dex.Country | Dex | Dex.Country depends on Dex for swaps, routing, liquidity and aggregation execution boundaries. | Execution-Sensitive | CRITICAL | HIGH | HIGH | EXECUTION_REVIEW | HIGH | MAPPED | BLOCKING_EXECUTION | HIGH | Business product catalog; Dex status | Preserve Dex execution disabled. |
+| DEP-OPP-007 | PRODUCT_TO_NUCLEUS | OPP-007 Harmony RP Voting Plugin | Governance | Harmony voting plugin depends on Governance for DAO compatibility and plugin deployment authority. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | MEDIUM | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business product catalog | Keep in assessment until Governance review. |
+| DEP-OPP-008 | PRODUCT_TO_NUCLEUS | OPP-008 Delegation Voting Plugin | Governance | Delegation voting plugin depends on Governance for real governance usage. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | LOW | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business product catalog | Keep mock-only until Governance approval. |
+| DEP-OPP-009 | PRODUCT_TO_NUCLEUS | OPP-009 Native Token Voting Plugin | Governance | Native token voting plugin depends on Governance for voting and token authority. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | MEDIUM | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business product catalog | Hold for token authority review. |
+| DEP-OPP-010 | SERVICE_TO_NUCLEUS | OPP-010 Sample Enterprise ACS Runtime | ACS | Sample Enterprise ACS Runtime depends on ACS for provisioning, isolation, agents and permissions. | Execution-Sensitive | CRITICAL | HIGH | CRITICAL | EXECUTION_REVIEW | MEDIUM | MAPPED | BLOCKING_EXECUTION | MEDIUM | Business product catalog; ACS status | Keep provisioning blocked. |
+| DEP-OPP-011 | SERVICE_TO_NUCLEUS | OPP-011 Business Intake Assistant ACS Runtime | ACS | Business Intake Assistant depends on ACS for any autonomy/provisioning expansion. | Operational | HIGH | MEDIUM | MEDIUM | ARCHITECTURE_REVIEW | LOW | MAPPED | BLOCKING_EXECUTION | HIGH | Business product catalog; ACS gate report | Keep read-only/mock and no autonomy. |
+| DEP-OPP-012 | SERVICE_TO_NUCLEUS | OPP-012 Business Non-Executive Coordination Layer | Business | Coordination layer depends on Business L4 frameworks and validation evidence. | Strategic | HIGH | MEDIUM | MEDIUM | ARCHITECTURE_REVIEW | MEDIUM | READY | NOT_BLOCKING | HIGH | Business L4 assessment; Business handoff | Use Business as planning layer only. |
+| DEP-OPP-013 | OPPORTUNITY_TO_NUCLEUS | OPP-013 Marketplace Payment And Settlement Readiness | Marketplace | Marketplace readiness depends on Marketplace ownership of payment, settlement, minting and wallet boundaries. | Financial | CRITICAL | HIGH | HIGH | TREASURY_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | Marketplace maturity assessment | Require payment/settlement governance boundary decision. |
+| DEP-OPP-014 | OPPORTUNITY_TO_NUCLEUS | OPP-014 Academy Rewards And Certification Readiness | Academy | Academy readiness depends on Academy ownership of rewards, certification and contract readiness. | Governance | HIGH | HIGH | HIGH | GOVERNANCE_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Academy maturity assessment | Resolve reward/certification boundary before advancement. |
+| DEP-OPP-015 | OPPORTUNITY_TO_NUCLEUS | OPP-015 Mining Provider And Payout Readiness | Mining | Mining readiness depends on Mining ownership of provider, custody, accounting and payout gates. | Financial | CRITICAL | HIGH | HIGH | TREASURY_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Mining maturity assessment | Harden provider/payout boundary. |
+| DEP-OPP-016 | OPPORTUNITY_TO_NUCLEUS | OPP-016 Trading Credential Vault And Execution Gate Readiness | Trading | Trading readiness depends on Trading ownership of credential vault and execution gates. | Execution-Sensitive | CRITICAL | CRITICAL | CRITICAL | EXECUTION_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | Trading E2E report | Execute credential vault and execution gate review only. |
+| DEP-OPP-017 | OPPORTUNITY_TO_NUCLEUS | OPP-017 ACS Execution Authority Readiness | ACS | ACS readiness depends on ACS ownership of execution authority and runtime boundaries. | Execution-Sensitive | CRITICAL | HIGH | CRITICAL | EXECUTION_REVIEW | HIGH | REVIEWED | BLOCKING_EXECUTION | HIGH | ACS gate report | Run ACS-GATE-02 before any execution discussion. |
+| DEP-OPP-018 | OPPORTUNITY_TO_NUCLEUS | OPP-018 Defi Phase 3 Treasury Strategy Readiness | Defi | Defi Phase 3 depends on Defi ownership of custody, staking, oracle and treasury planning. | Financial | CRITICAL | CRITICAL | CRITICAL | TREASURY_REVIEW | CRITICAL | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Defi Phase 3 reports | Keep planning-only until custody/governance approval. |
+| DEP-OPP-019 | OPPORTUNITY_TO_NUCLEUS | OPP-019 Dex Provider Reliability And Read-Only Data | Dex | Dex provider reliability depends on Dex read-only provider and cache/fallback maturity. | Data | MEDIUM | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | READY | NOT_BLOCKING | HIGH | Dex DEX-REQ-11 report | Feed read-only graph with stale/fresh metadata. |
+| DEP-OPP-020 | OPPORTUNITY_TO_NUCLEUS | OPP-020 AxodusAPP Integration Shell Expansion | AxodusAPP | App integration expansion depends on AxodusAPP readiness and module-consumer boundaries. | Technical | HIGH | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | MAPPED | BLOCKING_L4_CONSOLIDATION | MEDIUM | AxodusAPP status; global promotion board | Defer until Business dependency registry is reviewed. |
+| DEP-OPP-021 | OPPORTUNITY_TO_NUCLEUS | OPP-021 Documentation Publication Readiness | Documentation | Publication readiness depends on Documentation ownership of VitePress governance and publication authority. | Documentation | HIGH | MEDIUM | NONE | BUSINESS_REVIEW | NONE | APPROVED | BLOCKING_PRODUCTION | HIGH | Documentation sprint closeout | Resolve publication authority/versioning before execution. |
+| DEP-OPP-022 | OPPORTUNITY_TO_NUCLEUS | OPP-022 Lottery Randomness And Payout Readiness | Lottery | Lottery readiness depends on Lottery ownership of compliance, randomness, prize and payout gates. | Execution-Sensitive | CRITICAL | CRITICAL | CRITICAL | EXECUTION_REVIEW | CRITICAL | REVIEWED | BLOCKING_EXECUTION | MEDIUM | Lottery L3 assessment | Keep L3 until compliance/randomness/payout gate. |
+| DEP-OPP-023 | OPPORTUNITY_TO_NUCLEUS | OPP-023 BBA-Agency Service Delivery Readiness | BBA-Agency | BBA readiness depends on agency ownership of schemas, claims and production campaign boundaries. | Operational | HIGH | MEDIUM | MEDIUM | BUSINESS_REVIEW | LOW | REVIEWED | BLOCKING_L4_CONSOLIDATION | MEDIUM | BBA L3 assessment | Resolve schema and claim review. |
+| DEP-OPP-024 | OPPORTUNITY_TO_NUCLEUS | OPP-024 Core Consumer Pilot And RC Readiness | Core | Core RC readiness depends on Core ownership of consumer pilots and RC authority. | Validation | HIGH | MEDIUM | LOW | ARCHITECTURE_REVIEW | LOW | APPROVED | BLOCKING_L4_CONSOLIDATION | HIGH | Core status | Complete Governance/ACS consumer pilot review. |
+| DEP-OPP-025 | OPPORTUNITY_TO_NUCLEUS | OPP-025 Governance Read-Only API Transport Contract Tests | Governance | Governance transport tests depend on Governance ownership of static GET-only contract testing. | Technical | MEDIUM | MEDIUM | LOW | GOVERNANCE_REVIEW | LOW | APPROVED | NOT_BLOCKING | HIGH | Governance status | Execute only pure/static route registry tests if approved. |
+
+## Unverified / Needs Documentation
+
+| Dependency ID | Dependency Type | Source Nucleus or Opportunity | Target Nucleus | Reason | Required Documentation Before Promotion |
+|---|---|---|---|---|---|
+| DEP-UNV-001 | UNVERIFIED | Market Operations Oracle | Dex / Trading / Governance | Opportunity was not documented as an official Business product. | Business opportunity entry, owner, dependencies and risk review. |
+| DEP-UNV-002 | UNVERIFIED | MCP Business Services | ACS / MCP | Specific service definition and approval path were not documented. | ACS/MCP service definition and Business product record. |
+| DEP-UNV-003 | UNVERIFIED | Business Intelligence Services | AxodusAPP / Documentation | Capability direction exists but no named product-level record was found. | Product candidate record and source evidence. |
+| DEP-UNV-004 | UNVERIFIED | Institutional Services | ACS / Business | Only sample enterprise ACS runtime had product-level evidence. | Specific service record, compliance owner and source docs. |
+| DEP-UNV-005 | UNVERIFIED | Generic Data Products | Core / Documentation | Category exists but no standalone named opportunity exists. | Named data product with owner and evidence. |
+| DEP-UNV-006 | UNVERIFIED | Generic Analytics Services | Business / AxodusAPP | Category exists but no standalone named opportunity exists. | Named analytics product with owner and evidence. |
+
+## Registry Summary
+
+| Metric | Count |
+|---|---:|
+| Official dependencies | 58 |
+| Nucleus-level dependencies | 33 |
+| Opportunity/product/service dependencies | 25 |
+| Unverified dependencies | 6 |
+| High or critical official dependencies | 38 |
+| Execution-blocking dependencies | 33 |
+| Production-blocking dependencies | 3 |
+| Nuclei covered | 14 |
+
+## Boundary Statement
+
+This registry is dependency visibility only. It does not authorize implementation, integration, production publication, production credentials, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, on-chain writes, governance execution, billing execution or production readiness.
+
+## Recommended Next Request
+
+CROSS-REQ-03 - Readiness & Ownership Alignment

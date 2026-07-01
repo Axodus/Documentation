@@ -1,0 +1,77 @@
+# Axodus Boundary Conflict Register
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-04 - Governance & Execution Boundary Review
+
+Versioning note: `/opt/Axodus` is not a Git repository. This register is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Conflict Model
+
+Conflict values:
+
+- NO_CONFLICT
+- DOCUMENTATION_CONFLICT
+- OWNERSHIP_CONFLICT
+- EXECUTION_CONFLICT
+- TREASURY_CONFLICT
+- GOVERNANCE_CONFLICT
+- PRODUCTION_CONFLICT
+- UNKNOWN
+
+## Conflicts Found
+
+The review found boundary conflicts/tensions that are already blocked by existing gates. No conflict grants authority.
+
+| Conflict ID | Conflict Type | Impacted Nuclei | Impacted Opportunities | Severity | Description | Current Control | Recommended Resolution |
+|---|---|---|---|---|---|---|---|
+| BC-001 | PRODUCTION_CONFLICT | Documentation, all nuclei | OPP-021 | HIGH | Publication readiness exists, but publication authority and root versioning remain unresolved. | Publication remains blocked. | Resolve publication authority/versioning before publication execution. |
+| BC-002 | TREASURY_CONFLICT | Defi, Business, Governance, Marketplace, Mining, Lottery, Trading | OPP-005, OPP-013, OPP-015, OPP-018, OPP-022 | CRITICAL | Treasury-sensitive opportunities require approval but formal Treasury/Financial Core ownership is not fully resolved. | Treasury movement remains blocked. | Formalize treasury owner and review path. |
+| BC-003 | EXECUTION_CONFLICT | Dex, Business, Defi, AxodusAPP | OPP-006, OPP-019 | HIGH | Dex has read-only L4 readiness while Dex.Country remains execution-sensitive. | Dex execution remains blocked; read-only provider track allowed only. | Keep no-swap boundary and separate any future execution request. |
+| BC-004 | EXECUTION_CONFLICT | Trading, ACS, Governance, Defi | OPP-016 | CRITICAL | Trading reached L4 candidate evidence, but live trading, credentials and withdrawals remain blocked. | Execution disabled. | Run credential vault and execution gate review. |
+| BC-005 | EXECUTION_CONFLICT | ACS, Core, Governance, Trading | OPP-017 | CRITICAL | ACS has L4 candidate validation, but ACS provisioning/autonomy is not authorized. | ACS execution authority blocked. | Run ACS execution authority and credential boundary review. |
+| BC-006 | GOVERNANCE_CONFLICT | Governance, Business, Harmony DAO | OPP-007, OPP-008, OPP-009 | HIGH | Governance plugin opportunities reference Harmony DAO, but external owner path is not formalized. | Plugin execution remains blocked. | Document external owner and governance approval path. |
+| BC-007 | OWNERSHIP_CONFLICT | Business, AxodusAPP, Documentation | OPP-001, OPP-002, OPP-003, OPP-020 | MEDIUM | Business owns catalog/registry models, but future UI/published presentation ownership is not formally contracted. | UI implementation deferred. | Define read-only consumer contract and publication route. |
+| BC-008 | EXECUTION_CONFLICT | Marketplace, Defi, Governance, AxodusAPP | OPP-013 | HIGH | Marketplace is L4 candidate, but payment/settlement/minting remain blocked. | Settlement/value transfer disabled. | Run payment/settlement governance boundary decision. |
+| BC-009 | EXECUTION_CONFLICT | Academy, Governance, Defi, AxodusAPP | OPP-014 | HIGH | Academy is L4 candidate, but rewards/certification/contract writes remain blocked. | Reward/certification execution disabled. | Run reward/certification boundary decision. |
+| BC-010 | TREASURY_CONFLICT | Mining, Defi, Governance | OPP-015 | HIGH | Mining is L4 candidate, but provider payout/custody remains blocked. | Payout/provider execution disabled. | Harden provider/payout boundary and warnings. |
+| BC-011 | PRODUCTION_CONFLICT | BBA-Agency, Business, ACS, Marketplace | OPP-023 | MEDIUM | BBA has L3 evidence, but schema and production claim review remain open. | Production campaigns/billing blocked. | Resolve schema mapping and claim review. |
+| BC-012 | EXECUTION_CONFLICT | Lottery, Governance, Defi, Core | OPP-022 | CRITICAL | Lottery mock/local evidence exists, but compliance/randomness/prize/payout remain blocked. | Lottery execution blocked. | Keep L3/mock-local until compliance/randomness/payout gates exist. |
+| BC-013 | PRODUCTION_CONFLICT | Core, Governance, ACS | OPP-024 | MEDIUM | Core maturity is high, but RC/consumer pilot evidence remains incomplete. | Production/RC claim blocked. | Complete consumer pilot and RC review. |
+| BC-014 | GOVERNANCE_CONFLICT | Governance, AxodusAPP, Core, Business | OPP-025 | MEDIUM | Governance read-only transport tests are approved as a planning path, but HTTP/backend mutation paths remain blocked. | Pure/static GET-only path only. | Keep read-only static contract test boundary. |
+
+## Non-Conflicts
+
+| Area | Result | Reason |
+|---|---|---|
+| Business execution role | NO_CONFLICT | Business is consistently documented as non-executive. |
+| Global opportunity registry | NO_CONFLICT | Registry is visibility only and does not authorize execution. |
+| Cross-nucleus dependency registry | NO_CONFLICT | Dependencies are mapped as blockers/visibility only. |
+| Readiness ownership alignment | NO_CONFLICT | Ownership and execution authority are separated. |
+
+## Summary
+
+| Metric | Count |
+|---|---:|
+| Conflicts/tensions recorded | 14 |
+| Critical conflicts | 4 |
+| High conflicts | 6 |
+| Medium conflicts | 4 |
+| Conflicts granting authority | 0 |
+| Conflicts controlled by existing blockers | 14 |
+
+## Boundary Statement
+
+This register records conflicts/tensions for governance visibility. It does not resolve blockers, grant execution authority, authorize production, or enable treasury, wallet, settlement, payout, trading, DEX, ACS, lottery, marketplace, governance or on-chain behavior.

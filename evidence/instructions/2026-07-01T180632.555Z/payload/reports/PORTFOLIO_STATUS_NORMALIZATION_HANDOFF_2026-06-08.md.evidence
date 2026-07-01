@@ -1,0 +1,67 @@
+# Portfolio Status Normalization Handoff
+
+## Decision
+
+After DEX-REQ-11, pause further functional DEX evolution and start:
+
+`PORTFOLIO STATUS NORMALIZATION`
+
+## Trigger
+
+DEX completed the current L4 readiness technical cycle through DEX-REQ-11.
+
+## Target Nuclei
+
+- Academy
+- ACS
+- Business
+- Marketplace
+- Mining
+- Trading
+
+## Objective
+
+Create or normalize `.instructions/STATUS.md` in each target nucleus and establish comparable maturity evidence across the portfolio.
+
+## Required Deliverables Per Nucleus
+
+- `.instructions/STATUS.md`
+- L1-L5 maturity proposal
+- current operational status
+- blockers
+- dependencies
+- risks
+- latest evidence
+- recommended next request
+- production/execution policy
+- portfolio handoff note where applicable
+
+## DEX Post-REQ-11 Containment
+
+Allowed:
+
+- status updates
+- roadmap updates
+- local validation evidence
+- portfolio handoff
+- consumer contract documentation
+- minor consistency corrections
+
+Not allowed without explicit executive approval:
+
+- swap execution
+- wallet signing
+- on-chain transaction submission
+- liquidity routing
+- treasury integration
+- trading automation
+- production provider dependency
+- executable smart contracts
+
+## Expected Outcome
+
+The Axodus portfolio should have comparable status and maturity evidence across all major nuclei, enabling objective prioritization, blocker handling, maturity promotion, and operational audit.
+
+## Versioning Note
+
+`/opt/Axodus` is a coordination shell and is not a Git repository. This handoff is local/unversioned unless later migrated to a versioned portfolio documentation location.

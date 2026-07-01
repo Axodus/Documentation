@@ -1,0 +1,109 @@
+# Dreaming Mode Cron Strategy
+
+## Purpose
+
+This document defines scheduling guidance for ACS/OpenClaw Dreaming Mode.
+
+Cron-triggered dreaming should improve continuity without creating cron storms, duplicated summaries, conflicting memories, or uncontrolled canonical writes.
+
+## Scheduling Principles
+
+- Do not wake all agents at the same minute.
+- Stagger schedules by agent and layer.
+- Keep local dreams short and scoped.
+- Run nucleus dreams only for active nuclei with relevant changes.
+- Run ACS Coordinator Dreaming after local and nucleus dreams are available.
+- Run Core Memory Review weekly or manually.
+- Cron jobs must write to structured output paths.
+- Cron jobs must not directly mutate canonical memory unless a future approved Core workflow allows it.
+- Cron jobs must not execute production actions, trading, treasury, runtime shell, MCP tools, or code changes.
+
+## Recommended Frequency
+
+| Routine | Frequency | Notes |
+| --- | --- | --- |
+| Agent Local Dreaming | Every 6 or 12 hours | Stagger by agent |
+| Nucleus Dreaming | Daily | Only for active nuclei with relevant changes |
+| ACS Coordinator Dreaming | Daily or every 2 days | Run after local/nucleus outputs |
+| Core Memory Review | Weekly or manual | Review candidates before canonical promotion |
+
+## Example Staggered Schedule
+
+These commands are examples/pseudocode. Confirm exact OpenClaw CLI syntax before use.
+
+```cron
+# Agent Local Dreaming
+15 1,13 * * * openclaw agents run morpheus /dreaming --mode=local
+25 1,13 * * * openclaw agents run trinity /dreaming --mode=local
+35 1,13 * * * openclaw agents run agentsmith /dreaming --mode=local
+45 1,13 * * * openclaw agents run redhat /dreaming --mode=local
+
+# Nucleus Dreaming
+05 2 * * * openclaw agents run coordinator /dreaming --mode=nucleus --nucleus=governance
+15 2 * * * openclaw agents run coordinator /dreaming --mode=nucleus --nucleus=trading
+25 2 * * * openclaw agents run coordinator /dreaming --mode=nucleus --nucleus=acs
+
+# ACS Coordinator
+10 3 * * * openclaw agents run coordinator /dreaming --mode=global
+
+# Core Memory Review
+0 9 * * 1 openclaw agents run core-archivist /dreaming --mode=memory-review
+```
+
+## Output Path Policy
+
+Recommended output paths:
+
+```text
+~/.openclaw/main_workspace/dreaming/outputs/agents/<agent-name>/
+~/.openclaw/main_workspace/dreaming/outputs/nuclei/<nucleus-name>/
+~/.openclaw/main_workspace/dreaming/outputs/coordinator/
+~/.openclaw/main_workspace/dreaming/outputs/memory-candidates/
+~/.openclaw/main_workspace/dreaming/outputs/registry-sync/
+```
+
+Suggested filename patterns:
+
+```text
+YYYY-MM-DD-local-dream.md
+YYYY-MM-DD-nucleus-dream.md
+YYYY-MM-DD-global-digest.md
+YYYY-MM-DD-memory-candidates.md
+YYYY-Www-core-memory-review.md
+```
+
+## Load Management
+
+To avoid noisy or excessive dreaming:
+
+- skip local dreaming if no relevant context changed;
+- cap output length where practical;
+- keep raw logs out of memory proposals;
+- store only structured summaries;
+- deduplicate repeated conclusions;
+- mark uncertainty and unresolved conflicts.
+
+## Cron Safety Rules
+
+Cron-triggered dreaming must not:
+
+- call MCP tools;
+- execute runtime shell;
+- access network tools unless explicitly authorized;
+- mutate source/config/runtime/auth/bindings;
+- install packages;
+- restart services;
+- deploy;
+- execute trading or treasury actions;
+- write to canonical Core memory directly;
+- persist secrets or private data.
+
+## Change Control
+
+Do not modify existing cron jobs until:
+
+1. this Core policy is accepted;
+2. agent prompts are aligned to the policy;
+3. output paths are confirmed;
+4. schedule staggering is reviewed;
+5. rollback/disable procedure is documented.

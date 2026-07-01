@@ -1,0 +1,80 @@
+# Axodus Portfolio Development Register
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Status: ESTABLISHED
+
+Scope: Core, Governance, Documentation, Dex, Defi, AxodusAPP, Business, Marketplace, Academy, Mining, ACS, Trading, BBA-Agency, Lottery
+
+Root versioning state: `/opt/Axodus` is not a Git repository. This register is local/unversioned portfolio evidence.
+
+Purpose: add a development maturity dimension alongside organizational maturity.
+
+- L-level: organizational maturity, governance, evidence, readiness and controls.
+- D-level: implementation maturity, software surface, validation evidence and integration depth.
+
+No production readiness, execution authority, treasury authority, wallet signing, settlement, payout, trading or on-chain behavior is granted by this register.
+
+## Development Maturity Model
+
+| Level | Name | Criteria |
+| --- | --- | --- |
+| D0 | Concept Only | Idea, roadmap or documentation only. No meaningful implementation evidence. |
+| D1 | Technical Foundation | Project structure, types, schemas, mock data, basic architecture and minimal behavior. |
+| D2 | Local Product Functionality | UI, API, SDK, services or workflows operate locally with mock or non-production behavior. |
+| D3 | Integrated Functionality | Cross-module integration, read-only providers, real data ingestion, internal ecosystem integration or meaningful user workflows without execution-sensitive production behavior. |
+| D3+ | Validated Integrated Functionality | D3-level integration plus fresh build/test/check, explicit boundary enforcement, security review and coherent handoff evidence; still non-production and below controlled execution. |
+| D4 | Controlled Execution | Testnet, sandbox or controlled execution workflows with strong non-production constraints. |
+| D5 | Production Capability | Production infrastructure, real users, operational controls and explicit production approval. Not assigned without direct evidence. |
+
+## Methodology
+
+The D-level classification uses repository structure, source and test footprint, package scripts, local validation evidence, status documents, maturity assessments, handoffs, product documentation and implemented UI/API/SDK/provider surfaces. It does not rely solely on `.instructions`.
+
+Functional completeness is a conservative estimate of implemented software surface relative to the nucleus's currently documented product scope. It is not a business-readiness, production-readiness or revenue-readiness percentage.
+
+## Register
+
+| Nucleus | L-Level | D-Level | Product Implementation | Frontend | Backend | API | SDK / Library | Mocks | Tests | Integrations | Functional Completeness | Evidence | Observations |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |
+| Core | L5 | D3 | MEDIUM | NONE | MEDIUM | MEDIUM | HIGH | MEDIUM | MEDIUM | MEDIUM | 65% | 300 files scanned; 67 code files; 11 tests; 20 package manifests; package scripts include check/test/conformance. | Implementation-heavy foundation nucleus with SDK/library orientation. No production execution authority assigned by this baseline. |
+| Governance | L5 | D3 | HIGH | HIGH | HIGH | HIGH | MEDIUM | HIGH | HIGH | HIGH | 70% | 3,787 files scanned; 3,229 code files; 768 tests; validation evidence reports 4,551 passing and 5 pending. | Large implementation surface across app, backend, contracts, subgraph and read-only governance APIs. Execution remains governed and not granted here. |
+| Documentation | L4 Readiness | D2 | LOW | MEDIUM | NONE | NONE | NONE | NONE | LOW | LOW | 60% | 620 files scanned; 615 documentation files; VitePress package scripts include docs:build; content/build validation evidence exists. | Mostly documentation product with a functional VitePress publication target. Development maturity reflects docs-site implementation, not protocol functionality. |
+| Dex | L4 Readiness | D3 | MEDIUM | MEDIUM | MEDIUM | MEDIUM | HIGH | HIGH | HIGH | HIGH | 65% | 201 files scanned; 68 code files; 17 tests; validation evidence includes typecheck, lint, test, build and boundary scanner. | Read-only/provider reliability track with provider abstraction, mock fallback and boundary scanner evidence. No swaps or execution are authorized. |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION | UNASSESSED | MEDIUM | LOW | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | 45% | 223 files scanned; 69 code files; 19 tests; services/API/indexer/contracts evidence; phase planning remains execution-blocked. | Meaningful foundation exists, but treasury, custody, staking and execution-sensitive paths remain blocked or planning-only. |
+| AxodusAPP | L4_CONSOLIDATED | D3+ | HIGH | HIGH | LOW | LOW | LOW | HIGH | HIGH | HIGH | 70% | 577 files scanned; 411 code files; 38 tests; build passes; test evidence reports 130 passing tests. | Strong integration shell and frontend implementation. It remains a consumer shell, not an execution-authority nucleus. |
+| Business | L4 Consolidated | D2 | MEDIUM | NONE | MEDIUM | MEDIUM | MEDIUM | HIGH | HIGH | MEDIUM | 55% | 173 files scanned; 95 code files; 15 tests; `npm run check` evidence with 102 passing tests; runtime/contracts/validators/mock API. | Strong non-executive coordination runtime. Consolidated organizationally, but development remains bounded to readiness, registry and governance-support functions. |
+| Marketplace | L4_CONSOLIDATED | D4 | MEDIUM | MEDIUM | MEDIUM | MEDIUM | LOW | MEDIUM | HIGH | MEDIUM | 60% | 202 files scanned; 131 code files; 11 tests; validation evidence includes 102 passing tests across API and web. | API/web implementation is material. Payment, settlement and production commerce authority remain blocked. |
+| Academy | L4_CONSOLIDATED | D3+ | MEDIUM | MEDIUM | MEDIUM | MEDIUM | LOW | MEDIUM | MEDIUM | MEDIUM | 55% | 164 files scanned; 86 code files; local validation evidence includes typecheck, lint, test, build and contract checks. | Product surfaces and contract readiness exist. Rewards/certification execution and deployment-sensitive paths remain gated. |
+| Mining | L4_CONSOLIDATED | D3+ | MEDIUM | MEDIUM | MEDIUM | MEDIUM | LOW | MEDIUM | MEDIUM | MEDIUM | 45% | 68 files scanned; 45 code files; 6 tests; validation evidence reports 47 passing tests with warnings. | UI/API and mock/provider readiness exist. Provider, payout and treasury-sensitive behavior remains blocked. |
+| ACS | L4_READINESS | D3+ | MEDIUM | NONE | MEDIUM | LOW | MEDIUM | HIGH | HIGH | HIGH | 50% | ACS-EPIC-01 adds readiness, permission, gate, blocked-action, consumer, preview and alignment surfaces; fresh build/test/check and diff-check pass; security and boundary reviews complete. | `PROMOTE_TO_L4_READINESS` recommended. ACS remains non-production, execution-gated, without mutation authority, and not L4 Consolidated. |
+| Trading | L4 Candidate | D3 | HIGH | LOW | HIGH | HIGH | MEDIUM | HIGH | HIGH | HIGH | 65% | 365 files scanned; 236 code files; local Postgres E2E evidence passed; tests report 240 passing and 1 skipped. | Significant local trading-core implementation and database-backed validation. Live trading, exchange credentials and withdrawals remain prohibited. |
+| BBA-Agency | L3 | D2 | MEDIUM | NONE | MEDIUM | LOW | LOW | HIGH | MEDIUM | LOW | 45% | 93 files scanned; 51 code files; 20 tests; typecheck, contract, permission and cost validation evidence exists. | Mock/local service delivery model is implemented enough for L3 evidence. Schema map and production claim review gaps remain. |
+| Lottery | L3 | D2 | MEDIUM | MEDIUM | LOW | LOW | LOW | HIGH | MEDIUM | LOW | 45% | 1,776 files scanned; 1,436 code files; 38 tests; Vitest, lint and API pytest evidence exists. | Material code surface and mock/local lottery evidence exist. VRF, randomness, payout, treasury and compliance execution remain blocked. |
+
+## Distribution
+
+| D-Level | Nuclei | Count |
+| --- | --- | ---: |
+| D0 | None | 0 |
+| D1 | None | 0 |
+| D2 | Documentation, Business, BBA-Agency, Lottery | 4 |
+| D3 | Core, Governance, Dex, Trading | 4 |
+| D3+ | AxodusAPP, Academy, Mining, ACS | 4 |
+| D4 | Marketplace | 1 |
+| UNASSESSED | Defi | 1 |
+| D5 | None | 0 |
+
+## Portfolio Reading
+
+The portfolio is no longer mostly conceptual. Most nuclei have at least D2 local product functionality, five nuclei show D3 integrated functionality, and ACS is registered at D3+ from validated non-production integration evidence. No nucleus is assigned D4 or D5 because this baseline does not find explicit portfolio approval for controlled execution or production capability.

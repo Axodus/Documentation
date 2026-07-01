@@ -1,0 +1,87 @@
+# Axodus Portfolio Development Gap Analysis
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Status: ESTABLISHED
+
+Root versioning state: `/opt/Axodus` is not a Git repository. This gap analysis is local/unversioned portfolio evidence.
+
+## Summary
+
+The portfolio has stronger organizational maturity visibility than development maturity visibility. This baseline finds that every reviewed nucleus has at least D2 local product functionality or a functional product-system surface, but implementation depth is uneven.
+
+No D4 or D5 assignments are made. Controlled execution and production capability remain unassigned because the current evidence does not authorize execution-sensitive or production behavior.
+
+## High L / Low D
+
+| Nucleus | Gap | Impact | Recommended Resolution |
+| --- | --- | --- | --- |
+| Business | L4 Consolidated / D2 | Business is organizationally central but intentionally non-executive and not a heavy product runtime. | Keep Business as coordination nucleus; avoid forcing product expansion. Expose its registries to AxodusAPP through read-only consumption. |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION / UNASSESSED | Readiness artifacts outpace implementation because treasury/custody/execution-sensitive paths remain blocked. | Continue non-executive planning and local simulation only; require governance/treasury gates before D3+ execution-adjacent work. |
+| Documentation | L4_CONSOLIDATED_NON_PRODUCTION / UNASSESSED | Strong documentation governance with a narrower technical product surface. | Treat D2 as healthy for this nucleus unless publication platform work becomes a product objective. |
+
+## Low L / High D
+
+| Nucleus | Gap | Impact | Recommended Resolution |
+| --- | --- | --- | --- |
+| Trading | L4 Candidate / D3 | Development evidence is stronger than production authority because local Postgres E2E and trading-core validation are in place. | Keep at L4 Candidate unless governance explicitly approves a bounded consolidation sprint. Do not enable live trading. |
+| ACS | L4_READINESS / D3+ | ACS-EPIC-01 validation, security, boundary and integrated control-plane evidence exceeds the currently recorded L-state. | Register `PROMOTE_TO_L4_READINESS`; keep execution, production and mutation authority blocked. |
+
+## Balanced Nuclei
+
+| Nucleus | Balance |
+| --- | --- |
+| Core | L5 / D3 is appropriate for a foundation library and protocol-support nucleus. |
+| Governance | L5 / D3 is appropriate for a mature governance implementation with execution gates. |
+| Dex | L4 Readiness / D3 is aligned with read-only provider integration and non-execution constraints. |
+| AxodusAPP | L4 Readiness / D3 is aligned with an integration shell. |
+| Marketplace | L4_CONSOLIDATED / D4 is accepted for controlled non-production maturity; HOLD / BACKLOG_READY remains in force. |
+| Academy | L4_CONSOLIDATED / D3+ reflects validated non-production integration; all execution gates remain closed. |
+| Mining | L4_CONSOLIDATED / D3+ reflects validated non-production integration; provider, mining and payout gates remain closed. |
+| BBA-Agency | L3 / D2 is aligned with mock/local service evidence. |
+| Lottery | L3 / D2 is aligned with mock/local evidence and critical execution blockers. |
+
+## Most Underdeveloped Relative To Opportunity
+
+| Nucleus | Reason |
+| --- | --- |
+| Defi | Strategic role is high, but implementation must remain capped until treasury/custody/governance controls are approved. |
+| Mining | Product ambition includes provider and payout concepts, but current implementation is local and warning-bound. |
+| Lottery | Large code surface exists, but usable maturity is capped by randomness, payout, treasury and compliance blockers. |
+| BBA-Agency | Mock/local implementation exists, but schema/contract integration gaps remain. |
+
+## Most Implementation-Heavy
+
+| Nucleus | Reason |
+| --- | --- |
+| Governance | Largest source/test footprint and multi-layer implementation evidence. |
+| AxodusAPP | Strong frontend/integration shell with passing tests/build. |
+| Trading | Strong local service/database validation and trading-core implementation. |
+| Dex | Read-only provider and boundary-scanner work creates integrated non-executive functionality. |
+| Marketplace | Material API/web product surface and passing tests. |
+
+## Gaps By Dimension
+
+| Dimension | Main Gap | Impact |
+| --- | --- | --- |
+| Frontend | Core, Business, ACS and BBA-Agency are not frontend-heavy. | Acceptable for their current roles; AxodusAPP should be the main integration shell. |
+| Backend/API | Documentation has no backend/API, and BBA/Lottery API maturity remains limited. | Acceptable for Documentation; BBA/Lottery need targeted future product work before higher D-levels. |
+| SDK/Library | Marketplace, Academy, Mining, BBA and Lottery have low SDK/library maturity. | Future ecosystem integration may need stable typed contracts. |
+| Integration | BBA-Agency, Lottery and Mining remain lower integration. | Keep as focused L3/L4 candidate planning items, not production tracks. |
+| Tests | Documentation has low conventional test coverage because validation is build/content oriented. | Treat VitePress build/content validation as the appropriate evidence type. |
+
+## Recommendation
+
+Next product sprint: AxodusAPP Integration Expansion.
+
+This has the best balance of development impact and portfolio safety because AxodusAPP can consume cross-nucleus registries, status, maturity, dependencies and boundary artifacts as read-only portfolio intelligence without creating treasury, settlement, payout, wallet, DEX or trading execution.

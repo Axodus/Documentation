@@ -17,4 +17,7 @@ export const COMMANDS = Object.freeze({
   exceptions: { layers: ['EXCEPTIONS'], description: 'Validate the exception registry only.' },
   check: { layers: null, description: 'Run the complete validation pipeline.' },
   generate: { kind: 'GENERATION', description: 'Generate or check persistent derived artifacts.' },
+  snapshot: { kind: 'EVIDENCE', operation: 'CREATE', description: 'Create or reuse an instructions evidence snapshot.' },
+  'snapshot-list': { kind: 'EVIDENCE', operation: 'LIST', description: 'List registered evidence snapshots.' },
+  'snapshot-compare': { kind: 'EVIDENCE', operation: 'COMPARE', description: 'Compare two evidence snapshots.' },
 })

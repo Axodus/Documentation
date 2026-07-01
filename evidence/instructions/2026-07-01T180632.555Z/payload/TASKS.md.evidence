@@ -1,0 +1,95 @@
+# Axodus Global Tasks
+
+# Current Priority
+
+The current ecosystem priority is governance and infrastructure consolidation.
+
+---
+
+# Progress Snapshot
+
+Last updated: 2026-05-19
+
+## Ecosystem Progress
+
+- Governance core foundation: 82%
+- Backend governance registry/API: 80%
+- AxodusAPP Governance Operations Center: 84%
+- createProposal non-on-chain contract: 81%
+- Constitutional Guardrail observability: 80%
+- Federation records and enforcement readiness: 46%
+- Proposal aggregation/indexer integration: 38%
+- Constitutional execution conditions: 38%
+- Treasury/governance execution constraints: 28%
+- AI/agent governance boundaries: 24%
+- Non-governance product nuclei UI/API foundations: 8%
+
+## Governance Completion Criteria
+
+- PoC functional foundation: 82%
+- Production-ready governance core: 49%
+- Remaining blockers: indexed DAO/proposal coverage, real createProposal indexer reconciliation after on-chain adapters, federation records, constitutional condition registry, treasury policy engine, and on-chain execution integration.
+
+---
+
+# Active Global Tasks
+
+## Governance
+- Finalize multichain governance architecture — 80%
+- Isolate Harmony-specific logic — 78%
+- Implement chain registry — 84%
+- Expose governance plugin capabilities and indexing readiness through the backend chain registry — 82%
+- Implement federation records — 46%; in progress: chain registry now exposes federation membership, tier, roles, local autonomy boundary, federation requirements and initial DAO tenant account context through the Constitutional Layer
+- Implement DAO tenant account layer — 46%; in progress: backend exposes `/v2/governance/tenants`, derives tenant accounts from indexed DAO registry records when available, preserves bootstrap fallback tenants, and AxodusAPP renders the selected DAO as an operational tenant account with treasury, members/roles, products, agents, proposals, operations, receipts and reason codes
+- Implement proposal aggregation flows — 38%
+- Implement backend createProposal contract — 81%; in progress: `/v2/proposals/create` accepts enriched non-on-chain review submissions from AxodusAPP, `GET /v2/proposals/create/:id` reads observed receipts, `GET /v2/proposals/create` lists selected-context review receipts, persisted and memory fallback receipts expose `storageMode`, `source`, and indexer reconciliation metadata, persistence was validated through `CreateProposalRequest` with Mongo connected, explicit in-memory fallback remains for bootstrap/offline API mode, and `service-aragon-api` compose accepts external `MONGO_DB_URI` injection without hardcoding secrets
+- Implement constitutional execution conditions — 38%; in progress: registry exposes normalized Constitutional Layer conditions for chain enablement, execution authorization, plugin capability registration, local standing, treasury review, and agent permission scope
+- Implement Constitutional Guardrails with transparent reason codes — 80%; in progress: registry, indexer readiness, backend createProposal boundaries, frontend governance guards, createProposal storage fallback, observed registry/DAO/plugin/treasury policy sources, and Constitutional Layer execution models expose reason codes
+- Model Constitutional Governance and Local Governance as distinct governance nuclei — 86%; in progress: chain/plugin capabilities now expose constitutional and local governance context plus authority, federation, and execution boundaries
+
+## Defi
+- Define vault architecture — 10%
+- Define treasury routing — 12%
+- Implement investment product registry — 6%
+- Define ETF execution flows — 5%
+- Implement treasury accounting model — 6%
+
+## MCP
+- Define memory architecture — 12%
+- Define agent execution permissions — 24%
+- Define orchestration workflows — 10%
+- Implement plugin coordination — 8%
+- Implement execution logging — 8%
+
+## Trading
+- Define strategy execution engine — 8%
+- Implement risk management layer — 8%
+- Implement telemetry flows — 6%
+- Implement AI-assisted execution hooks — 6%
+
+## Academy
+- Define Proof-of-Knowledge flows — 8%
+- Define certification system — 6%
+- Define SBT issuance architecture — 5%
+- Define reward emission model — 5%
+
+---
+
+# Global Infrastructure Tasks
+
+- Standardize repository structure — 58%
+- Standardize `.instructions` — 72%
+- Define deployment conventions — 35%
+- Define environment variable standards — 42%
+- Define CI/CD structure — 20%
+- Define observability standards — 38%
+
+---
+
+# Pending Decisions
+
+- Canonical execution chain
+- LayerZero production strategy
+- Treasury routing model
+- Cross-chain voting normalization model
+- Agent execution limits

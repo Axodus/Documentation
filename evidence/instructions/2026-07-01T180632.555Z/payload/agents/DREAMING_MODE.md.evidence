@@ -1,0 +1,177 @@
+# ACS / OpenClaw Dreaming Mode Strategy
+
+## Purpose
+
+Dreaming Mode is the scheduled memory and synthesis routine for ACS/OpenClaw agents.
+
+It exists to help agents:
+
+- summarize recent operational events;
+- extract relevant decisions;
+- identify unresolved tasks;
+- detect project drift;
+- refresh local memory context;
+- prepare concise handoff notes for future runs;
+- surface risks, blockers, and governance-relevant events.
+
+Dreaming Mode must not:
+
+- implement code;
+- change production systems;
+- execute transactions;
+- approve governance decisions;
+- rewrite canonical project history without validation;
+- create uncontrolled long-term memory from noisy context;
+- persist secrets, credentials, private keys, wallet data, auth headers, tokens, or sensitive logs.
+
+## Operating Principle
+
+Dreaming Mode creates memory proposals. It does not define canonical truth.
+
+Every output must distinguish:
+
+- observed facts;
+- inferred conclusions;
+- open questions;
+- risks;
+- proposed memory candidates;
+- items that should be ignored or forgotten.
+
+Agents must handle uncertainty explicitly. If evidence is weak, contradictory, stale, or local-only, the output must mark the confidence as `Low` or `Medium` and avoid promotion language.
+
+## Dreaming Layers
+
+Dreaming runs in four layers.
+
+| Layer | Owner | Purpose | Canonical Authority |
+| --- | --- | --- | --- |
+| Agent Local Dreaming | Individual agent | Summarize role-specific recent context | No |
+| Nucleus Dreaming | Nucleus/domain routine | Summarize domain-level state | No |
+| ACS Coordinator Dreaming | ACS coordinator | Consolidate agent and nucleus outputs | No |
+| Core Memory Registry Sync | Core review workflow | Review candidates for canonical promotion | Proposal only until approved |
+
+## 1. Agent Local Dreaming
+
+Each agent summarizes only what belongs to its operational role.
+
+Examples:
+
+- Morpheus: strategy, synthesis, governance direction, unresolved planning questions, cross-nucleus decisions.
+- Trinity: trading intelligence, capital/risk analysis, trading nucleus continuity, strategy review, backtest planning status.
+- Agent Smith: adversarial review, inconsistencies, duplicated assumptions, governance/security concerns, policy drift.
+- RedHat: engineering planning, MCP/tooling risks, implementation constraints, automation boundaries.
+
+Agent Local Dreaming should produce short, structured reports. It must not generate broad project truth or update canonical memory directly.
+
+## 2. Nucleus Dreaming
+
+Nucleus Dreaming groups context by Axodus domain rather than by agent.
+
+Supported nuclei include:
+
+- Governance;
+- ACS;
+- Core;
+- Academy;
+- Trading;
+- Marketplace;
+- Business;
+- DeFi;
+- DEX;
+- Lottery;
+- Mining;
+- BBA Agency;
+- AxodusAPP.
+
+The purpose is to answer:
+
+- what changed in this nucleus;
+- which decisions became stable;
+- which tasks are blocked;
+- which assumptions conflict with Core or Governance policy;
+- which items should become memory candidates.
+
+Nucleus Dreaming should run only for active nuclei with relevant changes.
+
+## 3. ACS Coordinator Dreaming
+
+The ACS Coordinator is the consolidation layer.
+
+It reviews recent Agent Local Dreaming and Nucleus Dreaming outputs and produces:
+
+- global project digest;
+- cross-nucleus dependencies;
+- duplicated or conflicting memories;
+- drift warnings;
+- proposed canonical memory updates;
+- recommended next sprints;
+- unresolved architecture questions.
+
+The coordinator must not overwrite Core policy, approve memory, or treat repeated claims as true without stable supporting context.
+
+## 4. Core Memory Registry Sync
+
+Core Memory Registry Sync is the review layer for canonical promotion.
+
+The flow is:
+
+```text
+Dreaming Output
+→ Memory Candidate
+→ Review / Classification
+→ Approved Canonical Candidate
+→ Core Registry Update Proposal
+→ Agent Context Refresh
+```
+
+Canonical files must not be changed by routine dreaming unless a future approved Core workflow explicitly authorizes it.
+
+## Boundaries
+
+Dreaming Mode may:
+
+- read recent local context available to the agent;
+- summarize sprint reports and operational notes;
+- classify memory candidates;
+- identify drift, duplicates, risks, blockers, and follow-up tasks;
+- write structured dreaming output to approved dreaming output paths.
+
+Dreaming Mode must not:
+
+- execute code changes;
+- mutate source/config/runtime/auth/bindings;
+- change cron schedules;
+- call MCP tools or runtime shells;
+- access network tools unless separately authorized by policy;
+- approve or execute governance/treasury/trading actions;
+- write canonical memory directly;
+- persist secrets or sensitive raw logs.
+
+## Recommended Output Paths
+
+Use structured output paths:
+
+```text
+~/.openclaw/main_workspace/dreaming/outputs/agents/<agent-name>/
+~/.openclaw/main_workspace/dreaming/outputs/nuclei/<nucleus-name>/
+~/.openclaw/main_workspace/dreaming/outputs/coordinator/
+~/.openclaw/main_workspace/dreaming/outputs/memory-candidates/
+~/.openclaw/main_workspace/dreaming/outputs/registry-sync/
+```
+
+Optional repository-local references may live under:
+
+```text
+.instructions/agents/
+.instructions/memory/
+.instructions/status/
+```
+
+## Anti-Drift Rules
+
+- Repeated claims are not automatically true.
+- Speculation is not a stable fact.
+- Temporary execution details should expire.
+- Cross-agent contradictions must be surfaced, not merged silently.
+- Canonical promotion requires review under Core policy.
+- Security and governance constraints override convenience.

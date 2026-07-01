@@ -1,0 +1,65 @@
+# Axodus Promotion Board - Refreshed
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-05 - Portfolio Integration Assessment & Promotion Board Refresh
+
+Versioning note: `/opt/Axodus` is not a Git repository. This board is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Board Decision Summary
+
+Portfolio result: `PORTFOLIO_INTEGRATION_ASSESSMENT_COMPLETED`
+
+Selected next cycle: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`
+
+Promotion meaning: eligible for a bounded non-executive next cycle. It does not mean production readiness or execution authority.
+
+## Refreshed Promotion Board
+
+| Nucleus | Current Maturity | Evidence Quality | Integration Readiness | Dependency Burden | Ownership Clarity | Boundary Risk | Advancement Recommendation | Rationale |
+|---|---|---|---|---|---|---|---|---|
+| Core | L5 | HIGH | MEDIUM | MEDIUM | HIGH | MEDIUM | HOLD | Maintain pre-RC foundation; consumer pilot and RC evidence remain gates. |
+| Governance | L5 | HIGH | MEDIUM | HIGH | HIGH | HIGH | HOLD | Strong governance evidence, but proposal/executor/mutation authority remains blocked. |
+| Documentation | L4_READINESS | HIGH | MEDIUM | MEDIUM | HIGH | MEDIUM | ADVANCE | Resolve publication authority and versioning through a bounded non-production consolidation cycle. |
+| Dex | L4 Readiness | HIGH | HIGH | HIGH | HIGH | HIGH | HOLD | Read-only/provider reliability is strong; DEX functional evolution is paused and execution blocked. |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION | MEDIUM | LOW | CRITICAL | MEDIUM | CRITICAL | HOLD | Treasury/custody paths are critical and not implementation-approved. |
+| AxodusAPP | L4_CONSOLIDATED | MEDIUM | HIGH | MEDIUM | MEDIUM | MEDIUM | HOLD | Consolidated portfolio intelligence hub; no immediate new cycle selected. |
+| Business | L4 Consolidated | HIGH | HIGH | MEDIUM | HIGH | MEDIUM | HOLD | Already consolidated; supports the next cycle as coordination/readiness layer. |
+| Marketplace | L4_CONSOLIDATED | HIGH | MEDIUM | CRITICAL | HIGH | HIGH | HOLD | Settlement/payment/minting risks require boundary decision before consolidation. |
+| Academy | L4_CONSOLIDATED | MEDIUM | MEDIUM | HIGH | MEDIUM | HIGH | HOLD | Rewards/certification/contract deployment remain blocked. |
+| Mining | L4_CONSOLIDATED | MEDIUM | MEDIUM | HIGH | MEDIUM | HIGH | HOLD | Provider/payout/custody blockers remain active. |
+| ACS | L4_READINESS | HIGH | MEDIUM | HIGH | HIGH | CRITICAL | HOLD | Execution authority, credentials and autonomy are critical blockers. |
+| Trading | L4 Candidate | HIGH | MEDIUM | CRITICAL | HIGH | CRITICAL | HOLD | Live trading, credentials, withdrawals and production DB remain blocked. |
+| BBA-Agency | L3 | MEDIUM | LOW | MEDIUM | MEDIUM | MEDIUM | HOLD | Schema mapping and production claim review remain open. |
+| Lottery | L3 | MEDIUM | LOW | CRITICAL | MEDIUM | CRITICAL | HOLD | Compliance, randomness, prize, payout, treasury and on-chain gates remain blocked. |
+
+## Selected Candidate
+
+Selected: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`
+
+Why:
+
+- publication authority and root/global versioning are unresolved portfolio-wide controls;
+- the work can remain documentation/governance-only and non-production;
+- it improves provenance and ownership without opening execution-sensitive gates;
+- Academy and Mining are complete non-production, ACS is paused, Marketplace is backlog-ready, and Defi requires remediation before features.
+
+## Holds
+
+All other nuclei remain on HOLD for this board cycle. HOLD means no next L4 consolidation sprint is selected now; it does not imply regression.
+
+## Boundary Statement
+
+No board decision authorizes production readiness, governance execution, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, billing execution, production credentials or on-chain writes.

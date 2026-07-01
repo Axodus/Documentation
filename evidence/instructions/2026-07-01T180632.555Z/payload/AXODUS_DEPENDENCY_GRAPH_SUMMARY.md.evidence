@@ -1,0 +1,88 @@
+# Axodus Dependency Graph Summary
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-02 - Cross-Nucleus Dependency Registry
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This graph summary is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Nucleus-Level Dependency Map
+
+| Source | Depends On | Dependency Class |
+|---|---|---|
+| Business | Core, Governance, Defi, Dex, Marketplace, Trading, Academy, Mining, ACS, AxodusAPP, Documentation, Lottery, BBA-Agency | Strategic / operational / execution-boundary map |
+| Marketplace | Governance, Defi, AxodusAPP | Payment, settlement, value-transfer and UI boundaries |
+| Academy | Governance, Defi, AxodusAPP | Rewards, certification, treasury and learning visibility |
+| Mining | Defi, Governance | Provider custody, payout and treasury gates |
+| ACS | Core, Governance | Execution authority and policy gates |
+| Trading | ACS, Governance, Defi | Automation, credential, exchange and treasury gates |
+| Lottery | Governance, Defi | Compliance, randomness, prize and payout gates |
+| Documentation | Governance | Governance-sensitive publication claims |
+| Dex | AxodusAPP, Defi | Read-only visibility and treasury-exposure boundaries |
+| AxodusAPP | Governance, Business | Read-only module consumption and portfolio views |
+
+## Opportunity-Level Dependency Map
+
+| Opportunity Range | Primary Dependency Pattern |
+|---|---|
+| OPP-001 to OPP-003 | Business registry/catalog/intelligence depends on Documentation, Core, AxodusAPP and architecture review. |
+| OPP-004 to OPP-009 | Business product/governance candidates depend on Governance/Core/Defi/Dex review paths. |
+| OPP-010 to OPP-011 | ACS service candidates depend on ACS runtime and execution boundaries. |
+| OPP-012 | Business coordination depends on Business L4 consolidated framework. |
+| OPP-013 to OPP-018 | Execution-sensitive readiness tracks depend on owning nuclei and Governance/Treasury/Execution reviews. |
+| OPP-019 to OPP-021 | Read-only Dex, AxodusAPP and Documentation readiness depend on architecture/publication boundaries. |
+| OPP-022 to OPP-023 | Lottery and BBA readiness remain blocked by compliance/payout/schema/claim boundaries. |
+| OPP-024 to OPP-025 | Core and Governance readiness depend on consumer pilot and pure/static read-only transport gates. |
+
+## Highest-Risk Dependency Chains
+
+| Chain | Risk | Blocking Status | Notes |
+|---|---|---|---|
+| Vault.Country -> Defi -> Governance/Core | CRITICAL | BLOCKING_EXECUTION | Treasury/custody/recovery execution cannot proceed without treasury and governance approval. |
+| Trading Credential Vault -> Trading -> Governance/Defi/ACS | CRITICAL | BLOCKING_EXECUTION | Live trading, credentials, withdrawals and treasury exposure remain blocked. |
+| ACS Execution Authority -> ACS -> Core/Governance/Trading | CRITICAL | BLOCKING_EXECUTION | ACS cannot gain autonomous or trading-adjacent execution authority without gates. |
+| Lottery Randomness/Payout -> Lottery -> Governance/Defi | CRITICAL | BLOCKING_EXECUTION / BLOCKING_PRODUCTION | Compliance, randomness, prize and payout gates are unresolved. |
+| Marketplace Settlement -> Marketplace -> Defi/Governance/AxodusAPP | HIGH | BLOCKING_EXECUTION | Payment, settlement, minting, wallet and treasury paths remain blocked. |
+| Dex.Country -> Dex -> Defi/Governance/AxodusAPP | HIGH | BLOCKING_EXECUTION | Dex remains read-only/provider reliability; no swaps or liquidity routing. |
+
+## Blockers By Dependency Category
+
+| Category | Main Blockers | Resolution Direction |
+|---|---|---|
+| Governance | Proposal/voting/DAO authority, governance transport, plugin readiness | Governance review and explicit gates. |
+| Financial | Treasury, billing, revenue, settlement, payout, custody | Treasury/financial review and default-deny execution boundaries. |
+| Execution-Sensitive | Trading, DEX swaps, ACS provisioning, lottery payout/randomness, wallet signing | Execution review only after governance/security evidence. |
+| Technical | AxodusAPP integration, Core architecture, read-only contracts | Architecture review and contract baselines. |
+| Documentation | Publication authority, versioning, high-risk claims | Documentation governance and publication approval. |
+| Validation | Core pilots, BBA schema wiring, Lottery schema/capture warnings | Focused validation/cleanup requests. |
+
+## Recommended Dependency Resolution Sequence
+
+1. CROSS-REQ-03 - Readiness & Ownership Alignment.
+2. CROSS-REQ-04 - Governance & Execution Boundary Review.
+3. Business-owned dependency ownership package for L4 consolidated planning.
+4. Marketplace payment/settlement governance boundary decision.
+5. Academy reward/certification/contract boundary decision.
+6. Mining provider/payout boundary hardening.
+7. ACS execution authority and credential boundary review.
+8. Trading Credential Vault and execution gate review.
+9. Defi Phase 3 treasury/custody planning decision.
+10. Documentation publication authority/versioning decision.
+
+## Boundary Statement
+
+This graph is a portfolio visibility artifact. It does not authorize implementation, integration, execution, production publication, production credentials, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, governance execution, billing execution or production readiness.

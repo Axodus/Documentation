@@ -1,0 +1,166 @@
+# Axodus Readiness and Ownership Alignment
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-03 - Readiness & Ownership Alignment
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This file is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Purpose
+
+This alignment model connects opportunity ownership, dependency ownership, nucleus readiness and escalation responsibility across Axodus.
+
+It creates portfolio visibility only. It does not implement integrations, APIs, product functionality, MCP services, providers, governance execution, treasury execution, trading execution, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, wallet signing, on-chain writes or production readiness.
+
+## Inputs Reviewed
+
+- `/opt/Axodus/.instructions/AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_CROSS_NUCLEUS_DEPENDENCY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_DEPENDENCY_GRAPH_SUMMARY.md`
+- `/opt/Axodus/Business/docs/architecture/business-architecture-baseline.md`
+- `/opt/Axodus/Business/docs/business/opportunity-pipeline-framework.md`
+- `/opt/Axodus/Business/docs/business/product-catalog-and-portfolio-registry.md`
+- `/opt/Axodus/Business/docs/business/dependency-and-integration-map.md`
+- `/opt/Axodus/Business/docs/business/risk-and-governance-classification.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_PORTFOLIO_HANDOFF.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_L4_CONSOLIDATION_ASSESSMENT.md`
+- Available `.instructions` evidence for Core, Governance, Documentation, Dex, Defi, AxodusAPP, Business, Marketplace, Academy, Mining, ACS, Trading, BBA-Agency and Lottery.
+
+## Responsibility Model
+
+| Role | Definition |
+|---|---|
+| OWNER | Primary accountable nucleus for the opportunity, dependency or readiness artifact. |
+| SUPPORTER | Nucleus providing evidence, input, surface, review or boundary context. |
+| APPROVER | Authority required before advancement, publication, implementation or execution-sensitive work. |
+| EXECUTOR | Nucleus that would own real execution if a separate future request authorizes it. |
+| REVIEWER | Nucleus required to review risk, architecture, governance, treasury, security or documentation impact. |
+| CONSUMER | Nucleus that consumes the output or depends on the capability. |
+| BLOCKER_OWNER | Nucleus responsible for resolving or explicitly accepting a blocker. |
+| ESCALATION_OWNER | Nucleus or review path responsible when a dependency exceeds current readiness. |
+
+## Readiness Model
+
+| Score | Portfolio Label | Meaning |
+|---:|---|---|
+| 0 | READINESS_UNKNOWN | Evidence does not support a readiness decision. |
+| 1 | READINESS_DRAFT | Draft or concept evidence exists, but it is not yet assessed. |
+| 2 | READINESS_ASSESSED | Evidence and blockers are documented, but further approval or validation is required. |
+| 3 | READINESS_APPROVED | Non-executive advancement is approved under documented boundaries. |
+| 4 | READINESS_READY | Evidence supports next-stage planning inside the approved non-executive scope. |
+
+## Ownership Confidence
+
+| Confidence | Interpretation |
+|---|---|
+| HIGH | Ownership is explicit in STATUS, HANDOFF, registry, report or maturity evidence. |
+| MEDIUM | Ownership is supported by several documents but not always stated consistently. |
+| LOW | Ownership is weakly documented or mostly roadmap-derived. |
+| UNKNOWN | Ownership cannot be determined from inspected evidence. |
+
+## Readiness Gap Model
+
+| Gap | Meaning |
+|---|---|
+| NO_GAP | Current non-executive scope has enough ownership/readiness evidence. |
+| DOCUMENTATION_GAP | Evidence exists but is missing, stale, partial or local/unversioned. |
+| VALIDATION_GAP | Validation evidence is missing, stale, partial or not comparable. |
+| OWNERSHIP_GAP | Owner, approver, executor, consumer or escalation owner is ambiguous. |
+| GOVERNANCE_GAP | Governance approval or policy path is required before advancement. |
+| EXECUTION_BOUNDARY_GAP | Scope touches execution-sensitive behavior that remains blocked. |
+| DEPENDENCY_GAP | Required dependency is not ready, not reviewed or not formally accepted. |
+| BLOCKER_GAP | Blocker ownership, status or resolution path is incomplete. |
+
+## Nucleus Ownership Alignment
+
+| Nucleus | Primary Role | Ownership Scope | Support Scope | Execution Authority | Approval Authority | Current Maturity | Readiness State | Key Blockers |
+|---|---|---|---|---|---|---|---|---|
+| Core | Architecture and shared substrate owner | Architecture conventions, identity/security boundaries, consumer pilots, RC readiness | Governance, ACS, Business, Documentation | DISABLED unless separately approved | ARCHITECTURE_REVIEW | L5 | READINESS_APPROVED | Consumer pilot and RC evidence must remain explicit. |
+| Governance | Governance authority and read-only governance model owner | Proposals, DAO/federation boundaries, read-only transport contracts, governance review gates | Business, Core, AxodusAPP, Documentation | Governance execution DISABLED unless separately approved | GOVERNANCE_REVIEW | L5 | READINESS_APPROVED | Executor, treasury and mutation paths remain gated. |
+| Documentation | Publication governance and documentation evidence owner | VitePress content, publication governance, release/rollback controls | Business, Core, Governance | NONE | BUSINESS_REVIEW plus publication authority | L4 Readiness | READINESS_APPROVED | Publication authority and root global-doc versioning unresolved. |
+| Dex | Read-only provider reliability and DEX boundary owner | Provider normalization, cache/TTL, read-only DEX data, no-swap boundaries | Business, AxodusAPP, Defi, Core | DEX execution DISABLED | ARCHITECTURE_REVIEW for read-only, EXECUTION_REVIEW for any future execution | L4 Readiness | READINESS_READY | Swaps, routing execution, liquidity and treasury integrations remain blocked. |
+| Defi | Treasury strategy and custody planning owner | Phase 3 treasury/custody/oracle/reconciliation planning | Business, Governance, Core | Treasury execution DISABLED | TREASURY_REVIEW | L4 Readiness | READINESS_ASSESSED | Custody, staking, treasury movement and implementation not approved. |
+| AxodusAPP | Integration shell and read-only presentation owner | Frontend/module visibility, read-only consumption surfaces | Business, Governance, Dex, Documentation, product nuclei | Wallet/trading execution DISABLED | ARCHITECTURE_REVIEW | L4 Readiness | READINESS_ASSESSED | Uneven module maturity and real backend integration pending. |
+| Business | Non-executive portfolio coordination owner | Opportunity lifecycle, product catalog, dependency map, risk/governance classification, handoffs | All nuclei | NONE | BUSINESS_REVIEW and escalation to owner paths | L4 Consolidated | READINESS_READY | Billing, treasury, governance execution, ACS provisioning and persistence execution blocked. |
+| Marketplace | Marketplace product and settlement-boundary owner | Payment/settlement readiness, product access, minting/value-transfer boundaries | Business, Governance, Defi, AxodusAPP | Settlement execution DISABLED | TREASURY_REVIEW and GOVERNANCE_REVIEW | L4 Candidate | READINESS_ASSESSED | Payment, settlement, minting, wallet and treasury authority unresolved. |
+| Academy | Education, certification and reward-boundary owner | Learning flows, certification/reward readiness, content/product boundaries | Business, Governance, Defi, AxodusAPP | Reward/certification execution DISABLED | GOVERNANCE_REVIEW | L4 Candidate | READINESS_ASSESSED | Rewards, contract deployment, minting and treasury movement blocked. |
+| Mining | Mining provider and payout-boundary owner | Provider readiness, payout/accounting/custody boundaries | Business, Defi, Governance | Payout/provider execution DISABLED | TREASURY_REVIEW | L4 Candidate | READINESS_ASSESSED | Provider custody/execution, payout and accounting warnings unresolved. |
+| ACS | Guarded runtime and execution-authority boundary owner | ACS contracts, isolation, receipts, telemetry, sandbox policies | Business, Core, Governance, Trading | ACS provisioning/autonomy DISABLED | EXECUTION_REVIEW | L4 Candidate | READINESS_ASSESSED | Execution authority, credentials and autonomous runtime remain blocked. |
+| Trading | Trading persistence and execution-gate owner | Local Postgres E2E, credential vault planning, exchange execution boundaries | Business, ACS, Governance, Defi | Trading execution DISABLED | EXECUTION_REVIEW | L4 Candidate | READINESS_ASSESSED | Credential vault and production execution gates unresolved. |
+| BBA-Agency | Agency service delivery boundary owner | Mock/local service delivery, schema and production-claim review | Business, ACS, Marketplace | Campaign/billing/client execution DISABLED | BUSINESS_REVIEW | L3 | READINESS_ASSESSED | Dedicated schema mapping and production claim review remain open. |
+| Lottery | Lottery compliance/randomness/payout boundary owner | Mock/local lottery model, compliance and payout readiness blockers | Business, Governance, Defi, Core | Lottery execution DISABLED | EXECUTION_REVIEW | L3 | READINESS_ASSESSED | Compliance, VRF/randomness, prize, payout, wallet and on-chain execution blocked. |
+
+## Opportunity Ownership Summary
+
+All 25 official opportunities from the Global Opportunity Registry were reviewed. Full opportunity ownership fields are recorded in `AXODUS_OWNERSHIP_MATRIX.md`.
+
+| Metric | Count |
+|---|---:|
+| Opportunities reviewed | 25 |
+| High ownership confidence | 16 |
+| Medium ownership confidence | 9 |
+| Low ownership confidence | 0 |
+| Unknown ownership confidence | 0 |
+| Opportunities with execution owner set to NONE in current scope | 7 |
+| Opportunities requiring future owner approval before execution-sensitive work | 18 |
+
+## Dependency Ownership Summary
+
+All 58 official dependencies from the Cross-Nucleus Dependency Registry were reviewed. Full dependency ownership fields are recorded in `AXODUS_OWNERSHIP_MATRIX.md`.
+
+| Metric | Count |
+|---|---:|
+| Official dependencies reviewed | 58 |
+| Nucleus-level dependencies reviewed | 33 |
+| Opportunity/product/service dependencies reviewed | 25 |
+| Unverified dependencies preserved as unverified | 6 |
+| Dependencies with blocking status tied to execution or production | 36 |
+| Dependencies that can proceed as visibility/planning inputs | 22 |
+
+## Ownership Ambiguities
+
+| Ambiguity | Affected Area | Confidence | Required Resolution |
+|---|---|---|---|
+| Root global portfolio documentation has no versioned repository owner. | Global docs and reports | HIGH | Select a versioned documentation home or keep explicitly local/unversioned. |
+| Treasury/Financial Core naming and execution ownership is distributed across Defi, Governance and Core evidence. | Defi, treasury, financial scopes | MEDIUM | Define formal treasury owner and escalation path before any fund-impacting request. |
+| AxodusAPP wallet surface ownership is distinct from product execution ownership but needs stronger contract evidence. | AxodusAPP and execution-sensitive nuclei | MEDIUM | Define wallet/read-only/display contract before any wallet-adjacent planning. |
+| Harmony DAO is referenced as a supporting dependency but is not represented as an Axodus nucleus. | Governance plugin opportunities | MEDIUM | Add external dependency owner documentation before plugin advancement. |
+| Business product catalog records may become UI-visible through AxodusAPP, but UI ownership transfer is not yet formalized. | Business, AxodusAPP | MEDIUM | Create read-only consumer contract before UI implementation. |
+
+## Readiness Conclusions
+
+- Business is the portfolio planning and classification owner, not an execution owner.
+- Governance, Defi/Treasury, Dex, Trading, Marketplace, Mining, Lottery, ACS and AxodusAPP retain execution-sensitive ownership for their respective domains.
+- Documentation owns publication governance but cannot publish without separate authority.
+- Read-only and mock/local visibility can advance through architecture/business review when no execution path is introduced.
+- Execution-sensitive opportunities remain blocked until the owning nucleus and required governance/treasury/security review approve a separate future request.
+
+## Recommended Resolution Sequence
+
+1. CROSS-REQ-04 - Governance & Execution Boundary Review.
+2. Formalize root global docs versioning/ownership.
+3. Define treasury owner and escalation path for Defi/Treasury/Financial Core scopes.
+4. Create read-only Business-to-AxodusAPP consumer contract before portfolio UI work.
+5. Review execution-sensitive owners for ACS, Trading, Marketplace, Mining, Lottery and Dex before any L4 implementation cycle.
+
+## Boundary Statement
+
+This alignment does not authorize production readiness, implementation, integration, publication, governance execution, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, billing execution, production credentials or on-chain writes.
+
+## Assessment
+
+READINESS_OWNERSHIP_ALIGNMENT_ESTABLISHED

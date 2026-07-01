@@ -1,0 +1,128 @@
+# Axodus Readiness Gap Register
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-03 - Readiness & Ownership Alignment
+
+Versioning note: `/opt/Axodus` is not a Git repository. This register is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Gap Model
+
+| Gap | Meaning |
+|---|---|
+| NO_GAP | Current non-executive scope has enough ownership/readiness evidence. |
+| DOCUMENTATION_GAP | Evidence exists but is missing, stale, partial or local/unversioned. |
+| VALIDATION_GAP | Validation evidence is missing, stale, partial or not comparable. |
+| OWNERSHIP_GAP | Owner, approver, executor, consumer or escalation owner is ambiguous. |
+| GOVERNANCE_GAP | Governance approval or policy path is required before advancement. |
+| EXECUTION_BOUNDARY_GAP | Scope touches execution-sensitive behavior that remains blocked. |
+| DEPENDENCY_GAP | Required dependency is not ready, not reviewed or not formally accepted. |
+| BLOCKER_GAP | Blocker ownership, status or resolution path is incomplete. |
+
+Severity values: LOW, MEDIUM, HIGH, CRITICAL.
+
+## Readiness Gaps By Nucleus
+
+| Nucleus | Current Readiness | Gaps | Severity | Recommended Resolution |
+|---|---|---|---|---|
+| Core | READINESS_APPROVED | VALIDATION_GAP | MEDIUM | Complete consumer pilot/RC evidence before broader release-candidate advancement. |
+| Governance | READINESS_APPROVED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | HIGH | Keep executor/treasury/mutation gates explicit before any governance execution. |
+| Documentation | READINESS_APPROVED | DOCUMENTATION_GAP, GOVERNANCE_GAP | HIGH | Resolve publication authority, publication target and root/global versioning. |
+| Dex | READINESS_READY | EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Keep read-only/provider reliability scope; require new gate before swaps/liquidity/treasury. |
+| Defi | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Formalize treasury/custody owner and keep Phase 3 implementation blocked. |
+| AxodusAPP | READINESS_ASSESSED | DEPENDENCY_GAP, OWNERSHIP_GAP | MEDIUM | Define read-only consumer contracts before portfolio/dashboard expansion. |
+| Business | READINESS_READY | DOCUMENTATION_GAP, EXECUTION_BOUNDARY_GAP | MEDIUM | Keep Business non-executive; migrate root registries to versioned docs when approved. |
+| Marketplace | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Run payment/settlement governance boundary decision before advancement. |
+| Academy | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Run reward/certification/contract boundary decision. |
+| Mining | READINESS_ASSESSED | VALIDATION_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Harden provider/payout boundaries and classify validation warnings. |
+| ACS | READINESS_APPROVED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | CRITICAL | `L4_READINESS_ADOPTED`; keep execution authority, credentials and production controls blocked. |
+| Trading | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Run credential vault and execution gate review before live/paper execution planning. |
+| BBA-Agency | READINESS_ASSESSED | VALIDATION_GAP, BLOCKER_GAP | MEDIUM | Resolve schema mapping and production claim review before L4 advancement. |
+| Lottery | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Keep mock/local until compliance, randomness, prize and payout gates exist. |
+
+## Readiness Gaps By Opportunity
+
+| Opportunity ID | Primary Owner | Readiness State | Gaps | Severity | Recommended Resolution |
+|---|---|---|---|---|---|
+| OPP-001 | Business | READINESS_APPROVED | DOCUMENTATION_GAP | LOW | Keep registry local/unversioned until versioning is selected. |
+| OPP-002 | Business | READINESS_APPROVED | DOCUMENTATION_GAP | LOW | Align catalog with versioning and publication boundaries. |
+| OPP-003 | Business | READINESS_DRAFT | VALIDATION_GAP, DEPENDENCY_GAP | MEDIUM | Do not implement portfolio intelligence until read-only consumer contract exists. |
+| OPP-004 | Business/Governance | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | CRITICAL | Keep Governance.Country visible only; Governance owns execution. |
+| OPP-005 | Business/Defi | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Hold Vault.Country until treasury/custody governance exists. |
+| OPP-006 | Business/Dex | READINESS_ASSESSED | EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Keep Dex.Country aligned with read-only Dex readiness only. |
+| OPP-007 | Business/Governance | READINESS_ASSESSED | GOVERNANCE_GAP, OWNERSHIP_GAP | HIGH | Document Harmony DAO owner before plugin advancement. |
+| OPP-008 | Business/Governance | READINESS_ASSESSED | GOVERNANCE_GAP, OWNERSHIP_GAP | HIGH | Keep delegation plugin mock-only until Governance review. |
+| OPP-009 | Business/Governance | READINESS_ASSESSED | GOVERNANCE_GAP, OWNERSHIP_GAP | HIGH | Hold token authority review before real voting use. |
+| OPP-010 | Business/ACS | READINESS_ASSESSED | EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Keep ACS provisioning blocked until ACS execution review. |
+| OPP-011 | Business/ACS | READINESS_ASSESSED | EXECUTION_BOUNDARY_GAP | HIGH | Preserve read-only/mock intake assistant boundary. |
+| OPP-012 | Business | READINESS_READY | DOCUMENTATION_GAP | LOW | Keep Business non-executive and registry-backed. |
+| OPP-013 | Marketplace | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Run payment/settlement governance boundary decision. |
+| OPP-014 | Academy | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | HIGH | Resolve reward/certification authority. |
+| OPP-015 | Mining | READINESS_ASSESSED | VALIDATION_GAP, EXECUTION_BOUNDARY_GAP | HIGH | Harden provider/payout boundary and warning evidence. |
+| OPP-016 | Trading | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | CRITICAL | Run credential vault and execution gate review. |
+| OPP-017 | ACS | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | CRITICAL | Run ACS execution authority review. |
+| OPP-018 | Defi | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Keep Phase 3 planning-only until custody/governance approval. |
+| OPP-019 | Dex | READINESS_READY | NO_GAP | LOW | Preserve read-only source attribution and no-swap scanner boundaries. |
+| OPP-020 | AxodusAPP | READINESS_ASSESSED | DEPENDENCY_GAP, OWNERSHIP_GAP | MEDIUM | Wait for Business registry consumer contract and module readiness. |
+| OPP-021 | Documentation | READINESS_APPROVED | GOVERNANCE_GAP, DOCUMENTATION_GAP | HIGH | Resolve publication authority/versioning before publication execution. |
+| OPP-022 | Lottery | READINESS_ASSESSED | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Keep L3/mock-local until compliance/randomness/payout gate. |
+| OPP-023 | BBA-Agency | READINESS_ASSESSED | VALIDATION_GAP, BLOCKER_GAP | MEDIUM | Resolve schema and claim review before stronger maturity. |
+| OPP-024 | Core | READINESS_APPROVED | VALIDATION_GAP | MEDIUM | Complete Governance/ACS consumer pilot review. |
+| OPP-025 | Governance | READINESS_APPROVED | GOVERNANCE_GAP | MEDIUM | Execute only pure/static read-only transport contract tests if approved. |
+
+## Readiness Gaps By Dependency Chain
+
+| Chain | Gap Types | Severity | Recommended Resolution |
+|---|---|---|---|
+| Vault.Country -> Defi -> Governance/Core | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Define treasury/custody gate before any execution-sensitive request. |
+| Trading Credential Vault -> Trading -> Governance/Defi/ACS | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Keep credentials and exchange execution blocked pending execution gate review. |
+| ACS Execution Authority -> ACS -> Core/Governance/Trading | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP | CRITICAL | Require ACS-GATE-02 and security/governance review before execution authority. |
+| Lottery Randomness/Payout -> Lottery -> Governance/Defi | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | CRITICAL | Require compliance, randomness, prize and payout governance before advancement. |
+| Marketplace Settlement -> Marketplace -> Defi/Governance/AxodusAPP | GOVERNANCE_GAP, EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Create payment/settlement governance boundary decision. |
+| Dex.Country -> Dex -> Defi/Governance/AxodusAPP | EXECUTION_BOUNDARY_GAP, DEPENDENCY_GAP | HIGH | Preserve read-only Dex readiness; block swaps and treasury exposure. |
+| Business Registry -> Business -> Documentation/AxodusAPP/Core | DOCUMENTATION_GAP, OWNERSHIP_GAP | MEDIUM | Select versioned home and define read-only consumer contract. |
+
+## Unverified Items
+
+Unverified opportunities and dependencies from CROSS-REQ-01 and CROSS-REQ-02 remain unpromoted. They are not official opportunities, dependencies, ownership assignments or readiness commitments until source documentation is created.
+
+## Boundary Statement
+
+This gap register documents blockers and next actions only. It does not authorize implementation, integration, production publication, governance execution, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, billing execution, production credentials or on-chain writes.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Readiness Note
+
+`READINESS_READY_LOCAL_SCOPE` means ACS has completed its local/config-first/read-only evidence chain with passing validation, completed security review and completed boundary-enforcement tests. It supports `PROMOTE_TO_L4_READINESS` only.
+
+The ACS execution-authority opportunity and dependency chain remain blocked. Marketplace remains `HOLD` / `BACKLOG_READY` and non-executive where referenced.
+
+## 2026-06-23 - ACS-GOV-01 Adoption Note
+
+ACS governance adoption is `L4_READINESS_ADOPTED`. Current L-Level is `L4_READINESS`; previous L-Level was `L4_CANDIDATE`; D-Level remains `D3+`.
+
+The remaining `GOVERNANCE_GAP` and `EXECUTION_BOUNDARY_GAP` classifications apply to execution and production authority, not to the adopted readiness maturity state. L4 Consolidated remains `NO`.
+
+## 2026-06-23 - ACS-GOV-02 Consolidated Gate Gaps
+
+Current L4 Consolidated assessment gaps:
+
+- assessment-time evidence freshness
+- explicit assessment authorization
+- security-control disposition, threat model and incident-response notes
+- cross-nucleus consistency review
+- historical global snapshot reconciliation/classification
+- four-role governance sign-off
+
+These gaps do not change adopted `L4_READINESS`. They block only a future consolidated assessment. All execution and production gaps remain blocked boundaries.

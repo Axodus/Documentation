@@ -9,7 +9,8 @@ export function normalizeText(value) {
 }
 
 export function sha256(value) {
-  return createHash('sha256').update(String(value), 'utf8').digest('hex')
+  const hash = createHash('sha256')
+  return (Buffer.isBuffer(value) ? hash.update(value) : hash.update(String(value), 'utf8')).digest('hex')
 }
 
 function sortObjectKeys(value) {

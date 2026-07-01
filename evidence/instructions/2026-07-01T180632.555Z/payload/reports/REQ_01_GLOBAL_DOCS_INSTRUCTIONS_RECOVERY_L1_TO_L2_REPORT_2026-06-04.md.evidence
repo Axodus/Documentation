@@ -1,0 +1,276 @@
+# REQ-01 - Global Docs / Instructions Recovery L1 to L2 Report - 2026-06-04
+
+## Purpose
+
+Recover the Global Docs / Instructions layer from L1 - Documentado toward L2 - Validado by creating decision-ready documentation for source-of-truth ownership, governance ownership, versioning strategy, validation procedure, and blocker handling.
+
+This request does not execute a versioning migration and does not initialize a Git repository at `/opt/Axodus`.
+
+## Baseline
+
+- PORTFOLIO SPRINT 01: COMPLETE.
+- RECAST 01: COMPLETE.
+- Global Docs / Instructions: L1 - Documentado.
+- Portfolio State: RECOVER.
+- Next Target: L2 - Validado.
+- Known blocker: `/opt/Axodus` is not a Git repository.
+
+## Files Inspected
+
+Root/global inspection:
+
+- `/opt/Axodus/.instructions`
+- `.instructions/NUCLEUS_MATURITY_FRAMEWORK.md`
+- `.instructions/NUCLEUS_MATURITY_REGISTER.md`
+- `.instructions/PORTFOLIO_STATUS.md`
+- `.instructions/PORTFOLIO_ROADMAP.md`
+- `.instructions/PORTFOLIO_SPRINT_01_ALLOCATION.md`
+- `.instructions/PORTFOLIO_REQUEST_QUEUE.md`
+- `.instructions/BLOCKER_REGISTER.md`
+- `.instructions/ECOSYSTEM_STATUS.md`
+- `.instructions/ROADMAP.md`
+- `.instructions/WORKFLOW.md`
+
+Optional reference scope:
+
+- `/opt/Axodus/Core/.instructions`
+- `/opt/Axodus/Documentation/.instructions`
+
+## Initial Root Git Status
+
+Command:
+
+```bash
+cd /opt/Axodus
+git status --short --branch || true
+```
+
+Result:
+
+```text
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+Interpretation: expected. `/opt/Axodus` remains a coordination shell, not a Git repository.
+
+## Global Docs Inventory
+
+| File | Status |
+|---|---|
+| `NUCLEUS_MATURITY_FRAMEWORK.md` | present |
+| `NUCLEUS_MATURITY_REGISTER.md` | present |
+| `PORTFOLIO_STATUS.md` | present |
+| `PORTFOLIO_ROADMAP.md` | present |
+| `PORTFOLIO_SPRINT_01_ALLOCATION.md` | present |
+| `PORTFOLIO_REQUEST_QUEUE.md` | present |
+| `BLOCKER_REGISTER.md` | present |
+| `ECOSYSTEM_STATUS.md` | present |
+| `ROADMAP.md` | present |
+| `WORKFLOW.md` | present |
+| `CODEX_SUBAGENT_POLICY.md` | missing |
+| `BUB_AGENTS.md` | missing |
+| `EXECUTION_MODEL.md` | missing |
+| `BALANCING_POLICY.md` | missing |
+| `LEGACY_REQUEST_TRACK_ARCHIVE.md` | missing |
+
+Additional BUB-01 inventory notes:
+
+- `MCP.md`, `PRODUCTS.md`, `SECURITY.md`, `STANDARDS.md`, and `TOKENOMICS.md` are present but empty placeholders.
+- `STATUS_TAXONOMY.md` and `PROGRESS_REPORTING_STANDARD.md` were not present in this root.
+- Empty placeholder files should not be treated as sufficient governance evidence.
+
+Missing optional/global policy files were recorded as recovery gaps. They are not required for REQ-01 completion.
+
+## Files Created
+
+- `.instructions/GLOBAL_DOCS_SOURCE_OF_TRUTH.md`
+- `.instructions/GLOBAL_DOCS_OWNERSHIP.md`
+- `.instructions/GLOBAL_DOCS_VERSIONING_STRATEGY.md`
+- `.instructions/GLOBAL_DOCS_VALIDATION.md`
+- `.instructions/reports/REQ_01_GLOBAL_DOCS_INSTRUCTIONS_RECOVERY_L1_TO_L2_REPORT_2026-06-04.md`
+
+## Files Updated
+
+- `.instructions/BLOCKER_REGISTER.md`
+- `.instructions/PORTFOLIO_STATUS.md`
+- `.instructions/PORTFOLIO_ROADMAP.md`
+- `.instructions/ROADMAP.md`
+- `.instructions/ECOSYSTEM_STATUS.md`
+- `.instructions/WORKFLOW.md`
+
+## BUB Agent Usage
+
+Three bounded read-only BUB agents were started:
+
+- BUB-01 - Global `.instructions` inventory.
+- BUB-02 - Core/Documentation reference inspection.
+- BUB-03 - versioning strategy analysis.
+
+BUB-01, BUB-02, and BUB-03 returned before final validation and were incorporated.
+
+All BUB agents were instructed to avoid edits, git writes, repo restructuring, builds, tests, installs, services, secrets, and runtime execution.
+
+## Source-of-Truth Policy Summary
+
+Created `.instructions/GLOBAL_DOCS_SOURCE_OF_TRUTH.md`.
+
+Policy summary:
+
+- Global `.instructions` owns portfolio coordination, maturity framework, request/sprint/task taxonomy, cross-nucleus blockers, and roadmap allocation.
+- Nucleus `.instructions` owns local implementation constraints, validation commands, status, safety boundaries, and local workflow.
+- Core owns ecosystem coordination semantics, federation principles, architectural boundaries, and registry/source-of-truth concepts.
+- Documentation nucleus owns docs tooling, publishing standards, and quality processes.
+- AxodusAPP docs own frontend integration-shell and visibility boundaries.
+- Runtime/product behavior is not defined by global docs unless explicitly linked to a product nucleus.
+
+Conflict rule:
+
+- Latest coordinator-approved request, stricter safety boundary, stricter nucleus docs, Core semantics, Documentation tooling, and latest report evidence are checked in order. Unresolved conflict becomes a blocker.
+- Core Registry presence must not imply authorization, implementation, production approval, runtime activation, or policy approval.
+- Documentation should maintain the canonical public documentation surface; sprint text and planning reports must not become official public facts without review/migration.
+
+## Ownership Policy Summary
+
+Created `.instructions/GLOBAL_DOCS_OWNERSHIP.md`.
+
+Policy summary:
+
+- Portfolio Coordinator owns portfolio direction, queue sequencing, maturity framework acceptance, and cross-nucleus conflict decisions.
+- Documentation Coordinator maintains global `.instructions` structure and validation procedure.
+- Nucleus Owner owns local nucleus constraints and status.
+- Safety Reviewer reviews production/execution-sensitive changes.
+- Agent Coder executes approved tasks and validates artifacts.
+
+Coordinator approval is required for maturity changes, queue changes, safety boundary changes, execution permission changes, versioning/repository structure changes, and production-ready claims.
+
+## Versioning Options Summary
+
+Created `.instructions/GLOBAL_DOCS_VERSIONING_STRATEGY.md`.
+
+| Option | Summary | Recommendation |
+|---|---|---|
+| A | Keep global docs local-only | Temporary only |
+| B | Dedicated Axodus Documentation/Governance repo | Preferred for clean portfolio governance |
+| C | Move global docs under Core or Documentation repo | Acceptable if ownership boundaries are explicit |
+| D | Convert `/opt/Axodus` root into Git repo | Not recommended by default |
+
+Recommended option:
+
+Option B, or Option C using the existing Documentation repo if no new repo should be created.
+
+Additional guidance:
+
+- Avoid placing global portfolio operations under Core unless the content is strictly architecture/source-of-truth vocabulary.
+- Avoid using the existing Governance product repo as the global docs home by default because Governance is a product/domain nucleus and remains under HOLD/backlog control.
+
+Decision status:
+
+DECISION REQUIRED - NOT EXECUTED.
+
+No Git migration, root initialization, or file move was performed.
+
+## Validation Procedure
+
+Created `.instructions/GLOBAL_DOCS_VALIDATION.md`.
+
+Safe validation covers:
+
+- required global file existence;
+- expected root non-Git status;
+- optional boundary text checks;
+- forbidden command list;
+- L2 exit criteria;
+- failure handling.
+
+## Blockers
+
+Current blockers:
+
+- Root `/opt/Axodus` is not a Git repository.
+- Global docs are workspace-local and not formally versioned.
+- Global docs versioning strategy requires coordinator decision.
+- Repository restructuring is forbidden without explicit approval.
+- Global docs cannot claim production readiness.
+- Empty placeholder files remain: `MCP.md`, `PRODUCTS.md`, `SECURITY.md`, `STANDARDS.md`, `TOKENOMICS.md`.
+
+Decision Pending:
+
+- Select official versioning home for global Axodus instructions.
+
+## Decision Required
+
+Select official versioning home:
+
+- Option B - dedicated Axodus Documentation/Governance repo; or
+- Option C - move global docs under Core or Documentation repo; or
+- another coordinator-approved option.
+
+Do not run `git init` at `/opt/Axodus` unless explicitly approved.
+
+## Validation Commands and Results
+
+Required validation:
+
+```bash
+cd /opt/Axodus
+test -f .instructions/GLOBAL_DOCS_SOURCE_OF_TRUTH.md
+test -f .instructions/GLOBAL_DOCS_OWNERSHIP.md
+test -f .instructions/GLOBAL_DOCS_VERSIONING_STRATEGY.md
+test -f .instructions/GLOBAL_DOCS_VALIDATION.md
+test -f .instructions/BLOCKER_REGISTER.md
+test -f .instructions/PORTFOLIO_STATUS.md
+test -f .instructions/PORTFOLIO_ROADMAP.md
+test -f .instructions/reports/REQ_01_GLOBAL_DOCS_INSTRUCTIONS_RECOVERY_L1_TO_L2_REPORT_2026-06-04.md
+git status --short --branch || true
+```
+
+Expected result:
+
+- required docs: PASS;
+- root git status: expected non-Git message.
+
+Actual result:
+
+- required docs: PASS.
+- root git status: `fatal: not a git repository (or any of the parent directories): .git`.
+- optional `DISABLED` boundary search: PASS.
+
+## Boundaries Preserved
+
+- No Git repository initialized at `/opt/Axodus`.
+- No repository restructuring.
+- No docs moved.
+- No reports deleted.
+- No runtime source code changed.
+- No package files changed.
+- No installs run.
+- No builds run.
+- No product tests run.
+- No services started.
+- No secrets touched.
+- No production configs enabled.
+- No wallet signing enabled.
+- No treasury movement enabled.
+- No trading enabled.
+- No swaps enabled.
+- No payouts enabled.
+- No settlement enabled.
+- No on-chain writes enabled.
+- No production readiness claimed.
+
+## Final Status
+
+REQ-01: COMPLETE after validation.
+
+Global Docs / Instructions Recovery: COMPLETE  
+Current Level: L1  
+Target Level: L2  
+L2 Evidence: CREATED  
+Versioning Strategy: DECISION REQUIRED  
+Root Git Status: NOT A GIT REPOSITORY  
+Runtime Code: UNCHANGED  
+Execution Boundaries: PRESERVED
+
+Next:
+
+REQ-02 - Documentation Nucleus Recovery - L3 to L4.

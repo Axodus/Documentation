@@ -1,0 +1,135 @@
+# Global Docs Validation Procedure
+
+Last updated: 2026-06-04
+
+Scope: `/opt/Axodus/.instructions`
+
+Status: REQ-01 recovery artifact for Global Docs / Instructions L1 to L2.
+
+This procedure validates documentation presence and safety boundaries only. It does not validate runtime behavior and does not authorize production execution.
+
+## Required Safe Validation
+
+Run from `/opt/Axodus`:
+
+```bash
+cd /opt/Axodus
+test -d .instructions
+test -f .instructions/NUCLEUS_MATURITY_FRAMEWORK.md
+test -f .instructions/NUCLEUS_MATURITY_REGISTER.md
+test -f .instructions/PORTFOLIO_STATUS.md
+test -f .instructions/PORTFOLIO_ROADMAP.md
+test -f .instructions/BLOCKER_REGISTER.md
+test -f .instructions/PORTFOLIO_REQUEST_QUEUE.md
+test -f .instructions/PORTFOLIO_SPRINT_01_ALLOCATION.md
+test -f .instructions/GLOBAL_DOCS_SOURCE_OF_TRUTH.md
+test -f .instructions/GLOBAL_DOCS_OWNERSHIP.md
+test -f .instructions/GLOBAL_DOCS_VERSIONING_STRATEGY.md
+test -f .instructions/GLOBAL_DOCS_VALIDATION.md
+find .instructions -maxdepth 2 -type f | sort
+git status --short --branch || true
+```
+
+Expected root Git result:
+
+```text
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+This is expected until a coordinator-approved versioning decision is executed.
+
+## Optional Safe Checks
+
+Optional boundary search:
+
+```bash
+grep -R "DISABLED" .instructions/GLOBAL_DOCS_*.md .instructions/PORTFOLIO_STATUS.md .instructions/BLOCKER_REGISTER.md
+```
+
+Optional Markdown inspection:
+
+```bash
+find .instructions -maxdepth 2 -type f -name "*.md" | sort
+```
+
+Only use external markdown linters if already installed and known safe. Do not install packages to run lint.
+
+## Forbidden Validation Commands
+
+Do not run:
+
+```bash
+git init
+git add
+git commit
+git reset
+git clean
+npm install
+pnpm install
+yarn install
+npm run build
+pnpm run build
+yarn build
+npm test
+pnpm test
+yarn test
+docker compose up
+forge test
+hardhat test
+anvil
+deploy scripts
+migration scripts
+trading scripts
+swap scripts
+settlement scripts
+wallet scripts
+```
+
+Also forbidden:
+
+- repository restructuring;
+- deleting reports;
+- moving global docs;
+- starting services;
+- connecting to external APIs;
+- reading or writing secrets;
+- production config changes;
+- runtime execution;
+- wallet signing;
+- on-chain writes;
+- trading, swaps, settlement, treasury, or payout commands.
+
+## L2 Exit Criteria
+
+Global Docs / Instructions reaches L2 candidate/validated state when:
+
+- source-of-truth policy exists;
+- ownership policy exists;
+- versioning strategy exists;
+- validation procedure exists;
+- blocker register records unresolved repository/versioning decision;
+- required files pass existence validation;
+- root non-Git status is documented;
+- no runtime behavior changed;
+- no repository restructuring occurred;
+- production/execution status remains DISABLED.
+
+## Failure Handling
+
+If a required file is missing:
+
+1. Do not infer L2.
+2. Record the missing file in the report.
+3. Create or update only the approved documentation artifact.
+4. Rerun required file validation.
+
+If root Git status unexpectedly succeeds:
+
+1. Do not stage or commit.
+2. Inspect only with read-only commands.
+3. Record the changed root Git state in the report.
+4. Request coordinator decision before using root Git.
+
+## L2 Evidence
+
+This validation procedure is required evidence for Global Docs / Instructions L2. Passing it shows the global docs recovery baseline is documented and checkable; it does not resolve formal versioning.

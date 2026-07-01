@@ -1,0 +1,163 @@
+# Axodus Portfolio Request Queue
+
+Last updated: 2026-06-04
+
+Baseline: RECAST 01 and PORTFOLIO SPRINT 01 allocation.
+
+This queue is ordered for portfolio balance. It is not approval to implement runtime, execution, production config, credentials, trading, swaps, settlement, treasury, payouts, wallet signing, or on-chain writes.
+
+## REQ-01: Global Docs / Instructions Recovery - L1 to L2
+
+- Objective: decide how global `.instructions` are versioned, owned, and validated.
+- Scope: `/opt/Axodus/.instructions`.
+- Allowed actions: versioning options, ownership map, source-of-truth map, validation checklist, non-destructive docs updates.
+- Forbidden actions: initialize/move root repo, delete reports, destructive restructuring, production claims.
+- Expected deliverables: versioning decision memo, owner map, L2 exit checklist, validation command list.
+- Validation: required-file checks and root `git status --short --branch || true`.
+- Maturity exit criteria: global docs have a documented versioning/ownership strategy and repeatable validation checklist.
+
+## REQ-02: Documentation Nucleus Recovery - L3 to L4
+
+- Objective: recover Documentation nucleus instruction structure.
+- Scope: `/opt/Axodus/Documentation/.instructions`.
+- Allowed actions: create/update STATUS, ROADMAP, WORKFLOW, SECURITY, and docs validation criteria.
+- Forbidden actions: publish official release docs, overwrite strategy, change product/runtime behavior.
+- Expected deliverables: nucleus status/workflow/security/roadmap stubs and docs readiness criteria.
+- Validation: `git diff --check -- .instructions` and safe docs-file existence checks.
+- Maturity exit criteria: Documentation has complete nucleus instruction structure and L4 readiness criteria.
+
+## REQ-03: BBA-Agency Recovery - L2 to L3
+
+- Objective: define BBA mock/local evidence and non-production validation gate.
+- Scope: `/opt/Axodus/BBA-Agency/.instructions`.
+- Allowed actions: validation plan, route evidence checklist, TypeScript/Zod contract validation steps, production-claim review.
+- Forbidden actions: production campaign execution, real billing, external automation execution, payment flows.
+- Expected deliverables: L3 exit checklist, claim-risk register, validation plan.
+- Validation: documentation diff checks and safe file existence checks only unless a separate validation gate is approved.
+- Maturity exit criteria: BBA has a documented non-production validation path to L3.
+
+## REQ-04: Lottery Recovery - L2 to L3
+
+- Objective: move Lottery from backlog to controlled recovery.
+- Scope: `/opt/Axodus/Lottery/.instructions`.
+- Allowed actions: STATUS recovery plan, compliance boundary docs, mock/read-only route validation plan, randomness/VRF design stub, prize/payout gate docs.
+- Forbidden actions: prize execution, payouts, treasury movement, production VRF, contract deployment, on-chain writes.
+- Expected deliverables: L3 recovery checklist, compliance blocker map, randomness/payout boundary note.
+- Validation: documentation diff checks and optional read-only file checks.
+- Maturity exit criteria: Lottery has mock/local L3 criteria without execution authority.
+
+## REQ-05: Dex Visibility Planning - L3 to L4 Without Swaps
+
+- Objective: plan DEX read-only visibility without enabling swaps or settlement.
+- Scope: `/opt/Axodus/Dex/.instructions` and approved DEX registry docs only.
+- Allowed actions: route metadata documentation, registry-to-app map, token-list boundary docs, no-swap UI/contract map.
+- Forbidden actions: swaps, routing execution, settlement, token-list repo mutation, linked fork mutation, treasury execution.
+- Expected deliverables: DEX L4 visibility plan, no-swap/no-settlement gate, vendor-safe file list.
+- Validation: documentation diff checks; no vendor/fork traversal beyond approved paths.
+- Maturity exit criteria: DEX has a read-only L4 visibility plan with explicit execution-disabled boundaries.
+
+## REQ-06: Mining Visibility Consolidation - L3 to L4
+
+- Objective: consolidate Mining read-only visibility and provider boundary evidence.
+- Scope: `/opt/Axodus/Mining/.instructions`.
+- Allowed actions: AxodusAPP visibility map, provider mock/read-only API docs, non-execution flag review, payout/accounting gates.
+- Forbidden actions: provider custody, accounting execution, compliance execution, treasury, payout execution, real provider execution.
+- Expected deliverables: L4 visibility checklist, provider boundary map, payout/accounting blocker register.
+- Validation: documentation diff checks and safe file existence checks.
+- Maturity exit criteria: Mining has L4 visibility and read-only contract criteria.
+
+## REQ-07: Academy Contract Consolidation - L4 to L5
+
+- Objective: consolidate Academy contracts/read models without value-bearing execution.
+- Scope: `/opt/Axodus/Academy/.instructions`.
+- Allowed actions: OpenAPI/read-model documentation, repository contract review, mock PoK boundary clarification, reward/credential gates.
+- Forbidden actions: real credential issuance, reward execution, minting, transfers, withdrawals, financial-value semantics.
+- Expected deliverables: L5 contract/read-model checklist, reward/credential blocker map.
+- Validation: documentation diff checks and safe file checks; no contract tests unless separately approved.
+- Maturity exit criteria: Academy has L5 documentation-level contract/read-model readiness.
+
+## REQ-08: Business Contract Consolidation - L4 to L5
+
+- Objective: consolidate Business contracts, ACS bridge boundaries, and approval read models.
+- Scope: `/opt/Axodus/Business/.instructions`.
+- Allowed actions: ACS bridge docs, repository contract consolidation, approval-state read model docs, AxodusAPP route contract map.
+- Forbidden actions: real approvals, persistence promotion, production business execution, financial commitments.
+- Expected deliverables: L5 contract map, persistence blocker map, approval-state boundary note.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: Business has L5 contract/read-only approval model criteria.
+
+## REQ-09: Defi Contract Consolidation - L4 to L5 Without Execution
+
+- Objective: define Defi Phase 3 contract/interface readiness without implementation authority.
+- Scope: `/opt/Axodus/Defi/.instructions`.
+- Allowed actions: Phase 3 contract planning, adapter interface boundaries, simulated receipt docs, accounting/reconciliation design, risk constraints.
+- Forbidden actions: custody, staking execution, rebalancing, validator scoring execution, fund movement, production oracle/accounting/reconciliation.
+- Expected deliverables: L5 non-executing interface map, custody/governance decision dependencies, risk blocker register.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: Defi has L5 planning evidence without execution approval.
+
+## REQ-10: Marketplace L6 Readiness Gap Analysis - No Production Payments
+
+- Objective: identify Marketplace L6 gaps without enabling production payments or settlement.
+- Scope: `/opt/Axodus/Marketplace/.instructions`.
+- Allowed actions: endpoint contract completeness review, production blocker map, settlement/payment boundary docs, bridge/LayerZero gate docs.
+- Forbidden actions: wallet transactions, blockchain writes, external payment gateways, treasury, production bridge messages, settlement, minting, value-bearing asset transfer, payments.
+- Expected deliverables: L6 gap report, payment/settlement blocker map, endpoint contract completeness table.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: Marketplace has a bounded L6 readiness gap analysis, not production readiness.
+
+## REQ-11: AxodusAPP Real Data Readiness Plan - No Real Execution
+
+- Objective: plan mock-to-real read-only data readiness across modules.
+- Scope: `/opt/Axodus/AxodusAPP/.instructions`.
+- Allowed actions: integration contract map, module visibility matrix, mock-to-real transition checklist, frontend boundary docs.
+- Forbidden actions: real execution flows, live transaction initiation, wallet signing, production backend switching, treasury or settlement actions.
+- Expected deliverables: L5 readiness plan, module matrix, backend gate dependency map.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: AxodusAPP has read-only real-data readiness criteria with execution disabled.
+
+## REQ-12: Core L6 Backlog Control - No Execution Authority
+
+- Objective: keep Core L6 work bounded to backlog criteria and certification maps.
+- Scope: `/opt/Axodus/Core/.instructions`.
+- Allowed actions: L6 backlog definition, consumer certification map, public API stability criteria, registry ownership docs, versioning policy.
+- Forbidden actions: execution authority, treasury controls, product decisions, production runtime authority.
+- Expected deliverables: L6 backlog criteria, consumer certification map, registry ownership note.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: Core L6 backlog is explicit and not implementation-pulled.
+
+## REQ-13: Governance HOLD Backlog Control - No API Executor
+
+- Objective: maintain Governance HOLD and prevent transport/executor drift.
+- Scope: `/opt/Axodus/Governance/.instructions`.
+- Allowed actions: API transport gap docs, executor gate docs, read-only contract/interface inventory, validation maintenance notes.
+- Forbidden actions: API transport implementation, HTTP controllers/routes, real DB, AxodusAPP real client, executor, treasury, on-chain writes.
+- Expected deliverables: HOLD backlog update, no-executor gate, read-only interface inventory.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: Governance HOLD is current and execution/API expansion is still blocked.
+
+## REQ-14: ACS HOLD Backlog Control - No Runtime Mutation
+
+- Objective: keep ACS as a controlled dependency without runtime mutation.
+- Scope: `/opt/Axodus/ACS/.instructions`.
+- Allowed actions: backlog control, contract docs, readiness gap list, risk docs.
+- Forbidden actions: runtime mutation, Hummingbot control, trading, treasury movement, credential access, Governance/Core bypass.
+- Expected deliverables: ACS HOLD note, dependency map, runtime mutation blocker register.
+- Validation: documentation diff checks and safe file checks.
+- Maturity exit criteria: ACS HOLD is current and runtime mutation remains blocked.
+
+## REQ-15: Trading HOLD Backlog Control - No Live Trading
+
+- Objective: keep Trading in HOLD while planning credential and vendor ownership safely.
+- Scope: `/opt/Axodus/Trading/.instructions`.
+- Allowed actions: credential vault planning, paper/local boundary docs, live-trading blocker register, vendor ownership plan.
+- Forbidden actions: live trading, real exchange keys, withdrawals, production Credential Vault/KMS/HSM, production DB, treasury actions, vendor ownership changes.
+- Expected deliverables: Trading HOLD update, Credential Vault decision backlog, live-trading blocker register.
+- Validation: documentation diff checks and safe file checks; no `trading:local:e2e` unless separately approved.
+- Maturity exit criteria: Trading HOLD is current and live/credential execution remains disabled.
+
+## Queue Policy
+
+- Execute REQ-01 before broad root documentation expansion.
+- Execute recovery requests before L5/HOLD requests unless a blocker requires immediate control.
+- Every request must restate production-disabled boundaries and must include its own validation/report artifact.

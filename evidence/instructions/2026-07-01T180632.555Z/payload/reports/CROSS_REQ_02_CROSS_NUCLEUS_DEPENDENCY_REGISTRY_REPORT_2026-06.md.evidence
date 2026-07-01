@@ -1,0 +1,219 @@
+# CROSS-REQ-02 - Cross-Nucleus Dependency Registry Report
+
+Date: 2026-06-10
+
+Workspace: `/opt/Axodus`
+
+## Summary
+
+CROSS-REQ-02 established the Axodus Cross-Nucleus Dependency Registry and dependency graph summary.
+
+The registry maps nucleus-level and opportunity-level dependencies using the Business L4 dependency, risk and governance frameworks. It preserves all no-execution boundaries.
+
+Final assessment: `CROSS_NUCLEUS_DEPENDENCY_REGISTRY_ESTABLISHED`
+
+Recommended next request: `CROSS-REQ-03 - Readiness & Ownership Alignment`
+
+## Workspace State
+
+- Root workspace: `/opt/Axodus`
+- Root versioning: not a Git repository
+- Global artifacts: local/unversioned
+- Business resolved repository path: `/mnt/d/Rede/Github/Axodus/Business`
+- Product functionality changed: no
+- Package files changed: no
+- Runtime behavior changed: no
+
+## Root Versioning State
+
+`/opt/Axodus` is not a Git repository. Root global docs under `/opt/Axodus/.instructions` remain local/unversioned unless a versioned portfolio documentation repository is explicitly selected.
+
+## Input Artifacts Reviewed
+
+- `.instructions/AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `.instructions/reports/CROSS_REQ_01_GLOBAL_OPPORTUNITY_REGISTRY_REPORT_2026-06.md`
+- Business `docs/business/dependency-and-integration-map.md`
+- Business `docs/business/risk-and-governance-classification.md`
+- Business `docs/business/product-catalog-and-portfolio-registry.md`
+- Business `.instructions/BUSINESS_DEPENDENCY_AND_INTEGRATION_MAP.md`
+- Business `.instructions/BUSINESS_RISK_AND_GOVERNANCE_CLASSIFICATION.md`
+- Business `.instructions/BUSINESS_PORTFOLIO_HANDOFF.md`
+- Global portfolio status, roadmap, maturity register and blocker register
+- Nucleus status, handoff, blocker, validation and maturity files where present
+
+## Nuclei Scanned
+
+- Core
+- Governance
+- Documentation
+- Dex
+- Defi
+- AxodusAPP
+- Business
+- Marketplace
+- Academy
+- Mining
+- ACS
+- Trading
+- BBA-Agency
+- Lottery
+
+## Dependency Count
+
+| Type | Count |
+|---|---:|
+| Official dependencies | 58 |
+| Nucleus-level dependencies | 33 |
+| Opportunity/product/service dependencies | 25 |
+| Unverified dependencies | 6 |
+| Nuclei covered | 14 |
+
+## Dependency Methodology
+
+Dependencies were included only when supported by:
+
+- Business dependency map;
+- Business product catalog matrix;
+- global opportunity registry;
+- portfolio gated advancement review;
+- nucleus maturity/status/blocker evidence.
+
+Plausible but undocumented dependencies were listed under `Unverified / Needs Documentation` and were not promoted into official dependency entries.
+
+## Nucleus-Level Dependency Summary
+
+Business is the central dependency-mapping and readiness layer, but not an execution authority. It maps dependencies to Core, Governance, Defi, Dex, Marketplace, Trading, Academy, Mining, ACS, AxodusAPP, Documentation, Lottery and BBA-Agency.
+
+Execution-sensitive ownership remains with the owning nuclei:
+
+- Governance owns proposal/vote/executor authority.
+- Defi/Treasury owns treasury, custody and settlement.
+- Dex owns swaps/routing/liquidity execution.
+- Trading owns exchange execution and credentials.
+- Marketplace owns settlement, payment, minting and value transfer.
+- Mining owns provider custody/accounting/payouts.
+- ACS owns provisioning, agents, memory and workflow execution.
+- Lottery owns randomness, prizes and payouts.
+
+## Opportunity-Level Dependency Summary
+
+Each of the 25 official opportunity registry entries now has a primary dependency record. High-sensitivity opportunities are explicitly blocking execution or production until the relevant review path is complete.
+
+## Critical Dependency Chains
+
+- Vault.Country -> Defi -> Governance/Core
+- Trading Credential Vault -> Trading -> Governance/Defi/ACS
+- ACS Execution Authority -> ACS -> Core/Governance/Trading
+- Lottery Randomness/Payout -> Lottery -> Governance/Defi
+- Marketplace Settlement -> Marketplace -> Defi/Governance/AxodusAPP
+- Dex.Country -> Dex -> Defi/Governance/AxodusAPP
+
+## Blocking Dependencies
+
+| Blocking Status | Count |
+|---|---:|
+| BLOCKING_EXECUTION | 33 |
+| BLOCKING_L4_CONSOLIDATION | 4 |
+| BLOCKING_PRODUCTION | 3 |
+| NOT_BLOCKING | 18 |
+
+## Execution-Sensitive Dependencies
+
+High or critical execution-sensitive entries include:
+
+- Business -> Defi/Dex/Marketplace/Trading/Mining/ACS/Lottery
+- Marketplace -> Governance/Defi
+- Academy -> Governance/Defi
+- Mining -> Defi/Governance
+- ACS -> Core/Governance
+- Trading -> ACS/Governance/Defi
+- Lottery -> Governance/Defi
+- OPP-004 through OPP-018 where governance, treasury, ACS, DEX, settlement, payout or trading execution is implicated
+- OPP-022 Lottery randomness and payout readiness
+
+## Treasury-Sensitive Dependencies
+
+Critical or high treasury-sensitive dependencies include:
+
+- Business -> Defi
+- Business -> Dex
+- Business -> Marketplace
+- Business -> Trading
+- Business -> Academy
+- Business -> Mining
+- Business -> ACS
+- Business -> Lottery
+- Marketplace -> Defi
+- Academy -> Defi
+- Mining -> Defi
+- Trading -> Defi
+- Lottery -> Defi
+- OPP-005 Vault.Country
+- OPP-018 Defi Phase 3 Treasury Strategy Readiness
+- OPP-022 Lottery Randomness And Payout Readiness
+
+## Unverified Dependencies
+
+- Market Operations Oracle -> Dex / Trading / Governance
+- MCP Business Services -> ACS / MCP
+- Business Intelligence Services -> AxodusAPP / Documentation
+- Institutional Services -> ACS / Business
+- Generic Data Products -> Core / Documentation
+- Generic Analytics Services -> Business / AxodusAPP
+
+## Evidence Quality Summary
+
+| Evidence Quality | Count |
+|---|---:|
+| HIGH | 32 |
+| MEDIUM | 26 |
+| LOW | 0 |
+| UNKNOWN | 0 |
+
+## Recommended Resolution Sequence
+
+1. CROSS-REQ-03 - Readiness & Ownership Alignment.
+2. CROSS-REQ-04 - Governance & Execution Boundary Review.
+3. Business dependency ownership package for non-executive L4 planning.
+4. Marketplace payment/settlement governance boundary decision.
+5. Academy reward/certification/contract boundary decision.
+6. Mining provider/payout boundary hardening.
+7. ACS execution authority and credential boundary review.
+8. Trading Credential Vault and execution gate review.
+9. Defi Phase 3 treasury/custody planning decision.
+10. Documentation publication authority/versioning decision.
+
+## Recommended Next Request
+
+`CROSS-REQ-03 - Readiness & Ownership Alignment`
+
+## Files Created
+
+- `/opt/Axodus/.instructions/AXODUS_CROSS_NUCLEUS_DEPENDENCY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_DEPENDENCY_GRAPH_SUMMARY.md`
+- `/opt/Axodus/.instructions/reports/CROSS_REQ_02_CROSS_NUCLEUS_DEPENDENCY_REGISTRY_REPORT_2026-06.md`
+
+## Files Updated
+
+- `/opt/Axodus/.instructions/PORTFOLIO_STATUS.md`
+- `/opt/Axodus/.instructions/PORTFOLIO_ROADMAP.md`
+- `/opt/Axodus/.instructions/NUCLEUS_MATURITY_REGISTER.md`
+- `/opt/Axodus/.instructions/BLOCKER_REGISTER.md`
+- `/opt/Axodus/Business/.instructions/HANDOFF.md`
+- `/opt/Axodus/Business/.instructions/BUSINESS_PORTFOLIO_HANDOFF.md`
+
+## Validation
+
+Validation performed:
+
+- dependency registry exists;
+- dependency graph summary exists;
+- report exists;
+- official dependency rows have required fields;
+- unverified dependencies are separated;
+- no production readiness claim was introduced;
+- no execution authority was granted.
+
+## Boundary Confirmation
+
+No integrations, APIs, product functionality, MCP services, providers, governance execution, treasury execution, trading execution, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, wallet signing, on-chain writes or production readiness claims were introduced.

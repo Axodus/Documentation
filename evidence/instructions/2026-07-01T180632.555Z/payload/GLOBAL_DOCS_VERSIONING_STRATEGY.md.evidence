@@ -1,0 +1,202 @@
+# Global Docs Versioning Strategy
+
+Last updated: 2026-06-04
+
+Scope: `/opt/Axodus/.instructions`
+
+Status: DECISION REQUIRED - NOT EXECUTED.
+
+This document evaluates versioning strategies for global Axodus instructions. It does not initialize a repository, move files, delete reports, restructure the workspace, or change runtime behavior.
+
+## Current State
+
+- `/opt/Axodus` is a coordination shell.
+- `/opt/Axodus` is not a Git repository.
+- Global `.instructions` are workspace-local.
+- Nuclei are separate Git worktrees or symlinks into `/mnt/d/Rede/Github/Axodus/*`.
+- Global docs are operationally useful but not formally versioned at root.
+
+## Option A - Keep Global Docs Local-Only
+
+Description:
+
+Keep `/opt/Axodus/.instructions` as local coordination state without formal Git versioning.
+
+Benefits:
+
+- No migration required.
+- No repository restructuring.
+- Lowest immediate operational risk.
+- Keeps root shell simple.
+
+Risks:
+
+- Poor auditability.
+- No durable review history.
+- Hard to share or recover across machines.
+- Global source-of-truth drift can go unnoticed.
+
+Operational Impact:
+
+- Agents continue updating local files.
+- Reports must explicitly state root docs are local-only.
+- Backups or manual exports are needed.
+
+Migration Cost:
+
+- None.
+
+Git Implications:
+
+- No root commits possible.
+- Per-nucleus commits remain separate.
+
+Recommended Use Case:
+
+- Temporary holding pattern while coordinator decides official versioning home.
+
+## Option B - Create Dedicated Axodus Documentation/Governance Repo for Global Docs
+
+Description:
+
+Create or designate a dedicated repository to hold global portfolio instructions, reports, maturity framework, request queue, and blocker registers.
+
+Benefits:
+
+- Clear audit trail.
+- Clean separation from product nuclei.
+- Avoids turning `/opt/Axodus` shell into a monorepo.
+- Supports review/approval workflow for global docs.
+- Keeps portfolio coordination independent from Core implementation.
+
+Risks:
+
+- Requires repository selection/creation.
+- Requires migration/sync procedure.
+- Potential duplication between local `/opt/Axodus/.instructions` and versioned source.
+
+Operational Impact:
+
+- Global docs gain a canonical repo.
+- `/opt/Axodus/.instructions` may become a checked-out path, symlink, or synchronized copy.
+- Agents need clear rules for where to edit.
+
+Migration Cost:
+
+- Medium.
+
+Git Implications:
+
+- New or existing dedicated repo owns global docs history.
+- Root `/opt/Axodus` remains non-Git.
+
+Recommended Use Case:
+
+- Preferred when the portfolio needs independent governance and audit history without coupling to a product nucleus.
+
+## Option C - Move Global `.instructions` Under Core or Documentation Repo
+
+Description:
+
+Make either Core or Documentation the versioned home for global portfolio instructions, then expose or sync those docs into `/opt/Axodus/.instructions`.
+
+Benefits:
+
+- Uses an existing Git worktree.
+- Avoids root Git initialization.
+- Documentation repo is naturally aligned with docs tooling.
+- Core repo is naturally aligned with architecture/source-of-truth semantics.
+
+Risks:
+
+- Coupling portfolio coordination to one nucleus.
+- Core may appear to own product execution if docs are poorly named.
+- Documentation may appear to own portfolio governance if boundaries are unclear.
+- Requires strict source-of-truth language.
+
+Operational Impact:
+
+- Agents must edit the canonical repo path, not local root copies.
+- `/opt/Axodus/.instructions` must become a symlink, checkout, or documented mirror.
+
+Migration Cost:
+
+- Medium.
+
+Git Implications:
+
+- Existing repo history tracks global docs.
+- Root `/opt/Axodus` remains non-Git.
+- Nucleus repo permissions determine global docs governance.
+
+Recommended Use Case:
+
+- Good if coordinator wants minimal new infrastructure and accepts a clear ownership split.
+- Prefer Documentation for docs tooling/publishing ownership.
+- Prefer Core only if the content is strictly architectural/source-of-truth governance, not product execution.
+
+## Option D - Convert `/opt/Axodus` Root Into a Git Repository
+
+Description:
+
+Run Git at `/opt/Axodus` and version root coordination files directly.
+
+Benefits:
+
+- Directly versions current root `.instructions`.
+- No sync layer needed.
+- Simple mental model for root docs.
+
+Risks:
+
+- High risk of accidentally tracking symlinks, nested repos, generated artifacts, or vendor paths.
+- May confuse per-nucleus Git ownership.
+- Could produce a misleading monorepo boundary.
+- Requires strong `.gitignore` and repository ownership plan.
+
+Operational Impact:
+
+- Root becomes a repository over a shell containing many symlinks.
+- Agents must avoid staging linked repo content.
+- Additional safeguards required.
+
+Migration Cost:
+
+- Medium to high.
+
+Git Implications:
+
+- New root repo.
+- Potential nested-repo/symlink complexity.
+- Requires explicit coordinator approval.
+
+Recommended Use Case:
+
+- Only if the coordinator explicitly decides to version the full workspace root and accepts nested/symlink governance complexity.
+
+## Preliminary Recommendation
+
+Recommended preliminary direction: Option B, or Option C using the existing Documentation repo if no new repo should be created.
+
+Option B is preferred for clean portfolio governance and audit history. Option C is acceptable if the coordinator wants to reuse an existing repo, with Documentation as the likely home for docs process and Core as a reference for architecture/source-of-truth semantics.
+
+Avoid placing global portfolio operations under Core unless the content is strictly architecture/source-of-truth vocabulary. Avoid using the existing Governance product repo as the default global docs home because Governance is a product/domain nucleus and its own HOLD/backlog state should not own global portfolio governance.
+
+Option D is not recommended as the default. Do not run `git init` at `/opt/Axodus` unless the coordinator explicitly approves root versioning and nested/symlink safeguards.
+
+## Decision Required
+
+DECISION REQUIRED - NOT EXECUTED:
+
+Select official versioning home for global Axodus instructions.
+
+Until that decision is made:
+
+- `/opt/Axodus/.instructions` remains workspace-local;
+- root docs must state they are not formally versioned;
+- reports must preserve the root non-Git blocker;
+- no repository restructuring is allowed.
+
+## L2 Evidence
+
+This strategy contributes to L2 recovery by documenting versioning options, risks, and a preliminary recommendation. L2 does not mean the versioning migration is complete.

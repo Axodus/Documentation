@@ -1,0 +1,282 @@
+# RECAST 01 - Nucleus Maturity Audit Report - 2026-06-03
+
+## Scope
+
+Workspace root: `/opt/Axodus`
+
+Audited nuclei:
+
+- ACS
+- Academy
+- AxodusAPP
+- BBA-Agency
+- Business
+- Core
+- Defi
+- Dex
+- Documentation
+- Governance
+- Lottery
+- Marketplace
+- Mining
+- Trading
+- Global Docs / Instructions
+
+## Objective
+
+Assign a conservative L0-L7 baseline maturity level to each Axodus nucleus and create a portfolio register with confidence, blockers, portfolio state, next target, and next recommended work.
+
+This was an audit/documentation execution. It did not implement fixes.
+
+## Framework Used
+
+The audit used `.instructions/NUCLEUS_MATURITY_FRAMEWORK.md`.
+
+RECAST 00 artifacts were missing at audit start, so RECAST 01 recorded the active framework under the coordinator-approved execution gate in the request.
+
+## BUB Agents Used
+
+Five bounded read-only BUB audit agents were started:
+
+- Core / Global Docs / Documentation
+- Governance / AxodusAPP
+- Dex / Defi / Trading
+- Marketplace / Academy / BBA-Agency
+- Mining / Business / Lottery / ACS
+
+All five audit slices returned before final validation and were incorporated: Core / Global Docs / Documentation, Governance / AxodusAPP, Dex / Defi / Trading, Marketplace / Academy / BBA-Agency, and Mining / Business / Lottery / ACS.
+
+## Evidence Sources
+
+- root `.instructions` files;
+- nucleus `.instructions` directories;
+- nucleus `STATUS.md`, `TASKS.md`, `ROADMAP.md`, `WORKFLOW.md`, `SECURITY.md`, and `BUB_AGENTS.md` presence;
+- report inventories under `.instructions/reports`;
+- package script discovery from `package.json`, README files, and instruction docs;
+- safe git summaries with `git status --short --branch -uno`;
+- BBA ignore check for `.instructions/BUB_AGENTS.md`;
+- returned BUB audit slice for ACS, Business, Lottery, and Mining.
+
+No builds, tests, installs, services, runtime commands, deployments, package changes, production configs, secrets, settlement, trading, swaps, payouts, wallet signing, or on-chain writes were executed.
+
+## Maturity Table
+
+| Nucleus | Level | Level Name | Confidence | Portfolio State | Next Target |
+|---|---:|---|---|---|---:|
+| ACS | L5 | Contratualizado | High | HOLD | L6 |
+| Academy | L4 | Visível no App | High | ADVANCE | L5 |
+| AxodusAPP | L4 | Visível no App | High | ADVANCE | L5 |
+| BBA-Agency | L2 | Validado | Medium | RECOVER | L3 |
+| Business | L4 | Visível no App | Medium | ADVANCE | L5 |
+| Core | L5 | Contratualizado | High | BACKLOG | L6 |
+| Defi | L4 | Visível no App | Medium-High | ADVANCE | L5 |
+| Dex | L3 | Mock/Local | Medium | BACKLOG | L4 |
+| Documentation | L3 | Mock/Local | Medium | RECOVER | L4 |
+| Governance | L5 | Contratualizado | High | HOLD | HOLD |
+| Lottery | L2 | Validado | Medium | BACKLOG | L3 |
+| Marketplace | L5 | Contratualizado | High | ADVANCE | L6 |
+| Mining | L3 | Mock/Local | Medium-High | ADVANCE | L4 |
+| Trading | L4 | Visível no App | High | HOLD | L5 |
+| Global Docs / Instructions | L1 | Documentado | Medium | RECOVER | L2 |
+
+## Portfolio Summary
+
+- Total nuclei audited: 15 including Global Docs / Instructions.
+- Average maturity level: 3.60.
+- Highest maturity level: L5.
+- Highest maturity nuclei: ACS, Core, Governance, Marketplace.
+- Lowest maturity level: L1.
+- Lowest maturity nucleus: Global Docs / Instructions.
+- Lowest product nuclei: BBA-Agency and Lottery at L2.
+- Nuclei in L0/L1: Global Docs / Instructions.
+- Nuclei in HOLD: ACS, Governance, Trading.
+- Nuclei needing RECOVER: BBA-Agency, Documentation, Global Docs / Instructions.
+- Nuclei requiring AUDIT MORE: none assigned, but nuclei without `STATUS.md` need recovery documentation.
+- Recommended next portfolio sprint: PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation.
+
+## Per-Nucleus Notes
+
+### ACS
+
+ACS is classified L5 because instruction evidence includes API contracts, policy matrices, security models, readiness review evidence, and AxodusAPP visibility. It remains HOLD because real runtime mutation, trading, Hummingbot control, treasury movement, secrets, and bypassing Governance/Core boundaries are forbidden.
+
+### Academy
+
+Academy is classified L4 from instructions, AxodusAPP route/module visibility, mock PoK validation, local JSON persistence, in-memory test adapter, OpenAPI, Fastify routes, repository contracts, and contract read model evidence. It lacks `STATUS.md`, and production certification, rewards, credentialing, contract writes, minting, transfers, withdrawals, and financial-value semantics remain gated.
+
+### AxodusAPP
+
+AxodusAPP is classified L4. `STATUS.md` records recovered frontend validation, the app shell, tenant runtime, module visibility, and local/mock/read-only Governance integration. Real-data integration and execution flows remain blocked.
+
+### BBA-Agency
+
+BBA-Agency is classified L2. It has normalized instructions and `STATUS.md`, older mock-mode permission/test evidence, Zod schemas, TypeScript contracts, and read-only prototype route evidence. `git check-ignore -v .instructions/BUB_AGENTS.md` produced no ignore match, so instructions versioning appears resolved. Current validation remains undefined/unexecuted.
+
+### Business
+
+Business is classified L4 from mock/read-only runtime contracts, repository contract docs, ACS bridge visibility, non-execution flags, and AxodusAPP `/business/*` visibility. Persistence and real approvals remain blocked.
+
+### Core
+
+Core is classified L5. `STATUS.md` records pre-RC hardening, conformance, consumer certification, public API checks, registry/docs indexes, and product profiles. Core is not an execution authority and remains pre-RC.
+
+### Defi
+
+Defi is classified L4 from Phase 2 local/dev workflow foundation, read-only APIs, contracts, OpenAPI/mock package, simulated receipts, proposal-draft-only flows, AxodusAPP mocks, and Phase 3 planning docs. Phase 3 implementation, custody, adapters, staking, rebalancing, validator scoring, production oracle/accounting/reconciliation, and fund movement remain blocked.
+
+### Dex
+
+Dex is classified L3 overall. Narrow registry and route metadata subtracks have L5-style contract evidence, but the full DEX product remains mock/local and non-production. Linked forks, token-list repos, routing, swaps, settlement, and treasury execution remain blocked.
+
+### Documentation
+
+Documentation is classified L3. It has standards and guardrails plus prior `docs:build` and local VitePress surface evidence, but lacks nucleus `STATUS.md`, `ROADMAP.md`, `WORKFLOW.md`, and `SECURITY.md`.
+
+### Governance
+
+Governance is classified L5 and marked HOLD / PILOT COMPLETE / BACKLOG CONTROLLED. Narrow local/read-only areas may be partial L6, but the overall portfolio state remains HOLD. No Governance API transport implementation, HTTP routes/controllers, real DB, AxodusAPP real client, executor, treasury, or on-chain writes are approved.
+
+Governance API Transport Track: BACKLOG CONTROLLED.
+
+### Lottery
+
+Lottery is classified L2 from mock/read-only API and frontend fallback evidence plus known validation commands. It lacks `STATUS.md`; compliance, VRF/randomness, prize, payout, treasury, contracts, and audit design are blocked.
+
+### Marketplace
+
+Marketplace is classified L5 from AxodusAPP Marketplace visibility, local JSON/API persistence, frontend mock fallback, DTO/repository/controller interfaces, and broad `/api/marketplace` endpoint contracts. It lacks `STATUS.md`; wallet transactions, blockchain writes, external payment gateways, treasury movement, production LayerZero/bridge messages, contract settlement, minting, value-bearing asset transfer, and payments remain gated.
+
+### Mining
+
+Mining is classified L3 from read-only mock API evidence, package commands/tests, non-executing provider flags, contracts, and AxodusAPP `/mining/*` visibility. Provider custody, accounting, compliance, treasury, payout, and real provider execution are blocked.
+
+### Trading
+
+Trading is classified L4 from local Postgres E2E recovery documentation, documented `npm run trading:local:e2e -- --cleanup --json` PASS evidence, local/paper-only boundaries, Trading Core contracts/APIs, product-surface routing through other nuclei, and credential vault planning. It is HOLD because live trading, real exchange keys, withdrawals, production Credential Vault/KMS/HSM, production DB, treasury actions, and vendor ownership risks remain blocked.
+
+### Global Docs / Instructions
+
+Global Docs / Instructions is classified L1. RECAST 01 created the maturity framework and portfolio docs, but `/opt/Axodus` is not a Git repository and RECAST 00 artifacts were missing.
+
+## Git Status Summary
+
+Safe git status summaries showed before nucleus commits:
+
+- Most nuclei are on `dev...origin/dev`.
+- Documentation is on `main...origin/main`.
+- Trading is on `dev...origin/dev [ahead 1]`.
+- Core, Documentation, Governance, AxodusAPP, ACS, Business, Lottery, and Mining have untracked `.instructions/BUB_AGENTS.md` evidence from returned audit slices.
+- Root `/opt/Axodus` is not a Git repository.
+
+No destructive git commands were run.
+
+After appending maturity blocks to existing nucleus `STATUS.md` files, documentation-only commits were created in the affected Git worktrees:
+
+| Repository | Commit |
+|---|---|
+| Core | `a716ed9 Document nucleus maturity baseline` |
+| Governance | `e673f48 Document nucleus maturity baseline` |
+| AxodusAPP | `6877583 Document nucleus maturity baseline` |
+| Defi | `60c17f6 Document nucleus maturity baseline` |
+| BBA-Agency | `aa54dbf Document nucleus maturity baseline` |
+
+Final status for those repositories is `dev...origin/dev [ahead 1]`. Untracked `.instructions/BUB_AGENTS.md` files were preserved where present. Global root docs were not committed because `/opt/Axodus` is not a Git repository.
+
+## Files Created
+
+- `.instructions/NUCLEUS_MATURITY_FRAMEWORK.md`
+- `.instructions/NUCLEUS_MATURITY_REGISTER.md`
+- `.instructions/PORTFOLIO_STATUS.md`
+- `.instructions/PORTFOLIO_ROADMAP.md`
+- `.instructions/reports/PORTFOLIO_RECAST_01_NUCLEUS_MATURITY_AUDIT_REPORT_2026-06-03.md`
+
+## Files Updated
+
+- `.instructions/BLOCKER_REGISTER.md`
+- `.instructions/ECOSYSTEM_STATUS.md`
+- `.instructions/ROADMAP.md`
+- `.instructions/WORKFLOW.md`
+- `Core/.instructions/STATUS.md`
+- `Governance/.instructions/STATUS.md`
+- `AxodusAPP/.instructions/STATUS.md`
+- `Defi/.instructions/STATUS.md`
+- `BBA-Agency/.instructions/STATUS.md`
+
+## Commits
+
+- Core: `a716ed9`
+- Governance: `e673f48`
+- AxodusAPP: `6877583`
+- Defi: `60c17f6`
+- BBA-Agency: `aa54dbf`
+- Global docs: not committed; `/opt/Axodus` is not a Git repository.
+
+## Validation Commands
+
+Final required-file validation was run:
+
+```bash
+cd /opt/Axodus
+test -f .instructions/NUCLEUS_MATURITY_FRAMEWORK.md
+test -f .instructions/NUCLEUS_MATURITY_REGISTER.md
+test -f .instructions/PORTFOLIO_STATUS.md
+test -f .instructions/PORTFOLIO_ROADMAP.md
+test -f .instructions/BLOCKER_REGISTER.md
+test -f .instructions/reports/PORTFOLIO_RECAST_01_NUCLEUS_MATURITY_AUDIT_REPORT_2026-06-03.md
+test -f /opt/Axodus/Governance/.instructions/STATUS.md || true
+test -f /opt/Axodus/AxodusAPP/.instructions/STATUS.md || true
+test -f /opt/Axodus/Dex/.instructions/STATUS.md || true
+test -f /opt/Axodus/Core/.instructions/STATUS.md || true
+test -f /opt/Axodus/BBA-Agency/.instructions/STATUS.md || true
+```
+
+Result: PASS.
+
+Nucleus documentation diff checks were run:
+
+```bash
+for d in Core Governance AxodusAPP Defi BBA-Agency; do
+  git -C "/opt/Axodus/$d" diff --check -- .instructions/STATUS.md
+done
+```
+
+Result: PASS.
+
+Root git check:
+
+```bash
+git status --short --branch
+```
+
+Result: FAIL as expected; `/opt/Axodus` is not a Git repository.
+
+## Boundaries Preserved
+
+- No runtime code changed.
+- No product source code changed.
+- No package files changed.
+- No builds/tests/install commands run.
+- No linked/vendor repos modified.
+- No DEX forks or token-list repos modified.
+- No native interface clone modified.
+- No secrets or credential paths touched.
+- No trading, swaps, settlement, treasury, payout, wallet signing, or on-chain writes enabled.
+
+## Known Limitations
+
+- All five BUB audit slices returned before final validation.
+- Maturity classifications are conservative and based on available local documentation/evidence, not fresh technical validation.
+- Root global docs are workspace-local because `/opt/Axodus` is not a Git repository.
+- Several nuclei lack `STATUS.md`; this report documents the absence but does not create new nucleus status files where missing.
+
+## Final Status
+
+RECAST 01: COMPLETE
+
+Nucleus Maturity Audit: COMPLETE  
+Maturity Register: CREATED  
+Portfolio Classification: CREATED  
+Governance Track: HOLD / PILOT COMPLETE / BACKLOG CONTROLLED  
+Lowest-Maturity Nucleus: Global Docs / Instructions  
+Lowest Product Nuclei: BBA-Agency and Lottery  
+Next Portfolio Sprint: PORTFOLIO SPRINT 01 - Balanced Roadmap & Sprint Allocation

@@ -1,0 +1,144 @@
+# PORTFOLIO-REQ-03 - Portfolio Gated Advancement Review
+
+Date: 2026-06-08
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This report is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Summary
+
+PORTFOLIO-REQ-03 consolidates the portfolio advancement decision after:
+
+- Portfolio Status Normalization;
+- Portfolio Validation Refresh;
+- TRADING-REQ-04 Safe Local Postgres E2E Revalidation;
+- ACS-GATE-01 L4 Candidate Evidence Review.
+
+No product features were implemented. No production integrations, secrets, wallet signing, treasury movement, swaps, minting, settlement, payouts, production credentials, contract deployment, trading execution or production readiness claims were introduced.
+
+Portfolio recommendation: `PORTFOLIO_READY_FOR_SELECTIVE_L4_ADVANCEMENT`
+
+Selected next cycle: `Business L4 Consolidation`
+
+## Nuclei Reviewed
+
+- Core
+- Governance
+- Documentation
+- Dex
+- Business
+- Mining
+- Academy
+- Marketplace
+- ACS
+- BBA-Agency
+- Lottery
+- Trading
+- Defi
+- AxodusAPP
+
+## Maturity Matrix
+
+| Nucleus | Maturity | Evidence Quality | Portfolio Risk | Advancement Recommendation | Rationale |
+|---|---|---|---|---|---|
+| Core | L5 | HIGH | LOW | HOLD | Pre-RC contractual/conformance evidence is strong; RC, runtime and adapter activation remain blocked. |
+| Governance | L5 | HIGH | MEDIUM | HOLD | Strong read-model, query and validation evidence; API transport, executor, persistence and treasury remain gated. |
+| Documentation | L4 Readiness | HIGH | MEDIUM | HOLD | VitePress build/content/governance evidence exists; publication authority and versioning remain unresolved. |
+| Dex | L4 Readiness | HIGH | MEDIUM | HOLD | DEX-REQ-11 completed provider reliability, cache, stale/fallback and boundary validation; functional evolution is paused. |
+| Business | L4 Candidate | HIGH | MEDIUM | ADVANCE | `npm run check` passed with build, validators and 102 tests; billing, treasury and production provisioning remain blocked. |
+| Mining | L4 Candidate | MEDIUM | MEDIUM | HOLD | Tests/typecheck/lint/build passed with warnings; payout, custody and treasury remain blocked. |
+| Academy | L4 Candidate | MEDIUM | MEDIUM | HOLD | Frontend/API/build/contract tests passed with warnings; rewards, certification, contract deployment and treasury remain blocked. |
+| Marketplace | L4 Candidate | HIGH | HIGH | HOLD | Tests/lint/build passed; payments, settlement, minting, wallet, bridge and treasury remain high-risk blockers. |
+| ACS | L4 Candidate | HIGH | HIGH | HOLD | ACS-GATE-01 passed with 152 tests and guarded execution evidence; autonomous execution, credentials, Hummingbot runtime and treasury remain blocked. |
+| BBA-Agency | L3 | MEDIUM | MEDIUM | HOLD | L3 candidate evidence exists with mock/local fixtures and validation; schema mapping and production claim review remain open. |
+| Lottery | L3 | MEDIUM | HIGH | HOLD | Mock/local lottery evidence exists; compliance, VRF/randomness, prizes, payouts, treasury and on-chain execution remain blocked. |
+| Trading | L4 Candidate | HIGH | HIGH | HOLD | TRADING-REQ-04 local Postgres E2E passed; live trading, production credentials, withdrawals and treasury remain blocked. |
+| Defi | L4 Readiness | MEDIUM | HIGH | HOLD | Phase 2/3 planning evidence exists; custody, staking, validator scoring, oracle/reconciliation and treasury execution remain not approved. |
+| AxodusAPP | L4 Readiness | MEDIUM | MEDIUM | HOLD | Integration shell evidence exists; uneven module maturity and real backend integration remain pending. |
+
+## Promotion Eligibility
+
+Eligible for selective L4 consolidation:
+
+- Business
+
+Conditionally eligible after bounded gate decisions:
+
+- Mining
+- Academy
+- Marketplace
+- ACS
+- Trading
+
+Hold for governance or production-sensitive reasons:
+
+- Core
+- Governance
+- Documentation
+- Dex
+- Defi
+- AxodusAPP
+- BBA-Agency
+- Lottery
+
+## Blocker Severity
+
+| Severity | Nuclei | Summary |
+|---|---|---|
+| HIGH | Marketplace, ACS, Lottery, Trading, Defi | Payment/settlement, autonomous execution, prize/payout, live trading, custody/treasury or compliance-sensitive blockers. |
+| MEDIUM | Documentation, Dex, Business, Mining, Academy, BBA-Agency, AxodusAPP, Governance | Publication, provider, billing, rewards, schema, integration or transport blockers that do not prevent bounded planning/consolidation. |
+| LOW | Core | Strong contractual evidence, but still pre-RC and non-runtime. |
+
+## Portfolio Balance
+
+The portfolio now has materially stronger maturity symmetry than before Portfolio Status Normalization:
+
+- Core and Governance remain high-confidence L5 contractual nuclei.
+- Documentation and Dex are L4 readiness tracks, not publication/execution tracks.
+- Business, Mining, Academy, Marketplace, ACS and Trading now have L4 candidate evidence or gate-reviewed L4 candidate decisions.
+- BBA-Agency and Lottery remain L3 local/mock candidates.
+- Defi and AxodusAPP remain special-case readiness/planning/integration tracks.
+
+The portfolio is ready for selective L4 advancement, but not for production release or execution-sensitive activation.
+
+## Executive Recommendation
+
+Recommendation: `PORTFOLIO_READY_FOR_SELECTIVE_L4_ADVANCEMENT`
+
+Rationale:
+
+- Business, Mining, Academy, Marketplace, ACS and Trading have current validation evidence.
+- Trading and ACS had their remaining gate decisions completed after the validation refresh.
+- Multiple nuclei can now support bounded L4 consolidation work.
+- Production-sensitive blockers remain explicit and active.
+- No nucleus is approved for production readiness.
+
+## Selected Next Cycle
+
+Selected next cycle: `Business L4 Consolidation`
+
+Justification:
+
+- Business has high evidence quality after `npm run check` passed with build, validators and 102 tests.
+- Business is a central integration domain for enterprise/customer/runtime contracts.
+- Business L4 consolidation can be scoped to repository contracts, persistence boundaries, billing policy documentation and non-executing integration readiness.
+- It has lower immediate execution sensitivity than Marketplace settlement, Academy rewards/contracts, Mining payouts, ACS execution authority or Trading exchange execution.
+
+## Boundaries Preserved
+
+- Production readiness: DISABLED
+- Wallet signing: DISABLED
+- Treasury movement: DISABLED
+- Trading execution: DISABLED
+- Swaps/liquidity routing: DISABLED
+- Payment/payout/settlement execution: DISABLED
+- Minting/value-bearing transfers: DISABLED
+- On-chain writes: DISABLED
+- Secrets/production credentials: DISABLED
+
+## Recommended Next Request
+
+`BUSINESS-L4-REQ-01 - Business L4 Consolidation: Persistence, Billing Boundary and Integration Readiness`
+
+The request should remain non-production and must not enable real billing, real payment flows, treasury movement, ACS production provisioning or governance execution.

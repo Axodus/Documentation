@@ -1,0 +1,202 @@
+# Axodus Portfolio Integration Assessment
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-05 - Portfolio Integration Assessment & Promotion Board Refresh
+
+Workspace: `/opt/Axodus`
+
+Versioning note: `/opt/Axodus` is not a Git repository. This assessment is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Purpose
+
+This assessment consolidates the Cross-Nucleus Integration Cycle and refreshes the portfolio advancement decision after the opportunity registry, dependency registry, ownership alignment and governance/execution boundary review.
+
+It does not implement integrations, APIs, product functionality, MCP services, providers, governance execution, treasury execution, trading execution, DEX execution, marketplace settlement, mining payouts, lottery payouts, ACS provisioning, wallet signing, on-chain writes or production readiness.
+
+## Inputs Reviewed
+
+- `/opt/Axodus/.instructions/AXODUS_GLOBAL_OPPORTUNITY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_CROSS_NUCLEUS_DEPENDENCY_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_DEPENDENCY_GRAPH_SUMMARY.md`
+- `/opt/Axodus/.instructions/AXODUS_READINESS_OWNERSHIP_ALIGNMENT.md`
+- `/opt/Axodus/.instructions/AXODUS_OWNERSHIP_MATRIX.md`
+- `/opt/Axodus/.instructions/AXODUS_READINESS_GAP_REGISTER.md`
+- `/opt/Axodus/.instructions/AXODUS_GOVERNANCE_EXECUTION_BOUNDARY_REVIEW.md`
+- `/opt/Axodus/.instructions/AXODUS_EXECUTION_AUTHORITY_MATRIX.md`
+- `/opt/Axodus/.instructions/AXODUS_BLOCKED_ACTION_REGISTRY.md`
+- `/opt/Axodus/.instructions/AXODUS_BOUNDARY_CONFLICT_REGISTER.md`
+- Portfolio baseline reports and global portfolio docs.
+- Business L4 consolidation handoff, assessment and status.
+
+Prior cross-nucleus outputs are established. No partial-output limitation was found.
+
+## Cross-Nucleus Cycle Completion Status
+
+| Artifact | Status | Result |
+|---|---|---|
+| Global Opportunity Registry | COMPLETE | 25 official opportunities, 6 unverified opportunities. |
+| Cross-Nucleus Dependency Registry | COMPLETE | 58 official dependencies, 6 unverified dependencies. |
+| Dependency Graph Summary | COMPLETE | High-risk dependency chains and resolution sequence recorded. |
+| Readiness and Ownership Alignment | COMPLETE | 14 nuclei, 25 opportunities and 58 dependencies aligned. |
+| Ownership Matrix | COMPLETE | Nucleus, opportunity and dependency ownership recorded. |
+| Readiness Gap Register | COMPLETE | Nucleus, opportunity and dependency gaps recorded. |
+| Governance and Execution Boundary Review | COMPLETE | Governance, treasury, execution and production authority reviewed. |
+| Execution Authority Matrix | COMPLETE | No nucleus classified as execution authorized. |
+| Blocked Action Registry | COMPLETE | 26 blocked actions recorded. |
+| Boundary Conflict Register | COMPLETE | 14 boundary conflicts/tensions recorded and controlled. |
+
+## Portfolio Integration Readiness Summary
+
+The ecosystem is integrated enough for one additional bounded, non-executive advancement cycle.
+
+The best next target is `AxodusAPP Integration Expansion`, scoped to read-only presentation contracts and consumer alignment. This target has strong portfolio integration value and can avoid the blocked execution paths that constrain Marketplace, Academy, Mining, ACS, Trading, Defi, Dex and Lottery.
+
+## Assessment Matrix
+
+| Nucleus | Current Maturity | Evidence Quality | Integration Readiness | Dependency Burden | Ownership Clarity | Boundary Risk | Execution Sensitivity | Blocker Severity | Recommended Promotion Action |
+|---|---|---|---|---|---|---|---|---|---|
+| Core | L5 | HIGH | MEDIUM | MEDIUM | HIGH | MEDIUM | LOW | MEDIUM | HOLD |
+| Governance | L5 | HIGH | MEDIUM | HIGH | HIGH | HIGH | HIGH | HIGH | HOLD |
+| Documentation | L4_READINESS | HIGH | MEDIUM | MEDIUM | HIGH | MEDIUM | NONE | HIGH | ADVANCE |
+| Dex | L4 Readiness | HIGH | HIGH | HIGH | HIGH | HIGH | HIGH | HIGH | HOLD |
+| Defi | L4_CONSOLIDATED_NON_PRODUCTION | MEDIUM | LOW | CRITICAL | MEDIUM | CRITICAL | CRITICAL | CRITICAL | HOLD |
+| AxodusAPP | L4_CONSOLIDATED | MEDIUM | HIGH | MEDIUM | MEDIUM | MEDIUM | LOW | MEDIUM | PROMOTE |
+| Business | L4 Consolidated | HIGH | HIGH | MEDIUM | HIGH | MEDIUM | MEDIUM | MEDIUM | HOLD |
+| Marketplace | L4_CONSOLIDATED | HIGH | MEDIUM | CRITICAL | HIGH | HIGH | HIGH | CRITICAL | HOLD |
+| Academy | L4_CONSOLIDATED | MEDIUM | MEDIUM | HIGH | MEDIUM | HIGH | HIGH | HIGH | HOLD |
+| Mining | L4_CONSOLIDATED | MEDIUM | MEDIUM | HIGH | MEDIUM | HIGH | HIGH | HIGH | HOLD |
+| ACS | L4_READINESS | HIGH | MEDIUM | HIGH | HIGH | CRITICAL | CRITICAL | CRITICAL | HOLD |
+| Trading | L4 Candidate | HIGH | MEDIUM | CRITICAL | HIGH | CRITICAL | CRITICAL | CRITICAL | HOLD |
+| BBA-Agency | L3 | MEDIUM | LOW | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | HOLD |
+| Lottery | L3 | MEDIUM | LOW | CRITICAL | MEDIUM | CRITICAL | CRITICAL | CRITICAL | HOLD |
+
+## Integration Readiness Matrix
+
+| Readiness | Nuclei |
+|---|---|
+| HIGH | Dex, AxodusAPP, Business |
+| MEDIUM | Core, Governance, Documentation, Marketplace, Academy, Mining, ACS, Trading |
+| LOW | Defi, BBA-Agency, Lottery |
+| UNKNOWN | None |
+
+## Dependency Burden Matrix
+
+| Burden | Nuclei |
+|---|---|
+| LOW | None |
+| MEDIUM | Core, Documentation, AxodusAPP, Business, BBA-Agency |
+| HIGH | Governance, Dex, Academy, Mining, ACS |
+| CRITICAL | Defi, Marketplace, Trading, Lottery |
+| UNKNOWN | None |
+
+## Ownership Clarity Matrix
+
+| Ownership Clarity | Nuclei |
+|---|---|
+| HIGH | Core, Governance, Documentation, Dex, Business, Marketplace, ACS, Trading |
+| MEDIUM | Defi, AxodusAPP, Academy, Mining, BBA-Agency, Lottery |
+| LOW | None |
+| UNKNOWN | None |
+
+## Boundary Risk Matrix
+
+| Risk | Nuclei |
+|---|---|
+| LOW | None |
+| MEDIUM | Core, Documentation, AxodusAPP, Business, BBA-Agency |
+| HIGH | Governance, Dex, Marketplace, Academy, Mining |
+| CRITICAL | Defi, ACS, Trading, Lottery |
+| UNKNOWN | None |
+
+## Promotion Board
+
+| Nucleus | Recommendation | Rationale |
+|---|---|---|
+| Core | HOLD | Strong foundation, but pre-RC and consumer pilot evidence remain gates. |
+| Governance | HOLD | High evidence, but governance execution and backend mutation paths remain blocked. |
+| Documentation | ADVANCE | Publication authority and versioning consolidation is the selected bounded next cycle; publication remains blocked. |
+| Dex | HOLD | Read-only readiness is strong, but functional Dex evolution is paused and execution paths are blocked. |
+| Defi | HOLD | Treasury/custody path is critical and not approved for implementation. |
+| AxodusAPP | HOLD | Consolidated portfolio intelligence hub; no immediate new cycle selected. |
+| Business | HOLD | Already L4 Consolidated; should support the next cycle rather than be reselected. |
+| Marketplace | HOLD | Settlement/payment/minting risks require boundary decision first. |
+| Academy | HOLD | Rewards/certification/contract boundaries require governance/treasury decision first. |
+| Mining | HOLD | Provider/payout/custody boundaries require treasury review first. |
+| ACS | HOLD | Execution authority, credentials and runtime autonomy remain critical blockers. |
+| Trading | HOLD | Credential vault, exchange execution and withdrawal gates remain critical blockers. |
+| BBA-Agency | HOLD | L3 evidence exists; schema and production claim review remain open. |
+| Lottery | HOLD | Compliance, randomness, prize and payout gates remain critical blockers. |
+
+## Selected Next Cycle
+
+Selected next cycle: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`
+
+Meaning:
+
+- consolidate publication ownership, version semantics and approval evidence;
+- define source-of-truth precedence, release records and rollback requirements;
+- preserve the publication block until separate authority exists.
+
+Non-meaning:
+
+- no publication execution;
+- no production backend integration;
+- no credentials, signing or mutation;
+- no execution authority;
+- no production readiness.
+
+## Opportunities Ready For Next-Stage Planning
+
+| Opportunity | Next-Stage Planning Status | Notes |
+|---|---|---|
+| OPP-001 Business Opportunity Registry | READY_FOR_READ_ONLY_CONSUMER_PLANNING | Requires versioning and consumer contract. |
+| OPP-002 Business Product Catalog And Portfolio Registry | READY_FOR_READ_ONLY_CONSUMER_PLANNING | Safe for AxodusAPP planning if read-only. |
+| OPP-012 Business Non-Executive Coordination Layer | READY_FOR_PORTFOLIO_CONSUMPTION | Business remains non-executive. |
+| OPP-019 Dex Provider Reliability And Read-Only Data | READY_FOR_READ_ONLY_CONSUMER_PLANNING | Source attribution and stale-data boundaries required. |
+| OPP-020 AxodusAPP Integration Shell Expansion | SELECTED_FOR_NEXT_CYCLE | Must remain read-only and non-transactional. |
+| OPP-021 Documentation Publication Readiness | READY_FOR_GOVERNANCE_PLANNING_ONLY | Publication authority still blocked. |
+| OPP-024 Core Consumer Pilot And RC Readiness | READY_FOR_VALIDATION_PLANNING_ONLY | Consumer pilot evidence required. |
+| OPP-025 Governance Read-Only API Transport Contract Tests | READY_FOR_STATIC_READ_ONLY_PLANNING | Mutation/backend execution remains blocked. |
+
+## Nuclei Held And Why
+
+- Core and Governance: foundation/authority tracks; hold for stability and explicit gates.
+- Documentation: publication authority and versioning unresolved.
+- Dex: read-only readiness complete; functional evolution paused.
+- Defi: treasury/custody blockers are critical.
+- Marketplace: settlement and payment blockers are critical.
+- Academy: reward/certification contract blockers remain.
+- Mining: provider/payout/custody blockers remain.
+- ACS: execution authority and credential blockers are critical.
+- Trading: credential, exchange and withdrawal blockers are critical.
+- BBA-Agency: schema/claim review remains open.
+- Lottery: compliance/randomness/prize/payout blockers are critical.
+
+## Recommended Sequencing
+
+1. DOCUMENTATION-EPIC-01 publication authority and versioning consolidation.
+2. Root global docs versioning/ownership decision.
+3. Treasury/Financial Core ownership decision.
+4. Governance static read-only transport contract planning.
+5. Owner-specific execution boundary reviews only after read-only integration is stable.
+
+## Boundary Statement
+
+This assessment selects a next non-executive planning cycle only. It does not authorize production readiness, implementation, integration execution, governance execution, treasury movement, wallet signing, trading, DEX execution, marketplace settlement, mining payout, lottery payout, ACS provisioning, billing execution, production credentials or on-chain writes.
+
+## Assessment
+
+PORTFOLIO_INTEGRATION_ASSESSMENT_COMPLETED

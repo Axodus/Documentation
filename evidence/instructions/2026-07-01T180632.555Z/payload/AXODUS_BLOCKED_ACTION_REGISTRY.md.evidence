@@ -1,0 +1,105 @@
+# Axodus Blocked Action Registry
+
+Current-state refresh: 2026-06-30 (`AXODUS-PORTFOLIO-REQ-01`)
+
+This artifact must be read with the following accepted portfolio delta; older rows and recommendations are historical where they conflict:
+
+- Academy: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Mining: `L4_CONSOLIDATED` / `D3+` / `COMPLETE_NON_PRODUCTION`.
+- Defi: `L4_CONSOLIDATED_NON_PRODUCTION` / D-Level `UNASSESSED` / `GATED`; blockers remain open and `ADMIN_MUTATION` remains `UNSAFE`.
+- ACS: `L4_READINESS` / `D3+` / `PAUSED`; not L4 Consolidated.
+- Marketplace: `L4_CONSOLIDATED` / `D4` / `HOLD / BACKLOG_READY`; Phase 12A is not current priority.
+- Next Best Move: `DOCUMENTATION-EPIC-01 - Publication Authority and Versioning Consolidation`.
+- No production, execution, treasury, custody, wallet/signing, financial, provider, settlement, payout, billing or contract-write authority is added.
+
+Date: 2026-06-30
+
+Request: CROSS-REQ-04 - Governance & Execution Boundary Review
+
+Versioning note: `/opt/Axodus` is not a Git repository. This registry is local/unversioned unless migrated to a versioned portfolio documentation repository.
+
+## Registry
+
+| Blocked Action ID | Action | Owning Nucleus | Blocking Reason | Required Approval | Risk Level | Execution Sensitivity | Treasury Sensitivity | Current Status | Recommended Next Step |
+|---|---|---|---|---|---|---|---|---|---|
+| BA-001 | Governance proposal creation | Governance | Governance execution gate not approved | GOVERNANCE_REVIEW, EXECUTION_REVIEW | HIGH | HIGH | MEDIUM | BLOCKED | Create governance execution gate package only if approved. |
+| BA-002 | Governance proposal approval/rejection | Governance | DAO authority and executor path blocked | GOVERNANCE_REVIEW, EXECUTION_REVIEW | CRITICAL | HIGH | MEDIUM | BLOCKED | Keep read-only/mock until Governance approval. |
+| BA-003 | Governance action execution / DAO registry mutation | Governance | Mutation/executor authority blocked | GOVERNANCE_REVIEW, EXECUTION_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Require executor audit, rollback and approval evidence. |
+| BA-004 | Treasury movement | Defi/Treasury | Treasury owner and approval path not formalized | TREASURY_REVIEW, GOVERNANCE_REVIEW, EXECUTION_REVIEW | CRITICAL | CRITICAL | CRITICAL | BLOCKED | Formalize treasury authority before any movement request. |
+| BA-005 | Custody, staking or validator fund action | Defi | Phase 3 implementation not approved | TREASURY_REVIEW, GOVERNANCE_REVIEW | CRITICAL | CRITICAL | CRITICAL | BLOCKED | Keep planning-only until custody/governance approval. |
+| BA-006 | Wallet signing | AxodusAPP/Core wallet layer | Wallet/account custody contract not approved | EXECUTION_REVIEW, SECURITY_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Define wallet boundary contract and security gate. |
+| BA-007 | On-chain writes / contract deployment | Relevant product nucleus plus Core/Governance | Contract execution authority missing | EXECUTION_REVIEW, GOVERNANCE_REVIEW, SECURITY_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Require separate contract execution request. |
+| BA-008 | Trading execution / exchange order placement | Trading | Credential vault and execution gate not approved | EXECUTION_REVIEW, GOVERNANCE_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Run Trading credential vault and execution gate review. |
+| BA-009 | Trading withdrawals/deposits | Trading/Defi | Treasury and exchange fund movement blocked | TREASURY_REVIEW, EXECUTION_REVIEW | CRITICAL | CRITICAL | CRITICAL | BLOCKED | Keep withdrawals/deposits disabled. |
+| BA-010 | DEX swaps | Dex | Dex remains read-only/provider reliability | EXECUTION_REVIEW, TREASURY_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Keep no-swap boundary and scanner. |
+| BA-011 | DEX routing/liquidity execution | Dex | Routing/liquidity execution not approved | EXECUTION_REVIEW, TREASURY_REVIEW | HIGH | HIGH | HIGH | BLOCKED | Require DEX execution gate before planning. |
+| BA-012 | Marketplace payment/settlement | Marketplace | Settlement governance and treasury approval missing | TREASURY_REVIEW, GOVERNANCE_REVIEW | CRITICAL | HIGH | CRITICAL | BLOCKED | Run payment/settlement boundary decision. |
+| BA-013 | Marketplace minting/value transfer/bridge | Marketplace | Wallet, settlement and contract authority blocked | EXECUTION_REVIEW, TREASURY_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Keep all value-transfer disabled. |
+| BA-014 | Mining provider execution | Mining | Provider custody/execution gate missing | EXECUTION_REVIEW, TREASURY_REVIEW | HIGH | HIGH | HIGH | BLOCKED | Harden provider boundary and review warnings. |
+| BA-015 | Mining payout | Mining/Defi | Payout and treasury approval missing | TREASURY_REVIEW, EXECUTION_REVIEW | CRITICAL | HIGH | CRITICAL | BLOCKED | Keep payouts disabled. |
+| BA-016 | Lottery randomness / VRF | Lottery | Compliance/randomness review missing | EXECUTION_REVIEW, GOVERNANCE_REVIEW, compliance review | CRITICAL | CRITICAL | MEDIUM | BLOCKED | Keep mock deterministic randomness only. |
+| BA-017 | Lottery prize / payout | Lottery/Defi | Prize, payout and treasury gates missing | TREASURY_REVIEW, EXECUTION_REVIEW, compliance review | CRITICAL | CRITICAL | CRITICAL | BLOCKED | Keep prize/payout disabled. |
+| BA-018 | ACS/MCP provisioning | ACS | Execution authority, credentials and runtime permissions blocked | EXECUTION_REVIEW, ARCHITECTURE_REVIEW, GOVERNANCE_REVIEW | CRITICAL | CRITICAL | HIGH | BLOCKED | Keep blocked; ACS-EPIC-01 readiness evidence grants no provisioning authority. |
+| BA-019 | ACS agent autonomy / memory access | ACS | Memory/runtime permission authority blocked | EXECUTION_REVIEW, SECURITY_REVIEW | CRITICAL | CRITICAL | MEDIUM | BLOCKED | Keep blocked; local permission representation is not production enforcement authority. |
+| BA-020 | Production credentials | Relevant owning nucleus | Production credential authority absent | EXECUTION_REVIEW, SECURITY_REVIEW, PRODUCTION_APPROVAL | CRITICAL | CRITICAL | HIGH | BLOCKED | Keep secrets and credentials out of repositories. |
+| BA-021 | Production database usage | Relevant owning nucleus | Production DB authority absent | PRODUCTION_APPROVAL, SECURITY_REVIEW | HIGH | HIGH | MEDIUM | BLOCKED | Keep validation local/mock unless approved. |
+| BA-022 | External user production service | Relevant owning nucleus | Production operations approval absent | PRODUCTION_APPROVAL, owner review | HIGH | HIGH | MEDIUM | BLOCKED | Do not serve external users without production gate. |
+| BA-023 | Production billing/payment flow | Business plus Defi/Treasury and product owner | Billing/payment execution blocked | TREASURY_REVIEW, compliance review, PRODUCTION_APPROVAL | CRITICAL | HIGH | CRITICAL | BLOCKED | Keep billing/payment non-executing. |
+| BA-024 | Documentation publication | Documentation | Publication authority and target unresolved | PUBLICATION_AUTHORITY, BUSINESS_REVIEW | MEDIUM | NONE | NONE | BLOCKED | Resolve publication authority and versioning. |
+| BA-025 | Production readiness claim | Documentation plus relevant owner | Production approval evidence absent | PRODUCTION_APPROVAL, Documentation review | HIGH | MEDIUM | MEDIUM | BLOCKED | Keep candidate/readiness language only. |
+| BA-026 | BBA production campaign/CRM dispatch | BBA-Agency | Production claim review and external execution blocked | BUSINESS_REVIEW, compliance review | MEDIUM | MEDIUM | LOW | BLOCKED | Resolve schema/claim review first. |
+
+## Summary
+
+| Metric | Count |
+|---|---:|
+| Blocked actions | 26 |
+| Critical-risk blocked actions | 16 |
+| High-risk blocked actions | 8 |
+| Medium-risk blocked actions | 2 |
+| Treasury-sensitive high/critical actions | 15 |
+| Execution-sensitive high/critical actions | 22 |
+
+## Boundary Statement
+
+Every action in this registry remains blocked. No blocked action is resolved or authorized by CROSS-REQ-04.
+
+## 2026-06-22 - ACS-FOLLOWUP-01 Canonical ACS Blocked Actions
+
+These canonical identifiers map ACS requirements to the existing portfolio blocker concepts. They are aliases/evidence mappings and do not change the summary counts above.
+
+| Canonical Action | Status | Portfolio Mapping / Note |
+|---|---|---|
+| `acs.provision.real` | `BLOCKED` | BA-018 |
+| `credentials.issue.real` | `BLOCKED` | BA-020 |
+| `credentials.read.secret` | `BLOCKED` | BA-020 |
+| `wallet.create.real` | `BLOCKED` | BA-006 |
+| `wallet.sign.real` | `BLOCKED` | BA-006 |
+| `treasury.execute.real` | `BLOCKED` | BA-004 |
+| `trading.execute.real` | `BLOCKED` | BA-008 |
+| `settlement.execute.real` | `BLOCKED` | BA-012 |
+| `payouts.execute.real` | `BLOCKED` | BA-015 / BA-017 |
+| `billing.execute.real` | `BLOCKED` | BA-023 |
+| `database.production.connect` | `BLOCKED` | BA-021 |
+| `api.production.mutate` | `BLOCKED` | BA-022 / BA-025 |
+| `provider.external.production.execute` | `BLOCKED` | BA-014 / BA-022 |
+| `smart_contract.deploy_or_mutate` | `BLOCKED` | BA-007 |
+| `permission.enforce.production` | `BLOCKED` | BA-019 / BA-022 |
+| `state.mutate.production` | `BLOCKED` | BA-003 / BA-022 |
+| `portfolio.global_registers.mutate` | `BLOCKED` | One authorized documentation sync completed by ACS-FOLLOWUP-01; future mutation is re-blocked. |
+
+ACS remains `NON_PRODUCTION`, `EXECUTION_GATED`, and without mutation authority after the sync.
+
+## 2026-06-23 - ACS-GOV-02 Future Integrity Gate
+
+Before any L4 Consolidated assessment, every canonical action in this registry must be re-verified as `BLOCKED` against the same evidence revision being assessed.
+
+Gate failure conditions:
+
+- any action is no longer `BLOCKED`
+- a canonical identifier or mapping is missing
+- blocked semantics are weakened or made ambiguous
+- runtime/source behavior contradicts the registry
+- portfolio/global mutation is treated as generally open authority
+
+Explicit writable/governed register tasks may authorize only their bounded documentation writes. General `portfolio.global_registers.mutate` authority remains controlled and re-blocked after completion.

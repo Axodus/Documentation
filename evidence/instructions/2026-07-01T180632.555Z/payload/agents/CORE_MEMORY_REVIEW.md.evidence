@@ -1,0 +1,124 @@
+# Core Memory Registry Review
+
+## Purpose
+
+Core Memory Registry Review defines how Dreaming Mode outputs become reviewed memory candidates and, when appropriate, canonical project knowledge.
+
+Dreaming Mode does not automatically write canonical memory.
+
+## Promotion Flow
+
+```text
+Dreaming Output
+→ Memory Candidate
+→ Review / Classification
+→ Approved Canonical Candidate
+→ Core Registry Update Proposal
+→ Agent Context Refresh
+```
+
+## Review Inputs
+
+Core reviewers may consider:
+
+- Agent Local Dream outputs;
+- Nucleus Dream outputs;
+- ACS Global Dream Digest;
+- sprint reports;
+- Core Registry references;
+- Governance and security policies;
+- explicitly confirmed project-owner decisions.
+
+## Canonical Promotion Criteria
+
+A candidate may be promoted only if it is:
+
+- stable;
+- approved or repeatedly confirmed;
+- useful across sessions;
+- non-secret;
+- non-temporary;
+- non-speculative;
+- aligned with Axodus architecture;
+- assigned to a clear owner;
+- traceable to source context.
+
+## Rejection Reasons
+
+Reject or downgrade candidates that are:
+
+- too temporary;
+- insufficiently sourced;
+- duplicated;
+- speculative;
+- sensitive or secret-bearing;
+- obsolete;
+- nucleus-local only;
+- contradicted by Core/Governance policy;
+- based only on noisy runtime logs.
+
+## Review Output
+
+Core Memory Review should produce:
+
+- approved canonical candidates;
+- rejected candidates;
+- conflicts requiring human review;
+- suggested Core Registry changes;
+- suggested agent context updates;
+- confidence assessment.
+
+## Canonical Update Proposal
+
+For each approved candidate, include:
+
+- statement;
+- owner;
+- affected nuclei;
+- source context;
+- reason for promotion;
+- suggested registry or `.instructions` location;
+- confidence;
+- required approval, if any.
+
+## Agent Context Refresh
+
+After Core review, agents may refresh local context from approved outputs only.
+
+Agent refresh must:
+
+- preserve Core as source of truth;
+- avoid importing rejected candidates;
+- keep nucleus-local facts scoped;
+- discard expired ephemeral/session notes;
+- never import secrets or raw sensitive logs.
+
+## Human Review Triggers
+
+Require human review when:
+
+- a candidate changes architecture;
+- a candidate affects governance, treasury, trading, security, or production boundaries;
+- sources conflict;
+- ownership is unclear;
+- a candidate may alter canonical terminology;
+- a candidate may affect multiple nuclei;
+- promotion could authorize future automation.
+
+## Security Requirements
+
+Core Memory Review must never promote:
+
+- secrets;
+- private keys;
+- wallet seed phrases;
+- credentials;
+- auth headers;
+- API tokens;
+- raw production logs;
+- unredacted user/device identifiers;
+- speculative security assumptions.
+
+## Final Rule
+
+Core memory is a governed source of truth. Dreaming outputs are inputs to review, not authority.
