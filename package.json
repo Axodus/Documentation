@@ -10,7 +10,13 @@
   "scripts": {
     "docs:dev": "vitepress dev docs --host 0.0.0.0",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs --host 0.0.0.0"
+    "docs:preview": "vitepress preview docs --host 0.0.0.0",
+    "docs:validate": "node tools/documentation/cli/index.js validate",
+    "docs:validate:schema": "node tools/documentation/cli/index.js schema",
+    "docs:validate:relationships": "node tools/documentation/cli/index.js relationships",
+    "docs:baseline:check": "node tools/documentation/cli/index.js baseline",
+    "docs:exceptions:check": "node tools/documentation/cli/index.js exceptions",
+    "docs:check": "node tools/documentation/cli/index.js check"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

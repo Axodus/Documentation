@@ -31,18 +31,25 @@ export async function validateRepository(options = {}) {
   const root = resolve(options.root ?? process.cwd())
   const documents = options.documents ?? await discoverDocuments(root)
   const canonicalValidation = validateDocumentSet(documents)
-  const baseline = options.baseline ?? await loadOptional(loadBaseline, options.baselinePath, root)
-  const exceptions = options.exceptions ?? await loadOptional(loadExceptions, options.exceptionsPath, root)
-  const baselineValidation = baseline
+  const layers = normalizeLayers(options.layers)
+  const requiresBaseline = !layers || layers.has('BASELINE') || layers.has('EXCEPTIONS')
+  const requiresExceptions = !layers || layers.has('EXCEPTIONS')
+  const baseline = requiresBaseline
+    ? options.baseline ?? await loadOptional(loadBaseline, options.baselinePath, root)
+    : null
+  const exceptions = requiresExceptions
+    ? options.exceptions ?? await loadOptional(loadExceptions, options.exceptionsPath, root)
+    : null
+  const baselineValidation = baseline && (!layers || layers.has('BASELINE'))
     ? validateBaseline(baseline, { documents })
     : emptyBaselineValidation()
-  const exceptionValidation = exceptions
+  const exceptionValidation = exceptions && (!layers || layers.has('EXCEPTIONS'))
     ? validateExceptions(exceptions, {
         baseline,
         currentDate: options.currentDate ?? baseline?.created_at,
       })
     : emptyExceptionValidation()
-  const validation = {
+  const completeValidation = {
     ...canonicalValidation,
     diagnostics: [
       ...canonicalValidation.diagnostics,
@@ -58,15 +65,59 @@ export async function validateRepository(options = {}) {
         exceptionValidation.diagnostics.length,
     },
   }
+  const validation = selectValidationLayers(completeValidation, layers)
   const report = createValidationReport(validation)
   return {
-    valid: canonicalValidation.valid,
+    valid: validation.valid,
     diagnostics: validation.diagnostics,
     statistics: validation.statistics,
     report,
     baseline: baselineValidation,
     exceptions: exceptionValidation,
   }
+}
+
+const LAYER_RULE_RANGES = Object.freeze({
+  SCHEMA: [1, 4, 24],
+  REPOSITORY: [1, 26],
+  RELATIONSHIPS: [14, 21, 26],
+  BASELINE: [27, 30, 34, 35],
+  EXCEPTIONS: [31, 33],
+})
+
+function selectValidationLayers(validation, requestedLayers) {
+  if (!requestedLayers) return validation
+  const ruleNumbers = new Set()
+  for (const layer of requestedLayers) {
+    const ranges = LAYER_RULE_RANGES[layer]
+    if (!ranges) throw new TypeError(`Unknown validation layer '${layer}'.`)
+    for (let index = 0; index < ranges.length; index += 2) {
+      const start = ranges[index]
+      const end = ranges[index + 1] ?? start
+      for (let number = start; number <= end; number += 1) ruleNumbers.add(number)
+    }
+  }
+  const diagnostics = validation.diagnostics.filter((diagnostic) => {
+    const number = Number(diagnostic.rule_id?.slice(-3))
+    return ruleNumbers.has(number)
+  })
+  const count = (severity) => diagnostics.filter((item) => item.severity === severity).length
+  return {
+    ...validation,
+    valid: count('ERROR') === 0,
+    diagnostics,
+    statistics: {
+      ...validation.statistics,
+      errors: count('ERROR'),
+      warnings: count('WARNING'),
+      info: count('INFO'),
+    },
+  }
+}
+
+function normalizeLayers(requestedLayers) {
+  if (!requestedLayers) return null
+  return new Set(Array.isArray(requestedLayers) ? requestedLayers : [requestedLayers])
 }
 
 export {
