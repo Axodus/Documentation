@@ -1,4 +1,5 @@
 export function formatHuman(payload, options = {}) {
+  if (payload.kind === 'GENERATION') return formatGeneration(payload)
   const { statistics } = payload
   const lines = [
     `Documentation CLI ${payload.cli_version}`,
@@ -24,5 +25,20 @@ export function formatHuman(payload, options = {}) {
     `Execution time: ${payload.execution_time_ms} ms`,
     `Exit status: ${payload.exit_code}`,
   )
+  return `${lines.join('\n')}\n`
+}
+
+function formatGeneration(payload) {
+  const lines = [
+    `Documentation Generator ${payload.generator_version}`,
+    `Mode: ${payload.mode}`,
+    `Status: ${payload.status}`,
+    `Artifacts: ${payload.statistics.artifact_count}`,
+    `Source documents: ${payload.statistics.source_documents}`,
+    `Canonical: ${payload.statistics.canonical_documents}, legacy: ${payload.statistics.legacy_documents}, templates: ${payload.statistics.template_documents}`,
+  ]
+  if (payload.mode === 'CHECK') lines.push(`Drift: ${payload.drift_count}`)
+  if (payload.mode === 'WRITE') lines.push(`Written: ${payload.written.length}`)
+  lines.push(`Execution time: ${payload.execution_time_ms} ms`, `Exit status: ${payload.exit_code}`)
   return `${lines.join('\n')}\n`
 }

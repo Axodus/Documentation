@@ -16,7 +16,9 @@
     "docs:validate:relationships": "node tools/documentation/cli/index.js relationships",
     "docs:baseline:check": "node tools/documentation/cli/index.js baseline",
     "docs:exceptions:check": "node tools/documentation/cli/index.js exceptions",
-    "docs:check": "node tools/documentation/cli/index.js check"
+    "docs:check": "node tools/documentation/cli/index.js check",
+    "docs:generate": "node tools/documentation/cli/index.js generate --write",
+    "docs:generate:check": "node tools/documentation/cli/index.js generate --check"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

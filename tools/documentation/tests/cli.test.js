@@ -91,6 +91,13 @@ test('argument parser supports every documented option', () => {
   assert.equal(parsed.options.failOnWarning, true)
 })
 
+test('argument parser requires one generator mode', () => {
+  assert.equal(parseArguments(['generate', '--write']).options.write, true)
+  assert.equal(parseArguments(['generate', '--check', '--', '--json']).options.json, true)
+  assert.throws(() => parseArguments(['generate']), /exactly one/)
+  assert.throws(() => parseArguments(['generate', '--write', '--check']), /exactly one/)
+})
+
 test('docs:check diagnostics preserve public API parity', async () => {
   const api = await validateRepository()
   const payload = await json('check')

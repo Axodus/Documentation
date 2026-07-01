@@ -48,7 +48,7 @@ The CLI imports only these public operations from `tools/documentation/index.js`
 - `loadBaseline()`
 - `loadExceptions()`
 
-The remaining approved public operations—`validateDocument()`, `validateBaseline()`, and `validateExceptions()`—remain available to API consumers. The CLI does not import parsers, validators, rules, schemas, or repository internals.
+The remaining approved public operations—`validateDocument()`, `validateBaseline()`, and `validateExceptions()`—remain available to API consumers. Generation commands import only the public Generator API from `tools/documentation/generator/index.js`. The CLI does not import parsers, validators, rules, schemas, generator internals, or repository internals.
 
 Command dispatch selects an engine-owned validation layer. Formatters receive the resulting diagnostics without changing their content. No command writes repository governance artifacts unless the caller explicitly requests a presentation copy through `--output`.
 
@@ -62,6 +62,8 @@ Command dispatch selects an engine-owned validation layer. Formatters receive th
 | `pnpm docs:baseline:check` | Baseline structure and legacy hash states |
 | `pnpm docs:exceptions:check` | Exception registry structure and lifecycle |
 | `pnpm docs:check` | Complete schema, repository, baseline, and exception pipeline |
+| `pnpm docs:generate` | Generate and atomically persist all derived artifacts |
+| `pnpm docs:generate:check` | Compare generated in-memory bytes with persisted artifacts without writing |
 
 `docs:check` is the CLI parity command for `validateRepository()` with default options.
 
@@ -83,6 +85,8 @@ Command dispatch selects an engine-owned validation layer. Formatters receive th
 | `--exceptions <path>` | Use an alternate exception registry JSON file. |
 | `--output <path>` | Write the rendered result to a file. |
 | `--reference-date <timestamp>` | Evaluate time-dependent exception state at an RFC3339 timestamp. |
+| `--write` | Persist generated artifacts; valid only for the generator command. |
+| `--check` | Check generated artifact drift without writing; valid only for the generator command. |
 
 Filters limit presented diagnostics; they do not change Validation Engine decisions or repository content. Option names and controlled metadata values are case-sensitive.
 
@@ -111,6 +115,8 @@ pnpm docs:validate:relationships -- --document-id DOC-SPEC-001
 pnpm docs:baseline:check -- --baseline documentation.baseline.json
 pnpm docs:exceptions:check -- --reference-date 2026-07-01T00:00:00Z
 pnpm docs:check -- --json --output /tmp/documentation-check.json --quiet
+pnpm docs:generate
+pnpm docs:generate:check -- --json
 ```
 
 ## Output Formats
@@ -153,4 +159,4 @@ Validation rule semantics, diagnostic codes, and document contracts remain gover
 
 ## Future Extensions
 
-Persistent generation, repository enforcement, CI integration, and publication workflows are outside CLI 1.0.0. Future interfaces MUST continue to consume the public Validation Engine API and MUST NOT duplicate validation logic.
+Repository enforcement, CI integration, and publication workflows remain outside CLI 1.0.0. Future validation interfaces MUST continue to consume the public Validation Engine API. Future generation interfaces MUST consume the public Generator API. Neither interface may duplicate validation or generation logic.

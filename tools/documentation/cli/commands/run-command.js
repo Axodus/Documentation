@@ -5,6 +5,11 @@ import {
   loadExceptions,
   validateRepository,
 } from '../../index.js'
+import {
+  checkGeneratedArtifacts,
+  generateAll,
+  writeGeneratedArtifacts,
+} from '../../generator/index.js'
 import { CLI_VERSION, COMMANDS, EXIT_CODES } from '../shared/constants.js'
 
 export async function runCommand(commandName, options = {}) {
@@ -14,6 +19,7 @@ export async function runCommand(commandName, options = {}) {
     error.exitCode = EXIT_CODES.INVALID_ARGUMENTS
     throw error
   }
+  if (command.kind === 'GENERATION') return runGenerator(options)
   const root = process.cwd()
   await verifyConfiguredInputs(commandName, options, root)
   const result = await validateRepository({
@@ -40,6 +46,45 @@ export async function runCommand(commandName, options = {}) {
     exit_code: failed ? EXIT_CODES.VALIDATION_FAILED : EXIT_CODES.SUCCESS,
     statistics,
     diagnostics,
+  }
+}
+
+async function runGenerator(options) {
+  const generation = await generateAll({
+    root: process.cwd(),
+    baselinePath: options.baseline,
+    exceptionsPath: options.exceptions,
+    referenceDate: options.referenceDate,
+  })
+  if (options.write) {
+    const write = await writeGeneratedArtifacts(generation, { root: process.cwd() })
+    return {
+      kind: 'GENERATION',
+      command: 'generate',
+      mode: 'WRITE',
+      status: 'SUCCESS',
+      exit_code: EXIT_CODES.SUCCESS,
+      generator_version: generation.generator_version,
+      generated_at: generation.generated_at,
+      statistics: generation.statistics,
+      written: write.written,
+      diagnostics: [],
+    }
+  }
+  const check = await checkGeneratedArtifacts(generation, { root: process.cwd() })
+  return {
+    kind: 'GENERATION',
+    command: 'generate',
+    mode: 'CHECK',
+    status: check.clean ? 'CLEAN' : 'DRIFT',
+    exit_code: EXIT_CODES.SUCCESS,
+    generator_version: generation.generator_version,
+    generated_at: generation.generated_at,
+    statistics: generation.statistics,
+    clean: check.clean,
+    drift_count: check.drift_count,
+    drift: check.drift,
+    diagnostics: [],
   }
 }
 

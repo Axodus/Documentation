@@ -5,6 +5,8 @@ const BOOLEAN_OPTIONS = new Set([
   'verbose',
   'quiet',
   'fail-on-warning',
+  'write',
+  'check',
 ])
 
 const VALUE_OPTIONS = new Set([
@@ -28,9 +30,13 @@ export class CliArgumentError extends Error {
 export function parseArguments(argv) {
   const [command, ...tokens] = argv
   const options = {}
+  let separatorSeen = false
   for (let index = 0; index < tokens.length; index += 1) {
     const token = tokens[index]
-    if (token === '--' && index === 0) continue
+    if (token === '--' && !separatorSeen) {
+      separatorSeen = true
+      continue
+    }
     if (!token.startsWith('--')) throw new CliArgumentError(`Unexpected positional argument '${token}'.`)
     const [rawName, inlineValue] = token.slice(2).split(/=(.*)/s, 2)
     if (BOOLEAN_OPTIONS.has(rawName)) {
@@ -47,11 +53,11 @@ export function parseArguments(argv) {
     if (!value || value.startsWith('--')) throw new CliArgumentError(`--${rawName} requires a value.`)
     options[toCamel(rawName)] = value
   }
-  validateCombinations(options)
+  validateCombinations(command, options)
   return { command, options }
 }
 
-function validateCombinations(options) {
+function validateCombinations(command, options) {
   if (options.pretty && !options.json) throw new CliArgumentError('--pretty requires --json.')
   if (options.quiet && (options.verbose || options.summary)) {
     throw new CliArgumentError('--quiet cannot be combined with --verbose or --summary.')
@@ -63,6 +69,12 @@ function validateCombinations(options) {
       (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(options.referenceDate) ||
        Number.isNaN(Date.parse(options.referenceDate)))) {
     throw new CliArgumentError('--reference-date must be an RFC3339 timestamp.')
+  }
+  if (command === 'generate' && Boolean(options.write) === Boolean(options.check)) {
+    throw new CliArgumentError('generate requires exactly one of --write or --check.')
+  }
+  if (command !== 'generate' && (options.write || options.check)) {
+    throw new CliArgumentError('--write and --check are valid only for the generate command.')
   }
 }
 

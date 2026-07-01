@@ -16,4 +16,5 @@ export const COMMANDS = Object.freeze({
   baseline: { layers: ['BASELINE'], description: 'Verify the legacy baseline only.' },
   exceptions: { layers: ['EXCEPTIONS'], description: 'Validate the exception registry only.' },
   check: { layers: null, description: 'Run the complete validation pipeline.' },
+  generate: { kind: 'GENERATION', description: 'Generate or check persistent derived artifacts.' },
 })

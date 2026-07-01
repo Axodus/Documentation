@@ -1,776 +1,775 @@
 # Documentation Master Index
 
-Status: GENERATED
-Manifest Version: 1.0.0
+> GENERATED FILE — DO NOT EDIT MANUALLY. Run `pnpm docs:generate` to reproduce it.
+
+Manifest Version: 1.1.0
+Generator Version: 1.0.0
 Generated At: 2026-07-01T00:00:00Z
-Source Documents: 677
+Source Documents: 683
 
-This deterministic catalog is derived from repository content. Missing metadata is shown as `—`; no unavailable value is inferred.
+## Navigation
 
-## Governance
+- [Repository Summary](#repository-summary)
+- [Documents by Type](#documents-by-type)
+- [Documents by Authority](#documents-by-authority)
+- [Documents by Lifecycle](#documents-by-lifecycle)
+- [Canonical Documents](#canonical-documents)
+- [Legacy Documents](#legacy-documents)
+- [Templates](#templates)
+- [Generated Artifacts](#generated-artifacts)
 
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| DOC-SPEC-004 | Documentation Audit Log Schema | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
-| DOC-POL-001 | Documentation Authority Model | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
-| DOC-REF-001 | Documentation Conflict Register | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-CONFLICT-REGISTER.md](governance/DOCUMENTATION-CONFLICT-REGISTER.md) |
-| DOC-STD-001 | Documentation Gap Analysis | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-GAP-ANALYSIS.md](governance/DOCUMENTATION-GAP-ANALYSIS.md) |
-| DOC-POL-003 | Documentation Lifecycle | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-LIFECYCLE.md](governance/DOCUMENTATION-LIFECYCLE.md) |
-| DOC-SPEC-001 | Documentation Metadata Schema | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-METADATA-SCHEMA.md](governance/DOCUMENTATION-METADATA-SCHEMA.md) |
-| DOC-POL-004 | Documentation Publication Governance | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-PUBLICATION-GOVERNANCE.md](governance/DOCUMENTATION-PUBLICATION-GOVERNANCE.md) |
-| DOC-REF-002 | Documentation Risk Register | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-RISK-REGISTER.md](governance/DOCUMENTATION-RISK-REGISTER.md) |
-| DOC-SPEC-002 | Documentation Traceability Model | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-TRACEABILITY-MODEL.md](governance/DOCUMENTATION-TRACEABILITY-MODEL.md) |
-| DOC-POL-002 | Documentation Versioning Policy | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-VERSIONING-POLICY.md](governance/DOCUMENTATION-VERSIONING-POLICY.md) |
-| DOC-SPEC-003 | Instructions Versioning Strategy | ACTIVE | 1.0.0 | Axodus Documentation Core | [governance/INSTRUCTIONS-VERSIONING-STRATEGY.md](governance/INSTRUCTIONS-VERSIONING-STRATEGY.md) |
-| — | Governance | — | — | — | [governance/README.md](governance/README.md) |
+## Repository Summary
 
-## Architecture
+| Metric | Count |
+|---|---:|
+| Total source documents | 683 |
+| Canonical documents | 34 |
+| Legacy documents | 635 |
+| Template documents | 14 |
+| Declared relationships | 65 |
+| Derived relationships | 0 |
 
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Axodus Architecture | Draft | 0.1.0 | Axodus Core | [ARCHITECTURE.md](ARCHITECTURE.md) |
-| — | Architecture | — | — | — | [architecture/README.md](architecture/README.md) |
+## Documents by Type
 
-## Requirements
+| Value | Count |
+|---|---:|
+| ADR | 18 |
+| API | 1 |
+| GUIDE | 2 |
+| MEETING | 1 |
+| PLAYBOOK | 1 |
+| POLICY | 7 |
+| PROPOSAL | 1 |
+| REFERENCE | 5 |
+| RELEASE | 1 |
+| REPORT | 1 |
+| REQUIREMENT | 1 |
+| RESEARCH | 1 |
+| RUNBOOK | 1 |
+| SPECIFICATION | 5 |
+| STANDARD | 2 |
+| UNSPECIFIED | 635 |
+## Documents by Authority
 
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Requirements | — | — | — | [requirements/README.md](requirements/README.md) |
+| Value | Count |
+|---|---:|
+| COMPONENT | 2 |
+| CORE | 34 |
+| MODULE | 1 |
+| PROJECT | 11 |
+| UNSPECIFIED | 635 |
+## Documents by Lifecycle
 
-## ADRs
+| Value | Count |
+|---|---:|
+| ACTIVE | 17 |
+| APPROVED | 17 |
+| DRAFT | 14 |
+| UNSPECIFIED | 635 |
+## Canonical Documents
 
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Documentation ADR Index | MANUALLY_MAINTAINED | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-ADR-INDEX.md](DOCUMENTATION-ADR-INDEX.md) |
-| DOC-ADR-001 | Official Documentation Source | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-001-OFFICIAL-DOCUMENTATION-SOURCE.md](adr/DOC-ADR-001-OFFICIAL-DOCUMENTATION-SOURCE.md) |
-| DOC-ADR-002 | Separate Maturity and Publication State | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-002-MATURITY-AND-PUBLICATION-STATE.md](adr/DOC-ADR-002-MATURITY-AND-PUBLICATION-STATE.md) |
-| DOC-ADR-003 | Unversioned Control Artifacts | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-003-UNVERSIONED-CONTROL-ARTIFACTS.md](adr/DOC-ADR-003-UNVERSIONED-CONTROL-ARTIFACTS.md) |
-| DOC-ADR-004 | Cross-Document Traceability | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-004-CROSS-DOCUMENT-TRACEABILITY.md](adr/DOC-ADR-004-CROSS-DOCUMENT-TRACEABILITY.md) |
-| DOC-ADR-005 | Metadata Schema Architecture | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-005-METADATA-SCHEMA-ARCHITECTURE.md](adr/DOC-ADR-005-METADATA-SCHEMA-ARCHITECTURE.md) |
-| DOC-ADR-006 | Documentation Conflict Resolution | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-006-DOCUMENTATION-CONFLICT-RESOLUTION.md](adr/DOC-ADR-006-DOCUMENTATION-CONFLICT-RESOLUTION.md) |
-| DOC-ADR-007 | Documentation Releases | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-007-DOCUMENTATION-RELEASES.md](adr/DOC-ADR-007-DOCUMENTATION-RELEASES.md) |
-| DOC-ADR-008 | Retention and Historical Evidence | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-008-RETENTION-AND-HISTORICAL-EVIDENCE.md](adr/DOC-ADR-008-RETENTION-AND-HISTORICAL-EVIDENCE.md) |
-| DOC-ADR-009 | Official Repository Structure | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-009-OFFICIAL-REPOSITORY-STRUCTURE.md](adr/DOC-ADR-009-OFFICIAL-REPOSITORY-STRUCTURE.md) |
-| DOC-ADR-010 | Document Naming Convention | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-010-DOCUMENT-NAMING-CONVENTION.md](adr/DOC-ADR-010-DOCUMENT-NAMING-CONVENTION.md) |
-| DOC-ADR-011 | Required Metadata | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-011-REQUIRED-METADATA.md](adr/DOC-ADR-011-REQUIRED-METADATA.md) |
-| DOC-ADR-012 | Documentation Hierarchy | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-012-DOCUMENTATION-HIERARCHY.md](adr/DOC-ADR-012-DOCUMENTATION-HIERARCHY.md) |
-| DOC-ADR-013 | Document Semantic Versioning | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-013-DOCUMENT-SEMANTIC-VERSIONING.md](adr/DOC-ADR-013-DOCUMENT-SEMANTIC-VERSIONING.md) |
-| DOC-ADR-014 | Publication Pipeline | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-014-PUBLICATION-PIPELINE.md](adr/DOC-ADR-014-PUBLICATION-PIPELINE.md) |
-| DOC-ADR-015 | Archiving Strategy | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-015-ARCHIVING-STRATEGY.md](adr/DOC-ADR-015-ARCHIVING-STRATEGY.md) |
-| DOC-ADR-016 | Documentation Automation | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md](adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md) |
-| DOC-ADR-017 | Logical Authority versus Physical Location | APPROVED | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md](adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md) |
-| — | Architecture Decision Records | — | — | — | [adr/README.md](adr/README.md) |
+| ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
+|---|---|---|---|---|---|---|---|
+| DOC-ADR-001 | Official Documentation Source | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-001-OFFICIAL-DOCUMENTATION-SOURCE.md](adr/DOC-ADR-001-OFFICIAL-DOCUMENTATION-SOURCE.md) |
+| DOC-ADR-002 | Separate Maturity and Publication State | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-002-MATURITY-AND-PUBLICATION-STATE.md](adr/DOC-ADR-002-MATURITY-AND-PUBLICATION-STATE.md) |
+| DOC-ADR-003 | Unversioned Control Artifacts | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-003-UNVERSIONED-CONTROL-ARTIFACTS.md](adr/DOC-ADR-003-UNVERSIONED-CONTROL-ARTIFACTS.md) |
+| DOC-ADR-004 | Cross-Document Traceability | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-004-CROSS-DOCUMENT-TRACEABILITY.md](adr/DOC-ADR-004-CROSS-DOCUMENT-TRACEABILITY.md) |
+| DOC-ADR-005 | Metadata Schema Architecture | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-005-METADATA-SCHEMA-ARCHITECTURE.md](adr/DOC-ADR-005-METADATA-SCHEMA-ARCHITECTURE.md) |
+| DOC-ADR-006 | Documentation Conflict Resolution | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-006-DOCUMENTATION-CONFLICT-RESOLUTION.md](adr/DOC-ADR-006-DOCUMENTATION-CONFLICT-RESOLUTION.md) |
+| DOC-ADR-007 | Documentation Releases | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-007-DOCUMENTATION-RELEASES.md](adr/DOC-ADR-007-DOCUMENTATION-RELEASES.md) |
+| DOC-ADR-008 | Retention and Historical Evidence | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-008-RETENTION-AND-HISTORICAL-EVIDENCE.md](adr/DOC-ADR-008-RETENTION-AND-HISTORICAL-EVIDENCE.md) |
+| DOC-ADR-009 | Official Repository Structure | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-009-OFFICIAL-REPOSITORY-STRUCTURE.md](adr/DOC-ADR-009-OFFICIAL-REPOSITORY-STRUCTURE.md) |
+| DOC-ADR-010 | Document Naming Convention | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-010-DOCUMENT-NAMING-CONVENTION.md](adr/DOC-ADR-010-DOCUMENT-NAMING-CONVENTION.md) |
+| DOC-ADR-011 | Required Metadata | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-011-REQUIRED-METADATA.md](adr/DOC-ADR-011-REQUIRED-METADATA.md) |
+| DOC-ADR-012 | Documentation Hierarchy | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-012-DOCUMENTATION-HIERARCHY.md](adr/DOC-ADR-012-DOCUMENTATION-HIERARCHY.md) |
+| DOC-ADR-013 | Document Semantic Versioning | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-013-DOCUMENT-SEMANTIC-VERSIONING.md](adr/DOC-ADR-013-DOCUMENT-SEMANTIC-VERSIONING.md) |
+| DOC-ADR-014 | Publication Pipeline | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-014-PUBLICATION-PIPELINE.md](adr/DOC-ADR-014-PUBLICATION-PIPELINE.md) |
+| DOC-ADR-015 | Archiving Strategy | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-015-ARCHIVING-STRATEGY.md](adr/DOC-ADR-015-ARCHIVING-STRATEGY.md) |
+| DOC-ADR-016 | Documentation Automation | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md](adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md) |
+| DOC-ADR-017 | Logical Authority versus Physical Location | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md](adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md) |
+| DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
+| DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
+| DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
+| DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
+| DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
+| DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-VALIDATION-RULES.md](DOCUMENTATION-VALIDATION-RULES.md) |
+| DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
+| DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
+| DOC-REF-001 | Documentation Conflict Register | REFERENCE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-CONFLICT-REGISTER.md](governance/DOCUMENTATION-CONFLICT-REGISTER.md) |
+| DOC-STD-001 | Documentation Gap Analysis | STANDARD | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-GAP-ANALYSIS.md](governance/DOCUMENTATION-GAP-ANALYSIS.md) |
+| DOC-POL-003 | Documentation Lifecycle | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-LIFECYCLE.md](governance/DOCUMENTATION-LIFECYCLE.md) |
+| DOC-SPEC-001 | Documentation Metadata Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-METADATA-SCHEMA.md](governance/DOCUMENTATION-METADATA-SCHEMA.md) |
+| DOC-POL-004 | Documentation Publication Governance | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-PUBLICATION-GOVERNANCE.md](governance/DOCUMENTATION-PUBLICATION-GOVERNANCE.md) |
+| DOC-REF-002 | Documentation Risk Register | REFERENCE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-RISK-REGISTER.md](governance/DOCUMENTATION-RISK-REGISTER.md) |
+| DOC-SPEC-002 | Documentation Traceability Model | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-TRACEABILITY-MODEL.md](governance/DOCUMENTATION-TRACEABILITY-MODEL.md) |
+| DOC-POL-002 | Documentation Versioning Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-VERSIONING-POLICY.md](governance/DOCUMENTATION-VERSIONING-POLICY.md) |
+| DOC-SPEC-003 | Instructions Versioning Strategy | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/INSTRUCTIONS-VERSIONING-STRATEGY.md](governance/INSTRUCTIONS-VERSIONING-STRATEGY.md) |
+## Legacy Documents
 
-## Standards
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Standards | — | — | — | [standards/README.md](standards/README.md) |
-
-## Policies
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Policies | — | — | — | [policies/README.md](policies/README.md) |
-
-## Specifications
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Specifications | — | — | — | [specifications/README.md](specifications/README.md) |
-
-## APIs
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | APIs | — | — | — | [api/README.md](api/README.md) |
-
-## Operations
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Operations | — | — | — | [operations/README.md](operations/README.md) |
-| — | Playbooks | — | — | — | [operations/playbooks/README.md](operations/playbooks/README.md) |
-| — | Runbooks | — | — | — | [operations/runbooks/README.md](operations/runbooks/README.md) |
-
-## References
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | References | — | — | — | [references/README.md](references/README.md) |
-
-## Reports
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Reports | — | — | — | [reports/README.md](reports/README.md) |
-
-## Research
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Research | — | — | — | [research/README.md](research/README.md) |
-
-## Roadmaps
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Roadmaps | — | — | — | [roadmaps/README.md](roadmaps/README.md) |
-
-## Releases
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Releases | — | — | — | [releases/README.md](releases/README.md) |
-
+| ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
+|---|---|---|---|---|---|---|---|
+| — | Axodus Ecosystem Context | — | — | — | — | — | [.instructions/AXODUS_CONTEXT.md](.instructions/AXODUS_CONTEXT.md) |
+| — | Documentation Blocker Register | — | — | — | — | — | [.instructions/BLOCKER_REGISTER.md](.instructions/BLOCKER_REGISTER.md) |
+| — | BUB_AGENTS.md | — | — | — | — | — | [.instructions/BUB_AGENTS.md](.instructions/BUB_AGENTS.md) |
+| — | Content Guardrails | — | — | — | — | — | [.instructions/CONTENT_GUARDRAILS.md](.instructions/CONTENT_GUARDRAILS.md) |
+| — | Documentation Claim Resolution Notes | — | — | — | — | — | [.instructions/DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md](.instructions/DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md) |
+| — | Documentation Claim Safety Validation | — | — | — | — | — | [.instructions/DOCUMENTATION_CLAIM_SAFETY_VALIDATION.md](.instructions/DOCUMENTATION_CLAIM_SAFETY_VALIDATION.md) |
+| — | Documentation Content Change Pipeline | — | — | — | — | — | [.instructions/DOCUMENTATION_CONTENT_CHANGE_PIPELINE.md](.instructions/DOCUMENTATION_CONTENT_CHANGE_PIPELINE.md) |
+| — | Documentation Content Correction Plan | — | — | — | — | — | [.instructions/DOCUMENTATION_CONTENT_CORRECTION_PLAN.md](.instructions/DOCUMENTATION_CONTENT_CORRECTION_PLAN.md) |
+| — | Documentation Content Inventory | — | — | — | — | — | [.instructions/DOCUMENTATION_CONTENT_INVENTORY.md](.instructions/DOCUMENTATION_CONTENT_INVENTORY.md) |
+| — | Documentation Content Quality Validation | — | — | — | — | — | [.instructions/DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md](.instructions/DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md) |
+| — | Documentation Draft Changelog | — | — | — | — | — | [.instructions/DOCUMENTATION_DRAFT_CHANGELOG.md](.instructions/DOCUMENTATION_DRAFT_CHANGELOG.md) |
+| — | Documentation Editorial Gap Analysis | — | — | — | — | — | [.instructions/DOCUMENTATION_EDITORIAL_GAP_ANALYSIS.md](.instructions/DOCUMENTATION_EDITORIAL_GAP_ANALYSIS.md) |
+| — | Documentation High-Risk Claims Register | — | — | — | — | — | [.instructions/DOCUMENTATION_HIGH_RISK_CLAIMS_REGISTER.md](.instructions/DOCUMENTATION_HIGH_RISK_CLAIMS_REGISTER.md) |
+| — | Documentation Link and Navigation Validation | — | — | — | — | — | [.instructions/DOCUMENTATION_LINK_AND_NAV_VALIDATION.md](.instructions/DOCUMENTATION_LINK_AND_NAV_VALIDATION.md) |
+| — | Documentation Publication Authority Matrix | — | — | — | — | — | [.instructions/DOCUMENTATION_PUBLICATION_AUTHORITY_MATRIX.md](.instructions/DOCUMENTATION_PUBLICATION_AUTHORITY_MATRIX.md) |
+| — | Documentation Publication Governance Handoff | — | — | — | — | — | [.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE_HANDOFF.md](.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE_HANDOFF.md) |
+| — | Documentation Publication Governance | — | — | — | — | — | [.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE.md](.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE.md) |
+| — | Documentation Release Candidate Policy | — | — | — | — | — | [.instructions/DOCUMENTATION_RELEASE_CANDIDATE_POLICY.md](.instructions/DOCUMENTATION_RELEASE_CANDIDATE_POLICY.md) |
+| — | Documentation Rollback and Post-Publication Audit | — | — | — | — | — | [.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md](.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md) |
+| — | Documentation Standards | — | — | — | — | — | [.instructions/DOCUMENTATION_STANDARDS.md](.instructions/DOCUMENTATION_STANDARDS.md) |
+| — | Documentation File Structure | — | — | — | — | — | [.instructions/FILE_STRUCTURE.md](.instructions/FILE_STRUCTURE.md) |
+| — | Documentation Ownership | — | — | — | — | — | [.instructions/OWNERSHIP.md](.instructions/OWNERSHIP.md) |
+| — | Documentation Publication Boundaries | — | — | — | — | — | [.instructions/PUBLICATION_BOUNDARIES.md](.instructions/PUBLICATION_BOUNDARIES.md) |
+| — | Axodus Documentation Instructions | — | — | — | — | — | [.instructions/README.md](.instructions/README.md) |
+| — | Documentation Rebuild Protocol | — | — | — | — | — | [.instructions/REBUILD_PROTOCOL.md](.instructions/REBUILD_PROTOCOL.md) |
+| — | Documentation Sprint 01 Closeout Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md](.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md) |
+| — | Documentation Sprint 01 - VitePress Validation & Documentation Content Change Pipeline - 2026-06-04 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md](.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md) |
+| — | REQ-02 - Documentation Nucleus Recovery L3 to L4 Report - 2026-06-04 | — | — | — | — | — | [.instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md](.instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md) |
+| — | REQ-02A - Documentation Publication Target Correction - GitBook to VitePress - 2026-06-04 | — | — | — | — | — | [.instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md](.instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md) |
+| — | REQ-03 - Documentation Asset Inventory & VitePress Alignment - 2026-06-04 | — | — | — | — | — | [.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md](.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md) |
+| — | REQ-04 VitePress Structural Validation and Local Build Readiness Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_04_VITEPRESS_STRUCTURAL_VALIDATION_AND_LOCAL_BUILD_READINESS_2026-06-05.md](.instructions/reports/REQ_04_VITEPRESS_STRUCTURAL_VALIDATION_AND_LOCAL_BUILD_READINESS_2026-06-05.md) |
+| — | REQ-05 VitePress Local Build Validation Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_05_VITEPRESS_LOCAL_BUILD_VALIDATION_2026-06-05.md](.instructions/reports/REQ_05_VITEPRESS_LOCAL_BUILD_VALIDATION_2026-06-05.md) |
+| — | REQ-06 Documentation Content Inventory and Editorial Gap Analysis Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_06_DOCUMENTATION_CONTENT_INVENTORY_AND_EDITORIAL_GAP_ANALYSIS_2026-06-05.md](.instructions/reports/REQ_06_DOCUMENTATION_CONTENT_INVENTORY_AND_EDITORIAL_GAP_ANALYSIS_2026-06-05.md) |
+| — | REQ-07 Documentation Content Correction Drafts Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md](.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md) |
+| — | REQ-08 Documentation Content Quality, Links and Consistency Validation Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md](.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md) |
+| — | REQ-09 Documentation Publication Governance and Release Workflow Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md](.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md) |
+| — | REQ-05 Handoff - VitePress Local Build Validation | — | — | — | — | — | [.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md](.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md) |
+| — | REQ-06 Handoff - Documentation Content Inventory and Editorial Gap Analysis | — | — | — | — | — | [.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md](.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md) |
+| — | REQ-07 Handoff - Documentation Content Correction Drafts | — | — | — | — | — | [.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md](.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md) |
+| — | REQ-08 Handoff - Documentation Content Quality Validation | — | — | — | — | — | [.instructions/REQ_08_HANDOFF_DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md](.instructions/REQ_08_HANDOFF_DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md) |
+| — | REQ-10 Handoff - Documentation Publication Execution | — | — | — | — | — | [.instructions/REQ_10_HANDOFF_DOCUMENTATION_PUBLICATION_EXECUTION.md](.instructions/REQ_10_HANDOFF_DOCUMENTATION_PUBLICATION_EXECUTION.md) |
+| — | Documentation Review Checklist | — | — | — | — | — | [.instructions/REVIEW_CHECKLIST.md](.instructions/REVIEW_CHECKLIST.md) |
+| — | Documentation Nucleus Roadmap | — | — | — | — | — | [.instructions/ROADMAP.md](.instructions/ROADMAP.md) |
+| — | Documentation Security | — | — | — | — | — | [.instructions/SECURITY.md](.instructions/SECURITY.md) |
+| — | Documentation Source of Truth | — | — | — | — | — | [.instructions/SOURCE_OF_TRUTH.md](.instructions/SOURCE_OF_TRUTH.md) |
+| — | Documentation Nucleus Status | — | — | — | — | — | [.instructions/STATUS.md](.instructions/STATUS.md) |
+| — | Documentation Task Register | — | — | — | — | — | [.instructions/TASK_REGISTER.md](.instructions/TASK_REGISTER.md) |
+| — | Documentation Validation | — | — | — | — | — | [.instructions/VALIDATION.md](.instructions/VALIDATION.md) |
+| — | Documentation Versioning | — | — | — | — | — | [.instructions/VERSIONING.md](.instructions/VERSIONING.md) |
+| — | VitePress Alignment | — | — | — | — | — | [.instructions/VITEPRESS_ALIGNMENT.md](.instructions/VITEPRESS_ALIGNMENT.md) |
+| — | VitePress Asset Inventory | — | — | — | — | — | [.instructions/VITEPRESS_ASSET_INVENTORY.md](.instructions/VITEPRESS_ASSET_INVENTORY.md) |
+| — | VitePress Build Output Review | — | — | — | — | — | [.instructions/VITEPRESS_BUILD_OUTPUT_REVIEW.md](.instructions/VITEPRESS_BUILD_OUTPUT_REVIEW.md) |
+| — | VitePress Build Readiness | — | — | — | — | — | [.instructions/VITEPRESS_BUILD_READINESS.md](.instructions/VITEPRESS_BUILD_READINESS.md) |
+| — | VitePress Link and Navigation Review | — | — | — | — | — | [.instructions/VITEPRESS_LINK_AND_NAVIGATION_REVIEW.md](.instructions/VITEPRESS_LINK_AND_NAVIGATION_REVIEW.md) |
+| — | VitePress Local Build Validation | — | — | — | — | — | [.instructions/VITEPRESS_LOCAL_BUILD_VALIDATION.md](.instructions/VITEPRESS_LOCAL_BUILD_VALIDATION.md) |
+| — | VitePress Release Approval Checklist | — | — | — | — | — | [.instructions/VITEPRESS_RELEASE_APPROVAL_CHECKLIST.md](.instructions/VITEPRESS_RELEASE_APPROVAL_CHECKLIST.md) |
+| — | VitePress Structure Validation | — | — | — | — | — | [.instructions/VITEPRESS_STRUCTURE_VALIDATION.md](.instructions/VITEPRESS_STRUCTURE_VALIDATION.md) |
+| — | VitePress Validation Plan | — | — | — | — | — | [.instructions/VITEPRESS_VALIDATION_PLAN.md](.instructions/VITEPRESS_VALIDATION_PLAN.md) |
+| — | Documentation Nucleus Workflow | — | — | — | — | — | [.instructions/WORKFLOW.md](.instructions/WORKFLOW.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/academy-architecture.akp.md](.knowledge/academy/academy-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/academy-core.akp.md](.knowledge/academy/academy-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/academy-page-directives.akp.md](.knowledge/academy/academy-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/academy-risk-and-abuse-prevention.akp.md](.knowledge/academy/academy-risk-and-abuse-prevention.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/course-publishing.akp.md](.knowledge/academy/course-publishing.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/governance-business-acs-relations.akp.md](.knowledge/academy/governance-business-acs-relations.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/learn-to-win.akp.md](.knowledge/academy/learn-to-win.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/locked-rewards.akp.md](.knowledge/academy/locked-rewards.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/academy/manifest.akp.md](.knowledge/academy/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/marketplace-integration.akp.md](.knowledge/academy/marketplace-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/proof-of-knowledge.akp.md](.knowledge/academy/proof-of-knowledge.akp.md) |
+| — | AXODUS ACADEMY KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/README.md](.knowledge/academy/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/token-reward-flows.akp.md](.knowledge/academy/token-reward-flows.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/academy/tutor-validation.akp.md](.knowledge/academy/tutor-validation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/acs-architecture.akp.md](.knowledge/acs/acs-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/acs-core.akp.md](.knowledge/acs/acs-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/acs-page-directives.akp.md](.knowledge/acs/acs-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/acs-runtime.akp.md](.knowledge/acs/acs-runtime.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/agent-roles.akp.md](.knowledge/acs/agent-roles.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/agent-smith.akp.md](.knowledge/acs/agent-smith.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/business-integration.akp.md](.knowledge/acs/business-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/governance-alignment.akp.md](.knowledge/acs/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/human-oversight-and-accountability.akp.md](.knowledge/acs/human-oversight-and-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/acs/manifest.akp.md](.knowledge/acs/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/memory-and-knowledge.akp.md](.knowledge/acs/memory-and-knowledge.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/morpheus.akp.md](.knowledge/acs/morpheus.akp.md) |
+| — | AXODUS ACS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/README.md](.knowledge/acs/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/security-and-risk.akp.md](.knowledge/acs/security-and-risk.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/tooling-and-mcp.akp.md](.knowledge/acs/tooling-and-mcp.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/acs/trinity.akp.md](.knowledge/acs/trinity.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/academy-marketplace-alignment.akp.md](.knowledge/bba/academy-marketplace-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/acs-agent-workflow.akp.md](.knowledge/bba/acs-agent-workflow.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/bba-core.akp.md](.knowledge/bba/bba-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/bba-page-directives.akp.md](.knowledge/bba/bba-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/brand-architecture.akp.md](.knowledge/bba/brand-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/campaign-lifecycle.akp.md](.knowledge/bba/campaign-lifecycle.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/claim-review.akp.md](.knowledge/bba/claim-review.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/client-intake.akp.md](.knowledge/bba/client-intake.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/content-and-narrative.akp.md](.knowledge/bba/content-and-narrative.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/dao-governance-communication.akp.md](.knowledge/bba/dao-governance-communication.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/growth-operations.akp.md](.knowledge/bba/growth-operations.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/bba/manifest.akp.md](.knowledge/bba/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/positioning-and-identity.akp.md](.knowledge/bba/positioning-and-identity.akp.md) |
+| — | AXODUS BBA AGENCY KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/README.md](.knowledge/bba/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/reporting-accountability.akp.md](.knowledge/bba/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/risk-compliance.akp.md](.knowledge/bba/risk-compliance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/service-model.akp.md](.knowledge/bba/service-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/bba/web3-launch-support.akp.md](.knowledge/bba/web3-launch-support.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/acs-integration.akp.md](.knowledge/business/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/bba.akp.md](.knowledge/business/bba.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/business-architecture.akp.md](.knowledge/business/business-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/business-core.akp.md](.knowledge/business/business-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/business-page-directives.akp.md](.knowledge/business/business-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/business-runtime.akp.md](.knowledge/business/business-runtime.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/change-request-system.akp.md](.knowledge/business/change-request-system.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/client-lifecycle.akp.md](.knowledge/business/client-lifecycle.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/dao-service-requests.akp.md](.knowledge/business/dao-service-requests.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/delivery-lifecycle.akp.md](.knowledge/business/delivery-lifecycle.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/governance-alignment.akp.md](.knowledge/business/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/business/manifest.akp.md](.knowledge/business/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/plugin-request-flow.akp.md](.knowledge/business/plugin-request-flow.akp.md) |
+| — | AXODUS BUSINESS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/README.md](.knowledge/business/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/request-intake.akp.md](.knowledge/business/request-intake.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/risk-compliance-accountability.akp.md](.knowledge/business/risk-compliance-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/business/service-catalog.akp.md](.knowledge/business/service-catalog.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/architecture.akp.md](.knowledge/core/architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/constitutional-model.akp.md](.knowledge/core/constitutional-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/ecosystem.akp.md](.knowledge/core/ecosystem.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/glossary.akp.md](.knowledge/core/glossary.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/philosophy.akp.md](.knowledge/core/philosophy.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/terminology.akp.md](.knowledge/core/terminology.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/academy-user-education.akp.md](.knowledge/defi/academy-user-education.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/acs-integration.akp.md](.knowledge/defi/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/compliance-disclosures.akp.md](.knowledge/defi/compliance-disclosures.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/daas-model.akp.md](.knowledge/defi/daas-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/defi-architecture.akp.md](.knowledge/defi/defi-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/defi-core.akp.md](.knowledge/defi/defi-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/defi-page-directives.akp.md](.knowledge/defi/defi-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/derivatives-and-debentures.akp.md](.knowledge/defi/derivatives-and-debentures.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/etf-daas-model.akp.md](.knowledge/defi/etf-daas-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/governance-alignment.akp.md](.knowledge/defi/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/liquidity-model.akp.md](.knowledge/defi/liquidity-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/defi/manifest.akp.md](.knowledge/defi/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/protocol-model.akp.md](.knowledge/defi/protocol-model.akp.md) |
+| — | AXODUS DEFI KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/README.md](.knowledge/defi/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/reporting-accountability.akp.md](.knowledge/defi/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/risk-management.akp.md](.knowledge/defi/risk-management.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/security-smart-contracts.akp.md](.knowledge/defi/security-smart-contracts.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/staking-and-yield.akp.md](.knowledge/defi/staking-and-yield.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/tokenomics-alignment.akp.md](.knowledge/defi/tokenomics-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/treasury-alignment.akp.md](.knowledge/defi/treasury-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/vaults-and-strategies.akp.md](.knowledge/defi/vaults-and-strategies.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/academy-user-education.akp.md](.knowledge/dex/academy-user-education.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/acs-integration.akp.md](.knowledge/dex/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/dex-architecture.akp.md](.knowledge/dex/dex-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/dex-core.akp.md](.knowledge/dex/dex-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/dex-page-directives.akp.md](.knowledge/dex/dex-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/fees-and-revenue.akp.md](.knowledge/dex/fees-and-revenue.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/governance-alignment.akp.md](.knowledge/dex/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/liquidity-pools.akp.md](.knowledge/dex/liquidity-pools.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/listing-policy.akp.md](.knowledge/dex/listing-policy.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/lp-model.akp.md](.knowledge/dex/lp-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/dex/manifest.akp.md](.knowledge/dex/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/marketplace-integration.akp.md](.knowledge/dex/marketplace-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/mev-execution-risk.akp.md](.knowledge/dex/mev-execution-risk.akp.md) |
+| — | AXODUS DEX KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/README.md](.knowledge/dex/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/reporting-accountability.akp.md](.knowledge/dex/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/risk-disclosures.akp.md](.knowledge/dex/risk-disclosures.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/routing-and-aggregation.akp.md](.knowledge/dex/routing-and-aggregation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/security-smart-contracts.akp.md](.knowledge/dex/security-smart-contracts.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/slippage-price-impact.akp.md](.knowledge/dex/slippage-price-impact.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/swap-model.akp.md](.knowledge/dex/swap-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/tokenomics-alignment.akp.md](.knowledge/dex/tokenomics-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/trading-integration.akp.md](.knowledge/dex/trading-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/dex/treasury-alignment.akp.md](.knowledge/dex/treasury-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/academy-terms.akp.md](.knowledge/glossary/academy-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/acs-terms.akp.md](.knowledge/glossary/acs-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/business-terms.akp.md](.knowledge/glossary/business-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/core-ecosystem-terms.akp.md](.knowledge/glossary/core-ecosystem-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/deprecated-and-dangerous-terms.akp.md](.knowledge/glossary/deprecated-and-dangerous-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/glossary-core.akp.md](.knowledge/glossary/glossary-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/glossary-page-directives.akp.md](.knowledge/glossary/glossary-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/governance-terms.akp.md](.knowledge/glossary/governance-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/glossary/manifest.akp.md](.knowledge/glossary/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/marketplace-product-terms.akp.md](.knowledge/glossary/marketplace-product-terms.akp.md) |
+| — | AXODUS GLOSSARY KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/README.md](.knowledge/glossary/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/security-accountability-terms.akp.md](.knowledge/glossary/security-accountability-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/terminology-standards.akp.md](.knowledge/glossary/terminology-standards.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/tokenomics-terms.akp.md](.knowledge/glossary/tokenomics-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/glossary/trading-treasury-terms.akp.md](.knowledge/glossary/trading-treasury-terms.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/constitutional-governance.akp.md](.knowledge/governance/constitutional-governance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/core-governance.akp.md](.knowledge/governance/core-governance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/dao-federation.akp.md](.knowledge/governance/dao-federation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/execution-receipts.akp.md](.knowledge/governance/execution-receipts.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/governance-business-acs-relations.akp.md](.knowledge/governance/governance-business-acs-relations.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/governance-layers.akp.md](.knowledge/governance/governance-layers.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/governance-page-directives.akp.md](.knowledge/governance/governance-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/governance/manifest.akp.md](.knowledge/governance/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/plugin-request-system.akp.md](.knowledge/governance/plugin-request-system.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/proposal-lifecycle.akp.md](.knowledge/governance/proposal-lifecycle.akp.md) |
+| — | AXODUS GOVERNANCE KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/README.md](.knowledge/governance/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/governance/treasury-risk-accountability.akp.md](.knowledge/governance/treasury-risk-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/acs-integration.akp.md](.knowledge/lottery/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/claims-settlement.akp.md](.knowledge/lottery/claims-settlement.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/cryptodraw-product.akp.md](.knowledge/lottery/cryptodraw-product.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/draw-lifecycle.akp.md](.knowledge/lottery/draw-lifecycle.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/game-models.akp.md](.knowledge/lottery/game-models.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/governance-alignment.akp.md](.knowledge/lottery/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/lotofacil-style-model.akp.md](.knowledge/lottery/lotofacil-style-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/lottery-core.akp.md](.knowledge/lottery/lottery-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/lottery-page-directives.akp.md](.knowledge/lottery/lottery-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/lottery/manifest.akp.md](.knowledge/lottery/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/merkle-indexing.akp.md](.knowledge/lottery/merkle-indexing.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/operations-runtime.akp.md](.knowledge/lottery/operations-runtime.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/prize-pools-payouts.akp.md](.knowledge/lottery/prize-pools-payouts.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/randomness-vrf.akp.md](.knowledge/lottery/randomness-vrf.akp.md) |
+| — | AXODUS LOTTERY / CRYPTODRAW KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/README.md](.knowledge/lottery/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/reporting-accountability.akp.md](.knowledge/lottery/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/responsible-participation.akp.md](.knowledge/lottery/responsible-participation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/risk-compliance.akp.md](.knowledge/lottery/risk-compliance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/security-smart-contracts.akp.md](.knowledge/lottery/security-smart-contracts.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/supersete-style-model.akp.md](.knowledge/lottery/supersete-style-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/ticket-model.akp.md](.knowledge/lottery/ticket-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/tokenomics-alignment.akp.md](.knowledge/lottery/tokenomics-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/lottery/treasury-fees.akp.md](.knowledge/lottery/treasury-fees.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/academy-alignment.akp.md](.knowledge/marketplace/academy-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/acs-integration.akp.md](.knowledge/marketplace/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/business-bba-alignment.akp.md](.knowledge/marketplace/business-bba-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/buyer-flow.akp.md](.knowledge/marketplace/buyer-flow.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/credits-locked-rewards.akp.md](.knowledge/marketplace/credits-locked-rewards.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/dex-defi-integration.akp.md](.knowledge/marketplace/dex-defi-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/disputes-refunds-support.akp.md](.knowledge/marketplace/disputes-refunds-support.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/fees-revenue.akp.md](.knowledge/marketplace/fees-revenue.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/governance-alignment.akp.md](.knowledge/marketplace/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/listing-model.akp.md](.knowledge/marketplace/listing-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/marketplace/manifest.akp.md](.knowledge/marketplace/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/marketplace-architecture.akp.md](.knowledge/marketplace/marketplace-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/marketplace-core.akp.md](.knowledge/marketplace/marketplace-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/marketplace-page-directives.akp.md](.knowledge/marketplace/marketplace-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/payments-settlement.akp.md](.knowledge/marketplace/payments-settlement.akp.md) |
+| — | AXODUS MARKETPLACE KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/README.md](.knowledge/marketplace/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/reporting-accountability.akp.md](.knowledge/marketplace/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/reputation-quality.akp.md](.knowledge/marketplace/reputation-quality.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/risk-compliance.akp.md](.knowledge/marketplace/risk-compliance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/security-data-protection.akp.md](.knowledge/marketplace/security-data-protection.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/seller-provider-model.akp.md](.knowledge/marketplace/seller-provider-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/service-catalog.akp.md](.knowledge/marketplace/service-catalog.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/tokenomics-alignment.akp.md](.knowledge/marketplace/tokenomics-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/marketplace/treasury-alignment.akp.md](.knowledge/marketplace/treasury-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/academy-user-education.akp.md](.knowledge/mining/academy-user-education.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/acs-integration.akp.md](.knowledge/mining/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/costs-fees-profitability.akp.md](.knowledge/mining/costs-fees-profitability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/governance-alignment.akp.md](.knowledge/mining/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/hardware-energy-uptime.akp.md](.knowledge/mining/hardware-energy-uptime.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/infrastructure-operations.akp.md](.knowledge/mining/infrastructure-operations.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/mining/manifest.akp.md](.knowledge/mining/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/marketplace-business-bba-alignment.akp.md](.knowledge/mining/marketplace-business-bba-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/mining-architecture.akp.md](.knowledge/mining/mining-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/mining-core.akp.md](.knowledge/mining/mining-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/mining-models.akp.md](.knowledge/mining/mining-models.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/mining-page-directives.akp.md](.knowledge/mining/mining-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/monitoring-telemetry.akp.md](.knowledge/mining/monitoring-telemetry.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/node-validator-operations.akp.md](.knowledge/mining/node-validator-operations.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/pools-hashrate-difficulty.akp.md](.knowledge/mining/pools-hashrate-difficulty.akp.md) |
+| — | AXODUS MINING KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/README.md](.knowledge/mining/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/reporting-accountability.akp.md](.knowledge/mining/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/rewards-payouts.akp.md](.knowledge/mining/rewards-payouts.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/risk-compliance.akp.md](.knowledge/mining/risk-compliance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/security-custody.akp.md](.knowledge/mining/security-custody.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/sustainability-responsible-operations.akp.md](.knowledge/mining/sustainability-responsible-operations.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/tokenomics-alignment.akp.md](.knowledge/mining/tokenomics-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/trading-risk-hedging.akp.md](.knowledge/mining/trading-risk-hedging.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/treasury-alignment.akp.md](.knowledge/mining/treasury-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/mining/user-facing-products.akp.md](.knowledge/mining/user-facing-products.akp.md) |
+| — | AXODUS KNOWLEDGE LAYER | — | — | — | — | — | [.knowledge/README.md](.knowledge/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/accountability-records.akp.md](.knowledge/runtime/accountability-records.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/acs-integration.akp.md](.knowledge/runtime/acs-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/change-control.akp.md](.knowledge/runtime/change-control.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/communication-cadence.akp.md](.knowledge/runtime/communication-cadence.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/delays-and-blockers.akp.md](.knowledge/runtime/delays-and-blockers.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/execution-handoff.akp.md](.knowledge/runtime/execution-handoff.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/governance-escalation.akp.md](.knowledge/runtime/governance-escalation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/runtime/manifest.akp.md](.knowledge/runtime/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/milestones-and-deliverables.akp.md](.knowledge/runtime/milestones-and-deliverables.akp.md) |
+| — | AXODUS RUNTIME KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/README.md](.knowledge/runtime/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/request-lifecycle.akp.md](.knowledge/runtime/request-lifecycle.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/runtime-architecture.akp.md](.knowledge/runtime/runtime-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/runtime-core.akp.md](.knowledge/runtime/runtime-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/runtime-page-directives.akp.md](.knowledge/runtime/runtime-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/runtime-risk-controls.akp.md](.knowledge/runtime/runtime-risk-controls.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/status-model.akp.md](.knowledge/runtime/status-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/runtime/validation-and-confirmation.akp.md](.knowledge/runtime/validation-and-confirmation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/academy-rewards.akp.md](.knowledge/tokenomics/academy-rewards.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/contract-dependencies.akp.md](.knowledge/tokenomics/contract-dependencies.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/fee-model.akp.md](.knowledge/tokenomics/fee-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/governance-participation.akp.md](.knowledge/tokenomics/governance-participation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/locked-rewards.akp.md](.knowledge/tokenomics/locked-rewards.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/tokenomics/manifest.akp.md](.knowledge/tokenomics/manifest.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/marketplace-utility.akp.md](.knowledge/tokenomics/marketplace-utility.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/neurons-token.akp.md](.knowledge/tokenomics/neurons-token.akp.md) |
+| — | AXODUS TOKENOMICS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/README.md](.knowledge/tokenomics/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/reporting-accountability.akp.md](.knowledge/tokenomics/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/reward-policy.akp.md](.knowledge/tokenomics/reward-policy.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/risk-compliance.akp.md](.knowledge/tokenomics/risk-compliance.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/supply-and-emission.akp.md](.knowledge/tokenomics/supply-and-emission.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/tokenomics-core.akp.md](.knowledge/tokenomics/tokenomics-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/tokenomics-page-directives.akp.md](.knowledge/tokenomics/tokenomics-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/treasury-alignment.akp.md](.knowledge/tokenomics/treasury-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/tokenomics/utility-model.akp.md](.knowledge/tokenomics/utility-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/access-model.akp.md](.knowledge/trading/access-model.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/acs-trinity-integration.akp.md](.knowledge/trading/acs-trinity-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/cex-api-security.akp.md](.knowledge/trading/cex-api-security.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/compliance-user-disclosures.akp.md](.knowledge/trading/compliance-user-disclosures.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/execution-and-infrastructure.akp.md](.knowledge/trading/execution-and-infrastructure.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/governance-alignment.akp.md](.knowledge/trading/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/internal-trading.akp.md](.knowledge/trading/internal-trading.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/trading/manifest.akp.md](.knowledge/trading/manifest.akp.md) |
+| — | AXODUS TRADING KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/README.md](.knowledge/trading/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/reporting-accountability.akp.md](.knowledge/trading/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/risk-management.akp.md](.knowledge/trading/risk-management.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/scalper-futures.akp.md](.knowledge/trading/scalper-futures.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/strategy-lifecycle.akp.md](.knowledge/trading/strategy-lifecycle.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/trading-architecture.akp.md](.knowledge/trading/trading-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/trading-core.akp.md](.knowledge/trading/trading-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/trading-page-directives.akp.md](.knowledge/trading/trading-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/treasury-alignment.akp.md](.knowledge/trading/treasury-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/trading/user-facing-strategies.akp.md](.knowledge/trading/user-facing-strategies.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/acs-trinity-integration.akp.md](.knowledge/treasury/acs-trinity-integration.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/capital-allocation.akp.md](.knowledge/treasury/capital-allocation.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/compliance-disclosures.akp.md](.knowledge/treasury/compliance-disclosures.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/custody-and-security.akp.md](.knowledge/treasury/custody-and-security.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/governance-alignment.akp.md](.knowledge/treasury/governance-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | — | — | [.knowledge/treasury/manifest.akp.md](.knowledge/treasury/manifest.akp.md) |
+| — | AXODUS TREASURY KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/README.md](.knowledge/treasury/README.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/reporting-accountability.akp.md](.knowledge/treasury/reporting-accountability.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/reserves-and-liquidity.akp.md](.knowledge/treasury/reserves-and-liquidity.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/revenue-and-fees.akp.md](.knowledge/treasury/revenue-and-fees.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/risk-management.akp.md](.knowledge/treasury/risk-management.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/strategy-oversight.akp.md](.knowledge/treasury/strategy-oversight.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/tokenomics-alignment.akp.md](.knowledge/treasury/tokenomics-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/trading-alignment.akp.md](.knowledge/treasury/trading-alignment.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/treasury-architecture.akp.md](.knowledge/treasury/treasury-architecture.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/treasury-core.akp.md](.knowledge/treasury/treasury-core.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/treasury-page-directives.akp.md](.knowledge/treasury/treasury-page-directives.akp.md) |
+| — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/treasury-policy.akp.md](.knowledge/treasury/treasury-policy.akp.md) |
+| — | Architecture Decision Records | — | — | — | — | — | [adr/README.md](adr/README.md) |
+| — | APIs | — | — | — | — | — | [api/README.md](api/README.md) |
+| — | Axodus Architecture | — | — | — | — | — | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| — | Architecture | — | — | — | — | — | [architecture/README.md](architecture/README.md) |
+| — | Changelog | — | — | — | — | — | [CHANGELOG.md](CHANGELOG.md) |
+| — | Contributing to Axodus Documentation | — | — | — | — | — | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| — | Academy Risk and Abuse Prevention | — | — | — | — | — | [docs/academy/academy-risk.md](docs/academy/academy-risk.md) |
+| — | Course Publishing | — | — | — | — | — | [docs/academy/course-publishing.md](docs/academy/course-publishing.md) |
+| — | Academy Governance Alignment | — | — | — | — | — | [docs/academy/governance-alignment.md](docs/academy/governance-alignment.md) |
+| — | Learn-to-Win | — | — | — | — | — | [docs/academy/learn-to-win.md](docs/academy/learn-to-win.md) |
+| — | Academy Locked Rewards | — | — | — | — | — | [docs/academy/locked-rewards.md](docs/academy/locked-rewards.md) |
+| — | Academy Marketplace Integration | — | — | — | — | — | [docs/academy/marketplace-integration.md](docs/academy/marketplace-integration.md) |
+| — | Academy Overview | — | — | — | — | — | [docs/academy/overview.md](docs/academy/overview.md) |
+| — | Proof of Knowledge | — | — | — | — | — | [docs/academy/proof-of-knowledge.md](docs/academy/proof-of-knowledge.md) |
+| — | Academy Token Reward Flows | — | — | — | — | — | [docs/academy/token-reward-flows.md](docs/academy/token-reward-flows.md) |
+| — | Tutor Validation | — | — | — | — | — | [docs/academy/tutor-validation.md](docs/academy/tutor-validation.md) |
+| — | Financial Reports | — | — | — | — | — | [docs/accountability/financial-reports.md](docs/accountability/financial-reports.md) |
+| — | Governance Records | — | — | — | — | — | [docs/accountability/governance-records.md](docs/accountability/governance-records.md) |
+| — | Accountability Overview | — | — | — | — | — | [docs/accountability/overview.md](docs/accountability/overview.md) |
+| — | Release Notes | — | — | — | — | — | [docs/accountability/release-notes.md](docs/accountability/release-notes.md) |
+| — | Roadmap Updates | — | — | — | — | — | [docs/accountability/roadmap-updates.md](docs/accountability/roadmap-updates.md) |
+| — | ACS Accountability | — | — | — | — | — | [docs/acs/accountability.md](docs/acs/accountability.md) |
+| — | ACS Agent Roles | — | — | — | — | — | [docs/acs/agent-roles.md](docs/acs/agent-roles.md) |
+| — | Agent Smith | — | — | — | — | — | [docs/acs/agent-smith.md](docs/acs/agent-smith.md) |
+| — | ACS Architecture | — | — | — | — | — | [docs/acs/architecture.md](docs/acs/architecture.md) |
+| — | ACS Business Integration | — | — | — | — | — | [docs/acs/business-integration.md](docs/acs/business-integration.md) |
+| — | ACS Governance Alignment | — | — | — | — | — | [docs/acs/governance-alignment.md](docs/acs/governance-alignment.md) |
+| — | ACS Human Oversight | — | — | — | — | — | [docs/acs/human-oversight.md](docs/acs/human-oversight.md) |
+| — | ACS Memory and Knowledge | — | — | — | — | — | [docs/acs/memory-and-knowledge.md](docs/acs/memory-and-knowledge.md) |
+| — | Morpheus | — | — | — | — | — | [docs/acs/morpheus.md](docs/acs/morpheus.md) |
+| — | ACS Overview | — | — | — | — | — | [docs/acs/overview.md](docs/acs/overview.md) |
+| — | ACS Risk Review | — | — | — | — | — | [docs/acs/risk-review.md](docs/acs/risk-review.md) |
+| — | ACS Runtime | — | — | — | — | — | [docs/acs/runtime.md](docs/acs/runtime.md) |
+| — | ACS Security and Risk | — | — | — | — | — | [docs/acs/security-and-risk.md](docs/acs/security-and-risk.md) |
+| — | ACS Tooling and MCP | — | — | — | — | — | [docs/acs/tooling-and-mcp.md](docs/acs/tooling-and-mcp.md) |
+| — | Trinity | — | — | — | — | — | [docs/acs/trinity.md](docs/acs/trinity.md) |
+| — | Academy and Marketplace Alignment | — | — | — | — | — | [docs/bba-agency/academy-and-marketplace-alignment.md](docs/bba-agency/academy-and-marketplace-alignment.md) |
+| — | ACS Agent Workflow | — | — | — | — | — | [docs/bba-agency/acs-agent-workflow.md](docs/bba-agency/acs-agent-workflow.md) |
+| — | Brand Architecture | — | — | — | — | — | [docs/bba-agency/brand-architecture.md](docs/bba-agency/brand-architecture.md) |
+| — | Campaign Lifecycle | — | — | — | — | — | [docs/bba-agency/campaign-lifecycle.md](docs/bba-agency/campaign-lifecycle.md) |
+| — | Claim Review | — | — | — | — | — | [docs/bba-agency/claim-review.md](docs/bba-agency/claim-review.md) |
+| — | Client Intake | — | — | — | — | — | [docs/bba-agency/client-intake.md](docs/bba-agency/client-intake.md) |
+| — | Content and Narrative | — | — | — | — | — | [docs/bba-agency/content-and-narrative.md](docs/bba-agency/content-and-narrative.md) |
+| — | DAO and Governance Communication | — | — | — | — | — | [docs/bba-agency/dao-and-governance-communication.md](docs/bba-agency/dao-and-governance-communication.md) |
+| — | Growth Operations | — | — | — | — | — | [docs/bba-agency/growth-operations.md](docs/bba-agency/growth-operations.md) |
+| — | Axodus BBA Agency Overview | — | — | — | — | — | [docs/bba-agency/overview.md](docs/bba-agency/overview.md) |
+| — | Positioning | — | — | — | — | — | [docs/bba-agency/positioning.md](docs/bba-agency/positioning.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/bba-agency/reporting-and-accountability.md](docs/bba-agency/reporting-and-accountability.md) |
+| — | Risk and Compliance | — | — | — | — | — | [docs/bba-agency/risk-and-compliance.md](docs/bba-agency/risk-and-compliance.md) |
+| — | Service Model | — | — | — | — | — | [docs/bba-agency/service-model.md](docs/bba-agency/service-model.md) |
+| — | Web3 Launch Support | — | — | — | — | — | [docs/bba-agency/web3-launch-support.md](docs/bba-agency/web3-launch-support.md) |
+| — | Business Accountability | — | — | — | — | — | [docs/business/accountability.md](docs/business/accountability.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/business/acs-integration.md](docs/business/acs-integration.md) |
+| — | BBA | — | — | — | — | — | [docs/business/bba.md](docs/business/bba.md) |
+| — | Change Requests | — | — | — | — | — | [docs/business/change-requests.md](docs/business/change-requests.md) |
+| — | Client Lifecycle | — | — | — | — | — | [docs/business/client-lifecycle.md](docs/business/client-lifecycle.md) |
+| — | DAO Service Requests | — | — | — | — | — | [docs/business/dao-service-requests.md](docs/business/dao-service-requests.md) |
+| — | Delivery Lifecycle | — | — | — | — | — | [docs/business/delivery-lifecycle.md](docs/business/delivery-lifecycle.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/business/governance-alignment.md](docs/business/governance-alignment.md) |
+| — | Business Overview | — | — | — | — | — | [docs/business/overview.md](docs/business/overview.md) |
+| — | Plugin Requests | — | — | — | — | — | [docs/business/plugin-requests.md](docs/business/plugin-requests.md) |
+| — | Business Request Intake | — | — | — | — | — | [docs/business/request-intake.md](docs/business/request-intake.md) |
+| — | Risk and Compliance | — | — | — | — | — | [docs/business/risk-and-compliance.md](docs/business/risk-and-compliance.md) |
+| — | Business Runtime | — | — | — | — | — | [docs/business/runtime.md](docs/business/runtime.md) |
+| — | Business Service Catalog | — | — | — | — | — | [docs/business/service-catalog.md](docs/business/service-catalog.md) |
+| — | Academy and User Education | — | — | — | — | — | [docs/defi/academy-and-user-education.md](docs/defi/academy-and-user-education.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/defi/acs-integration.md](docs/defi/acs-integration.md) |
+| — | DeFi Architecture | — | — | — | — | — | [docs/defi/architecture.md](docs/defi/architecture.md) |
+| — | Compliance and Disclosures | — | — | — | — | — | [docs/defi/compliance-and-disclosures.md](docs/defi/compliance-and-disclosures.md) |
+| — | DaaS | — | — | — | — | — | [docs/defi/daas.md](docs/defi/daas.md) |
+| — | Derivatives and Debentures | — | — | — | — | — | [docs/defi/derivatives-and-debentures.md](docs/defi/derivatives-and-debentures.md) |
+| — | ETF DaaS | — | — | — | — | — | [docs/defi/etf-daas.md](docs/defi/etf-daas.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/defi/governance-alignment.md](docs/defi/governance-alignment.md) |
+| — | Liquidity Model | — | — | — | — | — | [docs/defi/liquidity-model.md](docs/defi/liquidity-model.md) |
+| — | Axodus DeFi Overview | — | — | — | — | — | [docs/defi/overview.md](docs/defi/overview.md) |
+| — | Protocol Model | — | — | — | — | — | [docs/defi/protocol-model.md](docs/defi/protocol-model.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/defi/reporting-and-accountability.md](docs/defi/reporting-and-accountability.md) |
+| — | DeFi Risk Management | — | — | — | — | — | [docs/defi/risk-management.md](docs/defi/risk-management.md) |
+| — | Security and Smart Contracts | — | — | — | — | — | [docs/defi/security-and-smart-contracts.md](docs/defi/security-and-smart-contracts.md) |
+| — | Staking and Yield | — | — | — | — | — | [docs/defi/staking-and-yield.md](docs/defi/staking-and-yield.md) |
+| — | Tokenomics Alignment | — | — | — | — | — | [docs/defi/tokenomics-alignment.md](docs/defi/tokenomics-alignment.md) |
+| — | Treasury Alignment | — | — | — | — | — | [docs/defi/treasury-alignment.md](docs/defi/treasury-alignment.md) |
+| — | Vaults and Strategies | — | — | — | — | — | [docs/defi/vaults-and-strategies.md](docs/defi/vaults-and-strategies.md) |
+| — | Academy and User Education | — | — | — | — | — | [docs/dex/academy-and-user-education.md](docs/dex/academy-and-user-education.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/dex/acs-integration.md](docs/dex/acs-integration.md) |
+| — | DEX Architecture | — | — | — | — | — | [docs/dex/architecture.md](docs/dex/architecture.md) |
+| — | Fees and Revenue | — | — | — | — | — | [docs/dex/fees-and-revenue.md](docs/dex/fees-and-revenue.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/dex/governance-alignment.md](docs/dex/governance-alignment.md) |
+| — | Liquidity Pools | — | — | — | — | — | [docs/dex/liquidity-pools.md](docs/dex/liquidity-pools.md) |
+| — | Listing Policy | — | — | — | — | — | [docs/dex/listing-policy.md](docs/dex/listing-policy.md) |
+| — | LP Model | — | — | — | — | — | [docs/dex/lp-model.md](docs/dex/lp-model.md) |
+| — | Marketplace Integration | — | — | — | — | — | [docs/dex/marketplace-integration.md](docs/dex/marketplace-integration.md) |
+| — | MEV and Execution Risk | — | — | — | — | — | [docs/dex/mev-and-execution-risk.md](docs/dex/mev-and-execution-risk.md) |
+| — | Axodus DEX Overview | — | — | — | — | — | [docs/dex/overview.md](docs/dex/overview.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/dex/reporting-and-accountability.md](docs/dex/reporting-and-accountability.md) |
+| — | Risk and Disclosures | — | — | — | — | — | [docs/dex/risk-and-disclosures.md](docs/dex/risk-and-disclosures.md) |
+| — | Routing and Aggregation | — | — | — | — | — | [docs/dex/routing-and-aggregation.md](docs/dex/routing-and-aggregation.md) |
+| — | Security and Smart Contracts | — | — | — | — | — | [docs/dex/security-and-smart-contracts.md](docs/dex/security-and-smart-contracts.md) |
+| — | Slippage and Price Impact | — | — | — | — | — | [docs/dex/slippage-and-price-impact.md](docs/dex/slippage-and-price-impact.md) |
+| — | Swap Model | — | — | — | — | — | [docs/dex/swap-model.md](docs/dex/swap-model.md) |
+| — | Tokenomics Alignment | — | — | — | — | — | [docs/dex/tokenomics-alignment.md](docs/dex/tokenomics-alignment.md) |
+| — | Trading Integration | — | — | — | — | — | [docs/dex/trading-integration.md](docs/dex/trading-integration.md) |
+| — | Treasury Alignment | — | — | — | — | — | [docs/dex/treasury-alignment.md](docs/dex/treasury-alignment.md) |
+| — | Glossary Terms | — | — | — | — | — | [docs/glossary/terms.md](docs/glossary/terms.md) |
+| — | Governance Accountability | — | — | — | — | — | [docs/governance/accountability.md](docs/governance/accountability.md) |
+| — | Boardroom Council | — | — | — | — | — | [docs/governance/boardroom-council.md](docs/governance/boardroom-council.md) |
+| — | Community DAO | — | — | — | — | — | [docs/governance/community-dao.md](docs/governance/community-dao.md) |
+| — | Constitutional Governance | — | — | — | — | — | [docs/governance/constitutional-governance.md](docs/governance/constitutional-governance.md) |
+| — | DAO Federation | — | — | — | — | — | [docs/governance/dao-federation.md](docs/governance/dao-federation.md) |
+| — | Execution Receipts | — | — | — | — | — | [docs/governance/execution-receipts.md](docs/governance/execution-receipts.md) |
+| — | Executive DAO | — | — | — | — | — | [docs/governance/executive-dao.md](docs/governance/executive-dao.md) |
+| — | Governance Lifecycle | — | — | — | — | — | [docs/governance/governance-lifecycle.md](docs/governance/governance-lifecycle.md) |
+| — | Governance Risk | — | — | — | — | — | [docs/governance/governance-risk.md](docs/governance/governance-risk.md) |
+| — | Governance Overview | — | — | — | — | — | [docs/governance/overview.md](docs/governance/overview.md) |
+| — | Governance Plugin Requests | — | — | — | — | — | [docs/governance/plugin-requests.md](docs/governance/plugin-requests.md) |
+| — | Proposal Lifecycle | — | — | — | — | — | [docs/governance/proposal-lifecycle.md](docs/governance/proposal-lifecycle.md) |
+| — | — | — | — | — | — | — | [docs/index.md](docs/index.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/lottery/acs-integration.md](docs/lottery/acs-integration.md) |
+| — | Claims and Settlement | — | — | — | — | — | [docs/lottery/claims-and-settlement.md](docs/lottery/claims-and-settlement.md) |
+| — | CryptoDraw | — | — | — | — | — | [docs/lottery/cryptodraw.md](docs/lottery/cryptodraw.md) |
+| — | Draw Lifecycle | — | — | — | — | — | [docs/lottery/draw-lifecycle.md](docs/lottery/draw-lifecycle.md) |
+| — | Game Models | — | — | — | — | — | [docs/lottery/game-models.md](docs/lottery/game-models.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/lottery/governance-alignment.md](docs/lottery/governance-alignment.md) |
+| — | Lotofacil-Style Model | — | — | — | — | — | [docs/lottery/lotofacil-style-model.md](docs/lottery/lotofacil-style-model.md) |
+| — | Merkle and Indexing | — | — | — | — | — | [docs/lottery/merkle-and-indexing.md](docs/lottery/merkle-and-indexing.md) |
+| — | Operations and Runtime | — | — | — | — | — | [docs/lottery/operations-and-runtime.md](docs/lottery/operations-and-runtime.md) |
+| — | Axodus Lottery Overview | — | — | — | — | — | [docs/lottery/overview.md](docs/lottery/overview.md) |
+| — | Prize Pools and Payouts | — | — | — | — | — | [docs/lottery/prize-pools-and-payouts.md](docs/lottery/prize-pools-and-payouts.md) |
+| — | Randomness and VRF | — | — | — | — | — | [docs/lottery/randomness-and-vrf.md](docs/lottery/randomness-and-vrf.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/lottery/reporting-and-accountability.md](docs/lottery/reporting-and-accountability.md) |
+| — | Responsible Participation | — | — | — | — | — | [docs/lottery/responsible-participation.md](docs/lottery/responsible-participation.md) |
+| — | Risk and Compliance | — | — | — | — | — | [docs/lottery/risk-and-compliance.md](docs/lottery/risk-and-compliance.md) |
+| — | Security and Smart Contracts | — | — | — | — | — | [docs/lottery/security-and-smart-contracts.md](docs/lottery/security-and-smart-contracts.md) |
+| — | SuperSete-Style Model | — | — | — | — | — | [docs/lottery/supersete-style-model.md](docs/lottery/supersete-style-model.md) |
+| — | Ticket Model | — | — | — | — | — | [docs/lottery/ticket-model.md](docs/lottery/ticket-model.md) |
+| — | Tokenomics Alignment | — | — | — | — | — | [docs/lottery/tokenomics-alignment.md](docs/lottery/tokenomics-alignment.md) |
+| — | Treasury and Fees | — | — | — | — | — | [docs/lottery/treasury-and-fees.md](docs/lottery/treasury-and-fees.md) |
+| — | Academy Alignment | — | — | — | — | — | [docs/marketplace/academy-alignment.md](docs/marketplace/academy-alignment.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/marketplace/acs-integration.md](docs/marketplace/acs-integration.md) |
+| — | Marketplace Architecture | — | — | — | — | — | [docs/marketplace/architecture.md](docs/marketplace/architecture.md) |
+| — | Business and BBA Alignment | — | — | — | — | — | [docs/marketplace/business-and-bba-alignment.md](docs/marketplace/business-and-bba-alignment.md) |
+| — | Buyer Flow | — | — | — | — | — | [docs/marketplace/buyer-flow.md](docs/marketplace/buyer-flow.md) |
+| — | Credits and Locked Rewards | — | — | — | — | — | [docs/marketplace/credits-and-locked-rewards.md](docs/marketplace/credits-and-locked-rewards.md) |
+| — | DEX and DeFi Integration | — | — | — | — | — | [docs/marketplace/dex-and-defi-integration.md](docs/marketplace/dex-and-defi-integration.md) |
+| — | Disputes, Refunds and Support | — | — | — | — | — | [docs/marketplace/disputes-refunds-and-support.md](docs/marketplace/disputes-refunds-and-support.md) |
+| — | Fees and Revenue | — | — | — | — | — | [docs/marketplace/fees-and-revenue.md](docs/marketplace/fees-and-revenue.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/marketplace/governance-alignment.md](docs/marketplace/governance-alignment.md) |
+| — | Listing Model | — | — | — | — | — | [docs/marketplace/listing-model.md](docs/marketplace/listing-model.md) |
+| — | Axodus Marketplace Overview | — | — | — | — | — | [docs/marketplace/overview.md](docs/marketplace/overview.md) |
+| — | Payments and Settlement | — | — | — | — | — | [docs/marketplace/payments-and-settlement.md](docs/marketplace/payments-and-settlement.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/marketplace/reporting-and-accountability.md](docs/marketplace/reporting-and-accountability.md) |
+| — | Reputation and Quality | — | — | — | — | — | [docs/marketplace/reputation-and-quality.md](docs/marketplace/reputation-and-quality.md) |
+| — | Risk and Compliance | — | — | — | — | — | [docs/marketplace/risk-and-compliance.md](docs/marketplace/risk-and-compliance.md) |
+| — | Security and Data Protection | — | — | — | — | — | [docs/marketplace/security-and-data-protection.md](docs/marketplace/security-and-data-protection.md) |
+| — | Seller / Provider Model | — | — | — | — | — | [docs/marketplace/seller-provider-model.md](docs/marketplace/seller-provider-model.md) |
+| — | Service Catalog | — | — | — | — | — | [docs/marketplace/service-catalog.md](docs/marketplace/service-catalog.md) |
+| — | Tokenomics Alignment | — | — | — | — | — | [docs/marketplace/tokenomics-alignment.md](docs/marketplace/tokenomics-alignment.md) |
+| — | Treasury Alignment | — | — | — | — | — | [docs/marketplace/treasury-alignment.md](docs/marketplace/treasury-alignment.md) |
+| — | Academy and User Education | — | — | — | — | — | [docs/mining/academy-and-user-education.md](docs/mining/academy-and-user-education.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/mining/acs-integration.md](docs/mining/acs-integration.md) |
+| — | Mining Architecture | — | — | — | — | — | [docs/mining/architecture.md](docs/mining/architecture.md) |
+| — | Costs, Fees and Profitability | — | — | — | — | — | [docs/mining/costs-fees-and-profitability.md](docs/mining/costs-fees-and-profitability.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/mining/governance-alignment.md](docs/mining/governance-alignment.md) |
+| — | Hardware, Energy and Uptime | — | — | — | — | — | [docs/mining/hardware-energy-and-uptime.md](docs/mining/hardware-energy-and-uptime.md) |
+| — | Infrastructure and Operations | — | — | — | — | — | [docs/mining/infrastructure-and-operations.md](docs/mining/infrastructure-and-operations.md) |
+| — | Marketplace, Business and BBA Alignment | — | — | — | — | — | [docs/mining/marketplace-business-and-bba-alignment.md](docs/mining/marketplace-business-and-bba-alignment.md) |
+| — | Mining Models | — | — | — | — | — | [docs/mining/mining-models.md](docs/mining/mining-models.md) |
+| — | Monitoring and Telemetry | — | — | — | — | — | [docs/mining/monitoring-and-telemetry.md](docs/mining/monitoring-and-telemetry.md) |
+| — | Node and Validator Operations | — | — | — | — | — | [docs/mining/node-and-validator-operations.md](docs/mining/node-and-validator-operations.md) |
+| — | Axodus Mining Overview | — | — | — | — | — | [docs/mining/overview.md](docs/mining/overview.md) |
+| — | Pools, Hashrate and Network Difficulty | — | — | — | — | — | [docs/mining/pools-hashrate-and-network-difficulty.md](docs/mining/pools-hashrate-and-network-difficulty.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/mining/reporting-and-accountability.md](docs/mining/reporting-and-accountability.md) |
+| — | Rewards and Payouts | — | — | — | — | — | [docs/mining/rewards-and-payouts.md](docs/mining/rewards-and-payouts.md) |
+| — | Risk and Compliance | — | — | — | — | — | [docs/mining/risk-and-compliance.md](docs/mining/risk-and-compliance.md) |
+| — | Security and Custody | — | — | — | — | — | [docs/mining/security-and-custody.md](docs/mining/security-and-custody.md) |
+| — | Sustainability and Responsible Operations | — | — | — | — | — | [docs/mining/sustainability-and-responsible-operations.md](docs/mining/sustainability-and-responsible-operations.md) |
+| — | Tokenomics Alignment | — | — | — | — | — | [docs/mining/tokenomics-alignment.md](docs/mining/tokenomics-alignment.md) |
+| — | Trading and Risk Hedging | — | — | — | — | — | [docs/mining/trading-and-risk-hedging.md](docs/mining/trading-and-risk-hedging.md) |
+| — | Treasury Alignment | — | — | — | — | — | [docs/mining/treasury-alignment.md](docs/mining/treasury-alignment.md) |
+| — | User-Facing Products | — | — | — | — | — | [docs/mining/user-facing-products.md](docs/mining/user-facing-products.md) |
+| — | Constitutional Model | — | — | — | — | — | [docs/overview/constitutional-model.md](docs/overview/constitutional-model.md) |
+| — | Core Principles | — | — | — | — | — | [docs/overview/core-principles.md](docs/overview/core-principles.md) |
+| — | Documentation Standards | — | — | — | — | — | [docs/overview/documentation-standards.md](docs/overview/documentation-standards.md) |
+| — | Documentation Status | — | — | — | — | — | [docs/overview/documentation-status.md](docs/overview/documentation-status.md) |
+| — | Ecosystem Overview | — | — | — | — | — | [docs/overview/ecosystem-overview.md](docs/overview/ecosystem-overview.md) |
+| — | Product Map | — | — | — | — | — | [docs/overview/product-map.md](docs/overview/product-map.md) |
+| — | Risk Notices | — | — | — | — | — | [docs/overview/risk-notices.md](docs/overview/risk-notices.md) |
+| — | Terminology | — | — | — | — | — | [docs/overview/terminology.md](docs/overview/terminology.md) |
+| — | Accountability Records | — | — | — | — | — | [docs/runtime/accountability-records.md](docs/runtime/accountability-records.md) |
+| — | ACS Integration | — | — | — | — | — | [docs/runtime/acs-integration.md](docs/runtime/acs-integration.md) |
+| — | Runtime Architecture | — | — | — | — | — | [docs/runtime/architecture.md](docs/runtime/architecture.md) |
+| — | Change Control | — | — | — | — | — | [docs/runtime/change-control.md](docs/runtime/change-control.md) |
+| — | Communication Cadence | — | — | — | — | — | [docs/runtime/communication-cadence.md](docs/runtime/communication-cadence.md) |
+| — | Delays and Blockers | — | — | — | — | — | [docs/runtime/delays-and-blockers.md](docs/runtime/delays-and-blockers.md) |
+| — | Execution Handoff | — | — | — | — | — | [docs/runtime/execution-handoff.md](docs/runtime/execution-handoff.md) |
+| — | Governance Escalation | — | — | — | — | — | [docs/runtime/governance-escalation.md](docs/runtime/governance-escalation.md) |
+| — | Milestones | — | — | — | — | — | [docs/runtime/milestones.md](docs/runtime/milestones.md) |
+| — | Runtime Overview | — | — | — | — | — | [docs/runtime/overview.md](docs/runtime/overview.md) |
+| — | Request Lifecycle | — | — | — | — | — | [docs/runtime/request-lifecycle.md](docs/runtime/request-lifecycle.md) |
+| — | Risk Controls | — | — | — | — | — | [docs/runtime/risk-controls.md](docs/runtime/risk-controls.md) |
+| — | Status Model | — | — | — | — | — | [docs/runtime/status-model.md](docs/runtime/status-model.md) |
+| — | Validation and Confirmation | — | — | — | — | — | [docs/runtime/validation-and-confirmation.md](docs/runtime/validation-and-confirmation.md) |
+| — | API Security | — | — | — | — | — | [docs/security/api-security.md](docs/security/api-security.md) |
+| — | Disclosure Policy | — | — | — | — | — | [docs/security/disclosure-policy.md](docs/security/disclosure-policy.md) |
+| — | Frontend Security | — | — | — | — | — | [docs/security/frontend-security.md](docs/security/frontend-security.md) |
+| — | Security Overview | — | — | — | — | — | [docs/security/overview.md](docs/security/overview.md) |
+| — | Smart Contract Security | — | — | — | — | — | [docs/security/smart-contract-security.md](docs/security/smart-contract-security.md) |
+| — | Trading API Security | — | — | — | — | — | [docs/security/trading-api-security.md](docs/security/trading-api-security.md) |
+| — | Wallet Security | — | — | — | — | — | [docs/security/wallet-security.md](docs/security/wallet-security.md) |
+| — | Academy Rewards | — | — | — | — | — | [docs/tokenomics/academy-rewards.md](docs/tokenomics/academy-rewards.md) |
+| — | Contract Dependencies | — | — | — | — | — | [docs/tokenomics/contract-dependencies.md](docs/tokenomics/contract-dependencies.md) |
+| — | Cross-Chain Readiness | — | — | — | — | — | [docs/tokenomics/cross-chain-readiness.md](docs/tokenomics/cross-chain-readiness.md) |
+| — | Governance Participation | — | — | — | — | — | [docs/tokenomics/governance-participation.md](docs/tokenomics/governance-participation.md) |
+| — | Locked Rewards Status | — | — | — | — | — | [docs/tokenomics/locked-rewards.md](docs/tokenomics/locked-rewards.md) |
+| — | Marketplace Utility | — | — | — | — | — | [docs/tokenomics/marketplace-utility.md](docs/tokenomics/marketplace-utility.md) |
+| — | $Neurons Token | — | — | — | — | — | [docs/tokenomics/neurons-token.md](docs/tokenomics/neurons-token.md) |
+| — | Tokenomics Overview | — | — | — | — | — | [docs/tokenomics/overview.md](docs/tokenomics/overview.md) |
+| — | PoK Minting | — | — | — | — | — | [docs/tokenomics/pok-minting.md](docs/tokenomics/pok-minting.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/tokenomics/reporting-and-accountability.md](docs/tokenomics/reporting-and-accountability.md) |
+| — | Reward Policy | — | — | — | — | — | [docs/tokenomics/reward-policy.md](docs/tokenomics/reward-policy.md) |
+| — | Risk and Compliance | — | — | — | — | — | [docs/tokenomics/risk-and-compliance.md](docs/tokenomics/risk-and-compliance.md) |
+| — | Supply and Emission | — | — | — | — | — | [docs/tokenomics/supply-and-emission.md](docs/tokenomics/supply-and-emission.md) |
+| — | Technical Architecture | — | — | — | — | — | [docs/tokenomics/technical-architecture.md](docs/tokenomics/technical-architecture.md) |
+| — | Treasury Alignment | — | — | — | — | — | [docs/tokenomics/treasury-alignment.md](docs/tokenomics/treasury-alignment.md) |
+| — | Utility Model | — | — | — | — | — | [docs/tokenomics/utility-model.md](docs/tokenomics/utility-model.md) |
+| — | Access Model | — | — | — | — | — | [docs/trading/access-model.md](docs/trading/access-model.md) |
+| — | ACS and Trinity Integration | — | — | — | — | — | [docs/trading/acs-trinity-integration.md](docs/trading/acs-trinity-integration.md) |
+| — | Trading Architecture | — | — | — | — | — | [docs/trading/architecture.md](docs/trading/architecture.md) |
+| — | CEX API Security | — | — | — | — | — | [docs/trading/cex-api-security.md](docs/trading/cex-api-security.md) |
+| — | Compliance and User Disclosures | — | — | — | — | — | [docs/trading/compliance-and-user-disclosures.md](docs/trading/compliance-and-user-disclosures.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/trading/governance-alignment.md](docs/trading/governance-alignment.md) |
+| — | Internal Trading | — | — | — | — | — | [docs/trading/internal-trading.md](docs/trading/internal-trading.md) |
+| — | Trading Overview | — | — | — | — | — | [docs/trading/overview.md](docs/trading/overview.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/trading/reporting-and-accountability.md](docs/trading/reporting-and-accountability.md) |
+| — | Risk Management | — | — | — | — | — | [docs/trading/risk-management.md](docs/trading/risk-management.md) |
+| — | Scalper Futures | — | — | — | — | — | [docs/trading/scalper-futures.md](docs/trading/scalper-futures.md) |
+| — | Strategy Lifecycle | — | — | — | — | — | [docs/trading/strategy-lifecycle.md](docs/trading/strategy-lifecycle.md) |
+| — | Treasury Alignment | — | — | — | — | — | [docs/trading/treasury-alignment.md](docs/trading/treasury-alignment.md) |
+| — | User-Facing Strategies | — | — | — | — | — | [docs/trading/user-facing-strategies.md](docs/trading/user-facing-strategies.md) |
+| — | ACS and Trinity Integration | — | — | — | — | — | [docs/treasury/acs-trinity-integration.md](docs/treasury/acs-trinity-integration.md) |
+| — | Treasury Architecture | — | — | — | — | — | [docs/treasury/architecture.md](docs/treasury/architecture.md) |
+| — | Capital Allocation | — | — | — | — | — | [docs/treasury/capital-allocation.md](docs/treasury/capital-allocation.md) |
+| — | Compliance and Disclosures | — | — | — | — | — | [docs/treasury/compliance-and-disclosures.md](docs/treasury/compliance-and-disclosures.md) |
+| — | Custody and Security | — | — | — | — | — | [docs/treasury/custody-and-security.md](docs/treasury/custody-and-security.md) |
+| — | Governance Alignment | — | — | — | — | — | [docs/treasury/governance-alignment.md](docs/treasury/governance-alignment.md) |
+| — | Treasury Overview | — | — | — | — | — | [docs/treasury/overview.md](docs/treasury/overview.md) |
+| — | Reporting and Accountability | — | — | — | — | — | [docs/treasury/reporting-and-accountability.md](docs/treasury/reporting-and-accountability.md) |
+| — | Reserves and Liquidity | — | — | — | — | — | [docs/treasury/reserves-and-liquidity.md](docs/treasury/reserves-and-liquidity.md) |
+| — | Revenue and Fees | — | — | — | — | — | [docs/treasury/revenue-and-fees.md](docs/treasury/revenue-and-fees.md) |
+| — | Treasury Risk Management | — | — | — | — | — | [docs/treasury/risk-management.md](docs/treasury/risk-management.md) |
+| — | Strategy Oversight | — | — | — | — | — | [docs/treasury/strategy-oversight.md](docs/treasury/strategy-oversight.md) |
+| — | Tokenomics Alignment | — | — | — | — | — | [docs/treasury/tokenomics-alignment.md](docs/treasury/tokenomics-alignment.md) |
+| — | Trading Alignment | — | — | — | — | — | [docs/treasury/trading-alignment.md](docs/treasury/trading-alignment.md) |
+| — | Treasury Policy | — | — | — | — | — | [docs/treasury/treasury-policy.md](docs/treasury/treasury-policy.md) |
+| — | Documentation ADR Index | — | — | — | — | — | [DOCUMENTATION-ADR-INDEX.md](DOCUMENTATION-ADR-INDEX.md) |
+| — | AXODUS AGENT ALIGNMENT | — | — | — | — | — | [Documents/agents/AXODUS_AGENT_ALIGNMENT.md](Documents/agents/AXODUS_AGENT_ALIGNMENT.md) |
+| — | Documents Archive | — | — | — | — | — | [Documents/archive/README.md](Documents/archive/README.md) |
+| — | AXODUS COMMERCIAL CORE | — | — | — | — | — | [Documents/commercial/AXODUS_COMMERCIAL_CORE.md](Documents/commercial/AXODUS_COMMERCIAL_CORE.md) |
+| — | Planning Documents | — | — | — | — | — | [Documents/planning/README.md](Documents/planning/README.md) |
+| — | VitePress Customization Report | — | — | — | — | — | [Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md](Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md) |
+| — | AXODUS ECOSYSTEM ONBOARDING | — | — | — | — | — | [Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md](Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md) |
+| — | AXODUS USER JOURNEY | — | — | — | — | — | [Documents/product/AXODUS_USER_JOURNEY.md](Documents/product/AXODUS_USER_JOURNEY.md) |
+| — | Documents | — | — | — | — | — | [Documents/README.md](Documents/README.md) |
+| — | Research Documents | — | — | — | — | — | [Documents/research/README.md](Documents/research/README.md) |
+| — | AXODUS CAPITAL ALLOCATION MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md](Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md) |
+| — | AXODUS CONSTITUTION | — | — | — | — | — | [Documents/strategy/AXODUS_CONSTITUTION.md](Documents/strategy/AXODUS_CONSTITUTION.md) |
+| — | AXODUS DAO FEDERATION MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md](Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md) |
+| — | AXODUS ECONOMIC MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_ECONOMIC_MODEL.md](Documents/strategy/AXODUS_ECONOMIC_MODEL.md) |
+| — | AXODUS TREASURY PHILOSOPHY | — | — | — | — | — | [Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md](Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md) |
+| — | AXODUS TRADING PRINCIPLES | — | — | — | — | — | [Documents/trading/AXODUS_TRADING_PRINCIPLES.md](Documents/trading/AXODUS_TRADING_PRINCIPLES.md) |
+| — | Axodus Glossary | — | — | — | — | — | [GLOSSARY.md](GLOSSARY.md) |
+| — | Axodus Governance | — | — | — | — | — | [GOVERNANCE.md](GOVERNANCE.md) |
+| — | Governance | — | — | — | — | — | [governance/README.md](governance/README.md) |
+| — | Meetings | — | — | — | — | — | [meetings/README.md](meetings/README.md) |
+| — | Playbooks | — | — | — | — | — | [operations/playbooks/README.md](operations/playbooks/README.md) |
+| — | Operations | — | — | — | — | — | [operations/README.md](operations/README.md) |
+| — | Runbooks | — | — | — | — | — | [operations/runbooks/README.md](operations/runbooks/README.md) |
+| — | Policies | — | — | — | — | — | [policies/README.md](policies/README.md) |
+| — | Proposals | — | — | — | — | — | [proposals/README.md](proposals/README.md) |
+| — | Axodus Documentation | — | — | — | — | — | [README.md](README.md) |
+| — | References | — | — | — | — | — | [references/README.md](references/README.md) |
+| — | Releases | — | — | — | — | — | [releases/README.md](releases/README.md) |
+| — | Reports | — | — | — | — | — | [reports/README.md](reports/README.md) |
+| — | Requirements | — | — | — | — | — | [requirements/README.md](requirements/README.md) |
+| — | Research | — | — | — | — | — | [research/README.md](research/README.md) |
+| — | Axodus Roadmap | — | — | — | — | — | [ROADMAP.md](ROADMAP.md) |
+| — | Roadmaps | — | — | — | — | — | [roadmaps/README.md](roadmaps/README.md) |
+| — | Axodus Security | — | — | — | — | — | [SECURITY.md](SECURITY.md) |
+| — | Specifications | — | — | — | — | — | [specifications/README.md](specifications/README.md) |
+| — | Standards | — | — | — | — | — | [standards/README.md](standards/README.md) |
+| — | Documentation Templates | — | — | — | — | — | [templates/README.md](templates/README.md) |
 ## Templates
 
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | <Decision Title> | DRAFT | 0.1.0 | <owner> | [templates/ADR-TEMPLATE.md](templates/ADR-TEMPLATE.md) |
-| — | <API Title> | DRAFT | 0.1.0 | <owner> | [templates/API-TEMPLATE.md](templates/API-TEMPLATE.md) |
-| — | <Meeting Title> | DRAFT | 0.1.0 | <facilitator> | [templates/MEETING-TEMPLATE.md](templates/MEETING-TEMPLATE.md) |
-| — | <Playbook Title> | DRAFT | 0.1.0 | <owner> | [templates/PLAYBOOK-TEMPLATE.md](templates/PLAYBOOK-TEMPLATE.md) |
-| — | <Policy Title> | DRAFT | 0.1.0 | <owner> | [templates/POLICY-TEMPLATE.md](templates/POLICY-TEMPLATE.md) |
-| — | <Proposal Title> | DRAFT | 0.1.0 | <sponsor> | [templates/PROPOSAL-TEMPLATE.md](templates/PROPOSAL-TEMPLATE.md) |
-| — | Documentation Templates | — | — | — | [templates/README.md](templates/README.md) |
-| — | <Reference Title> | DRAFT | 0.1.0 | <owner> | [templates/REFERENCE-TEMPLATE.md](templates/REFERENCE-TEMPLATE.md) |
-| — | <Release Title> | DRAFT | 0.1.0 | <owner> | [templates/RELEASE-TEMPLATE.md](templates/RELEASE-TEMPLATE.md) |
-| — | <Report Title> | DRAFT | 0.1.0 | <owner> | [templates/REPORT-TEMPLATE.md](templates/REPORT-TEMPLATE.md) |
-| — | <Requirement Title> | DRAFT | 0.1.0 | <owner> | [templates/REQUIREMENT-TEMPLATE.md](templates/REQUIREMENT-TEMPLATE.md) |
-| — | <Research Title> | DRAFT | 0.1.0 | <owner> | [templates/RESEARCH-TEMPLATE.md](templates/RESEARCH-TEMPLATE.md) |
-| — | <Runbook Title> | DRAFT | 0.1.0 | <owner> | [templates/RUNBOOK-TEMPLATE.md](templates/RUNBOOK-TEMPLATE.md) |
-| — | <Specification Title> | DRAFT | 0.1.0 | <owner> | [templates/SPECIFICATION-TEMPLATE.md](templates/SPECIFICATION-TEMPLATE.md) |
-| — | <Standard Title> | DRAFT | 0.1.0 | <owner> | [templates/STANDARD-TEMPLATE.md](templates/STANDARD-TEMPLATE.md) |
-
-## Legacy and Unclassified
-
-| ID | Title | Status | Version | Owner | Relative Path |
-|---|---|---|---|---|---|
-| — | Axodus Ecosystem Context | Active | 0.1.0 | Axodus Core | [.instructions/AXODUS_CONTEXT.md](.instructions/AXODUS_CONTEXT.md) |
-| — | Documentation Blocker Register | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/BLOCKER_REGISTER.md](.instructions/BLOCKER_REGISTER.md) |
-| — | BUB_AGENTS.md | — | — | — | [.instructions/BUB_AGENTS.md](.instructions/BUB_AGENTS.md) |
-| — | Content Guardrails | Active | 0.1.0 | Axodus Core | [.instructions/CONTENT_GUARDRAILS.md](.instructions/CONTENT_GUARDRAILS.md) |
-| — | Documentation Claim Resolution Notes | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md](.instructions/DOCUMENTATION_CLAIM_RESOLUTION_NOTES.md) |
-| — | Documentation Claim Safety Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_CLAIM_SAFETY_VALIDATION.md](.instructions/DOCUMENTATION_CLAIM_SAFETY_VALIDATION.md) |
-| — | Documentation Content Change Pipeline | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_CONTENT_CHANGE_PIPELINE.md](.instructions/DOCUMENTATION_CONTENT_CHANGE_PIPELINE.md) |
-| — | Documentation Content Correction Plan | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_CONTENT_CORRECTION_PLAN.md](.instructions/DOCUMENTATION_CONTENT_CORRECTION_PLAN.md) |
-| — | Documentation Content Inventory | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_CONTENT_INVENTORY.md](.instructions/DOCUMENTATION_CONTENT_INVENTORY.md) |
-| — | Documentation Content Quality Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md](.instructions/DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md) |
-| — | Documentation Draft Changelog | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_DRAFT_CHANGELOG.md](.instructions/DOCUMENTATION_DRAFT_CHANGELOG.md) |
-| — | Documentation Editorial Gap Analysis | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_EDITORIAL_GAP_ANALYSIS.md](.instructions/DOCUMENTATION_EDITORIAL_GAP_ANALYSIS.md) |
-| — | Documentation High-Risk Claims Register | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_HIGH_RISK_CLAIMS_REGISTER.md](.instructions/DOCUMENTATION_HIGH_RISK_CLAIMS_REGISTER.md) |
-| — | Documentation Link and Navigation Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_LINK_AND_NAV_VALIDATION.md](.instructions/DOCUMENTATION_LINK_AND_NAV_VALIDATION.md) |
-| — | Documentation Publication Authority Matrix | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_PUBLICATION_AUTHORITY_MATRIX.md](.instructions/DOCUMENTATION_PUBLICATION_AUTHORITY_MATRIX.md) |
-| — | Documentation Publication Governance | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE.md](.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE.md) |
-| — | Documentation Publication Governance Handoff | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE_HANDOFF.md](.instructions/DOCUMENTATION_PUBLICATION_GOVERNANCE_HANDOFF.md) |
-| — | Documentation Release Candidate Policy | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_RELEASE_CANDIDATE_POLICY.md](.instructions/DOCUMENTATION_RELEASE_CANDIDATE_POLICY.md) |
-| — | Documentation Rollback and Post-Publication Audit | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md](.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md) |
-| — | Documentation Standards | Active | 0.1.0 | Axodus Core | [.instructions/DOCUMENTATION_STANDARDS.md](.instructions/DOCUMENTATION_STANDARDS.md) |
-| — | Documentation File Structure | Active | 0.3.0 | Axodus Core | [.instructions/FILE_STRUCTURE.md](.instructions/FILE_STRUCTURE.md) |
-| — | Documentation Ownership | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/OWNERSHIP.md](.instructions/OWNERSHIP.md) |
-| — | Documentation Publication Boundaries | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/PUBLICATION_BOUNDARIES.md](.instructions/PUBLICATION_BOUNDARIES.md) |
-| — | Axodus Documentation Instructions | Active | 0.1.0 | Axodus Core | [.instructions/README.md](.instructions/README.md) |
-| — | Documentation Rebuild Protocol | Active | 0.1.0 | Axodus Core | [.instructions/REBUILD_PROTOCOL.md](.instructions/REBUILD_PROTOCOL.md) |
-| — | REQ-05 Handoff - VitePress Local Build Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md](.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md) |
-| — | REQ-06 Handoff - Documentation Content Inventory and Editorial Gap Analysis | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md](.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md) |
-| — | REQ-07 Handoff - Documentation Content Correction Drafts | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md](.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md) |
-| — | REQ-08 Handoff - Documentation Content Quality Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/REQ_08_HANDOFF_DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md](.instructions/REQ_08_HANDOFF_DOCUMENTATION_CONTENT_QUALITY_VALIDATION.md) |
-| — | REQ-10 Handoff - Documentation Publication Execution | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/REQ_10_HANDOFF_DOCUMENTATION_PUBLICATION_EXECUTION.md](.instructions/REQ_10_HANDOFF_DOCUMENTATION_PUBLICATION_EXECUTION.md) |
-| — | Documentation Review Checklist | Active | 0.1.0 | Axodus Core | [.instructions/REVIEW_CHECKLIST.md](.instructions/REVIEW_CHECKLIST.md) |
-| — | Documentation Nucleus Roadmap | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/ROADMAP.md](.instructions/ROADMAP.md) |
-| — | Documentation Security | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/SECURITY.md](.instructions/SECURITY.md) |
-| — | Documentation Source of Truth | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/SOURCE_OF_TRUTH.md](.instructions/SOURCE_OF_TRUTH.md) |
-| — | Documentation Nucleus Status | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/STATUS.md](.instructions/STATUS.md) |
-| — | Documentation Task Register | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/TASK_REGISTER.md](.instructions/TASK_REGISTER.md) |
-| — | Documentation Validation | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/VALIDATION.md](.instructions/VALIDATION.md) |
-| — | Documentation Versioning | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/VERSIONING.md](.instructions/VERSIONING.md) |
-| — | VitePress Alignment | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_ALIGNMENT.md](.instructions/VITEPRESS_ALIGNMENT.md) |
-| — | VitePress Asset Inventory | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_ASSET_INVENTORY.md](.instructions/VITEPRESS_ASSET_INVENTORY.md) |
-| — | VitePress Build Output Review | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_BUILD_OUTPUT_REVIEW.md](.instructions/VITEPRESS_BUILD_OUTPUT_REVIEW.md) |
-| — | VitePress Build Readiness | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_BUILD_READINESS.md](.instructions/VITEPRESS_BUILD_READINESS.md) |
-| — | VitePress Link and Navigation Review | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_LINK_AND_NAVIGATION_REVIEW.md](.instructions/VITEPRESS_LINK_AND_NAVIGATION_REVIEW.md) |
-| — | VitePress Local Build Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_LOCAL_BUILD_VALIDATION.md](.instructions/VITEPRESS_LOCAL_BUILD_VALIDATION.md) |
-| — | VitePress Release Approval Checklist | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_RELEASE_APPROVAL_CHECKLIST.md](.instructions/VITEPRESS_RELEASE_APPROVAL_CHECKLIST.md) |
-| — | VitePress Structure Validation | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_STRUCTURE_VALIDATION.md](.instructions/VITEPRESS_STRUCTURE_VALIDATION.md) |
-| — | VitePress Validation Plan | Candidate | 0.1.0 | Documentation Coordinator | [.instructions/VITEPRESS_VALIDATION_PLAN.md](.instructions/VITEPRESS_VALIDATION_PLAN.md) |
-| — | Documentation Nucleus Workflow | Active Recovery | 0.1.0 | Documentation Coordinator | [.instructions/WORKFLOW.md](.instructions/WORKFLOW.md) |
-| — | Documentation Sprint 01 Closeout Report - 2026-06-05 | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md](.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md) |
-| — | Documentation Sprint 01 - VitePress Validation & Documentation Content Change Pipeline - 2026-06-04 | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md](.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md) |
-| — | REQ-02A - Documentation Publication Target Correction - GitBook to VitePress - 2026-06-04 | — | — | — | [.instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md](.instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md) |
-| — | REQ-02 - Documentation Nucleus Recovery L3 to L4 Report - 2026-06-04 | — | — | — | [.instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md](.instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md) |
-| — | REQ-03 - Documentation Asset Inventory & VitePress Alignment - 2026-06-04 | — | — | — | [.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md](.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md) |
-| — | REQ-04 VitePress Structural Validation and Local Build Readiness Report - 2026-06-05 | PASS_WITH_WARNINGS | — | — | [.instructions/reports/REQ_04_VITEPRESS_STRUCTURAL_VALIDATION_AND_LOCAL_BUILD_READINESS_2026-06-05.md](.instructions/reports/REQ_04_VITEPRESS_STRUCTURAL_VALIDATION_AND_LOCAL_BUILD_READINESS_2026-06-05.md) |
-| — | REQ-05 VitePress Local Build Validation Report - 2026-06-05 | — | — | — | [.instructions/reports/REQ_05_VITEPRESS_LOCAL_BUILD_VALIDATION_2026-06-05.md](.instructions/reports/REQ_05_VITEPRESS_LOCAL_BUILD_VALIDATION_2026-06-05.md) |
-| — | REQ-06 Documentation Content Inventory and Editorial Gap Analysis Report - 2026-06-05 | — | — | — | [.instructions/reports/REQ_06_DOCUMENTATION_CONTENT_INVENTORY_AND_EDITORIAL_GAP_ANALYSIS_2026-06-05.md](.instructions/reports/REQ_06_DOCUMENTATION_CONTENT_INVENTORY_AND_EDITORIAL_GAP_ANALYSIS_2026-06-05.md) |
-| — | REQ-07 Documentation Content Correction Drafts Report - 2026-06-05 | — | — | — | [.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md](.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md) |
-| — | REQ-08 Documentation Content Quality, Links and Consistency Validation Report - 2026-06-05 | — | — | — | [.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md](.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md) |
-| — | REQ-09 Documentation Publication Governance and Release Workflow Report - 2026-06-05 | — | — | — | [.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md](.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md) |
-| — | AXODUS KNOWLEDGE LAYER | — | — | — | [.knowledge/README.md](.knowledge/README.md) |
-| — | AXODUS ACADEMY KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/academy/README.md](.knowledge/academy/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/academy-architecture.akp.md](.knowledge/academy/academy-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/academy-core.akp.md](.knowledge/academy/academy-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/academy-page-directives.akp.md](.knowledge/academy/academy-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/academy-risk-and-abuse-prevention.akp.md](.knowledge/academy/academy-risk-and-abuse-prevention.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/course-publishing.akp.md](.knowledge/academy/course-publishing.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/governance-business-acs-relations.akp.md](.knowledge/academy/governance-business-acs-relations.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/learn-to-win.akp.md](.knowledge/academy/learn-to-win.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/locked-rewards.akp.md](.knowledge/academy/locked-rewards.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/academy/manifest.akp.md](.knowledge/academy/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/marketplace-integration.akp.md](.knowledge/academy/marketplace-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/proof-of-knowledge.akp.md](.knowledge/academy/proof-of-knowledge.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/token-reward-flows.akp.md](.knowledge/academy/token-reward-flows.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/academy/tutor-validation.akp.md](.knowledge/academy/tutor-validation.akp.md) |
-| — | AXODUS ACS KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/acs/README.md](.knowledge/acs/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/acs-architecture.akp.md](.knowledge/acs/acs-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/acs-core.akp.md](.knowledge/acs/acs-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/acs-page-directives.akp.md](.knowledge/acs/acs-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/acs-runtime.akp.md](.knowledge/acs/acs-runtime.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/agent-roles.akp.md](.knowledge/acs/agent-roles.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/agent-smith.akp.md](.knowledge/acs/agent-smith.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/business-integration.akp.md](.knowledge/acs/business-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/governance-alignment.akp.md](.knowledge/acs/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/human-oversight-and-accountability.akp.md](.knowledge/acs/human-oversight-and-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/acs/manifest.akp.md](.knowledge/acs/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/memory-and-knowledge.akp.md](.knowledge/acs/memory-and-knowledge.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/morpheus.akp.md](.knowledge/acs/morpheus.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/security-and-risk.akp.md](.knowledge/acs/security-and-risk.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/tooling-and-mcp.akp.md](.knowledge/acs/tooling-and-mcp.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/acs/trinity.akp.md](.knowledge/acs/trinity.akp.md) |
-| — | AXODUS BBA AGENCY KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/bba/README.md](.knowledge/bba/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/academy-marketplace-alignment.akp.md](.knowledge/bba/academy-marketplace-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/acs-agent-workflow.akp.md](.knowledge/bba/acs-agent-workflow.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/bba-core.akp.md](.knowledge/bba/bba-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/bba-page-directives.akp.md](.knowledge/bba/bba-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/brand-architecture.akp.md](.knowledge/bba/brand-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/campaign-lifecycle.akp.md](.knowledge/bba/campaign-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/claim-review.akp.md](.knowledge/bba/claim-review.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/client-intake.akp.md](.knowledge/bba/client-intake.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/content-and-narrative.akp.md](.knowledge/bba/content-and-narrative.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/dao-governance-communication.akp.md](.knowledge/bba/dao-governance-communication.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/growth-operations.akp.md](.knowledge/bba/growth-operations.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/bba/manifest.akp.md](.knowledge/bba/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/positioning-and-identity.akp.md](.knowledge/bba/positioning-and-identity.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/reporting-accountability.akp.md](.knowledge/bba/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/risk-compliance.akp.md](.knowledge/bba/risk-compliance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/service-model.akp.md](.knowledge/bba/service-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/bba/web3-launch-support.akp.md](.knowledge/bba/web3-launch-support.akp.md) |
-| — | AXODUS BUSINESS KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/business/README.md](.knowledge/business/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/acs-integration.akp.md](.knowledge/business/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/bba.akp.md](.knowledge/business/bba.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/business-architecture.akp.md](.knowledge/business/business-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/business-core.akp.md](.knowledge/business/business-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/business-page-directives.akp.md](.knowledge/business/business-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/business-runtime.akp.md](.knowledge/business/business-runtime.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/change-request-system.akp.md](.knowledge/business/change-request-system.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/client-lifecycle.akp.md](.knowledge/business/client-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/dao-service-requests.akp.md](.knowledge/business/dao-service-requests.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/delivery-lifecycle.akp.md](.knowledge/business/delivery-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/governance-alignment.akp.md](.knowledge/business/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/business/manifest.akp.md](.knowledge/business/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/plugin-request-flow.akp.md](.knowledge/business/plugin-request-flow.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/request-intake.akp.md](.knowledge/business/request-intake.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/risk-compliance-accountability.akp.md](.knowledge/business/risk-compliance-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/business/service-catalog.akp.md](.knowledge/business/service-catalog.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/core/architecture.akp.md](.knowledge/core/architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/core/constitutional-model.akp.md](.knowledge/core/constitutional-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/core/ecosystem.akp.md](.knowledge/core/ecosystem.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/core/glossary.akp.md](.knowledge/core/glossary.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/core/philosophy.akp.md](.knowledge/core/philosophy.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/core/terminology.akp.md](.knowledge/core/terminology.akp.md) |
-| — | AXODUS DEFI KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/defi/README.md](.knowledge/defi/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/academy-user-education.akp.md](.knowledge/defi/academy-user-education.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/acs-integration.akp.md](.knowledge/defi/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/compliance-disclosures.akp.md](.knowledge/defi/compliance-disclosures.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/daas-model.akp.md](.knowledge/defi/daas-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/defi-architecture.akp.md](.knowledge/defi/defi-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/defi-core.akp.md](.knowledge/defi/defi-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/defi-page-directives.akp.md](.knowledge/defi/defi-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/derivatives-and-debentures.akp.md](.knowledge/defi/derivatives-and-debentures.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/etf-daas-model.akp.md](.knowledge/defi/etf-daas-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/governance-alignment.akp.md](.knowledge/defi/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/liquidity-model.akp.md](.knowledge/defi/liquidity-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/defi/manifest.akp.md](.knowledge/defi/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/protocol-model.akp.md](.knowledge/defi/protocol-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/reporting-accountability.akp.md](.knowledge/defi/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/risk-management.akp.md](.knowledge/defi/risk-management.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/security-smart-contracts.akp.md](.knowledge/defi/security-smart-contracts.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/staking-and-yield.akp.md](.knowledge/defi/staking-and-yield.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/tokenomics-alignment.akp.md](.knowledge/defi/tokenomics-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/treasury-alignment.akp.md](.knowledge/defi/treasury-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/defi/vaults-and-strategies.akp.md](.knowledge/defi/vaults-and-strategies.akp.md) |
-| — | AXODUS DEX KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/dex/README.md](.knowledge/dex/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/academy-user-education.akp.md](.knowledge/dex/academy-user-education.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/acs-integration.akp.md](.knowledge/dex/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/dex-architecture.akp.md](.knowledge/dex/dex-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/dex-core.akp.md](.knowledge/dex/dex-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/dex-page-directives.akp.md](.knowledge/dex/dex-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/fees-and-revenue.akp.md](.knowledge/dex/fees-and-revenue.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/governance-alignment.akp.md](.knowledge/dex/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/liquidity-pools.akp.md](.knowledge/dex/liquidity-pools.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/listing-policy.akp.md](.knowledge/dex/listing-policy.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/lp-model.akp.md](.knowledge/dex/lp-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/dex/manifest.akp.md](.knowledge/dex/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/marketplace-integration.akp.md](.knowledge/dex/marketplace-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/mev-execution-risk.akp.md](.knowledge/dex/mev-execution-risk.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/reporting-accountability.akp.md](.knowledge/dex/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/risk-disclosures.akp.md](.knowledge/dex/risk-disclosures.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/routing-and-aggregation.akp.md](.knowledge/dex/routing-and-aggregation.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/security-smart-contracts.akp.md](.knowledge/dex/security-smart-contracts.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/slippage-price-impact.akp.md](.knowledge/dex/slippage-price-impact.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/swap-model.akp.md](.knowledge/dex/swap-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/tokenomics-alignment.akp.md](.knowledge/dex/tokenomics-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/trading-integration.akp.md](.knowledge/dex/trading-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/dex/treasury-alignment.akp.md](.knowledge/dex/treasury-alignment.akp.md) |
-| — | AXODUS GLOSSARY KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/glossary/README.md](.knowledge/glossary/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/academy-terms.akp.md](.knowledge/glossary/academy-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/acs-terms.akp.md](.knowledge/glossary/acs-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/business-terms.akp.md](.knowledge/glossary/business-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/core-ecosystem-terms.akp.md](.knowledge/glossary/core-ecosystem-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/deprecated-and-dangerous-terms.akp.md](.knowledge/glossary/deprecated-and-dangerous-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/glossary-core.akp.md](.knowledge/glossary/glossary-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/glossary-page-directives.akp.md](.knowledge/glossary/glossary-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/governance-terms.akp.md](.knowledge/glossary/governance-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/glossary/manifest.akp.md](.knowledge/glossary/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/marketplace-product-terms.akp.md](.knowledge/glossary/marketplace-product-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/security-accountability-terms.akp.md](.knowledge/glossary/security-accountability-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/terminology-standards.akp.md](.knowledge/glossary/terminology-standards.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/tokenomics-terms.akp.md](.knowledge/glossary/tokenomics-terms.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/glossary/trading-treasury-terms.akp.md](.knowledge/glossary/trading-treasury-terms.akp.md) |
-| — | AXODUS GOVERNANCE KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/governance/README.md](.knowledge/governance/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/constitutional-governance.akp.md](.knowledge/governance/constitutional-governance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/core-governance.akp.md](.knowledge/governance/core-governance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/dao-federation.akp.md](.knowledge/governance/dao-federation.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/execution-receipts.akp.md](.knowledge/governance/execution-receipts.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/governance-business-acs-relations.akp.md](.knowledge/governance/governance-business-acs-relations.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/governance-layers.akp.md](.knowledge/governance/governance-layers.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/governance-page-directives.akp.md](.knowledge/governance/governance-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/governance/manifest.akp.md](.knowledge/governance/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/plugin-request-system.akp.md](.knowledge/governance/plugin-request-system.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/proposal-lifecycle.akp.md](.knowledge/governance/proposal-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/governance/treasury-risk-accountability.akp.md](.knowledge/governance/treasury-risk-accountability.akp.md) |
-| — | AXODUS LOTTERY / CRYPTODRAW KNOWLEDGE PACK | Draft / Advanced Concept | 0.1.0 | — | [.knowledge/lottery/README.md](.knowledge/lottery/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/acs-integration.akp.md](.knowledge/lottery/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/claims-settlement.akp.md](.knowledge/lottery/claims-settlement.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/cryptodraw-product.akp.md](.knowledge/lottery/cryptodraw-product.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/draw-lifecycle.akp.md](.knowledge/lottery/draw-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/game-models.akp.md](.knowledge/lottery/game-models.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/governance-alignment.akp.md](.knowledge/lottery/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | - Draft / Needs Governance and Compliance Review | — | — | [.knowledge/lottery/lotofacil-style-model.akp.md](.knowledge/lottery/lotofacil-style-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/lottery-core.akp.md](.knowledge/lottery/lottery-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/lottery-page-directives.akp.md](.knowledge/lottery/lottery-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/lottery/manifest.akp.md](.knowledge/lottery/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/merkle-indexing.akp.md](.knowledge/lottery/merkle-indexing.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/operations-runtime.akp.md](.knowledge/lottery/operations-runtime.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/prize-pools-payouts.akp.md](.knowledge/lottery/prize-pools-payouts.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/randomness-vrf.akp.md](.knowledge/lottery/randomness-vrf.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/reporting-accountability.akp.md](.knowledge/lottery/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/responsible-participation.akp.md](.knowledge/lottery/responsible-participation.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/risk-compliance.akp.md](.knowledge/lottery/risk-compliance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/security-smart-contracts.akp.md](.knowledge/lottery/security-smart-contracts.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | - Draft / Needs Governance and Compliance Review | — | — | [.knowledge/lottery/supersete-style-model.akp.md](.knowledge/lottery/supersete-style-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/ticket-model.akp.md](.knowledge/lottery/ticket-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/tokenomics-alignment.akp.md](.knowledge/lottery/tokenomics-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/lottery/treasury-fees.akp.md](.knowledge/lottery/treasury-fees.akp.md) |
-| — | AXODUS MARKETPLACE KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/marketplace/README.md](.knowledge/marketplace/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/academy-alignment.akp.md](.knowledge/marketplace/academy-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/acs-integration.akp.md](.knowledge/marketplace/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/business-bba-alignment.akp.md](.knowledge/marketplace/business-bba-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/buyer-flow.akp.md](.knowledge/marketplace/buyer-flow.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/credits-locked-rewards.akp.md](.knowledge/marketplace/credits-locked-rewards.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/dex-defi-integration.akp.md](.knowledge/marketplace/dex-defi-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/disputes-refunds-support.akp.md](.knowledge/marketplace/disputes-refunds-support.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/fees-revenue.akp.md](.knowledge/marketplace/fees-revenue.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/governance-alignment.akp.md](.knowledge/marketplace/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/listing-model.akp.md](.knowledge/marketplace/listing-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/marketplace/manifest.akp.md](.knowledge/marketplace/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/marketplace-architecture.akp.md](.knowledge/marketplace/marketplace-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/marketplace-core.akp.md](.knowledge/marketplace/marketplace-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/marketplace-page-directives.akp.md](.knowledge/marketplace/marketplace-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/payments-settlement.akp.md](.knowledge/marketplace/payments-settlement.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/reporting-accountability.akp.md](.knowledge/marketplace/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/reputation-quality.akp.md](.knowledge/marketplace/reputation-quality.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/risk-compliance.akp.md](.knowledge/marketplace/risk-compliance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/security-data-protection.akp.md](.knowledge/marketplace/security-data-protection.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/seller-provider-model.akp.md](.knowledge/marketplace/seller-provider-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/service-catalog.akp.md](.knowledge/marketplace/service-catalog.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/tokenomics-alignment.akp.md](.knowledge/marketplace/tokenomics-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/marketplace/treasury-alignment.akp.md](.knowledge/marketplace/treasury-alignment.akp.md) |
-| — | AXODUS MINING KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/mining/README.md](.knowledge/mining/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/academy-user-education.akp.md](.knowledge/mining/academy-user-education.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/acs-integration.akp.md](.knowledge/mining/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/costs-fees-profitability.akp.md](.knowledge/mining/costs-fees-profitability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/governance-alignment.akp.md](.knowledge/mining/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/hardware-energy-uptime.akp.md](.knowledge/mining/hardware-energy-uptime.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/infrastructure-operations.akp.md](.knowledge/mining/infrastructure-operations.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/mining/manifest.akp.md](.knowledge/mining/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/marketplace-business-bba-alignment.akp.md](.knowledge/mining/marketplace-business-bba-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/mining-architecture.akp.md](.knowledge/mining/mining-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/mining-core.akp.md](.knowledge/mining/mining-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/mining-models.akp.md](.knowledge/mining/mining-models.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/mining-page-directives.akp.md](.knowledge/mining/mining-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/monitoring-telemetry.akp.md](.knowledge/mining/monitoring-telemetry.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/node-validator-operations.akp.md](.knowledge/mining/node-validator-operations.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/pools-hashrate-difficulty.akp.md](.knowledge/mining/pools-hashrate-difficulty.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/reporting-accountability.akp.md](.knowledge/mining/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/rewards-payouts.akp.md](.knowledge/mining/rewards-payouts.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/risk-compliance.akp.md](.knowledge/mining/risk-compliance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/security-custody.akp.md](.knowledge/mining/security-custody.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/sustainability-responsible-operations.akp.md](.knowledge/mining/sustainability-responsible-operations.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/tokenomics-alignment.akp.md](.knowledge/mining/tokenomics-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/trading-risk-hedging.akp.md](.knowledge/mining/trading-risk-hedging.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/treasury-alignment.akp.md](.knowledge/mining/treasury-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/mining/user-facing-products.akp.md](.knowledge/mining/user-facing-products.akp.md) |
-| — | AXODUS RUNTIME KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/runtime/README.md](.knowledge/runtime/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/accountability-records.akp.md](.knowledge/runtime/accountability-records.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/acs-integration.akp.md](.knowledge/runtime/acs-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/change-control.akp.md](.knowledge/runtime/change-control.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/communication-cadence.akp.md](.knowledge/runtime/communication-cadence.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/delays-and-blockers.akp.md](.knowledge/runtime/delays-and-blockers.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/execution-handoff.akp.md](.knowledge/runtime/execution-handoff.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/governance-escalation.akp.md](.knowledge/runtime/governance-escalation.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/runtime/manifest.akp.md](.knowledge/runtime/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/milestones-and-deliverables.akp.md](.knowledge/runtime/milestones-and-deliverables.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/request-lifecycle.akp.md](.knowledge/runtime/request-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/runtime-architecture.akp.md](.knowledge/runtime/runtime-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/runtime-core.akp.md](.knowledge/runtime/runtime-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/runtime-page-directives.akp.md](.knowledge/runtime/runtime-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/runtime-risk-controls.akp.md](.knowledge/runtime/runtime-risk-controls.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/status-model.akp.md](.knowledge/runtime/status-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/runtime/validation-and-confirmation.akp.md](.knowledge/runtime/validation-and-confirmation.akp.md) |
-| — | AXODUS TOKENOMICS KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/tokenomics/README.md](.knowledge/tokenomics/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/academy-rewards.akp.md](.knowledge/tokenomics/academy-rewards.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/contract-dependencies.akp.md](.knowledge/tokenomics/contract-dependencies.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/fee-model.akp.md](.knowledge/tokenomics/fee-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/governance-participation.akp.md](.knowledge/tokenomics/governance-participation.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/locked-rewards.akp.md](.knowledge/tokenomics/locked-rewards.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/tokenomics/manifest.akp.md](.knowledge/tokenomics/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/marketplace-utility.akp.md](.knowledge/tokenomics/marketplace-utility.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/neurons-token.akp.md](.knowledge/tokenomics/neurons-token.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/reporting-accountability.akp.md](.knowledge/tokenomics/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/reward-policy.akp.md](.knowledge/tokenomics/reward-policy.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/risk-compliance.akp.md](.knowledge/tokenomics/risk-compliance.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/supply-and-emission.akp.md](.knowledge/tokenomics/supply-and-emission.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/tokenomics-core.akp.md](.knowledge/tokenomics/tokenomics-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/tokenomics-page-directives.akp.md](.knowledge/tokenomics/tokenomics-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/treasury-alignment.akp.md](.knowledge/tokenomics/treasury-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/tokenomics/utility-model.akp.md](.knowledge/tokenomics/utility-model.akp.md) |
-| — | AXODUS TRADING KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/trading/README.md](.knowledge/trading/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/access-model.akp.md](.knowledge/trading/access-model.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/acs-trinity-integration.akp.md](.knowledge/trading/acs-trinity-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/cex-api-security.akp.md](.knowledge/trading/cex-api-security.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/compliance-user-disclosures.akp.md](.knowledge/trading/compliance-user-disclosures.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/execution-and-infrastructure.akp.md](.knowledge/trading/execution-and-infrastructure.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/governance-alignment.akp.md](.knowledge/trading/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/internal-trading.akp.md](.knowledge/trading/internal-trading.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/trading/manifest.akp.md](.knowledge/trading/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/reporting-accountability.akp.md](.knowledge/trading/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/risk-management.akp.md](.knowledge/trading/risk-management.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/scalper-futures.akp.md](.knowledge/trading/scalper-futures.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/strategy-lifecycle.akp.md](.knowledge/trading/strategy-lifecycle.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/trading-architecture.akp.md](.knowledge/trading/trading-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/trading-core.akp.md](.knowledge/trading/trading-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/trading-page-directives.akp.md](.knowledge/trading/trading-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/treasury-alignment.akp.md](.knowledge/trading/treasury-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/trading/user-facing-strategies.akp.md](.knowledge/trading/user-facing-strategies.akp.md) |
-| — | AXODUS TREASURY KNOWLEDGE PACK | Draft | 0.1.0 | — | [.knowledge/treasury/README.md](.knowledge/treasury/README.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/acs-trinity-integration.akp.md](.knowledge/treasury/acs-trinity-integration.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/capital-allocation.akp.md](.knowledge/treasury/capital-allocation.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/compliance-disclosures.akp.md](.knowledge/treasury/compliance-disclosures.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/custody-and-security.akp.md](.knowledge/treasury/custody-and-security.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/governance-alignment.akp.md](.knowledge/treasury/governance-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK MANIFEST | — | — | — | [.knowledge/treasury/manifest.akp.md](.knowledge/treasury/manifest.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/reporting-accountability.akp.md](.knowledge/treasury/reporting-accountability.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/reserves-and-liquidity.akp.md](.knowledge/treasury/reserves-and-liquidity.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/revenue-and-fees.akp.md](.knowledge/treasury/revenue-and-fees.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/risk-management.akp.md](.knowledge/treasury/risk-management.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/strategy-oversight.akp.md](.knowledge/treasury/strategy-oversight.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/tokenomics-alignment.akp.md](.knowledge/treasury/tokenomics-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/trading-alignment.akp.md](.knowledge/treasury/trading-alignment.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/treasury-architecture.akp.md](.knowledge/treasury/treasury-architecture.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/treasury-core.akp.md](.knowledge/treasury/treasury-core.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/treasury-page-directives.akp.md](.knowledge/treasury/treasury-page-directives.akp.md) |
-| — | AXODUS KNOWLEDGE PACK | — | — | — | [.knowledge/treasury/treasury-policy.akp.md](.knowledge/treasury/treasury-policy.akp.md) |
-| — | Changelog | Draft | 0.1.0 | Axodus Core | [CHANGELOG.md](CHANGELOG.md) |
-| — | Contributing to Axodus Documentation | Draft | 0.1.0 | Axodus Core | [CONTRIBUTING.md](CONTRIBUTING.md) |
-| — | Documents | Active | 0.1.0 | Axodus Core | [Documents/README.md](Documents/README.md) |
-| — | AXODUS AGENT ALIGNMENT | Agent Orientation | 0.1 Draft | — | [Documents/agents/AXODUS_AGENT_ALIGNMENT.md](Documents/agents/AXODUS_AGENT_ALIGNMENT.md) |
-| — | Documents Archive | Active | 0.1.0 | Axodus Core | [Documents/archive/README.md](Documents/archive/README.md) |
-| — | AXODUS COMMERCIAL CORE | Commercial Strategy | 0.1 Draft | — | [Documents/commercial/AXODUS_COMMERCIAL_CORE.md](Documents/commercial/AXODUS_COMMERCIAL_CORE.md) |
-| — | Planning Documents | Active | 0.1.0 | Axodus Core | [Documents/planning/README.md](Documents/planning/README.md) |
-| — | VitePress Customization Report | Draft | 0.1.0 | Axodus Documentation | [Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md](Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md) |
-| — | AXODUS ECOSYSTEM ONBOARDING | Product Strategy | 0.1 Draft | — | [Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md](Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md) |
-| — | AXODUS USER JOURNEY | Product Journey Model | 0.1 Draft | — | [Documents/product/AXODUS_USER_JOURNEY.md](Documents/product/AXODUS_USER_JOURNEY.md) |
-| — | Research Documents | Active | 0.1.0 | Axodus Core | [Documents/research/README.md](Documents/research/README.md) |
-| — | AXODUS CAPITAL ALLOCATION MODEL | Economic Operations Model | 0.1 Draft | — | [Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md](Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md) |
-| — | AXODUS CONSTITUTION | Working Document | 0.1 Draft | — | [Documents/strategy/AXODUS_CONSTITUTION.md](Documents/strategy/AXODUS_CONSTITUTION.md) |
-| — | AXODUS DAO FEDERATION MODEL | Architecture Document | 0.1 Draft | — | [Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md](Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md) |
-| — | AXODUS ECONOMIC MODEL | Economic Framework | 0.1 Draft | — | [Documents/strategy/AXODUS_ECONOMIC_MODEL.md](Documents/strategy/AXODUS_ECONOMIC_MODEL.md) |
-| — | AXODUS TREASURY PHILOSOPHY | Strategic Doctrine | 0.1 Draft | — | [Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md](Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md) |
-| — | AXODUS TRADING PRINCIPLES | Trading Doctrine | 0.1 Draft | — | [Documents/trading/AXODUS_TRADING_PRINCIPLES.md](Documents/trading/AXODUS_TRADING_PRINCIPLES.md) |
-| — | Axodus Glossary | Draft | 0.1.0 | Axodus Core | [GLOSSARY.md](GLOSSARY.md) |
-| — | Axodus Governance | Draft | 0.1.0 | Governance Nucleus | [GOVERNANCE.md](GOVERNANCE.md) |
-| — | Axodus Documentation | Draft | 0.1.0 | Axodus Core | [README.md](README.md) |
-| — | Axodus Roadmap | Draft | 0.1.0 | Axodus Core | [ROADMAP.md](ROADMAP.md) |
-| — | Axodus Security | Draft | 0.1.0 | Axodus Core | [SECURITY.md](SECURITY.md) |
-| — | Academy Risk and Abuse Prevention | Draft | 0.1.0 | Academy Nucleus | [docs/academy/academy-risk.md](docs/academy/academy-risk.md) |
-| — | Course Publishing | Draft | 0.1.0 | Academy Nucleus | [docs/academy/course-publishing.md](docs/academy/course-publishing.md) |
-| — | Academy Governance Alignment | Draft | 0.1.0 | Academy Nucleus | [docs/academy/governance-alignment.md](docs/academy/governance-alignment.md) |
-| — | Learn-to-Win | Draft | 0.1.0 | Academy Nucleus | [docs/academy/learn-to-win.md](docs/academy/learn-to-win.md) |
-| — | Academy Locked Rewards | Draft | 0.1.0 | Academy Nucleus | [docs/academy/locked-rewards.md](docs/academy/locked-rewards.md) |
-| — | Academy Marketplace Integration | Draft | 0.1.0 | Academy Nucleus | [docs/academy/marketplace-integration.md](docs/academy/marketplace-integration.md) |
-| — | Academy Overview | Draft | 0.1.0 | Academy Nucleus | [docs/academy/overview.md](docs/academy/overview.md) |
-| — | Proof of Knowledge | Draft | 0.1.0 | Academy Nucleus | [docs/academy/proof-of-knowledge.md](docs/academy/proof-of-knowledge.md) |
-| — | Academy Token Reward Flows | Draft | 0.1.0 | Academy Nucleus | [docs/academy/token-reward-flows.md](docs/academy/token-reward-flows.md) |
-| — | Tutor Validation | Draft | 0.1.0 | Academy Nucleus | [docs/academy/tutor-validation.md](docs/academy/tutor-validation.md) |
-| — | Financial Reports | Draft | 0.1.0 | Accountability Nucleus | [docs/accountability/financial-reports.md](docs/accountability/financial-reports.md) |
-| — | Governance Records | Draft | 0.1.0 | Accountability Nucleus | [docs/accountability/governance-records.md](docs/accountability/governance-records.md) |
-| — | Accountability Overview | Draft | 0.1.0 | Accountability Nucleus | [docs/accountability/overview.md](docs/accountability/overview.md) |
-| — | Release Notes | Draft | 0.1.0 | Accountability Nucleus | [docs/accountability/release-notes.md](docs/accountability/release-notes.md) |
-| — | Roadmap Updates | Draft | 0.1.0 | Accountability Nucleus | [docs/accountability/roadmap-updates.md](docs/accountability/roadmap-updates.md) |
-| — | ACS Accountability | Draft | 0.1.0 | ACS Nucleus | [docs/acs/accountability.md](docs/acs/accountability.md) |
-| — | ACS Agent Roles | Draft | 0.1.0 | ACS Nucleus | [docs/acs/agent-roles.md](docs/acs/agent-roles.md) |
-| — | Agent Smith | Draft | 0.1.0 | ACS Nucleus | [docs/acs/agent-smith.md](docs/acs/agent-smith.md) |
-| — | ACS Architecture | Draft | 0.1.0 | ACS Nucleus | [docs/acs/architecture.md](docs/acs/architecture.md) |
-| — | ACS Business Integration | Draft | 0.1.0 | ACS Nucleus | [docs/acs/business-integration.md](docs/acs/business-integration.md) |
-| — | ACS Governance Alignment | Draft | 0.1.0 | ACS Nucleus | [docs/acs/governance-alignment.md](docs/acs/governance-alignment.md) |
-| — | ACS Human Oversight | Draft | 0.1.0 | ACS Nucleus | [docs/acs/human-oversight.md](docs/acs/human-oversight.md) |
-| — | ACS Memory and Knowledge | Draft | 0.1.0 | ACS Nucleus | [docs/acs/memory-and-knowledge.md](docs/acs/memory-and-knowledge.md) |
-| — | Morpheus | Draft | 0.1.0 | ACS Nucleus | [docs/acs/morpheus.md](docs/acs/morpheus.md) |
-| — | ACS Overview | Draft | 0.1.0 | ACS Nucleus | [docs/acs/overview.md](docs/acs/overview.md) |
-| — | ACS Risk Review | Draft | 0.1.0 | ACS Nucleus | [docs/acs/risk-review.md](docs/acs/risk-review.md) |
-| — | ACS Runtime | Draft | 0.1.0 | ACS Nucleus | [docs/acs/runtime.md](docs/acs/runtime.md) |
-| — | ACS Security and Risk | Draft | 0.1.0 | ACS Nucleus | [docs/acs/security-and-risk.md](docs/acs/security-and-risk.md) |
-| — | ACS Tooling and MCP | Draft | 0.1.0 | ACS Nucleus | [docs/acs/tooling-and-mcp.md](docs/acs/tooling-and-mcp.md) |
-| — | Trinity | Draft | 0.1.0 | ACS Nucleus | [docs/acs/trinity.md](docs/acs/trinity.md) |
-| — | Academy and Marketplace Alignment | Draft | 0.1.0 | Axodus BBA / Academy / Marketplace | [docs/bba-agency/academy-and-marketplace-alignment.md](docs/bba-agency/academy-and-marketplace-alignment.md) |
-| — | ACS Agent Workflow | Draft | 0.1.0 | Axodus BBA / ACS | [docs/bba-agency/acs-agent-workflow.md](docs/bba-agency/acs-agent-workflow.md) |
-| — | Brand Architecture | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/brand-architecture.md](docs/bba-agency/brand-architecture.md) |
-| — | Campaign Lifecycle | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/campaign-lifecycle.md](docs/bba-agency/campaign-lifecycle.md) |
-| — | Claim Review | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/claim-review.md](docs/bba-agency/claim-review.md) |
-| — | Client Intake | Draft | 0.1.0 | Axodus BBA / Business | [docs/bba-agency/client-intake.md](docs/bba-agency/client-intake.md) |
-| — | Content and Narrative | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/content-and-narrative.md](docs/bba-agency/content-and-narrative.md) |
-| — | DAO and Governance Communication | Draft | 0.1.0 | Axodus BBA / Governance | [docs/bba-agency/dao-and-governance-communication.md](docs/bba-agency/dao-and-governance-communication.md) |
-| — | Growth Operations | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/growth-operations.md](docs/bba-agency/growth-operations.md) |
-| — | Axodus BBA Agency Overview | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/overview.md](docs/bba-agency/overview.md) |
-| — | Positioning | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/positioning.md](docs/bba-agency/positioning.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus BBA / Accountability | [docs/bba-agency/reporting-and-accountability.md](docs/bba-agency/reporting-and-accountability.md) |
-| — | Risk and Compliance | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/risk-and-compliance.md](docs/bba-agency/risk-and-compliance.md) |
-| — | Service Model | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/service-model.md](docs/bba-agency/service-model.md) |
-| — | Web3 Launch Support | Draft | 0.1.0 | Axodus BBA | [docs/bba-agency/web3-launch-support.md](docs/bba-agency/web3-launch-support.md) |
-| — | Business Accountability | Draft | 0.1.0 | Axodus Business / Accountability | [docs/business/accountability.md](docs/business/accountability.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus Business / ACS | [docs/business/acs-integration.md](docs/business/acs-integration.md) |
-| — | BBA | Draft | 0.1.0 | Axodus Business / BBA Agency | [docs/business/bba.md](docs/business/bba.md) |
-| — | Change Requests | Draft | 0.1.0 | Axodus Business | [docs/business/change-requests.md](docs/business/change-requests.md) |
-| — | Client Lifecycle | Draft | 0.1.0 | Axodus Business | [docs/business/client-lifecycle.md](docs/business/client-lifecycle.md) |
-| — | DAO Service Requests | Draft | 0.1.0 | Axodus Business | [docs/business/dao-service-requests.md](docs/business/dao-service-requests.md) |
-| — | Delivery Lifecycle | Draft | 0.1.0 | Axodus Business | [docs/business/delivery-lifecycle.md](docs/business/delivery-lifecycle.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus Business / Governance | [docs/business/governance-alignment.md](docs/business/governance-alignment.md) |
-| — | Business Overview | Draft | 0.1.0 | Axodus Business | [docs/business/overview.md](docs/business/overview.md) |
-| — | Plugin Requests | Draft | 0.1.0 | Axodus Business / Governance | [docs/business/plugin-requests.md](docs/business/plugin-requests.md) |
-| — | Business Request Intake | Draft | 0.1.0 | Axodus Business | [docs/business/request-intake.md](docs/business/request-intake.md) |
-| — | Risk and Compliance | Draft | 0.1.0 | Axodus Business | [docs/business/risk-and-compliance.md](docs/business/risk-and-compliance.md) |
-| — | Business Runtime | Draft | 0.1.0 | Axodus Business | [docs/business/runtime.md](docs/business/runtime.md) |
-| — | Business Service Catalog | Draft | 0.1.0 | Axodus Business | [docs/business/service-catalog.md](docs/business/service-catalog.md) |
-| — | Academy and User Education | Draft | 0.1.0 | Axodus DeFi / Academy | [docs/defi/academy-and-user-education.md](docs/defi/academy-and-user-education.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus DeFi / ACS | [docs/defi/acs-integration.md](docs/defi/acs-integration.md) |
-| — | DeFi Architecture | Draft | 0.1.0 | Axodus DeFi | [docs/defi/architecture.md](docs/defi/architecture.md) |
-| — | Compliance and Disclosures | Draft | 0.1.0 | Axodus DeFi | [docs/defi/compliance-and-disclosures.md](docs/defi/compliance-and-disclosures.md) |
-| — | DaaS | Draft | 0.1.0 | Axodus DeFi | [docs/defi/daas.md](docs/defi/daas.md) |
-| — | Derivatives and Debentures | Needs Review | 0.1.0 | Axodus DeFi | [docs/defi/derivatives-and-debentures.md](docs/defi/derivatives-and-debentures.md) |
-| — | ETF DaaS | Draft | 0.1.0 | Axodus DeFi | [docs/defi/etf-daas.md](docs/defi/etf-daas.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus DeFi / Governance | [docs/defi/governance-alignment.md](docs/defi/governance-alignment.md) |
-| — | Liquidity Model | Draft | 0.1.0 | Axodus DeFi | [docs/defi/liquidity-model.md](docs/defi/liquidity-model.md) |
-| — | Axodus DeFi Overview | Draft | 0.1.0 | Axodus DeFi | [docs/defi/overview.md](docs/defi/overview.md) |
-| — | Protocol Model | Draft | 0.1.0 | Axodus DeFi | [docs/defi/protocol-model.md](docs/defi/protocol-model.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus DeFi / Accountability | [docs/defi/reporting-and-accountability.md](docs/defi/reporting-and-accountability.md) |
-| — | DeFi Risk Management | Draft | 0.1.0 | Axodus DeFi | [docs/defi/risk-management.md](docs/defi/risk-management.md) |
-| — | Security and Smart Contracts | Draft | 0.1.0 | Axodus DeFi / Security | [docs/defi/security-and-smart-contracts.md](docs/defi/security-and-smart-contracts.md) |
-| — | Staking and Yield | Draft | 0.1.0 | Axodus DeFi | [docs/defi/staking-and-yield.md](docs/defi/staking-and-yield.md) |
-| — | Tokenomics Alignment | Draft | 0.1.0 | Axodus DeFi / Tokenomics | [docs/defi/tokenomics-alignment.md](docs/defi/tokenomics-alignment.md) |
-| — | Treasury Alignment | Draft | 0.1.0 | Axodus DeFi / Treasury | [docs/defi/treasury-alignment.md](docs/defi/treasury-alignment.md) |
-| — | Vaults and Strategies | Draft | 0.1.0 | Axodus DeFi | [docs/defi/vaults-and-strategies.md](docs/defi/vaults-and-strategies.md) |
-| — | Academy and User Education | Draft | 0.1.0 | Axodus DEX / Academy | [docs/dex/academy-and-user-education.md](docs/dex/academy-and-user-education.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus DEX / ACS | [docs/dex/acs-integration.md](docs/dex/acs-integration.md) |
-| — | DEX Architecture | Draft | 0.1.0 | Axodus DEX | [docs/dex/architecture.md](docs/dex/architecture.md) |
-| — | Fees and Revenue | Draft | 0.1.0 | Axodus DEX / Treasury | [docs/dex/fees-and-revenue.md](docs/dex/fees-and-revenue.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus DEX / Governance | [docs/dex/governance-alignment.md](docs/dex/governance-alignment.md) |
-| — | Liquidity Pools | Draft | 0.1.0 | Axodus DEX | [docs/dex/liquidity-pools.md](docs/dex/liquidity-pools.md) |
-| — | Listing Policy | Draft | 0.1.0 | Axodus DEX / Governance | [docs/dex/listing-policy.md](docs/dex/listing-policy.md) |
-| — | LP Model | Draft | 0.1.0 | Axodus DEX | [docs/dex/lp-model.md](docs/dex/lp-model.md) |
-| — | Marketplace Integration | Draft | 0.1.0 | Axodus DEX / Marketplace | [docs/dex/marketplace-integration.md](docs/dex/marketplace-integration.md) |
-| — | MEV and Execution Risk | Draft | 0.1.0 | Axodus DEX | [docs/dex/mev-and-execution-risk.md](docs/dex/mev-and-execution-risk.md) |
-| — | Axodus DEX Overview | Draft | 0.1.0 | Axodus DEX | [docs/dex/overview.md](docs/dex/overview.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus DEX / Accountability | [docs/dex/reporting-and-accountability.md](docs/dex/reporting-and-accountability.md) |
-| — | Risk and Disclosures | Draft | 0.1.0 | Axodus DEX | [docs/dex/risk-and-disclosures.md](docs/dex/risk-and-disclosures.md) |
-| — | Routing and Aggregation | Draft | 0.1.0 | Axodus DEX | [docs/dex/routing-and-aggregation.md](docs/dex/routing-and-aggregation.md) |
-| — | Security and Smart Contracts | Draft | 0.1.0 | Axodus DEX / Security | [docs/dex/security-and-smart-contracts.md](docs/dex/security-and-smart-contracts.md) |
-| — | Slippage and Price Impact | Draft | 0.1.0 | Axodus DEX | [docs/dex/slippage-and-price-impact.md](docs/dex/slippage-and-price-impact.md) |
-| — | Swap Model | Draft | 0.1.0 | Axodus DEX | [docs/dex/swap-model.md](docs/dex/swap-model.md) |
-| — | Tokenomics Alignment | Draft | 0.1.0 | Axodus DEX / Tokenomics | [docs/dex/tokenomics-alignment.md](docs/dex/tokenomics-alignment.md) |
-| — | Trading Integration | Draft | 0.1.0 | Axodus DEX / Trading | [docs/dex/trading-integration.md](docs/dex/trading-integration.md) |
-| — | Treasury Alignment | Draft | 0.1.0 | Axodus DEX / Treasury | [docs/dex/treasury-alignment.md](docs/dex/treasury-alignment.md) |
-| — | Glossary Terms | Draft | 0.1.0 | Axodus Core | [docs/glossary/terms.md](docs/glossary/terms.md) |
-| — | Governance Accountability | Draft | 0.1.0 | Governance Nucleus | [docs/governance/accountability.md](docs/governance/accountability.md) |
-| — | Boardroom Council | Draft | 0.1.0 | Governance Nucleus | [docs/governance/boardroom-council.md](docs/governance/boardroom-council.md) |
-| — | Community DAO | Draft | 0.1.0 | Governance Nucleus | [docs/governance/community-dao.md](docs/governance/community-dao.md) |
-| — | Constitutional Governance | Draft | 0.1.0 | Governance Nucleus | [docs/governance/constitutional-governance.md](docs/governance/constitutional-governance.md) |
-| — | DAO Federation | Draft | 0.1.0 | Governance Nucleus | [docs/governance/dao-federation.md](docs/governance/dao-federation.md) |
-| — | Execution Receipts | Draft | 0.1.0 | Governance Nucleus | [docs/governance/execution-receipts.md](docs/governance/execution-receipts.md) |
-| — | Executive DAO | Draft | 0.1.0 | Governance Nucleus | [docs/governance/executive-dao.md](docs/governance/executive-dao.md) |
-| — | Governance Lifecycle | Draft | 0.1.0 | Governance Nucleus | [docs/governance/governance-lifecycle.md](docs/governance/governance-lifecycle.md) |
-| — | Governance Risk | Draft | 0.1.0 | Governance Nucleus | [docs/governance/governance-risk.md](docs/governance/governance-risk.md) |
-| — | Governance Overview | Draft | 0.1.0 | Governance Nucleus | [docs/governance/overview.md](docs/governance/overview.md) |
-| — | Governance Plugin Requests | Draft | 0.1.0 | Governance Nucleus | [docs/governance/plugin-requests.md](docs/governance/plugin-requests.md) |
-| — | Proposal Lifecycle | Draft | 0.1.0 | Governance Nucleus | [docs/governance/proposal-lifecycle.md](docs/governance/proposal-lifecycle.md) |
-| — | — | — | — | — | [docs/index.md](docs/index.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus Lottery / ACS | [docs/lottery/acs-integration.md](docs/lottery/acs-integration.md) |
-| — | Claims and Settlement | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/claims-and-settlement.md](docs/lottery/claims-and-settlement.md) |
-| — | CryptoDraw | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/cryptodraw.md](docs/lottery/cryptodraw.md) |
-| — | Draw Lifecycle | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/draw-lifecycle.md](docs/lottery/draw-lifecycle.md) |
-| — | Game Models | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/game-models.md](docs/lottery/game-models.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus Lottery / Governance | [docs/lottery/governance-alignment.md](docs/lottery/governance-alignment.md) |
-| — | Lotofacil-Style Model | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/lotofacil-style-model.md](docs/lottery/lotofacil-style-model.md) |
-| — | Merkle and Indexing | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/merkle-and-indexing.md](docs/lottery/merkle-and-indexing.md) |
-| — | Operations and Runtime | Draft | 0.1.0 | Axodus Lottery / Runtime | [docs/lottery/operations-and-runtime.md](docs/lottery/operations-and-runtime.md) |
-| — | Axodus Lottery Overview | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/overview.md](docs/lottery/overview.md) |
-| — | Prize Pools and Payouts | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/prize-pools-and-payouts.md](docs/lottery/prize-pools-and-payouts.md) |
-| — | Randomness and VRF | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/randomness-and-vrf.md](docs/lottery/randomness-and-vrf.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus Lottery / Accountability | [docs/lottery/reporting-and-accountability.md](docs/lottery/reporting-and-accountability.md) |
-| — | Responsible Participation | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/responsible-participation.md](docs/lottery/responsible-participation.md) |
-| — | Risk and Compliance | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/risk-and-compliance.md](docs/lottery/risk-and-compliance.md) |
-| — | Security and Smart Contracts | Draft | 0.1.0 | Axodus Lottery / Security | [docs/lottery/security-and-smart-contracts.md](docs/lottery/security-and-smart-contracts.md) |
-| — | SuperSete-Style Model | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/supersete-style-model.md](docs/lottery/supersete-style-model.md) |
-| — | Ticket Model | Draft | 0.1.0 | Axodus Lottery / CryptoDraw | [docs/lottery/ticket-model.md](docs/lottery/ticket-model.md) |
-| — | Tokenomics Alignment | Draft | 0.1.0 | Axodus Lottery / Tokenomics | [docs/lottery/tokenomics-alignment.md](docs/lottery/tokenomics-alignment.md) |
-| — | Treasury and Fees | Draft | 0.1.0 | Axodus Lottery / Treasury | [docs/lottery/treasury-and-fees.md](docs/lottery/treasury-and-fees.md) |
-| — | Academy Alignment | Draft | 0.1.0 | Axodus Marketplace / Academy | [docs/marketplace/academy-alignment.md](docs/marketplace/academy-alignment.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus Marketplace / ACS | [docs/marketplace/acs-integration.md](docs/marketplace/acs-integration.md) |
-| — | Marketplace Architecture | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/architecture.md](docs/marketplace/architecture.md) |
-| — | Business and BBA Alignment | Draft | 0.1.0 | Axodus Marketplace / Business / BBA Agency | [docs/marketplace/business-and-bba-alignment.md](docs/marketplace/business-and-bba-alignment.md) |
-| — | Buyer Flow | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/buyer-flow.md](docs/marketplace/buyer-flow.md) |
-| — | Credits and Locked Rewards | Draft | 0.1.0 | Axodus Marketplace / Tokenomics | [docs/marketplace/credits-and-locked-rewards.md](docs/marketplace/credits-and-locked-rewards.md) |
-| — | DEX and DeFi Integration | Draft | 0.1.0 | Axodus Marketplace / DEX / DeFi | [docs/marketplace/dex-and-defi-integration.md](docs/marketplace/dex-and-defi-integration.md) |
-| — | Disputes, Refunds and Support | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/disputes-refunds-and-support.md](docs/marketplace/disputes-refunds-and-support.md) |
-| — | Fees and Revenue | Draft | 0.1.0 | Axodus Marketplace / Treasury | [docs/marketplace/fees-and-revenue.md](docs/marketplace/fees-and-revenue.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus Marketplace / Governance | [docs/marketplace/governance-alignment.md](docs/marketplace/governance-alignment.md) |
-| — | Listing Model | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/listing-model.md](docs/marketplace/listing-model.md) |
-| — | Axodus Marketplace Overview | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/overview.md](docs/marketplace/overview.md) |
-| — | Payments and Settlement | Draft | 0.1.0 | Axodus Marketplace / Treasury | [docs/marketplace/payments-and-settlement.md](docs/marketplace/payments-and-settlement.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus Marketplace / Accountability | [docs/marketplace/reporting-and-accountability.md](docs/marketplace/reporting-and-accountability.md) |
-| — | Reputation and Quality | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/reputation-and-quality.md](docs/marketplace/reputation-and-quality.md) |
-| — | Risk and Compliance | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/risk-and-compliance.md](docs/marketplace/risk-and-compliance.md) |
-| — | Security and Data Protection | Draft | 0.1.0 | Axodus Marketplace / Security | [docs/marketplace/security-and-data-protection.md](docs/marketplace/security-and-data-protection.md) |
-| — | Seller / Provider Model | Draft | 0.1.0 | Axodus Marketplace | [docs/marketplace/seller-provider-model.md](docs/marketplace/seller-provider-model.md) |
-| — | Service Catalog | Draft | 0.1.0 | Axodus Marketplace / Business | [docs/marketplace/service-catalog.md](docs/marketplace/service-catalog.md) |
-| — | Tokenomics Alignment | Draft | 0.1.0 | Axodus Marketplace / Tokenomics | [docs/marketplace/tokenomics-alignment.md](docs/marketplace/tokenomics-alignment.md) |
-| — | Treasury Alignment | Draft | 0.1.0 | Axodus Marketplace / Treasury | [docs/marketplace/treasury-alignment.md](docs/marketplace/treasury-alignment.md) |
-| — | Academy and User Education | Draft | 0.1.0 | Axodus Mining / Academy | [docs/mining/academy-and-user-education.md](docs/mining/academy-and-user-education.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus Mining / ACS | [docs/mining/acs-integration.md](docs/mining/acs-integration.md) |
-| — | Mining Architecture | Draft | 0.1.0 | Axodus Mining | [docs/mining/architecture.md](docs/mining/architecture.md) |
-| — | Costs, Fees and Profitability | Draft | 0.1.0 | Axodus Mining | [docs/mining/costs-fees-and-profitability.md](docs/mining/costs-fees-and-profitability.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus Mining / Governance | [docs/mining/governance-alignment.md](docs/mining/governance-alignment.md) |
-| — | Hardware, Energy and Uptime | Draft | 0.1.0 | Axodus Mining | [docs/mining/hardware-energy-and-uptime.md](docs/mining/hardware-energy-and-uptime.md) |
-| — | Infrastructure and Operations | Draft | 0.1.0 | Axodus Mining | [docs/mining/infrastructure-and-operations.md](docs/mining/infrastructure-and-operations.md) |
-| — | Marketplace, Business and BBA Alignment | Draft | 0.1.0 | Axodus Mining / Marketplace / Business / BBA Agency | [docs/mining/marketplace-business-and-bba-alignment.md](docs/mining/marketplace-business-and-bba-alignment.md) |
-| — | Mining Models | Draft | 0.1.0 | Axodus Mining | [docs/mining/mining-models.md](docs/mining/mining-models.md) |
-| — | Monitoring and Telemetry | Draft | 0.1.0 | Axodus Mining | [docs/mining/monitoring-and-telemetry.md](docs/mining/monitoring-and-telemetry.md) |
-| — | Node and Validator Operations | Draft | 0.1.0 | Axodus Mining | [docs/mining/node-and-validator-operations.md](docs/mining/node-and-validator-operations.md) |
-| — | Axodus Mining Overview | Draft | 0.1.0 | Axodus Mining | [docs/mining/overview.md](docs/mining/overview.md) |
-| — | Pools, Hashrate and Network Difficulty | Draft | 0.1.0 | Axodus Mining | [docs/mining/pools-hashrate-and-network-difficulty.md](docs/mining/pools-hashrate-and-network-difficulty.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus Mining / Accountability | [docs/mining/reporting-and-accountability.md](docs/mining/reporting-and-accountability.md) |
-| — | Rewards and Payouts | Draft | 0.1.0 | Axodus Mining | [docs/mining/rewards-and-payouts.md](docs/mining/rewards-and-payouts.md) |
-| — | Risk and Compliance | Draft | 0.1.0 | Axodus Mining | [docs/mining/risk-and-compliance.md](docs/mining/risk-and-compliance.md) |
-| — | Security and Custody | Draft | 0.1.0 | Axodus Mining / Security | [docs/mining/security-and-custody.md](docs/mining/security-and-custody.md) |
-| — | Sustainability and Responsible Operations | Draft | 0.1.0 | Axodus Mining | [docs/mining/sustainability-and-responsible-operations.md](docs/mining/sustainability-and-responsible-operations.md) |
-| — | Tokenomics Alignment | Draft | 0.1.0 | Axodus Mining / Tokenomics | [docs/mining/tokenomics-alignment.md](docs/mining/tokenomics-alignment.md) |
-| — | Trading and Risk Hedging | Draft | 0.1.0 | Axodus Mining / Trading / Treasury | [docs/mining/trading-and-risk-hedging.md](docs/mining/trading-and-risk-hedging.md) |
-| — | Treasury Alignment | Draft | 0.1.0 | Axodus Mining / Treasury | [docs/mining/treasury-alignment.md](docs/mining/treasury-alignment.md) |
-| — | User-Facing Products | Draft | 0.1.0 | Axodus Mining | [docs/mining/user-facing-products.md](docs/mining/user-facing-products.md) |
-| — | Constitutional Model | Draft | 0.1.0 | Axodus Core | [docs/overview/constitutional-model.md](docs/overview/constitutional-model.md) |
-| — | Core Principles | Draft | 0.1.0 | Axodus Core | [docs/overview/core-principles.md](docs/overview/core-principles.md) |
-| — | Documentation Standards | Draft | 0.1.0 | Axodus Core | [docs/overview/documentation-standards.md](docs/overview/documentation-standards.md) |
-| — | Documentation Status | Draft | 0.1.0 | Axodus Core | [docs/overview/documentation-status.md](docs/overview/documentation-status.md) |
-| — | Ecosystem Overview | Draft | 0.1.0 | Axodus Core | [docs/overview/ecosystem-overview.md](docs/overview/ecosystem-overview.md) |
-| — | Product Map | Draft | 0.1.0 | Axodus Core | [docs/overview/product-map.md](docs/overview/product-map.md) |
-| — | Risk Notices | Draft | 0.1.0 | Axodus Core | [docs/overview/risk-notices.md](docs/overview/risk-notices.md) |
-| — | Terminology | Active | 0.1.0 | Axodus Core | [docs/overview/terminology.md](docs/overview/terminology.md) |
-| — | Accountability Records | Draft | 0.1.0 | Axodus Runtime / Accountability | [docs/runtime/accountability-records.md](docs/runtime/accountability-records.md) |
-| — | ACS Integration | Draft | 0.1.0 | Axodus Runtime / ACS | [docs/runtime/acs-integration.md](docs/runtime/acs-integration.md) |
-| — | Runtime Architecture | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/architecture.md](docs/runtime/architecture.md) |
-| — | Change Control | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/change-control.md](docs/runtime/change-control.md) |
-| — | Communication Cadence | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/communication-cadence.md](docs/runtime/communication-cadence.md) |
-| — | Delays and Blockers | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/delays-and-blockers.md](docs/runtime/delays-and-blockers.md) |
-| — | Execution Handoff | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/execution-handoff.md](docs/runtime/execution-handoff.md) |
-| — | Governance Escalation | Draft | 0.1.0 | Axodus Runtime / Governance | [docs/runtime/governance-escalation.md](docs/runtime/governance-escalation.md) |
-| — | Milestones | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/milestones.md](docs/runtime/milestones.md) |
-| — | Runtime Overview | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/overview.md](docs/runtime/overview.md) |
-| — | Request Lifecycle | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/request-lifecycle.md](docs/runtime/request-lifecycle.md) |
-| — | Risk Controls | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/risk-controls.md](docs/runtime/risk-controls.md) |
-| — | Status Model | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/status-model.md](docs/runtime/status-model.md) |
-| — | Validation and Confirmation | Draft | 0.1.0 | Axodus Runtime | [docs/runtime/validation-and-confirmation.md](docs/runtime/validation-and-confirmation.md) |
-| — | API Security | Draft | 0.1.0 | Security | [docs/security/api-security.md](docs/security/api-security.md) |
-| — | Disclosure Policy | Draft | 0.1.0 | Security | [docs/security/disclosure-policy.md](docs/security/disclosure-policy.md) |
-| — | Frontend Security | Draft | 0.1.0 | Security | [docs/security/frontend-security.md](docs/security/frontend-security.md) |
-| — | Security Overview | Draft | 0.1.0 | Security | [docs/security/overview.md](docs/security/overview.md) |
-| — | Smart Contract Security | Draft | 0.1.0 | Security | [docs/security/smart-contract-security.md](docs/security/smart-contract-security.md) |
-| — | Trading API Security | Draft | 0.1.0 | Security | [docs/security/trading-api-security.md](docs/security/trading-api-security.md) |
-| — | Wallet Security | Draft | 0.1.0 | Security | [docs/security/wallet-security.md](docs/security/wallet-security.md) |
-| — | Academy Rewards | Draft | 0.2.0 | Axodus Tokenomics / Academy | [docs/tokenomics/academy-rewards.md](docs/tokenomics/academy-rewards.md) |
-| — | Contract Dependencies | Draft | 0.2.0 | Axodus Tokenomics / Security | [docs/tokenomics/contract-dependencies.md](docs/tokenomics/contract-dependencies.md) |
-| — | Cross-Chain Readiness | Draft | 0.1.0 | Axodus Tokenomics / Security | [docs/tokenomics/cross-chain-readiness.md](docs/tokenomics/cross-chain-readiness.md) |
-| — | Governance Participation | Future | 0.2.0 | Axodus Tokenomics / Governance | [docs/tokenomics/governance-participation.md](docs/tokenomics/governance-participation.md) |
-| — | Locked Rewards Status | Needs Review | 0.2.0 | Axodus Tokenomics | [docs/tokenomics/locked-rewards.md](docs/tokenomics/locked-rewards.md) |
-| — | Marketplace Utility | Planned | 0.2.0 | Axodus Tokenomics / Marketplace | [docs/tokenomics/marketplace-utility.md](docs/tokenomics/marketplace-utility.md) |
-| — | $Neurons Token | Draft | 0.2.0 | Axodus Tokenomics | [docs/tokenomics/neurons-token.md](docs/tokenomics/neurons-token.md) |
-| — | Tokenomics Overview | Draft | 0.2.0 | Axodus Tokenomics | [docs/tokenomics/overview.md](docs/tokenomics/overview.md) |
-| — | PoK Minting | Draft | 0.1.0 | Axodus Tokenomics / Academy | [docs/tokenomics/pok-minting.md](docs/tokenomics/pok-minting.md) |
-| — | Reporting and Accountability | Draft | 0.2.0 | Axodus Tokenomics / Accountability | [docs/tokenomics/reporting-and-accountability.md](docs/tokenomics/reporting-and-accountability.md) |
-| — | Reward Policy | Draft | 0.2.0 | Axodus Tokenomics | [docs/tokenomics/reward-policy.md](docs/tokenomics/reward-policy.md) |
-| — | Risk and Compliance | Draft | 0.2.0 | Axodus Tokenomics / Security | [docs/tokenomics/risk-and-compliance.md](docs/tokenomics/risk-and-compliance.md) |
-| — | Supply and Emission | Draft | 0.2.0 | Axodus Tokenomics | [docs/tokenomics/supply-and-emission.md](docs/tokenomics/supply-and-emission.md) |
-| — | Technical Architecture | Draft | 0.1.0 | Axodus Tokenomics / Security | [docs/tokenomics/technical-architecture.md](docs/tokenomics/technical-architecture.md) |
-| — | Treasury Alignment | Draft | 0.2.0 | Axodus Tokenomics / Treasury | [docs/tokenomics/treasury-alignment.md](docs/tokenomics/treasury-alignment.md) |
-| — | Utility Model | Draft | 0.2.0 | Axodus Tokenomics | [docs/tokenomics/utility-model.md](docs/tokenomics/utility-model.md) |
-| — | Access Model | Draft | 0.1.0 | Axodus Trading | [docs/trading/access-model.md](docs/trading/access-model.md) |
-| — | ACS and Trinity Integration | Draft | 0.1.0 | Axodus Trading / ACS | [docs/trading/acs-trinity-integration.md](docs/trading/acs-trinity-integration.md) |
-| — | Trading Architecture | Draft | 0.1.0 | Axodus Trading | [docs/trading/architecture.md](docs/trading/architecture.md) |
-| — | CEX API Security | Draft | 0.1.0 | Axodus Trading / Security | [docs/trading/cex-api-security.md](docs/trading/cex-api-security.md) |
-| — | Compliance and User Disclosures | Draft | 0.1.0 | Axodus Trading | [docs/trading/compliance-and-user-disclosures.md](docs/trading/compliance-and-user-disclosures.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus Trading / Governance | [docs/trading/governance-alignment.md](docs/trading/governance-alignment.md) |
-| — | Internal Trading | Draft | 0.1.0 | Axodus Trading / Treasury | [docs/trading/internal-trading.md](docs/trading/internal-trading.md) |
-| — | Trading Overview | Draft | 0.1.0 | Axodus Trading | [docs/trading/overview.md](docs/trading/overview.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus Trading / Accountability | [docs/trading/reporting-and-accountability.md](docs/trading/reporting-and-accountability.md) |
-| — | Risk Management | Draft | 0.1.0 | Axodus Trading | [docs/trading/risk-management.md](docs/trading/risk-management.md) |
-| — | Scalper Futures | Conceptual | 0.1.0 | Axodus Trading | [docs/trading/scalper-futures.md](docs/trading/scalper-futures.md) |
-| — | Strategy Lifecycle | Draft | 0.1.0 | Axodus Trading | [docs/trading/strategy-lifecycle.md](docs/trading/strategy-lifecycle.md) |
-| — | Treasury Alignment | Draft | 0.1.0 | Axodus Trading / Treasury | [docs/trading/treasury-alignment.md](docs/trading/treasury-alignment.md) |
-| — | User-Facing Strategies | Draft | 0.1.0 | Axodus Trading | [docs/trading/user-facing-strategies.md](docs/trading/user-facing-strategies.md) |
-| — | ACS and Trinity Integration | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/acs-trinity-integration.md](docs/treasury/acs-trinity-integration.md) |
-| — | Treasury Architecture | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/architecture.md](docs/treasury/architecture.md) |
-| — | Capital Allocation | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/capital-allocation.md](docs/treasury/capital-allocation.md) |
-| — | Compliance and Disclosures | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/compliance-and-disclosures.md](docs/treasury/compliance-and-disclosures.md) |
-| — | Custody and Security | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/custody-and-security.md](docs/treasury/custody-and-security.md) |
-| — | Governance Alignment | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/governance-alignment.md](docs/treasury/governance-alignment.md) |
-| — | Treasury Overview | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/overview.md](docs/treasury/overview.md) |
-| — | Reporting and Accountability | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/reporting-and-accountability.md](docs/treasury/reporting-and-accountability.md) |
-| — | Reserves and Liquidity | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/reserves-and-liquidity.md](docs/treasury/reserves-and-liquidity.md) |
-| — | Revenue and Fees | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/revenue-and-fees.md](docs/treasury/revenue-and-fees.md) |
-| — | Treasury Risk Management | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/risk-management.md](docs/treasury/risk-management.md) |
-| — | Strategy Oversight | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/strategy-oversight.md](docs/treasury/strategy-oversight.md) |
-| — | Tokenomics Alignment | Draft | 0.2.0 | Axodus Treasury | [docs/treasury/tokenomics-alignment.md](docs/treasury/tokenomics-alignment.md) |
-| — | Trading Alignment | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/trading-alignment.md](docs/treasury/trading-alignment.md) |
-| — | Treasury Policy | Draft | 0.1.0 | Axodus Treasury | [docs/treasury/treasury-policy.md](docs/treasury/treasury-policy.md) |
-| — | Meetings | — | — | — | [meetings/README.md](meetings/README.md) |
-| — | Proposals | — | — | — | [proposals/README.md](proposals/README.md) |
-
+| ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
+|---|---|---|---|---|---|---|---|
+| <SCOPE>-ADR-<NNN> | <decision-title> | ADR | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/ADR-TEMPLATE.md](templates/ADR-TEMPLATE.md) |
+| <SCOPE>-API-<NNN> | <api-title> | API | DRAFT | MODULE | 0.1.0 | <owner> | [templates/API-TEMPLATE.md](templates/API-TEMPLATE.md) |
+| <SCOPE>-MTG-<NNN> | <meeting-title> | MEETING | DRAFT | PROJECT | 0.1.0 | <facilitator> | [templates/MEETING-TEMPLATE.md](templates/MEETING-TEMPLATE.md) |
+| <SCOPE>-PLAY-<NNN> | <playbook-title> | PLAYBOOK | DRAFT | COMPONENT | 0.1.0 | <owner> | [templates/PLAYBOOK-TEMPLATE.md](templates/PLAYBOOK-TEMPLATE.md) |
+| <SCOPE>-POL-<NNN> | <policy-title> | POLICY | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/POLICY-TEMPLATE.md](templates/POLICY-TEMPLATE.md) |
+| <SCOPE>-PROP-<NNN> | <proposal-title> | PROPOSAL | DRAFT | PROJECT | 0.1.0 | <sponsor> | [templates/PROPOSAL-TEMPLATE.md](templates/PROPOSAL-TEMPLATE.md) |
+| <SCOPE>-REF-<NNN> | <reference-title> | REFERENCE | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/REFERENCE-TEMPLATE.md](templates/REFERENCE-TEMPLATE.md) |
+| <SCOPE>-REL-<NNN> | <release-title> | RELEASE | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/RELEASE-TEMPLATE.md](templates/RELEASE-TEMPLATE.md) |
+| <SCOPE>-RPT-<NNN> | <report-title> | REPORT | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/REPORT-TEMPLATE.md](templates/REPORT-TEMPLATE.md) |
+| <SCOPE>-REQ-<NNN> | <requirement-title> | REQUIREMENT | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/REQUIREMENT-TEMPLATE.md](templates/REQUIREMENT-TEMPLATE.md) |
+| <SCOPE>-RES-<NNN> | <research-title> | RESEARCH | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/RESEARCH-TEMPLATE.md](templates/RESEARCH-TEMPLATE.md) |
+| <SCOPE>-RUN-<NNN> | <runbook-title> | RUNBOOK | DRAFT | COMPONENT | 0.1.0 | <owner> | [templates/RUNBOOK-TEMPLATE.md](templates/RUNBOOK-TEMPLATE.md) |
+| <SCOPE>-SPEC-<NNN> | <specification-title> | SPECIFICATION | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/SPECIFICATION-TEMPLATE.md](templates/SPECIFICATION-TEMPLATE.md) |
+| <SCOPE>-STD-<NNN> | <standard-title> | STANDARD | DRAFT | PROJECT | 0.1.0 | <owner> | [templates/STANDARD-TEMPLATE.md](templates/STANDARD-TEMPLATE.md) |
 ## Generated Artifacts
 
-- `DOCUMENTATION-MASTER-INDEX.md`
-- `documentation.manifest.json`
-- `documentation.graph.json`
-- `DOCUMENTATION-METADATA-COVERAGE.md`
-- `DOCUMENTATION-RELATIONSHIP-REPORT.md`
-- `DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md`
-
-Generated artifacts are excluded from the source-document hash inventory to avoid recursive output dependencies.
+| Artifact | Purpose |
+|---|---|
+| [DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md](DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md) | Canonical derived repository artifact |
+| [DOCUMENTATION-MASTER-INDEX.md](DOCUMENTATION-MASTER-INDEX.md) | Canonical derived repository artifact |
+| [DOCUMENTATION-METADATA-COVERAGE.md](DOCUMENTATION-METADATA-COVERAGE.md) | Canonical derived repository artifact |
+| [DOCUMENTATION-RELATIONSHIP-REPORT.md](DOCUMENTATION-RELATIONSHIP-REPORT.md) | Canonical derived repository artifact |
+| [documentation.baseline.report.json](documentation.baseline.report.json) | Canonical derived repository artifact |
+| [documentation.graph.json](documentation.graph.json) | Canonical derived repository artifact |
+| [documentation.manifest.json](documentation.manifest.json) | Canonical derived repository artifact |
+| [documentation.validation.json](documentation.validation.json) | Canonical derived repository artifact |
