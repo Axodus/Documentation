@@ -4172,6 +4172,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-002",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-002",
+      "publication_status": "ACTIVE",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "title": "Documentation Epic 01 Closure Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -8320,6 +8330,7 @@
       "DOCUMENTATION-BASELINE-POLICY.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
+      "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
@@ -8423,6 +8434,7 @@
       "DOC-REF-003",
       "DOC-REF-004",
       "DOC-RPT-001",
+      "DOC-RPT-002",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -8451,13 +8463,13 @@
     "DOCUMENTS": 12,
     "REALIZES": 13,
     "RELATES_TO": 30,
-    "VALIDATES": 2
+    "VALIDATES": 10
   },
   "relationship_statistics": {
-    "declared": 81,
+    "declared": 89,
     "derived": 0,
     "duplicates": 0,
-    "total": 81,
+    "total": 89,
     "unresolved": 0
   },
   "relationship_types": [
@@ -8892,6 +8904,54 @@
       "source": "DOC-RPT-001",
       "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-POL-006",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-003",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-004",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-006",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-SPEC-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-SPEC-002",
       "type": "VALIDATES"
     },
     {

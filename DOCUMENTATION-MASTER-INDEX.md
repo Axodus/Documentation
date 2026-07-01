@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-01T00:00:00Z
-Source Documents: 686
+Source Documents: 687
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 686
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 686 |
-| Canonical documents | 39 |
+| Total source documents | 687 |
+| Canonical documents | 40 |
 | Legacy documents | 633 |
 | Template documents | 14 |
-| Declared relationships | 81 |
+| Declared relationships | 89 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 686
 | PROPOSAL | 1 |
 | REFERENCE | 5 |
 | RELEASE | 1 |
-| REPORT | 2 |
+| REPORT | 3 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | RUNBOOK | 1 |
@@ -54,7 +54,7 @@ Source Documents: 686
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 39 |
+| CORE | 40 |
 | MODULE | 1 |
 | PROJECT | 11 |
 | UNSPECIFIED | 633 |
@@ -62,7 +62,7 @@ Source Documents: 686
 
 | Value | Count |
 |---|---:|
-| ACTIVE | 20 |
+| ACTIVE | 21 |
 | APPROVED | 17 |
 | DRAFT | 16 |
 | UNSPECIFIED | 633 |
@@ -91,6 +91,7 @@ Source Documents: 686
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
+| DOC-RPT-002 | Documentation Epic 01 Closure Report | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md](DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |

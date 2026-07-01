@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 686,
+  "document_count": 687,
   "documents": [
     {
       "aliases": [],
@@ -12497,6 +12497,55 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.GOVERNANCE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-002",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-01",
+      "maturity_level": "D4",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "ACTIVE",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-REQ-01",
+        "DOC-ADR-001",
+        "DOC-ADR-002",
+        "DOC-ADR-003",
+        "DOC-ADR-004",
+        "DOC-ADR-005",
+        "DOC-ADR-006",
+        "DOC-ADR-007",
+        "DOC-ADR-008",
+        "DOC-ADR-009",
+        "DOC-ADR-010",
+        "DOC-ADR-011",
+        "DOC-ADR-012",
+        "DOC-ADR-013",
+        "DOC-ADR-014",
+        "DOC-ADR-015",
+        "DOC-ADR-016",
+        "DOC-ADR-017",
+        "DOC-POL-001",
+        "DOC-POL-002",
+        "DOC-POL-003",
+        "DOC-POL-004",
+        "DOC-POL-005",
+        "DOC-POL-006",
+        "DOC-SPEC-001",
+        "DOC-SPEC-002",
+        "DOCUMENTATION-EPIC-01",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "7c587fd354ad028856b9137d0c54dbc474e83866768cd355ce9017e86e28c32c",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 01 Closure Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION",
       "classification": "CANONICAL",
       "document_id": "DOC-REF-004",
@@ -14420,6 +14469,54 @@
       "type": "VALIDATES"
     },
     {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-003",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-004",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-POL-006",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-SPEC-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-002",
+      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "target": "DOC-SPEC-002",
+      "type": "VALIDATES"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -14483,12 +14580,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 39,
-    "declared_relationships": 81,
+    "compliant_documents": 40,
+    "declared_relationships": 89,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 39,
+      "CORE": 40,
       "MODULE": 1,
       "PROJECT": 11,
       "UNSPECIFIED": 633
@@ -14497,17 +14594,18 @@
       "D1": 14,
       "D2": 2,
       "D3": 37,
+      "D4": 1,
       "UNSPECIFIED": 633
     },
     "documents_by_owner": {
       "<facilitator>": 1,
       "<owner>": 12,
       "<sponsor>": 1,
-      "Axodus Documentation Core": 39,
+      "Axodus Documentation Core": 40,
       "UNSPECIFIED": 633
     },
     "documents_by_publication_status": {
-      "ACTIVE": 20,
+      "ACTIVE": 21,
       "APPROVED": 17,
       "DRAFT": 16,
       "UNSPECIFIED": 633
@@ -14522,7 +14620,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 5,
       "RELEASE": 1,
-      "REPORT": 2,
+      "REPORT": 3,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "RUNBOOK": 1,
@@ -14534,6 +14632,6 @@
     "generated_documents": 8,
     "legacy_documents": 633,
     "template_documents": 14,
-    "total_documents": 686
+    "total_documents": 687
   }
 }
