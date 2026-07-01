@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-01T00:00:00Z
-Source Documents: 685
+Source Documents: 686
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 685
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 685 |
-| Canonical documents | 36 |
-| Legacy documents | 635 |
+| Total source documents | 686 |
+| Canonical documents | 39 |
+| Legacy documents | 633 |
 | Template documents | 14 |
-| Declared relationships | 72 |
+| Declared relationships | 81 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,37 +35,37 @@ Source Documents: 685
 |---|---:|
 | ADR | 18 |
 | API | 1 |
-| GUIDE | 4 |
+| GUIDE | 6 |
 | MEETING | 1 |
 | PLAYBOOK | 1 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
 | REFERENCE | 5 |
 | RELEASE | 1 |
-| REPORT | 1 |
+| REPORT | 2 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 5 |
 | STANDARD | 2 |
-| UNSPECIFIED | 635 |
+| UNSPECIFIED | 633 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 36 |
+| CORE | 39 |
 | MODULE | 1 |
 | PROJECT | 11 |
-| UNSPECIFIED | 635 |
+| UNSPECIFIED | 633 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
-| ACTIVE | 19 |
+| ACTIVE | 20 |
 | APPROVED | 17 |
-| DRAFT | 14 |
-| UNSPECIFIED | 635 |
+| DRAFT | 16 |
+| UNSPECIFIED | 633 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -87,6 +87,7 @@ Source Documents: 685
 | DOC-ADR-015 | Archiving Strategy | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-015-ARCHIVING-STRATEGY.md](adr/DOC-ADR-015-ARCHIVING-STRATEGY.md) |
 | DOC-ADR-016 | Documentation Automation | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md](adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md) |
 | DOC-ADR-017 | Logical Authority versus Physical Location | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md](adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md) |
+| DOC-GDE-006 | Axodus Documentation | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Documentation Core | [docs/index.md](docs/index.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
@@ -94,6 +95,7 @@ Source Documents: 685
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
+| DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-WAVE-01.md](DOCUMENTATION-MIGRATION-WAVE-01.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-VALIDATION-RULES.md](DOCUMENTATION-VALIDATION-RULES.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
 | DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
@@ -106,6 +108,7 @@ Source Documents: 685
 | DOC-SPEC-002 | Documentation Traceability Model | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-TRACEABILITY-MODEL.md](governance/DOCUMENTATION-TRACEABILITY-MODEL.md) |
 | DOC-POL-002 | Documentation Versioning Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-VERSIONING-POLICY.md](governance/DOCUMENTATION-VERSIONING-POLICY.md) |
 | DOC-SPEC-003 | Instructions Versioning Strategy | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/INSTRUCTIONS-VERSIONING-STRATEGY.md](governance/INSTRUCTIONS-VERSIONING-STRATEGY.md) |
+| DOC-GDE-005 | Axodus Documentation | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Documentation Core | [README.md](README.md) |
 ## Legacy Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -570,7 +573,6 @@ Source Documents: 685
 | — | Governance Overview | — | — | — | — | — | [docs/governance/overview.md](docs/governance/overview.md) |
 | — | Governance Plugin Requests | — | — | — | — | — | [docs/governance/plugin-requests.md](docs/governance/plugin-requests.md) |
 | — | Proposal Lifecycle | — | — | — | — | — | [docs/governance/proposal-lifecycle.md](docs/governance/proposal-lifecycle.md) |
-| — | — | — | — | — | — | — | [docs/index.md](docs/index.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/lottery/acs-integration.md](docs/lottery/acs-integration.md) |
 | — | Claims and Settlement | — | — | — | — | — | [docs/lottery/claims-and-settlement.md](docs/lottery/claims-and-settlement.md) |
 | — | CryptoDraw | — | — | — | — | — | [docs/lottery/cryptodraw.md](docs/lottery/cryptodraw.md) |
@@ -733,7 +735,6 @@ Source Documents: 685
 | — | Runbooks | — | — | — | — | — | [operations/runbooks/README.md](operations/runbooks/README.md) |
 | — | Policies | — | — | — | — | — | [policies/README.md](policies/README.md) |
 | — | Proposals | — | — | — | — | — | [proposals/README.md](proposals/README.md) |
-| — | Axodus Documentation | — | — | — | — | — | [README.md](README.md) |
 | — | References | — | — | — | — | — | [references/README.md](references/README.md) |
 | — | Releases | — | — | — | — | — | [releases/README.md](releases/README.md) |
 | — | Reports | — | — | — | — | — | [reports/README.md](reports/README.md) |

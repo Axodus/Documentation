@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import { readFile } from 'node:fs/promises'
 import test from 'node:test'
 import { validateRepository } from '../index.js'
 import { main } from '../cli/index.js'
@@ -44,14 +45,16 @@ test('summary output suppresses diagnostic details', async () => {
 
 test('baseline command reports baseline statistics', async () => {
   const payload = await json('baseline')
-  assert.equal(payload.statistics.baseline_entries, 635)
-  assert.equal(payload.statistics.known_legacy, 635)
+  const baseline = JSON.parse(await readFile('documentation.baseline.json', 'utf8'))
+  assert.equal(payload.statistics.baseline_entries, baseline.entries.length)
+  assert.equal(payload.statistics.known_legacy, baseline.entries.length)
 })
 
 test('exception command reports exception statistics', async () => {
   const payload = await json('exceptions', '--reference-date', '2026-07-01T00:00:00Z')
-  assert.equal(payload.statistics.exception_entries, 635)
-  assert.equal(payload.statistics.active_exceptions, 635)
+  const exceptions = JSON.parse(await readFile('documentation.exceptions.json', 'utf8'))
+  assert.equal(payload.statistics.exception_entries, exceptions.exceptions.length)
+  assert.equal(payload.statistics.active_exceptions, exceptions.exceptions.length)
 })
 
 test('schema command excludes relationship diagnostics', async () => {

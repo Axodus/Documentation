@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 685
-- Canonical metadata field coverage: 7.30%
-- Schema 1.0.0 canonical documents: 36
-- Legacy documents: 635
-- Documents missing canonical metadata: 635
-- Documents without YAML front matter: 634
+- Source documents: 686
+- Canonical metadata field coverage: 7.73%
+- Schema 1.0.0 canonical documents: 39
+- Legacy documents: 633
+- Documents missing canonical metadata: 633
+- Documents without YAML front matter: 633
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 50 | 635 | 7.30% |
-| `document_id` | 50 | 635 | 7.30% |
-| `aliases` | 50 | 635 | 7.30% |
-| `document_type` | 50 | 635 | 7.30% |
-| `title` | 50 | 635 | 7.30% |
-| `summary` | 50 | 635 | 7.30% |
-| `version` | 50 | 635 | 7.30% |
-| `publication_status` | 50 | 635 | 7.30% |
-| `document_state` | 50 | 635 | 7.30% |
-| `maturity_level` | 50 | 635 | 7.30% |
-| `authority_scope` | 50 | 635 | 7.30% |
-| `authority_level` | 50 | 635 | 7.30% |
-| `author` | 50 | 635 | 7.30% |
-| `owner` | 50 | 635 | 7.30% |
-| `maintainer` | 50 | 635 | 7.30% |
-| `technical_reviewers` | 50 | 635 | 7.30% |
-| `business_reviewers` | 50 | 635 | 7.30% |
-| `security_reviewers` | 50 | 635 | 7.30% |
-| `approver` | 50 | 635 | 7.30% |
-| `created_date` | 50 | 635 | 7.30% |
-| `last_updated` | 50 | 635 | 7.30% |
-| `last_reviewed` | 50 | 635 | 7.30% |
-| `review_cycle` | 50 | 635 | 7.30% |
-| `next_review` | 50 | 635 | 7.30% |
-| `supersedes` | 50 | 635 | 7.30% |
-| `relationships` | 50 | 635 | 7.30% |
-| `related_epics` | 50 | 635 | 7.30% |
-| `related_requirements` | 50 | 635 | 7.30% |
-| `related_adrs` | 50 | 635 | 7.30% |
-| `related_cores` | 50 | 635 | 7.30% |
-| `implementation_refs` | 50 | 635 | 7.30% |
-| `production_gate_impact` | 50 | 635 | 7.30% |
+| `schema_version` | 53 | 633 | 7.73% |
+| `document_id` | 53 | 633 | 7.73% |
+| `aliases` | 53 | 633 | 7.73% |
+| `document_type` | 53 | 633 | 7.73% |
+| `title` | 53 | 633 | 7.73% |
+| `summary` | 53 | 633 | 7.73% |
+| `version` | 53 | 633 | 7.73% |
+| `publication_status` | 53 | 633 | 7.73% |
+| `document_state` | 53 | 633 | 7.73% |
+| `maturity_level` | 53 | 633 | 7.73% |
+| `authority_scope` | 53 | 633 | 7.73% |
+| `authority_level` | 53 | 633 | 7.73% |
+| `author` | 53 | 633 | 7.73% |
+| `owner` | 53 | 633 | 7.73% |
+| `maintainer` | 53 | 633 | 7.73% |
+| `technical_reviewers` | 53 | 633 | 7.73% |
+| `business_reviewers` | 53 | 633 | 7.73% |
+| `security_reviewers` | 53 | 633 | 7.73% |
+| `approver` | 53 | 633 | 7.73% |
+| `created_date` | 53 | 633 | 7.73% |
+| `last_updated` | 53 | 633 | 7.73% |
+| `last_reviewed` | 53 | 633 | 7.73% |
+| `review_cycle` | 53 | 633 | 7.73% |
+| `next_review` | 53 | 633 | 7.73% |
+| `supersedes` | 53 | 633 | 7.73% |
+| `relationships` | 53 | 633 | 7.73% |
+| `related_epics` | 53 | 633 | 7.73% |
+| `related_requirements` | 53 | 633 | 7.73% |
+| `related_adrs` | 53 | 633 | 7.73% |
+| `related_cores` | 53 | 633 | 7.73% |
+| `implementation_refs` | 53 | 633 | 7.73% |
+| `production_gate_impact` | 53 | 633 | 7.73% |
 
 ## Documents Without Front Matter
 
@@ -678,7 +678,6 @@ Generator Version: 1.0.0
 - operations/runbooks/README.md
 - policies/README.md
 - proposals/README.md
-- README.md
 - references/README.md
 - releases/README.md
 - reports/README.md
@@ -1153,7 +1152,6 @@ Generator Version: 1.0.0
 - docs/governance/overview.md
 - docs/governance/plugin-requests.md
 - docs/governance/proposal-lifecycle.md
-- docs/index.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/cryptodraw.md
@@ -1316,7 +1314,6 @@ Generator Version: 1.0.0
 - operations/runbooks/README.md
 - policies/README.md
 - proposals/README.md
-- README.md
 - references/README.md
 - releases/README.md
 - reports/README.md

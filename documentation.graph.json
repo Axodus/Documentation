@@ -145,6 +145,16 @@
       ]
     },
     {
+      "allowed": true,
+      "nodes": [
+        "DOC-GDE-005",
+        "DOC-GDE-006"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
       "allowed": false,
       "nodes": [
         "DOC-POL-005",
@@ -4032,6 +4042,26 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "DOC-GDE-005",
+      "publication_status": "DRAFT",
+      "source_path": "README.md",
+      "title": "Axodus Documentation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "DOC-GDE-006",
+      "publication_status": "DRAFT",
+      "source_path": "docs/index.md",
+      "title": "Axodus Documentation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-POL-001",
       "document_type": "POLICY",
       "node_id": "DOC-POL-001",
@@ -4128,6 +4158,16 @@
       "publication_status": "ACTIVE",
       "source_path": "DOCUMENTATION-ERROR-CATALOG.md",
       "title": "Documentation Validation Error Catalog"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-001",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-001",
+      "publication_status": "ACTIVE",
+      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "title": "Documentation Migration Wave 01"
     },
     {
       "authority_level": "CORE",
@@ -5278,16 +5318,6 @@
       "publication_status": null,
       "source_path": "docs/governance/proposal-lifecycle.md",
       "title": "Proposal Lifecycle"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/index.md",
-      "publication_status": null,
-      "source_path": "docs/index.md",
-      "title": null
     },
     {
       "authority_level": null,
@@ -6914,16 +6944,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "README.md",
-      "publication_status": null,
-      "source_path": "README.md",
-      "title": "Axodus Documentation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "references/README.md",
       "publication_status": null,
       "source_path": "references/README.md",
@@ -7491,7 +7511,6 @@
     "docs/governance/overview.md",
     "docs/governance/plugin-requests.md",
     "docs/governance/proposal-lifecycle.md",
-    "docs/index.md",
     "docs/lottery/acs-integration.md",
     "docs/lottery/claims-and-settlement.md",
     "docs/lottery/cryptodraw.md",
@@ -7654,7 +7673,6 @@
     "operations/runbooks/README.md",
     "policies/README.md",
     "proposals/README.md",
-    "README.md",
     "references/README.md",
     "releases/README.md",
     "reports/README.md",
@@ -8306,6 +8324,7 @@
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
       "DOCUMENTATION-GENERATOR.md",
+      "DOCUMENTATION-MIGRATION-WAVE-01.md",
       "DOCUMENTATION-VALIDATION-RULES.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
       "Documents/archive/README.md",
@@ -8391,6 +8410,8 @@
       "DOC-GDE-002",
       "DOC-GDE-003",
       "DOC-GDE-004",
+      "DOC-GDE-005",
+      "DOC-GDE-006",
       "DOC-POL-001",
       "DOC-POL-002",
       "DOC-POL-003",
@@ -8401,6 +8422,7 @@
       "DOC-REF-002",
       "DOC-REF-003",
       "DOC-REF-004",
+      "DOC-RPT-001",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -8426,22 +8448,24 @@
   },
   "relationship_counts": {
     "DEPENDS_ON": 24,
-    "DOCUMENTS": 8,
-    "REALIZES": 12,
-    "RELATES_TO": 28
+    "DOCUMENTS": 12,
+    "REALIZES": 13,
+    "RELATES_TO": 30,
+    "VALIDATES": 2
   },
   "relationship_statistics": {
-    "declared": 72,
+    "declared": 81,
     "derived": 0,
     "duplicates": 0,
-    "total": 72,
+    "total": 81,
     "unresolved": 0
   },
   "relationship_types": [
     "DEPENDS_ON",
     "DOCUMENTS",
     "REALIZES",
-    "RELATES_TO"
+    "RELATES_TO",
+    "VALIDATES"
   ],
   "relationships": [
     {
@@ -8703,6 +8727,36 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-GDE-005",
+      "source_path": "README.md",
+      "target": "DOC-POL-004",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-GDE-005",
+      "source_path": "README.md",
+      "target": "DOC-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-GDE-006",
+      "source_path": "docs/index.md",
+      "target": "DOC-POL-004",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-GDE-006",
+      "source_path": "docs/index.md",
+      "target": "DOC-ADR-014",
+      "type": "REALIZES"
+    },
+    {
+      "source": "DOC-GDE-006",
+      "source_path": "docs/index.md",
+      "target": "DOC-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-POL-001",
       "source_path": "governance/DOCUMENTATION-AUTHORITY-MODEL.md",
       "target": "DOC-ADR-001",
@@ -8815,6 +8869,30 @@
       "source_path": "DOCUMENTATION-ERROR-CATALOG.md",
       "target": "DOC-REF-003",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-001",
+      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "target": "DOC-GDE-005",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-RPT-001",
+      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "target": "DOC-GDE-006",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-RPT-001",
+      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "target": "DOC-POL-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-001",
+      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "target": "DOC-POL-006",
+      "type": "VALIDATES"
     },
     {
       "source": "DOC-SPEC-001",

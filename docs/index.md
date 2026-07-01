@@ -1,29 +1,59 @@
 ---
-layout: home
-
-hero:
-  name: Axodus Documentation
-  text: Governed DeFi infrastructure for treasury coordination, education, token utility, and modular product nuclei.
-  tagline: The canonical public documentation surface for the Axodus ecosystem.
-  actions:
-    - theme: brand
-      text: Start with the Ecosystem
-      link: /overview/ecosystem-overview
-    - theme: alt
-      text: Governance Model
-      link: /governance/overview
-    - theme: alt
-      text: Product Map
-      link: /overview/product-map
-
-features:
-  - title: Governance First
-    details: Constitutional governance, DAO coordination, proposal routing, execution records, and accountability.
-  - title: Treasury Aware
-    details: Capital allocation, reporting expectations, custody controls, and risk-managed financial operations.
-  - title: Modular Nuclei
-    details: Academy, Business, Marketplace, Trading, DeFi, DEX, Mining, Lottery, ACS, and BBA Agency documentation.
+schema_version: "1.0.0"
+document_id: "DOC-GDE-006"
+aliases: []
+document_type: "GUIDE"
+title: "Axodus Documentation"
+summary: "Provides the canonical public landing page for Axodus ecosystem documentation."
+version: "1.0.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "DOCUMENTATION.PUBLICATION"
+authority_level: "CORE"
+author: "Axodus Documentation Core"
+owner: "Axodus Documentation Core"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer", "VitePress Maintainer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-01"
+last_reviewed: "2026-07-01"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-01"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "DOC-GDE-005"}, {type: "REALIZES", target: "DOC-ADR-014"}, {type: "DOCUMENTS", target: "DOC-POL-004"}]
+related_epics: ["DOCUMENTATION-EPIC-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-REQ-01"]
+related_adrs: ["DOC-ADR-014", "DOC-ADR-017"]
+related_cores: ["DOCUMENTATION"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/index.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
 ---
+
+# Axodus Documentation
+
+Governed DeFi infrastructure for treasury coordination, education, token utility, and modular product nuclei.
+
+The canonical public documentation surface for the Axodus ecosystem.
+
+- [Start with the Ecosystem](/overview/ecosystem-overview)
+- [Governance Model](/governance/overview)
+- [Product Map](/overview/product-map)
+
+## Governance First
+
+Constitutional governance, DAO coordination, proposal routing, execution records, and accountability.
+
+## Treasury Aware
+
+Capital allocation, reporting expectations, custody controls, and risk-managed financial operations.
+
+## Modular Nuclei
+
+Academy, Business, Marketplace, Trading, DeFi, DEX, Mining, Lottery, ACS, and BBA Agency documentation.
 
 <div class="axodus-portal">
   <section class="axodus-section">

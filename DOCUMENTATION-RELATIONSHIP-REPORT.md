@@ -7,23 +7,24 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 685
-- Declared relationships: 72
+- Graph nodes: 686
+- Declared relationships: 81
 - Derived relationships: 0
-- Relationship types: 4
+- Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 649
-- Cycles: 15
+- Orphan documents: 647
+- Cycles: 16
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
 | `DEPENDS_ON` | 24 |
-| `DOCUMENTS` | 8 |
-| `REALIZES` | 12 |
-| `RELATES_TO` | 28 |
+| `DOCUMENTS` | 12 |
+| `REALIZES` | 13 |
+| `RELATES_TO` | 30 |
+| `VALIDATES` | 2 |
 
 ## Unresolved References
 
@@ -48,6 +49,7 @@ None.
 - DOC-ADR-007 → DOC-ADR-014 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-008 → DOC-ADR-015 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-012 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-GDE-005 → DOC-GDE-006 (permitted; RELATES_TO)
 - DOC-POL-005 → DOC-POL-006 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-REF-003 → DOC-REF-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 
@@ -513,7 +515,6 @@ None.
 - docs/governance/overview.md
 - docs/governance/plugin-requests.md
 - docs/governance/proposal-lifecycle.md
-- docs/index.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/cryptodraw.md
@@ -676,7 +677,6 @@ None.
 - operations/runbooks/README.md
 - policies/README.md
 - proposals/README.md
-- README.md
 - references/README.md
 - releases/README.md
 - reports/README.md

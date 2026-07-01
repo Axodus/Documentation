@@ -1,11 +1,39 @@
-# Axodus Documentation
-
-Status: Draft
-Version: 0.1.0
-Last Updated: 2026-05-16
-Owner: Axodus Core
-
 ---
+schema_version: "1.0.0"
+document_id: "DOC-GDE-005"
+aliases: []
+document_type: "GUIDE"
+title: "Axodus Documentation"
+summary: "Provides the repository entry point, documentation status, ecosystem map, navigation, and risk boundaries."
+version: "1.0.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "DOCUMENTATION"
+authority_level: "CORE"
+author: "Axodus Core"
+owner: "Axodus Documentation Core"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-01"
+last_reviewed: "2026-07-01"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-01"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "DOC-GDE-006"}, {type: "DOCUMENTS", target: "DOC-POL-004"}]
+related_epics: ["DOCUMENTATION-EPIC-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-REQ-01"]
+related_adrs: ["DOC-ADR-014", "DOC-ADR-017"]
+related_cores: ["DOCUMENTATION"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "README.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Axodus Documentation
 
 ## Overview
 

@@ -5530,18 +5530,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/index.md",
-      "sha256": "57fa7c1cbf3173b03e7d97ec222215ebe7b6ab991a00befc473121f886885f0a",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/lottery/acs-integration.md",
       "sha256": "6ea6a318a898ae5aca9733fc98045faafe646123ebbe3ef63e239a504b130a94",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -7476,18 +7464,6 @@
       ],
       "path": "proposals/README.md",
       "sha256": "42d79fd6769b940d9c4a35db476256eac8cceda4dfac1fbe1b1186c36e7b2e31",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "README.md",
-      "sha256": "48db48f8792a529ba584f2d641718732410abcbb564115e264a59f026a893d78",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
