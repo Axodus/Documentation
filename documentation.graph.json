@@ -4012,6 +4012,26 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "DOC-GDE-003",
+      "publication_status": "ACTIVE",
+      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "title": "Documentation Evidence Snapshot Framework"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "DOC-GDE-004",
+      "publication_status": "ACTIVE",
+      "source_path": "DOCUMENTATION-CI.md",
+      "title": "Documentation Continuous Integration"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-POL-001",
       "document_type": "POLICY",
       "node_id": "DOC-POL-001",
@@ -8280,8 +8300,10 @@
       "docs/treasury/treasury-policy.md",
       "DOCUMENTATION-ADR-INDEX.md",
       "DOCUMENTATION-BASELINE-POLICY.md",
+      "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
+      "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
       "DOCUMENTATION-GENERATOR.md",
       "DOCUMENTATION-VALIDATION-RULES.md",
@@ -8367,6 +8389,8 @@
       "DOC-ADR-017",
       "DOC-GDE-001",
       "DOC-GDE-002",
+      "DOC-GDE-003",
+      "DOC-GDE-004",
       "DOC-POL-001",
       "DOC-POL-002",
       "DOC-POL-003",
@@ -8402,15 +8426,15 @@
   },
   "relationship_counts": {
     "DEPENDS_ON": 24,
-    "DOCUMENTS": 5,
+    "DOCUMENTS": 8,
     "REALIZES": 12,
-    "RELATES_TO": 24
+    "RELATES_TO": 28
   },
   "relationship_statistics": {
-    "declared": 65,
+    "declared": 72,
     "derived": 0,
     "duplicates": 0,
-    "total": 65,
+    "total": 72,
     "unresolved": 0
   },
   "relationship_types": [
@@ -8634,6 +8658,48 @@
       "source": "DOC-GDE-002",
       "source_path": "DOCUMENTATION-GENERATOR.md",
       "target": "DOC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-GDE-003",
+      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "target": "DOC-ADR-003",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-GDE-003",
+      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "target": "DOC-SPEC-003",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-GDE-003",
+      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "target": "DOC-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-GDE-004",
+      "source_path": "DOCUMENTATION-CI.md",
+      "target": "DOC-ADR-014",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-GDE-004",
+      "source_path": "DOCUMENTATION-CI.md",
+      "target": "DOC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-GDE-004",
+      "source_path": "DOCUMENTATION-CI.md",
+      "target": "DOC-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-GDE-004",
+      "source_path": "DOCUMENTATION-CI.md",
+      "target": "DOC-GDE-003",
       "type": "RELATES_TO"
     },
     {

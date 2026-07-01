@@ -1,0 +1,166 @@
+name: Documentation Framework
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: documentation-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  documentation:
+    name: Validate documentation platform
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.2
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate documentation
+        run: pnpm docs:validate -- --summary
+
+      - name: Validate relationships
+        run: pnpm docs:validate:relationships -- --summary
+
+      - name: Validate legacy baseline
+        run: |
+          pnpm docs:baseline:check -- --json --quiet --output "$RUNNER_TEMP/documentation-baseline.json"
+          REPORT_PATH="$RUNNER_TEMP/documentation-baseline.json" node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises'
+          const report = JSON.parse(await readFile(process.env.REPORT_PATH, 'utf8'))
+          const statistics = report.statistics
+          const corrupt = report.diagnostics.some(({ error_code }) =>
+            ['DOC-VAL-034', 'DOC-VAL-035'].includes(error_code))
+          const inconsistent = (
+            statistics.changed_legacy > 0 ||
+            statistics.unbaselined_legacy > 0 ||
+            statistics.removed_legacy > 0
+          )
+          console.log(JSON.stringify({
+            baseline_entries: statistics.baseline_entries,
+            changed_legacy: statistics.changed_legacy,
+            known_legacy: statistics.known_legacy,
+            removed_legacy: statistics.removed_legacy,
+            unbaselined_legacy: statistics.unbaselined_legacy,
+          }))
+          if (corrupt || inconsistent) process.exitCode = 1
+          NODE
+
+      - name: Validate exception registry
+        run: |
+          REFERENCE_DATE="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          pnpm docs:exceptions:check -- --json --quiet \
+            --reference-date "$REFERENCE_DATE" \
+            --output "$RUNNER_TEMP/documentation-exceptions.json"
+          REPORT_PATH="$RUNNER_TEMP/documentation-exceptions.json" node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises'
+          const report = JSON.parse(await readFile(process.env.REPORT_PATH, 'utf8'))
+          const statistics = report.statistics
+          console.log(JSON.stringify({
+            active_exceptions: statistics.active_exceptions,
+            exception_entries: statistics.exception_entries,
+            expired_exceptions: statistics.expired_exceptions,
+            invalid_exceptions: statistics.invalid_exceptions,
+            revoked_exceptions: statistics.revoked_exceptions,
+          }))
+          if (
+            statistics.expired_exceptions > 0 ||
+            statistics.invalid_exceptions > 0 ||
+            statistics.revoked_exceptions > 0
+          ) process.exitCode = 1
+          NODE
+
+      - name: Check generated artifact drift
+        run: |
+          pnpm docs:generate:check -- --json --quiet \
+            --output "$RUNNER_TEMP/documentation-generator.json"
+          REPORT_PATH="$RUNNER_TEMP/documentation-generator.json" node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises'
+          const report = JSON.parse(await readFile(process.env.REPORT_PATH, 'utf8'))
+          console.log(JSON.stringify({
+            artifact_count: report.statistics.artifact_count,
+            drift_count: report.drift_count,
+            status: report.status,
+          }))
+          if (!report.clean) process.exitCode = 1
+          NODE
+
+      - name: Validate versioned evidence
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises'
+          import { isDeepStrictEqual } from 'node:util'
+          import {
+            listSnapshots,
+            loadInstructionsSnapshot,
+            validateInstructionsSnapshot,
+          } from './tools/documentation/evidence/index.js'
+          const expectedRegistry = await listSnapshots()
+          const persistedRegistry = JSON.parse(
+            await readFile('documentation.instructions.registry.json', 'utf8'))
+          const latest = await loadInstructionsSnapshot()
+          const immutableMetadata = await loadInstructionsSnapshot(latest.snapshot_id)
+          const registryValid = isDeepStrictEqual(persistedRegistry, expectedRegistry)
+          const latestMetadataValid = isDeepStrictEqual(latest, immutableMetadata)
+          const results = []
+          for (const snapshot of expectedRegistry.snapshots) {
+            results.push(await validateInstructionsSnapshot(snapshot.snapshot_id))
+          }
+          const diagnostics = results.flatMap((result) => result.diagnostics)
+          console.log(JSON.stringify({
+            diagnostics: diagnostics.map(({ code, path }) => ({ code, path })),
+            files_checked: results.reduce((total, result) => total + result.files_checked, 0),
+            latest_metadata_valid: latestMetadataValid,
+            registry_valid: registryValid,
+            snapshots: results.length,
+            valid: (
+              registryValid &&
+              latestMetadataValid &&
+              diagnostics.length === 0 &&
+              results.every((result) => result.valid)
+            ),
+          }))
+          if (
+            !registryValid ||
+            !latestMetadataValid ||
+            diagnostics.length > 0 ||
+            results.some((result) => !result.valid)
+          ) {
+            process.exitCode = 1
+          }
+          NODE
+
+      - name: Build VitePress
+        run: pnpm docs:build
+
+      - name: Verify checkout remains unchanged
+        if: always()
+        run: |
+          git diff --exit-code
+          git diff --cached --exit-code
+          test -z "$(git status --porcelain --untracked-files=all)"

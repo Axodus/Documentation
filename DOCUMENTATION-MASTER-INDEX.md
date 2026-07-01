@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-01T00:00:00Z
-Source Documents: 683
+Source Documents: 685
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 683
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 683 |
-| Canonical documents | 34 |
+| Total source documents | 685 |
+| Canonical documents | 36 |
 | Legacy documents | 635 |
 | Template documents | 14 |
-| Declared relationships | 65 |
+| Declared relationships | 72 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 683
 |---|---:|
 | ADR | 18 |
 | API | 1 |
-| GUIDE | 2 |
+| GUIDE | 4 |
 | MEETING | 1 |
 | PLAYBOOK | 1 |
 | POLICY | 7 |
@@ -54,7 +54,7 @@ Source Documents: 683
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 34 |
+| CORE | 36 |
 | MODULE | 1 |
 | PROJECT | 11 |
 | UNSPECIFIED | 635 |
@@ -62,7 +62,7 @@ Source Documents: 683
 
 | Value | Count |
 |---|---:|
-| ACTIVE | 17 |
+| ACTIVE | 19 |
 | APPROVED | 17 |
 | DRAFT | 14 |
 | UNSPECIFIED | 635 |
@@ -88,8 +88,10 @@ Source Documents: 683
 | DOC-ADR-016 | Documentation Automation | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md](adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md) |
 | DOC-ADR-017 | Logical Authority versus Physical Location | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md](adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
+| DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
+| DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-VALIDATION-RULES.md](DOCUMENTATION-VALIDATION-RULES.md) |
