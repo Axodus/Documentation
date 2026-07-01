@@ -1,0 +1,165 @@
+{
+  "$id": "urn:axodus:documentation:exceptions:schema:1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Axodus Documentation Exception Registry Schema 1.0.0.",
+  "properties": {
+    "created_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "exceptions": {
+      "items": {
+        "$ref": "#/$defs/exception"
+      },
+      "type": "array"
+    },
+    "registry_version": {
+      "const": "1.0.0",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "type": "string"
+    }
+  },
+  "required": [
+    "registry_version",
+    "schema_version",
+    "created_at",
+    "exceptions"
+  ],
+  "title": "Axodus Documentation Exception Registry",
+  "type": "object",
+  "$defs": {
+    "exception": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "EXPIRED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "expires_at": {
+                "format": "date-time",
+                "type": "string"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "affected_rules": {
+          "items": {
+            "pattern": "^DOC-RULE-[0-9]{3}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "approver": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "created_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "disposition": {
+          "enum": [
+            "ACCEPT",
+            "WAIVE",
+            "TEMPORARY",
+            "MIGRATE_ON_CHANGE",
+            "REJECT"
+          ],
+          "type": "string"
+        },
+        "document_id": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Z][A-Z0-9]*-(ARCH|REQ|ADR|SPEC|API|GDE|RUN|PLAY|POL|STD|PROC|REF|RPT|RFC|PROP|MTG|ROAD|REL|RES)-[0-9]{3,}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "document_path": {
+          "minLength": 1,
+          "not": {
+            "pattern": "(^|/)\\.\\.(/|$)|\\\\"
+          },
+          "type": "string"
+        },
+        "exception_id": {
+          "pattern": "^DOC-EXC-[0-9]{3,}$",
+          "type": "string"
+        },
+        "expires_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "justification": {
+          "minLength": 20,
+          "type": "string"
+        },
+        "owner": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "scope": {
+          "pattern": "^[A-Z][A-Z0-9_-]*(\\.[A-Z][A-Z0-9_-]*)*$",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "INFO",
+            "WARNING",
+            "ERROR",
+            "CRITICAL"
+          ],
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "ACTIVE",
+            "EXPIRED",
+            "REVOKED"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "exception_id",
+        "document_path",
+        "document_id",
+        "owner",
+        "approver",
+        "justification",
+        "scope",
+        "affected_rules",
+        "severity",
+        "disposition",
+        "created_at",
+        "expires_at",
+        "status"
+      ],
+      "type": "object"
+    }
+  }
+}

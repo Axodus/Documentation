@@ -1,4 +1,4 @@
-export const VALIDATION_VERSION = '1.0.0'
+export const VALIDATION_VERSION = '1.1.0'
 export const SCHEMA_VERSION = '1.0.0'
 
 export const PROFILES = Object.freeze({

@@ -5,7 +5,7 @@ aliases: []
 document_type: "REFERENCE"
 title: "Documentation Validation Error Catalog"
 summary: "Defines immutable validation error codes and remediation guidance for Validation Framework 1.0."
-version: "1.0.0"
+version: "1.1.0"
 publication_status: "ACTIVE"
 document_state: "CURRENT"
 maturity_level: "D3"
@@ -67,6 +67,15 @@ Error codes are immutable and map one-to-one to the initial rule catalog. A depr
 | `DOC-VAL-024` | ERROR | Unsupported schema version. | Document declares another contract. | Use compatible engine or migrate. | `DOC-RULE-024` |
 | `DOC-VAL-025` | ERROR | Implementation reference incomplete. | Evidence coordinate lacks required fields. | Complete or remove the reference. | `DOC-RULE-025` |
 | `DOC-VAL-026` | INFO | Canonical orphan detected. | Document has no semantic edge. | Add traceability before promotion. | `DOC-RULE-026` |
+| `DOC-VAL-027` | INFO | Known legacy confirmed. | Path and hash match baseline. | Preserve until migration. | `DOC-RULE-027` |
+| `DOC-VAL-028` | INFO | Baselined legacy changed. | Current hash differs from baseline. | Migrate or review the exception. | `DOC-RULE-028` |
+| `DOC-VAL-029` | INFO | New legacy is unbaselined. | Legacy path has no baseline entry. | Migrate before enforcement. | `DOC-RULE-029` |
+| `DOC-VAL-030` | INFO | Baseline document removed. | Baseline path is absent or no longer legacy. | Review deletion/rename explicitly. | `DOC-RULE-030` |
+| `DOC-VAL-031` | INFO | Exception expired. | Expiry passed or status is EXPIRED. | Renew, revoke, reject, or migrate. | `DOC-RULE-031` |
+| `DOC-VAL-032` | INFO | Exception invalid. | Schema or governance constraints fail. | Correct the registry through review. | `DOC-RULE-032` |
+| `DOC-VAL-033` | INFO | Exception revoked. | Approval was withdrawn. | Migrate or approve a new exception. | `DOC-RULE-033` |
+| `DOC-VAL-034` | INFO | Baseline invalid. | Envelope or entry violates baseline contract. | Rebuild and review the baseline. | `DOC-RULE-034` |
+| `DOC-VAL-035` | INFO | Duplicate baseline path. | Multiple entries identify one path. | Keep one deterministic entry. | `DOC-RULE-035` |
 
 ## Result Semantics
 

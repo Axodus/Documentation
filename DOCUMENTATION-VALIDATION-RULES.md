@@ -5,7 +5,7 @@ aliases: []
 document_type: "REFERENCE"
 title: "Documentation Validation Rules"
 summary: "Defines the immutable validation rule catalog for Documentation Validation Framework 1.0."
-version: "1.0.0"
+version: "1.1.0"
 publication_status: "ACTIVE"
 document_state: "CURRENT"
 maturity_level: "D3"
@@ -71,6 +71,15 @@ Only `ERROR` diagnostics on Schema 1.0.0 canonical documents make repository val
 | `DOC-RULE-024` | Schema version | Require the supported metadata contract. | ERROR | Canonical profile accepts exact Schema 1.0.0. | `schema_version` | `1.1.0` with engine 1.0 | Use a compatible engine or migrate intentionally. |
 | `DOC-RULE-025` | Implementation reference | Require complete evidence coordinates. | ERROR | Each reference declares repository, path, immutable ref, kind, and environment. | `implementation_refs` | Missing `ref` | Add an immutable reference or remove unsupported evidence. |
 | `DOC-RULE-026` | Orphan document | Identify canonical nodes without semantic edges. | INFO | Canonical ID has no incoming or outgoing declared relationship. | `relationships` | Isolated reference record | Add a valid semantic relationship before promotion. |
+| `DOC-RULE-027` | Known legacy | Confirm an unchanged legacy document is covered by baseline. | INFO | Current path and canonical SHA-256 match one baseline entry. | Path, hash | Baseline README unchanged | Retain until intentional migration. |
+| `DOC-RULE-028` | Legacy changed | Detect modification to a baselined legacy document. | INFO | Baseline path exists but current canonical SHA-256 differs. | Path, hash | Edited legacy README | Migrate on change or obtain reviewed exception update. |
+| `DOC-RULE-029` | Unbaselined legacy | Detect newly introduced legacy debt. | INFO | Current legacy path has no baseline entry. | Path | New Markdown without Schema 1.0.0 | Migrate before future enforcement. |
+| `DOC-RULE-030` | Baseline document removed | Detect path absent from current legacy corpus. | INFO | Baseline path no longer resolves to a legacy document. | Path | Deleted or renamed legacy file | Review deletion/rename and update baseline deliberately. |
+| `DOC-RULE-031` | Exception expired | Identify exception beyond its validity period. | INFO | Status is EXPIRED or ACTIVE expiry precedes validation reference time. | `status`, `expires_at` | Expiry before current review | Renew, revoke, reject, or migrate with approval. |
+| `DOC-RULE-032` | Exception invalid | Detect malformed or inconsistent governance exceptions. | INFO | Schema, identity, dates, rule references, uniqueness, or baseline linkage fails. | Exception object | Unknown affected Rule ID | Correct through reviewed registry change. |
+| `DOC-RULE-033` | Exception revoked | Identify explicitly withdrawn tolerance. | INFO | Exception status is REVOKED. | `status` | Revoked waiver | Migrate or create a newly approved exception. |
+| `DOC-RULE-034` | Baseline invalid | Detect malformed baseline envelope or entry. | INFO | Required version, timestamp, path, hash, classification, or provenance is invalid. | Baseline object | Non-SHA-256 hash | Rebuild and review the baseline without editing source docs. |
+| `DOC-RULE-035` | Duplicate baseline entry | Ensure one baseline record per path. | INFO | A normalized path occurs more than once. | `entries[].path` | Duplicate README entry | Retain one deterministic entry. |
 
 ## Security Boundary
 

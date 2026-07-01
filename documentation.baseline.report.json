@@ -1,0 +1,21 @@
+{
+  "baseline_entries": 635,
+  "baseline_version": "1.0.0",
+  "canonical_documents": 32,
+  "changed_legacy": 0,
+  "exception_entries": 635,
+  "expired_exceptions": 0,
+  "generation_timestamp": "2026-07-01T00:00:00Z",
+  "known_legacy": 635,
+  "legacy_documents": 635,
+  "new_legacy": 0,
+  "removed_legacy": 0,
+  "repository_summary": {
+    "active_exceptions": 635,
+    "baseline_valid": true,
+    "exceptions_valid": true,
+    "invalid_exceptions": 0,
+    "revoked_exceptions": 0
+  },
+  "total_documents": 681
+}
