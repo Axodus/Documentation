@@ -15,8 +15,8 @@ author: "<author>"
 owner: "<owner>"
 maintainer: "<maintainer>"
 technical_reviewers: ["<technical-reviewer>"]
-security_reviewers: ["<security-reviewer>"]
 business_reviewers: []
+security_reviewers: ["<security-reviewer>"]
 approver: null
 created_date: "<YYYY-MM-DD>"
 last_updated: "<YYYY-MM-DD>"

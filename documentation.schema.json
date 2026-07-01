@@ -1,0 +1,528 @@
+{
+  "$id": "urn:axodus:documentation:schema:1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "publication_status": {
+            "enum": [
+              "APPROVED",
+              "ACTIVE",
+              "SUPERSEDED",
+              "DEPRECATED",
+              "ARCHIVED",
+              "RETRACTED"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "approver": {
+            "type": "string",
+            "minLength": 1
+          },
+          "last_reviewed": {
+            "$ref": "#/$defs/date"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_status": {
+            "const": "ACTIVE"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_state": {
+            "const": "CURRENT"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_status": {
+            "enum": [
+              "SUPERSEDED",
+              "DEPRECATED"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_state": {
+            "const": "OBSOLETE"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_status": {
+            "const": "ARCHIVED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_state": {
+            "const": "HISTORICAL"
+          },
+          "next_review": {
+            "type": "null"
+          },
+          "review_cycle": {
+            "const": "NONE"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_status": {
+            "const": "RETRACTED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_state": {
+            "enum": [
+              "OBSOLETE",
+              "HISTORICAL"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_status": {
+            "enum": [
+              "DRAFT",
+              "UNDER_REVIEW"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_state": {
+            "enum": [
+              "CURRENT",
+              "EXPERIMENTAL"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "review_cycle": {
+            "enum": [
+              "QUARTERLY",
+              "SEMIANNUAL",
+              "ANNUAL"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "next_review": {
+            "$ref": "#/$defs/date"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "next_review": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_type": {
+            "const": "ADR"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "next_review": {
+            "type": "null"
+          },
+          "review_cycle": {
+            "const": "EVENT_DRIVEN"
+          }
+        }
+      }
+    }
+  ],
+  "description": "Canonical Axodus Documentation Schema 1.0.0 front matter contract.",
+  "properties": {
+    "aliases": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "approver": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "author": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "authority_level": {
+      "enum": [
+        "PORTFOLIO",
+        "CORE",
+        "PROJECT",
+        "MODULE",
+        "COMPONENT"
+      ],
+      "type": "string"
+    },
+    "authority_scope": {
+      "pattern": "^[A-Z][A-Z0-9_-]*(\\.[A-Z][A-Z0-9_-]*)*$",
+      "type": "string"
+    },
+    "business_reviewers": {
+      "$ref": "#/$defs/reviewerArray"
+    },
+    "created_date": {
+      "$ref": "#/$defs/date"
+    },
+    "document_id": {
+      "pattern": "^[A-Z][A-Z0-9]*-(ARCH|REQ|ADR|SPEC|API|GDE|RUN|PLAY|POL|STD|PROC|REF|RPT|RFC|PROP|MTG|ROAD|REL|RES)-[0-9]{3,}$",
+      "type": "string"
+    },
+    "document_state": {
+      "enum": [
+        "CURRENT",
+        "OBSOLETE",
+        "HISTORICAL",
+        "EXPERIMENTAL"
+      ],
+      "type": "string"
+    },
+    "document_type": {
+      "enum": [
+        "ARCHITECTURE",
+        "REQUIREMENT",
+        "ADR",
+        "SPECIFICATION",
+        "API",
+        "GUIDE",
+        "RUNBOOK",
+        "PLAYBOOK",
+        "POLICY",
+        "STANDARD",
+        "PROCEDURE",
+        "REFERENCE",
+        "REPORT",
+        "RFC",
+        "PROPOSAL",
+        "MEETING",
+        "ROADMAP",
+        "RELEASE",
+        "RESEARCH"
+      ],
+      "type": "string"
+    },
+    "implementation_refs": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "environment": {
+            "enum": [
+              "LOCAL",
+              "TEST",
+              "STAGING",
+              "PRODUCTION",
+              "NOT_APPLICABLE"
+            ],
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "SOURCE",
+              "CONFIG",
+              "CONTRACT",
+              "TEST",
+              "DEPLOYMENT_EVIDENCE"
+            ],
+            "type": "string"
+          },
+          "path": {
+            "$ref": "#/$defs/nonEmptyString"
+          },
+          "ref": {
+            "$ref": "#/$defs/nonEmptyString"
+          },
+          "repository": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        },
+        "required": [
+          "repository",
+          "path",
+          "ref",
+          "kind",
+          "environment"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "last_reviewed": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "last_updated": {
+      "$ref": "#/$defs/date"
+    },
+    "maintainer": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "maturity_level": {
+      "enum": [
+        "UNASSESSED",
+        "D1",
+        "D2",
+        "D3",
+        "D3+",
+        "D4"
+      ],
+      "type": "string"
+    },
+    "next_review": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "owner": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "production_gate_impact": {
+      "enum": [
+        "NONE",
+        "PRESERVES_CLOSED",
+        "REQUIRES_SEPARATE_APPROVAL"
+      ],
+      "type": "string"
+    },
+    "publication_status": {
+      "enum": [
+        "DRAFT",
+        "UNDER_REVIEW",
+        "APPROVED",
+        "ACTIVE",
+        "SUPERSEDED",
+        "DEPRECATED",
+        "ARCHIVED",
+        "RETRACTED"
+      ],
+      "type": "string"
+    },
+    "related_adrs": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "related_cores": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "related_epics": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "related_requirements": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "relationships": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "target": {
+            "$ref": "#/$defs/nonEmptyString"
+          },
+          "type": {
+            "enum": [
+              "ADDRESSES",
+              "REALIZES",
+              "DEPENDS_ON",
+              "VALIDATES",
+              "OPERATES",
+              "DELIVERS",
+              "SUPERSEDES",
+              "RELATES_TO",
+              "GOVERNS",
+              "DOCUMENTS",
+              "DERIVED_FROM"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "target"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "review_cycle": {
+      "enum": [
+        "QUARTERLY",
+        "SEMIANNUAL",
+        "ANNUAL",
+        "EVENT_DRIVEN",
+        "NONE"
+      ],
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "type": "string"
+    },
+    "security_reviewers": {
+      "$ref": "#/$defs/reviewerArray"
+    },
+    "summary": {
+      "maxLength": 300,
+      "minLength": 20,
+      "type": "string"
+    },
+    "supersedes": {
+      "items": {
+        "$ref": "#/$defs/documentId"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "technical_reviewers": {
+      "$ref": "#/$defs/reviewerArray"
+    },
+    "title": {
+      "maxLength": 160,
+      "minLength": 3,
+      "not": {
+        "pattern": "^#"
+      },
+      "type": "string"
+    },
+    "version": {
+      "$ref": "#/$defs/semver"
+    }
+  },
+  "required": [
+    "schema_version",
+    "document_id",
+    "aliases",
+    "document_type",
+    "title",
+    "summary",
+    "version",
+    "publication_status",
+    "document_state",
+    "maturity_level",
+    "authority_scope",
+    "authority_level",
+    "author",
+    "owner",
+    "maintainer",
+    "technical_reviewers",
+    "business_reviewers",
+    "security_reviewers",
+    "approver",
+    "created_date",
+    "last_updated",
+    "last_reviewed",
+    "review_cycle",
+    "next_review",
+    "supersedes",
+    "relationships",
+    "related_epics",
+    "related_requirements",
+    "related_adrs",
+    "related_cores",
+    "implementation_refs",
+    "production_gate_impact"
+  ],
+  "title": "Axodus Documentation Metadata",
+  "type": "object",
+  "$defs": {
+    "date": {
+      "format": "date",
+      "type": "string"
+    },
+    "documentId": {
+      "pattern": "^[A-Z][A-Z0-9]*-(ARCH|REQ|ADR|SPEC|API|GDE|RUN|PLAY|POL|STD|PROC|REF|RPT|RFC|PROP|MTG|ROAD|REL|RES)-[0-9]{3,}$",
+      "type": "string"
+    },
+    "nonEmptyString": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reviewerArray": {
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "semver": {
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$",
+      "type": "string"
+    },
+    "stringArray": {
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "type": "array",
+      "uniqueItems": true
+    }
+  }
+}
