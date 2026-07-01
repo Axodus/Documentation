@@ -1,20 +1,41 @@
 ---
-schema_version: "<schema-version>"
-document_id: "<scope>-POL-<number>"
+schema_version: "1.0.0"
+document_id: "<SCOPE>-POL-<NNN>"
+aliases: []
 document_type: "POLICY"
 title: "<policy-title>"
-version: "<document-version>"
-publication_status: "<publication-status>"
-document_state: "<document-state>"
-owner: "<owner>"
+summary: "<concise-policy-summary>"
+version: "0.1.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D1"
+authority_scope: "<AUTHORITY_SCOPE>"
+authority_level: "PROJECT"
 author: "<author>"
-approver: "<approver>"
-review_cycle: "<review-cycle>"
-next_review: "<YYYY-MM-DD>"
+owner: "<owner>"
+maintainer: "<maintainer>"
+technical_reviewers: []
+business_reviewers: []
+security_reviewers: []
+approver: null
+created_date: "<YYYY-MM-DD>"
 last_updated: "<YYYY-MM-DD>"
+last_reviewed: null
+review_cycle: "QUARTERLY"
+next_review: "<YYYY-MM-DD>"
+supersedes: []
+relationships: []
+related_epics: []
+related_requirements: []
+related_adrs: []
+related_cores: []
+implementation_refs: []
+production_gate_impact: "NONE"
 ---
 
 # <Policy Title>
+
+> Authoring note: use normative language only within the declared scope and identify every required approver and reviewer.
 
 ## Purpose
 

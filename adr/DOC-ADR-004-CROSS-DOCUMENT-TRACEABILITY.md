@@ -1,37 +1,87 @@
+---
+schema_version: "1.0.0"
+document_id: "DOC-ADR-004"
+aliases: []
+document_type: "ADR"
+title: "Cross-Document Traceability"
+summary: "Adopts immutable IDs and typed directed relationships for traceability."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D3"
+authority_scope: "DOCUMENTATION"
+authority_level: "CORE"
+author: "Axodus Documentation Core"
+owner: "Axodus Documentation Core"
+maintainer: null
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: []
+security_reviewers: []
+approver: "Documentation Coordinator"
+created_date: "2026-06-30"
+last_updated: "2026-07-01"
+last_reviewed: "2026-07-01"
+review_cycle: "EVENT_DRIVEN"
+next_review: null
+supersedes: []
+relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-005"}, {type: "RELATES_TO", target: "DOC-ADR-010"}]
+related_epics: ["DOCUMENTATION-EPIC-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-REQ-01"]
+related_adrs: ["DOC-ADR-005", "DOC-ADR-010"]
+related_cores: ["DOCUMENTATION"]
+implementation_refs: []
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
 # DOC-ADR-004 — Cross-Document Traceability
-
-## Title
-
-Cross-Document and Cross-Nucleus Traceability
 
 ## Status
 
-PROPOSED
+APPROVED
+
+## Approval Date
+
+2026-07-01
 
 ## Context
 
-Requirements, decisions, specifications, implementation evidence, operational material, and releases are currently recorded independently.
+Axodus needs to trace requirements through decisions, specifications, implementation evidence, operations, and releases.
 
-## Problem
+## Decision
 
-The portfolio cannot reliably demonstrate why a document exists, what decision governs it, or which downstream artifacts depend on it.
+Use immutable canonical IDs and explicitly authored typed relationships. Derive inverse edges; do not infer semantic relationships from paths or links.
 
-## Alternatives
+## Rationale
 
-1. Use informal Markdown links.
-2. Maintain manually curated matrices.
-3. Define typed relationships and derive traceability views.
+Directed edges provide auditable intent while supporting immutable decisions.
 
-## Proposed Decision
+## Alternatives Considered
 
-Define stable identifiers and typed relationships that support a cross-document dependency graph.
+- Markdown links only: lack semantics.
+- Manual matrices only: prone to drift.
+- Inference by filenames: unreliable and authority-unsafe.
+
+## Trade-offs
+
+Documents require maintained metadata and unresolved references become visible.
 
 ## Consequences
 
-Documents require relationship metadata, and unresolved references become explicit governance defects.
+Orphans, cycles, and broken references have normative definitions even before automation exists.
 
-## Open Questions
+## Future Impacts
 
-- Which relationship types are mandatory?
-- How will external implementation evidence be represented?
-- Which incomplete paths are acceptable for proposals?
+Future graphs and reports must represent only declared edges and clearly label derived inverses.
+
+## Related Documents
+
+- [Documentation Traceability Model](../governance/DOCUMENTATION-TRACEABILITY-MODEL.md)
+- [Documentation Metadata Schema](../governance/DOCUMENTATION-METADATA-SCHEMA.md)
+
+## Supersession Policy
+
+Replacement requires a new ADR superseding `DOC-ADR-004`.
+
+## References
+
+- AXODUS-DOCUMENTATION-REQ-01

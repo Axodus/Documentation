@@ -1,37 +1,87 @@
+---
+schema_version: "1.0.0"
+document_id: "DOC-ADR-015"
+aliases: []
+document_type: "ADR"
+title: "Archiving Strategy"
+summary: "Uses lifecycle state to archive evidence while preserving identity and references."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D3"
+authority_scope: "DOCUMENTATION"
+authority_level: "CORE"
+author: "Axodus Documentation Core"
+owner: "Axodus Documentation Core"
+maintainer: null
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: []
+security_reviewers: []
+approver: "Documentation Coordinator"
+created_date: "2026-06-30"
+last_updated: "2026-07-01"
+last_reviewed: "2026-07-01"
+review_cycle: "EVENT_DRIVEN"
+next_review: null
+supersedes: []
+relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-008"}, {type: "RELATES_TO", target: "DOC-ADR-009"}]
+related_epics: ["DOCUMENTATION-EPIC-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-REQ-01"]
+related_adrs: ["DOC-ADR-008", "DOC-ADR-009"]
+related_cores: ["DOCUMENTATION"]
+implementation_refs: []
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
 # DOC-ADR-015 — Archiving Strategy
-
-## Title
-
-Documentation Archiving Strategy
 
 ## Status
 
-PROPOSED
+APPROVED
+
+## Approval Date
+
+2026-07-01
 
 ## Context
 
-Retention policy determines what must be preserved, while an archiving strategy determines how retained material is stored and presented.
+Retained obsolete content must remain auditable without appearing current.
 
-## Problem
+## Decision
 
-Historical documents can remain discoverable as current guidance unless archival location, markers, and navigation behavior are defined.
+Use explicit archival lifecycle state, preserved canonical identity, relationships, and current-guidance exclusion. Physical movement is optional and separately governed.
 
-## Alternatives
+## Rationale
 
-1. Leave archived documents in their original locations.
-2. Move every archived document to one directory.
-3. Use explicit archival state with controlled physical movement and redirects where needed.
+Logical state works across repositories and avoids breaking paths merely to signal history.
 
-## Proposed Decision
+## Alternatives Considered
 
-Define an archival strategy that preserves identity and history while preventing obsolete material from appearing as current guidance.
+- Leave all records in place without state: misleading.
+- Move everything immediately: route and reference risk.
+- Delete obsolete records: destroys evidence.
+
+## Trade-offs
+
+Discovery surfaces must be lifecycle-aware.
 
 ## Consequences
 
-Archival actions may require route preservation, index updates, and explicit approval.
+Archived records have no recurring review and cannot regain current authority without a new governed decision.
 
-## Open Questions
+## Future Impacts
 
-- When is physical movement allowed?
-- Which redirects must be retained?
-- How are archived documents searched?
+Future migration may move files only with compatibility and redirect planning.
+
+## Related Documents
+
+- [Documentation Lifecycle](../governance/DOCUMENTATION-LIFECYCLE.md)
+- [Documentation Audit Log Schema](../governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md)
+
+## Supersession Policy
+
+Replacement requires a new ADR superseding `DOC-ADR-015`.
+
+## References
+
+- DOC-ADR-008

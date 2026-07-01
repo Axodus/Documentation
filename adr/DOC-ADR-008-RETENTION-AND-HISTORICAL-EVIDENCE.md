@@ -1,37 +1,87 @@
+---
+schema_version: "1.0.0"
+document_id: "DOC-ADR-008"
+aliases: []
+document_type: "ADR"
+title: "Retention and Historical Evidence"
+summary: "Retains obsolete evidence while excluding it from current guidance."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D3"
+authority_scope: "DOCUMENTATION"
+authority_level: "CORE"
+author: "Axodus Documentation Core"
+owner: "Axodus Documentation Core"
+maintainer: null
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: []
+security_reviewers: []
+approver: "Documentation Coordinator"
+created_date: "2026-06-30"
+last_updated: "2026-07-01"
+last_reviewed: "2026-07-01"
+review_cycle: "EVENT_DRIVEN"
+next_review: null
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "DOC-ADR-015"}]
+related_epics: ["DOCUMENTATION-EPIC-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-REQ-01"]
+related_adrs: ["DOC-ADR-015"]
+related_cores: ["DOCUMENTATION"]
+implementation_refs: []
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
 # DOC-ADR-008 — Retention and Historical Evidence
-
-## Title
-
-Retention of Superseded and Historical Evidence
 
 ## Status
 
-PROPOSED
+APPROVED
+
+## Approval Date
+
+2026-07-01
 
 ## Context
 
-Governance requires history, while obsolete material must not be mistaken for current guidance.
+Deleting obsolete records destroys evidence, while unclassified retention can mislead readers.
 
-## Problem
+## Decision
 
-Deleting old documents removes evidence, but leaving them unclassified creates authority and discovery risks.
+Retain superseded, deprecated, retracted, and historical documents with immutable identity, explicit state, relationships, and exclusion from current guidance.
 
-## Alternatives
+## Rationale
 
-1. Delete superseded documents.
-2. Keep all documents in place without classification.
-3. Retain historical evidence with explicit lifecycle and discoverability controls.
+Governance requires both audit history and clear current authority.
 
-## Proposed Decision
+## Alternatives Considered
 
-Retain superseded and historical documents with explicit state, relationships, and exclusion from current guidance.
+- Delete old documents: loses evidence.
+- Leave them current-looking: creates authority risk.
+- Retain without relationships: loses context.
+
+## Trade-offs
+
+Retention increases catalog size and requires lifecycle-aware discovery.
 
 ## Consequences
 
-Indexes and publication surfaces must distinguish current content from retained evidence.
+Archival state is logical; destructive removal requires separate authority.
 
-## Open Questions
+## Future Impacts
 
-- What retention periods apply by document type?
-- Which documents require permanent retention?
-- How will legal or security exceptions be handled?
+Search and indexes must distinguish current and historical records.
+
+## Related Documents
+
+- [Documentation Lifecycle](../governance/DOCUMENTATION-LIFECYCLE.md)
+- [Documentation Audit Log Schema](../governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md)
+
+## Supersession Policy
+
+Replacement requires a new ADR superseding `DOC-ADR-008`.
+
+## References
+
+- DOC-ADR-015
