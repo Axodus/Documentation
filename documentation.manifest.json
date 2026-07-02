@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 722,
+  "document_count": 730,
   "documents": [
     {
       "aliases": [],
@@ -13068,6 +13068,34 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.MIGRATION",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-022",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-016",
+        "DOC-RPT-017",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "3a53cd4d1a1a809ad504d9f6f88ac22c85788bf4aff14f6ee52d58936b165feb",
+      "source_path": "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 02 Acceptance Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-015",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -13200,6 +13228,37 @@
     {
       "aliases": [],
       "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-023",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-REF-007",
+        "DOC-RPT-016",
+        "DOC-RPT-019",
+        "DOC-RPT-020",
+        "DOC-RPT-021",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "d3eea0e801c2cf2a3a957fcd0d46e6eb66e0b8b1de58abf4046bf65f79c01783",
+      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 02 Post-Migration Audit",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_02",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-020",
@@ -13273,6 +13332,119 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Batch 02 Validation Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-025",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ROAD-006",
+        "DOC-RPT-006",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "9c35c547113961b3653f35a33cfbf076e0eeb8acbb9099c589a3a14e2dcbbf8a",
+      "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Authority Gap Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-007",
+      "document_state": "CURRENT",
+      "document_type": "ROADMAP",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ROAD-006",
+        "DOC-RPT-025",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "168af2606ba87ed32e121d28887ed965525603474116fdf05d44809ad9890a45",
+      "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Candidate Freeze Proposal",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-006",
+      "document_state": "CURRENT",
+      "document_type": "ROADMAP",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-014",
+        "DOC-STD-002",
+        "DOC-STD-003",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "176fd4e400f7c9aaf9fd1fd7d61f716afa637b13b63d9944528e92fa300b769e",
+      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Planning",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-026",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ROAD-006",
+        "DOC-RPT-014",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "0ee43103dde0380ef65b2c8594648ec1e4dfb25cd2492950468c7e75e2be4024",
+      "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Readiness Forecast",
       "version": "1.0.0"
     },
     {
@@ -13487,12 +13659,12 @@
         "DOC-SPEC-005",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "258c241e6ce0a19973d6288c8ba052657cfa36a5d8674fe915ccf7513067f328",
+      "sha256": "d3192db5dbf8eb7661222e1e25bbe56a61b604e205768000d3c150bd65d1280f",
       "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Epic 02 Progress Report",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "aliases": [],
@@ -13603,6 +13775,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Persistent Documentation Generator",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-024",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-SPEC-002",
+        "DOC-SPEC-006",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "9ef4ebf648d2734010aa9523c97161ffe5b514f09fe47c7244152246411db958",
+      "source_path": "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Graph Enrichment Report",
       "version": "1.0.0"
     },
     {
@@ -13883,6 +14083,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Migration Wave 01",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-SPEC-006",
+      "document_state": "CURRENT",
+      "document_type": "SPECIFICATION",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-024",
+        "DOC-SPEC-002",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "a07912245421bbf1386ee15660968143e24106f42ac9f03055b9633ea57902ff",
+      "source_path": "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Traceability Expansion",
       "version": "1.0.0"
     },
     {
@@ -15982,6 +16210,36 @@
       "type": "DEPENDS_ON"
     },
     {
+      "source": "DOC-ROAD-006",
+      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "target": "DOC-RPT-014",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-006",
+      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "target": "DOC-STD-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-006",
+      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "target": "DOC-STD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-007",
+      "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ROAD-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-007",
+      "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-RPT-025",
+      "type": "DEPENDS_ON"
+    },
+    {
       "source": "DOC-RPT-001",
       "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-GDE-005",
@@ -16282,6 +16540,84 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-022",
+      "source_path": "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "target": "DOC-RPT-016",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-022",
+      "source_path": "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "target": "DOC-RPT-017",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-023",
+      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-REF-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-023",
+      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-016",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-023",
+      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-019",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-023",
+      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-020",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-023",
+      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-021",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-024",
+      "source_path": "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "target": "DOC-SPEC-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-024",
+      "source_path": "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "target": "DOC-SPEC-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-025",
+      "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "target": "DOC-ROAD-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-025",
+      "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "target": "DOC-RPT-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-026",
+      "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "target": "DOC-ROAD-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-026",
+      "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "target": "DOC-RPT-014",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -16345,6 +16681,18 @@
       "source": "DOC-SPEC-005",
       "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
       "target": "DOC-STD-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-SPEC-006",
+      "source_path": "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "target": "DOC-SPEC-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-006",
+      "source_path": "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "target": "DOC-RPT-024",
       "type": "RELATES_TO"
     },
     {
@@ -16585,21 +16933,21 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 115,
-    "declared_relationships": 223,
+    "compliant_documents": 123,
+    "declared_relationships": 243,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 88,
       "MODULE": 1,
       "PORTFOLIO": 4,
-      "PROJECT": 34,
+      "PROJECT": 42,
       "UNSPECIFIED": 593
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 50,
-      "D3": 64,
+      "D2": 56,
+      "D3": 66,
       "D4": 1,
       "UNSPECIFIED": 593
     },
@@ -16615,7 +16963,7 @@
       "Axodus Core": 4,
       "Axodus DeFi": 1,
       "Axodus DEX": 1,
-      "Axodus Documentation Core": 75,
+      "Axodus Documentation Core": 83,
       "Axodus Lottery / CryptoDraw": 1,
       "Axodus Marketplace": 1,
       "Axodus Mining": 1,
@@ -16630,8 +16978,8 @@
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
-      "APPROVED": 86,
-      "DRAFT": 22,
+      "APPROVED": 88,
+      "DRAFT": 28,
       "UNSPECIFIED": 593
     },
     "documents_by_type": {
@@ -16644,12 +16992,12 @@
       "PROPOSAL": 1,
       "REFERENCE": 8,
       "RELEASE": 1,
-      "REPORT": 22,
+      "REPORT": 27,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
-      "ROADMAP": 5,
+      "ROADMAP": 7,
       "RUNBOOK": 1,
-      "SPECIFICATION": 7,
+      "SPECIFICATION": 8,
       "STANDARD": 4,
       "UNSPECIFIED": 593
     },
@@ -16657,6 +17005,6 @@
     "generated_documents": 8,
     "legacy_documents": 593,
     "template_documents": 14,
-    "total_documents": 722
+    "total_documents": 730
   }
 }

@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-02T00:00:00Z
-Source Documents: 722
+Source Documents: 730
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 722
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 722 |
-| Canonical documents | 115 |
+| Total source documents | 730 |
+| Canonical documents | 123 |
 | Legacy documents | 593 |
 | Template documents | 14 |
-| Declared relationships | 223 |
+| Declared relationships | 243 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,12 +42,12 @@ Source Documents: 722
 | PROPOSAL | 1 |
 | REFERENCE | 8 |
 | RELEASE | 1 |
-| REPORT | 22 |
+| REPORT | 27 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
-| ROADMAP | 5 |
+| ROADMAP | 7 |
 | RUNBOOK | 1 |
-| SPECIFICATION | 7 |
+| SPECIFICATION | 8 |
 | STANDARD | 4 |
 | UNSPECIFIED | 593 |
 ## Documents by Authority
@@ -58,15 +58,15 @@ Source Documents: 722
 | CORE | 88 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 34 |
+| PROJECT | 42 |
 | UNSPECIFIED | 593 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 86 |
-| DRAFT | 22 |
+| APPROVED | 88 |
+| DRAFT | 28 |
 | UNSPECIFIED | 593 |
 ## Canonical Documents
 
@@ -145,25 +145,32 @@ Source Documents: 722
 | DOC-RPT-010 | Documentation Batch 01 Security Review | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md](DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md) |
 | DOC-RPT-009 | Documentation Batch 01 Semantic Diff Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md](DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md) |
 | DOC-RPT-011 | Documentation Batch 01 Validation Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md](DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md) |
+| DOC-RPT-022 | Documentation Batch 02 Acceptance Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md](DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md) |
 | DOC-RPT-015 | Documentation Batch 02 Authority Gap Report | REPORT | APPROVED | PROJECT | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md](DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md) |
 | DOC-ROAD-005 | Documentation Batch 02 Candidate Freeze Proposal | ROADMAP | APPROVED | PROJECT | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md) |
 | DOC-RPT-018 | Documentation Batch 02 Freeze Record | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-FREEZE-RECORD.md](DOCUMENTATION-BATCH-02-FREEZE-RECORD.md) |
 | DOC-REF-007 | Documentation Batch 02 ID Reservation Record | REFERENCE | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md](DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md) |
 | DOC-ROAD-004 | Documentation Batch 02 Planning | ROADMAP | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-PLANNING.md](DOCUMENTATION-BATCH-02-PLANNING.md) |
+| DOC-RPT-023 | Documentation Batch 02 Post-Migration Audit | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md](DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md) |
 | DOC-RPT-020 | Documentation Batch 02 Security Review | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md](DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md) |
 | DOC-RPT-019 | Documentation Batch 02 Semantic Diff Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md](DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md) |
 | DOC-RPT-021 | Documentation Batch 02 Validation Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md](DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md) |
+| DOC-RPT-025 | Documentation Batch 03 Authority Gap Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md](DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md) |
+| DOC-ROAD-007 | Documentation Batch 03 Candidate Freeze Proposal | ROADMAP | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md) |
+| DOC-ROAD-006 | Documentation Batch 03 Planning | ROADMAP | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-PLANNING.md](DOCUMENTATION-BATCH-03-PLANNING.md) |
+| DOC-RPT-026 | Documentation Batch 03 Readiness Forecast | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-READINESS-FORECAST.md](DOCUMENTATION-BATCH-03-READINESS-FORECAST.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
 | DOC-REF-005 | Documentation Core Adoption Matrix | REFERENCE | APPROVED | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-CORE-ADOPTION-MATRIX.md](DOCUMENTATION-CORE-ADOPTION-MATRIX.md) |
 | DOC-STD-003 | Documentation Debt Classification | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-DEBT-CLASSIFICATION.md](DOCUMENTATION-DEBT-CLASSIFICATION.md) |
 | DOC-RPT-002 | Documentation Epic 01 Closure Report | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md](DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md) |
 | DOC-ROAD-001 | Documentation Epic 02 Adoption Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PLAN.md](DOCUMENTATION-EPIC-02-PLAN.md) |
-| DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
+| DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.2.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
+| DOC-RPT-024 | Documentation Graph Enrichment Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md](DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md) |
 | DOC-RPT-004 | Documentation Legacy Classification Evidence | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md](DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md) |
 | DOC-RPT-003 | Documentation Legacy Debt Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-DEBT-REPORT.md](DOCUMENTATION-LEGACY-DEBT-REPORT.md) |
 | DOC-ROAD-002 | Documentation Legacy Prioritization | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-PRIORITIZATION.md](DOCUMENTATION-LEGACY-PRIORITIZATION.md) |
@@ -174,6 +181,7 @@ Source Documents: 722
 | DOC-STD-002 | Documentation Migration Criteria | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-CRITERIA.md](DOCUMENTATION-MIGRATION-CRITERIA.md) |
 | DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-PLAYBOOK.md](DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
 | DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-WAVE-01.md](DOCUMENTATION-MIGRATION-WAVE-01.md) |
+| DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-TRACEABILITY-EXPANSION.md](DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-VALIDATION-RULES.md](DOCUMENTATION-VALIDATION-RULES.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
 | DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
