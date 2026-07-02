@@ -147,8 +147,110 @@
     {
       "allowed": true,
       "nodes": [
+        "DOC-ADR-018",
+        "DOC-ADR-019"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-ADR-018",
+        "DOC-ADR-020"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-ADR-018",
+        "DOC-ADR-020",
+        "DOC-ADR-019"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-ADR-019",
+        "DOC-ADR-020"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
         "DOC-GDE-005",
         "DOC-GDE-006"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-PLAY-001",
+        "DOC-STD-002"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-PLAY-001",
+        "DOC-STD-002",
+        "DOC-STD-003",
+        "DOC-SPEC-005",
+        "DOC-ROAD-001"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-PLAY-001",
+        "DOC-STD-003",
+        "DOC-SPEC-005",
+        "DOC-ROAD-001"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-PLAY-001",
+        "DOC-STD-003",
+        "DOC-STD-002"
       ],
       "relationship_types": [
         "RELATES_TO"
@@ -175,11 +277,31 @@
         "DEPENDS_ON",
         "RELATES_TO"
       ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-SPEC-005",
+        "DOC-STD-003"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": true,
+      "nodes": [
+        "DOC-STD-002",
+        "DOC-STD-003"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
     }
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-01T00:00:00Z",
+  "generated_at": "2026-07-02T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -4002,6 +4124,36 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-ADR-018",
+      "document_type": "ADR",
+      "node_id": "DOC-ADR-018",
+      "publication_status": "DRAFT",
+      "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
+      "title": "Controlled Batch Migration Governance"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ADR-019",
+      "document_type": "ADR",
+      "node_id": "DOC-ADR-019",
+      "publication_status": "DRAFT",
+      "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "title": "Canonical Promotion Threshold"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ADR-020",
+      "document_type": "ADR",
+      "node_id": "DOC-ADR-020",
+      "publication_status": "DRAFT",
+      "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
+      "title": "Legacy Archival Policy"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-GDE-001",
       "document_type": "GUIDE",
       "node_id": "DOC-GDE-001",
@@ -4058,6 +4210,16 @@
       "publication_status": "DRAFT",
       "source_path": "docs/index.md",
       "title": "Axodus Documentation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-PLAY-001",
+      "document_type": "PLAYBOOK",
+      "node_id": "DOC-PLAY-001",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "title": "Documentation Migration Playbook"
     },
     {
       "authority_level": "CORE",
@@ -4162,6 +4324,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-001",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-001",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "title": "Documentation Epic 02 Adoption Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-001",
       "document_type": "REPORT",
       "node_id": "DOC-RPT-001",
@@ -4222,12 +4394,42 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-SPEC-005",
+      "document_type": "SPECIFICATION",
+      "node_id": "DOC-SPEC-005",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "title": "Documentation Adoption Metrics"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-STD-001",
       "document_type": "STANDARD",
       "node_id": "DOC-STD-001",
       "publication_status": "ACTIVE",
       "source_path": "governance/DOCUMENTATION-GAP-ANALYSIS.md",
       "title": "Documentation Gap Analysis"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-STD-002",
+      "document_type": "STANDARD",
+      "node_id": "DOC-STD-002",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "title": "Documentation Migration Criteria"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-STD-003",
+      "document_type": "STANDARD",
+      "node_id": "DOC-STD-003",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "title": "Documentation Debt Classification"
     },
     {
       "authority_level": null,
@@ -8072,6 +8274,9 @@
       "adr/DOC-ADR-015-ARCHIVING-STRATEGY.md",
       "adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md",
       "adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md",
+      "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
+      "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
       "adr/README.md",
       "api/README.md",
       "ARCHITECTURE.md",
@@ -8326,15 +8531,20 @@
       "docs/treasury/tokenomics-alignment.md",
       "docs/treasury/trading-alignment.md",
       "docs/treasury/treasury-policy.md",
+      "DOCUMENTATION-ADOPTION-METRICS.md",
       "DOCUMENTATION-ADR-INDEX.md",
       "DOCUMENTATION-BASELINE-POLICY.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
+      "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "DOCUMENTATION-EPIC-02-PLAN.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
       "DOCUMENTATION-GENERATOR.md",
+      "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "DOCUMENTATION-MIGRATION-WAVE-01.md",
       "DOCUMENTATION-VALIDATION-RULES.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
@@ -8417,12 +8627,16 @@
       "DOC-ADR-015",
       "DOC-ADR-016",
       "DOC-ADR-017",
+      "DOC-ADR-018",
+      "DOC-ADR-019",
+      "DOC-ADR-020",
       "DOC-GDE-001",
       "DOC-GDE-002",
       "DOC-GDE-003",
       "DOC-GDE-004",
       "DOC-GDE-005",
       "DOC-GDE-006",
+      "DOC-PLAY-001",
       "DOC-POL-001",
       "DOC-POL-002",
       "DOC-POL-003",
@@ -8433,13 +8647,17 @@
       "DOC-REF-002",
       "DOC-REF-003",
       "DOC-REF-004",
+      "DOC-ROAD-001",
       "DOC-RPT-001",
       "DOC-RPT-002",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
       "DOC-SPEC-004",
-      "DOC-STD-001"
+      "DOC-SPEC-005",
+      "DOC-STD-001",
+      "DOC-STD-002",
+      "DOC-STD-003"
     ],
     "relationship_unreachable": [
       "<SCOPE>-ADR-<NNN>",
@@ -8459,17 +8677,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 24,
-    "DOCUMENTS": 12,
+    "DEPENDS_ON": 40,
+    "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 30,
+    "RELATES_TO": 47,
     "VALIDATES": 10
   },
   "relationship_statistics": {
-    "declared": 89,
+    "declared": 123,
     "derived": 0,
     "duplicates": 0,
-    "total": 89,
+    "total": 123,
     "unresolved": 0
   },
   "relationship_types": [
@@ -8661,6 +8879,84 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-ADR-018",
+      "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
+      "target": "DOC-ADR-004",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-018",
+      "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
+      "target": "DOC-ADR-016",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-018",
+      "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
+      "target": "DOC-ADR-019",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-018",
+      "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
+      "target": "DOC-ADR-020",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-019",
+      "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "target": "DOC-ADR-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-019",
+      "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "target": "DOC-ADR-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-019",
+      "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "target": "DOC-ADR-017",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-019",
+      "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "target": "DOC-ADR-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-019",
+      "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
+      "target": "DOC-ADR-020",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-020",
+      "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
+      "target": "DOC-ADR-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-020",
+      "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
+      "target": "DOC-ADR-015",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-020",
+      "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
+      "target": "DOC-ADR-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-020",
+      "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
+      "target": "DOC-ADR-019",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-GDE-001",
       "source_path": "DOCUMENTATION-CLI.md",
       "target": "DOC-POL-005",
@@ -8766,6 +9062,36 @@
       "source": "DOC-GDE-006",
       "source_path": "docs/index.md",
       "target": "DOC-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-PLAY-001",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "target": "DOC-ADR-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-PLAY-001",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "target": "DOC-ADR-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-PLAY-001",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "target": "DOC-ADR-020",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-PLAY-001",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "target": "DOC-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-PLAY-001",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "target": "DOC-STD-003",
       "type": "RELATES_TO"
     },
     {
@@ -8881,6 +9207,36 @@
       "source_path": "DOCUMENTATION-ERROR-CATALOG.md",
       "target": "DOC-REF-003",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-001",
+      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "target": "DOC-PLAY-001",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-ROAD-001",
+      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "target": "DOC-ADR-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-001",
+      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "target": "DOC-ADR-019",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-001",
+      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "target": "DOC-ADR-020",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-001",
+      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "target": "DOC-RPT-002",
+      "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-001",
@@ -9003,6 +9359,24 @@
       "type": "DEPENDS_ON"
     },
     {
+      "source": "DOC-SPEC-005",
+      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "target": "DOC-ROAD-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-005",
+      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "target": "DOC-SPEC-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-005",
+      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "target": "DOC-STD-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-STD-001",
       "source_path": "governance/DOCUMENTATION-GAP-ANALYSIS.md",
       "target": "DOC-SPEC-001",
@@ -9013,6 +9387,54 @@
       "source_path": "governance/DOCUMENTATION-GAP-ANALYSIS.md",
       "target": "DOC-SPEC-002",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-STD-002",
+      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "target": "DOC-ADR-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-STD-002",
+      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "target": "DOC-SPEC-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-STD-002",
+      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "target": "DOC-PLAY-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-STD-002",
+      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "target": "DOC-STD-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-STD-003",
+      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "target": "DOC-ADR-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-STD-003",
+      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "target": "DOC-ADR-020",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-STD-003",
+      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "target": "DOC-SPEC-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-STD-003",
+      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "target": "DOC-STD-002",
+      "type": "RELATES_TO"
     }
   ],
   "schema_version": "1.0.0",

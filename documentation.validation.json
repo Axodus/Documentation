@@ -6211,6 +6211,15 @@
       "source_path": "adr/DOC-ADR-007-DOCUMENTATION-RELEASES.md"
     },
     {
+      "document_id": "DOC-ADR-018",
+      "error_code": "DOC-VAL-021",
+      "field": "relationships",
+      "message": "Allowed RELATES_TO cycle observed: DOC-ADR-018 -> DOC-ADR-019 -> DOC-ADR-020.",
+      "rule_id": "DOC-RULE-021",
+      "severity": "INFO",
+      "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md"
+    },
+    {
       "document_id": null,
       "error_code": "DOC-VAL-001",
       "field": null,
@@ -10781,6 +10790,15 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "DOCUMENTATION-ADR-INDEX.md"
+    },
+    {
+      "document_id": "DOC-PLAY-001",
+      "error_code": "DOC-VAL-021",
+      "field": "relationships",
+      "message": "Allowed RELATES_TO cycle observed: DOC-PLAY-001 -> DOC-SPEC-005 -> DOC-STD-002 -> DOC-STD-003.",
+      "rule_id": "DOC-RULE-021",
+      "severity": "INFO",
+      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md"
     },
     {
       "document_id": null,
@@ -11423,7 +11441,7 @@
     }
   ],
   "errors": 0,
-  "generated_at": "2026-07-01T00:00:00Z",
+  "generated_at": "2026-07-02T00:00:00Z",
   "legacy_documents": 633,
   "repository_statistics": {
     "active_exceptions": 633,
@@ -11432,24 +11450,24 @@
     "errors": 0,
     "exception_entries": 633,
     "expired_exceptions": 0,
-    "info": 1269,
+    "info": 1271,
     "invalid_exceptions": 0,
     "known_legacy": 633,
     "legacy_documents": 633,
-    "relationships": 89,
+    "relationships": 123,
     "removed_legacy": 0,
     "revoked_exceptions": 0,
     "skipped_documents": 0,
     "template_documents": 14,
-    "total_documents": 687,
+    "total_documents": 695,
     "unbaselined_legacy": 0,
-    "validated_documents": 40,
+    "validated_documents": 48,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 40,
+  "validated_documents": 48,
   "validation_version": "1.1.0",
   "warnings": 0
 }

@@ -2,28 +2,28 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-01T00:00:00Z
+Generated At: 2026-07-02T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 687
-- Declared relationships: 89
+- Graph nodes: 695
+- Declared relationships: 123
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
 - Orphan documents: 647
-- Cycles: 16
+- Cycles: 27
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 24 |
-| `DOCUMENTS` | 12 |
+| `DEPENDS_ON` | 40 |
+| `DOCUMENTS` | 13 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 30 |
+| `RELATES_TO` | 47 |
 | `VALIDATES` | 10 |
 
 ## Unresolved References
@@ -49,9 +49,20 @@ None.
 - DOC-ADR-007 → DOC-ADR-014 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-008 → DOC-ADR-015 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-012 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ADR-018 → DOC-ADR-019 (permitted; RELATES_TO)
+- DOC-ADR-018 → DOC-ADR-019 → DOC-ADR-020 (permitted; RELATES_TO)
+- DOC-ADR-018 → DOC-ADR-020 (permitted; RELATES_TO)
+- DOC-ADR-018 → DOC-ADR-020 → DOC-ADR-019 (permitted; RELATES_TO)
+- DOC-ADR-019 → DOC-ADR-020 (permitted; RELATES_TO)
 - DOC-GDE-005 → DOC-GDE-006 (permitted; RELATES_TO)
+- DOC-PLAY-001 → DOC-STD-002 (permitted; RELATES_TO)
+- DOC-PLAY-001 → DOC-STD-002 → DOC-STD-003 → DOC-SPEC-005 → DOC-ROAD-001 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
+- DOC-PLAY-001 → DOC-STD-003 → DOC-SPEC-005 → DOC-ROAD-001 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
+- DOC-PLAY-001 → DOC-STD-003 → DOC-STD-002 (permitted; RELATES_TO)
 - DOC-POL-005 → DOC-POL-006 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-REF-003 → DOC-REF-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-SPEC-005 → DOC-STD-003 (permitted; RELATES_TO)
+- DOC-STD-002 → DOC-STD-003 (permitted; RELATES_TO)
 
 ## Orphan Documents
 
