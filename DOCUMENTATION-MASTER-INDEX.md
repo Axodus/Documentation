@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-02T00:00:00Z
-Source Documents: 730
+Source Documents: 743
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 730
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 730 |
-| Canonical documents | 123 |
-| Legacy documents | 593 |
+| Total source documents | 743 |
+| Canonical documents | 156 |
+| Legacy documents | 573 |
 | Template documents | 14 |
-| Declared relationships | 243 |
+| Declared relationships | 287 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,39 +35,39 @@ Source Documents: 730
 |---|---:|
 | ADR | 21 |
 | API | 1 |
-| GUIDE | 46 |
+| GUIDE | 66 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
-| REFERENCE | 8 |
+| REFERENCE | 9 |
 | RELEASE | 1 |
-| REPORT | 27 |
+| REPORT | 37 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
-| ROADMAP | 7 |
+| ROADMAP | 9 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 8 |
 | STANDARD | 4 |
-| UNSPECIFIED | 593 |
+| UNSPECIFIED | 573 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 88 |
+| CORE | 114 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 42 |
-| UNSPECIFIED | 593 |
+| PROJECT | 49 |
+| UNSPECIFIED | 573 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 88 |
-| DRAFT | 28 |
-| UNSPECIFIED | 593 |
+| APPROVED | 124 |
+| DRAFT | 25 |
+| UNSPECIFIED | 573 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -102,7 +102,12 @@ Source Documents: 730
 | BBA-GDE-001 | Axodus BBA Agency Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus BBA | [docs/bba-agency/overview.md](docs/bba-agency/overview.md) |
 | BUSINESS-GDE-001 | Business Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/overview.md](docs/business/overview.md) |
 | DEFI-GDE-001 | Axodus DeFi Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DeFi | [docs/defi/overview.md](docs/defi/overview.md) |
+| DEX-GDE-002 | DEX Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/architecture.md](docs/dex/architecture.md) |
+| DEX-GDE-003 | Liquidity Pools | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/liquidity-pools.md](docs/dex/liquidity-pools.md) |
 | DEX-GDE-001 | Axodus DEX Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/overview.md](docs/dex/overview.md) |
+| DEX-GDE-004 | Risk and Disclosures | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/risk-and-disclosures.md](docs/dex/risk-and-disclosures.md) |
+| DEX-GDE-005 | Routing and Aggregation | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/routing-and-aggregation.md](docs/dex/routing-and-aggregation.md) |
+| DEX-GDE-006 | Security and Smart Contracts | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX / Security | [docs/dex/security-and-smart-contracts.md](docs/dex/security-and-smart-contracts.md) |
 | GOV-GDE-002 | Governance Accountability | GUIDE | APPROVED | CORE | 1.0.0 | Governance Nucleus | [docs/governance/accountability.md](docs/governance/accountability.md) |
 | GOV-GDE-003 | Constitutional Governance | GUIDE | APPROVED | CORE | 1.0.0 | Governance Nucleus | [docs/governance/constitutional-governance.md](docs/governance/constitutional-governance.md) |
 | GOV-GDE-004 | Execution Receipts | GUIDE | APPROVED | CORE | 1.0.0 | Governance Nucleus | [docs/governance/execution-receipts.md](docs/governance/execution-receipts.md) |
@@ -110,9 +115,24 @@ Source Documents: 730
 | GOV-GDE-001 | Governance Overview | GUIDE | APPROVED | CORE | 1.0.0 | Governance Nucleus | [docs/governance/overview.md](docs/governance/overview.md) |
 | GOV-GDE-006 | Proposal Lifecycle | GUIDE | APPROVED | CORE | 1.0.0 | Governance Nucleus | [docs/governance/proposal-lifecycle.md](docs/governance/proposal-lifecycle.md) |
 | DOC-GDE-006 | Axodus Documentation | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Documentation Core | [docs/index.md](docs/index.md) |
+| LOTTERY-GDE-002 | CryptoDraw | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Lottery / CryptoDraw | [docs/lottery/cryptodraw.md](docs/lottery/cryptodraw.md) |
+| LOTTERY-GDE-003 | Game Models | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Lottery / CryptoDraw | [docs/lottery/game-models.md](docs/lottery/game-models.md) |
 | LOTTERY-GDE-001 | Axodus Lottery Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Lottery / CryptoDraw | [docs/lottery/overview.md](docs/lottery/overview.md) |
+| LOTTERY-GDE-004 | Responsible Participation | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Lottery / CryptoDraw | [docs/lottery/responsible-participation.md](docs/lottery/responsible-participation.md) |
+| LOTTERY-GDE-005 | Risk and Compliance | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Lottery / CryptoDraw | [docs/lottery/risk-and-compliance.md](docs/lottery/risk-and-compliance.md) |
+| LOTTERY-GDE-006 | Security and Smart Contracts | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Lottery / Security | [docs/lottery/security-and-smart-contracts.md](docs/lottery/security-and-smart-contracts.md) |
+| MARKET-GDE-002 | Marketplace Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Marketplace | [docs/marketplace/architecture.md](docs/marketplace/architecture.md) |
+| MARKET-GDE-003 | Buyer Flow | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Marketplace | [docs/marketplace/buyer-flow.md](docs/marketplace/buyer-flow.md) |
 | MARKET-GDE-001 | Axodus Marketplace Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Marketplace | [docs/marketplace/overview.md](docs/marketplace/overview.md) |
+| MARKET-GDE-004 | Risk and Compliance | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Marketplace | [docs/marketplace/risk-and-compliance.md](docs/marketplace/risk-and-compliance.md) |
+| MARKET-GDE-005 | Security and Data Protection | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Marketplace / Security | [docs/marketplace/security-and-data-protection.md](docs/marketplace/security-and-data-protection.md) |
+| MARKET-GDE-006 | Seller / Provider Model | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Marketplace | [docs/marketplace/seller-provider-model.md](docs/marketplace/seller-provider-model.md) |
+| MINING-GDE-002 | Mining Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/architecture.md](docs/mining/architecture.md) |
+| MINING-GDE-003 | Infrastructure and Operations | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/infrastructure-and-operations.md](docs/mining/infrastructure-and-operations.md) |
+| MINING-GDE-004 | Mining Models | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/mining-models.md](docs/mining/mining-models.md) |
 | MINING-GDE-001 | Axodus Mining Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/overview.md](docs/mining/overview.md) |
+| MINING-GDE-005 | Risk and Compliance | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/risk-and-compliance.md](docs/mining/risk-and-compliance.md) |
+| MINING-GDE-006 | Security and Custody | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining / Security | [docs/mining/security-and-custody.md](docs/mining/security-and-custody.md) |
 | CORE-GDE-002 | Core Principles | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/core-principles.md](docs/overview/core-principles.md) |
 | CORE-GDE-003 | Documentation Status | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/documentation-status.md](docs/overview/documentation-status.md) |
 | CORE-GDE-001 | Ecosystem Overview | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/ecosystem-overview.md](docs/overview/ecosystem-overview.md) |
@@ -155,17 +175,27 @@ Source Documents: 730
 | DOC-RPT-020 | Documentation Batch 02 Security Review | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md](DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md) |
 | DOC-RPT-019 | Documentation Batch 02 Semantic Diff Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md](DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md) |
 | DOC-RPT-021 | Documentation Batch 02 Validation Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md](DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md) |
-| DOC-RPT-025 | Documentation Batch 03 Authority Gap Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md](DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md) |
-| DOC-ROAD-007 | Documentation Batch 03 Candidate Freeze Proposal | ROADMAP | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md) |
+| DOC-RPT-025 | Documentation Batch 03 Authority Gap Report | REPORT | APPROVED | PROJECT | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md](DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md) |
+| DOC-ROAD-007 | Documentation Batch 03 Candidate Freeze Proposal | ROADMAP | APPROVED | PROJECT | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md) |
+| DOC-RPT-029 | Documentation Batch 03 Freeze Record | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-FREEZE-RECORD.md](DOCUMENTATION-BATCH-03-FREEZE-RECORD.md) |
+| DOC-REF-008 | Documentation Batch 03 ID Reservation Record | REFERENCE | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md](DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md) |
 | DOC-ROAD-006 | Documentation Batch 03 Planning | ROADMAP | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-PLANNING.md](DOCUMENTATION-BATCH-03-PLANNING.md) |
-| DOC-RPT-026 | Documentation Batch 03 Readiness Forecast | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-READINESS-FORECAST.md](DOCUMENTATION-BATCH-03-READINESS-FORECAST.md) |
+| DOC-RPT-026 | Documentation Batch 03 Readiness Forecast | REPORT | APPROVED | PROJECT | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-READINESS-FORECAST.md](DOCUMENTATION-BATCH-03-READINESS-FORECAST.md) |
+| DOC-RPT-031 | Documentation Batch 03 Security Review | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md](DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md) |
+| DOC-RPT-030 | Documentation Batch 03 Semantic Diff Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md](DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md) |
+| DOC-RPT-032 | Documentation Batch 03 Validation Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md](DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
 | DOC-REF-005 | Documentation Core Adoption Matrix | REFERENCE | APPROVED | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-CORE-ADOPTION-MATRIX.md](DOCUMENTATION-CORE-ADOPTION-MATRIX.md) |
 | DOC-STD-003 | Documentation Debt Classification | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-DEBT-CLASSIFICATION.md](DOCUMENTATION-DEBT-CLASSIFICATION.md) |
 | DOC-RPT-002 | Documentation Epic 01 Closure Report | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md](DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md) |
+| DOC-RPT-034 | Documentation Epic 02 Closure Audit | REPORT | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md](DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md) |
+| DOC-RPT-035 | Documentation Epic 02 Completion Report | REPORT | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md](DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md) |
+| DOC-RPT-036 | Documentation Epic 02 Final Evidence Summary | REPORT | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md](DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md) |
+| DOC-RPT-033 | Documentation Epic 02 Final Validation Report | REPORT | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md](DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md) |
 | DOC-ROAD-001 | Documentation Epic 02 Adoption Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PLAN.md](DOCUMENTATION-EPIC-02-PLAN.md) |
-| DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.2.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
+| DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.3.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
+| DOC-ROAD-009 | Documentation Epic 03 Recommendation | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RECOMMENDATION.md](DOCUMENTATION-EPIC-03-RECOMMENDATION.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
@@ -178,9 +208,12 @@ Source Documents: 730
 | DOC-RPT-007 | Documentation Migration Batch 01 | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-BATCH-01.md](DOCUMENTATION-MIGRATION-BATCH-01.md) |
 | DOC-RPT-017 | Documentation Migration Batch 02 Evidence | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md](DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md) |
 | DOC-RPT-016 | Documentation Migration Batch 02 | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-BATCH-02.md](DOCUMENTATION-MIGRATION-BATCH-02.md) |
+| DOC-RPT-028 | Documentation Migration Batch 03 Evidence | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md](DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md) |
+| DOC-RPT-027 | Documentation Migration Batch 03 | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-BATCH-03.md](DOCUMENTATION-MIGRATION-BATCH-03.md) |
 | DOC-STD-002 | Documentation Migration Criteria | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-CRITERIA.md](DOCUMENTATION-MIGRATION-CRITERIA.md) |
 | DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-PLAYBOOK.md](DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
 | DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-WAVE-01.md](DOCUMENTATION-MIGRATION-WAVE-01.md) |
+| DOC-ROAD-008 | Documentation Post Epic 02 Backlog | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-POST-EPIC-02-BACKLOG.md](DOCUMENTATION-POST-EPIC-02-BACKLOG.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-TRACEABILITY-EXPANSION.md](DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-VALIDATION-RULES.md](DOCUMENTATION-VALIDATION-RULES.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
@@ -618,18 +651,13 @@ Source Documents: 730
 | — | Vaults and Strategies | — | — | — | — | — | [docs/defi/vaults-and-strategies.md](docs/defi/vaults-and-strategies.md) |
 | — | Academy and User Education | — | — | — | — | — | [docs/dex/academy-and-user-education.md](docs/dex/academy-and-user-education.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/dex/acs-integration.md](docs/dex/acs-integration.md) |
-| — | DEX Architecture | — | — | — | — | — | [docs/dex/architecture.md](docs/dex/architecture.md) |
 | — | Fees and Revenue | — | — | — | — | — | [docs/dex/fees-and-revenue.md](docs/dex/fees-and-revenue.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/dex/governance-alignment.md](docs/dex/governance-alignment.md) |
-| — | Liquidity Pools | — | — | — | — | — | [docs/dex/liquidity-pools.md](docs/dex/liquidity-pools.md) |
 | — | Listing Policy | — | — | — | — | — | [docs/dex/listing-policy.md](docs/dex/listing-policy.md) |
 | — | LP Model | — | — | — | — | — | [docs/dex/lp-model.md](docs/dex/lp-model.md) |
 | — | Marketplace Integration | — | — | — | — | — | [docs/dex/marketplace-integration.md](docs/dex/marketplace-integration.md) |
 | — | MEV and Execution Risk | — | — | — | — | — | [docs/dex/mev-and-execution-risk.md](docs/dex/mev-and-execution-risk.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/dex/reporting-and-accountability.md](docs/dex/reporting-and-accountability.md) |
-| — | Risk and Disclosures | — | — | — | — | — | [docs/dex/risk-and-disclosures.md](docs/dex/risk-and-disclosures.md) |
-| — | Routing and Aggregation | — | — | — | — | — | [docs/dex/routing-and-aggregation.md](docs/dex/routing-and-aggregation.md) |
-| — | Security and Smart Contracts | — | — | — | — | — | [docs/dex/security-and-smart-contracts.md](docs/dex/security-and-smart-contracts.md) |
 | — | Slippage and Price Impact | — | — | — | — | — | [docs/dex/slippage-and-price-impact.md](docs/dex/slippage-and-price-impact.md) |
 | — | Swap Model | — | — | — | — | — | [docs/dex/swap-model.md](docs/dex/swap-model.md) |
 | — | Tokenomics Alignment | — | — | — | — | — | [docs/dex/tokenomics-alignment.md](docs/dex/tokenomics-alignment.md) |
@@ -644,9 +672,7 @@ Source Documents: 730
 | — | Governance Plugin Requests | — | — | — | — | — | [docs/governance/plugin-requests.md](docs/governance/plugin-requests.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/lottery/acs-integration.md](docs/lottery/acs-integration.md) |
 | — | Claims and Settlement | — | — | — | — | — | [docs/lottery/claims-and-settlement.md](docs/lottery/claims-and-settlement.md) |
-| — | CryptoDraw | — | — | — | — | — | [docs/lottery/cryptodraw.md](docs/lottery/cryptodraw.md) |
 | — | Draw Lifecycle | — | — | — | — | — | [docs/lottery/draw-lifecycle.md](docs/lottery/draw-lifecycle.md) |
-| — | Game Models | — | — | — | — | — | [docs/lottery/game-models.md](docs/lottery/game-models.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/lottery/governance-alignment.md](docs/lottery/governance-alignment.md) |
 | — | Lotofacil-Style Model | — | — | — | — | — | [docs/lottery/lotofacil-style-model.md](docs/lottery/lotofacil-style-model.md) |
 | — | Merkle and Indexing | — | — | — | — | — | [docs/lottery/merkle-and-indexing.md](docs/lottery/merkle-and-indexing.md) |
@@ -654,18 +680,13 @@ Source Documents: 730
 | — | Prize Pools and Payouts | — | — | — | — | — | [docs/lottery/prize-pools-and-payouts.md](docs/lottery/prize-pools-and-payouts.md) |
 | — | Randomness and VRF | — | — | — | — | — | [docs/lottery/randomness-and-vrf.md](docs/lottery/randomness-and-vrf.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/lottery/reporting-and-accountability.md](docs/lottery/reporting-and-accountability.md) |
-| — | Responsible Participation | — | — | — | — | — | [docs/lottery/responsible-participation.md](docs/lottery/responsible-participation.md) |
-| — | Risk and Compliance | — | — | — | — | — | [docs/lottery/risk-and-compliance.md](docs/lottery/risk-and-compliance.md) |
-| — | Security and Smart Contracts | — | — | — | — | — | [docs/lottery/security-and-smart-contracts.md](docs/lottery/security-and-smart-contracts.md) |
 | — | SuperSete-Style Model | — | — | — | — | — | [docs/lottery/supersete-style-model.md](docs/lottery/supersete-style-model.md) |
 | — | Ticket Model | — | — | — | — | — | [docs/lottery/ticket-model.md](docs/lottery/ticket-model.md) |
 | — | Tokenomics Alignment | — | — | — | — | — | [docs/lottery/tokenomics-alignment.md](docs/lottery/tokenomics-alignment.md) |
 | — | Treasury and Fees | — | — | — | — | — | [docs/lottery/treasury-and-fees.md](docs/lottery/treasury-and-fees.md) |
 | — | Academy Alignment | — | — | — | — | — | [docs/marketplace/academy-alignment.md](docs/marketplace/academy-alignment.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/marketplace/acs-integration.md](docs/marketplace/acs-integration.md) |
-| — | Marketplace Architecture | — | — | — | — | — | [docs/marketplace/architecture.md](docs/marketplace/architecture.md) |
 | — | Business and BBA Alignment | — | — | — | — | — | [docs/marketplace/business-and-bba-alignment.md](docs/marketplace/business-and-bba-alignment.md) |
-| — | Buyer Flow | — | — | — | — | — | [docs/marketplace/buyer-flow.md](docs/marketplace/buyer-flow.md) |
 | — | Credits and Locked Rewards | — | — | — | — | — | [docs/marketplace/credits-and-locked-rewards.md](docs/marketplace/credits-and-locked-rewards.md) |
 | — | DEX and DeFi Integration | — | — | — | — | — | [docs/marketplace/dex-and-defi-integration.md](docs/marketplace/dex-and-defi-integration.md) |
 | — | Disputes, Refunds and Support | — | — | — | — | — | [docs/marketplace/disputes-refunds-and-support.md](docs/marketplace/disputes-refunds-and-support.md) |
@@ -675,28 +696,20 @@ Source Documents: 730
 | — | Payments and Settlement | — | — | — | — | — | [docs/marketplace/payments-and-settlement.md](docs/marketplace/payments-and-settlement.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/marketplace/reporting-and-accountability.md](docs/marketplace/reporting-and-accountability.md) |
 | — | Reputation and Quality | — | — | — | — | — | [docs/marketplace/reputation-and-quality.md](docs/marketplace/reputation-and-quality.md) |
-| — | Risk and Compliance | — | — | — | — | — | [docs/marketplace/risk-and-compliance.md](docs/marketplace/risk-and-compliance.md) |
-| — | Security and Data Protection | — | — | — | — | — | [docs/marketplace/security-and-data-protection.md](docs/marketplace/security-and-data-protection.md) |
-| — | Seller / Provider Model | — | — | — | — | — | [docs/marketplace/seller-provider-model.md](docs/marketplace/seller-provider-model.md) |
 | — | Service Catalog | — | — | — | — | — | [docs/marketplace/service-catalog.md](docs/marketplace/service-catalog.md) |
 | — | Tokenomics Alignment | — | — | — | — | — | [docs/marketplace/tokenomics-alignment.md](docs/marketplace/tokenomics-alignment.md) |
 | — | Treasury Alignment | — | — | — | — | — | [docs/marketplace/treasury-alignment.md](docs/marketplace/treasury-alignment.md) |
 | — | Academy and User Education | — | — | — | — | — | [docs/mining/academy-and-user-education.md](docs/mining/academy-and-user-education.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/mining/acs-integration.md](docs/mining/acs-integration.md) |
-| — | Mining Architecture | — | — | — | — | — | [docs/mining/architecture.md](docs/mining/architecture.md) |
 | — | Costs, Fees and Profitability | — | — | — | — | — | [docs/mining/costs-fees-and-profitability.md](docs/mining/costs-fees-and-profitability.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/mining/governance-alignment.md](docs/mining/governance-alignment.md) |
 | — | Hardware, Energy and Uptime | — | — | — | — | — | [docs/mining/hardware-energy-and-uptime.md](docs/mining/hardware-energy-and-uptime.md) |
-| — | Infrastructure and Operations | — | — | — | — | — | [docs/mining/infrastructure-and-operations.md](docs/mining/infrastructure-and-operations.md) |
 | — | Marketplace, Business and BBA Alignment | — | — | — | — | — | [docs/mining/marketplace-business-and-bba-alignment.md](docs/mining/marketplace-business-and-bba-alignment.md) |
-| — | Mining Models | — | — | — | — | — | [docs/mining/mining-models.md](docs/mining/mining-models.md) |
 | — | Monitoring and Telemetry | — | — | — | — | — | [docs/mining/monitoring-and-telemetry.md](docs/mining/monitoring-and-telemetry.md) |
 | — | Node and Validator Operations | — | — | — | — | — | [docs/mining/node-and-validator-operations.md](docs/mining/node-and-validator-operations.md) |
 | — | Pools, Hashrate and Network Difficulty | — | — | — | — | — | [docs/mining/pools-hashrate-and-network-difficulty.md](docs/mining/pools-hashrate-and-network-difficulty.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/mining/reporting-and-accountability.md](docs/mining/reporting-and-accountability.md) |
 | — | Rewards and Payouts | — | — | — | — | — | [docs/mining/rewards-and-payouts.md](docs/mining/rewards-and-payouts.md) |
-| — | Risk and Compliance | — | — | — | — | — | [docs/mining/risk-and-compliance.md](docs/mining/risk-and-compliance.md) |
-| — | Security and Custody | — | — | — | — | — | [docs/mining/security-and-custody.md](docs/mining/security-and-custody.md) |
 | — | Sustainability and Responsible Operations | — | — | — | — | — | [docs/mining/sustainability-and-responsible-operations.md](docs/mining/sustainability-and-responsible-operations.md) |
 | — | Tokenomics Alignment | — | — | — | — | — | [docs/mining/tokenomics-alignment.md](docs/mining/tokenomics-alignment.md) |
 | — | Trading and Risk Hedging | — | — | — | — | — | [docs/mining/trading-and-risk-hedging.md](docs/mining/trading-and-risk-hedging.md) |

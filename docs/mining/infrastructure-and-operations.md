@@ -1,9 +1,39 @@
-# Infrastructure and Operations
+---
+schema_version: "1.0.0"
+document_id: "MINING-GDE-003"
+aliases: []
+document_type: "GUIDE"
+title: "Infrastructure and Operations"
+summary: "Provides governed infrastructure and operations guidance within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "MINING"
+authority_level: "CORE"
+author: "Axodus Mining"
+owner: "Axodus Mining"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-17"
+last_updated: "2026-07-02"
+last_reviewed: "2026-07-02"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-02"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "MINING-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-09"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["MINING"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/mining/infrastructure-and-operations.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft
-Version: 0.1.0
-Last Updated: 2026-05-17
-Owner: Axodus Mining
+# Infrastructure and Operations
 
 ---
 
@@ -30,4 +60,3 @@ Risks include downtime, power outage, cooling failure, hardware failure, hosting
 ## Security Note
 
 Public documentation should explain infrastructure models without exposing exact facility details, credentials, private endpoints, or exploitable procedures.
-

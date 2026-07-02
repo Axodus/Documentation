@@ -43,8 +43,8 @@ test('traceability reports record current graph metrics without unresolved edges
 
 test('Batch 03 proposal has 20 primaries, six alternates and no final IDs', async () => {
   const proposal = await read('DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md')
-  assert.equal((proposal.match(/`BATCH_03_PRIMARY_PROPOSED`/g) ?? []).length, 20)
-  assert.equal((proposal.match(/`BATCH_03_ALTERNATE_PROPOSED`/g) ?? []).length, 6)
+  assert.equal((proposal.match(/`(?:BATCH_03_PRIMARY_PROPOSED|MIGRATED)`/g) ?? []).length, 20)
+  assert.equal((proposal.match(/`(?:BATCH_03_ALTERNATE_PROPOSED|FROZEN_ALTERNATE)`/g) ?? []).length, 6)
   assert.equal((proposal.match(/-GDE-<NNN>/g) ?? []).length, 26)
   assert.match(proposal, /No final numeric ID is allocated or reserved/)
   const primary = proposal.split('## Alternates')[0]
@@ -53,11 +53,11 @@ test('Batch 03 proposal has 20 primaries, six alternates and no final IDs', asyn
   }
 })
 
-test('REQ-08 preserves 593 synchronized registry entries', async () => {
+test('registries remain synchronized after governed Batch 03 migration', async () => {
   const baseline = JSON.parse(await read('documentation.baseline.json'))
   const exceptions = JSON.parse(await read('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 593)
-  assert.equal(exceptions.exceptions.length, 593)
+  assert.equal(baseline.entries.length, 573)
+  assert.equal(exceptions.exceptions.length, 573)
   assert.deepEqual(
     baseline.entries.map(({ path }) => path).sort(),
     exceptions.exceptions.map(({ document_path }) => document_path).sort(),

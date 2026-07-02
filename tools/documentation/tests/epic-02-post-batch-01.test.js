@@ -52,8 +52,8 @@ test('Batch 02 distribution respects minimum and maximum core constraints', asyn
 test('REQ-06 preserves post-Batch 01 registries', async () => {
   const baseline = JSON.parse(await read('documentation.baseline.json'))
   const exceptions = JSON.parse(await read('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 593)
-  assert.equal(exceptions.exceptions.length, 593)
+  assert.equal(baseline.entries.length, 573)
+  assert.equal(exceptions.exceptions.length, 573)
   assert.deepEqual(
     baseline.entries.map(({ path }) => path).sort(),
     exceptions.exceptions.map(({ document_path }) => document_path).sort(),

@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 730,
+  "document_count": 743,
   "documents": [
     {
       "aliases": [],
@@ -9147,23 +9147,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "e73a39dbaaa5a438f03b08895e5ee7012acd26a6e6b66773f625437ebef2b169",
+      "authority_level": "CORE",
+      "authority_scope": "DEX",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus DEX",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DEX-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "97a1486fe41fd6ba0b8719802cd5f00460dd73b7c559e8725f0b29376fcae30c",
       "source_path": "docs/dex/architecture.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "DEX Architecture",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -9207,23 +9213,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "181d28035760cb59989c63e8e908e482ed717d56e105b2c38063e2b4261fca13",
+      "authority_level": "CORE",
+      "authority_scope": "DEX",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus DEX",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DEX-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "f4ef0a245fcfbcd0a29f011c92aa0148ed9da0380ae765bad715abe877a1d52f",
       "source_path": "docs/dex/liquidity-pools.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Liquidity Pools",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -9353,63 +9365,81 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "1553ca4b4da63dbc7318243e1a6c0a0b108f048ca08df6418b99f5d907bcb9f2",
+      "authority_level": "CORE",
+      "authority_scope": "DEX",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-004",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus DEX",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DEX-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "8e54f2289aa54c809aae86e74155a2bea27eac4efe092e7f456c1903a9734914",
       "source_path": "docs/dex/risk-and-disclosures.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Risk and Disclosures",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "e9753bec53905013f4c8ea930fb215f2db8f18479c2a6ba92a0a91767b7e7ef2",
+      "authority_level": "CORE",
+      "authority_scope": "DEX",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus DEX",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DEX-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "666cdc1b4e76737f4b229ffeb33c057f68084f3ed76f02313db66e97e19d5c6a",
       "source_path": "docs/dex/routing-and-aggregation.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Routing and Aggregation",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "3feac69e8a03ada0c247ffc1a3727faaa0523f1ea99fe82be2f9b8d029ea225c",
+      "authority_level": "CORE",
+      "authority_scope": "DEX",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus DEX / Security",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DEX-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "bfd26855b6cbfb5974717eb3808949f65b572bbca70d00952cefc730392ed601",
       "source_path": "docs/dex/security-and-smart-contracts.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Security and Smart Contracts",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -9876,23 +9906,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "58d7caa90f3d2ec20e2d3225b2152e6a992592578b245df4588fe8490a63163a",
+      "authority_level": "CORE",
+      "authority_scope": "LOTTERY",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Lottery / CryptoDraw",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "LOTTERY-GDE-001"
+      ],
+      "sha256": "5ecdaeb26eeee07500f737b392fa9637d896e8be031cbc057106caa7a37d95f5",
       "source_path": "docs/lottery/cryptodraw.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "CryptoDraw",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -9916,23 +9952,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "240ed0b5af0cd2c230ed3dec8b44c2b88142a290cdd24173fe5d21103b8db007",
+      "authority_level": "CORE",
+      "authority_scope": "LOTTERY",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Lottery / CryptoDraw",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "LOTTERY-GDE-001"
+      ],
+      "sha256": "ab7c179876a6d0d7d2166a8e91d82ff0c016ea36576b5e9373d173a0f535a334",
       "source_path": "docs/lottery/game-models.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Game Models",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10102,63 +10144,81 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "aeefb64e0ad7b5a98f096ce92c7c2671bbd620a039cd1c91625780ad7fd78f1f",
+      "authority_level": "CORE",
+      "authority_scope": "LOTTERY",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-004",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Lottery / CryptoDraw",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "LOTTERY-GDE-001"
+      ],
+      "sha256": "efd3750f7719355084ecd20dd3297a6ffca38b23630b62118a58af202c07e861",
       "source_path": "docs/lottery/responsible-participation.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Responsible Participation",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "a49a1bc6afe728a2ef8ad71720e67bbce48b4447a49e6c58a4eed21bb3dcd925",
+      "authority_level": "CORE",
+      "authority_scope": "LOTTERY",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Lottery / CryptoDraw",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "LOTTERY-GDE-001"
+      ],
+      "sha256": "43b83cfce69a5629c60afc85d7f021a434c52cd144dd748ca8c3b45d1ea8c61c",
       "source_path": "docs/lottery/risk-and-compliance.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Risk and Compliance",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "4a6bcd84ec27038a6032426e01539dbdd40d590a61c406f5066f315c27e6e4a8",
+      "authority_level": "CORE",
+      "authority_scope": "LOTTERY",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Lottery / Security",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "LOTTERY-GDE-001"
+      ],
+      "sha256": "945cde1ae1ed55ebf694f3d38192fb4c4aca9df6868f767bf0e475d4a124fdb1",
       "source_path": "docs/lottery/security-and-smart-contracts.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Security and Smart Contracts",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10282,23 +10342,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "70207dd036db1515a43e9e61d54085acb3e5e9347d7d9caeb09ae665dca58647",
+      "authority_level": "CORE",
+      "authority_scope": "MARKETPLACE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Marketplace",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MARKET-GDE-001"
+      ],
+      "sha256": "27fbddfdcf21d562aa151373a01adc074e925a96362e005c7b2b742e36b4c137",
       "source_path": "docs/marketplace/architecture.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Marketplace Architecture",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10322,23 +10388,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "23c05422db9a56173dbb969e996d30cd5519c480b21651af1b59f27fe297a8e0",
+      "authority_level": "CORE",
+      "authority_scope": "MARKETPLACE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Marketplace",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MARKET-GDE-001"
+      ],
+      "sha256": "42039cc3e336ae8ccca79c5bf12d3a160877ddd40754105c7969928f4e67eda3",
       "source_path": "docs/marketplace/buyer-flow.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Buyer Flow",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10548,63 +10620,81 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "53c9fd84f397fe30f6856db391649ea5fb1fdf321841e30fc6558bedcd6cc808",
+      "authority_level": "CORE",
+      "authority_scope": "MARKETPLACE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-004",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Marketplace",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MARKET-GDE-001"
+      ],
+      "sha256": "b1d519f24c3a8ccbdb5f1fb106c2d62dd6d668bf3b0ca6bd50f2570865f3c08a",
       "source_path": "docs/marketplace/risk-and-compliance.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Risk and Compliance",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "f3ed6886c8662416245399501fedbec9f01a3de37179e7dc0b5f710e38b1e877",
+      "authority_level": "CORE",
+      "authority_scope": "MARKETPLACE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Marketplace / Security",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MARKET-GDE-001"
+      ],
+      "sha256": "1090732a32701f1a7364a0e4db0e87ad104a3ffd0a45bcf34f561ad2a8776fa4",
       "source_path": "docs/marketplace/security-and-data-protection.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Security and Data Protection",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "d2187e9fbcce04e712e8021ca8f527f51578f39c80812eb1a258b7f23e33ad23",
+      "authority_level": "CORE",
+      "authority_scope": "MARKETPLACE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Marketplace",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MARKET-GDE-001"
+      ],
+      "sha256": "bc1588b53447182feeed5e6bebb77f0a0347eca80b2648416a24e5ab5ea98cbf",
       "source_path": "docs/marketplace/seller-provider-model.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Seller / Provider Model",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10708,23 +10798,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "c689d594d2344a879c8eaf0341ff0e99d293f4366e492a22e124d6e434701eb3",
+      "authority_level": "CORE",
+      "authority_scope": "MINING",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Mining",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MINING-GDE-001"
+      ],
+      "sha256": "2b9d872016ffdb6387e85a731d8105fd0469de84b1bc866e39e066a29aca5deb",
       "source_path": "docs/mining/architecture.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Mining Architecture",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10788,23 +10884,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "b397a238afdc3013c042aaf47348572090fdfe57173ac13d38bab3eed4904eb1",
+      "authority_level": "CORE",
+      "authority_scope": "MINING",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Mining",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MINING-GDE-001"
+      ],
+      "sha256": "1bfea79e678b95e5be0fcab119b7e34e9a8e83c5f1fec1bd50b690a6f0a57c40",
       "source_path": "docs/mining/infrastructure-and-operations.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Infrastructure and Operations",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10828,23 +10930,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "29c28d894eba1b6749430df389260a9677009debb0226d4baa258ee0bb63c77c",
+      "authority_level": "CORE",
+      "authority_scope": "MINING",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-004",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Mining",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MINING-GDE-001"
+      ],
+      "sha256": "cbe04f6841b65f62bb2d3d61b81ef8d57e49c471c62faad3f81d0d54628ecfc3",
       "source_path": "docs/mining/mining-models.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Mining Models",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -10974,43 +11082,55 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "d127aa59c6cb55e733c13e6143d99d81379195b71cdd74c7620710e78b9be74b",
+      "authority_level": "CORE",
+      "authority_scope": "MINING",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Mining",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MINING-GDE-001"
+      ],
+      "sha256": "c9cc3338c3d1a73272ef86938451226184879712492755784aa7ce7002ec96b0",
       "source_path": "docs/mining/risk-and-compliance.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Risk and Compliance",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "20a9aeda90fffbd382b7e726b448039c3abce82b0c5a7cb66122073ab47a4a51",
+      "authority_level": "CORE",
+      "authority_scope": "MINING",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Mining / Security",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-02",
+        "MINING-GDE-001"
+      ],
+      "sha256": "550e921272d750d85f544a2036d3c70dc748d5e86e4bb3af4039e4bc39f08918",
       "source_path": "docs/mining/security-and-custody.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Security and Custody",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -13345,7 +13465,7 @@
       "last_updated": "2026-07-02",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
         "DOC-ADR-004",
@@ -13355,12 +13475,12 @@
         "DOC-RPT-006",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "9c35c547113961b3653f35a33cfbf076e0eeb8acbb9099c589a3a14e2dcbbf8a",
+      "sha256": "0c8f06344ad2bb6da952372e1a72cfbec0351c128e5fe67ec40031a4993ee347",
       "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Batch 03 Authority Gap Report",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "aliases": [],
@@ -13373,7 +13493,7 @@
       "last_updated": "2026-07-02",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
         "DOC-ADR-004",
@@ -13383,11 +13503,63 @@
         "DOC-RPT-025",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "168af2606ba87ed32e121d28887ed965525603474116fdf05d44809ad9890a45",
+      "sha256": "6b299ed36661ebbc9c79a8e7217e686ebb0aaa49b97f13dcaadfdf122225f7a0",
       "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Batch 03 Candidate Freeze Proposal",
+      "version": "1.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-029",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ROAD-007",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "4cf4584b7deb66e488ba57123fbe24056ea0813d5dcc60fadee5816ae02f74d3",
+      "source_path": "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Freeze Record",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-REF-008",
+      "document_state": "CURRENT",
+      "document_type": "REFERENCE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ROAD-007",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "1bed439083264dff376b6b554717b1fd0ace36de09e3a9bcbd74e16cc4459153",
+      "source_path": "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 ID Reservation Record",
       "version": "1.0.0"
     },
     {
@@ -13430,7 +13602,7 @@
       "last_updated": "2026-07-02",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-08",
         "DOC-ADR-004",
@@ -13440,11 +13612,89 @@
         "DOC-RPT-014",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "0ee43103dde0380ef65b2c8594648ec1e4dfb25cd2492950468c7e75e2be4024",
+      "sha256": "d79abb60515f1f80c8d7811bbeea3ab0ada690f7fe5b88a1d17c802ee3f91753",
       "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Batch 03 Readiness Forecast",
+      "version": "1.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-031",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-027",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "63b459270d4933d09020e837bc31ad1439e1a92deb6f7234539d45d0c2f6e6d8",
+      "source_path": "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Security Review",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-030",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-027",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "7ac82e24a264113ab4f0c5ae113c25c8d9352b51be465ee9fd6ec75b4026172f",
+      "source_path": "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Semantic Diff Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-032",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-027",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "0243c39ad07b7da415a02903e0ec7793116145d7d20bfcd47732b3ee2aac192f",
+      "source_path": "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 03 Validation Report",
       "version": "1.0.0"
     },
     {
@@ -13613,6 +13863,122 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-034",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-10",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-RPT-012",
+        "DOC-RPT-022",
+        "DOC-RPT-027",
+        "DOC-RPT-033",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "21ff4aeb1816f923b09f6e4eb9e4b53e442e421c9484680b06aaa9737b9b4692",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 02 Closure Audit",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-035",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-10",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ROAD-008",
+        "DOC-ROAD-009",
+        "DOC-RPT-033",
+        "DOC-RPT-034",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "27d3e7ea2e7ac1a6a1b3dfcbb4511e7eba4b16815a5278ce04172e8924be8ea5",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 02 Completion Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-036",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-10",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-GDE-003",
+        "DOC-RPT-034",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "52b5524dd91917b0a9f6d1b2d655bf74a83e00b7bf9ffdcade41c6fd92b9dd5e",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 02 Final Evidence Summary",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-033",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-10",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-RPT-014",
+        "DOC-RPT-027",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "8bb269163259a006d7fd9c3b4285159a834fa184718bff510af928f8fccf96b2",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 02 Final Validation Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.ADOPTION",
       "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
@@ -13659,12 +14025,40 @@
         "DOC-SPEC-005",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "d3192db5dbf8eb7661222e1e25bbe56a61b604e205768000d3c150bd65d1280f",
+      "sha256": "67926b94b6f426452a390c3427da9195ada50591c621250a3b2ce3d516faadb0",
       "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Epic 02 Progress Report",
-      "version": "1.2.0"
+      "version": "1.3.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-009",
+      "document_state": "CURRENT",
+      "document_type": "ROADMAP",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-10",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ROAD-008",
+        "DOC-RPT-035",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "be5e185da4572ddef242e5ddbad13577f836542d9cf889f3a06524930d3b59e9",
+      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 03 Recommendation",
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -13999,6 +14393,59 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-028",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-027",
+        "DOC-RPT-029",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "eb95a85193d710f0e7c8a4888283804544768a2402c7b0da48e06778bab0602f",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Migration Batch 03 Evidence",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_03",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-027",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ROAD-007",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "432d992184cb3cc23f6781775c072281f6db0a97b1aa9f7c67f12167d6f434d6",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Migration Batch 03",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.MIGRATION",
       "classification": "CANONICAL",
@@ -14083,6 +14530,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Migration Wave 01",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-008",
+      "document_state": "CURRENT",
+      "document_type": "ROADMAP",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D3",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-10",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ROAD-009",
+        "DOC-RPT-035",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "1a8a3719196871f781c98769ea5fd050728badb7a909e12c115f3576f493765d",
+      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Post Epic 02 Backlog",
       "version": "1.0.0"
     },
     {
@@ -15562,6 +16037,36 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-002",
+      "source_path": "docs/dex/architecture.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-003",
+      "source_path": "docs/dex/liquidity-pools.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-004",
+      "source_path": "docs/dex/risk-and-disclosures.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-005",
+      "source_path": "docs/dex/routing-and-aggregation.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-006",
+      "source_path": "docs/dex/security-and-smart-contracts.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ADR-001",
       "source_path": "adr/DOC-ADR-001-OFFICIAL-DOCUMENTATION-SOURCE.md",
       "target": "DOC-ADR-003",
@@ -16102,6 +16607,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-008",
+      "source_path": "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "target": "DOC-ROAD-007",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -16238,6 +16749,30 @@
       "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-RPT-025",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-008",
+      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "target": "DOC-RPT-035",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-008",
+      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "target": "DOC-ROAD-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "target": "DOC-RPT-035",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "target": "DOC-ROAD-008",
+      "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-001",
@@ -16618,6 +17153,120 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-027",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "target": "DOC-ROAD-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-028",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "target": "DOC-RPT-029",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-028",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-029",
+      "source_path": "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "target": "DOC-ROAD-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-030",
+      "source_path": "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-031",
+      "source_path": "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-032",
+      "source_path": "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-033",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-014",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-033",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-012",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-022",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-033",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-RPT-033",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-RPT-034",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-ROAD-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-ROAD-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-036",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "target": "DOC-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-036",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "target": "DOC-RPT-034",
+      "type": "VALIDATES"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -16822,15 +17471,105 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "LOTTERY-GDE-002",
+      "source_path": "docs/lottery/cryptodraw.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-003",
+      "source_path": "docs/lottery/game-models.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-004",
+      "source_path": "docs/lottery/responsible-participation.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-005",
+      "source_path": "docs/lottery/risk-and-compliance.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-006",
+      "source_path": "docs/lottery/security-and-smart-contracts.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MARKET-GDE-001",
       "source_path": "docs/marketplace/overview.md",
       "target": "CORE-GDE-001",
       "type": "RELATES_TO"
     },
     {
+      "source": "MARKET-GDE-002",
+      "source_path": "docs/marketplace/architecture.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-003",
+      "source_path": "docs/marketplace/buyer-flow.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-004",
+      "source_path": "docs/marketplace/risk-and-compliance.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-005",
+      "source_path": "docs/marketplace/security-and-data-protection.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-006",
+      "source_path": "docs/marketplace/seller-provider-model.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MINING-GDE-001",
       "source_path": "docs/mining/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-002",
+      "source_path": "docs/mining/architecture.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-003",
+      "source_path": "docs/mining/infrastructure-and-operations.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-004",
+      "source_path": "docs/mining/mining-models.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-005",
+      "source_path": "docs/mining/risk-and-compliance.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-006",
+      "source_path": "docs/mining/security-and-custody.md",
+      "target": "MINING-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -16933,23 +17672,23 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 123,
-    "declared_relationships": 243,
+    "compliant_documents": 156,
+    "declared_relationships": 287,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 88,
+      "CORE": 114,
       "MODULE": 1,
       "PORTFOLIO": 4,
-      "PROJECT": 42,
-      "UNSPECIFIED": 593
+      "PROJECT": 49,
+      "UNSPECIFIED": 573
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 56,
-      "D3": 66,
+      "D2": 76,
+      "D3": 79,
       "D4": 1,
-      "UNSPECIFIED": 593
+      "UNSPECIFIED": 573
     },
     "documents_by_owner": {
       "<facilitator>": 1,
@@ -16962,11 +17701,15 @@
       "Axodus Business": 1,
       "Axodus Core": 4,
       "Axodus DeFi": 1,
-      "Axodus DEX": 1,
-      "Axodus Documentation Core": 83,
-      "Axodus Lottery / CryptoDraw": 1,
-      "Axodus Marketplace": 1,
-      "Axodus Mining": 1,
+      "Axodus DEX": 5,
+      "Axodus DEX / Security": 1,
+      "Axodus Documentation Core": 96,
+      "Axodus Lottery / CryptoDraw": 5,
+      "Axodus Lottery / Security": 1,
+      "Axodus Marketplace": 5,
+      "Axodus Marketplace / Security": 1,
+      "Axodus Mining": 5,
+      "Axodus Mining / Security": 1,
       "Axodus Runtime": 3,
       "Axodus Runtime / Governance": 1,
       "Axodus Tokenomics": 1,
@@ -16974,37 +17717,37 @@
       "Axodus Treasury": 4,
       "Governance Nucleus": 6,
       "Security": 6,
-      "UNSPECIFIED": 593
+      "UNSPECIFIED": 573
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
-      "APPROVED": 88,
-      "DRAFT": 28,
-      "UNSPECIFIED": 593
+      "APPROVED": 124,
+      "DRAFT": 25,
+      "UNSPECIFIED": 573
     },
     "documents_by_type": {
       "ADR": 21,
       "API": 1,
-      "GUIDE": 46,
+      "GUIDE": 66,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 7,
       "PROPOSAL": 1,
-      "REFERENCE": 8,
+      "REFERENCE": 9,
       "RELEASE": 1,
-      "REPORT": 27,
+      "REPORT": 37,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
-      "ROADMAP": 7,
+      "ROADMAP": 9,
       "RUNBOOK": 1,
       "SPECIFICATION": 8,
       "STANDARD": 4,
-      "UNSPECIFIED": 593
+      "UNSPECIFIED": 573
     },
-    "documents_missing_metadata": 593,
+    "documents_missing_metadata": 573,
     "generated_documents": 8,
-    "legacy_documents": 593,
+    "legacy_documents": 573,
     "template_documents": 14,
-    "total_documents": 730
+    "total_documents": 743
   }
 }

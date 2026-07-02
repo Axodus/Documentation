@@ -1,9 +1,39 @@
-# Buyer Flow
+---
+schema_version: "1.0.0"
+document_id: "MARKET-GDE-003"
+aliases: []
+document_type: "GUIDE"
+title: "Buyer Flow"
+summary: "Provides governed buyer flow guidance within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "MARKETPLACE"
+authority_level: "CORE"
+author: "Axodus Marketplace"
+owner: "Axodus Marketplace"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-17"
+last_updated: "2026-07-02"
+last_reviewed: "2026-07-02"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-02"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "MARKET-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-09"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["MARKETPLACE"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/marketplace/buyer-flow.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft
-Version: 0.1.0
-Last Updated: 2026-05-17
-Owner: Axodus Marketplace
+# Buyer Flow
 
 ---
 
@@ -34,4 +64,3 @@ Statuses may include Created, Awaiting Payment, Paid, In Delivery, Delivered, Co
 ## Buyer Protection Requirements
 
 Listings should expose seller status, price, fees, refund policy, delivery model, risk disclosures, support path, and transaction summary before payment. Outcomes depend on listing terms and are not guaranteed.
-

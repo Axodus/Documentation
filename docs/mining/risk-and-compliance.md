@@ -1,9 +1,39 @@
-# Risk and Compliance
+---
+schema_version: "1.0.0"
+document_id: "MINING-GDE-005"
+aliases: []
+document_type: "GUIDE"
+title: "Risk and Compliance"
+summary: "Provides governed risk and compliance guidance within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "MINING"
+authority_level: "CORE"
+author: "Axodus Mining"
+owner: "Axodus Mining"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-17"
+last_updated: "2026-07-02"
+last_reviewed: "2026-07-02"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-02"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "MINING-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-09"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["MINING"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/mining/risk-and-compliance.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft
-Version: 0.1.0
-Last Updated: 2026-05-17
-Owner: Axodus Mining
+# Risk and Compliance
 
 ---
 
@@ -34,4 +64,3 @@ Triggers include user-facing mining products, public profitability claims, minin
 ## Required Reviews
 
 Treasury reviews capital, rewards, payout liabilities, hardware, and hosting costs. Governance reviews activation, payout, fee, and tokenomics policy. Security reviews wallets, pool accounts, validator keys, and infrastructure access. BBA reviews public ROI, reward, and sustainability claims. Compliance or legal review is required for jurisdiction-sensitive offers.
-

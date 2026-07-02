@@ -5038,18 +5038,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/dex/architecture.md",
-      "sha256": "e73a39dbaaa5a438f03b08895e5ee7012acd26a6e6b66773f625437ebef2b169",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/dex/fees-and-revenue.md",
       "sha256": "baa144fc80a27c2f584664a15529b61e8f35e47e073c8bb931dd5ece16f002d0",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -5064,18 +5052,6 @@
       ],
       "path": "docs/dex/governance-alignment.md",
       "sha256": "e85a4a28d41b3625699dc473a40ad618fa309c9e7e9e266d8cdc97bb181dcf51",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/dex/liquidity-pools.md",
-      "sha256": "181d28035760cb59989c63e8e908e482ed717d56e105b2c38063e2b4261fca13",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -5136,42 +5112,6 @@
       ],
       "path": "docs/dex/reporting-and-accountability.md",
       "sha256": "938819421e384bfea9ad8afaaecd51b9f36cdf6e79a0ed940526042005fab537",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/dex/risk-and-disclosures.md",
-      "sha256": "1553ca4b4da63dbc7318243e1a6c0a0b108f048ca08df6418b99f5d907bcb9f2",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/dex/routing-and-aggregation.md",
-      "sha256": "e9753bec53905013f4c8ea930fb215f2db8f18479c2a6ba92a0a91767b7e7ef2",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/dex/security-and-smart-contracts.md",
-      "sha256": "3feac69e8a03ada0c247ffc1a3727faaa0523f1ea99fe82be2f9b8d029ea225c",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -5350,32 +5290,8 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/lottery/cryptodraw.md",
-      "sha256": "58d7caa90f3d2ec20e2d3225b2152e6a992592578b245df4588fe8490a63163a",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/lottery/draw-lifecycle.md",
       "sha256": "b284286ff5fc51c916d326ef719eee4577d2e53837b7edbe047463c6423996f8",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/lottery/game-models.md",
-      "sha256": "240ed0b5af0cd2c230ed3dec8b44c2b88142a290cdd24173fe5d21103b8db007",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -5470,42 +5386,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/lottery/responsible-participation.md",
-      "sha256": "aeefb64e0ad7b5a98f096ce92c7c2671bbd620a039cd1c91625780ad7fd78f1f",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/lottery/risk-and-compliance.md",
-      "sha256": "a49a1bc6afe728a2ef8ad71720e67bbce48b4447a49e6c58a4eed21bb3dcd925",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/lottery/security-and-smart-contracts.md",
-      "sha256": "4a6bcd84ec27038a6032426e01539dbdd40d590a61c406f5066f315c27e6e4a8",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/lottery/supersete-style-model.md",
       "sha256": "e7b7f154f8beed27e80410f8955976114abfaf661b6991659bb5a957b8076159",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -5578,32 +5458,8 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/marketplace/architecture.md",
-      "sha256": "70207dd036db1515a43e9e61d54085acb3e5e9347d7d9caeb09ae665dca58647",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/marketplace/business-and-bba-alignment.md",
       "sha256": "362656cd937d3673c8dc5d89983c157aa603679baf0ae9aa2a3c528006b3850c",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/marketplace/buyer-flow.md",
-      "sha256": "23c05422db9a56173dbb969e996d30cd5519c480b21651af1b59f27fe297a8e0",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -5722,42 +5578,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/marketplace/risk-and-compliance.md",
-      "sha256": "53c9fd84f397fe30f6856db391649ea5fb1fdf321841e30fc6558bedcd6cc808",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/marketplace/security-and-data-protection.md",
-      "sha256": "f3ed6886c8662416245399501fedbec9f01a3de37179e7dc0b5f710e38b1e877",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/marketplace/seller-provider-model.md",
-      "sha256": "d2187e9fbcce04e712e8021ca8f527f51578f39c80812eb1a258b7f23e33ad23",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/marketplace/service-catalog.md",
       "sha256": "04a2faf20baf55c9a3ea51cd87d315abd5b48b4f604639336efc4a533989e115",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -5818,18 +5638,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/mining/architecture.md",
-      "sha256": "c689d594d2344a879c8eaf0341ff0e99d293f4366e492a22e124d6e434701eb3",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/mining/costs-fees-and-profitability.md",
       "sha256": "4883a858f4222606d5f9019cbc4f3640c89731736aa5a9a57b494bb13db63c89",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -5866,32 +5674,8 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/mining/infrastructure-and-operations.md",
-      "sha256": "b397a238afdc3013c042aaf47348572090fdfe57173ac13d38bab3eed4904eb1",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/mining/marketplace-business-and-bba-alignment.md",
       "sha256": "5fe2559cbbd1920aa30c749870948c1b5ddd77b0d566d563d0b9faa61d1242fd",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/mining/mining-models.md",
-      "sha256": "29c28d894eba1b6749430df389260a9677009debb0226d4baa258ee0bb63c77c",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -5952,30 +5736,6 @@
       ],
       "path": "docs/mining/rewards-and-payouts.md",
       "sha256": "c734d44bed57acd58a1f6e80e471cd3a62d8a003c586485c143fd389f795bc1e",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/mining/risk-and-compliance.md",
-      "sha256": "d127aa59c6cb55e733c13e6143d99d81379195b71cdd74c7620710e78b9be74b",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/mining/security-and-custody.md",
-      "sha256": "20a9aeda90fffbd382b7e726b448039c3abce82b0c5a7cb66122073ab47a4a51",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {

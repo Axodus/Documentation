@@ -7,24 +7,24 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 730
-- Declared relationships: 243
+- Graph nodes: 743
+- Declared relationships: 287
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 607
-- Cycles: 31
+- Orphan documents: 587
+- Cycles: 36
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 79 |
+| `DEPENDS_ON` | 84 |
 | `DOCUMENTS` | 13 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 104 |
-| `VALIDATES` | 34 |
+| `RELATES_TO` | 132 |
+| `VALIDATES` | 45 |
 
 ## Unresolved References
 
@@ -63,6 +63,11 @@ None.
 - DOC-REF-003 → DOC-REF-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-REF-005 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
 - DOC-ROAD-002 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
+- DOC-ROAD-008 → DOC-ROAD-009 (permitted; RELATES_TO)
+- DOC-ROAD-008 → DOC-ROAD-009 → DOC-RPT-035 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ROAD-008 → DOC-RPT-035 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ROAD-008 → DOC-RPT-035 → DOC-ROAD-009 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ROAD-009 → DOC-RPT-035 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; RELATES_TO, VALIDATES)
 - DOC-RPT-024 → DOC-SPEC-006 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-SPEC-005 → DOC-STD-003 (permitted; RELATES_TO)
@@ -489,18 +494,13 @@ None.
 - docs/defi/vaults-and-strategies.md
 - docs/dex/academy-and-user-education.md
 - docs/dex/acs-integration.md
-- docs/dex/architecture.md
 - docs/dex/fees-and-revenue.md
 - docs/dex/governance-alignment.md
-- docs/dex/liquidity-pools.md
 - docs/dex/listing-policy.md
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
 - docs/dex/reporting-and-accountability.md
-- docs/dex/risk-and-disclosures.md
-- docs/dex/routing-and-aggregation.md
-- docs/dex/security-and-smart-contracts.md
 - docs/dex/slippage-and-price-impact.md
 - docs/dex/swap-model.md
 - docs/dex/tokenomics-alignment.md
@@ -515,9 +515,7 @@ None.
 - docs/governance/plugin-requests.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
-- docs/lottery/cryptodraw.md
 - docs/lottery/draw-lifecycle.md
-- docs/lottery/game-models.md
 - docs/lottery/governance-alignment.md
 - docs/lottery/lotofacil-style-model.md
 - docs/lottery/merkle-and-indexing.md
@@ -525,18 +523,13 @@ None.
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
 - docs/lottery/reporting-and-accountability.md
-- docs/lottery/responsible-participation.md
-- docs/lottery/risk-and-compliance.md
-- docs/lottery/security-and-smart-contracts.md
 - docs/lottery/supersete-style-model.md
 - docs/lottery/ticket-model.md
 - docs/lottery/tokenomics-alignment.md
 - docs/lottery/treasury-and-fees.md
 - docs/marketplace/academy-alignment.md
 - docs/marketplace/acs-integration.md
-- docs/marketplace/architecture.md
 - docs/marketplace/business-and-bba-alignment.md
-- docs/marketplace/buyer-flow.md
 - docs/marketplace/credits-and-locked-rewards.md
 - docs/marketplace/dex-and-defi-integration.md
 - docs/marketplace/disputes-refunds-and-support.md
@@ -546,28 +539,20 @@ None.
 - docs/marketplace/payments-and-settlement.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
-- docs/marketplace/risk-and-compliance.md
-- docs/marketplace/security-and-data-protection.md
-- docs/marketplace/seller-provider-model.md
 - docs/marketplace/service-catalog.md
 - docs/marketplace/tokenomics-alignment.md
 - docs/marketplace/treasury-alignment.md
 - docs/mining/academy-and-user-education.md
 - docs/mining/acs-integration.md
-- docs/mining/architecture.md
 - docs/mining/costs-fees-and-profitability.md
 - docs/mining/governance-alignment.md
 - docs/mining/hardware-energy-and-uptime.md
-- docs/mining/infrastructure-and-operations.md
 - docs/mining/marketplace-business-and-bba-alignment.md
-- docs/mining/mining-models.md
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
-- docs/mining/risk-and-compliance.md
-- docs/mining/security-and-custody.md
 - docs/mining/sustainability-and-responsible-operations.md
 - docs/mining/tokenomics-alignment.md
 - docs/mining/trading-and-risk-hedging.md

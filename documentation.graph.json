@@ -305,6 +305,62 @@
       ]
     },
     {
+      "allowed": true,
+      "nodes": [
+        "DOC-ROAD-008",
+        "DOC-ROAD-009"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ROAD-008",
+        "DOC-ROAD-009",
+        "DOC-RPT-035"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ROAD-008",
+        "DOC-RPT-035"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ROAD-008",
+        "DOC-RPT-035",
+        "DOC-ROAD-009"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ROAD-009",
+        "DOC-RPT-035"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO"
+      ]
+    },
+    {
       "allowed": false,
       "nodes": [
         "DOC-RPT-003",
@@ -4152,6 +4208,56 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DEX-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "DEX-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/dex/architecture.md",
+      "title": "DEX Architecture"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "DEX-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/dex/liquidity-pools.md",
+      "title": "Liquidity Pools"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "DEX-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/dex/risk-and-disclosures.md",
+      "title": "Risk and Disclosures"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "DEX-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/dex/routing-and-aggregation.md",
+      "title": "Routing and Aggregation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "DEX-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/dex/security-and-smart-contracts.md",
+      "title": "Security and Smart Contracts"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-ADR-001",
       "document_type": "ADR",
       "node_id": "DOC-ADR-001",
@@ -4550,6 +4656,16 @@
       "title": "Documentation Batch 02 ID Reservation Record"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-REF-008",
+      "document_type": "REFERENCE",
+      "node_id": "DOC-REF-008",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "title": "Documentation Batch 03 ID Reservation Record"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
@@ -4615,9 +4731,29 @@
       "document_id": "DOC-ROAD-007",
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-007",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "title": "Documentation Batch 03 Candidate Freeze Proposal"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-008",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-008",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "title": "Documentation Post Epic 02 Backlog"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-009",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-009",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "title": "Documentation Epic 03 Recommendation"
     },
     {
       "authority_level": "CORE",
@@ -4865,7 +5001,7 @@
       "document_id": "DOC-RPT-025",
       "document_type": "REPORT",
       "node_id": "DOC-RPT-025",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
       "title": "Documentation Batch 03 Authority Gap Report"
     },
@@ -4875,9 +5011,109 @@
       "document_id": "DOC-RPT-026",
       "document_type": "REPORT",
       "node_id": "DOC-RPT-026",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
       "title": "Documentation Batch 03 Readiness Forecast"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-027",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-027",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "title": "Documentation Migration Batch 03"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-028",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-028",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "title": "Documentation Migration Batch 03 Evidence"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-029",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-029",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "title": "Documentation Batch 03 Freeze Record"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-030",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-030",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "title": "Documentation Batch 03 Semantic Diff Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-031",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-031",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "title": "Documentation Batch 03 Security Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-032",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-032",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "title": "Documentation Batch 03 Validation Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-033",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-033",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "title": "Documentation Epic 02 Final Validation Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-034",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-034",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "title": "Documentation Epic 02 Closure Audit"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-035",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-035",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "title": "Documentation Epic 02 Completion Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-036",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-036",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "title": "Documentation Epic 02 Final Evidence Summary"
     },
     {
       "authority_level": "CORE",
@@ -5674,16 +5910,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/dex/architecture.md",
-      "publication_status": null,
-      "source_path": "docs/dex/architecture.md",
-      "title": "DEX Architecture"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/dex/fees-and-revenue.md",
       "publication_status": null,
       "source_path": "docs/dex/fees-and-revenue.md",
@@ -5698,16 +5924,6 @@
       "publication_status": null,
       "source_path": "docs/dex/governance-alignment.md",
       "title": "Governance Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/dex/liquidity-pools.md",
-      "publication_status": null,
-      "source_path": "docs/dex/liquidity-pools.md",
-      "title": "Liquidity Pools"
     },
     {
       "authority_level": null,
@@ -5758,36 +5974,6 @@
       "publication_status": null,
       "source_path": "docs/dex/reporting-and-accountability.md",
       "title": "Reporting and Accountability"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/dex/risk-and-disclosures.md",
-      "publication_status": null,
-      "source_path": "docs/dex/risk-and-disclosures.md",
-      "title": "Risk and Disclosures"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/dex/routing-and-aggregation.md",
-      "publication_status": null,
-      "source_path": "docs/dex/routing-and-aggregation.md",
-      "title": "Routing and Aggregation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/dex/security-and-smart-contracts.md",
-      "publication_status": null,
-      "source_path": "docs/dex/security-and-smart-contracts.md",
-      "title": "Security and Smart Contracts"
     },
     {
       "authority_level": null,
@@ -5934,30 +6120,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/lottery/cryptodraw.md",
-      "publication_status": null,
-      "source_path": "docs/lottery/cryptodraw.md",
-      "title": "CryptoDraw"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/lottery/draw-lifecycle.md",
       "publication_status": null,
       "source_path": "docs/lottery/draw-lifecycle.md",
       "title": "Draw Lifecycle"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/lottery/game-models.md",
-      "publication_status": null,
-      "source_path": "docs/lottery/game-models.md",
-      "title": "Game Models"
     },
     {
       "authority_level": null,
@@ -6034,36 +6200,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/lottery/responsible-participation.md",
-      "publication_status": null,
-      "source_path": "docs/lottery/responsible-participation.md",
-      "title": "Responsible Participation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/lottery/risk-and-compliance.md",
-      "publication_status": null,
-      "source_path": "docs/lottery/risk-and-compliance.md",
-      "title": "Risk and Compliance"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/lottery/security-and-smart-contracts.md",
-      "publication_status": null,
-      "source_path": "docs/lottery/security-and-smart-contracts.md",
-      "title": "Security and Smart Contracts"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/lottery/supersete-style-model.md",
       "publication_status": null,
       "source_path": "docs/lottery/supersete-style-model.md",
@@ -6124,30 +6260,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/marketplace/architecture.md",
-      "publication_status": null,
-      "source_path": "docs/marketplace/architecture.md",
-      "title": "Marketplace Architecture"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/marketplace/business-and-bba-alignment.md",
       "publication_status": null,
       "source_path": "docs/marketplace/business-and-bba-alignment.md",
       "title": "Business and BBA Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/marketplace/buyer-flow.md",
-      "publication_status": null,
-      "source_path": "docs/marketplace/buyer-flow.md",
-      "title": "Buyer Flow"
     },
     {
       "authority_level": null,
@@ -6244,36 +6360,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/marketplace/risk-and-compliance.md",
-      "publication_status": null,
-      "source_path": "docs/marketplace/risk-and-compliance.md",
-      "title": "Risk and Compliance"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/marketplace/security-and-data-protection.md",
-      "publication_status": null,
-      "source_path": "docs/marketplace/security-and-data-protection.md",
-      "title": "Security and Data Protection"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/marketplace/seller-provider-model.md",
-      "publication_status": null,
-      "source_path": "docs/marketplace/seller-provider-model.md",
-      "title": "Seller / Provider Model"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/marketplace/service-catalog.md",
       "publication_status": null,
       "source_path": "docs/marketplace/service-catalog.md",
@@ -6324,16 +6410,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/mining/architecture.md",
-      "publication_status": null,
-      "source_path": "docs/mining/architecture.md",
-      "title": "Mining Architecture"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/mining/costs-fees-and-profitability.md",
       "publication_status": null,
       "source_path": "docs/mining/costs-fees-and-profitability.md",
@@ -6364,30 +6440,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/mining/infrastructure-and-operations.md",
-      "publication_status": null,
-      "source_path": "docs/mining/infrastructure-and-operations.md",
-      "title": "Infrastructure and Operations"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/mining/marketplace-business-and-bba-alignment.md",
       "publication_status": null,
       "source_path": "docs/mining/marketplace-business-and-bba-alignment.md",
       "title": "Marketplace, Business and BBA Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/mining/mining-models.md",
-      "publication_status": null,
-      "source_path": "docs/mining/mining-models.md",
-      "title": "Mining Models"
     },
     {
       "authority_level": null,
@@ -6438,26 +6494,6 @@
       "publication_status": null,
       "source_path": "docs/mining/rewards-and-payouts.md",
       "title": "Rewards and Payouts"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/mining/risk-and-compliance.md",
-      "publication_status": null,
-      "source_path": "docs/mining/risk-and-compliance.md",
-      "title": "Risk and Compliance"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/mining/security-and-custody.md",
-      "publication_status": null,
-      "source_path": "docs/mining/security-and-custody.md",
-      "title": "Security and Custody"
     },
     {
       "authority_level": null,
@@ -7312,12 +7348,112 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "LOTTERY-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/lottery/cryptodraw.md",
+      "title": "CryptoDraw"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "LOTTERY-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/lottery/game-models.md",
+      "title": "Game Models"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "LOTTERY-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/lottery/responsible-participation.md",
+      "title": "Responsible Participation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "LOTTERY-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/lottery/risk-and-compliance.md",
+      "title": "Risk and Compliance"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "LOTTERY-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/lottery/security-and-smart-contracts.md",
+      "title": "Security and Smart Contracts"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "MARKET-GDE-001",
       "document_type": "GUIDE",
       "node_id": "MARKET-GDE-001",
       "publication_status": "APPROVED",
       "source_path": "docs/marketplace/overview.md",
       "title": "Axodus Marketplace Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "MARKET-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/marketplace/architecture.md",
+      "title": "Marketplace Architecture"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "MARKET-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/marketplace/buyer-flow.md",
+      "title": "Buyer Flow"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "MARKET-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/marketplace/risk-and-compliance.md",
+      "title": "Risk and Compliance"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "MARKET-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/marketplace/security-and-data-protection.md",
+      "title": "Security and Data Protection"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "MARKET-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/marketplace/seller-provider-model.md",
+      "title": "Seller / Provider Model"
     },
     {
       "authority_level": null,
@@ -7338,6 +7474,56 @@
       "publication_status": "APPROVED",
       "source_path": "docs/mining/overview.md",
       "title": "Axodus Mining Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/architecture.md",
+      "title": "Mining Architecture"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/infrastructure-and-operations.md",
+      "title": "Infrastructure and Operations"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/mining-models.md",
+      "title": "Mining Models"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/risk-and-compliance.md",
+      "title": "Risk and Compliance"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/security-and-custody.md",
+      "title": "Security and Custody"
     },
     {
       "authority_level": null,
@@ -8080,18 +8266,13 @@
     "docs/defi/vaults-and-strategies.md",
     "docs/dex/academy-and-user-education.md",
     "docs/dex/acs-integration.md",
-    "docs/dex/architecture.md",
     "docs/dex/fees-and-revenue.md",
     "docs/dex/governance-alignment.md",
-    "docs/dex/liquidity-pools.md",
     "docs/dex/listing-policy.md",
     "docs/dex/lp-model.md",
     "docs/dex/marketplace-integration.md",
     "docs/dex/mev-and-execution-risk.md",
     "docs/dex/reporting-and-accountability.md",
-    "docs/dex/risk-and-disclosures.md",
-    "docs/dex/routing-and-aggregation.md",
-    "docs/dex/security-and-smart-contracts.md",
     "docs/dex/slippage-and-price-impact.md",
     "docs/dex/swap-model.md",
     "docs/dex/tokenomics-alignment.md",
@@ -8106,9 +8287,7 @@
     "docs/governance/plugin-requests.md",
     "docs/lottery/acs-integration.md",
     "docs/lottery/claims-and-settlement.md",
-    "docs/lottery/cryptodraw.md",
     "docs/lottery/draw-lifecycle.md",
-    "docs/lottery/game-models.md",
     "docs/lottery/governance-alignment.md",
     "docs/lottery/lotofacil-style-model.md",
     "docs/lottery/merkle-and-indexing.md",
@@ -8116,18 +8295,13 @@
     "docs/lottery/prize-pools-and-payouts.md",
     "docs/lottery/randomness-and-vrf.md",
     "docs/lottery/reporting-and-accountability.md",
-    "docs/lottery/responsible-participation.md",
-    "docs/lottery/risk-and-compliance.md",
-    "docs/lottery/security-and-smart-contracts.md",
     "docs/lottery/supersete-style-model.md",
     "docs/lottery/ticket-model.md",
     "docs/lottery/tokenomics-alignment.md",
     "docs/lottery/treasury-and-fees.md",
     "docs/marketplace/academy-alignment.md",
     "docs/marketplace/acs-integration.md",
-    "docs/marketplace/architecture.md",
     "docs/marketplace/business-and-bba-alignment.md",
-    "docs/marketplace/buyer-flow.md",
     "docs/marketplace/credits-and-locked-rewards.md",
     "docs/marketplace/dex-and-defi-integration.md",
     "docs/marketplace/disputes-refunds-and-support.md",
@@ -8137,28 +8311,20 @@
     "docs/marketplace/payments-and-settlement.md",
     "docs/marketplace/reporting-and-accountability.md",
     "docs/marketplace/reputation-and-quality.md",
-    "docs/marketplace/risk-and-compliance.md",
-    "docs/marketplace/security-and-data-protection.md",
-    "docs/marketplace/seller-provider-model.md",
     "docs/marketplace/service-catalog.md",
     "docs/marketplace/tokenomics-alignment.md",
     "docs/marketplace/treasury-alignment.md",
     "docs/mining/academy-and-user-education.md",
     "docs/mining/acs-integration.md",
-    "docs/mining/architecture.md",
     "docs/mining/costs-fees-and-profitability.md",
     "docs/mining/governance-alignment.md",
     "docs/mining/hardware-energy-and-uptime.md",
-    "docs/mining/infrastructure-and-operations.md",
     "docs/mining/marketplace-business-and-bba-alignment.md",
-    "docs/mining/mining-models.md",
     "docs/mining/monitoring-and-telemetry.md",
     "docs/mining/node-and-validator-operations.md",
     "docs/mining/pools-hashrate-and-network-difficulty.md",
     "docs/mining/reporting-and-accountability.md",
     "docs/mining/rewards-and-payouts.md",
-    "docs/mining/risk-and-compliance.md",
-    "docs/mining/security-and-custody.md",
     "docs/mining/sustainability-and-responsible-operations.md",
     "docs/mining/tokenomics-alignment.md",
     "docs/mining/trading-and-risk-hedging.md",
@@ -8914,15 +9080,25 @@
       "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
       "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
       "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
       "DOCUMENTATION-BATCH-03-PLANNING.md",
       "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
       "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
       "DOCUMENTATION-EPIC-02-PLAN.md",
       "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
@@ -8935,9 +9111,12 @@
       "DOCUMENTATION-MIGRATION-BATCH-01.md",
       "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
       "DOCUMENTATION-MIGRATION-BATCH-02.md",
+      "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "DOCUMENTATION-MIGRATION-BATCH-03.md",
       "DOCUMENTATION-MIGRATION-CRITERIA.md",
       "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
       "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "DOCUMENTATION-VALIDATION-RULES.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
@@ -9018,6 +9197,11 @@
       "CORE-GDE-004",
       "DEFI-GDE-001",
       "DEX-GDE-001",
+      "DEX-GDE-002",
+      "DEX-GDE-003",
+      "DEX-GDE-004",
+      "DEX-GDE-005",
+      "DEX-GDE-006",
       "DOC-ADR-001",
       "DOC-ADR-002",
       "DOC-ADR-003",
@@ -9058,6 +9242,7 @@
       "DOC-REF-005",
       "DOC-REF-006",
       "DOC-REF-007",
+      "DOC-REF-008",
       "DOC-ROAD-001",
       "DOC-ROAD-002",
       "DOC-ROAD-003",
@@ -9065,6 +9250,8 @@
       "DOC-ROAD-005",
       "DOC-ROAD-006",
       "DOC-ROAD-007",
+      "DOC-ROAD-008",
+      "DOC-ROAD-009",
       "DOC-RPT-001",
       "DOC-RPT-002",
       "DOC-RPT-003",
@@ -9091,6 +9278,16 @@
       "DOC-RPT-024",
       "DOC-RPT-025",
       "DOC-RPT-026",
+      "DOC-RPT-027",
+      "DOC-RPT-028",
+      "DOC-RPT-029",
+      "DOC-RPT-030",
+      "DOC-RPT-031",
+      "DOC-RPT-032",
+      "DOC-RPT-033",
+      "DOC-RPT-034",
+      "DOC-RPT-035",
+      "DOC-RPT-036",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -9108,8 +9305,23 @@
       "GOV-GDE-005",
       "GOV-GDE-006",
       "LOTTERY-GDE-001",
+      "LOTTERY-GDE-002",
+      "LOTTERY-GDE-003",
+      "LOTTERY-GDE-004",
+      "LOTTERY-GDE-005",
+      "LOTTERY-GDE-006",
       "MARKET-GDE-001",
+      "MARKET-GDE-002",
+      "MARKET-GDE-003",
+      "MARKET-GDE-004",
+      "MARKET-GDE-005",
+      "MARKET-GDE-006",
       "MINING-GDE-001",
+      "MINING-GDE-002",
+      "MINING-GDE-003",
+      "MINING-GDE-004",
+      "MINING-GDE-005",
+      "MINING-GDE-006",
       "RUNTIME-GDE-001",
       "RUNTIME-GDE-002",
       "RUNTIME-GDE-003",
@@ -9145,17 +9357,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 79,
+    "DEPENDS_ON": 84,
     "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 104,
-    "VALIDATES": 34
+    "RELATES_TO": 132,
+    "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 243,
+    "declared": 287,
     "derived": 0,
     "duplicates": 0,
-    "total": 243,
+    "total": 287,
     "unresolved": 0
   },
   "relationship_types": [
@@ -9254,6 +9466,36 @@
       "source": "DEX-GDE-001",
       "source_path": "docs/dex/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-002",
+      "source_path": "docs/dex/architecture.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-003",
+      "source_path": "docs/dex/liquidity-pools.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-004",
+      "source_path": "docs/dex/risk-and-disclosures.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-005",
+      "source_path": "docs/dex/routing-and-aggregation.md",
+      "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-006",
+      "source_path": "docs/dex/security-and-smart-contracts.md",
+      "target": "DEX-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -9797,6 +10039,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-008",
+      "source_path": "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "target": "DOC-ROAD-007",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -9933,6 +10181,30 @@
       "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-RPT-025",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-008",
+      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "target": "DOC-RPT-035",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-008",
+      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "target": "DOC-ROAD-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "target": "DOC-RPT-035",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "target": "DOC-ROAD-008",
+      "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-001",
@@ -10313,6 +10585,120 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-027",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "target": "DOC-ROAD-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-028",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "target": "DOC-RPT-029",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-028",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-029",
+      "source_path": "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "target": "DOC-ROAD-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-030",
+      "source_path": "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-031",
+      "source_path": "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-032",
+      "source_path": "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-033",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-014",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-033",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-012",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-022",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-034",
+      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-033",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-RPT-033",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-RPT-034",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-ROAD-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-035",
+      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "target": "DOC-ROAD-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-036",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "target": "DOC-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-036",
+      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "target": "DOC-RPT-034",
+      "type": "VALIDATES"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -10517,15 +10903,105 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "LOTTERY-GDE-002",
+      "source_path": "docs/lottery/cryptodraw.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-003",
+      "source_path": "docs/lottery/game-models.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-004",
+      "source_path": "docs/lottery/responsible-participation.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-005",
+      "source_path": "docs/lottery/risk-and-compliance.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-006",
+      "source_path": "docs/lottery/security-and-smart-contracts.md",
+      "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MARKET-GDE-001",
       "source_path": "docs/marketplace/overview.md",
       "target": "CORE-GDE-001",
       "type": "RELATES_TO"
     },
     {
+      "source": "MARKET-GDE-002",
+      "source_path": "docs/marketplace/architecture.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-003",
+      "source_path": "docs/marketplace/buyer-flow.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-004",
+      "source_path": "docs/marketplace/risk-and-compliance.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-005",
+      "source_path": "docs/marketplace/security-and-data-protection.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-006",
+      "source_path": "docs/marketplace/seller-provider-model.md",
+      "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MINING-GDE-001",
       "source_path": "docs/mining/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-002",
+      "source_path": "docs/mining/architecture.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-003",
+      "source_path": "docs/mining/infrastructure-and-operations.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-004",
+      "source_path": "docs/mining/mining-models.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-005",
+      "source_path": "docs/mining/risk-and-compliance.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-006",
+      "source_path": "docs/mining/security-and-custody.md",
+      "target": "MINING-GDE-001",
       "type": "RELATES_TO"
     },
     {
