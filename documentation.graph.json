@@ -4519,6 +4519,26 @@
       "title": "Documentation Batch 01 Candidate Freeze Proposal"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-004",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-004",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "title": "Documentation Batch 02 Planning"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-005",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-005",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "title": "Documentation Batch 02 Candidate Freeze Proposal"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-001",
@@ -4627,6 +4647,46 @@
       "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
       "title": "Documentation Batch 01 Validation Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-012",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-012",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "title": "Documentation Batch 01 Acceptance Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-013",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-013",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "title": "Documentation Batch 01 Post-Migration Audit"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-014",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-014",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "title": "Documentation Epic 02 Progress Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-015",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-015",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "title": "Documentation Batch 02 Authority Gap Report"
     },
     {
       "authority_level": "CORE",
@@ -8691,20 +8751,26 @@
       "DOCUMENTATION-ADOPTION-METRICS.md",
       "DOCUMENTATION-ADR-INDEX.md",
       "DOCUMENTATION-BASELINE-POLICY.md",
+      "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
       "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
       "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
       "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
+      "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "DOCUMENTATION-BATCH-02-PLANNING.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
       "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "DOCUMENTATION-EPIC-02-PLAN.md",
+      "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
@@ -8834,6 +8900,8 @@
       "DOC-ROAD-001",
       "DOC-ROAD-002",
       "DOC-ROAD-003",
+      "DOC-ROAD-004",
+      "DOC-ROAD-005",
       "DOC-RPT-001",
       "DOC-RPT-002",
       "DOC-RPT-003",
@@ -8845,6 +8913,10 @@
       "DOC-RPT-009",
       "DOC-RPT-010",
       "DOC-RPT-011",
+      "DOC-RPT-012",
+      "DOC-RPT-013",
+      "DOC-RPT-014",
+      "DOC-RPT-015",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -8882,17 +8954,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 62,
+    "DEPENDS_ON": 69,
     "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 74,
-    "VALIDATES": 17
+    "RELATES_TO": 76,
+    "VALIDATES": 24
   },
   "relationship_statistics": {
-    "declared": 179,
+    "declared": 195,
     "derived": 0,
     "duplicates": 0,
-    "total": 179,
+    "total": 195,
     "unresolved": 0
   },
   "relationship_types": [
@@ -9582,6 +9654,36 @@
       "type": "DEPENDS_ON"
     },
     {
+      "source": "DOC-ROAD-004",
+      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "target": "DOC-RPT-014",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-004",
+      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "target": "DOC-STD-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-004",
+      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "target": "DOC-STD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-005",
+      "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ROAD-004",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-005",
+      "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-RPT-015",
+      "type": "DEPENDS_ON"
+    },
+    {
       "source": "DOC-RPT-001",
       "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-GDE-005",
@@ -9772,6 +9874,72 @@
       "source_path": "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-012",
+      "source_path": "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "target": "DOC-RPT-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-012",
+      "source_path": "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "target": "DOC-RPT-008",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-013",
+      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-REF-006",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-013",
+      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-013",
+      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-009",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-013",
+      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-010",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-013",
+      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "target": "DOC-RPT-011",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-014",
+      "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "target": "DOC-RPT-012",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-014",
+      "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "target": "DOC-SPEC-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-015",
+      "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "target": "DOC-ROAD-004",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-015",
+      "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "target": "DOC-RPT-006",
+      "type": "RELATES_TO"
     },
     {
       "source": "DOC-SPEC-001",
