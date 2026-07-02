@@ -7,24 +7,24 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 703
-- Declared relationships: 152
+- Graph nodes: 709
+- Declared relationships: 179
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 647
+- Orphan documents: 627
 - Cycles: 30
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 61 |
+| `DEPENDS_ON` | 62 |
 | `DOCUMENTS` | 13 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 52 |
-| `VALIDATES` | 13 |
+| `RELATES_TO` | 74 |
+| `VALIDATES` | 17 |
 
 ## Unresolved References
 
@@ -425,13 +425,11 @@ None.
 - docs/academy/learn-to-win.md
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
-- docs/academy/overview.md
 - docs/academy/proof-of-knowledge.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
 - docs/accountability/financial-reports.md
 - docs/accountability/governance-records.md
-- docs/accountability/overview.md
 - docs/accountability/release-notes.md
 - docs/accountability/roadmap-updates.md
 - docs/acs/accountability.md
@@ -443,7 +441,6 @@ None.
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
 - docs/acs/morpheus.md
-- docs/acs/overview.md
 - docs/acs/risk-review.md
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
@@ -458,7 +455,6 @@ None.
 - docs/bba-agency/content-and-narrative.md
 - docs/bba-agency/dao-and-governance-communication.md
 - docs/bba-agency/growth-operations.md
-- docs/bba-agency/overview.md
 - docs/bba-agency/positioning.md
 - docs/bba-agency/reporting-and-accountability.md
 - docs/bba-agency/risk-and-compliance.md
@@ -472,7 +468,6 @@ None.
 - docs/business/dao-service-requests.md
 - docs/business/delivery-lifecycle.md
 - docs/business/governance-alignment.md
-- docs/business/overview.md
 - docs/business/plugin-requests.md
 - docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
@@ -487,7 +482,6 @@ None.
 - docs/defi/etf-daas.md
 - docs/defi/governance-alignment.md
 - docs/defi/liquidity-model.md
-- docs/defi/overview.md
 - docs/defi/protocol-model.md
 - docs/defi/reporting-and-accountability.md
 - docs/defi/risk-management.md
@@ -506,7 +500,6 @@ None.
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
-- docs/dex/overview.md
 - docs/dex/reporting-and-accountability.md
 - docs/dex/risk-and-disclosures.md
 - docs/dex/routing-and-aggregation.md
@@ -526,7 +519,6 @@ None.
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
 - docs/governance/governance-risk.md
-- docs/governance/overview.md
 - docs/governance/plugin-requests.md
 - docs/governance/proposal-lifecycle.md
 - docs/lottery/acs-integration.md
@@ -538,7 +530,6 @@ None.
 - docs/lottery/lotofacil-style-model.md
 - docs/lottery/merkle-and-indexing.md
 - docs/lottery/operations-and-runtime.md
-- docs/lottery/overview.md
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
 - docs/lottery/reporting-and-accountability.md
@@ -560,7 +551,6 @@ None.
 - docs/marketplace/fees-and-revenue.md
 - docs/marketplace/governance-alignment.md
 - docs/marketplace/listing-model.md
-- docs/marketplace/overview.md
 - docs/marketplace/payments-and-settlement.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
@@ -581,7 +571,6 @@ None.
 - docs/mining/mining-models.md
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
-- docs/mining/overview.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
@@ -593,12 +582,8 @@ None.
 - docs/mining/treasury-alignment.md
 - docs/mining/user-facing-products.md
 - docs/overview/constitutional-model.md
-- docs/overview/core-principles.md
 - docs/overview/documentation-standards.md
-- docs/overview/documentation-status.md
-- docs/overview/ecosystem-overview.md
 - docs/overview/product-map.md
-- docs/overview/risk-notices.md
 - docs/overview/terminology.md
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
@@ -609,7 +594,6 @@ None.
 - docs/runtime/execution-handoff.md
 - docs/runtime/governance-escalation.md
 - docs/runtime/milestones.md
-- docs/runtime/overview.md
 - docs/runtime/request-lifecycle.md
 - docs/runtime/risk-controls.md
 - docs/runtime/status-model.md
@@ -617,7 +601,6 @@ None.
 - docs/security/api-security.md
 - docs/security/disclosure-policy.md
 - docs/security/frontend-security.md
-- docs/security/overview.md
 - docs/security/smart-contract-security.md
 - docs/security/trading-api-security.md
 - docs/security/wallet-security.md
@@ -628,7 +611,6 @@ None.
 - docs/tokenomics/locked-rewards.md
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
-- docs/tokenomics/overview.md
 - docs/tokenomics/pok-minting.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
@@ -644,7 +626,6 @@ None.
 - docs/trading/compliance-and-user-disclosures.md
 - docs/trading/governance-alignment.md
 - docs/trading/internal-trading.md
-- docs/trading/overview.md
 - docs/trading/reporting-and-accountability.md
 - docs/trading/risk-management.md
 - docs/trading/scalper-futures.md
@@ -657,7 +638,6 @@ None.
 - docs/treasury/compliance-and-disclosures.md
 - docs/treasury/custody-and-security.md
 - docs/treasury/governance-alignment.md
-- docs/treasury/overview.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md

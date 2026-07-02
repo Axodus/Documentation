@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 703
-- Canonical metadata field coverage: 9.96%
-- Schema 1.0.0 canonical documents: 56
-- Legacy documents: 633
-- Documents missing canonical metadata: 633
-- Documents without YAML front matter: 633
+- Source documents: 709
+- Canonical metadata field coverage: 13.54%
+- Schema 1.0.0 canonical documents: 82
+- Legacy documents: 613
+- Documents missing canonical metadata: 613
+- Documents without YAML front matter: 613
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 70 | 633 | 9.96% |
-| `document_id` | 70 | 633 | 9.96% |
-| `aliases` | 70 | 633 | 9.96% |
-| `document_type` | 70 | 633 | 9.96% |
-| `title` | 70 | 633 | 9.96% |
-| `summary` | 70 | 633 | 9.96% |
-| `version` | 70 | 633 | 9.96% |
-| `publication_status` | 70 | 633 | 9.96% |
-| `document_state` | 70 | 633 | 9.96% |
-| `maturity_level` | 70 | 633 | 9.96% |
-| `authority_scope` | 70 | 633 | 9.96% |
-| `authority_level` | 70 | 633 | 9.96% |
-| `author` | 70 | 633 | 9.96% |
-| `owner` | 70 | 633 | 9.96% |
-| `maintainer` | 70 | 633 | 9.96% |
-| `technical_reviewers` | 70 | 633 | 9.96% |
-| `business_reviewers` | 70 | 633 | 9.96% |
-| `security_reviewers` | 70 | 633 | 9.96% |
-| `approver` | 70 | 633 | 9.96% |
-| `created_date` | 70 | 633 | 9.96% |
-| `last_updated` | 70 | 633 | 9.96% |
-| `last_reviewed` | 70 | 633 | 9.96% |
-| `review_cycle` | 70 | 633 | 9.96% |
-| `next_review` | 70 | 633 | 9.96% |
-| `supersedes` | 70 | 633 | 9.96% |
-| `relationships` | 70 | 633 | 9.96% |
-| `related_epics` | 70 | 633 | 9.96% |
-| `related_requirements` | 70 | 633 | 9.96% |
-| `related_adrs` | 70 | 633 | 9.96% |
-| `related_cores` | 70 | 633 | 9.96% |
-| `implementation_refs` | 70 | 633 | 9.96% |
-| `production_gate_impact` | 70 | 633 | 9.96% |
+| `schema_version` | 96 | 613 | 13.54% |
+| `document_id` | 96 | 613 | 13.54% |
+| `aliases` | 96 | 613 | 13.54% |
+| `document_type` | 96 | 613 | 13.54% |
+| `title` | 96 | 613 | 13.54% |
+| `summary` | 96 | 613 | 13.54% |
+| `version` | 96 | 613 | 13.54% |
+| `publication_status` | 96 | 613 | 13.54% |
+| `document_state` | 96 | 613 | 13.54% |
+| `maturity_level` | 96 | 613 | 13.54% |
+| `authority_scope` | 96 | 613 | 13.54% |
+| `authority_level` | 96 | 613 | 13.54% |
+| `author` | 96 | 613 | 13.54% |
+| `owner` | 96 | 613 | 13.54% |
+| `maintainer` | 96 | 613 | 13.54% |
+| `technical_reviewers` | 96 | 613 | 13.54% |
+| `business_reviewers` | 96 | 613 | 13.54% |
+| `security_reviewers` | 96 | 613 | 13.54% |
+| `approver` | 96 | 613 | 13.54% |
+| `created_date` | 96 | 613 | 13.54% |
+| `last_updated` | 96 | 613 | 13.54% |
+| `last_reviewed` | 96 | 613 | 13.54% |
+| `review_cycle` | 96 | 613 | 13.54% |
+| `next_review` | 96 | 613 | 13.54% |
+| `supersedes` | 96 | 613 | 13.54% |
+| `relationships` | 96 | 613 | 13.54% |
+| `related_epics` | 96 | 613 | 13.54% |
+| `related_requirements` | 96 | 613 | 13.54% |
+| `related_adrs` | 96 | 613 | 13.54% |
+| `related_cores` | 96 | 613 | 13.54% |
+| `implementation_refs` | 96 | 613 | 13.54% |
+| `production_gate_impact` | 96 | 613 | 13.54% |
 
 ## Documents Without Front Matter
 
@@ -412,13 +412,11 @@ Generator Version: 1.0.0
 - docs/academy/learn-to-win.md
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
-- docs/academy/overview.md
 - docs/academy/proof-of-knowledge.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
 - docs/accountability/financial-reports.md
 - docs/accountability/governance-records.md
-- docs/accountability/overview.md
 - docs/accountability/release-notes.md
 - docs/accountability/roadmap-updates.md
 - docs/acs/accountability.md
@@ -430,7 +428,6 @@ Generator Version: 1.0.0
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
 - docs/acs/morpheus.md
-- docs/acs/overview.md
 - docs/acs/risk-review.md
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
@@ -445,7 +442,6 @@ Generator Version: 1.0.0
 - docs/bba-agency/content-and-narrative.md
 - docs/bba-agency/dao-and-governance-communication.md
 - docs/bba-agency/growth-operations.md
-- docs/bba-agency/overview.md
 - docs/bba-agency/positioning.md
 - docs/bba-agency/reporting-and-accountability.md
 - docs/bba-agency/risk-and-compliance.md
@@ -459,7 +455,6 @@ Generator Version: 1.0.0
 - docs/business/dao-service-requests.md
 - docs/business/delivery-lifecycle.md
 - docs/business/governance-alignment.md
-- docs/business/overview.md
 - docs/business/plugin-requests.md
 - docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
@@ -474,7 +469,6 @@ Generator Version: 1.0.0
 - docs/defi/etf-daas.md
 - docs/defi/governance-alignment.md
 - docs/defi/liquidity-model.md
-- docs/defi/overview.md
 - docs/defi/protocol-model.md
 - docs/defi/reporting-and-accountability.md
 - docs/defi/risk-management.md
@@ -493,7 +487,6 @@ Generator Version: 1.0.0
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
-- docs/dex/overview.md
 - docs/dex/reporting-and-accountability.md
 - docs/dex/risk-and-disclosures.md
 - docs/dex/routing-and-aggregation.md
@@ -513,7 +506,6 @@ Generator Version: 1.0.0
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
 - docs/governance/governance-risk.md
-- docs/governance/overview.md
 - docs/governance/plugin-requests.md
 - docs/governance/proposal-lifecycle.md
 - docs/lottery/acs-integration.md
@@ -525,7 +517,6 @@ Generator Version: 1.0.0
 - docs/lottery/lotofacil-style-model.md
 - docs/lottery/merkle-and-indexing.md
 - docs/lottery/operations-and-runtime.md
-- docs/lottery/overview.md
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
 - docs/lottery/reporting-and-accountability.md
@@ -547,7 +538,6 @@ Generator Version: 1.0.0
 - docs/marketplace/fees-and-revenue.md
 - docs/marketplace/governance-alignment.md
 - docs/marketplace/listing-model.md
-- docs/marketplace/overview.md
 - docs/marketplace/payments-and-settlement.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
@@ -568,7 +558,6 @@ Generator Version: 1.0.0
 - docs/mining/mining-models.md
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
-- docs/mining/overview.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
@@ -580,12 +569,8 @@ Generator Version: 1.0.0
 - docs/mining/treasury-alignment.md
 - docs/mining/user-facing-products.md
 - docs/overview/constitutional-model.md
-- docs/overview/core-principles.md
 - docs/overview/documentation-standards.md
-- docs/overview/documentation-status.md
-- docs/overview/ecosystem-overview.md
 - docs/overview/product-map.md
-- docs/overview/risk-notices.md
 - docs/overview/terminology.md
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
@@ -596,7 +581,6 @@ Generator Version: 1.0.0
 - docs/runtime/execution-handoff.md
 - docs/runtime/governance-escalation.md
 - docs/runtime/milestones.md
-- docs/runtime/overview.md
 - docs/runtime/request-lifecycle.md
 - docs/runtime/risk-controls.md
 - docs/runtime/status-model.md
@@ -604,7 +588,6 @@ Generator Version: 1.0.0
 - docs/security/api-security.md
 - docs/security/disclosure-policy.md
 - docs/security/frontend-security.md
-- docs/security/overview.md
 - docs/security/smart-contract-security.md
 - docs/security/trading-api-security.md
 - docs/security/wallet-security.md
@@ -615,7 +598,6 @@ Generator Version: 1.0.0
 - docs/tokenomics/locked-rewards.md
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
-- docs/tokenomics/overview.md
 - docs/tokenomics/pok-minting.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
@@ -631,7 +613,6 @@ Generator Version: 1.0.0
 - docs/trading/compliance-and-user-disclosures.md
 - docs/trading/governance-alignment.md
 - docs/trading/internal-trading.md
-- docs/trading/overview.md
 - docs/trading/reporting-and-accountability.md
 - docs/trading/risk-management.md
 - docs/trading/scalper-futures.md
@@ -644,7 +625,6 @@ Generator Version: 1.0.0
 - docs/treasury/compliance-and-disclosures.md
 - docs/treasury/custody-and-security.md
 - docs/treasury/governance-alignment.md
-- docs/treasury/overview.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
@@ -1048,13 +1028,11 @@ Generator Version: 1.0.0
 - docs/academy/learn-to-win.md
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
-- docs/academy/overview.md
 - docs/academy/proof-of-knowledge.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
 - docs/accountability/financial-reports.md
 - docs/accountability/governance-records.md
-- docs/accountability/overview.md
 - docs/accountability/release-notes.md
 - docs/accountability/roadmap-updates.md
 - docs/acs/accountability.md
@@ -1066,7 +1044,6 @@ Generator Version: 1.0.0
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
 - docs/acs/morpheus.md
-- docs/acs/overview.md
 - docs/acs/risk-review.md
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
@@ -1081,7 +1058,6 @@ Generator Version: 1.0.0
 - docs/bba-agency/content-and-narrative.md
 - docs/bba-agency/dao-and-governance-communication.md
 - docs/bba-agency/growth-operations.md
-- docs/bba-agency/overview.md
 - docs/bba-agency/positioning.md
 - docs/bba-agency/reporting-and-accountability.md
 - docs/bba-agency/risk-and-compliance.md
@@ -1095,7 +1071,6 @@ Generator Version: 1.0.0
 - docs/business/dao-service-requests.md
 - docs/business/delivery-lifecycle.md
 - docs/business/governance-alignment.md
-- docs/business/overview.md
 - docs/business/plugin-requests.md
 - docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
@@ -1110,7 +1085,6 @@ Generator Version: 1.0.0
 - docs/defi/etf-daas.md
 - docs/defi/governance-alignment.md
 - docs/defi/liquidity-model.md
-- docs/defi/overview.md
 - docs/defi/protocol-model.md
 - docs/defi/reporting-and-accountability.md
 - docs/defi/risk-management.md
@@ -1129,7 +1103,6 @@ Generator Version: 1.0.0
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
-- docs/dex/overview.md
 - docs/dex/reporting-and-accountability.md
 - docs/dex/risk-and-disclosures.md
 - docs/dex/routing-and-aggregation.md
@@ -1149,7 +1122,6 @@ Generator Version: 1.0.0
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
 - docs/governance/governance-risk.md
-- docs/governance/overview.md
 - docs/governance/plugin-requests.md
 - docs/governance/proposal-lifecycle.md
 - docs/lottery/acs-integration.md
@@ -1161,7 +1133,6 @@ Generator Version: 1.0.0
 - docs/lottery/lotofacil-style-model.md
 - docs/lottery/merkle-and-indexing.md
 - docs/lottery/operations-and-runtime.md
-- docs/lottery/overview.md
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
 - docs/lottery/reporting-and-accountability.md
@@ -1183,7 +1154,6 @@ Generator Version: 1.0.0
 - docs/marketplace/fees-and-revenue.md
 - docs/marketplace/governance-alignment.md
 - docs/marketplace/listing-model.md
-- docs/marketplace/overview.md
 - docs/marketplace/payments-and-settlement.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
@@ -1204,7 +1174,6 @@ Generator Version: 1.0.0
 - docs/mining/mining-models.md
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
-- docs/mining/overview.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
@@ -1216,12 +1185,8 @@ Generator Version: 1.0.0
 - docs/mining/treasury-alignment.md
 - docs/mining/user-facing-products.md
 - docs/overview/constitutional-model.md
-- docs/overview/core-principles.md
 - docs/overview/documentation-standards.md
-- docs/overview/documentation-status.md
-- docs/overview/ecosystem-overview.md
 - docs/overview/product-map.md
-- docs/overview/risk-notices.md
 - docs/overview/terminology.md
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
@@ -1232,7 +1197,6 @@ Generator Version: 1.0.0
 - docs/runtime/execution-handoff.md
 - docs/runtime/governance-escalation.md
 - docs/runtime/milestones.md
-- docs/runtime/overview.md
 - docs/runtime/request-lifecycle.md
 - docs/runtime/risk-controls.md
 - docs/runtime/status-model.md
@@ -1240,7 +1204,6 @@ Generator Version: 1.0.0
 - docs/security/api-security.md
 - docs/security/disclosure-policy.md
 - docs/security/frontend-security.md
-- docs/security/overview.md
 - docs/security/smart-contract-security.md
 - docs/security/trading-api-security.md
 - docs/security/wallet-security.md
@@ -1251,7 +1214,6 @@ Generator Version: 1.0.0
 - docs/tokenomics/locked-rewards.md
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
-- docs/tokenomics/overview.md
 - docs/tokenomics/pok-minting.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
@@ -1267,7 +1229,6 @@ Generator Version: 1.0.0
 - docs/trading/compliance-and-user-disclosures.md
 - docs/trading/governance-alignment.md
 - docs/trading/internal-trading.md
-- docs/trading/overview.md
 - docs/trading/reporting-and-accountability.md
 - docs/trading/risk-management.md
 - docs/trading/scalper-futures.md
@@ -1280,7 +1241,6 @@ Generator Version: 1.0.0
 - docs/treasury/compliance-and-disclosures.md
 - docs/treasury/custody-and-security.md
 - docs/treasury/governance-alignment.md
-- docs/treasury/overview.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md

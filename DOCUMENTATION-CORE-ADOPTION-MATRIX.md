@@ -4,8 +4,8 @@ document_id: "DOC-REF-005"
 aliases: []
 document_type: "REFERENCE"
 title: "Documentation Core Adoption Matrix"
-summary: "Approves Batch 01 planning status for the 16 public cores without starting migration."
-version: "1.0.0"
+summary: "Records successful Batch 01 adoption for the 16 public cores."
+version: "1.1.0"
 publication_status: "APPROVED"
 document_state: "CURRENT"
 maturity_level: "D3"
@@ -37,29 +37,29 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-APPROVED on 2026-07-02 for Batch 01 planning only.
+APPROVED on 2026-07-02 with Batch 01 adoption results.
 
-## Batch Planning State
+## Batch 01 Adoption State
 
-Canonical count is zero for each public core because no public-core legacy document has been promoted. Documentation-framework canonical artifacts are not attributed to product-core adoption.
+Each public core has one migrated canonical overview. Documentation-framework canonical artifacts are not attributed to product-core adoption.
 
-| Core | Scope | Legacy | Canonical | Candidates | Eligible | Blocked | Status | Main blocker | Next action |
+| Core | Scope | Legacy | Canonical | Batch 01 migrated | Eligible | Blocked | Status | Main blocker | Next action |
 |---|---|---:|---:|---:|---:|---:|---|---|---|
-| Accountability | `ACCOUNT` | 5 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Execution authorization pending | Execute REQ-05 review |
-| Academy | `ACADEMY` | 24 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Execution authorization pending | Execute REQ-05 review |
-| ACS | `ACS` | 31 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Execution authorization pending | Execute REQ-05 review |
-| BBA Agency | `BBA` | 33 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Execution authorization pending | Execute REQ-05 review |
-| Business | `BUSINESS` | 31 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Execution authorization pending | Execute REQ-05 review |
-| DeFi | `DEFI` | 39 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| DEX | `DEX` | 43 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Governance | `GOV` | 24 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Content approval pending | Execute REQ-05 review |
-| Lottery | `LOTTERY` | 43 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Marketplace | `MARKET` | 45 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Mining | `MINING` | 47 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Runtime | `RUNTIME` | 31 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Technical review pending | Execute REQ-05 review |
-| Security | `SEC` | 7 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Tokenomics | `TOKEN` | 33 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Trading | `TRADING` | 32 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
-| Treasury | `TREASURY` | 33 | 0 | 1 | 1 | 0 | `BATCH_PLANNED` | Security/content review pending | Execute REQ-05 review |
+ | Accountability | `ACCOUNT` | 4 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Academy | `ACADEMY` | 23 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | ACS | `ACS` | 30 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | BBA Agency | `BBA` | 32 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Business | `BUSINESS` | 30 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | DeFi | `DEFI` | 38 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | DEX | `DEX` | 42 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Governance | `GOV` | 23 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Lottery | `LOTTERY` | 42 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Marketplace | `MARKET` | 44 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Mining | `MINING` | 46 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Runtime | `RUNTIME` | 30 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Security | `SEC` | 6 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Tokenomics | `TOKEN` | 32 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Trading | `TRADING` | 31 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
+ | Treasury | `TREASURY` | 32 | 1 | 1 | 0 | 0 | `ADOPTED_PARTIAL` | None | Plan Batch 02 |
 
-`CORE` remains `GOVERNANCE_RESERVED` and is not a seventeenth public core. No core is `IN_MIGRATION`, `ADOPTED_PARTIAL`, or `ADOPTED_TARGET`.
+`CORE` remains `GOVERNANCE_RESERVED` and is not a seventeenth public core. All 16 public cores are `ADOPTED_PARTIAL`; none is `IN_MIGRATION` or `ADOPTED_TARGET`.

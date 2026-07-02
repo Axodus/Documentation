@@ -54,8 +54,8 @@ test('ADRs 018 through 020 are approved and indexed', async () => {
 test('REQ-02 preserves legacy baseline and exception populations', async () => {
   const baseline = JSON.parse(await readFile(resolve(root, 'documentation.baseline.json'), 'utf8'))
   const exceptions = JSON.parse(await readFile(resolve(root, 'documentation.exceptions.json'), 'utf8'))
-  assert.equal(baseline.entries.length, 633)
-  assert.equal(exceptions.exceptions.length, 633)
+  assert.equal(baseline.entries.length, 613)
+  assert.equal(exceptions.exceptions.length, 613)
   assert.ok(baseline.entries.some((entry) => entry.path === 'DOCUMENTATION-ADR-INDEX.md'))
   assert.ok(exceptions.exceptions.some((entry) => entry.document_path === 'DOCUMENTATION-ADR-INDEX.md'))
 })

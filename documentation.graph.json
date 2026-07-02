@@ -3929,6 +3929,36 @@
       "title": "<standard-title>"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACADEMY-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "ACADEMY-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/academy/overview.md",
+      "title": "Academy Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACCOUNT-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "ACCOUNT-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/accountability/overview.md",
+      "title": "Accountability Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACS-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "ACS-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/acs/overview.md",
+      "title": "ACS Overview"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -3969,6 +3999,26 @@
       "title": "Architecture"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BBA-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "BBA-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/bba-agency/overview.md",
+      "title": "Axodus BBA Agency Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/overview.md",
+      "title": "Business Overview"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -3987,6 +4037,66 @@
       "publication_status": null,
       "source_path": "CONTRIBUTING.md",
       "title": "Contributing to Axodus Documentation"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/overview/ecosystem-overview.md",
+      "title": "Ecosystem Overview"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/overview/core-principles.md",
+      "title": "Core Principles"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/overview/documentation-status.md",
+      "title": "Documentation Status"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/overview/risk-notices.md",
+      "title": "Risk Notices"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DEFI-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "DEFI-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/defi/overview.md",
+      "title": "Axodus DeFi Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DEX-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "DEX-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/dex/overview.md",
+      "title": "Axodus DEX Overview"
     },
     {
       "authority_level": "CORE",
@@ -4369,6 +4479,16 @@
       "title": "Documentation Core Adoption Matrix"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-REF-006",
+      "document_type": "REFERENCE",
+      "node_id": "DOC-REF-006",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "title": "Documentation Batch 01 ID Reservation Record"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
@@ -4457,6 +4577,56 @@
       "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "title": "Documentation Batch 01 Authority Evidence"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-007",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-007",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01.md",
+      "title": "Documentation Migration Batch 01"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-008",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-008",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "title": "Documentation Migration Batch 01 Evidence"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-009",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-009",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
+      "title": "Documentation Batch 01 Semantic Diff Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-010",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-010",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
+      "title": "Documentation Batch 01 Security Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-011",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-011",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
+      "title": "Documentation Batch 01 Validation Report"
     },
     {
       "authority_level": "CORE",
@@ -4613,16 +4783,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/academy/overview.md",
-      "publication_status": null,
-      "source_path": "docs/academy/overview.md",
-      "title": "Academy Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/academy/proof-of-knowledge.md",
       "publication_status": null,
       "source_path": "docs/academy/proof-of-knowledge.md",
@@ -4667,16 +4827,6 @@
       "publication_status": null,
       "source_path": "docs/accountability/governance-records.md",
       "title": "Governance Records"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/accountability/overview.md",
-      "publication_status": null,
-      "source_path": "docs/accountability/overview.md",
-      "title": "Accountability Overview"
     },
     {
       "authority_level": null,
@@ -4787,16 +4937,6 @@
       "publication_status": null,
       "source_path": "docs/acs/morpheus.md",
       "title": "Morpheus"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/acs/overview.md",
-      "publication_status": null,
-      "source_path": "docs/acs/overview.md",
-      "title": "ACS Overview"
     },
     {
       "authority_level": null,
@@ -4943,16 +5083,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/bba-agency/overview.md",
-      "publication_status": null,
-      "source_path": "docs/bba-agency/overview.md",
-      "title": "Axodus BBA Agency Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/bba-agency/positioning.md",
       "publication_status": null,
       "source_path": "docs/bba-agency/positioning.md",
@@ -5077,16 +5207,6 @@
       "publication_status": null,
       "source_path": "docs/business/governance-alignment.md",
       "title": "Governance Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/overview.md",
-      "publication_status": null,
-      "source_path": "docs/business/overview.md",
-      "title": "Business Overview"
     },
     {
       "authority_level": null,
@@ -5227,16 +5347,6 @@
       "publication_status": null,
       "source_path": "docs/defi/liquidity-model.md",
       "title": "Liquidity Model"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/defi/overview.md",
-      "publication_status": null,
-      "source_path": "docs/defi/overview.md",
-      "title": "Axodus DeFi Overview"
     },
     {
       "authority_level": null,
@@ -5417,16 +5527,6 @@
       "publication_status": null,
       "source_path": "docs/dex/mev-and-execution-risk.md",
       "title": "MEV and Execution Risk"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/dex/overview.md",
-      "publication_status": null,
-      "source_path": "docs/dex/overview.md",
-      "title": "Axodus DEX Overview"
     },
     {
       "authority_level": null,
@@ -5623,16 +5723,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/governance/overview.md",
-      "publication_status": null,
-      "source_path": "docs/governance/overview.md",
-      "title": "Governance Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/governance/plugin-requests.md",
       "publication_status": null,
       "source_path": "docs/governance/plugin-requests.md",
@@ -5737,16 +5827,6 @@
       "publication_status": null,
       "source_path": "docs/lottery/operations-and-runtime.md",
       "title": "Operations and Runtime"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/lottery/overview.md",
-      "publication_status": null,
-      "source_path": "docs/lottery/overview.md",
-      "title": "Axodus Lottery Overview"
     },
     {
       "authority_level": null,
@@ -5963,16 +6043,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/marketplace/overview.md",
-      "publication_status": null,
-      "source_path": "docs/marketplace/overview.md",
-      "title": "Axodus Marketplace Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/marketplace/payments-and-settlement.md",
       "publication_status": null,
       "source_path": "docs/marketplace/payments-and-settlement.md",
@@ -6173,16 +6243,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/mining/overview.md",
-      "publication_status": null,
-      "source_path": "docs/mining/overview.md",
-      "title": "Axodus Mining Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/mining/pools-hashrate-and-network-difficulty.md",
       "publication_status": null,
       "source_path": "docs/mining/pools-hashrate-and-network-difficulty.md",
@@ -6293,16 +6353,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/overview/core-principles.md",
-      "publication_status": null,
-      "source_path": "docs/overview/core-principles.md",
-      "title": "Core Principles"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/overview/documentation-standards.md",
       "publication_status": null,
       "source_path": "docs/overview/documentation-standards.md",
@@ -6313,40 +6363,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/overview/documentation-status.md",
-      "publication_status": null,
-      "source_path": "docs/overview/documentation-status.md",
-      "title": "Documentation Status"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/overview/ecosystem-overview.md",
-      "publication_status": null,
-      "source_path": "docs/overview/ecosystem-overview.md",
-      "title": "Ecosystem Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/overview/product-map.md",
       "publication_status": null,
       "source_path": "docs/overview/product-map.md",
       "title": "Product Map"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/overview/risk-notices.md",
-      "publication_status": null,
-      "source_path": "docs/overview/risk-notices.md",
-      "title": "Risk Notices"
     },
     {
       "authority_level": null,
@@ -6453,16 +6473,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/runtime/overview.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/overview.md",
-      "title": "Runtime Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/runtime/request-lifecycle.md",
       "publication_status": null,
       "source_path": "docs/runtime/request-lifecycle.md",
@@ -6527,16 +6537,6 @@
       "publication_status": null,
       "source_path": "docs/security/frontend-security.md",
       "title": "Frontend Security"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/security/overview.md",
-      "publication_status": null,
-      "source_path": "docs/security/overview.md",
-      "title": "Security Overview"
     },
     {
       "authority_level": null,
@@ -6637,16 +6637,6 @@
       "publication_status": null,
       "source_path": "docs/tokenomics/neurons-token.md",
       "title": "$Neurons Token"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/tokenomics/overview.md",
-      "publication_status": null,
-      "source_path": "docs/tokenomics/overview.md",
-      "title": "Tokenomics Overview"
     },
     {
       "authority_level": null,
@@ -6803,16 +6793,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/trading/overview.md",
-      "publication_status": null,
-      "source_path": "docs/trading/overview.md",
-      "title": "Trading Overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/trading/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/trading/reporting-and-accountability.md",
@@ -6927,16 +6907,6 @@
       "publication_status": null,
       "source_path": "docs/treasury/governance-alignment.md",
       "title": "Governance Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/treasury/overview.md",
-      "publication_status": null,
-      "source_path": "docs/treasury/overview.md",
-      "title": "Treasury Overview"
     },
     {
       "authority_level": null,
@@ -7189,6 +7159,16 @@
       "title": "Axodus Glossary"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "GOV-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "GOV-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/governance/overview.md",
+      "title": "Governance Overview"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -7209,6 +7189,26 @@
       "title": "Governance"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "LOTTERY-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "LOTTERY-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/lottery/overview.md",
+      "title": "Axodus Lottery Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MARKET-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "MARKET-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/marketplace/overview.md",
+      "title": "Axodus Marketplace Overview"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -7217,6 +7217,16 @@
       "publication_status": null,
       "source_path": "meetings/README.md",
       "title": "Meetings"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/overview.md",
+      "title": "Axodus Mining Overview"
     },
     {
       "authority_level": null,
@@ -7339,6 +7349,26 @@
       "title": "Roadmaps"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/overview.md",
+      "title": "Runtime Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "SEC-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "SEC-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/security/overview.md",
+      "title": "Security Overview"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -7377,6 +7407,36 @@
       "publication_status": null,
       "source_path": "templates/README.md",
       "title": "Documentation Templates"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TOKEN-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "TOKEN-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/tokenomics/overview.md",
+      "title": "Tokenomics Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TRADING-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "TRADING-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/trading/overview.md",
+      "title": "Trading Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "TREASURY-GDE-001",
+      "publication_status": "APPROVED",
+      "source_path": "docs/treasury/overview.md",
+      "title": "Treasury Overview"
     }
   ],
   "orphan_documents": [
@@ -7736,13 +7796,11 @@
     "docs/academy/learn-to-win.md",
     "docs/academy/locked-rewards.md",
     "docs/academy/marketplace-integration.md",
-    "docs/academy/overview.md",
     "docs/academy/proof-of-knowledge.md",
     "docs/academy/token-reward-flows.md",
     "docs/academy/tutor-validation.md",
     "docs/accountability/financial-reports.md",
     "docs/accountability/governance-records.md",
-    "docs/accountability/overview.md",
     "docs/accountability/release-notes.md",
     "docs/accountability/roadmap-updates.md",
     "docs/acs/accountability.md",
@@ -7754,7 +7812,6 @@
     "docs/acs/human-oversight.md",
     "docs/acs/memory-and-knowledge.md",
     "docs/acs/morpheus.md",
-    "docs/acs/overview.md",
     "docs/acs/risk-review.md",
     "docs/acs/runtime.md",
     "docs/acs/security-and-risk.md",
@@ -7769,7 +7826,6 @@
     "docs/bba-agency/content-and-narrative.md",
     "docs/bba-agency/dao-and-governance-communication.md",
     "docs/bba-agency/growth-operations.md",
-    "docs/bba-agency/overview.md",
     "docs/bba-agency/positioning.md",
     "docs/bba-agency/reporting-and-accountability.md",
     "docs/bba-agency/risk-and-compliance.md",
@@ -7783,7 +7839,6 @@
     "docs/business/dao-service-requests.md",
     "docs/business/delivery-lifecycle.md",
     "docs/business/governance-alignment.md",
-    "docs/business/overview.md",
     "docs/business/plugin-requests.md",
     "docs/business/request-intake.md",
     "docs/business/risk-and-compliance.md",
@@ -7798,7 +7853,6 @@
     "docs/defi/etf-daas.md",
     "docs/defi/governance-alignment.md",
     "docs/defi/liquidity-model.md",
-    "docs/defi/overview.md",
     "docs/defi/protocol-model.md",
     "docs/defi/reporting-and-accountability.md",
     "docs/defi/risk-management.md",
@@ -7817,7 +7871,6 @@
     "docs/dex/lp-model.md",
     "docs/dex/marketplace-integration.md",
     "docs/dex/mev-and-execution-risk.md",
-    "docs/dex/overview.md",
     "docs/dex/reporting-and-accountability.md",
     "docs/dex/risk-and-disclosures.md",
     "docs/dex/routing-and-aggregation.md",
@@ -7837,7 +7890,6 @@
     "docs/governance/executive-dao.md",
     "docs/governance/governance-lifecycle.md",
     "docs/governance/governance-risk.md",
-    "docs/governance/overview.md",
     "docs/governance/plugin-requests.md",
     "docs/governance/proposal-lifecycle.md",
     "docs/lottery/acs-integration.md",
@@ -7849,7 +7901,6 @@
     "docs/lottery/lotofacil-style-model.md",
     "docs/lottery/merkle-and-indexing.md",
     "docs/lottery/operations-and-runtime.md",
-    "docs/lottery/overview.md",
     "docs/lottery/prize-pools-and-payouts.md",
     "docs/lottery/randomness-and-vrf.md",
     "docs/lottery/reporting-and-accountability.md",
@@ -7871,7 +7922,6 @@
     "docs/marketplace/fees-and-revenue.md",
     "docs/marketplace/governance-alignment.md",
     "docs/marketplace/listing-model.md",
-    "docs/marketplace/overview.md",
     "docs/marketplace/payments-and-settlement.md",
     "docs/marketplace/reporting-and-accountability.md",
     "docs/marketplace/reputation-and-quality.md",
@@ -7892,7 +7942,6 @@
     "docs/mining/mining-models.md",
     "docs/mining/monitoring-and-telemetry.md",
     "docs/mining/node-and-validator-operations.md",
-    "docs/mining/overview.md",
     "docs/mining/pools-hashrate-and-network-difficulty.md",
     "docs/mining/reporting-and-accountability.md",
     "docs/mining/rewards-and-payouts.md",
@@ -7904,12 +7953,8 @@
     "docs/mining/treasury-alignment.md",
     "docs/mining/user-facing-products.md",
     "docs/overview/constitutional-model.md",
-    "docs/overview/core-principles.md",
     "docs/overview/documentation-standards.md",
-    "docs/overview/documentation-status.md",
-    "docs/overview/ecosystem-overview.md",
     "docs/overview/product-map.md",
-    "docs/overview/risk-notices.md",
     "docs/overview/terminology.md",
     "docs/runtime/accountability-records.md",
     "docs/runtime/acs-integration.md",
@@ -7920,7 +7965,6 @@
     "docs/runtime/execution-handoff.md",
     "docs/runtime/governance-escalation.md",
     "docs/runtime/milestones.md",
-    "docs/runtime/overview.md",
     "docs/runtime/request-lifecycle.md",
     "docs/runtime/risk-controls.md",
     "docs/runtime/status-model.md",
@@ -7928,7 +7972,6 @@
     "docs/security/api-security.md",
     "docs/security/disclosure-policy.md",
     "docs/security/frontend-security.md",
-    "docs/security/overview.md",
     "docs/security/smart-contract-security.md",
     "docs/security/trading-api-security.md",
     "docs/security/wallet-security.md",
@@ -7939,7 +7982,6 @@
     "docs/tokenomics/locked-rewards.md",
     "docs/tokenomics/marketplace-utility.md",
     "docs/tokenomics/neurons-token.md",
-    "docs/tokenomics/overview.md",
     "docs/tokenomics/pok-minting.md",
     "docs/tokenomics/reporting-and-accountability.md",
     "docs/tokenomics/reward-policy.md",
@@ -7955,7 +7997,6 @@
     "docs/trading/compliance-and-user-disclosures.md",
     "docs/trading/governance-alignment.md",
     "docs/trading/internal-trading.md",
-    "docs/trading/overview.md",
     "docs/trading/reporting-and-accountability.md",
     "docs/trading/risk-management.md",
     "docs/trading/scalper-futures.md",
@@ -7968,7 +8009,6 @@
     "docs/treasury/compliance-and-disclosures.md",
     "docs/treasury/custody-and-security.md",
     "docs/treasury/governance-alignment.md",
-    "docs/treasury/overview.md",
     "docs/treasury/reporting-and-accountability.md",
     "docs/treasury/reserves-and-liquidity.md",
     "docs/treasury/revenue-and-fees.md",
@@ -8655,6 +8695,10 @@
       "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
+      "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
+      "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
       "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
@@ -8668,6 +8712,8 @@
       "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
       "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
       "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "DOCUMENTATION-MIGRATION-BATCH-01.md",
       "DOCUMENTATION-MIGRATION-CRITERIA.md",
       "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "DOCUMENTATION-MIGRATION-WAVE-01.md",
@@ -8735,6 +8781,17 @@
       "templates/STANDARD-TEMPLATE.md"
     ],
     "relationship_connected": [
+      "ACADEMY-GDE-001",
+      "ACCOUNT-GDE-001",
+      "ACS-GDE-001",
+      "BBA-GDE-001",
+      "BUSINESS-GDE-001",
+      "CORE-GDE-001",
+      "CORE-GDE-002",
+      "CORE-GDE-003",
+      "CORE-GDE-004",
+      "DEFI-GDE-001",
+      "DEX-GDE-001",
       "DOC-ADR-001",
       "DOC-ADR-002",
       "DOC-ADR-003",
@@ -8773,6 +8830,7 @@
       "DOC-REF-003",
       "DOC-REF-004",
       "DOC-REF-005",
+      "DOC-REF-006",
       "DOC-ROAD-001",
       "DOC-ROAD-002",
       "DOC-ROAD-003",
@@ -8782,6 +8840,11 @@
       "DOC-RPT-004",
       "DOC-RPT-005",
       "DOC-RPT-006",
+      "DOC-RPT-007",
+      "DOC-RPT-008",
+      "DOC-RPT-009",
+      "DOC-RPT-010",
+      "DOC-RPT-011",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -8790,7 +8853,16 @@
       "DOC-SPEC-007",
       "DOC-STD-001",
       "DOC-STD-002",
-      "DOC-STD-003"
+      "DOC-STD-003",
+      "GOV-GDE-001",
+      "LOTTERY-GDE-001",
+      "MARKET-GDE-001",
+      "MINING-GDE-001",
+      "RUNTIME-GDE-001",
+      "SEC-GDE-001",
+      "TOKEN-GDE-001",
+      "TRADING-GDE-001",
+      "TREASURY-GDE-001"
     ],
     "relationship_unreachable": [
       "<SCOPE>-ADR-<NNN>",
@@ -8810,17 +8882,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 61,
+    "DEPENDS_ON": 62,
     "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 52,
-    "VALIDATES": 13
+    "RELATES_TO": 74,
+    "VALIDATES": 17
   },
   "relationship_statistics": {
-    "declared": 152,
+    "declared": 179,
     "derived": 0,
     "duplicates": 0,
-    "total": 152,
+    "total": 179,
     "unresolved": 0
   },
   "relationship_types": [
@@ -8831,6 +8903,72 @@
     "VALIDATES"
   ],
   "relationships": [
+    {
+      "source": "ACADEMY-GDE-001",
+      "source_path": "docs/academy/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-001",
+      "source_path": "docs/accountability/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACS-GDE-001",
+      "source_path": "docs/acs/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-GDE-001",
+      "source_path": "docs/bba-agency/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-001",
+      "source_path": "docs/business/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-001",
+      "source_path": "docs/overview/ecosystem-overview.md",
+      "target": "DOC-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-002",
+      "source_path": "docs/overview/core-principles.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-003",
+      "source_path": "docs/overview/documentation-status.md",
+      "target": "DOC-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-004",
+      "source_path": "docs/overview/risk-notices.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEFI-GDE-001",
+      "source_path": "docs/defi/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-001",
+      "source_path": "docs/dex/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
     {
       "source": "DOC-ADR-001",
       "source_path": "adr/DOC-ADR-001-OFFICIAL-DOCUMENTATION-SOURCE.md",
@@ -9360,6 +9498,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-006",
+      "source_path": "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "target": "DOC-RPT-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -9594,6 +9738,42 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-007",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01.md",
+      "target": "DOC-RPT-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-008",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "target": "DOC-RPT-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-008",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "target": "DOC-RPT-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-009",
+      "source_path": "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
+      "target": "DOC-RPT-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-010",
+      "source_path": "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
+      "target": "DOC-RPT-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-011",
+      "source_path": "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
+      "target": "DOC-RPT-007",
+      "type": "VALIDATES"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -9741,6 +9921,60 @@
       "source": "DOC-STD-003",
       "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "target": "DOC-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "GOV-GDE-001",
+      "source_path": "docs/governance/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-001",
+      "source_path": "docs/lottery/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-001",
+      "source_path": "docs/marketplace/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-001",
+      "source_path": "docs/mining/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-001",
+      "source_path": "docs/runtime/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "SEC-GDE-001",
+      "source_path": "docs/security/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TOKEN-GDE-001",
+      "source_path": "docs/tokenomics/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TRADING-GDE-001",
+      "source_path": "docs/trading/overview.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-001",
+      "source_path": "docs/treasury/overview.md",
+      "target": "CORE-GDE-001",
       "type": "RELATES_TO"
     }
   ],

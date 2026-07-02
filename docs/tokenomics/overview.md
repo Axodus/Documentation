@@ -1,9 +1,39 @@
-# Tokenomics Overview
+---
+schema_version: "1.0.0"
+document_id: "TOKEN-GDE-001"
+aliases: []
+document_type: "GUIDE"
+title: "Tokenomics Overview"
+summary: "Provides the governed overview for Tokenomics within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "TOKENOMICS"
+authority_level: "CORE"
+author: "Axodus Tokenomics"
+owner: "Axodus Tokenomics"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-06-05"
+last_updated: "2026-07-02"
+last_reviewed: "2026-07-02"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-02"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "CORE-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-05"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["TOKENOMICS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/tokenomics/overview.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft
-Version: 0.2.0
-Last Updated: 2026-06-05
-Owner: Axodus Tokenomics
+# Tokenomics Overview
 
 ---
 

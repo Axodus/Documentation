@@ -6442,24 +6442,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/academy/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/academy/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/academy/proof-of-knowledge.md"
     },
     {
@@ -6542,24 +6524,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/accountability/governance-records.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/accountability/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/accountability/overview.md"
     },
     {
       "document_id": null,
@@ -6758,24 +6722,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/acs/morpheus.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/acs/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/acs/overview.md"
     },
     {
       "document_id": null,
@@ -7036,24 +6982,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/bba-agency/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/bba-agency/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/bba-agency/positioning.md"
     },
     {
@@ -7280,24 +7208,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/business/governance-alignment.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/business/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/business/overview.md"
     },
     {
       "document_id": null,
@@ -7550,24 +7460,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/defi/liquidity-model.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/defi/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/defi/overview.md"
     },
     {
       "document_id": null,
@@ -7892,24 +7784,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/dex/mev-and-execution-risk.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/dex/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/dex/overview.md"
     },
     {
       "document_id": null,
@@ -8260,24 +8134,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/governance/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/governance/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/governance/plugin-requests.md"
     },
     {
@@ -8468,24 +8324,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/lottery/operations-and-runtime.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/lottery/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/lottery/overview.md"
     },
     {
       "document_id": null,
@@ -8872,24 +8710,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/marketplace/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/marketplace/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/marketplace/payments-and-settlement.md"
     },
     {
@@ -9250,24 +9070,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/mining/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/mining/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/mining/pools-hashrate-and-network-difficulty.md"
     },
     {
@@ -9466,24 +9268,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/overview/core-principles.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/overview/core-principles.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/overview/documentation-standards.md"
     },
     {
@@ -9502,42 +9286,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/overview/documentation-status.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/overview/documentation-status.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/overview/ecosystem-overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/overview/ecosystem-overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/overview/product-map.md"
     },
     {
@@ -9548,24 +9296,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/overview/product-map.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/overview/risk-notices.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/overview/risk-notices.md"
     },
     {
       "document_id": null,
@@ -9754,24 +9484,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/runtime/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/runtime/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/runtime/request-lifecycle.md"
     },
     {
@@ -9890,24 +9602,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/security/frontend-security.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/security/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/security/overview.md"
     },
     {
       "document_id": null,
@@ -10088,24 +9782,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/tokenomics/neurons-token.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/tokenomics/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/tokenomics/overview.md"
     },
     {
       "document_id": null,
@@ -10384,24 +10060,6 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "docs/trading/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/trading/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
       "source_path": "docs/trading/reporting-and-accountability.md"
     },
     {
@@ -10610,24 +10268,6 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/treasury/governance-alignment.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/treasury/overview.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "docs/treasury/overview.md"
     },
     {
       "document_id": null,
@@ -11442,32 +11082,32 @@
   ],
   "errors": 0,
   "generated_at": "2026-07-02T00:00:00Z",
-  "legacy_documents": 633,
+  "legacy_documents": 613,
   "repository_statistics": {
-    "active_exceptions": 633,
-    "baseline_entries": 633,
+    "active_exceptions": 613,
+    "baseline_entries": 613,
     "changed_legacy": 0,
     "errors": 0,
-    "exception_entries": 633,
+    "exception_entries": 613,
     "expired_exceptions": 0,
-    "info": 1271,
+    "info": 1231,
     "invalid_exceptions": 0,
-    "known_legacy": 633,
-    "legacy_documents": 633,
-    "relationships": 152,
+    "known_legacy": 613,
+    "legacy_documents": 613,
+    "relationships": 179,
     "removed_legacy": 0,
     "revoked_exceptions": 0,
     "skipped_documents": 0,
     "template_documents": 14,
-    "total_documents": 703,
+    "total_documents": 709,
     "unbaselined_legacy": 0,
-    "validated_documents": 56,
+    "validated_documents": 82,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 56,
+  "validated_documents": 82,
   "validation_version": "1.1.0",
   "warnings": 0
 }

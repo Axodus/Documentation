@@ -24,12 +24,12 @@ test('REQ-04 governance artifacts conform to Schema 1.0.0', async () => {
   }
 })
 
-test('Core Adoption Matrix is approved with exactly 16 BATCH_PLANNED cores', async () => {
+test('Core Adoption Matrix retains all 16 governed public cores', async () => {
   const matrix = await load('DOCUMENTATION-CORE-ADOPTION-MATRIX.md')
   assert.match(matrix, /publication_status: "APPROVED"/)
-  assert.equal((matrix.match(/`BATCH_PLANNED`/g) ?? []).length, 16)
+  assert.equal((matrix.match(/\| `(?:BATCH_PLANNED|ADOPTED_PARTIAL)` \|/g) ?? []).length, 16)
   assert.match(matrix, /`CORE` remains `GOVERNANCE_RESERVED`/)
-  assert.doesNotMatch(matrix, /\| `IN_MIGRATION` \||\| `ADOPTED_PARTIAL` \||\| `ADOPTED_TARGET` \|/)
+  assert.doesNotMatch(matrix, /\| `IN_MIGRATION` \||\| `ADOPTED_TARGET` \|/)
 })
 
 test('freeze proposal contains 20 primaries and four ordered alternates', async () => {
@@ -71,11 +71,11 @@ test('authority defaults and execution boundary are explicit', async () => {
   assert.match(contract, /authorizes no migration/)
 })
 
-test('freeze does not change baseline or exception populations', async () => {
+test('baseline and exception populations remain synchronized', async () => {
   const baseline = JSON.parse(await load('documentation.baseline.json'))
   const exceptions = JSON.parse(await load('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 633)
-  assert.equal(exceptions.exceptions.length, 633)
+  assert.equal(baseline.entries.length, 613)
+  assert.equal(exceptions.exceptions.length, 613)
   assert.deepEqual(
     baseline.entries.map(({ path }) => path).sort(),
     exceptions.exceptions.map(({ document_path }) => document_path).sort(),
