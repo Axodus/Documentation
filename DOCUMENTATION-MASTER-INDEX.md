@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-02T00:00:00Z
-Source Documents: 700
+Source Documents: 703
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 700
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 700 |
-| Canonical documents | 53 |
+| Total source documents | 703 |
+| Canonical documents | 56 |
 | Legacy documents | 633 |
 | Template documents | 14 |
-| Declared relationships | 140 |
+| Declared relationships | 152 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,12 +42,12 @@ Source Documents: 700
 | PROPOSAL | 1 |
 | REFERENCE | 6 |
 | RELEASE | 1 |
-| REPORT | 5 |
+| REPORT | 7 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 3 |
 | RUNBOOK | 1 |
-| SPECIFICATION | 6 |
+| SPECIFICATION | 7 |
 | STANDARD | 4 |
 | UNSPECIFIED | 633 |
 ## Documents by Authority
@@ -57,15 +57,15 @@ Source Documents: 700
 | COMPONENT | 2 |
 | CORE | 52 |
 | MODULE | 1 |
-| PROJECT | 12 |
+| PROJECT | 15 |
 | UNSPECIFIED | 633 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 24 |
-| DRAFT | 22 |
+| APPROVED | 28 |
+| DRAFT | 21 |
 | UNSPECIFIED | 633 |
 ## Canonical Documents
 
@@ -94,10 +94,13 @@ Source Documents: 700
 | DOC-GDE-006 | Axodus Documentation | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Documentation Core | [docs/index.md](docs/index.md) |
 | DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-ADOPTION-METRICS.md](DOCUMENTATION-ADOPTION-METRICS.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
-| DOC-ROAD-003 | Documentation Batch 01 Candidate Freeze Proposal | ROADMAP | DRAFT | PROJECT | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md) |
+| DOC-RPT-006 | Documentation Batch 01 Authority Evidence | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md](DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md) |
+| DOC-ROAD-003 | Documentation Batch 01 Candidate Freeze Proposal | ROADMAP | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md) |
+| DOC-SPEC-007 | Documentation Batch 01 Execution Contract | SPECIFICATION | DRAFT | PROJECT | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md](DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md) |
+| DOC-RPT-005 | Documentation Batch 01 Freeze Record | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-FREEZE-RECORD.md](DOCUMENTATION-BATCH-01-FREEZE-RECORD.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
-| DOC-REF-005 | Documentation Core Adoption Matrix | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-CORE-ADOPTION-MATRIX.md](DOCUMENTATION-CORE-ADOPTION-MATRIX.md) |
+| DOC-REF-005 | Documentation Core Adoption Matrix | REFERENCE | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CORE-ADOPTION-MATRIX.md](DOCUMENTATION-CORE-ADOPTION-MATRIX.md) |
 | DOC-STD-003 | Documentation Debt Classification | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-DEBT-CLASSIFICATION.md](DOCUMENTATION-DEBT-CLASSIFICATION.md) |
 | DOC-RPT-002 | Documentation Epic 01 Closure Report | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md](DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md) |
 | DOC-ROAD-001 | Documentation Epic 02 Adoption Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PLAN.md](DOCUMENTATION-EPIC-02-PLAN.md) |

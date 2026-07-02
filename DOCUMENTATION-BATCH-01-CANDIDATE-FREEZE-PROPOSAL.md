@@ -4,11 +4,11 @@ document_id: "DOC-ROAD-003"
 aliases: []
 document_type: "ROADMAP"
 title: "Documentation Batch 01 Candidate Freeze Proposal"
-summary: "Proposes Batch 01 primary and alternate candidates while withholding freeze, migration authority, and final ID reservations."
-version: "0.1.0"
-publication_status: "DRAFT"
-document_state: "EXPERIMENTAL"
-maturity_level: "D2"
+summary: "Freezes Batch 01 primary and alternate candidates while withholding migration authority and final ID reservations."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.MIGRATION.BATCH_01"
 authority_level: "PROJECT"
 author: "Axodus Documentation Core"
@@ -37,11 +37,13 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-PROPOSED. No candidate is frozen, eligible, migrated, or assigned a final ID.
+APPROVED and frozen on 2026-07-02. No candidate is migrated or assigned a final numeric ID.
 
-## Common Evidence and Blocker
+## Common Evidence and Authority Default
 
-Every listed path exists, is referenced by public navigation, declares an inline owner and scope, and has a verifiable update date. Every candidate is `NEEDS_REVIEW`, scores 80, and lacks canonical reviewer/approver evidence. Proposed IDs are patterns only.
+Every listed path exists, is referenced by public navigation, declares an inline owner and scope, and has a verifiable update date. Every candidate remains `NEEDS_REVIEW` with score 80.
+
+Batch governance assigns `Documentation Architecture Reviewer`, `Portfolio Documentation Reviewer`, and `Security Reviewer`, with `Documentation Coordinator` as approver. This resolves freeze governance only; content authority and semantic diff remain mandatory REQ-05 checks. Proposed IDs are patterns only.
 
 Likely semantic target: `DOC-GDE-006` (public documentation entry point), with additional ADR/policy targets determined by REQ-04 authority review.
 
@@ -49,36 +51,36 @@ Likely semantic target: `DOC-GDE-006` (public documentation entry point), with a
 
 | Source path | Scope | Type/pattern | Flags | Semantic target | Status |
 |---|---|---|---|---|---|
-| `docs/accountability/overview.md` | `ACCOUNT` | `GDE` / `ACCOUNT-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/academy/overview.md` | `ACADEMY` | `GDE` / `ACADEMY-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/acs/overview.md` | `ACS` | `GDE` / `ACS-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/bba-agency/overview.md` | `BBA` | `GDE` / `BBA-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/business/overview.md` | `BUSINESS` | `GDE` / `BUSINESS-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/defi/overview.md` | `DEFI` | `GDE` / `DEFI-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/dex/overview.md` | `DEX` | `GDE` / `DEX-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/governance/overview.md` | `GOV` | `GDE` / `GOV-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/lottery/overview.md` | `LOTTERY` | `GDE` / `LOTTERY-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/marketplace/overview.md` | `MARKET` | `GDE` / `MARKET-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/mining/overview.md` | `MINING` | `GDE` / `MINING-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/runtime/overview.md` | `RUNTIME` | `GDE` / `RUNTIME-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/security/overview.md` | `SEC` | `GDE` / `SEC-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/tokenomics/overview.md` | `TOKEN` | `GDE` / `TOKEN-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/trading/overview.md` | `TRADING` | `GDE` / `TRADING-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/treasury/overview.md` | `TREASURY` | `GDE` / `TREASURY-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/overview/ecosystem-overview.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/overview/core-principles.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/overview/documentation-status.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
-| `docs/overview/risk-notices.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk, security_sensitive | `DOC-GDE-006` | `PRIMARY_BLOCKED` |
+| `docs/accountability/overview.md` | `ACCOUNT` | `GDE` / `ACCOUNT-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/academy/overview.md` | `ACADEMY` | `GDE` / `ACADEMY-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/acs/overview.md` | `ACS` | `GDE` / `ACS-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/bba-agency/overview.md` | `BBA` | `GDE` / `BBA-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/business/overview.md` | `BUSINESS` | `GDE` / `BUSINESS-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/defi/overview.md` | `DEFI` | `GDE` / `DEFI-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/dex/overview.md` | `DEX` | `GDE` / `DEX-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/governance/overview.md` | `GOV` | `GDE` / `GOV-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/lottery/overview.md` | `LOTTERY` | `GDE` / `LOTTERY-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/marketplace/overview.md` | `MARKET` | `GDE` / `MARKET-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/mining/overview.md` | `MINING` | `GDE` / `MINING-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/runtime/overview.md` | `RUNTIME` | `GDE` / `RUNTIME-GDE-<NNN>` | public_exposure, urgency, authority_required, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/security/overview.md` | `SEC` | `GDE` / `SEC-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/tokenomics/overview.md` | `TOKEN` | `GDE` / `TOKEN-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/trading/overview.md` | `TRADING` | `GDE` / `TRADING-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/treasury/overview.md` | `TREASURY` | `GDE` / `TREASURY-GDE-<NNN>` | public_exposure, urgency, authority_required, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/overview/ecosystem-overview.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/overview/core-principles.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/overview/documentation-status.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk | `DOC-GDE-006` | `FROZEN_PRIMARY` |
+| `docs/overview/risk-notices.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | public_exposure, urgency, authority_required, cross_core_dependency, risk, security_sensitive | `DOC-GDE-006` | `FROZEN_PRIMARY` |
 
 ## Ordered Alternates
 
 | Order | Source path | Scope | Type/pattern | Status |
 |---:|---|---|---|---|
-| 1 | `docs/overview/constitutional-model.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `ALTERNATE_BLOCKED` |
-| 2 | `docs/overview/documentation-standards.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `ALTERNATE_BLOCKED` |
-| 3 | `docs/overview/product-map.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `ALTERNATE_BLOCKED` |
-| 4 | `docs/overview/terminology.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `ALTERNATE_BLOCKED` |
+| 1 | `docs/overview/constitutional-model.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `FROZEN_ALTERNATE` |
+| 2 | `docs/overview/documentation-standards.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `FROZEN_ALTERNATE` |
+| 3 | `docs/overview/product-map.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `FROZEN_ALTERNATE` |
+| 4 | `docs/overview/terminology.md` | `CORE` | `GDE` / `CORE-GDE-<NNN>` | `FROZEN_ALTERNATE` |
 
 ## REQ-04 Decision Boundary
 
-REQ-04 must confirm owner authority, assign applicable reviewers and approver, verify semantic targets, decide candidate status, and only then freeze a reviewed list. Final numeric IDs remain unreserved.
+REQ-05 must confirm each owner claim, complete content/security/semantic diff review, resolve final semantic targets, and request final numeric ID reservation before migration. Final numeric IDs remain unreserved.

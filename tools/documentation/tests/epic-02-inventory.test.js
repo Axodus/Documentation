@@ -17,12 +17,12 @@ const artifacts = [
 const loadJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'))
 const pathSetHash = (paths) => createHash('sha256').update(`${[...paths].sort().join('\n')}\n`).digest('hex')
 
-test('REQ-03 artifacts are canonical drafts connected to the governance graph', async () => {
+test('REQ-03 artifacts remain canonical and connected after subsequent governance gates', async () => {
   for (const [path, id] of artifacts) {
     const document = await loadDocument(resolve(root, path), { root })
     assert.equal(document.profile, 'CANONICAL')
     assert.equal(document.metadata.document_id, id)
-    assert.equal(document.metadata.publication_status, 'DRAFT')
+    assert.ok(['DRAFT', 'APPROVED'].includes(document.metadata.publication_status))
     assert.ok(document.metadata.relationships.length > 0)
   }
 })
@@ -63,19 +63,19 @@ test('domain distribution matches the accepted inventory', async () => {
   assert.equal(633 - count('docs/') - count('.knowledge/') - count('.instructions/'), 42)
 })
 
-test('Batch 01 proposal evaluates 20 primaries and four ordered alternates without final IDs', async () => {
+test('Batch 01 proposal retains 20 primaries and four ordered alternates without final IDs', async () => {
   const proposal = await readFile(resolve(root, 'DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md'), 'utf8')
-  assert.equal((proposal.match(/`PRIMARY_BLOCKED`/g) ?? []).length, 20)
-  assert.equal((proposal.match(/`ALTERNATE_BLOCKED`/g) ?? []).length, 4)
+  assert.equal((proposal.match(/`(?:PRIMARY_BLOCKED|FROZEN_PRIMARY)`/g) ?? []).length, 20)
+  assert.equal((proposal.match(/`(?:ALTERNATE_BLOCKED|FROZEN_ALTERNATE)`/g) ?? []).length, 4)
   assert.equal((proposal.match(/-GDE-<NNN>/g) ?? []).length, 24)
   assert.doesNotMatch(proposal, /(?:ACCOUNT|ACADEMY|ACS|BBA|BUSINESS|DEFI|DEX|GOV|LOTTERY|MARKET|MINING|RUNTIME|SEC|TOKEN|TRADING|TREASURY|CORE)-GDE-\d{3}/)
 })
 
-test('core adoption matrix covers all 16 public scopes at INVENTORIED', async () => {
+test('core adoption matrix covers all 16 public scopes without migration or adoption states', async () => {
   const matrix = await readFile(resolve(root, 'DOCUMENTATION-CORE-ADOPTION-MATRIX.md'), 'utf8')
   for (const scope of ['ACCOUNT', 'ACADEMY', 'ACS', 'BBA', 'BUSINESS', 'DEFI', 'DEX', 'GOV', 'LOTTERY', 'MARKET', 'MINING', 'RUNTIME', 'SEC', 'TOKEN', 'TRADING', 'TREASURY']) {
     assert.match(matrix, new RegExp(`\\| \\\`${scope}\\\` \\|`))
   }
-  assert.equal((matrix.match(/`INVENTORIED`/g) ?? []).length, 16)
-  assert.doesNotMatch(matrix, /`IN_MIGRATION`|`ADOPTED_PARTIAL`|`ADOPTED_TARGET`/)
+  assert.equal((matrix.match(/`(?:INVENTORIED|BATCH_PLANNED)`/g) ?? []).length, 16)
+  assert.doesNotMatch(matrix, /\| `IN_MIGRATION` \||\| `ADOPTED_PARTIAL` \||\| `ADOPTED_TARGET` \|/)
 })

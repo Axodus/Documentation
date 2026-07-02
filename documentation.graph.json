@@ -4364,7 +4364,7 @@
       "document_id": "DOC-REF-005",
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-005",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "title": "Documentation Core Adoption Matrix"
     },
@@ -4394,7 +4394,7 @@
       "document_id": "DOC-ROAD-003",
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-003",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "title": "Documentation Batch 01 Candidate Freeze Proposal"
     },
@@ -4437,6 +4437,26 @@
       "publication_status": "DRAFT",
       "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
       "title": "Documentation Legacy Classification Evidence"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-005",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-005",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "title": "Documentation Batch 01 Freeze Record"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-006",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-006",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "title": "Documentation Batch 01 Authority Evidence"
     },
     {
       "authority_level": "CORE",
@@ -4487,6 +4507,16 @@
       "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
       "title": "Documentation Adoption Metrics"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-SPEC-007",
+      "document_type": "SPECIFICATION",
+      "node_id": "DOC-SPEC-007",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "title": "Documentation Batch 01 Execution Contract"
     },
     {
       "authority_level": "CORE",
@@ -8621,7 +8651,10 @@
       "DOCUMENTATION-ADOPTION-METRICS.md",
       "DOCUMENTATION-ADR-INDEX.md",
       "DOCUMENTATION-BASELINE-POLICY.md",
+      "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
       "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
@@ -8747,11 +8780,14 @@
       "DOC-RPT-002",
       "DOC-RPT-003",
       "DOC-RPT-004",
+      "DOC-RPT-005",
+      "DOC-RPT-006",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
       "DOC-SPEC-004",
       "DOC-SPEC-005",
+      "DOC-SPEC-007",
       "DOC-STD-001",
       "DOC-STD-002",
       "DOC-STD-003"
@@ -8774,17 +8810,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 50,
+    "DEPENDS_ON": 61,
     "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 51,
+    "RELATES_TO": 52,
     "VALIDATES": 13
   },
   "relationship_statistics": {
-    "declared": 140,
+    "declared": 152,
     "derived": 0,
     "duplicates": 0,
-    "total": 140,
+    "total": 152,
     "unresolved": 0
   },
   "relationship_types": [
@@ -9510,6 +9546,54 @@
       "type": "VALIDATES"
     },
     {
+      "source": "DOC-RPT-005",
+      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "target": "DOC-ADR-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-005",
+      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "target": "DOC-REF-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-005",
+      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "target": "DOC-ROAD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-005",
+      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "target": "DOC-RPT-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-006",
+      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "target": "DOC-PLAY-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-006",
+      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "target": "DOC-POL-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-006",
+      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "target": "DOC-STD-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-006",
+      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "target": "DOC-ADR-019",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -9574,6 +9658,30 @@
       "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
       "target": "DOC-STD-003",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-SPEC-007",
+      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "target": "DOC-ADR-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-007",
+      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "target": "DOC-PLAY-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-007",
+      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "target": "DOC-RPT-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-007",
+      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "target": "DOC-STD-002",
+      "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-STD-001",
