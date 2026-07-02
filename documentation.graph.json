@@ -279,6 +279,43 @@
       ]
     },
     {
+      "allowed": false,
+      "nodes": [
+        "DOC-REF-005",
+        "DOC-RPT-003",
+        "DOC-RPT-004"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO",
+        "VALIDATES"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ROAD-002",
+        "DOC-RPT-003",
+        "DOC-RPT-004"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO",
+        "VALIDATES"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-RPT-003",
+        "DOC-RPT-004"
+      ],
+      "relationship_types": [
+        "RELATES_TO",
+        "VALIDATES"
+      ]
+    },
+    {
       "allowed": true,
       "nodes": [
         "DOC-SPEC-005",
@@ -4324,12 +4361,42 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-REF-005",
+      "document_type": "REFERENCE",
+      "node_id": "DOC-REF-005",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "title": "Documentation Core Adoption Matrix"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-001",
       "publication_status": "DRAFT",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "title": "Documentation Epic 02 Adoption Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-002",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-002",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "title": "Documentation Legacy Prioritization"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-003",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-003",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "title": "Documentation Batch 01 Candidate Freeze Proposal"
     },
     {
       "authority_level": "CORE",
@@ -4350,6 +4417,26 @@
       "publication_status": "ACTIVE",
       "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "title": "Documentation Epic 01 Closure Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-003",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-003",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "title": "Documentation Legacy Debt Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-004",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-004",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "title": "Documentation Legacy Classification Evidence"
     },
     {
       "authority_level": "CORE",
@@ -8534,8 +8621,10 @@
       "DOCUMENTATION-ADOPTION-METRICS.md",
       "DOCUMENTATION-ADR-INDEX.md",
       "DOCUMENTATION-BASELINE-POLICY.md",
+      "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
+      "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "DOCUMENTATION-EPIC-02-PLAN.md",
@@ -8543,6 +8632,9 @@
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
       "DOCUMENTATION-GENERATOR.md",
+      "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
       "DOCUMENTATION-MIGRATION-CRITERIA.md",
       "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "DOCUMENTATION-MIGRATION-WAVE-01.md",
@@ -8647,9 +8739,14 @@
       "DOC-REF-002",
       "DOC-REF-003",
       "DOC-REF-004",
+      "DOC-REF-005",
       "DOC-ROAD-001",
+      "DOC-ROAD-002",
+      "DOC-ROAD-003",
       "DOC-RPT-001",
       "DOC-RPT-002",
+      "DOC-RPT-003",
+      "DOC-RPT-004",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -8677,17 +8774,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 40,
+    "DEPENDS_ON": 50,
     "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 47,
-    "VALIDATES": 10
+    "RELATES_TO": 51,
+    "VALIDATES": 13
   },
   "relationship_statistics": {
-    "declared": 123,
+    "declared": 140,
     "derived": 0,
     "duplicates": 0,
-    "total": 123,
+    "total": 140,
     "unresolved": 0
   },
   "relationship_types": [
@@ -9209,6 +9306,24 @@
       "type": "DEPENDS_ON"
     },
     {
+      "source": "DOC-REF-005",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "target": "DOC-RPT-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-005",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "target": "DOC-SPEC-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-REF-005",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "target": "DOC-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -9237,6 +9352,54 @@
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-RPT-002",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-002",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "target": "DOC-RPT-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-002",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "target": "DOC-STD-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-002",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "target": "DOC-STD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ADR-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ADR-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-PLAY-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-REF-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ROAD-002",
+      "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-001",
@@ -9308,6 +9471,42 @@
       "source": "DOC-RPT-002",
       "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-SPEC-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-003",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "target": "DOC-STD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-003",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "target": "DOC-RPT-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-003",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "target": "DOC-SPEC-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-004",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "target": "DOC-REF-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-004",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "target": "DOC-ROAD-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-004",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "target": "DOC-RPT-003",
       "type": "VALIDATES"
     },
     {

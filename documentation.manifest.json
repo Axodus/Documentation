@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 695,
+  "document_count": 700,
   "documents": [
     {
       "aliases": [],
@@ -12551,6 +12551,34 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.MIGRATION.BATCH_01",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-003",
+      "document_state": "EXPERIMENTAL",
+      "document_type": "ROADMAP",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-03",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-PLAY-001",
+        "DOC-REF-005",
+        "DOC-ROAD-002",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "d4caebdee45249f21d871eba7675a056b35ddfb1f73a2d3ca69ef2858ebf6cff",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Batch 01 Candidate Freeze Proposal",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION",
       "classification": "CANONICAL",
@@ -12604,6 +12632,34 @@
       "supersedes": [],
       "title": "Documentation CLI",
       "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.ADOPTION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-REF-005",
+      "document_state": "CURRENT",
+      "document_type": "REFERENCE",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-03",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-003",
+        "DOC-SPEC-005",
+        "DOC-STD-002",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "488910eb858020306bd8e8e9e1c2cce7f751bdf43edaf97a602c279efb04b269",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Core Adoption Matrix",
+      "version": "0.1.0"
     },
     {
       "aliases": [],
@@ -12823,6 +12879,92 @@
       "supersedes": [],
       "title": "Persistent Documentation Generator",
       "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.DEBT.EVIDENCE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-004",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-03",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-REF-005",
+        "DOC-ROAD-002",
+        "DOC-RPT-003",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "7caf9f92e89a251140a7810b72d08802ff5ca8c44f3925a15e8eb027da7d3fc7",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Legacy Classification Evidence",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.DEBT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-003",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-03",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-RPT-004",
+        "DOC-SPEC-005",
+        "DOC-STD-003",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "d2c20e315de7e208bb1a4b56c260db4a1c269e5d30b03c35072258e4e1c879aa",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Legacy Debt Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.MIGRATION.PRIORITIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-002",
+      "document_state": "CURRENT",
+      "document_type": "ROADMAP",
+      "last_updated": "2026-07-02",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-03",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-RPT-003",
+        "DOC-STD-002",
+        "DOC-STD-003",
+        "DOCUMENTATION-EPIC-02"
+      ],
+      "sha256": "756dcb1f9bedc3e369ed7ebd5a66eec353fa84db1414d449ecd6e62c9312e4d5",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Legacy Prioritization",
+      "version": "0.1.0"
     },
     {
       "aliases": [],
@@ -14781,6 +14923,24 @@
       "type": "DEPENDS_ON"
     },
     {
+      "source": "DOC-REF-005",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "target": "DOC-RPT-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-005",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "target": "DOC-SPEC-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-REF-005",
+      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "target": "DOC-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -14809,6 +14969,54 @@
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-RPT-002",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-002",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "target": "DOC-RPT-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-002",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "target": "DOC-STD-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-002",
+      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "target": "DOC-STD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ADR-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ADR-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-PLAY-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-REF-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-003",
+      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "target": "DOC-ROAD-002",
+      "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-001",
@@ -14880,6 +15088,42 @@
       "source": "DOC-RPT-002",
       "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-SPEC-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-003",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "target": "DOC-STD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-003",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "target": "DOC-RPT-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-003",
+      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "target": "DOC-SPEC-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-004",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "target": "DOC-REF-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-004",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "target": "DOC-ROAD-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-004",
+      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "target": "DOC-RPT-003",
       "type": "VALIDATES"
     },
     {
@@ -15012,19 +15256,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 48,
-    "declared_relationships": 123,
+    "compliant_documents": 53,
+    "declared_relationships": 140,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 48,
+      "CORE": 52,
       "MODULE": 1,
-      "PROJECT": 11,
+      "PROJECT": 12,
       "UNSPECIFIED": 633
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 3,
+      "D2": 8,
       "D3": 44,
       "D4": 1,
       "UNSPECIFIED": 633
@@ -15033,13 +15277,13 @@
       "<facilitator>": 1,
       "<owner>": 12,
       "<sponsor>": 1,
-      "Axodus Documentation Core": 48,
+      "Axodus Documentation Core": 53,
       "UNSPECIFIED": 633
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 24,
-      "DRAFT": 17,
+      "DRAFT": 22,
       "UNSPECIFIED": 633
     },
     "documents_by_type": {
@@ -15050,12 +15294,12 @@
       "PLAYBOOK": 2,
       "POLICY": 7,
       "PROPOSAL": 1,
-      "REFERENCE": 5,
+      "REFERENCE": 6,
       "RELEASE": 1,
-      "REPORT": 3,
+      "REPORT": 5,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
-      "ROADMAP": 1,
+      "ROADMAP": 3,
       "RUNBOOK": 1,
       "SPECIFICATION": 6,
       "STANDARD": 4,
@@ -15065,6 +15309,6 @@
     "generated_documents": 8,
     "legacy_documents": 633,
     "template_documents": 14,
-    "total_documents": 695
+    "total_documents": 700
   }
 }

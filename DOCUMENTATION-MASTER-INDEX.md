@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-02T00:00:00Z
-Source Documents: 695
+Source Documents: 700
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 695
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 695 |
-| Canonical documents | 48 |
+| Total source documents | 700 |
+| Canonical documents | 53 |
 | Legacy documents | 633 |
 | Template documents | 14 |
-| Declared relationships | 123 |
+| Declared relationships | 140 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -40,12 +40,12 @@ Source Documents: 695
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
-| REFERENCE | 5 |
+| REFERENCE | 6 |
 | RELEASE | 1 |
-| REPORT | 3 |
+| REPORT | 5 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
-| ROADMAP | 1 |
+| ROADMAP | 3 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 6 |
 | STANDARD | 4 |
@@ -55,9 +55,9 @@ Source Documents: 695
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 48 |
+| CORE | 52 |
 | MODULE | 1 |
-| PROJECT | 11 |
+| PROJECT | 12 |
 | UNSPECIFIED | 633 |
 ## Documents by Lifecycle
 
@@ -65,7 +65,7 @@ Source Documents: 695
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 24 |
-| DRAFT | 17 |
+| DRAFT | 22 |
 | UNSPECIFIED | 633 |
 ## Canonical Documents
 
@@ -94,8 +94,10 @@ Source Documents: 695
 | DOC-GDE-006 | Axodus Documentation | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Documentation Core | [docs/index.md](docs/index.md) |
 | DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-ADOPTION-METRICS.md](DOCUMENTATION-ADOPTION-METRICS.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
+| DOC-ROAD-003 | Documentation Batch 01 Candidate Freeze Proposal | ROADMAP | DRAFT | PROJECT | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md](DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
+| DOC-REF-005 | Documentation Core Adoption Matrix | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-CORE-ADOPTION-MATRIX.md](DOCUMENTATION-CORE-ADOPTION-MATRIX.md) |
 | DOC-STD-003 | Documentation Debt Classification | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-DEBT-CLASSIFICATION.md](DOCUMENTATION-DEBT-CLASSIFICATION.md) |
 | DOC-RPT-002 | Documentation Epic 01 Closure Report | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md](DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md) |
 | DOC-ROAD-001 | Documentation Epic 02 Adoption Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PLAN.md](DOCUMENTATION-EPIC-02-PLAN.md) |
@@ -103,6 +105,9 @@ Source Documents: 695
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
+| DOC-RPT-004 | Documentation Legacy Classification Evidence | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md](DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md) |
+| DOC-RPT-003 | Documentation Legacy Debt Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-DEBT-REPORT.md](DOCUMENTATION-LEGACY-DEBT-REPORT.md) |
+| DOC-ROAD-002 | Documentation Legacy Prioritization | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-PRIORITIZATION.md](DOCUMENTATION-LEGACY-PRIORITIZATION.md) |
 | DOC-STD-002 | Documentation Migration Criteria | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-CRITERIA.md](DOCUMENTATION-MIGRATION-CRITERIA.md) |
 | DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-PLAYBOOK.md](DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
 | DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-WAVE-01.md](DOCUMENTATION-MIGRATION-WAVE-01.md) |

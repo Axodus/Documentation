@@ -7,24 +7,24 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 695
-- Declared relationships: 123
+- Graph nodes: 700
+- Declared relationships: 140
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
 - Orphan documents: 647
-- Cycles: 27
+- Cycles: 30
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 40 |
+| `DEPENDS_ON` | 50 |
 | `DOCUMENTS` | 13 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 47 |
-| `VALIDATES` | 10 |
+| `RELATES_TO` | 51 |
+| `VALIDATES` | 13 |
 
 ## Unresolved References
 
@@ -61,6 +61,9 @@ None.
 - DOC-PLAY-001 → DOC-STD-003 → DOC-STD-002 (permitted; RELATES_TO)
 - DOC-POL-005 → DOC-POL-006 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-REF-003 → DOC-REF-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-REF-005 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
+- DOC-ROAD-002 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
+- DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; RELATES_TO, VALIDATES)
 - DOC-SPEC-005 → DOC-STD-003 (permitted; RELATES_TO)
 - DOC-STD-002 → DOC-STD-003 (permitted; RELATES_TO)
 
