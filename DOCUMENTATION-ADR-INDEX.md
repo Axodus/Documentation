@@ -1,8 +1,8 @@
 # Documentation ADR Index
 
 Status: MANUALLY_MAINTAINED
-Version: 1.0.0
-Last Updated: 2026-07-01
+Version: 1.1.0
+Last Updated: 2026-07-02
 Owner: Axodus Documentation Core
 
 This index records the approved architectural baseline for the Documentation Governance Framework. It is manually maintained and is not generated.
@@ -26,6 +26,9 @@ This index records the approved architectural baseline for the Documentation Gov
 | [DOC-ADR-015](adr/DOC-ADR-015-ARCHIVING-STRATEGY.md) | Archiving Strategy | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-01 | DOCUMENTATION / CORE | Logical archival state with preserved identity. | 008, 009 | Lifecycle; Audit Log Schema |
 | [DOC-ADR-016](adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md) | Documentation Automation | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-01 | DOCUMENTATION / CORE | Contracts precede incremental layered automation. | 005, 011 | Metadata Schema; Traceability Model |
 | [DOC-ADR-017](adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md) | Logical Authority versus Physical Location | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-01 | DOCUMENTATION / CORE | Governance evidence, not path, establishes authority. | 001, 006, 012 | Authority Model; Conflict Register |
+| [DOC-ADR-018](adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md) | Controlled Batch Migration Governance | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-02 | DOCUMENTATION.MIGRATION / CORE | Controlled batches require frozen candidates, evidence, deterministic generation, synchronized registries, and full changeset rollback. | 004, 016, 019, 020 | Migration Playbook; Adoption Plan; Adoption Metrics |
+| [DOC-ADR-019](adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md) | Canonical Promotion Threshold | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-02 | DOCUMENTATION.MIGRATION / CORE | Evidence-backed Schema 1.0.0 metadata, authority, semantic review, relationships, and validation gate canonical promotion. | 005, 011, 017, 018, 020 | Migration Criteria; Debt Classification; Migration Playbook |
+| [DOC-ADR-020](adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md) | Legacy Archival Policy | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-02 | DOCUMENTATION.MIGRATION / CORE | Historically valuable legacy content is preserved as traceable non-current evidence instead of deleted. | 008, 015, 018, 019 | Debt Classification; Migration Playbook; Lifecycle |
 
 ## Architecture Consistency Review
 
@@ -38,9 +41,11 @@ The approved baseline was reviewed across Schema 1.0.0, taxonomy, identifiers, a
 - Approved ADRs are immutable and are replaced only through a new superseding ADR.
 - Version domains remain independent.
 - Documentation approval and publication never grant operational execution.
+- Legacy adoption uses controlled batches, evidence-backed promotion thresholds, immutable ID reservations, and synchronized baseline/exception changes.
+- Historical archival preserves evidence and supersession while explicitly withholding current authority.
 
 No unresolved semantic conflict was identified within this baseline.
 
 ## Remaining External Decisions
 
-The approved architecture intentionally leaves implementation choices to separately scoped executions, including machine-readable schema representation, generator implementation, CI enforcement, publication target, and migration scheduling.
+The approved architecture intentionally leaves batch candidate classification, freeze, execution, and migration scheduling to separately authorized requests. Approval of ADRs 018–020 does not start migration or authorize Batch 01.

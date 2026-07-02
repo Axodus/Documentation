@@ -5,10 +5,10 @@ aliases: []
 document_type: "PLAYBOOK"
 title: "Documentation Migration Playbook"
 summary: "Defines the repeatable, evidence-backed procedure for controlled legacy-to-canonical migration batches."
-version: "0.1.0"
-publication_status: "DRAFT"
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.MIGRATION"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -26,7 +26,7 @@ next_review: "2026-10-02"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-018"}, {type: "DEPENDS_ON", target: "DOC-ADR-019"}, {type: "DEPENDS_ON", target: "DOC-ADR-020"}, {type: "RELATES_TO", target: "DOC-STD-002"}, {type: "RELATES_TO", target: "DOC-STD-003"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019", "DOC-ADR-020"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "tools/documentation", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: ".github/workflows/documentation.yml", ref: "main", kind: "CONFIG", environment: "TEST"}]
@@ -39,7 +39,7 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 This playbook defines the repeatable `MIGRATE_ON_CHANGE` procedure for promoting or archiving legacy documents without weakening the framework.
 
-It becomes operational only after ADRs 018–020 and the related standards are approved.
+It is the approved operational contract for future migration requests. It does not itself authorize a batch.
 
 ## Roles
 
@@ -77,6 +77,8 @@ Create a batch record containing:
 
 After freeze, candidate substitution follows the ranked alternate list only.
 
+Reserved IDs are recorded at freeze. A reserved or published ID is never reused, including after candidate rejection or full rollback.
+
 ## Phase 2 — Content and Authority Review
 
 Review the complete body without rewriting its historical meaning.
@@ -99,7 +101,7 @@ Failed checks produce `NEEDS_REVIEW`, `CONFLICTING`, `STALE`, `ARCHIVE_CANDIDATE
 2. Add Schema 1.0.0 Front Matter in canonical field order.
 3. Use the reserved immutable ID.
 4. Normalize legacy status/date/owner headers into Front Matter.
-5. Preserve the body except for metadata removal, line-ending normalization, heading alignment, and framework-compatibility normalization.
+5. Preserve the body and historical meaning except for metadata removal, line-ending normalization, heading alignment, and framework-compatibility normalization.
 6. Add at least one valid semantic relation.
 7. Record external epic, requirement, core, implementation, and gate metadata.
 
@@ -161,7 +163,7 @@ Execute:
 - generator drift check;
 - worktree mutation audit.
 
-The two generation results must be byte-identical.
+The two generation results must be byte-identical, Generator check mode must report zero drift, and all operational gates must remain closed.
 
 ## Rollback
 

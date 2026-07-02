@@ -64,8 +64,8 @@ Source Documents: 695
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 17 |
-| DRAFT | 24 |
+| APPROVED | 24 |
+| DRAFT | 17 |
 | UNSPECIFIED | 633 |
 ## Canonical Documents
 
@@ -88,23 +88,23 @@ Source Documents: 695
 | DOC-ADR-015 | Archiving Strategy | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-015-ARCHIVING-STRATEGY.md](adr/DOC-ADR-015-ARCHIVING-STRATEGY.md) |
 | DOC-ADR-016 | Documentation Automation | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md](adr/DOC-ADR-016-DOCUMENTATION-AUTOMATION.md) |
 | DOC-ADR-017 | Logical Authority versus Physical Location | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md](adr/DOC-ADR-017-LOGICAL-AUTHORITY-VS-PHYSICAL-LOCATION.md) |
-| DOC-ADR-018 | Controlled Batch Migration Governance | ADR | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md](adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md) |
-| DOC-ADR-019 | Canonical Promotion Threshold | ADR | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md](adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md) |
-| DOC-ADR-020 | Legacy Archival Policy | ADR | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md](adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md) |
+| DOC-ADR-018 | Controlled Batch Migration Governance | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md](adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md) |
+| DOC-ADR-019 | Canonical Promotion Threshold | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md](adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md) |
+| DOC-ADR-020 | Legacy Archival Policy | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md](adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md) |
 | DOC-GDE-006 | Axodus Documentation | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Documentation Core | [docs/index.md](docs/index.md) |
-| DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-ADOPTION-METRICS.md](DOCUMENTATION-ADOPTION-METRICS.md) |
+| DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-ADOPTION-METRICS.md](DOCUMENTATION-ADOPTION-METRICS.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-BASELINE-POLICY.md](DOCUMENTATION-BASELINE-POLICY.md) |
 | DOC-GDE-004 | Documentation Continuous Integration | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CI.md](DOCUMENTATION-CI.md) |
 | DOC-GDE-001 | Documentation CLI | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-CLI.md](DOCUMENTATION-CLI.md) |
-| DOC-STD-003 | Documentation Debt Classification | STANDARD | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-DEBT-CLASSIFICATION.md](DOCUMENTATION-DEBT-CLASSIFICATION.md) |
+| DOC-STD-003 | Documentation Debt Classification | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-DEBT-CLASSIFICATION.md](DOCUMENTATION-DEBT-CLASSIFICATION.md) |
 | DOC-RPT-002 | Documentation Epic 01 Closure Report | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md](DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md) |
 | DOC-ROAD-001 | Documentation Epic 02 Adoption Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PLAN.md](DOCUMENTATION-EPIC-02-PLAN.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
-| DOC-STD-002 | Documentation Migration Criteria | STANDARD | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-CRITERIA.md](DOCUMENTATION-MIGRATION-CRITERIA.md) |
-| DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-PLAYBOOK.md](DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
+| DOC-STD-002 | Documentation Migration Criteria | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-CRITERIA.md](DOCUMENTATION-MIGRATION-CRITERIA.md) |
+| DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-PLAYBOOK.md](DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
 | DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-WAVE-01.md](DOCUMENTATION-MIGRATION-WAVE-01.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-VALIDATION-RULES.md](DOCUMENTATION-VALIDATION-RULES.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |

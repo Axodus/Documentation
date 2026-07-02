@@ -5,10 +5,10 @@ aliases: []
 document_type: "STANDARD"
 title: "Documentation Migration Criteria"
 summary: "Defines mandatory eligibility, metadata, authority, validation, and evidence thresholds for canonical promotion."
-version: "0.1.0"
-publication_status: "DRAFT"
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.MIGRATION"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -26,7 +26,7 @@ next_review: "2026-10-02"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-019"}, {type: "DEPENDS_ON", target: "DOC-SPEC-001"}, {type: "RELATES_TO", target: "DOC-PLAY-001"}, {type: "RELATES_TO", target: "DOC-STD-003"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-005", "DOC-ADR-011", "DOC-ADR-017", "DOC-ADR-019"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.schema.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-VALIDATION-RULES.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -70,6 +70,8 @@ Operational migration terminology maps to the schema:
 
 No new Front Matter field may be invented to satisfy migration reporting.
 
+`source_path` and `canonical_path` remain batch-evidence fields. They MUST NOT be added to Front Matter. The Generator may derive `source_path` in the manifest.
+
 ## Identity
 
 - Scope MUST be registered before first use.
@@ -79,29 +81,55 @@ No new Front Matter field may be invented to satisfy migration reporting.
 - IDs and aliases are immutable and never reused.
 - A rolled-back or rejected allocated ID remains reserved when it entered reviewed evidence.
 
-## Initial Scope Registry Proposal
+## Initial Scope Registry
 
-| Domain | Proposed scope |
-|---|---|
-| Accountability | `ACCOUNT` |
-| Academy | `ACADEMY` |
-| ACS | `ACS` |
-| BBA Agency | `BBA` |
-| Business | `BUSINESS` |
-| Portfolio/Core | `CORE` |
-| DeFi | `DEFI` |
-| DEX | `DEX` |
-| Governance | `GOV` |
-| Lottery | `LOTTERY` |
-| Marketplace | `MARKET` |
-| Mining | `MINING` |
-| Runtime | `RUNTIME` |
-| Security | `SEC` |
-| Tokenomics | `TOKEN` |
-| Trading | `TRADING` |
-| Treasury | `TREASURY` |
+The detected public corpus contains 16 core overview paths. These 16 scopes are approved for ID allocation. `CORE` remains a separately reserved portfolio scope and is not counted as a public core.
 
-This registry remains proposed until ADR-019 and this standard are approved.
+### Allowed Type Code Profile
+
+`PUBLIC_CORE_STANDARD` permits these registered type codes:
+
+`ARCH`, `REQ`, `ADR`, `SPEC`, `API`, `GDE`, `RUN`, `PLAY`, `POL`, `STD`, `PROC`, `REF`, `RPT`, `RFC`, `PROP`, `MTG`, `ROAD`, `REL`, and `RES`.
+
+Use of an allowed code does not grant authority or approve document creation. The document must still satisfy its taxonomy, ownership, review, and approval contract.
+
+### Public Core Scopes
+
+| `scope_code` | `core_name` | `canonical_core_id` | `public_core_status` | `allowed_document_type_codes` | ID sequence starting point | Example |
+|---|---|---|---|---|---:|---|
+| `ACCOUNT` | Accountability | `ACCOUNTABILITY` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `ACCOUNT-GDE-001` |
+| `ACADEMY` | Academy | `ACADEMY` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `ACADEMY-GDE-001` |
+| `ACS` | ACS | `ACS` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `ACS-GDE-001` |
+| `BBA` | BBA Agency | `BBA_AGENCY` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `BBA-GDE-001` |
+| `BUSINESS` | Business | `BUSINESS` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `BUSINESS-GDE-001` |
+| `DEFI` | DeFi | `DEFI` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `DEFI-GDE-001` |
+| `DEX` | DEX | `DEX` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `DEX-GDE-001` |
+| `GOV` | Governance | `GOVERNANCE` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `GOV-GDE-001` |
+| `LOTTERY` | Lottery | `LOTTERY` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `LOTTERY-GDE-001` |
+| `MARKET` | Marketplace | `MARKETPLACE` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `MARKET-GDE-001` |
+| `MINING` | Mining | `MINING` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `MINING-GDE-001` |
+| `RUNTIME` | Runtime | `RUNTIME` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `RUNTIME-GDE-001` |
+| `SEC` | Security | `SECURITY` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `SEC-GDE-001` |
+| `TOKEN` | Tokenomics | `TOKENOMICS` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `TOKEN-GDE-001` |
+| `TRADING` | Trading | `TRADING` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `TRADING-GDE-001` |
+| `TREASURY` | Treasury | `TREASURY` | `PUBLIC` | `PUBLIC_CORE_STANDARD` | `001` | `TREASURY-GDE-001` |
+
+### Reserved Portfolio Scope
+
+| `scope_code` | `core_name` | `canonical_core_id` | `public_core_status` | `allowed_document_type_codes` | ID sequence starting point | Example |
+|---|---|---|---|---|---:|---|
+| `CORE` | Axodus Portfolio/Core | `AXODUS_CORE` | `GOVERNANCE_RESERVED` | `PUBLIC_CORE_STANDARD` | `001` | `CORE-GDE-001` |
+
+### Allocation and Reservation Policy
+
+- Allocation is monotonic independently for every `(scope_code,type_code)` pair.
+- `001` is the starting point only when the pair has no existing or reserved ID; allocation otherwise continues after the highest occupied or reserved number.
+- `000` is permanently reserved.
+- A reservation records scope, type, number, candidate path, accountable owner, batch, date, and disposition in batch evidence.
+- Reserved, rejected, rolled-back, deprecated, deleted, superseded, archived, and published IDs remain permanently unavailable.
+- Gaps are valid and MUST NOT be compacted or renumbered.
+- Scope codes become stable upon this approval. A new scope or scope-code change requires an explicit governance update.
+- Scope registration and physical path do not grant logical authority.
 
 ## Lifecycle and Maturity
 
@@ -126,6 +154,8 @@ Promotion requires:
 - approver authorized for the declared scope.
 
 Unknown ownership blocks promotion.
+
+Reviewer arrays MUST contain the applicable technical, business, and security reviewers. A non-applicable reviewer class may be empty only when batch evidence records why that review is not required.
 
 ## Relationships
 
@@ -152,6 +182,8 @@ Allowed normalization:
 
 Any claim rewrite, consolidation, contradiction resolution, or product-status correction requires explicit review and evidence.
 
+Every candidate requires a semantic diff review comparing pre-migration and proposed content. The review MUST distinguish metadata/format normalization from claim changes and block any unexplained semantic drift.
+
 ## Decision Outcomes
 
 | Result | Required action |
@@ -164,4 +196,4 @@ Any claim rewrite, consolidation, contradiction resolution, or product-status co
 
 ## Validation Threshold
 
-Promotion requires zero errors, zero warnings, zero unresolved references, zero canonical orphan status, synchronized baseline/exception removal, deterministic generation, clean CI, valid evidence, successful build, and closed gates.
+Promotion requires complete Schema 1.0.0 metadata supported by evidence, valid ownership/review/approval, valid lifecycle/maturity/authority, at least one resolved semantic relation, no authority conflict, no exposed secret, no production-enablement assumption, no obsolete operational content, a completed semantic diff review, zero errors, zero warnings, zero unresolved references, zero canonical orphan status, synchronized baseline/exception removal, deterministic generation, clean CI, valid evidence, successful build, and closed gates.

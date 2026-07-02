@@ -4127,7 +4127,7 @@
       "document_id": "DOC-ADR-018",
       "document_type": "ADR",
       "node_id": "DOC-ADR-018",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
       "title": "Controlled Batch Migration Governance"
     },
@@ -4137,7 +4137,7 @@
       "document_id": "DOC-ADR-019",
       "document_type": "ADR",
       "node_id": "DOC-ADR-019",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
       "title": "Canonical Promotion Threshold"
     },
@@ -4147,7 +4147,7 @@
       "document_id": "DOC-ADR-020",
       "document_type": "ADR",
       "node_id": "DOC-ADR-020",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
       "title": "Legacy Archival Policy"
     },
@@ -4217,7 +4217,7 @@
       "document_id": "DOC-PLAY-001",
       "document_type": "PLAYBOOK",
       "node_id": "DOC-PLAY-001",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "title": "Documentation Migration Playbook"
     },
@@ -4397,7 +4397,7 @@
       "document_id": "DOC-SPEC-005",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-005",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
       "title": "Documentation Adoption Metrics"
     },
@@ -4417,7 +4417,7 @@
       "document_id": "DOC-STD-002",
       "document_type": "STANDARD",
       "node_id": "DOC-STD-002",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
       "title": "Documentation Migration Criteria"
     },
@@ -4427,7 +4427,7 @@
       "document_id": "DOC-STD-003",
       "document_type": "STANDARD",
       "node_id": "DOC-STD-003",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "title": "Documentation Debt Classification"
     },

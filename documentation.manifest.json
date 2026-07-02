@@ -7312,23 +7312,23 @@
       "document_state": "CURRENT",
       "document_type": "ADR",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-004",
         "DOC-ADR-016",
         "DOC-ADR-019",
         "DOC-ADR-020",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "1f8fc289da10bff5e22975cc29b4817966ff9e5a1441219f21419ea3b4051aff",
+      "sha256": "06c081fe077359a0858e9c67a8a23b029106779bb94f0902ca3c1343f764bd1f",
       "source_path": "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Controlled Batch Migration Governance",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -7339,11 +7339,11 @@
       "document_state": "CURRENT",
       "document_type": "ADR",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-005",
         "DOC-ADR-011",
         "DOC-ADR-017",
@@ -7351,12 +7351,12 @@
         "DOC-ADR-020",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "4cd0c73458f58743aa1b15d85e7a181f27d2671204a9e81bdaf9cecf165f0daa",
+      "sha256": "080e5bb7bd23eab4fa0fe79e0ad862c972902e0cd5c9ac8215a5387c81aa6df2",
       "source_path": "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Canonical Promotion Threshold",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -7367,23 +7367,23 @@
       "document_state": "CURRENT",
       "document_type": "ADR",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-008",
         "DOC-ADR-015",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "20494be531399180bcefea0d96c0573613cd8e62d2dafbe8ec06d5cc17c96c27",
+      "sha256": "1cf30ccf88313947c8b63e67de7ea29bf4b96a2cc94523d776ccfd55ba46b4a1",
       "source_path": "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Legacy Archival Policy",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -12481,11 +12481,11 @@
       "document_state": "CURRENT",
       "document_type": "SPECIFICATION",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-004",
         "DOC-ADR-016",
         "DOC-ADR-018",
@@ -12494,12 +12494,12 @@
         "DOC-STD-003",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "081b5349cc8ab120f582671d54eb632036b74b117b8cf7c45c9ddda961eb3079",
+      "sha256": "9ef6e96bcda84230b1614ecf23712d7830f8b90e5c92180aca51c2b986c86cd5",
       "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Adoption Metrics",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -12514,7 +12514,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "4b9953a9f6d2b60eba9f5d3f8b6b40401384b86e2d872bc793ce2cf566a42129",
+      "sha256": "2c998bb4346dc496ca6de60cd51deecaba16928e7ff37a4afc6141250d129334",
       "source_path": "DOCUMENTATION-ADR-INDEX.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12614,11 +12614,11 @@
       "document_state": "CURRENT",
       "document_type": "STANDARD",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-006",
         "DOC-ADR-008",
         "DOC-ADR-015",
@@ -12628,12 +12628,12 @@
         "DOC-STD-002",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "cc2674b7d1d1bab21e0c37fc814b12c231067bd7d6b44812c5c017caee277f3b",
+      "sha256": "92feb56fb58bf9ef39aee97534d032332c45a4a20c5981d799f0cd933fc66c17",
       "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Debt Classification",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -12833,11 +12833,11 @@
       "document_state": "CURRENT",
       "document_type": "STANDARD",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-005",
         "DOC-ADR-011",
         "DOC-ADR-017",
@@ -12847,12 +12847,12 @@
         "DOC-STD-003",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "9b91ccd144d0f6ff7e8bb54c2cd4394ad21838a55fe6095534c9e1eec96c7508",
+      "sha256": "0d99c5e729fea310ea6211540c6e33825ea115f1274f7b68591653cec6432a0a",
       "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Migration Criteria",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -12863,11 +12863,11 @@
       "document_state": "CURRENT",
       "document_type": "PLAYBOOK",
       "last_updated": "2026-07-02",
-      "maturity_level": "D2",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
-        "AXODUS-DOCUMENTATION-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-02-REQ-02",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-020",
@@ -12875,12 +12875,12 @@
         "DOC-STD-003",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "1feffee97eda9e5628e18d351f85b12e5de2113b935d1ec1443707899387d9f8",
+      "sha256": "62e392abf1dc03dcdb30d988fe71e122333924ace93c15a10957c141840af314",
       "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Migration Playbook",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -15024,8 +15024,8 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 10,
-      "D3": 37,
+      "D2": 3,
+      "D3": 44,
       "D4": 1,
       "UNSPECIFIED": 633
     },
@@ -15038,8 +15038,8 @@
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
-      "APPROVED": 17,
-      "DRAFT": 24,
+      "APPROVED": 24,
+      "DRAFT": 17,
       "UNSPECIFIED": 633
     },
     "documents_by_type": {

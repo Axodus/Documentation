@@ -4,11 +4,11 @@ document_id: "DOC-ADR-019"
 aliases: []
 document_type: "ADR"
 title: "Canonical Promotion Threshold"
-summary: "Proposes evidence-based metadata, authority, relationship, and validation thresholds for legacy promotion."
-version: "0.1.0"
-publication_status: "DRAFT"
+summary: "Establishes evidence-based metadata, authority, relationship, and validation thresholds for legacy promotion."
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.MIGRATION"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -26,7 +26,7 @@ next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-005"}, {type: "DEPENDS_ON", target: "DOC-ADR-011"}, {type: "DEPENDS_ON", target: "DOC-ADR-017"}, {type: "RELATES_TO", target: "DOC-ADR-018"}, {type: "RELATES_TO", target: "DOC-ADR-020"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-005", "DOC-ADR-011", "DOC-ADR-017", "DOC-ADR-018", "DOC-ADR-020"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-MIGRATION-CRITERIA.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-DEBT-CLASSIFICATION.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -37,7 +37,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-PROPOSED. This ADR is not approved and establishes no active promotion authority.
+APPROVED
+
+## Approval Date
+
+2026-07-02
 
 ## Context
 
@@ -54,20 +58,51 @@ Promotion needs a uniform threshold that prevents artificial metadata, stale aut
 3. Promote through metadata, authority, content, relation, evidence, and validation thresholds.
 4. Archive most legacy documents and recreate new canonical content.
 
-## Proposed Decision
+## Adopted Solution
 
-Require threshold-based promotion.
+Canonical promotion requires complete Schema 1.0.0 metadata, authority evidence, at least one resolved semantic relation, full validation success, and semantic diff review.
 
 A document is promotable only when:
 
 - complete Schema 1.0.0 metadata is evidence-backed;
 - identity scope is registered and immutable;
-- ownership, authority, lifecycle, maturity, and review roles are valid;
-- content has current value and no unresolved conflict;
-- no sensitive value or implicit operational enablement exists;
+- author, owner, maintainer, applicable reviewers, and approver are valid;
+- lifecycle, maturity, authority scope, and authority level are explicitly supported;
+- content has current or historical value and no obsolete operational guidance or unresolved authority conflict;
+- secret review identifies no exposed sensitive value;
+- no production, provider, financial, wallet, contract, database, or regulatory enablement assumption exists;
 - every relationship resolves and the document is not orphaned;
+- semantic diff review confirms historical meaning is preserved and every non-metadata content change is justified;
 - baseline and exception changes are exact;
 - validation, generation, evidence, CI, and build gates pass.
+
+## Required Metadata and Field Mapping
+
+All 32 canonical Schema 1.0.0 fields are required in canonical order. Migration terminology maps as follows:
+
+| Migration term | Canonical Front Matter field |
+|---|---|
+| `status` | `publication_status` |
+| `created_at` or first known date | `created_date` |
+| `lifecycle_state` | `document_state` |
+| related core | `related_cores` |
+
+`source_path` and `canonical_path` are batch-evidence boundaries and MUST NOT be added as Front Matter fields. `source_path` may appear as a Generator-derived manifest attribute.
+
+Unknown ownership, authority, required reviewer assignment, approval, or dates block promotion; values MUST NOT be inferred solely to satisfy the schema.
+
+## Lifecycle, Maturity, and Authority Threshold
+
+- Migration alone does not grant `ACTIVE`, `APPROVED`, `D3`, `D3+`, or `D4`.
+- Publication status, document state, and maturity remain independent dimensions.
+- Authority is logical and evidence-based; physical location does not grant authority.
+- Archival promotion uses `ARCHIVED` + `HISTORICAL` only after ADR-020 criteria are met.
+
+## Relationship and Content Threshold
+
+Every promoted document MUST declare at least one allowed semantic relationship to a resolvable canonical ID and MUST remain reachable from the generated master index. External core, epic, and requirement dimensions stay in `related_*` metadata and do not create artificial graph edges.
+
+Secret detection reports only redacted occurrence metadata. Suspected exposure blocks promotion and requires secure remediation outside batch evidence.
 
 ## Rationale
 
@@ -87,6 +122,8 @@ This distinguishes metadata compliance from trustworthy canonical authority and 
 - Scope codes must be registered before use.
 - New canonical documents must have semantic relations.
 - Migration does not automatically grant `ACTIVE` status or high maturity.
+- Source and canonical paths remain evidence, not canonical metadata.
+- Semantic review, not only schema validation, is mandatory.
 
 ## Future Impacts
 
@@ -101,12 +138,7 @@ Metrics can measure throughput and deferral without lowering the threshold. Futu
 
 ## Supersession Policy
 
-If approved, this ADR becomes immutable. Threshold changes require a new superseding ADR.
-
-## Open Questions
-
-- Which authority registers portfolio-wide scope codes after the initial set.
-- Whether specific regulated domains require additional reviewers.
+This approved ADR is immutable. Threshold changes require a new superseding ADR. The Axodus Documentation Core maintains the initial scope registry; new scopes require an explicit governance update. Domain-specific reviewer requirements may become stricter without weakening this minimum threshold.
 
 ## References
 

@@ -4,11 +4,11 @@ document_id: "DOC-ADR-020"
 aliases: []
 document_type: "ADR"
 title: "Legacy Archival Policy"
-summary: "Proposes canonical historical archival with preserved identity, evidence, supersession, and non-authoritative status."
-version: "0.1.0"
-publication_status: "DRAFT"
+summary: "Establishes canonical historical archival with preserved identity, evidence, supersession, and non-authoritative status."
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.MIGRATION"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -26,7 +26,7 @@ next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-008"}, {type: "DEPENDS_ON", target: "DOC-ADR-015"}, {type: "RELATES_TO", target: "DOC-ADR-018"}, {type: "RELATES_TO", target: "DOC-ADR-019"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-008", "DOC-ADR-015", "DOC-ADR-018", "DOC-ADR-019"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-DEBT-CLASSIFICATION.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "governance/DOCUMENTATION-LIFECYCLE.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -37,7 +37,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-PROPOSED. This ADR is not approved and authorizes no archival operation.
+APPROVED
+
+## Approval Date
+
+2026-07-02
 
 ## Context
 
@@ -54,9 +58,11 @@ Axodus needs a controlled disposition for historical documents that preserves id
 3. Canonicalize historical evidence with archival lifecycle and supersession metadata.
 4. Replace historical documents without preserving identity.
 
-## Proposed Decision
+## Adopted Solution
 
-Archive historically valuable legacy documents as canonical `ARCHIVED` + `HISTORICAL` records when authority, ownership, identity, evidence, and relationships can be established.
+Legacy documents with historical value MUST be archived with historical status, supersession metadata, and traceability instead of being deleted.
+
+Archive a legacy document as a canonical `ARCHIVED` + `HISTORICAL` record only when historical value, authority boundary, ownership, identity, evidence, and relationships can be established.
 
 Archived records:
 
@@ -68,6 +74,43 @@ Archived records:
 - leave baseline and exception registries only after validation.
 
 Documents lacking sufficient evidence remain legacy or excepted; they are not artificially archived.
+
+## Archive Criteria
+
+An `ARCHIVE_CANDIDATE` may be archived only when:
+
+- historical or audit value is demonstrated;
+- current operational authority is explicitly disclaimed;
+- identity, aliases, original dates, owner, and authority boundary are evidence-backed;
+- supersession or replacement relations are recorded when a replacement exists;
+- conflicts are identified and the stronger current authority is referenced;
+- no secret value or unsafe operational assumption is exposed;
+- ADR-018 batch governance and ADR-019 promotion thresholds pass.
+
+Classification alone does not approve archival.
+
+## Historical Preservation and Supersession
+
+Preserve original meaning, chronology, attribution, and safe evidence. When a current replacement exists, the archived document records it through allowed supersession metadata or relationships. Absence of a replacement is recorded explicitly; it does not create one by inference.
+
+Archived material is non-current evidence. Physical location cannot preserve or grant authority, and moving a file is not required for archival status.
+
+Logical authority remains with the applicable current canonical source. Archival preserves historical scope and provenance but never elevates obsolete content over current authority.
+
+## Deletion and Conflict Restrictions
+
+Deletion is outside this policy and requires separate retention authorization. A conflict is not removed by archival: the archive MUST identify the applicable current authority and retain safe evidence of the historical discrepancy.
+
+## Baseline, Exceptions, and Evidence
+
+- Remove the legacy baseline entry and matching exception only after canonical archival passes full batch validation.
+- Deferred or rejected archive candidates remain unchanged in both registries.
+- Evidence records path, hashes, classification, reviewers, authority decision, supersession, registry deltas, and safe diagnostics.
+- Evidence MUST NOT contain secret values or unnecessary source content.
+
+## Rollback
+
+Rollback reverses the entire archival batch changeset. The assigned ID remains permanently reserved, and restored legacy entries must match the pre-batch evidence and synchronized exception record.
 
 ## Rationale
 
@@ -101,12 +144,7 @@ EPIC-02 metrics must distinguish active canonical promotion from canonical archi
 
 ## Supersession Policy
 
-If approved, this ADR becomes immutable. Material archival-policy changes require a new superseding ADR.
-
-## Open Questions
-
-- Retention duration for historical evidence outside regulated contexts.
-- Whether future archives require a dedicated physical publication surface.
+This approved ADR is immutable. Material archival-policy changes require a new superseding ADR. Retention duration and any future publication surface require separate governance and do not alter archival authority.
 
 ## References
 

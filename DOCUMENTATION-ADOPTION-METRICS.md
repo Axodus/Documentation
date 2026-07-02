@@ -5,10 +5,10 @@ aliases: []
 document_type: "SPECIFICATION"
 title: "Documentation Adoption Metrics"
 summary: "Defines formulas, data sources, status dimensions, and mandatory measurement gates for DOCUMENTATION-EPIC-02."
-version: "0.1.0"
-publication_status: "DRAFT"
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.ADOPTION"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -26,7 +26,7 @@ next_review: "2026-10-02"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ROAD-001"}, {type: "RELATES_TO", target: "DOC-STD-003"}, {type: "DEPENDS_ON", target: "DOC-SPEC-002"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-004", "DOC-ADR-016", "DOC-ADR-018"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.manifest.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.graph.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-METADATA-COVERAGE.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]

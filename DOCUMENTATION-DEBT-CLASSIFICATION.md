@@ -5,10 +5,10 @@ aliases: []
 document_type: "STANDARD"
 title: "Documentation Debt Classification"
 summary: "Defines deterministic primary classes, flags, scoring, and actions for the remaining legacy documentation debt."
-version: "0.1.0"
-publication_status: "DRAFT"
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.DEBT"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -26,7 +26,7 @@ next_review: "2026-10-02"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ADR-019"}, {type: "DEPENDS_ON", target: "DOC-ADR-020"}, {type: "RELATES_TO", target: "DOC-STD-002"}, {type: "RELATES_TO", target: "DOC-SPEC-005"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-006", "DOC-ADR-008", "DOC-ADR-015", "DOC-ADR-019", "DOC-ADR-020"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.baseline.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.exceptions.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
@@ -69,16 +69,12 @@ Every legacy document receives exactly one primary class. Apply the first matchi
 
 A document may carry multiple flags:
 
-- `PUBLIC_NAVIGATION`
-- `CORE_ENTRY_POINT`
-- `CROSS_CORE`
-- `SECURITY_SENSITIVE`
-- `FINANCIAL_CLAIMS`
-- `PRODUCTION_LANGUAGE`
-- `FRAMEWORK_FRONTMATTER`
-- `SECRET_RISK`
-- `HIGH_VISIBILITY`
-- `EXPIRY_URGENT`
+- `risk`
+- `public_exposure`
+- `cross_core_dependency`
+- `urgency`
+- `security_sensitive`
+- `authority_required`
 
 Flags refine prioritization but do not override the primary class.
 
