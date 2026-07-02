@@ -6112,74 +6112,6 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/accountability/financial-reports.md",
-      "exception_id": "DOC-EXC-361",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/accountability/governance-records.md",
-      "exception_id": "DOC-EXC-362",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/accountability/release-notes.md",
-      "exception_id": "DOC-EXC-364",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/accountability/roadmap-updates.md",
-      "exception_id": "DOC-EXC-365",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/acs/accountability.md",
       "exception_id": "DOC-EXC-366",
       "expires_at": "2026-10-01T00:00:00Z",
@@ -7506,23 +7438,6 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/governance/accountability.md",
-      "exception_id": "DOC-EXC-449",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/governance/boardroom-council.md",
       "exception_id": "DOC-EXC-450",
       "expires_at": "2026-10-01T00:00:00Z",
@@ -7557,42 +7472,8 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/governance/constitutional-governance.md",
-      "exception_id": "DOC-EXC-452",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/governance/dao-federation.md",
       "exception_id": "DOC-EXC-453",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/governance/execution-receipts.md",
-      "exception_id": "DOC-EXC-454",
       "expires_at": "2026-10-01T00:00:00Z",
       "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
       "owner": "Axodus Documentation Core",
@@ -7642,42 +7523,8 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/governance/governance-risk.md",
-      "exception_id": "DOC-EXC-457",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/governance/plugin-requests.md",
       "exception_id": "DOC-EXC-459",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/governance/proposal-lifecycle.md",
-      "exception_id": "DOC-EXC-460",
       "expires_at": "2026-10-01T00:00:00Z",
       "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
       "owner": "Axodus Documentation Core",
@@ -8832,23 +8679,6 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/runtime/change-control.md",
-      "exception_id": "DOC-EXC-536",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/runtime/communication-cadence.md",
       "exception_id": "DOC-EXC-537",
       "expires_at": "2026-10-01T00:00:00Z",
@@ -8900,23 +8730,6 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/runtime/governance-escalation.md",
-      "exception_id": "DOC-EXC-540",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/runtime/milestones.md",
       "exception_id": "DOC-EXC-541",
       "expires_at": "2026-10-01T00:00:00Z",
@@ -8936,23 +8749,6 @@
       "document_id": null,
       "document_path": "docs/runtime/request-lifecycle.md",
       "exception_id": "DOC-EXC-543",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/runtime/risk-controls.md",
-      "exception_id": "DOC-EXC-544",
       "expires_at": "2026-10-01T00:00:00Z",
       "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
       "owner": "Axodus Documentation Core",
@@ -9002,93 +8798,8 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/security/api-security.md",
-      "exception_id": "DOC-EXC-547",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/security/disclosure-policy.md",
-      "exception_id": "DOC-EXC-548",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/security/frontend-security.md",
-      "exception_id": "DOC-EXC-549",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/security/smart-contract-security.md",
-      "exception_id": "DOC-EXC-551",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/security/trading-api-security.md",
       "exception_id": "DOC-EXC-552",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/security/wallet-security.md",
-      "exception_id": "DOC-EXC-553",
       "expires_at": "2026-10-01T00:00:00Z",
       "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
       "owner": "Axodus Documentation Core",
@@ -9631,40 +9342,6 @@
       "created_at": "2026-07-01T00:00:00Z",
       "disposition": "MIGRATE_ON_CHANGE",
       "document_id": null,
-      "document_path": "docs/treasury/compliance-and-disclosures.md",
-      "exception_id": "DOC-EXC-587",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/treasury/custody-and-security.md",
-      "exception_id": "DOC-EXC-588",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
       "document_path": "docs/treasury/governance-alignment.md",
       "exception_id": "DOC-EXC-589",
       "expires_at": "2026-10-01T00:00:00Z",
@@ -9718,23 +9395,6 @@
       "document_id": null,
       "document_path": "docs/treasury/revenue-and-fees.md",
       "exception_id": "DOC-EXC-593",
-      "expires_at": "2026-10-01T00:00:00Z",
-      "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
-      "owner": "Axodus Documentation Core",
-      "scope": "DOCUMENTATION.LEGACY",
-      "severity": "INFO",
-      "status": "ACTIVE"
-    },
-    {
-      "affected_rules": [
-        "DOC-RULE-001"
-      ],
-      "approver": "Documentation Coordinator",
-      "created_at": "2026-07-01T00:00:00Z",
-      "disposition": "MIGRATE_ON_CHANGE",
-      "document_id": null,
-      "document_path": "docs/treasury/risk-management.md",
-      "exception_id": "DOC-EXC-594",
       "expires_at": "2026-10-01T00:00:00Z",
       "justification": "Known legacy documentation accepted temporarily under the migrate-on-change governance policy.",
       "owner": "Axodus Documentation Core",

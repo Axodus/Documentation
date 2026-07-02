@@ -5,8 +5,8 @@ aliases: []
 document_type: "REPORT"
 title: "Documentation Batch 02 Authority Gap Report"
 summary: "Records Batch 01 audit or Batch 02 planning evidence for DOCUMENTATION-EPIC-02."
-version: "1.0.0"
-publication_status: "DRAFT"
+version: "1.1.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
 maturity_level: "D2"
 authority_scope: "DOCUMENTATION.MIGRATION"
@@ -48,4 +48,4 @@ All 26 candidates exist, remain in the synchronized legacy baseline, declare own
 | Semantic target | Resolvable canonical overview | Confirm relationship type |
 | Final ID | Pattern only | Do not reserve before execution authorization |
 
-No content was copied and no sensitive value was exposed. Authority gaps block execution, not this planning request.
+No content was copied and no sensitive value was exposed. REQ-07 resolved the gaps through individual owner confirmation and approved reviewer/approver defaults. All 20 primaries passed; alternates remained unused.

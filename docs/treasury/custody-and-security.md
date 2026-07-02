@@ -1,9 +1,39 @@
-# Custody and Security
+---
+schema_version: "1.0.0"
+document_id: "TREASURY-GDE-003"
+aliases: []
+document_type: "GUIDE"
+title: "Custody and Security"
+summary: "Provides governed custody and security guidance within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "TREASURY"
+authority_level: "CORE"
+author: "Axodus Treasury"
+owner: "Axodus Treasury"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-02"
+last_reviewed: "2026-07-02"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-02"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "TREASURY-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-07"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["TREASURY"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/treasury/custody-and-security.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Treasury
+# Custody and Security
 
 ---
 

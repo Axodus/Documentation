@@ -7,24 +7,24 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 715
-- Declared relationships: 195
+- Graph nodes: 722
+- Declared relationships: 223
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 627
+- Orphan documents: 607
 - Cycles: 30
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 69 |
+| `DEPENDS_ON` | 70 |
 | `DOCUMENTS` | 13 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 76 |
-| `VALIDATES` | 24 |
+| `RELATES_TO` | 100 |
+| `VALIDATES` | 27 |
 
 ## Unresolved References
 
@@ -428,10 +428,6 @@ None.
 - docs/academy/proof-of-knowledge.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
-- docs/accountability/financial-reports.md
-- docs/accountability/governance-records.md
-- docs/accountability/release-notes.md
-- docs/accountability/roadmap-updates.md
 - docs/acs/accountability.md
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
@@ -510,17 +506,12 @@ None.
 - docs/dex/trading-integration.md
 - docs/dex/treasury-alignment.md
 - docs/glossary/terms.md
-- docs/governance/accountability.md
 - docs/governance/boardroom-council.md
 - docs/governance/community-dao.md
-- docs/governance/constitutional-governance.md
 - docs/governance/dao-federation.md
-- docs/governance/execution-receipts.md
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
-- docs/governance/governance-risk.md
 - docs/governance/plugin-requests.md
-- docs/governance/proposal-lifecycle.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/cryptodraw.md
@@ -588,22 +579,14 @@ None.
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
 - docs/runtime/architecture.md
-- docs/runtime/change-control.md
 - docs/runtime/communication-cadence.md
 - docs/runtime/delays-and-blockers.md
 - docs/runtime/execution-handoff.md
-- docs/runtime/governance-escalation.md
 - docs/runtime/milestones.md
 - docs/runtime/request-lifecycle.md
-- docs/runtime/risk-controls.md
 - docs/runtime/status-model.md
 - docs/runtime/validation-and-confirmation.md
-- docs/security/api-security.md
-- docs/security/disclosure-policy.md
-- docs/security/frontend-security.md
-- docs/security/smart-contract-security.md
 - docs/security/trading-api-security.md
-- docs/security/wallet-security.md
 - docs/tokenomics/academy-rewards.md
 - docs/tokenomics/contract-dependencies.md
 - docs/tokenomics/cross-chain-readiness.md
@@ -635,13 +618,10 @@ None.
 - docs/treasury/acs-trinity-integration.md
 - docs/treasury/architecture.md
 - docs/treasury/capital-allocation.md
-- docs/treasury/compliance-and-disclosures.md
-- docs/treasury/custody-and-security.md
 - docs/treasury/governance-alignment.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
-- docs/treasury/risk-management.md
 - docs/treasury/strategy-oversight.md
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md

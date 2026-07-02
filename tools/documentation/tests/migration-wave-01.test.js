@@ -29,8 +29,8 @@ test('Wave 01 targets no longer exist in baseline or exception registry', async 
   const paths = new Set(targets.map((target) => target.path))
   assert.equal(baseline.entries.some((entry) => paths.has(entry.path)), false)
   assert.equal(exceptions.exceptions.some((entry) => paths.has(entry.document_path)), false)
-  assert.equal(baseline.entries.length, 613)
-  assert.equal(exceptions.exceptions.length, 613)
+  assert.equal(baseline.entries.length, 593)
+  assert.equal(exceptions.exceptions.length, 593)
 })
 
 test('Wave 01 documents are connected and resolve in the generated graph', async () => {

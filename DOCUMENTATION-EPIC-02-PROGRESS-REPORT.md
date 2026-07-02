@@ -5,7 +5,7 @@ aliases: []
 document_type: "REPORT"
 title: "Documentation Epic 02 Progress Report"
 summary: "Records Batch 01 audit or Batch 02 planning evidence for DOCUMENTATION-EPIC-02."
-version: "1.0.0"
+version: "1.1.0"
 publication_status: "APPROVED"
 document_state: "CURRENT"
 maturity_level: "D3"
@@ -47,4 +47,6 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Public cores ADOPTED_PARTIAL | 16 | 16 | 0 |
 | Errors/warnings/references/drift | 0 | 0 | 0 |
 
-Batch 02 forecasts 20 additional migrations, approximately 593 legacy documents, 40 cumulative migrations, and canonical count above 100 including governance evidence. Batch 03 supplies the final 20 reductions to 573 and 60 migrations. Exception expiry on 2026-10-01 remains P0.
+## Post-Batch 02 Update
+
+Batch 02 completed 20 additional migrations. The migration baseline is now 108 canonical documents, 593 legacy documents, 40 cumulative migrations, and two completed batches. Batch 03 must supply the final 20 reductions to 573 and 60 migrations. Exception expiry on 2026-10-01 remains P0.

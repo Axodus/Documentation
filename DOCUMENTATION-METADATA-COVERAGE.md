@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 715
-- Canonical metadata field coverage: 14.27%
-- Schema 1.0.0 canonical documents: 88
-- Legacy documents: 613
-- Documents missing canonical metadata: 613
-- Documents without YAML front matter: 613
+- Source documents: 722
+- Canonical metadata field coverage: 17.87%
+- Schema 1.0.0 canonical documents: 115
+- Legacy documents: 593
+- Documents missing canonical metadata: 593
+- Documents without YAML front matter: 593
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 102 | 613 | 14.27% |
-| `document_id` | 102 | 613 | 14.27% |
-| `aliases` | 102 | 613 | 14.27% |
-| `document_type` | 102 | 613 | 14.27% |
-| `title` | 102 | 613 | 14.27% |
-| `summary` | 102 | 613 | 14.27% |
-| `version` | 102 | 613 | 14.27% |
-| `publication_status` | 102 | 613 | 14.27% |
-| `document_state` | 102 | 613 | 14.27% |
-| `maturity_level` | 102 | 613 | 14.27% |
-| `authority_scope` | 102 | 613 | 14.27% |
-| `authority_level` | 102 | 613 | 14.27% |
-| `author` | 102 | 613 | 14.27% |
-| `owner` | 102 | 613 | 14.27% |
-| `maintainer` | 102 | 613 | 14.27% |
-| `technical_reviewers` | 102 | 613 | 14.27% |
-| `business_reviewers` | 102 | 613 | 14.27% |
-| `security_reviewers` | 102 | 613 | 14.27% |
-| `approver` | 102 | 613 | 14.27% |
-| `created_date` | 102 | 613 | 14.27% |
-| `last_updated` | 102 | 613 | 14.27% |
-| `last_reviewed` | 102 | 613 | 14.27% |
-| `review_cycle` | 102 | 613 | 14.27% |
-| `next_review` | 102 | 613 | 14.27% |
-| `supersedes` | 102 | 613 | 14.27% |
-| `relationships` | 102 | 613 | 14.27% |
-| `related_epics` | 102 | 613 | 14.27% |
-| `related_requirements` | 102 | 613 | 14.27% |
-| `related_adrs` | 102 | 613 | 14.27% |
-| `related_cores` | 102 | 613 | 14.27% |
-| `implementation_refs` | 102 | 613 | 14.27% |
-| `production_gate_impact` | 102 | 613 | 14.27% |
+| `schema_version` | 129 | 593 | 17.87% |
+| `document_id` | 129 | 593 | 17.87% |
+| `aliases` | 129 | 593 | 17.87% |
+| `document_type` | 129 | 593 | 17.87% |
+| `title` | 129 | 593 | 17.87% |
+| `summary` | 129 | 593 | 17.87% |
+| `version` | 129 | 593 | 17.87% |
+| `publication_status` | 129 | 593 | 17.87% |
+| `document_state` | 129 | 593 | 17.87% |
+| `maturity_level` | 129 | 593 | 17.87% |
+| `authority_scope` | 129 | 593 | 17.87% |
+| `authority_level` | 129 | 593 | 17.87% |
+| `author` | 129 | 593 | 17.87% |
+| `owner` | 129 | 593 | 17.87% |
+| `maintainer` | 129 | 593 | 17.87% |
+| `technical_reviewers` | 129 | 593 | 17.87% |
+| `business_reviewers` | 129 | 593 | 17.87% |
+| `security_reviewers` | 129 | 593 | 17.87% |
+| `approver` | 129 | 593 | 17.87% |
+| `created_date` | 129 | 593 | 17.87% |
+| `last_updated` | 129 | 593 | 17.87% |
+| `last_reviewed` | 129 | 593 | 17.87% |
+| `review_cycle` | 129 | 593 | 17.87% |
+| `next_review` | 129 | 593 | 17.87% |
+| `supersedes` | 129 | 593 | 17.87% |
+| `relationships` | 129 | 593 | 17.87% |
+| `related_epics` | 129 | 593 | 17.87% |
+| `related_requirements` | 129 | 593 | 17.87% |
+| `related_adrs` | 129 | 593 | 17.87% |
+| `related_cores` | 129 | 593 | 17.87% |
+| `implementation_refs` | 129 | 593 | 17.87% |
+| `production_gate_impact` | 129 | 593 | 17.87% |
 
 ## Documents Without Front Matter
 
@@ -415,10 +415,6 @@ Generator Version: 1.0.0
 - docs/academy/proof-of-knowledge.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
-- docs/accountability/financial-reports.md
-- docs/accountability/governance-records.md
-- docs/accountability/release-notes.md
-- docs/accountability/roadmap-updates.md
 - docs/acs/accountability.md
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
@@ -497,17 +493,12 @@ Generator Version: 1.0.0
 - docs/dex/trading-integration.md
 - docs/dex/treasury-alignment.md
 - docs/glossary/terms.md
-- docs/governance/accountability.md
 - docs/governance/boardroom-council.md
 - docs/governance/community-dao.md
-- docs/governance/constitutional-governance.md
 - docs/governance/dao-federation.md
-- docs/governance/execution-receipts.md
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
-- docs/governance/governance-risk.md
 - docs/governance/plugin-requests.md
-- docs/governance/proposal-lifecycle.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/cryptodraw.md
@@ -575,22 +566,14 @@ Generator Version: 1.0.0
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
 - docs/runtime/architecture.md
-- docs/runtime/change-control.md
 - docs/runtime/communication-cadence.md
 - docs/runtime/delays-and-blockers.md
 - docs/runtime/execution-handoff.md
-- docs/runtime/governance-escalation.md
 - docs/runtime/milestones.md
 - docs/runtime/request-lifecycle.md
-- docs/runtime/risk-controls.md
 - docs/runtime/status-model.md
 - docs/runtime/validation-and-confirmation.md
-- docs/security/api-security.md
-- docs/security/disclosure-policy.md
-- docs/security/frontend-security.md
-- docs/security/smart-contract-security.md
 - docs/security/trading-api-security.md
-- docs/security/wallet-security.md
 - docs/tokenomics/academy-rewards.md
 - docs/tokenomics/contract-dependencies.md
 - docs/tokenomics/cross-chain-readiness.md
@@ -622,13 +605,10 @@ Generator Version: 1.0.0
 - docs/treasury/acs-trinity-integration.md
 - docs/treasury/architecture.md
 - docs/treasury/capital-allocation.md
-- docs/treasury/compliance-and-disclosures.md
-- docs/treasury/custody-and-security.md
 - docs/treasury/governance-alignment.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
-- docs/treasury/risk-management.md
 - docs/treasury/strategy-oversight.md
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
@@ -1031,10 +1011,6 @@ Generator Version: 1.0.0
 - docs/academy/proof-of-knowledge.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
-- docs/accountability/financial-reports.md
-- docs/accountability/governance-records.md
-- docs/accountability/release-notes.md
-- docs/accountability/roadmap-updates.md
 - docs/acs/accountability.md
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
@@ -1113,17 +1089,12 @@ Generator Version: 1.0.0
 - docs/dex/trading-integration.md
 - docs/dex/treasury-alignment.md
 - docs/glossary/terms.md
-- docs/governance/accountability.md
 - docs/governance/boardroom-council.md
 - docs/governance/community-dao.md
-- docs/governance/constitutional-governance.md
 - docs/governance/dao-federation.md
-- docs/governance/execution-receipts.md
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
-- docs/governance/governance-risk.md
 - docs/governance/plugin-requests.md
-- docs/governance/proposal-lifecycle.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/cryptodraw.md
@@ -1191,22 +1162,14 @@ Generator Version: 1.0.0
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
 - docs/runtime/architecture.md
-- docs/runtime/change-control.md
 - docs/runtime/communication-cadence.md
 - docs/runtime/delays-and-blockers.md
 - docs/runtime/execution-handoff.md
-- docs/runtime/governance-escalation.md
 - docs/runtime/milestones.md
 - docs/runtime/request-lifecycle.md
-- docs/runtime/risk-controls.md
 - docs/runtime/status-model.md
 - docs/runtime/validation-and-confirmation.md
-- docs/security/api-security.md
-- docs/security/disclosure-policy.md
-- docs/security/frontend-security.md
-- docs/security/smart-contract-security.md
 - docs/security/trading-api-security.md
-- docs/security/wallet-security.md
 - docs/tokenomics/academy-rewards.md
 - docs/tokenomics/contract-dependencies.md
 - docs/tokenomics/cross-chain-readiness.md
@@ -1238,13 +1201,10 @@ Generator Version: 1.0.0
 - docs/treasury/acs-trinity-integration.md
 - docs/treasury/architecture.md
 - docs/treasury/capital-allocation.md
-- docs/treasury/compliance-and-disclosures.md
-- docs/treasury/custody-and-security.md
 - docs/treasury/governance-alignment.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
-- docs/treasury/risk-management.md
 - docs/treasury/strategy-oversight.md
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md

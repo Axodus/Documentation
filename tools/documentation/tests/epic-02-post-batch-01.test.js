@@ -34,8 +34,8 @@ test('Batch 01 is explicitly accepted with complete audit controls', async () =>
 
 test('Batch 02 proposal has 20 primaries and six alternates without final IDs', async () => {
   const proposal = await read('DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md')
-  assert.equal((proposal.match(/`BATCH_02_PRIMARY_PROPOSED`/g) ?? []).length, 20)
-  assert.equal((proposal.match(/`BATCH_02_ALTERNATE_PROPOSED`/g) ?? []).length, 6)
+  assert.equal((proposal.match(/`(?:BATCH_02_PRIMARY_PROPOSED|MIGRATED)`/g) ?? []).length, 20)
+  assert.equal((proposal.match(/`(?:BATCH_02_ALTERNATE_PROPOSED|FROZEN_ALTERNATE)`/g) ?? []).length, 6)
   assert.equal((proposal.match(/-GDE-<NNN>/g) ?? []).length, 26)
   assert.match(proposal, /No numeric ID is allocated or reserved/)
 })
@@ -52,8 +52,8 @@ test('Batch 02 distribution respects minimum and maximum core constraints', asyn
 test('REQ-06 preserves post-Batch 01 registries', async () => {
   const baseline = JSON.parse(await read('documentation.baseline.json'))
   const exceptions = JSON.parse(await read('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 613)
-  assert.equal(exceptions.exceptions.length, 613)
+  assert.equal(baseline.entries.length, 593)
+  assert.equal(exceptions.exceptions.length, 593)
   assert.deepEqual(
     baseline.entries.map(({ path }) => path).sort(),
     exceptions.exceptions.map(({ document_path }) => document_path).sort(),

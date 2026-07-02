@@ -3951,6 +3951,46 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "ACCOUNT-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "ACCOUNT-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/accountability/financial-reports.md",
+      "title": "Financial Reports"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACCOUNT-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "ACCOUNT-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/accountability/governance-records.md",
+      "title": "Governance Records"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACCOUNT-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "ACCOUNT-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/accountability/release-notes.md",
+      "title": "Release Notes"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACCOUNT-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "ACCOUNT-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/accountability/roadmap-updates.md",
+      "title": "Roadmap Updates"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "ACS-GDE-001",
       "document_type": "GUIDE",
       "node_id": "ACS-GDE-001",
@@ -4489,6 +4529,16 @@
       "title": "Documentation Batch 01 ID Reservation Record"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-REF-007",
+      "document_type": "REFERENCE",
+      "node_id": "DOC-REF-007",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
+      "title": "Documentation Batch 02 ID Reservation Record"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
@@ -4534,7 +4584,7 @@
       "document_id": "DOC-ROAD-005",
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-005",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
       "title": "Documentation Batch 02 Candidate Freeze Proposal"
     },
@@ -4684,9 +4734,69 @@
       "document_id": "DOC-RPT-015",
       "document_type": "REPORT",
       "node_id": "DOC-RPT-015",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
       "title": "Documentation Batch 02 Authority Gap Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-016",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-016",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02.md",
+      "title": "Documentation Migration Batch 02"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-017",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-017",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "title": "Documentation Migration Batch 02 Evidence"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-018",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-018",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
+      "title": "Documentation Batch 02 Freeze Record"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-019",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-019",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
+      "title": "Documentation Batch 02 Semantic Diff Report"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-020",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-020",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
+      "title": "Documentation Batch 02 Security Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-021",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-021",
+      "publication_status": "APPROVED",
+      "source_path": "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
+      "title": "Documentation Batch 02 Validation Report"
     },
     {
       "authority_level": "CORE",
@@ -4867,46 +4977,6 @@
       "publication_status": null,
       "source_path": "docs/academy/tutor-validation.md",
       "title": "Tutor Validation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/accountability/financial-reports.md",
-      "publication_status": null,
-      "source_path": "docs/accountability/financial-reports.md",
-      "title": "Financial Reports"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/accountability/governance-records.md",
-      "publication_status": null,
-      "source_path": "docs/accountability/governance-records.md",
-      "title": "Governance Records"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/accountability/release-notes.md",
-      "publication_status": null,
-      "source_path": "docs/accountability/release-notes.md",
-      "title": "Release Notes"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/accountability/roadmap-updates.md",
-      "publication_status": null,
-      "source_path": "docs/accountability/roadmap-updates.md",
-      "title": "Roadmap Updates"
     },
     {
       "authority_level": null,
@@ -5693,16 +5763,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/governance/accountability.md",
-      "publication_status": null,
-      "source_path": "docs/governance/accountability.md",
-      "title": "Governance Accountability"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/governance/boardroom-council.md",
       "publication_status": null,
       "source_path": "docs/governance/boardroom-council.md",
@@ -5723,30 +5783,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/governance/constitutional-governance.md",
-      "publication_status": null,
-      "source_path": "docs/governance/constitutional-governance.md",
-      "title": "Constitutional Governance"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/governance/dao-federation.md",
       "publication_status": null,
       "source_path": "docs/governance/dao-federation.md",
       "title": "DAO Federation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/governance/execution-receipts.md",
-      "publication_status": null,
-      "source_path": "docs/governance/execution-receipts.md",
-      "title": "Execution Receipts"
     },
     {
       "authority_level": null,
@@ -5773,30 +5813,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/governance/governance-risk.md",
-      "publication_status": null,
-      "source_path": "docs/governance/governance-risk.md",
-      "title": "Governance Risk"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/governance/plugin-requests.md",
       "publication_status": null,
       "source_path": "docs/governance/plugin-requests.md",
       "title": "Governance Plugin Requests"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/governance/proposal-lifecycle.md",
-      "publication_status": null,
-      "source_path": "docs/governance/proposal-lifecycle.md",
-      "title": "Proposal Lifecycle"
     },
     {
       "authority_level": null,
@@ -6473,16 +6493,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/runtime/change-control.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/change-control.md",
-      "title": "Change Control"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/runtime/communication-cadence.md",
       "publication_status": null,
       "source_path": "docs/runtime/communication-cadence.md",
@@ -6513,16 +6523,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/runtime/governance-escalation.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/governance-escalation.md",
-      "title": "Governance Escalation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/runtime/milestones.md",
       "publication_status": null,
       "source_path": "docs/runtime/milestones.md",
@@ -6537,16 +6537,6 @@
       "publication_status": null,
       "source_path": "docs/runtime/request-lifecycle.md",
       "title": "Request Lifecycle"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/risk-controls.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/risk-controls.md",
-      "title": "Risk Controls"
     },
     {
       "authority_level": null,
@@ -6573,60 +6563,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/security/api-security.md",
-      "publication_status": null,
-      "source_path": "docs/security/api-security.md",
-      "title": "API Security"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/security/disclosure-policy.md",
-      "publication_status": null,
-      "source_path": "docs/security/disclosure-policy.md",
-      "title": "Disclosure Policy"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/security/frontend-security.md",
-      "publication_status": null,
-      "source_path": "docs/security/frontend-security.md",
-      "title": "Frontend Security"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/security/smart-contract-security.md",
-      "publication_status": null,
-      "source_path": "docs/security/smart-contract-security.md",
-      "title": "Smart Contract Security"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/security/trading-api-security.md",
       "publication_status": null,
       "source_path": "docs/security/trading-api-security.md",
       "title": "Trading API Security"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/security/wallet-security.md",
-      "publication_status": null,
-      "source_path": "docs/security/wallet-security.md",
-      "title": "Wallet Security"
     },
     {
       "authority_level": null,
@@ -6943,26 +6883,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/treasury/compliance-and-disclosures.md",
-      "publication_status": null,
-      "source_path": "docs/treasury/compliance-and-disclosures.md",
-      "title": "Compliance and Disclosures"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/treasury/custody-and-security.md",
-      "publication_status": null,
-      "source_path": "docs/treasury/custody-and-security.md",
-      "title": "Custody and Security"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/treasury/governance-alignment.md",
       "publication_status": null,
       "source_path": "docs/treasury/governance-alignment.md",
@@ -6997,16 +6917,6 @@
       "publication_status": null,
       "source_path": "docs/treasury/revenue-and-fees.md",
       "title": "Revenue and Fees"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/treasury/risk-management.md",
-      "publication_status": null,
-      "source_path": "docs/treasury/risk-management.md",
-      "title": "Treasury Risk Management"
     },
     {
       "authority_level": null,
@@ -7229,6 +7139,56 @@
       "title": "Governance Overview"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "GOV-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "GOV-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/governance/accountability.md",
+      "title": "Governance Accountability"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "GOV-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "GOV-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/governance/constitutional-governance.md",
+      "title": "Constitutional Governance"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "GOV-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "GOV-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/governance/execution-receipts.md",
+      "title": "Execution Receipts"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "GOV-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "GOV-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/governance/governance-risk.md",
+      "title": "Governance Risk"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "GOV-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "GOV-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/governance/proposal-lifecycle.md",
+      "title": "Proposal Lifecycle"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -7421,12 +7381,92 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/change-control.md",
+      "title": "Change Control"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/governance-escalation.md",
+      "title": "Governance Escalation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/risk-controls.md",
+      "title": "Risk Controls"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "SEC-GDE-001",
       "document_type": "GUIDE",
       "node_id": "SEC-GDE-001",
       "publication_status": "APPROVED",
       "source_path": "docs/security/overview.md",
       "title": "Security Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "SEC-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "SEC-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/security/api-security.md",
+      "title": "API Security"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "SEC-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "SEC-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/security/disclosure-policy.md",
+      "title": "Disclosure Policy"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "SEC-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "SEC-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/security/frontend-security.md",
+      "title": "Frontend Security"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "SEC-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "SEC-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/security/smart-contract-security.md",
+      "title": "Smart Contract Security"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "SEC-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "SEC-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/security/wallet-security.md",
+      "title": "Wallet Security"
     },
     {
       "authority_level": null,
@@ -7497,6 +7537,36 @@
       "publication_status": "APPROVED",
       "source_path": "docs/treasury/overview.md",
       "title": "Treasury Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "TREASURY-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/treasury/compliance-and-disclosures.md",
+      "title": "Compliance and Disclosures"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "TREASURY-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/treasury/custody-and-security.md",
+      "title": "Custody and Security"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "TREASURY-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/treasury/risk-management.md",
+      "title": "Treasury Risk Management"
     }
   ],
   "orphan_documents": [
@@ -7859,10 +7929,6 @@
     "docs/academy/proof-of-knowledge.md",
     "docs/academy/token-reward-flows.md",
     "docs/academy/tutor-validation.md",
-    "docs/accountability/financial-reports.md",
-    "docs/accountability/governance-records.md",
-    "docs/accountability/release-notes.md",
-    "docs/accountability/roadmap-updates.md",
     "docs/acs/accountability.md",
     "docs/acs/agent-roles.md",
     "docs/acs/agent-smith.md",
@@ -7941,17 +8007,12 @@
     "docs/dex/trading-integration.md",
     "docs/dex/treasury-alignment.md",
     "docs/glossary/terms.md",
-    "docs/governance/accountability.md",
     "docs/governance/boardroom-council.md",
     "docs/governance/community-dao.md",
-    "docs/governance/constitutional-governance.md",
     "docs/governance/dao-federation.md",
-    "docs/governance/execution-receipts.md",
     "docs/governance/executive-dao.md",
     "docs/governance/governance-lifecycle.md",
-    "docs/governance/governance-risk.md",
     "docs/governance/plugin-requests.md",
-    "docs/governance/proposal-lifecycle.md",
     "docs/lottery/acs-integration.md",
     "docs/lottery/claims-and-settlement.md",
     "docs/lottery/cryptodraw.md",
@@ -8019,22 +8080,14 @@
     "docs/runtime/accountability-records.md",
     "docs/runtime/acs-integration.md",
     "docs/runtime/architecture.md",
-    "docs/runtime/change-control.md",
     "docs/runtime/communication-cadence.md",
     "docs/runtime/delays-and-blockers.md",
     "docs/runtime/execution-handoff.md",
-    "docs/runtime/governance-escalation.md",
     "docs/runtime/milestones.md",
     "docs/runtime/request-lifecycle.md",
-    "docs/runtime/risk-controls.md",
     "docs/runtime/status-model.md",
     "docs/runtime/validation-and-confirmation.md",
-    "docs/security/api-security.md",
-    "docs/security/disclosure-policy.md",
-    "docs/security/frontend-security.md",
-    "docs/security/smart-contract-security.md",
     "docs/security/trading-api-security.md",
-    "docs/security/wallet-security.md",
     "docs/tokenomics/academy-rewards.md",
     "docs/tokenomics/contract-dependencies.md",
     "docs/tokenomics/cross-chain-readiness.md",
@@ -8066,13 +8119,10 @@
     "docs/treasury/acs-trinity-integration.md",
     "docs/treasury/architecture.md",
     "docs/treasury/capital-allocation.md",
-    "docs/treasury/compliance-and-disclosures.md",
-    "docs/treasury/custody-and-security.md",
     "docs/treasury/governance-alignment.md",
     "docs/treasury/reporting-and-accountability.md",
     "docs/treasury/reserves-and-liquidity.md",
     "docs/treasury/revenue-and-fees.md",
-    "docs/treasury/risk-management.md",
     "docs/treasury/strategy-oversight.md",
     "docs/treasury/tokenomics-alignment.md",
     "docs/treasury/trading-alignment.md",
@@ -8763,7 +8813,12 @@
       "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
       "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
       "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
+      "DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
       "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
+      "DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
+      "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
       "DOCUMENTATION-CI.md",
       "DOCUMENTATION-CLI.md",
       "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
@@ -8780,6 +8835,8 @@
       "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
       "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
       "DOCUMENTATION-MIGRATION-BATCH-01.md",
+      "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "DOCUMENTATION-MIGRATION-BATCH-02.md",
       "DOCUMENTATION-MIGRATION-CRITERIA.md",
       "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "DOCUMENTATION-MIGRATION-WAVE-01.md",
@@ -8849,6 +8906,10 @@
     "relationship_connected": [
       "ACADEMY-GDE-001",
       "ACCOUNT-GDE-001",
+      "ACCOUNT-GDE-002",
+      "ACCOUNT-GDE-003",
+      "ACCOUNT-GDE-004",
+      "ACCOUNT-GDE-005",
       "ACS-GDE-001",
       "BBA-GDE-001",
       "BUSINESS-GDE-001",
@@ -8897,6 +8958,7 @@
       "DOC-REF-004",
       "DOC-REF-005",
       "DOC-REF-006",
+      "DOC-REF-007",
       "DOC-ROAD-001",
       "DOC-ROAD-002",
       "DOC-ROAD-003",
@@ -8917,6 +8979,12 @@
       "DOC-RPT-013",
       "DOC-RPT-014",
       "DOC-RPT-015",
+      "DOC-RPT-016",
+      "DOC-RPT-017",
+      "DOC-RPT-018",
+      "DOC-RPT-019",
+      "DOC-RPT-020",
+      "DOC-RPT-021",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -8927,14 +8995,30 @@
       "DOC-STD-002",
       "DOC-STD-003",
       "GOV-GDE-001",
+      "GOV-GDE-002",
+      "GOV-GDE-003",
+      "GOV-GDE-004",
+      "GOV-GDE-005",
+      "GOV-GDE-006",
       "LOTTERY-GDE-001",
       "MARKET-GDE-001",
       "MINING-GDE-001",
       "RUNTIME-GDE-001",
+      "RUNTIME-GDE-002",
+      "RUNTIME-GDE-003",
+      "RUNTIME-GDE-004",
       "SEC-GDE-001",
+      "SEC-GDE-002",
+      "SEC-GDE-003",
+      "SEC-GDE-004",
+      "SEC-GDE-005",
+      "SEC-GDE-006",
       "TOKEN-GDE-001",
       "TRADING-GDE-001",
-      "TREASURY-GDE-001"
+      "TREASURY-GDE-001",
+      "TREASURY-GDE-002",
+      "TREASURY-GDE-003",
+      "TREASURY-GDE-004"
     ],
     "relationship_unreachable": [
       "<SCOPE>-ADR-<NNN>",
@@ -8954,17 +9038,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 69,
+    "DEPENDS_ON": 70,
     "DOCUMENTS": 13,
     "REALIZES": 13,
-    "RELATES_TO": 76,
-    "VALIDATES": 24
+    "RELATES_TO": 100,
+    "VALIDATES": 27
   },
   "relationship_statistics": {
-    "declared": 195,
+    "declared": 223,
     "derived": 0,
     "duplicates": 0,
-    "total": 195,
+    "total": 223,
     "unresolved": 0
   },
   "relationship_types": [
@@ -8985,6 +9069,30 @@
       "source": "ACCOUNT-GDE-001",
       "source_path": "docs/accountability/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-002",
+      "source_path": "docs/accountability/financial-reports.md",
+      "target": "ACCOUNT-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-003",
+      "source_path": "docs/accountability/governance-records.md",
+      "target": "ACCOUNT-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-004",
+      "source_path": "docs/accountability/release-notes.md",
+      "target": "ACCOUNT-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-005",
+      "source_path": "docs/accountability/roadmap-updates.md",
+      "target": "ACCOUNT-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -9576,6 +9684,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-007",
+      "source_path": "DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
+      "target": "DOC-ROAD-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -9942,6 +10056,48 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-016",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02.md",
+      "target": "DOC-ROAD-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-017",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "target": "DOC-RPT-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-017",
+      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "target": "DOC-RPT-016",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-018",
+      "source_path": "DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
+      "target": "DOC-ROAD-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-019",
+      "source_path": "DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
+      "target": "DOC-RPT-016",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-020",
+      "source_path": "DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
+      "target": "DOC-RPT-016",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-021",
+      "source_path": "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
+      "target": "DOC-ROAD-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -10098,6 +10254,36 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "GOV-GDE-002",
+      "source_path": "docs/governance/accountability.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "GOV-GDE-003",
+      "source_path": "docs/governance/constitutional-governance.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "GOV-GDE-004",
+      "source_path": "docs/governance/execution-receipts.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "GOV-GDE-005",
+      "source_path": "docs/governance/governance-risk.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "GOV-GDE-006",
+      "source_path": "docs/governance/proposal-lifecycle.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "LOTTERY-GDE-001",
       "source_path": "docs/lottery/overview.md",
       "target": "CORE-GDE-001",
@@ -10122,9 +10308,57 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "RUNTIME-GDE-002",
+      "source_path": "docs/runtime/change-control.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-003",
+      "source_path": "docs/runtime/governance-escalation.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-004",
+      "source_path": "docs/runtime/risk-controls.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "SEC-GDE-001",
       "source_path": "docs/security/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "SEC-GDE-002",
+      "source_path": "docs/security/api-security.md",
+      "target": "SEC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "SEC-GDE-003",
+      "source_path": "docs/security/disclosure-policy.md",
+      "target": "SEC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "SEC-GDE-004",
+      "source_path": "docs/security/frontend-security.md",
+      "target": "SEC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "SEC-GDE-005",
+      "source_path": "docs/security/smart-contract-security.md",
+      "target": "SEC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "SEC-GDE-006",
+      "source_path": "docs/security/wallet-security.md",
+      "target": "SEC-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -10143,6 +10377,24 @@
       "source": "TREASURY-GDE-001",
       "source_path": "docs/treasury/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-002",
+      "source_path": "docs/treasury/compliance-and-disclosures.md",
+      "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-003",
+      "source_path": "docs/treasury/custody-and-security.md",
+      "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-004",
+      "source_path": "docs/treasury/risk-management.md",
+      "target": "TREASURY-GDE-001",
       "type": "RELATES_TO"
     }
   ],

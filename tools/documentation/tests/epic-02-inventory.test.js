@@ -32,8 +32,8 @@ test('legacy baseline and exception registries remain synchronized after governe
   const exceptions = await loadJson('documentation.exceptions.json')
   const baselinePaths = baseline.entries.map(({ path }) => path)
   const exceptionPaths = exceptions.exceptions.map(({ document_path }) => document_path)
-  assert.equal(baselinePaths.length, 613)
-  assert.equal(exceptionPaths.length, 613)
+  assert.equal(baselinePaths.length, 593)
+  assert.equal(exceptionPaths.length, 593)
   assert.equal(pathSetHash(exceptionPaths), pathSetHash(baselinePaths))
 })
 
@@ -48,18 +48,18 @@ test('classification partition covers every legacy path exactly once', async () 
     seenHashes.add(sha256)
   }
   assert.equal(exceptionRequired.length, 59)
-  assert.equal(needsReview.length, 554)
-  assert.equal(exceptionRequired.length + needsReview.length, 613)
+  assert.equal(needsReview.length, 534)
+  assert.equal(exceptionRequired.length + needsReview.length, 593)
   assert.equal(duplicateHashes.size, 0)
 })
 
 test('domain distribution matches the accepted inventory', async () => {
   const baseline = await loadJson('documentation.baseline.json')
   const count = (prefix) => baseline.entries.filter(({ path }) => path.startsWith(prefix)).length
-  assert.equal(count('docs/'), 227)
+  assert.equal(count('docs/'), 207)
   assert.equal(count('.knowledge/'), 285)
   assert.equal(count('.instructions/'), 59)
-  assert.equal(613 - count('docs/') - count('.knowledge/') - count('.instructions/'), 42)
+  assert.equal(593 - count('docs/') - count('.knowledge/') - count('.instructions/'), 42)
 })
 
 test('Batch 01 proposal retains 20 primaries and four ordered alternates without final IDs', async () => {

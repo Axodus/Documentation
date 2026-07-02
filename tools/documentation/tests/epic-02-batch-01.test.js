@@ -32,8 +32,8 @@ test('Batch 01 migrates exactly 20 approved canonical documents', async () => {
 test('migrated paths leave synchronized baseline and exceptions', async () => {
   const baseline = await loadJson('documentation.baseline.json')
   const exceptions = await loadJson('documentation.exceptions.json')
-  assert.equal(baseline.entries.length, 613)
-  assert.equal(exceptions.exceptions.length, 613)
+  assert.equal(baseline.entries.length, 593)
+  assert.equal(exceptions.exceptions.length, 593)
   for (const [path] of migrated) {
     assert.equal(baseline.entries.some((entry) => entry.path === path), false)
     assert.equal(exceptions.exceptions.some((entry) => entry.document_path === path), false)

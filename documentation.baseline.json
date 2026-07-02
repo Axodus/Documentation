@@ -4318,54 +4318,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/accountability/financial-reports.md",
-      "sha256": "4f8d774b7f0f46390997946d13ae829d90ad8545797019cd7be94c9864178b35",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/accountability/governance-records.md",
-      "sha256": "1cd0ad91bf34c4e9bc6161de94d2573216c4cc1a113a7244f723b8dd9a878ecf",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/accountability/release-notes.md",
-      "sha256": "86b3c6f30a7ec03ba5a214725ec899f6f3cb8921c234844564e7150f490ee24a",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/accountability/roadmap-updates.md",
-      "sha256": "8db1fce00e00054ba0f738c1c16ccf6adeff77b1869be1e5faeb408f20375388",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/acs/accountability.md",
       "sha256": "c2a1673958bf33acebc1ad7c3881fd6f02ca75430b3fb0fab75770adb9669cfe",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -5302,18 +5254,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/governance/accountability.md",
-      "sha256": "fc2804b4fa8e38209191dee07785e4a29d44565714a863317c8c4208997d8ff4",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/governance/boardroom-council.md",
       "sha256": "e7b840f38c9c786cb23b7f55e252e63798a1b18fe65799122fd03470f998f887",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -5338,32 +5278,8 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/governance/constitutional-governance.md",
-      "sha256": "1c25d82512443bf2ba67fa4d858b8d1cee16174405f69238c3e0be022b87e788",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/governance/dao-federation.md",
       "sha256": "f34e3ff893a96a72d5e10d3c516a4f0b2326e528ddaed3ddc8597c7a7924bf38",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/governance/execution-receipts.md",
-      "sha256": "4387dc0be7faef7fa0bc3c89bcbdd5de6a5b5b188e748a5f29ab6147c3258e0f",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -5398,32 +5314,8 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/governance/governance-risk.md",
-      "sha256": "70a8d6a2de24b064b03f52322b4b7a1cd3cbf3f9792bc3bf28aae0cb5a2a79b3",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/governance/plugin-requests.md",
       "sha256": "aed4fafef0e2fab01b613ca8004eb7b6e3205059664857f0b32709d6adf5fc7a",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/governance/proposal-lifecycle.md",
-      "sha256": "1f9bd14bdd0622b37580980ac87d724cc3f67fd66688a2074524661795e904f7",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6238,18 +6130,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/runtime/change-control.md",
-      "sha256": "6a7f531d7e8d196499f2b6ff4a7c13d279aacc5762ff6c004fdcb4bfd36e7752",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/runtime/communication-cadence.md",
       "sha256": "40029afe77a6ff9d59602c8fa576b1c3eb180725fb1bf54b37b53811c21a2917",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -6286,18 +6166,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/runtime/governance-escalation.md",
-      "sha256": "9891e699d30ae6615332b2ca3cb7aca33db24f40d17e1369ea68812c9646176e",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/runtime/milestones.md",
       "sha256": "51a669d5b030919e77d834f98bbeffd743d8a01044b7c708c3045fe25df98c7c",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -6312,18 +6180,6 @@
       ],
       "path": "docs/runtime/request-lifecycle.md",
       "sha256": "4d8b5ac94cfb89f9f466db37603d1da21e97fd5f7af979d30238320f650a84fc",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/runtime/risk-controls.md",
-      "sha256": "6f74c6b7658aec9030eb0f1afeef8853d1b715f401da16831a0f47de5c8fa492",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6358,68 +6214,8 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/security/api-security.md",
-      "sha256": "96940b094e0ef78711635647c4f39fff1b00aa85ab628ea79d20ac0f1d0b055a",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/security/disclosure-policy.md",
-      "sha256": "d1430ee2928b14f89ae83011698db31af9b82b86e2fa16c3d48c83f86e9b3a1b",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/security/frontend-security.md",
-      "sha256": "8244478e7b90ec1e49b82926ca1ba6c424236c20251e0ff36a135cb1a33b1985",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/security/smart-contract-security.md",
-      "sha256": "3aa2df2510c5eb9f761c28bdd999fc61e2346739cef8e288c45f2c600220a070",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/security/trading-api-security.md",
       "sha256": "979b3b41e3d147e4ed0bd2b45a379404f902a270b9e46f0702fb013d640edcd6",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/security/wallet-security.md",
-      "sha256": "91a47daf1855beffdbe07db37965a61dd0ee3e501bc6cd2f35b95188b62f18df",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6802,30 +6598,6 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "docs/treasury/compliance-and-disclosures.md",
-      "sha256": "5b5bf24f2f18a33fe089ab4412c7ea5161864c13d62f37969dc0b26302576fe2",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/treasury/custody-and-security.md",
-      "sha256": "835c861142e78b813105e2db25a8531185d479ad43837bcbb351bccaa704ac4b",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
       "path": "docs/treasury/governance-alignment.md",
       "sha256": "cb03ea10a1fa2bb060feeecec5bc72dd634e5a415b91961ca0149c188c9f5e59",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
@@ -6864,18 +6636,6 @@
       ],
       "path": "docs/treasury/revenue-and-fees.md",
       "sha256": "27153bdcc568dd76a8cd4f70de44540b02eeaffcec5734af2bb0dde6f02b43d0",
-      "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
-    },
-    {
-      "baseline_version": "1.0.0",
-      "created_at": "2026-07-01T00:00:00Z",
-      "detected_schema_version": null,
-      "document_classification": "LEGACY",
-      "missing_rules": [
-        "DOC-RULE-001"
-      ],
-      "path": "docs/treasury/risk-management.md",
-      "sha256": "f160be00dd87db7c4fd66f546eea7febe1ffe21ebc18b0a9334adccfe46008ac",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {

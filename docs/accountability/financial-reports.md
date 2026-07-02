@@ -1,9 +1,39 @@
-# Financial Reports
+---
+schema_version: "1.0.0"
+document_id: "ACCOUNT-GDE-002"
+aliases: []
+document_type: "GUIDE"
+title: "Financial Reports"
+summary: "Provides governed financial reports guidance within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "ACCOUNTABILITY"
+authority_level: "CORE"
+author: "Accountability Nucleus"
+owner: "Accountability Nucleus"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-06-05"
+last_updated: "2026-07-02"
+last_reviewed: "2026-07-02"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-02"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "ACCOUNT-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-07"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["ACCOUNTABILITY"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/accountability/financial-reports.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-06-05
-Owner: Accountability Nucleus
+# Financial Reports
 
 ---
 
