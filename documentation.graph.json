@@ -197,6 +197,68 @@
       ]
     },
     {
+      "allowed": false,
+      "nodes": [
+        "DOC-ADR-021",
+        "DOC-SPEC-008"
+      ],
+      "relationship_types": [
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ADR-021",
+        "DOC-SPEC-008",
+        "DOC-ROAD-011"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ADR-021",
+        "DOC-SPEC-008",
+        "DOC-ROAD-011",
+        "DOC-ROAD-010"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ADR-023",
+        "DOC-SPEC-009"
+      ],
+      "relationship_types": [
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
+      "allowed": false,
+      "nodes": [
+        "DOC-ADR-023",
+        "DOC-SPEC-009",
+        "DOC-ROAD-010"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "DOCUMENTS",
+        "RELATES_TO"
+      ]
+    },
+    {
       "allowed": true,
       "nodes": [
         "DOC-GDE-005",
@@ -405,7 +467,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-02T00:00:00Z",
+  "generated_at": "2026-07-03T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -4458,6 +4520,36 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-ADR-021",
+      "document_type": "ADR",
+      "node_id": "DOC-ADR-021",
+      "publication_status": "DRAFT",
+      "source_path": "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
+      "title": "Exception Expiry Disposition Governance"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ADR-022",
+      "document_type": "ADR",
+      "node_id": "DOC-ADR-022",
+      "publication_status": "DRAFT",
+      "source_path": "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
+      "title": "Traceability Depth Quality Model"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ADR-023",
+      "document_type": "ADR",
+      "node_id": "DOC-ADR-023",
+      "publication_status": "DRAFT",
+      "source_path": "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
+      "title": "ADOPTED_TARGET Criteria"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-GDE-001",
       "document_type": "GUIDE",
       "node_id": "DOC-GDE-001",
@@ -4668,6 +4760,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-REF-009",
+      "document_type": "REFERENCE",
+      "node_id": "DOC-REF-009",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "title": "Documentation Epic 03 Risk Register"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-001",
@@ -4754,6 +4856,26 @@
       "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "title": "Documentation Epic 03 Recommendation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-010",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-010",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "title": "Documentation Epic 03 Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-ROAD-011",
+      "document_type": "ROADMAP",
+      "node_id": "DOC-ROAD-011",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "title": "Documentation Exception Expiry Remediation Plan"
     },
     {
       "authority_level": "CORE",
@@ -5184,6 +5306,26 @@
       "publication_status": "DRAFT",
       "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "title": "Documentation Batch 01 Execution Contract"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-SPEC-008",
+      "document_type": "SPECIFICATION",
+      "node_id": "DOC-SPEC-008",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "title": "Documentation Exception Disposition Model"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-SPEC-009",
+      "document_type": "SPECIFICATION",
+      "node_id": "DOC-SPEC-009",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "title": "Documentation Epic 03 Adoption Metrics"
     },
     {
       "authority_level": "CORE",
@@ -8801,6 +8943,9 @@
       "adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md",
       "adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md",
       "adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md",
+      "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
+      "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
+      "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
       "adr/README.md",
       "api/README.md",
       "ARCHITECTURE.md",
@@ -9098,9 +9243,14 @@
       "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
       "DOCUMENTATION-EPIC-02-PLAN.md",
       "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "DOCUMENTATION-EPIC-03-PLAN.md",
       "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
       "DOCUMENTATION-GENERATOR.md",
       "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
@@ -9222,6 +9372,9 @@
       "DOC-ADR-018",
       "DOC-ADR-019",
       "DOC-ADR-020",
+      "DOC-ADR-021",
+      "DOC-ADR-022",
+      "DOC-ADR-023",
       "DOC-GDE-001",
       "DOC-GDE-002",
       "DOC-GDE-003",
@@ -9243,6 +9396,7 @@
       "DOC-REF-006",
       "DOC-REF-007",
       "DOC-REF-008",
+      "DOC-REF-009",
       "DOC-ROAD-001",
       "DOC-ROAD-002",
       "DOC-ROAD-003",
@@ -9252,6 +9406,8 @@
       "DOC-ROAD-007",
       "DOC-ROAD-008",
       "DOC-ROAD-009",
+      "DOC-ROAD-010",
+      "DOC-ROAD-011",
       "DOC-RPT-001",
       "DOC-RPT-002",
       "DOC-RPT-003",
@@ -9295,6 +9451,8 @@
       "DOC-SPEC-005",
       "DOC-SPEC-006",
       "DOC-SPEC-007",
+      "DOC-SPEC-008",
+      "DOC-SPEC-009",
       "DOC-STD-001",
       "DOC-STD-002",
       "DOC-STD-003",
@@ -9357,17 +9515,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 84,
-    "DOCUMENTS": 13,
+    "DEPENDS_ON": 98,
+    "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 132,
+    "RELATES_TO": 143,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 287,
+    "declared": 314,
     "derived": 0,
     "duplicates": 0,
-    "total": 287,
+    "total": 314,
     "unresolved": 0
   },
   "relationship_types": [
@@ -9757,6 +9915,60 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-ADR-021",
+      "source_path": "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
+      "target": "DOC-POL-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-021",
+      "source_path": "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
+      "target": "DOC-SPEC-008",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "DOC-ADR-021",
+      "source_path": "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
+      "target": "DOC-ADR-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-022",
+      "source_path": "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
+      "target": "DOC-ADR-004",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-022",
+      "source_path": "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
+      "target": "DOC-SPEC-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-022",
+      "source_path": "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
+      "target": "DOC-RPT-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ADR-023",
+      "source_path": "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
+      "target": "DOC-REF-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-023",
+      "source_path": "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
+      "target": "DOC-SPEC-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ADR-023",
+      "source_path": "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
+      "target": "DOC-SPEC-009",
+      "type": "DOCUMENTS"
+    },
+    {
       "source": "DOC-GDE-001",
       "source_path": "DOCUMENTATION-CLI.md",
       "target": "DOC-POL-005",
@@ -10045,6 +10257,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "target": "DOC-ROAD-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-REF-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "target": "DOC-ADR-022",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-REF-009",
+      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "target": "DOC-ADR-023",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -10204,6 +10440,54 @@
       "source": "DOC-ROAD-009",
       "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "target": "DOC-ROAD-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-010",
+      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "target": "DOC-ROAD-009",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-010",
+      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "target": "DOC-RPT-035",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-010",
+      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-010",
+      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "target": "DOC-ADR-022",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-010",
+      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "target": "DOC-ADR-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-ROAD-011",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "target": "DOC-POL-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-011",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "target": "DOC-ROAD-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-ROAD-011",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
@@ -10799,6 +11083,42 @@
       "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "target": "DOC-STD-002",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-008",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "target": "DOC-POL-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-008",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "target": "DOC-ROAD-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-008",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-SPEC-009",
+      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "target": "DOC-ROAD-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-009",
+      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "target": "DOC-SPEC-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-SPEC-009",
+      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "target": "DOC-ADR-023",
+      "type": "RELATES_TO"
     },
     {
       "source": "DOC-STD-001",

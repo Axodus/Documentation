@@ -1,11 +1,11 @@
 {
   "baseline_entries": 573,
   "baseline_version": "1.0.0",
-  "canonical_documents": 156,
+  "canonical_documents": 164,
   "changed_legacy": 0,
   "exception_entries": 573,
   "expired_exceptions": 0,
-  "generation_timestamp": "2026-07-02T00:00:00Z",
+  "generation_timestamp": "2026-07-03T00:00:00Z",
   "generator_version": "1.0.0",
   "known_legacy": 573,
   "legacy_documents": 573,
@@ -18,5 +18,5 @@
     "invalid_exceptions": 0,
     "revoked_exceptions": 0
   },
-  "total_documents": 743
+  "total_documents": 751
 }

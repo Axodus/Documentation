@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-02T00:00:00Z
-Source Documents: 743
+Generated At: 2026-07-03T00:00:00Z
+Source Documents: 751
 
 ## Navigation
 
@@ -22,32 +22,32 @@ Source Documents: 743
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 743 |
-| Canonical documents | 156 |
+| Total source documents | 751 |
+| Canonical documents | 164 |
 | Legacy documents | 573 |
 | Template documents | 14 |
-| Declared relationships | 287 |
+| Declared relationships | 314 |
 | Derived relationships | 0 |
 
 ## Documents by Type
 
 | Value | Count |
 |---|---:|
-| ADR | 21 |
+| ADR | 24 |
 | API | 1 |
 | GUIDE | 66 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
-| REFERENCE | 9 |
+| REFERENCE | 10 |
 | RELEASE | 1 |
 | REPORT | 37 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
-| ROADMAP | 9 |
+| ROADMAP | 11 |
 | RUNBOOK | 1 |
-| SPECIFICATION | 8 |
+| SPECIFICATION | 10 |
 | STANDARD | 4 |
 | UNSPECIFIED | 573 |
 ## Documents by Authority
@@ -55,7 +55,7 @@ Source Documents: 743
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 114 |
+| CORE | 122 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 743
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 124 |
-| DRAFT | 25 |
+| DRAFT | 33 |
 | UNSPECIFIED | 573 |
 ## Canonical Documents
 
@@ -92,6 +92,9 @@ Source Documents: 743
 | DOC-ADR-018 | Controlled Batch Migration Governance | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md](adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md) |
 | DOC-ADR-019 | Canonical Promotion Threshold | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md](adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md) |
 | DOC-ADR-020 | Legacy Archival Policy | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md](adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md) |
+| DOC-ADR-021 | Exception Expiry Disposition Governance | ADR | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md](adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md) |
+| DOC-ADR-022 | Traceability Depth Quality Model | ADR | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md](adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md) |
+| DOC-ADR-023 | ADOPTED_TARGET Criteria | ADR | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md](adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md) |
 | ACADEMY-GDE-001 | Academy Overview | GUIDE | APPROVED | CORE | 1.0.0 | Academy Nucleus | [docs/academy/overview.md](docs/academy/overview.md) |
 | ACCOUNT-GDE-002 | Financial Reports | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/financial-reports.md](docs/accountability/financial-reports.md) |
 | ACCOUNT-GDE-003 | Governance Records | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/governance-records.md](docs/accountability/governance-records.md) |
@@ -195,9 +198,14 @@ Source Documents: 743
 | DOC-RPT-033 | Documentation Epic 02 Final Validation Report | REPORT | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md](DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md) |
 | DOC-ROAD-001 | Documentation Epic 02 Adoption Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PLAN.md](DOCUMENTATION-EPIC-02-PLAN.md) |
 | DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.3.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
+| DOC-SPEC-009 | Documentation Epic 03 Adoption Metrics | SPECIFICATION | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md](DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md) |
+| DOC-ROAD-010 | Documentation Epic 03 Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-PLAN.md](DOCUMENTATION-EPIC-03-PLAN.md) |
 | DOC-ROAD-009 | Documentation Epic 03 Recommendation | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RECOMMENDATION.md](DOCUMENTATION-EPIC-03-RECOMMENDATION.md) |
+| DOC-REF-009 | Documentation Epic 03 Risk Register | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RISK-REGISTER.md](DOCUMENTATION-EPIC-03-RISK-REGISTER.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
+| DOC-SPEC-008 | Documentation Exception Disposition Model | SPECIFICATION | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md](DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md) |
+| DOC-ROAD-011 | Documentation Exception Expiry Remediation Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md](DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
 | DOC-RPT-024 | Documentation Graph Enrichment Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md](DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md) |

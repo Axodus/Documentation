@@ -10370,7 +10370,7 @@
     }
   ],
   "errors": 0,
-  "generated_at": "2026-07-02T00:00:00Z",
+  "generated_at": "2026-07-03T00:00:00Z",
   "legacy_documents": 573,
   "repository_statistics": {
     "active_exceptions": 573,
@@ -10383,20 +10383,20 @@
     "invalid_exceptions": 0,
     "known_legacy": 573,
     "legacy_documents": 573,
-    "relationships": 287,
+    "relationships": 314,
     "removed_legacy": 0,
     "revoked_exceptions": 0,
     "skipped_documents": 0,
     "template_documents": 14,
-    "total_documents": 743,
+    "total_documents": 751,
     "unbaselined_legacy": 0,
-    "validated_documents": 156,
+    "validated_documents": 164,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 156,
+  "validated_documents": 164,
   "validation_version": "1.1.0",
   "warnings": 0
 }

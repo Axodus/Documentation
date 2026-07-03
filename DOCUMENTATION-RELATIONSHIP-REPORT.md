@@ -2,28 +2,28 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-02T00:00:00Z
+Generated At: 2026-07-03T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 743
-- Declared relationships: 287
+- Graph nodes: 751
+- Declared relationships: 314
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
 - Orphan documents: 587
-- Cycles: 36
+- Cycles: 41
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 84 |
-| `DOCUMENTS` | 13 |
+| `DEPENDS_ON` | 98 |
+| `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 132 |
+| `RELATES_TO` | 143 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -54,6 +54,11 @@ None.
 - DOC-ADR-018 → DOC-ADR-020 (permitted; RELATES_TO)
 - DOC-ADR-018 → DOC-ADR-020 → DOC-ADR-019 (permitted; RELATES_TO)
 - DOC-ADR-019 → DOC-ADR-020 (permitted; RELATES_TO)
+- DOC-ADR-021 → DOC-SPEC-008 (requires Validation Engine assessment; DOCUMENTS, RELATES_TO)
+- DOC-ADR-021 → DOC-SPEC-008 → DOC-ROAD-011 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
+- DOC-ADR-021 → DOC-SPEC-008 → DOC-ROAD-011 → DOC-ROAD-010 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
+- DOC-ADR-023 → DOC-SPEC-009 (requires Validation Engine assessment; DOCUMENTS, RELATES_TO)
+- DOC-ADR-023 → DOC-SPEC-009 → DOC-ROAD-010 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
 - DOC-GDE-005 → DOC-GDE-006 (permitted; RELATES_TO)
 - DOC-PLAY-001 → DOC-STD-002 (permitted; RELATES_TO)
 - DOC-PLAY-001 → DOC-STD-002 → DOC-STD-003 → DOC-SPEC-005 → DOC-ROAD-001 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
