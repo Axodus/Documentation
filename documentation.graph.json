@@ -467,7 +467,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-03T00:00:00Z",
+  "generated_at": "2026-07-04T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -4770,6 +4770,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-REF-010",
+      "document_type": "REFERENCE",
+      "node_id": "DOC-REF-010",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "title": "Documentation Exception Disposition Inventory"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-ROAD-001",
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-001",
@@ -5236,6 +5246,56 @@
       "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
       "title": "Documentation Epic 02 Final Evidence Summary"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-037",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-037",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "title": "Documentation Exception Disposition Summary"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-038",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-038",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "title": "Documentation Exception Expiry Risk Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-039",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-039",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "title": "Documentation Exception Authority Routing"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-040",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-040",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "title": "Documentation Exception Security Routing"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-041",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-041",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "title": "Documentation Epic 03 Progress Report"
     },
     {
       "authority_level": "CORE",
@@ -9245,13 +9305,19 @@
       "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
       "DOCUMENTATION-EPIC-03-PLAN.md",
+      "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
       "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
       "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
       "DOCUMENTATION-EXCEPTION-POLICY.md",
+      "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
       "DOCUMENTATION-GENERATOR.md",
       "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
       "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
@@ -9397,6 +9463,7 @@
       "DOC-REF-007",
       "DOC-REF-008",
       "DOC-REF-009",
+      "DOC-REF-010",
       "DOC-ROAD-001",
       "DOC-ROAD-002",
       "DOC-ROAD-003",
@@ -9444,6 +9511,11 @@
       "DOC-RPT-034",
       "DOC-RPT-035",
       "DOC-RPT-036",
+      "DOC-RPT-037",
+      "DOC-RPT-038",
+      "DOC-RPT-039",
+      "DOC-RPT-040",
+      "DOC-RPT-041",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -9515,17 +9587,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 98,
+    "DEPENDS_ON": 105,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 143,
+    "RELATES_TO": 154,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 314,
+    "declared": 332,
     "derived": 0,
     "duplicates": 0,
-    "total": 314,
+    "total": 332,
     "unresolved": 0
   },
   "relationship_types": [
@@ -10281,6 +10353,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-010",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "target": "DOC-ROAD-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-010",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "target": "DOC-SPEC-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-010",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -10981,6 +11071,96 @@
       "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
       "target": "DOC-RPT-034",
       "type": "VALIDATES"
+    },
+    {
+      "source": "DOC-RPT-037",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-037",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "target": "DOC-SPEC-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-037",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "target": "DOC-SPEC-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-038",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-038",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "target": "DOC-REF-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-038",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "target": "DOC-ROAD-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-039",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-039",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-039",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "target": "DOC-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-040",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-040",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "target": "DOC-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-040",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "target": "DOC-REF-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-041",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "target": "DOC-RPT-037",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-041",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "target": "DOC-ROAD-010",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-041",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "target": "DOC-SPEC-009",
+      "type": "RELATES_TO"
     },
     {
       "source": "DOC-SPEC-001",

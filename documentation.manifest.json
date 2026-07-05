@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 751,
+  "document_count": 757,
   "documents": [
     {
       "aliases": [],
@@ -14184,6 +14184,38 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.PROGRESS",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-041",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-04",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ADR-021",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOC-ROAD-010",
+        "DOC-RPT-037",
+        "DOC-SPEC-009",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "18b996896df13d6c05527e800cca2098ce2a5b2771ea70c429b98a3681ad9c16",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Epic 03 Progress Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_02.CLOSURE",
       "classification": "CANONICAL",
       "document_id": "DOC-ROAD-009",
@@ -14297,6 +14329,64 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EXCEPTIONS.AUTHORITY",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-039",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-04",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "DOC-ADR-001",
+        "DOC-ADR-017",
+        "DOC-ADR-019",
+        "DOC-ADR-021",
+        "DOC-POL-001",
+        "DOC-REF-010",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "b9d062dfa9c46875fc9ca8e871c343b80b455b0f81ef1441675122e2184d6102",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Exception Authority Routing",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EXCEPTIONS.INVENTORY",
+      "classification": "CANONICAL",
+      "document_id": "DOC-REF-010",
+      "document_state": "CURRENT",
+      "document_type": "REFERENCE",
+      "last_updated": "2026-07-04",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ADR-021",
+        "DOC-ROAD-011",
+        "DOC-SPEC-008",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "2c5e73cf888896da705e1a5b93f9c5c2636fd62dcaac6db02db12ae79dcaa055",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Exception Disposition Inventory",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EXCEPTIONS",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-008",
@@ -14321,6 +14411,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Exception Disposition Model",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EXCEPTIONS.REPORTING",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-037",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-04",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ADR-021",
+        "DOC-REF-010",
+        "DOC-SPEC-008",
+        "DOC-SPEC-009",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "348c7005f1c0e276a84ee9dc26d18f41ef821341e915bc9868f588d2ba065b71",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Exception Disposition Summary",
       "version": "0.1.0"
     },
     {
@@ -14355,6 +14475,34 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EXCEPTIONS.RISK",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-038",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-04",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "DOC-ADR-018",
+        "DOC-ADR-021",
+        "DOC-REF-009",
+        "DOC-REF-010",
+        "DOC-ROAD-011",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "e0120ce67bb75b2d728814f6667dd951e8ba7fde8337912a2d534f259b54000c",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Exception Expiry Risk Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION",
       "classification": "CANONICAL",
       "document_id": "DOC-POL-006",
@@ -14379,6 +14527,36 @@
       "supersedes": [],
       "title": "Documentation Exception Policy",
       "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EXCEPTIONS.SECURITY",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-040",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-04",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "DOC-ADR-003",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-021",
+        "DOC-GDE-003",
+        "DOC-REF-009",
+        "DOC-REF-010",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "d263c71c1ae3b7d81e7557a0edf11b41088155173237b66edadbb8a9890ea20f",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Exception Security Routing",
+      "version": "0.1.0"
     },
     {
       "aliases": [],
@@ -16166,7 +16344,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-03T00:00:00Z",
+  "generated_at": "2026-07-04T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -16928,6 +17106,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-REF-010",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "target": "DOC-ROAD-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-010",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "target": "DOC-SPEC-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-REF-010",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-ROAD-001",
       "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
@@ -17630,6 +17826,96 @@
       "type": "VALIDATES"
     },
     {
+      "source": "DOC-RPT-037",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-037",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "target": "DOC-SPEC-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-037",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "target": "DOC-SPEC-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-038",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-038",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "target": "DOC-REF-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-038",
+      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "target": "DOC-ROAD-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-039",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-039",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "target": "DOC-ADR-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-039",
+      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "target": "DOC-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-040",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-040",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "target": "DOC-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-040",
+      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "target": "DOC-REF-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-041",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "target": "DOC-RPT-037",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-041",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "target": "DOC-ROAD-010",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-041",
+      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "target": "DOC-SPEC-009",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -18071,12 +18357,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 164,
-    "declared_relationships": 314,
+    "compliant_documents": 170,
+    "declared_relationships": 332,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 122,
+      "CORE": 128,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -18084,7 +18370,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 84,
+      "D2": 90,
       "D3": 79,
       "D4": 1,
       "UNSPECIFIED": 573
@@ -18102,7 +18388,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 104,
+      "Axodus Documentation Core": 110,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -18121,7 +18407,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 124,
-      "DRAFT": 33,
+      "DRAFT": 39,
       "UNSPECIFIED": 573
     },
     "documents_by_type": {
@@ -18132,9 +18418,9 @@
       "PLAYBOOK": 2,
       "POLICY": 7,
       "PROPOSAL": 1,
-      "REFERENCE": 10,
+      "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 37,
+      "REPORT": 42,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -18147,6 +18433,6 @@
     "generated_documents": 8,
     "legacy_documents": 573,
     "template_documents": 14,
-    "total_documents": 751
+    "total_documents": 757
   }
 }

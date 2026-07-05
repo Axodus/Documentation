@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-03T00:00:00Z
-Source Documents: 751
+Generated At: 2026-07-04T00:00:00Z
+Source Documents: 757
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 751
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 751 |
-| Canonical documents | 164 |
+| Total source documents | 757 |
+| Canonical documents | 170 |
 | Legacy documents | 573 |
 | Template documents | 14 |
-| Declared relationships | 314 |
+| Declared relationships | 332 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -40,9 +40,9 @@ Source Documents: 751
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
-| REFERENCE | 10 |
+| REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 37 |
+| REPORT | 42 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 751
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 122 |
+| CORE | 128 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 751
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 124 |
-| DRAFT | 33 |
+| DRAFT | 39 |
 | UNSPECIFIED | 573 |
 ## Canonical Documents
 
@@ -200,13 +200,19 @@ Source Documents: 751
 | DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.3.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
 | DOC-SPEC-009 | Documentation Epic 03 Adoption Metrics | SPECIFICATION | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md](DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md) |
 | DOC-ROAD-010 | Documentation Epic 03 Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-PLAN.md](DOCUMENTATION-EPIC-03-PLAN.md) |
+| DOC-RPT-041 | Documentation Epic 03 Progress Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md) |
 | DOC-ROAD-009 | Documentation Epic 03 Recommendation | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RECOMMENDATION.md](DOCUMENTATION-EPIC-03-RECOMMENDATION.md) |
 | DOC-REF-009 | Documentation Epic 03 Risk Register | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RISK-REGISTER.md](DOCUMENTATION-EPIC-03-RISK-REGISTER.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
+| DOC-RPT-039 | Documentation Exception Authority Routing | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md](DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md) |
+| DOC-REF-010 | Documentation Exception Disposition Inventory | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md](DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md) |
 | DOC-SPEC-008 | Documentation Exception Disposition Model | SPECIFICATION | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md](DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md) |
+| DOC-RPT-037 | Documentation Exception Disposition Summary | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md](DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md) |
 | DOC-ROAD-011 | Documentation Exception Expiry Remediation Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md](DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md) |
+| DOC-RPT-038 | Documentation Exception Expiry Risk Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md](DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-POLICY.md](DOCUMENTATION-EXCEPTION-POLICY.md) |
+| DOC-RPT-040 | Documentation Exception Security Routing | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md](DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GENERATOR.md](DOCUMENTATION-GENERATOR.md) |
 | DOC-RPT-024 | Documentation Graph Enrichment Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md](DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md) |
 | DOC-RPT-004 | Documentation Legacy Classification Evidence | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md](DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md) |
