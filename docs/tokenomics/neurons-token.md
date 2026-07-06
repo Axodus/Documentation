@@ -19,7 +19,7 @@ This page defines the current $Neurons token specification and documentation fra
 | Symbol | NEURONS |
 | Standard | ERC-20 |
 | Decimals | 18 |
-| Maximum supply | 10,000,000 $Neurons |
+| Supply policy | Pending approved public disclosure |
 | Mint model | Controlled by Proof-of-Knowledge authorization |
 | Burn | Supported by architecture |
 | Cross-chain | Prepared for LayerZero / OFT v2 |
@@ -29,12 +29,12 @@ This page defines the current $Neurons token specification and documentation fra
 
 $Neurons is a utility token system designed for controlled issuance, cryptographic authorization, anti-abuse protections, and future cross-chain growth.
 
-The economic design is based on scarcity and controlled minting rather than a predefined allocation table.
+The economic design is based on controlled minting rather than a predefined public allocation table.
 
 ## Core Capabilities
 
 - ERC-20 transfer compatibility.
-- Maximum supply enforcement.
+- Supply policy enforcement where implemented and approved for disclosure.
 - Minting through authorized flows only.
 - Burn support.
 - Role-based access control.
@@ -55,7 +55,7 @@ $Neurons documentation must not claim active DAO governance, staking, vesting, l
 
 ## Current Status
 
-The current tokenomics model supports a fixed supply cap and controlled issuance. Future ecosystem extensions, including DAO governance, staking, ecosystem rewards, service payments, and multi-chain liquidity, remain future or conditional unless implementation confirms them.
+The current tokenomics model supports controlled issuance. Future ecosystem extensions, including DAO governance, staking, ecosystem rewards, service payments, and multi-chain liquidity, remain future or conditional unless implementation and disclosure approval confirm them.
 
 ## Related Pages
 

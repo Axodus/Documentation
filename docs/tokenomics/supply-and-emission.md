@@ -15,7 +15,7 @@ Supply and emission define how $Neurons can be created, limited, burned, and rep
 
 | Metric | Value |
 | --- | ---: |
-| Maximum supply | 10,000,000 $Neurons |
+| Supply policy | Pending approved public disclosure |
 | Decimals | 18 |
 | Initial emission | Defined at deploy or contract configuration |
 | Future emission | Only through authorized minting |
@@ -31,7 +31,7 @@ $Neurons uses controlled minting. Emission depends on:
 - amount within the per-transaction limit;
 - user within the daily limit;
 - cooldown compliance;
-- available supply below the maximum cap.
+- available supply within approved contract and policy limits.
 
 ## Mint Validity Formula
 
@@ -42,14 +42,14 @@ valid signature
 + amount <= 100 $Neurons
 + user daily minted amount <= 1,000 $Neurons
 + cooldown respected
-+ totalSupply + amount <= 10,000,000 $Neurons
++ totalSupply + amount <= approved supply policy limit
 ```
 
 ## Economic Limits
 
 | Parameter | Value | Economic effect |
 | --- | ---: | --- |
-| Maximum supply | 10,000,000 | Enforces hard scarcity |
+| Supply policy limit | Pending approved public disclosure | Prevents unauthorized issuance beyond approved limits |
 | Maximum per transaction | 100 | Prevents large single-operation mint events |
 | Maximum per user per day | 1,000 | Limits individual daily distribution |
 | Cooldown | 1 hour | Reduces spam and automation abuse |

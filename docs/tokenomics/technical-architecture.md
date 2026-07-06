@@ -26,7 +26,7 @@ The architecture separates the ERC-20 token, mint control, cryptographic verific
 
 ## `Neurons.sol`
 
-`Neurons.sol` is the economic core of the system. It implements ERC-20 behavior, enforces the 10,000,000 $Neurons maximum supply, permits minting only through authorized roles or contracts, supports token burn, and may support emergency pause behavior.
+`Neurons.sol` is the economic core of the system. It implements ERC-20 behavior, enforces approved supply policy limits where configured, permits minting only through authorized roles or contracts, supports token burn, and may support emergency pause behavior.
 
 ## `PoKMinter.sol`
 

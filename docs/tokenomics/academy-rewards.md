@@ -34,7 +34,7 @@ Academy rewards are subject to the same system limits:
 - 100 $Neurons maximum per transaction;
 - 1,000 $Neurons maximum per user per day;
 - 1-hour cooldown between mints;
-- global supply cap of 10,000,000 $Neurons.
+- approved supply policy limits.
 
 ## Program Requirements
 

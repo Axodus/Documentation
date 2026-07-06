@@ -1,15 +1,15 @@
 ---
 schema_version: "1.0.0"
-document_id: "INT-PROP-TRACK-INDEX-001"
+document_id: "PRIV-PROP-001"
 aliases: []
 document_type: "PROPOSAL"
 title: "Private Track Execution Requests Index"
-summary: "Indexes the internal execution requests for private governance-mechanics and tokenomics drafting tracks."
+summary: "Indexes the internal execution requests for private governance and tokenomics documentation tracks."
 version: "0.1.0"
 publication_status: "DRAFT"
 document_state: "EXPERIMENTAL"
 maturity_level: "D1"
-authority_scope: "DOCUMENTATION"
+authority_scope: "DOCUMENTATION.PRIVATE_DISCLOSURE"
 authority_level: "PROJECT"
 author: "Axodus Core"
 owner: "Axodus Documentation Core"
@@ -31,66 +31,58 @@ related_adrs: []
 related_cores: ["GOVERNANCE", "TOKENOMICS"]
 implementation_refs: []
 production_gate_impact: "PRESERVES_CLOSED"
-classification: "INTERNAL_CONFIDENTIAL"
-distribution: "RESTRICTED"
-external_use: "PROHIBITED"
-legal_review: "SEPARATE_DISCLOSURE_GATE_REQUIRED"
-public_reference: "PROHIBITED"
 ---
 
 # Private Track Execution Requests Index
 
-> This index is internal-only. It organizes execution requests for private
-> documentation tracks and must not be mirrored into the public `Institutional`
-> repository.
+## Control Flags
+
+| Flag | Value |
+| --- | --- |
+| classification | INTERNAL_CONFIDENTIAL |
+| distribution | RESTRICTED |
+| external_use | PROHIBITED |
+| legal_review | SEPARATE_DISCLOSURE_GATE_REQUIRED |
+| public_reference | PROHIBITED |
 
 ## Purpose
 
-This directory contains execution requests for private Axodus documentation
-tracks that must remain separate from:
-
-- the public academic paper track
-- the public `Institutional` repository
-- external review, submission, publication, fundraising, investor, and outreach
-  materials
+This directory contains internal execution requests for the private Axodus
+governance and tokenomics tracks. These requests must not be mirrored into a
+public repository, public academic paper, fundraising material, investor
+material, external disclosure, or outreach content.
 
 ## Execution Order
 
-1. Execute `track-b-governance-mechanics-execution-request.md`
-2. Execute `track-c-tokenomics-draft-execution-request.md`
-3. Create or update `institutional-disclosure/README.md` as the private index
-   for the resulting disclosure documents
+1. Execute `track-b-governance-mechanics-execution-request.md`.
+2. Execute `track-b-governance-mechanics-review-request.md`.
+3. Execute `track-b-governance-mechanics-correction-request.md`.
+4. Execute `track-b-governance-baseline-closure-request.md`.
+5. Execute `track-c-tokenomics-draft-execution-request.md`.
+6. Execute `track-c-tokenomics-risk-review-request.md`.
+7. Execute `track-c-tokenomics-baseline-closure-request.md`.
+8. Execute `private-tracks-boundary-audit-request.md`.
+9. Execute `private-disclosure-index-update-request.md`.
 
 ## Request Set
 
-- [Track B — Institutional Governance Mechanics](track-b-governance-mechanics-execution-request.md)
-- [Track C — Tokenomics Draft](track-c-tokenomics-draft-execution-request.md)
+- [Track B - Governance Mechanics Draft](track-b-governance-mechanics-execution-request.md)
+- [Track B - Governance Mechanics Review](track-b-governance-mechanics-review-request.md)
+- [Track B - Governance Mechanics Correction](track-b-governance-mechanics-correction-request.md)
+- [Track B - Governance Baseline Closure](track-b-governance-baseline-closure-request.md)
+- [Track C - Tokenomics Draft](track-c-tokenomics-draft-execution-request.md)
+- [Track C - Tokenomics Risk Review](track-c-tokenomics-risk-review-request.md)
+- [Track C - Tokenomics Baseline Closure](track-c-tokenomics-baseline-closure-request.md)
+- [Private Tracks Boundary Audit](private-tracks-boundary-audit-request.md)
+- [Private Disclosure Index Update](private-disclosure-index-update-request.md)
 
 ## Cross-Track Rules
 
-All requests in this directory must preserve these rules:
-
-- no mirroring into `papers/axodus-architecture-paper/`
-- no citation, summary, linking, or derivative import into the public paper
-  track
-- no public release
-- no investor or fundraising use
-- no claim that private drafting equals approved governance or approved
-  tokenomics
-- no resolution of parameters explicitly left for first-adopter governance
-  decisions unless separately authorized
-
-## Output Expectation
-
-The requests in this directory are not final disclosure documents. They are
-instructions for creating controlled internal documents under
-`institutional-disclosure/`.
-
-The resulting `institutional-disclosure/README.md` should provide a short
-private navigation layer for:
-
-- `governance-mechanics.md`
-- `tokenomics-draft.md`
-
-and must mark both as confidential, non-paper, and externally blocked pending
-separate disclosure review.
+- Governance must be baselined privately before tokenomics drafting is treated
+  as authorized.
+- Unresolved governance or tokenomics parameters must use
+  `[TBD — pending governance decision with first adopters]`.
+- Private Track B/C content must not be copied, linked, cited, summarized, or
+  converted into public paper, public docs, fundraising, investor, or outreach
+  material.
+- Legal review remains pending for any externalization.

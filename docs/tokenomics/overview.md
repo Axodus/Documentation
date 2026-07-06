@@ -39,7 +39,7 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Purpose
 
-Axodus Tokenomics documents the draft/candidate `$Neurons` Token System: an ERC-20 token infrastructure model with fixed maximum supply, controlled issuance, cryptographic authorization, anti-abuse limits, and planned cross-chain expansion, subject to source-of-truth verification before public finalization.
+Axodus Tokenomics documents the draft/candidate `$Neurons` Token System: an ERC-20 token infrastructure model with controlled issuance, cryptographic authorization, anti-abuse limits, and planned cross-chain expansion, subject to source-of-truth verification before public finalization.
 
 ## Scope
 
@@ -57,7 +57,7 @@ The current model is **controlled issuance tokenomics**, not allocation-based to
 
 `$Neurons` uses:
 
-- fixed maximum supply of 10,000,000 `$Neurons`;
+- supply policy documented only through approved public release materials;
 - ERC-20 compatibility with 18 decimals;
 - minting controlled by Proof-of-Knowledge authorization;
 - EIP-712 typed structured data;
@@ -88,7 +88,7 @@ These items must remain `Planned`, `Future`, or `Requires Review` unless contrac
 
 | Pillar | Description |
 | --- | --- |
-| Scarcity | Maximum supply is capped at 10,000,000 `$Neurons` |
+| Supply policy | Public supply parameters require approved disclosure before publication |
 | Controlled issuance | Minting requires authorization, nonce, cooldown, daily limits, and transaction limits |
 | Security | EIP-712, ECDSA, Access Control, Pausable, and replay protection reduce operational risk |
 | Cross-chain readiness | Architecture is prepared for LayerZero OFT v2 adapter expansion |

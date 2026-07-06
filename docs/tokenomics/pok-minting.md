@@ -22,7 +22,7 @@ This page covers the `PoKMinter.sol` and `ECDSAVerifier.sol` flow, including EIP
 | Maximum per transaction | 100 $Neurons |
 | Maximum per user per day | 1,000 $Neurons |
 | Cooldown between mints | 1 hour |
-| Global maximum supply | 10,000,000 $Neurons |
+| Supply policy limit | Pending approved public disclosure |
 
 ## Effective User Limit
 
