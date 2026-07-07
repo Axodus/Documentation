@@ -59,8 +59,8 @@ test('REQ-04 dry run applies no operational registry mutations', async () => {
 })
 
 test('REQ-05 application gate report records governed extension application only', async () => {
-  const document = await loadDocument(resolve(root, 'DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md'), { root })
-  const report = await readFile(resolve(root, 'DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md'), 'utf8')
+  const document = await loadDocument(resolve(root, 'documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md'), { root })
+  const report = await readFile(resolve(root, 'documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md'), 'utf8')
   assert.equal(document.metadata.document_id, 'DOC-RPT-042')
   assert.equal(document.metadata.publication_status, 'DRAFT')
   assert.match(report, /Governed disposition states \| 573/)

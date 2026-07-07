@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-03"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-002", "DOC-ADR-004", "DOC-ADR-011", "DOC-ADR-019"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-ADOPTION-METRICS.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-CORE-ADOPTION-MATRIX.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+implementation_refs: [{repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-ADOPTION-METRICS.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

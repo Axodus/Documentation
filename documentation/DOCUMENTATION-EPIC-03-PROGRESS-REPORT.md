@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-03"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03", "AXODUS-DOCUMENTATION-EPIC-03-REQ-04", "AXODUS-DOCUMENTATION-EPIC-03-REQ-05", "AXODUS-DOCUMENTATION-EPIC-03-REQ-06"]
 related_adrs: ["DOC-ADR-018","DOC-ADR-019","DOC-ADR-020","DOC-ADR-021","DOC-ADR-022","DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
+implementation_refs: [{"repository":"Axodus/Documentation","path":"documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

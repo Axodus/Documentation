@@ -9,14 +9,14 @@ const read = (path) => readFile(resolve(root, path), 'utf8')
 
 test('REQ-08 artifacts are canonical with monotonic non-colliding IDs', async () => {
   const artifacts = [
-    ['DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md', 'DOC-RPT-022'],
-    ['DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md', 'DOC-RPT-023'],
-    ['DOCUMENTATION-TRACEABILITY-EXPANSION.md', 'DOC-SPEC-006'],
-    ['DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md', 'DOC-RPT-024'],
-    ['DOCUMENTATION-BATCH-03-PLANNING.md', 'DOC-ROAD-006'],
-    ['DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md', 'DOC-ROAD-007'],
-    ['DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md', 'DOC-RPT-025'],
-    ['DOCUMENTATION-BATCH-03-READINESS-FORECAST.md', 'DOC-RPT-026'],
+    ['documentation/DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md', 'DOC-RPT-022'],
+    ['documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md', 'DOC-RPT-023'],
+    ['documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md', 'DOC-SPEC-006'],
+    ['documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md', 'DOC-RPT-024'],
+    ['documentation/DOCUMENTATION-BATCH-03-PLANNING.md', 'DOC-ROAD-006'],
+    ['documentation/DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md', 'DOC-ROAD-007'],
+    ['documentation/DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md', 'DOC-RPT-025'],
+    ['documentation/DOCUMENTATION-BATCH-03-READINESS-FORECAST.md', 'DOC-RPT-026'],
   ]
   for (const [path, id] of artifacts) {
     const document = await loadDocument(resolve(root, path), { root })
@@ -27,14 +27,14 @@ test('REQ-08 artifacts are canonical with monotonic non-colliding IDs', async ()
 })
 
 test('Batch 02 acceptance and audit are explicit', async () => {
-  assert.match(await read('DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md'), /Batch 02 Acceptance: ACCEPTED/)
-  const audit = await read('DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md')
+  assert.match(await read('documentation/DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md'), /Batch 02 Acceptance: ACCEPTED/)
+  const audit = await read('documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md')
   assert.match(audit, /20\/20 canonical documents/)
   assert.match(audit, /Registry synchronization: 593\/593/)
 })
 
 test('traceability reports record current graph metrics without unresolved edges', async () => {
-  const specification = await read('DOCUMENTATION-TRACEABILITY-EXPANSION.md')
+  const specification = await read('documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md')
   assert.match(specification, /Canonical documents: 115/)
   assert.match(specification, /Resolved semantic relationships: 223/)
   assert.match(specification, /Unresolved relation risk: 0/)
@@ -42,7 +42,7 @@ test('traceability reports record current graph metrics without unresolved edges
 })
 
 test('Batch 03 proposal has 20 primaries, six alternates and no final IDs', async () => {
-  const proposal = await read('DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md')
+  const proposal = await read('documentation/DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md')
   assert.equal((proposal.match(/`(?:BATCH_03_PRIMARY_PROPOSED|MIGRATED)`/g) ?? []).length, 20)
   assert.equal((proposal.match(/`(?:BATCH_03_ALTERNATE_PROPOSED|FROZEN_ALTERNATE)`/g) ?? []).length, 6)
   assert.equal((proposal.match(/-GDE-<NNN>/g) ?? []).length, 26)

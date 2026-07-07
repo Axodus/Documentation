@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-03"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-001","DOC-ADR-017","DOC-ADR-019","DOC-ADR-021"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"governance/DOCUMENTATION-AUTHORITY-MODEL.md","ref":"main","kind":"SOURCE","environment":"LOCAL"}]
+implementation_refs: [{"repository":"Axodus/Documentation","path":"documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"governance/DOCUMENTATION-AUTHORITY-MODEL.md","ref":"main","kind":"SOURCE","environment":"LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

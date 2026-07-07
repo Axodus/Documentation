@@ -19855,8 +19855,8 @@
     },
     {
       "exception_id": "DOC-EXC-599",
-      "document_path": "DOCUMENTATION-ADR-INDEX.md",
-      "baseline_sha256": "98151cf819448d1c933941bb3f2f1d1cb4336d937b8f38b3979d8b77ee6be18c",
+      "document_path": "documentation/DOCUMENTATION-ADR-INDEX.md",
+      "baseline_sha256": "6fccb1d4316b9accb454f6e8551f0e85ef81c45d5127ab46ec3fe2e96eb2dbb2",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
       "risk_priority": "P0",

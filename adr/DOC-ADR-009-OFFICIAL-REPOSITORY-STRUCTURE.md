@@ -76,7 +76,7 @@ Any migration requires compatibility, redirects, and explicit scope.
 ## Related Documents
 
 - [Documentation Authority Model](../governance/DOCUMENTATION-AUTHORITY-MODEL.md)
-- [Documentation Master Index](../DOCUMENTATION-MASTER-INDEX.md)
+- [Documentation Master Index](../documentation/DOCUMENTATION-MASTER-INDEX.md)
 
 ## Supersession Policy
 

@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-03"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019", "DOC-ADR-020", "DOC-ADR-021"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-EXCEPTION-POLICY.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.exceptions.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
+implementation_refs: [{repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-EXCEPTION-POLICY.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.exceptions.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

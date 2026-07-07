@@ -7,17 +7,17 @@ import { loadDocument } from '../index.js'
 const root = process.cwd()
 const read = (path) => readFile(resolve(root, path), 'utf8')
 const closureDocuments = [
-  ['DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md', 'DOC-RPT-033'],
-  ['DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md', 'DOC-RPT-034'],
-  ['DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md', 'DOC-RPT-035'],
-  ['DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md', 'DOC-RPT-036'],
-  ['DOCUMENTATION-POST-EPIC-02-BACKLOG.md', 'DOC-ROAD-008'],
-  ['DOCUMENTATION-EPIC-03-RECOMMENDATION.md', 'DOC-ROAD-009'],
+  ['documentation/DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md', 'DOC-RPT-033'],
+  ['documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md', 'DOC-RPT-034'],
+  ['documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md', 'DOC-RPT-035'],
+  ['documentation/DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md', 'DOC-RPT-036'],
+  ['documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md', 'DOC-ROAD-008'],
+  ['documentation/DOCUMENTATION-EPIC-03-RECOMMENDATION.md', 'DOC-ROAD-009'],
 ]
 const reservationRecords = [
-  'DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md',
-  'DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md',
-  'DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md',
+  'documentation/DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md',
+  'documentation/DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md',
+  'documentation/DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md',
 ]
 
 test('REQ-10 closure artifacts are canonical and related', async () => {
@@ -31,7 +31,7 @@ test('REQ-10 closure artifacts are canonical and related', async () => {
 })
 
 test('EPIC-02 closure records PASS_CLOSED and all quantitative targets', async () => {
-  const report = await read('DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md')
+  const report = await read('documentation/DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md')
   assert.match(report, /Result: PASS_CLOSED/)
   assert.match(report, /Canonical documents \| 150 >= 100 PASS/)
   assert.match(report, /Legacy documents \| 573 <= 573 PASS/)
@@ -41,7 +41,7 @@ test('EPIC-02 closure records PASS_CLOSED and all quantitative targets', async (
 })
 
 test('all three migration batches are accepted by the closure audit', async () => {
-  const audit = await read('DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md')
+  const audit = await read('documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md')
   assert.match(audit, /Batch 01.*ACCEPTED/)
   assert.match(audit, /Batch 02.*ACCEPTED/)
   assert.match(audit, /Batch 03.*ACCEPTED/)
@@ -81,7 +81,7 @@ test('60 published migration IDs are unique and reconciled with the manifest', a
 })
 
 test('all public cores remain ADOPTED_PARTIAL and CORE remains reserved', async () => {
-  const matrix = await read('DOCUMENTATION-CORE-ADOPTION-MATRIX.md')
+  const matrix = await read('documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md')
   assert.equal(
     matrix.split('\n').filter((line) => line.startsWith(' | ') && line.includes('`ADOPTED_PARTIAL`')).length,
     16,
@@ -91,7 +91,7 @@ test('all public cores remain ADOPTED_PARTIAL and CORE remains reserved', async 
 })
 
 test('post-EPIC backlog tracks mandatory residual work', async () => {
-  const backlog = await read('DOCUMENTATION-POST-EPIC-02-BACKLOG.md')
+  const backlog = await read('documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md')
   for (const expected of [
     '2026-10-01',
     'default-overview-only',

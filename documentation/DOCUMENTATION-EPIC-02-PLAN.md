@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-01", "DOCUMENTATION-EPIC-02"]
 related_requirements: ["AXODUS-DOCUMENTATION-REQ-02"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019", "DOC-ADR-020"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.manifest.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.baseline.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
+implementation_refs: [{repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.manifest.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.baseline.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

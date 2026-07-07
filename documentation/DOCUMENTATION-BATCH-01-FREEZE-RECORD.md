@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-02"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-04"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
 related_cores: ["ACCOUNTABILITY", "ACADEMY", "ACS", "BBA_AGENCY", "BUSINESS", "DEFI", "DEX", "GOVERNANCE", "LOTTERY", "MARKETPLACE", "MINING", "RUNTIME", "SECURITY", "TOKENOMICS", "TRADING", "TREASURY"]
-implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+implementation_refs: [{repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

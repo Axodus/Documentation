@@ -10078,7 +10078,7 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
-      "source_path": "DOCUMENTATION-ADR-INDEX.md"
+      "source_path": "documentation/DOCUMENTATION-ADR-INDEX.md"
     },
     {
       "document_id": null,
@@ -10087,7 +10087,7 @@
       "message": "Legacy document path and hash match the accepted baseline.",
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
-      "source_path": "DOCUMENTATION-ADR-INDEX.md"
+      "source_path": "documentation/DOCUMENTATION-ADR-INDEX.md"
     },
     {
       "document_id": "DOC-PLAY-001",
@@ -10096,7 +10096,7 @@
       "message": "Allowed RELATES_TO cycle observed: DOC-PLAY-001 -> DOC-SPEC-005 -> DOC-STD-002 -> DOC-STD-003.",
       "rule_id": "DOC-RULE-021",
       "severity": "INFO",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md"
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md"
     },
     {
       "document_id": "DOC-ROAD-008",
@@ -10105,7 +10105,7 @@
       "message": "Allowed RELATES_TO cycle observed: DOC-ROAD-008 -> DOC-ROAD-009.",
       "rule_id": "DOC-RULE-021",
       "severity": "INFO",
-      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md"
+      "source_path": "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md"
     },
     {
       "document_id": null,

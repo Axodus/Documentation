@@ -101,9 +101,9 @@ Every initial baseline entry receives one `ACTIVE` exception with disposition `M
 
 ## Related Documents
 
-- [Documentation Legacy Baseline Policy](DOCUMENTATION-BASELINE-POLICY.md)
-- [Documentation Validation Rules](DOCUMENTATION-VALIDATION-RULES.md)
-- [Documentation Error Catalog](DOCUMENTATION-ERROR-CATALOG.md)
+- [Documentation Legacy Baseline Policy](./DOCUMENTATION-BASELINE-POLICY.md)
+- [Documentation Validation Rules](./DOCUMENTATION-VALIDATION-RULES.md)
+- [Documentation Error Catalog](./DOCUMENTATION-ERROR-CATALOG.md)
 
 ## Preservation Boundary
 

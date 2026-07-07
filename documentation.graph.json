@@ -4351,7 +4351,7 @@
       "document_type": "GUIDE",
       "node_id": "DOC-GDE-001",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-CLI.md",
+      "source_path": "documentation/DOCUMENTATION-CLI.md",
       "title": "Documentation CLI"
     },
     {
@@ -4361,7 +4361,7 @@
       "document_type": "GUIDE",
       "node_id": "DOC-GDE-002",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-GENERATOR.md",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR.md",
       "title": "Persistent Documentation Generator"
     },
     {
@@ -4371,7 +4371,7 @@
       "document_type": "GUIDE",
       "node_id": "DOC-GDE-003",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "source_path": "documentation/DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "title": "Documentation Evidence Snapshot Framework"
     },
     {
@@ -4381,7 +4381,7 @@
       "document_type": "GUIDE",
       "node_id": "DOC-GDE-004",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-CI.md",
+      "source_path": "documentation/DOCUMENTATION-CI.md",
       "title": "Documentation Continuous Integration"
     },
     {
@@ -4411,7 +4411,7 @@
       "document_type": "PLAYBOOK",
       "node_id": "DOC-PLAY-001",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "title": "Documentation Migration Playbook"
     },
     {
@@ -4461,7 +4461,7 @@
       "document_type": "POLICY",
       "node_id": "DOC-POL-005",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-BASELINE-POLICY.md",
+      "source_path": "documentation/DOCUMENTATION-BASELINE-POLICY.md",
       "title": "Documentation Legacy Baseline Policy"
     },
     {
@@ -4471,7 +4471,7 @@
       "document_type": "POLICY",
       "node_id": "DOC-POL-006",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-EXCEPTION-POLICY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-POLICY.md",
       "title": "Documentation Exception Policy"
     },
     {
@@ -4501,7 +4501,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-003",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-VALIDATION-RULES.md",
+      "source_path": "documentation/DOCUMENTATION-VALIDATION-RULES.md",
       "title": "Documentation Validation Rules"
     },
     {
@@ -4511,7 +4511,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-004",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-ERROR-CATALOG.md",
+      "source_path": "documentation/DOCUMENTATION-ERROR-CATALOG.md",
       "title": "Documentation Validation Error Catalog"
     },
     {
@@ -4521,7 +4521,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-005",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "source_path": "documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "title": "Documentation Core Adoption Matrix"
     },
     {
@@ -4531,7 +4531,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-006",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
       "title": "Documentation Batch 01 ID Reservation Record"
     },
     {
@@ -4541,7 +4541,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-007",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
       "title": "Documentation Batch 02 ID Reservation Record"
     },
     {
@@ -4551,7 +4551,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-008",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
       "title": "Documentation Batch 03 ID Reservation Record"
     },
     {
@@ -4561,7 +4561,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-009",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "title": "Documentation Epic 03 Risk Register"
     },
     {
@@ -4571,7 +4571,7 @@
       "document_type": "REFERENCE",
       "node_id": "DOC-REF-010",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
       "title": "Documentation Exception Disposition Inventory"
     },
     {
@@ -4581,7 +4581,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-001",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
       "title": "Documentation Epic 02 Adoption Plan"
     },
     {
@@ -4591,7 +4591,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-002",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-PRIORITIZATION.md",
       "title": "Documentation Legacy Prioritization"
     },
     {
@@ -4601,7 +4601,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-003",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "title": "Documentation Batch 01 Candidate Freeze Proposal"
     },
     {
@@ -4611,7 +4611,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-004",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-PLANNING.md",
       "title": "Documentation Batch 02 Planning"
     },
     {
@@ -4621,7 +4621,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-005",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
       "title": "Documentation Batch 02 Candidate Freeze Proposal"
     },
     {
@@ -4631,7 +4631,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-006",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-PLANNING.md",
       "title": "Documentation Batch 03 Planning"
     },
     {
@@ -4641,7 +4641,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-007",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "title": "Documentation Batch 03 Candidate Freeze Proposal"
     },
     {
@@ -4651,7 +4651,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-008",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "source_path": "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
       "title": "Documentation Post Epic 02 Backlog"
     },
     {
@@ -4661,7 +4661,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-009",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "title": "Documentation Epic 03 Recommendation"
     },
     {
@@ -4671,7 +4671,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-010",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
       "title": "Documentation Epic 03 Plan"
     },
     {
@@ -4681,7 +4681,7 @@
       "document_type": "ROADMAP",
       "node_id": "DOC-ROAD-011",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
       "title": "Documentation Exception Expiry Remediation Plan"
     },
     {
@@ -4691,7 +4691,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-001",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
       "title": "Documentation Migration Wave 01"
     },
     {
@@ -4701,7 +4701,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-002",
       "publication_status": "ACTIVE",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "title": "Documentation Epic 01 Closure Report"
     },
     {
@@ -4711,7 +4711,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-003",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-DEBT-REPORT.md",
       "title": "Documentation Legacy Debt Report"
     },
     {
@@ -4721,7 +4721,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-004",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
       "title": "Documentation Legacy Classification Evidence"
     },
     {
@@ -4731,7 +4731,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-005",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "title": "Documentation Batch 01 Freeze Record"
     },
     {
@@ -4741,7 +4741,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-006",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "title": "Documentation Batch 01 Authority Evidence"
     },
     {
@@ -4751,7 +4751,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-007",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-01.md",
       "title": "Documentation Migration Batch 01"
     },
     {
@@ -4761,7 +4761,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-008",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
       "title": "Documentation Migration Batch 01 Evidence"
     },
     {
@@ -4771,7 +4771,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-009",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
       "title": "Documentation Batch 01 Semantic Diff Report"
     },
     {
@@ -4781,7 +4781,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-010",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
       "title": "Documentation Batch 01 Security Review"
     },
     {
@@ -4791,7 +4791,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-011",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
       "title": "Documentation Batch 01 Validation Report"
     },
     {
@@ -4801,7 +4801,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-012",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
       "title": "Documentation Batch 01 Acceptance Report"
     },
     {
@@ -4811,7 +4811,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-013",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "title": "Documentation Batch 01 Post-Migration Audit"
     },
     {
@@ -4821,7 +4821,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-014",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "title": "Documentation Epic 02 Progress Report"
     },
     {
@@ -4831,7 +4831,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-015",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
       "title": "Documentation Batch 02 Authority Gap Report"
     },
     {
@@ -4841,7 +4841,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-016",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-02.md",
       "title": "Documentation Migration Batch 02"
     },
     {
@@ -4851,7 +4851,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-017",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
       "title": "Documentation Migration Batch 02 Evidence"
     },
     {
@@ -4861,7 +4861,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-018",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
       "title": "Documentation Batch 02 Freeze Record"
     },
     {
@@ -4871,7 +4871,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-019",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
       "title": "Documentation Batch 02 Semantic Diff Report"
     },
     {
@@ -4881,7 +4881,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-020",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
       "title": "Documentation Batch 02 Security Review"
     },
     {
@@ -4891,7 +4891,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-021",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
       "title": "Documentation Batch 02 Validation Report"
     },
     {
@@ -4901,7 +4901,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-022",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
       "title": "Documentation Batch 02 Acceptance Report"
     },
     {
@@ -4911,7 +4911,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-023",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
       "title": "Documentation Batch 02 Post-Migration Audit"
     },
     {
@@ -4921,7 +4921,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-024",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
       "title": "Documentation Graph Enrichment Report"
     },
     {
@@ -4931,7 +4931,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-025",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
       "title": "Documentation Batch 03 Authority Gap Report"
     },
     {
@@ -4941,7 +4941,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-026",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
       "title": "Documentation Batch 03 Readiness Forecast"
     },
     {
@@ -4951,7 +4951,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-027",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-03.md",
       "title": "Documentation Migration Batch 03"
     },
     {
@@ -4961,7 +4961,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-028",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
       "title": "Documentation Migration Batch 03 Evidence"
     },
     {
@@ -4971,7 +4971,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-029",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
       "title": "Documentation Batch 03 Freeze Record"
     },
     {
@@ -4981,7 +4981,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-030",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
       "title": "Documentation Batch 03 Semantic Diff Report"
     },
     {
@@ -4991,7 +4991,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-031",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
       "title": "Documentation Batch 03 Security Review"
     },
     {
@@ -5001,7 +5001,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-032",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
       "title": "Documentation Batch 03 Validation Report"
     },
     {
@@ -5011,7 +5011,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-033",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
       "title": "Documentation Epic 02 Final Validation Report"
     },
     {
@@ -5021,7 +5021,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-034",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
       "title": "Documentation Epic 02 Closure Audit"
     },
     {
@@ -5031,7 +5031,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-035",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
       "title": "Documentation Epic 02 Completion Report"
     },
     {
@@ -5041,7 +5041,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-036",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
       "title": "Documentation Epic 02 Final Evidence Summary"
     },
     {
@@ -5051,7 +5051,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-037",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
       "title": "Documentation Exception Disposition Summary"
     },
     {
@@ -5061,7 +5061,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-038",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
       "title": "Documentation Exception Expiry Risk Report"
     },
     {
@@ -5071,7 +5071,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-039",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
       "title": "Documentation Exception Authority Routing"
     },
     {
@@ -5081,7 +5081,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-040",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
       "title": "Documentation Exception Security Routing"
     },
     {
@@ -5091,7 +5091,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-041",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "title": "Documentation Epic 03 Progress Report"
     },
     {
@@ -5101,7 +5101,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-042",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
       "title": "Documentation Exception Disposition Application Gate"
     },
     {
@@ -5111,7 +5111,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-043",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "title": "Documentation Traceability Depth Baseline"
     },
     {
@@ -5121,7 +5121,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-044",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "title": "Documentation Recovery Sprint Closure Audit"
     },
     {
@@ -5131,7 +5131,7 @@
       "document_type": "REPORT",
       "node_id": "DOC-RPT-045",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "title": "Documentation Repository Sanitization Audit"
     },
     {
@@ -5181,7 +5181,7 @@
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-005",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "title": "Documentation Adoption Metrics"
     },
     {
@@ -5191,7 +5191,7 @@
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-006",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "title": "Documentation Traceability Expansion"
     },
     {
@@ -5201,7 +5201,7 @@
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-007",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "title": "Documentation Batch 01 Execution Contract"
     },
     {
@@ -5211,7 +5211,7 @@
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-008",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "title": "Documentation Exception Disposition Model"
     },
     {
@@ -5221,7 +5221,7 @@
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-009",
       "publication_status": "DRAFT",
-      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
       "title": "Documentation Epic 03 Adoption Metrics"
     },
     {
@@ -5241,7 +5241,7 @@
       "document_type": "STANDARD",
       "node_id": "DOC-STD-002",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
       "title": "Documentation Migration Criteria"
     },
     {
@@ -5251,7 +5251,7 @@
       "document_type": "STANDARD",
       "node_id": "DOC-STD-003",
       "publication_status": "APPROVED",
-      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "source_path": "documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "title": "Documentation Debt Classification"
     },
     {
@@ -7319,9 +7319,9 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "DOCUMENTATION-ADR-INDEX.md",
+      "node_id": "documentation/DOCUMENTATION-ADR-INDEX.md",
       "publication_status": null,
-      "source_path": "DOCUMENTATION-ADR-INDEX.md",
+      "source_path": "documentation/DOCUMENTATION-ADR-INDEX.md",
       "title": "Documentation ADR Index"
     },
     {
@@ -8694,7 +8694,7 @@
     "docs/treasury/tokenomics-alignment.md",
     "docs/treasury/trading-alignment.md",
     "docs/treasury/treasury-policy.md",
-    "DOCUMENTATION-ADR-INDEX.md",
+    "documentation/DOCUMENTATION-ADR-INDEX.md",
     "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
     "Documents/agents/README.md",
     "Documents/archive/README.md",
@@ -9395,85 +9395,85 @@
       "docs/treasury/tokenomics-alignment.md",
       "docs/treasury/trading-alignment.md",
       "docs/treasury/treasury-policy.md",
-      "DOCUMENTATION-ADOPTION-METRICS.md",
-      "DOCUMENTATION-ADR-INDEX.md",
-      "DOCUMENTATION-BASELINE-POLICY.md",
-      "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
-      "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
-      "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
-      "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
-      "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
-      "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
-      "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
-      "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
-      "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
-      "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
-      "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
-      "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
-      "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
-      "DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
-      "DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
-      "DOCUMENTATION-BATCH-02-PLANNING.md",
-      "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
-      "DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
-      "DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
-      "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
-      "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
-      "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
-      "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
-      "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
-      "DOCUMENTATION-BATCH-03-PLANNING.md",
-      "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
-      "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
-      "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
-      "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
-      "DOCUMENTATION-CI.md",
-      "DOCUMENTATION-CLI.md",
-      "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
-      "DOCUMENTATION-DEBT-CLASSIFICATION.md",
-      "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
-      "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
-      "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
-      "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
-      "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
-      "DOCUMENTATION-EPIC-02-PLAN.md",
-      "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
-      "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
-      "DOCUMENTATION-EPIC-03-PLAN.md",
-      "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
-      "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
-      "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
-      "DOCUMENTATION-ERROR-CATALOG.md",
-      "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
-      "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
-      "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
-      "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
-      "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
-      "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
-      "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
-      "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
-      "DOCUMENTATION-EXCEPTION-POLICY.md",
-      "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
-      "DOCUMENTATION-GENERATOR.md",
-      "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
-      "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
-      "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
-      "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
-      "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
-      "DOCUMENTATION-MIGRATION-BATCH-01.md",
-      "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
-      "DOCUMENTATION-MIGRATION-BATCH-02.md",
-      "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
-      "DOCUMENTATION-MIGRATION-BATCH-03.md",
-      "DOCUMENTATION-MIGRATION-CRITERIA.md",
-      "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
-      "DOCUMENTATION-MIGRATION-WAVE-01.md",
-      "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
-      "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
-      "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
-      "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
-      "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
-      "DOCUMENTATION-VALIDATION-RULES.md",
+      "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
+      "documentation/DOCUMENTATION-ADR-INDEX.md",
+      "documentation/DOCUMENTATION-BASELINE-POLICY.md",
+      "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "documentation/DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "documentation/DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
+      "documentation/DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "documentation/DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
+      "documentation/DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
+      "documentation/DOCUMENTATION-BATCH-02-PLANNING.md",
+      "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "documentation/DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
+      "documentation/DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "documentation/DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "documentation/DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "documentation/DOCUMENTATION-BATCH-03-PLANNING.md",
+      "documentation/DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "documentation/DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "documentation/DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "documentation/DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "documentation/DOCUMENTATION-CI.md",
+      "documentation/DOCUMENTATION-CLI.md",
+      "documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "documentation/DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "documentation/DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
+      "documentation/DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "documentation/DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
+      "documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "documentation/DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "documentation/DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "documentation/DOCUMENTATION-ERROR-CATALOG.md",
+      "documentation/DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "documentation/DOCUMENTATION-EXCEPTION-POLICY.md",
+      "documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "documentation/DOCUMENTATION-GENERATOR.md",
+      "documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "documentation/DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "documentation/DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "documentation/DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "documentation/DOCUMENTATION-MIGRATION-BATCH-01.md",
+      "documentation/DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "documentation/DOCUMENTATION-MIGRATION-BATCH-02.md",
+      "documentation/DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "documentation/DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "documentation/DOCUMENTATION-VALIDATION-RULES.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
       "Documents/agents/README.md",
       "Documents/archive/README.md",
@@ -10191,79 +10191,79 @@
     },
     {
       "source": "DOC-GDE-001",
-      "source_path": "DOCUMENTATION-CLI.md",
+      "source_path": "documentation/DOCUMENTATION-CLI.md",
       "target": "DOC-POL-005",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-001",
-      "source_path": "DOCUMENTATION-CLI.md",
+      "source_path": "documentation/DOCUMENTATION-CLI.md",
       "target": "DOC-POL-006",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-001",
-      "source_path": "DOCUMENTATION-CLI.md",
+      "source_path": "documentation/DOCUMENTATION-CLI.md",
       "target": "DOC-SPEC-001",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-002",
-      "source_path": "DOCUMENTATION-GENERATOR.md",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR.md",
       "target": "DOC-ADR-016",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-002",
-      "source_path": "DOCUMENTATION-GENERATOR.md",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR.md",
       "target": "DOC-SPEC-002",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-002",
-      "source_path": "DOCUMENTATION-GENERATOR.md",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR.md",
       "target": "DOC-GDE-001",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-GDE-003",
-      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "source_path": "documentation/DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "target": "DOC-ADR-003",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-003",
-      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "source_path": "documentation/DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "target": "DOC-SPEC-003",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-003",
-      "source_path": "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
+      "source_path": "documentation/DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "target": "DOC-GDE-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-GDE-004",
-      "source_path": "DOCUMENTATION-CI.md",
+      "source_path": "documentation/DOCUMENTATION-CI.md",
       "target": "DOC-ADR-014",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-GDE-004",
-      "source_path": "DOCUMENTATION-CI.md",
+      "source_path": "documentation/DOCUMENTATION-CI.md",
       "target": "DOC-GDE-001",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-GDE-004",
-      "source_path": "DOCUMENTATION-CI.md",
+      "source_path": "documentation/DOCUMENTATION-CI.md",
       "target": "DOC-GDE-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-GDE-004",
-      "source_path": "DOCUMENTATION-CI.md",
+      "source_path": "documentation/DOCUMENTATION-CI.md",
       "target": "DOC-GDE-003",
       "type": "RELATES_TO"
     },
@@ -10299,31 +10299,31 @@
     },
     {
       "source": "DOC-PLAY-001",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "target": "DOC-ADR-018",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-PLAY-001",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "target": "DOC-ADR-019",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-PLAY-001",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "target": "DOC-ADR-020",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-PLAY-001",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "target": "DOC-STD-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-PLAY-001",
-      "source_path": "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "target": "DOC-STD-003",
       "type": "RELATES_TO"
     },
@@ -10377,25 +10377,25 @@
     },
     {
       "source": "DOC-POL-005",
-      "source_path": "DOCUMENTATION-BASELINE-POLICY.md",
+      "source_path": "documentation/DOCUMENTATION-BASELINE-POLICY.md",
       "target": "DOC-REF-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-POL-005",
-      "source_path": "DOCUMENTATION-BASELINE-POLICY.md",
+      "source_path": "documentation/DOCUMENTATION-BASELINE-POLICY.md",
       "target": "DOC-POL-006",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-POL-006",
-      "source_path": "DOCUMENTATION-EXCEPTION-POLICY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-POLICY.md",
       "target": "DOC-POL-005",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-POL-006",
-      "source_path": "DOCUMENTATION-EXCEPTION-POLICY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-POLICY.md",
       "target": "DOC-REF-003",
       "type": "DEPENDS_ON"
     },
@@ -10425,979 +10425,979 @@
     },
     {
       "source": "DOC-REF-003",
-      "source_path": "DOCUMENTATION-VALIDATION-RULES.md",
+      "source_path": "documentation/DOCUMENTATION-VALIDATION-RULES.md",
       "target": "DOC-SPEC-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-REF-003",
-      "source_path": "DOCUMENTATION-VALIDATION-RULES.md",
+      "source_path": "documentation/DOCUMENTATION-VALIDATION-RULES.md",
       "target": "DOC-REF-004",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-004",
-      "source_path": "DOCUMENTATION-ERROR-CATALOG.md",
+      "source_path": "documentation/DOCUMENTATION-ERROR-CATALOG.md",
       "target": "DOC-REF-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-REF-005",
-      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "source_path": "documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "target": "DOC-RPT-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-REF-005",
-      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "source_path": "documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "target": "DOC-SPEC-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-005",
-      "source_path": "DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
+      "source_path": "documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md",
       "target": "DOC-STD-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-006",
-      "source_path": "DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md",
       "target": "DOC-RPT-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-007",
-      "source_path": "DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-ID-RESERVATION-RECORD.md",
       "target": "DOC-ROAD-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-008",
-      "source_path": "DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md",
       "target": "DOC-ROAD-007",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-009",
-      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "target": "DOC-ROAD-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-REF-009",
-      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-009",
-      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "target": "DOC-ADR-022",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-009",
-      "source_path": "DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RISK-REGISTER.md",
       "target": "DOC-ADR-023",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-REF-010",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
       "target": "DOC-ROAD-011",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-REF-010",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
       "target": "DOC-SPEC-008",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-REF-010",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
       "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-001",
-      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-PLAY-001",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-ROAD-001",
-      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-ADR-018",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-001",
-      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-ADR-019",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-001",
-      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-ADR-020",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-001",
-      "source_path": "DOCUMENTATION-EPIC-02-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PLAN.md",
       "target": "DOC-RPT-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-002",
-      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-PRIORITIZATION.md",
       "target": "DOC-RPT-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-002",
-      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-PRIORITIZATION.md",
       "target": "DOC-STD-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-002",
-      "source_path": "DOCUMENTATION-LEGACY-PRIORITIZATION.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-PRIORITIZATION.md",
       "target": "DOC-STD-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-003",
-      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-ADR-018",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-003",
-      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-ADR-019",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-003",
-      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-PLAY-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-003",
-      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-REF-005",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-003",
-      "source_path": "DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-ROAD-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-004",
-      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-PLANNING.md",
       "target": "DOC-RPT-014",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-004",
-      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-PLANNING.md",
       "target": "DOC-STD-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-004",
-      "source_path": "DOCUMENTATION-BATCH-02-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-PLANNING.md",
       "target": "DOC-STD-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-005",
-      "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-ROAD-004",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-005",
-      "source_path": "DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-RPT-015",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-006",
-      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-PLANNING.md",
       "target": "DOC-RPT-014",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-006",
-      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-PLANNING.md",
       "target": "DOC-STD-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-006",
-      "source_path": "DOCUMENTATION-BATCH-03-PLANNING.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-PLANNING.md",
       "target": "DOC-STD-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-007",
-      "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-ROAD-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-007",
-      "source_path": "DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-CANDIDATE-FREEZE-PROPOSAL.md",
       "target": "DOC-RPT-025",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-008",
-      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "source_path": "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
       "target": "DOC-RPT-035",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-008",
-      "source_path": "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "source_path": "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
       "target": "DOC-ROAD-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-009",
-      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "target": "DOC-RPT-035",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-009",
-      "source_path": "DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-RECOMMENDATION.md",
       "target": "DOC-ROAD-008",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-010",
-      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
       "target": "DOC-ROAD-009",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-010",
-      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
       "target": "DOC-RPT-035",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-010",
-      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
       "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-010",
-      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
       "target": "DOC-ADR-022",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-010",
-      "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PLAN.md",
       "target": "DOC-ADR-023",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-ROAD-011",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
       "target": "DOC-POL-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-011",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
       "target": "DOC-ROAD-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-ROAD-011",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md",
       "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-001",
-      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-GDE-005",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-RPT-001",
-      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-GDE-006",
       "type": "DOCUMENTS"
     },
     {
       "source": "DOC-RPT-001",
-      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-POL-005",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-001",
-      "source_path": "DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
       "target": "DOC-POL-006",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-POL-001",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-POL-002",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-POL-003",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-POL-004",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-POL-005",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-POL-006",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-SPEC-001",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-002",
-      "source_path": "DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-01-CLOSURE-REPORT.md",
       "target": "DOC-SPEC-002",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-003",
-      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-DEBT-REPORT.md",
       "target": "DOC-STD-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-003",
-      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-DEBT-REPORT.md",
       "target": "DOC-RPT-004",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-003",
-      "source_path": "DOCUMENTATION-LEGACY-DEBT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-DEBT-REPORT.md",
       "target": "DOC-SPEC-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-004",
-      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
       "target": "DOC-REF-005",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-004",
-      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
       "target": "DOC-ROAD-002",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-004",
-      "source_path": "DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
       "target": "DOC-RPT-003",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-005",
-      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "target": "DOC-ADR-018",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-005",
-      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "target": "DOC-REF-005",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-005",
-      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "target": "DOC-ROAD-003",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-005",
-      "source_path": "DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md",
       "target": "DOC-RPT-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-006",
-      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "target": "DOC-PLAY-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-006",
-      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "target": "DOC-POL-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-006",
-      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "target": "DOC-STD-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-006",
-      "source_path": "DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
       "target": "DOC-ADR-019",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-007",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-01.md",
       "target": "DOC-RPT-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-008",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
       "target": "DOC-RPT-005",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-008",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-009",
-      "source_path": "DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-SEMANTIC-DIFF-REPORT.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-010",
-      "source_path": "DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-SECURITY-REVIEW.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-011",
-      "source_path": "DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-VALIDATION-REPORT.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-012",
-      "source_path": "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-012",
-      "source_path": "DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
       "target": "DOC-RPT-008",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-013",
-      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "target": "DOC-REF-006",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-013",
-      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-013",
-      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-009",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-013",
-      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-010",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-013",
-      "source_path": "DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-011",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-014",
-      "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "target": "DOC-RPT-012",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-014",
-      "source_path": "DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md",
       "target": "DOC-SPEC-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-015",
-      "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
       "target": "DOC-ROAD-004",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-015",
-      "source_path": "DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-AUTHORITY-GAP-REPORT.md",
       "target": "DOC-RPT-006",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-016",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-02.md",
       "target": "DOC-ROAD-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-017",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
       "target": "DOC-RPT-018",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-017",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-02-EVIDENCE.md",
       "target": "DOC-RPT-016",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-018",
-      "source_path": "DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-FREEZE-RECORD.md",
       "target": "DOC-ROAD-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-019",
-      "source_path": "DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-SEMANTIC-DIFF-REPORT.md",
       "target": "DOC-RPT-016",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-020",
-      "source_path": "DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-SECURITY-REVIEW.md",
       "target": "DOC-RPT-016",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-021",
-      "source_path": "DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-VALIDATION-REPORT.md",
       "target": "DOC-ROAD-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-022",
-      "source_path": "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
       "target": "DOC-RPT-016",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-022",
-      "source_path": "DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-ACCEPTANCE-REPORT.md",
       "target": "DOC-RPT-017",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-023",
-      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
       "target": "DOC-REF-007",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-023",
-      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-016",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-023",
-      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-019",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-023",
-      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-020",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-023",
-      "source_path": "DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-02-POST-MIGRATION-AUDIT.md",
       "target": "DOC-RPT-021",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-024",
-      "source_path": "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
       "target": "DOC-SPEC-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-024",
-      "source_path": "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
       "target": "DOC-SPEC-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-025",
-      "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
       "target": "DOC-ROAD-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-025",
-      "source_path": "DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-AUTHORITY-GAP-REPORT.md",
       "target": "DOC-RPT-006",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-026",
-      "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
       "target": "DOC-ROAD-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-026",
-      "source_path": "DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-READINESS-FORECAST.md",
       "target": "DOC-RPT-014",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-027",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-03.md",
       "target": "DOC-ROAD-007",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-028",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
       "target": "DOC-RPT-029",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-028",
-      "source_path": "DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md",
       "target": "DOC-RPT-027",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-029",
-      "source_path": "DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-FREEZE-RECORD.md",
       "target": "DOC-ROAD-007",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-030",
-      "source_path": "DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-SEMANTIC-DIFF-REPORT.md",
       "target": "DOC-RPT-027",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-031",
-      "source_path": "DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-SECURITY-REVIEW.md",
       "target": "DOC-RPT-027",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-032",
-      "source_path": "DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-03-VALIDATION-REPORT.md",
       "target": "DOC-RPT-027",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-033",
-      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
       "target": "DOC-RPT-014",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-033",
-      "source_path": "DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-FINAL-VALIDATION-REPORT.md",
       "target": "DOC-RPT-027",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-034",
-      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-012",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-034",
-      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-022",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-034",
-      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-027",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-034",
-      "source_path": "DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-033",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-035",
-      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
       "target": "DOC-RPT-033",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-035",
-      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
       "target": "DOC-RPT-034",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-035",
-      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
       "target": "DOC-ROAD-008",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-035",
-      "source_path": "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md",
       "target": "DOC-ROAD-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-036",
-      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
       "target": "DOC-GDE-003",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-036",
-      "source_path": "DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-02-FINAL-EVIDENCE-SUMMARY.md",
       "target": "DOC-RPT-034",
       "type": "VALIDATES"
     },
     {
       "source": "DOC-RPT-037",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
       "target": "DOC-REF-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-037",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
       "target": "DOC-SPEC-008",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-037",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
       "target": "DOC-SPEC-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-038",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
       "target": "DOC-REF-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-038",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
       "target": "DOC-REF-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-038",
-      "source_path": "DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
       "target": "DOC-ROAD-011",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-039",
-      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
       "target": "DOC-REF-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-039",
-      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
       "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-039",
-      "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
       "target": "DOC-POL-001",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-040",
-      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
       "target": "DOC-REF-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-040",
-      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
       "target": "DOC-GDE-003",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-040",
-      "source_path": "DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
       "target": "DOC-REF-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-041",
-      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "target": "DOC-RPT-037",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-041",
-      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "target": "DOC-ROAD-010",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-041",
-      "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "target": "DOC-SPEC-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-042",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
       "target": "DOC-REF-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-042",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
       "target": "DOC-SPEC-008",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-042",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
       "target": "DOC-RPT-041",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-043",
-      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "target": "DOC-ADR-022",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-043",
-      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "target": "DOC-SPEC-002",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-043",
-      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "target": "DOC-SPEC-006",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-044",
-      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-041",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-044",
-      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-042",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-044",
-      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "target": "DOC-RPT-043",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-044",
-      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "target": "DOC-SPEC-008",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-044",
-      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "target": "DOC-SPEC-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-045",
-      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "target": "DOC-RPT-044",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-RPT-045",
-      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "target": "DOC-ADR-009",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-045",
-      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "target": "DOC-ADR-014",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-RPT-045",
-      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "target": "DOC-POL-004",
       "type": "RELATES_TO"
     },
@@ -11451,91 +11451,91 @@
     },
     {
       "source": "DOC-SPEC-005",
-      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "target": "DOC-ROAD-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-005",
-      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "target": "DOC-SPEC-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-005",
-      "source_path": "DOCUMENTATION-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "target": "DOC-STD-003",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-SPEC-006",
-      "source_path": "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "target": "DOC-SPEC-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-006",
-      "source_path": "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "source_path": "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "target": "DOC-RPT-024",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-SPEC-007",
-      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "target": "DOC-ADR-019",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-007",
-      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "target": "DOC-PLAY-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-007",
-      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "target": "DOC-RPT-005",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-007",
-      "source_path": "DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
+      "source_path": "documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md",
       "target": "DOC-STD-002",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-008",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "target": "DOC-POL-006",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-008",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "target": "DOC-ROAD-011",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-008",
-      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
+      "source_path": "documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "target": "DOC-ADR-021",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-SPEC-009",
-      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
       "target": "DOC-ROAD-010",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-009",
-      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
       "target": "DOC-SPEC-005",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-SPEC-009",
-      "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
+      "source_path": "documentation/DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
       "target": "DOC-ADR-023",
       "type": "RELATES_TO"
     },
@@ -11553,49 +11553,49 @@
     },
     {
       "source": "DOC-STD-002",
-      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
       "target": "DOC-ADR-019",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-STD-002",
-      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
       "target": "DOC-SPEC-001",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-STD-002",
-      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
       "target": "DOC-PLAY-001",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-STD-002",
-      "source_path": "DOCUMENTATION-MIGRATION-CRITERIA.md",
+      "source_path": "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
       "target": "DOC-STD-003",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-STD-003",
-      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "source_path": "documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "target": "DOC-ADR-019",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-STD-003",
-      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "source_path": "documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "target": "DOC-ADR-020",
       "type": "DEPENDS_ON"
     },
     {
       "source": "DOC-STD-003",
-      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "source_path": "documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "target": "DOC-SPEC-005",
       "type": "RELATES_TO"
     },
     {
       "source": "DOC-STD-003",
-      "source_path": "DOCUMENTATION-DEBT-CLASSIFICATION.md",
+      "source_path": "documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md",
       "target": "DOC-STD-002",
       "type": "RELATES_TO"
     },

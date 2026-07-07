@@ -41,8 +41,8 @@ test('migrated paths leave synchronized baseline and exceptions', async () => {
 })
 
 test('Batch 01 evidence and final IDs cover the exact migration set', async () => {
-  const evidence = await readFile(resolve(root, 'DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md'), 'utf8')
-  const ids = await readFile(resolve(root, 'DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md'), 'utf8')
+  const evidence = await readFile(resolve(root, 'documentation/DOCUMENTATION-MIGRATION-BATCH-01-EVIDENCE.md'), 'utf8')
+  const ids = await readFile(resolve(root, 'documentation/DOCUMENTATION-BATCH-01-ID-RESERVATION-RECORD.md'), 'utf8')
   for (const [path, id] of migrated) {
     assert.match(evidence, new RegExp(path.replaceAll('/', '\\/')))
     assert.match(ids, new RegExp(id))

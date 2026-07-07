@@ -610,7 +610,7 @@ None.
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
-- DOCUMENTATION-ADR-INDEX.md
+- documentation/DOCUMENTATION-ADR-INDEX.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
 - Documents/agents/README.md
 - Documents/archive/README.md

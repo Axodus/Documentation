@@ -110,9 +110,9 @@ All four states are informational during EXEC-06.
 
 ## Related Documents
 
-- [Documentation Validation Rules](DOCUMENTATION-VALIDATION-RULES.md)
-- [Documentation Exception Policy](DOCUMENTATION-EXCEPTION-POLICY.md)
-- [Documentation Metadata Schema](governance/DOCUMENTATION-METADATA-SCHEMA.md)
+- [Documentation Validation Rules](./DOCUMENTATION-VALIDATION-RULES.md)
+- [Documentation Exception Policy](./DOCUMENTATION-EXCEPTION-POLICY.md)
+- [Documentation Metadata Schema](../governance/DOCUMENTATION-METADATA-SCHEMA.md)
 
 ## Preservation Boundary
 

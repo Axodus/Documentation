@@ -7,11 +7,11 @@ import { loadDocument } from '../index.js'
 
 const root = process.cwd()
 const artifacts = [
-  ['DOCUMENTATION-LEGACY-DEBT-REPORT.md', 'DOC-RPT-003'],
-  ['DOCUMENTATION-LEGACY-PRIORITIZATION.md', 'DOC-ROAD-002'],
-  ['DOCUMENTATION-CORE-ADOPTION-MATRIX.md', 'DOC-REF-005'],
-  ['DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md', 'DOC-RPT-004'],
-  ['DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md', 'DOC-ROAD-003'],
+  ['documentation/DOCUMENTATION-LEGACY-DEBT-REPORT.md', 'DOC-RPT-003'],
+  ['documentation/DOCUMENTATION-LEGACY-PRIORITIZATION.md', 'DOC-ROAD-002'],
+  ['documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md', 'DOC-REF-005'],
+  ['documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md', 'DOC-RPT-004'],
+  ['documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md', 'DOC-ROAD-003'],
 ]
 
 const loadJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'))
@@ -63,7 +63,7 @@ test('domain distribution matches the accepted inventory', async () => {
 })
 
 test('Batch 01 proposal retains 20 primaries and four ordered alternates without final IDs', async () => {
-  const proposal = await readFile(resolve(root, 'DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md'), 'utf8')
+  const proposal = await readFile(resolve(root, 'documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md'), 'utf8')
   assert.equal((proposal.match(/`(?:PRIMARY_BLOCKED|FROZEN_PRIMARY)`/g) ?? []).length, 20)
   assert.equal((proposal.match(/`(?:ALTERNATE_BLOCKED|FROZEN_ALTERNATE)`/g) ?? []).length, 4)
   assert.equal((proposal.match(/-GDE-<NNN>/g) ?? []).length, 24)
@@ -71,7 +71,7 @@ test('Batch 01 proposal retains 20 primaries and four ordered alternates without
 })
 
 test('core adoption matrix covers all 16 public scopes without migration or adoption states', async () => {
-  const matrix = await readFile(resolve(root, 'DOCUMENTATION-CORE-ADOPTION-MATRIX.md'), 'utf8')
+  const matrix = await readFile(resolve(root, 'documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md'), 'utf8')
   for (const scope of ['ACCOUNT', 'ACADEMY', 'ACS', 'BBA', 'BUSINESS', 'DEFI', 'DEX', 'GOV', 'LOTTERY', 'MARKET', 'MINING', 'RUNTIME', 'SEC', 'TOKEN', 'TRADING', 'TREASURY']) {
     assert.match(matrix, new RegExp(`\\| \\\`${scope}\\\` \\|`))
   }

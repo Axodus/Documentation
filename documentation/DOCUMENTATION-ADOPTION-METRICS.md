@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-02"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-004", "DOC-ADR-016", "DOC-ADR-018"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.manifest.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.graph.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-METADATA-COVERAGE.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.manifest.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.graph.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-METADATA-COVERAGE.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

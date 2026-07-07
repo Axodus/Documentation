@@ -135,7 +135,7 @@ test('graph cycle detection handles large graphs without path explosion', () => 
 })
 
 test('master index generation is complete and prohibits manual editing', () => {
-  const index = generation.artifacts['DOCUMENTATION-MASTER-INDEX.md']
+  const index = generation.artifacts['documentation/DOCUMENTATION-MASTER-INDEX.md']
   assert.match(index, /GENERATED FILE — DO NOT EDIT MANUALLY/)
   assert.match(index, /## Documents by Type/)
   assert.match(index, /## Documents by Authority/)
@@ -146,7 +146,7 @@ test('master index generation is complete and prohibits manual editing', () => {
 test('public generated artifacts exclude private disclosure and request surfaces', () => {
   const manifest = JSON.parse(generation.artifacts['documentation.manifest.json'])
   const graph = JSON.parse(generation.artifacts['documentation.graph.json'])
-  const masterIndex = generation.artifacts['DOCUMENTATION-MASTER-INDEX.md']
+  const masterIndex = generation.artifacts['documentation/DOCUMENTATION-MASTER-INDEX.md']
   assert.equal(manifest.documents.some((item) => item.source_path.startsWith('institutional-disclosure/')), false)
   assert.equal(manifest.documents.some((item) => item.source_path.startsWith('requests/')), false)
   assert.equal(graph.nodes.some((item) => item.source_path.startsWith('institutional-disclosure/')), false)
@@ -163,9 +163,9 @@ test('private disclosure files remain discoverable for internal validation', asy
 
 test('report generation produces all persistent reports', () => {
   const paths = Object.keys(generation.artifacts)
-  assert.ok(paths.includes('DOCUMENTATION-METADATA-COVERAGE.md'))
-  assert.ok(paths.includes('DOCUMENTATION-RELATIONSHIP-REPORT.md'))
-  assert.ok(paths.includes('DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md'))
+  assert.ok(paths.includes('documentation/DOCUMENTATION-METADATA-COVERAGE.md'))
+  assert.ok(paths.includes('documentation/DOCUMENTATION-RELATIONSHIP-REPORT.md'))
+  assert.ok(paths.includes('documentation/DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md'))
   assert.ok(paths.includes('documentation.validation.json'))
   assert.ok(paths.includes('documentation.baseline.report.json'))
 })

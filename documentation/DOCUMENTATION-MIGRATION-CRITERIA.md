@@ -29,7 +29,7 @@ related_epics: ["DOCUMENTATION-EPIC-02"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-02"]
 related_adrs: ["DOC-ADR-005", "DOC-ADR-011", "DOC-ADR-017", "DOC-ADR-019"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.schema.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-VALIDATION-RULES.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.schema.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation/DOCUMENTATION-VALIDATION-RULES.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 

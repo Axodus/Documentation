@@ -1,6 +1,8 @@
 import { GENERATED_ARTIFACTS } from '../shared/constants.js'
 import { normalizeText } from '../serialization/canonical.js'
 
+const MASTER_INDEX_DIRECTORY = 'documentation'
+
 export function buildMasterIndex(manifest) {
   const statistics = manifest.statistics
   const sections = [
@@ -45,7 +47,7 @@ export function buildMasterIndex(manifest) {
     '',
     '| Artifact | Purpose |',
     '|---|---|',
-    ...GENERATED_ARTIFACTS.map((path) => `| [${escapeCell(path)}](${path}) | Canonical derived repository artifact |`),
+    ...GENERATED_ARTIFACTS.map((path) => `| [${escapeCell(path)}](${linkTarget(path)}) | Canonical derived repository artifact |`),
   ]
   return normalizeText(sections.join('\n'))
 }
@@ -79,7 +81,7 @@ function documentSection(title, documents) {
       document.authority_level ?? '—',
       document.version ?? '—',
       escapeCell(document.owner ?? '—'),
-      `[${escapeCell(document.source_path)}](${encodeURI(document.source_path)})`,
+      `[${escapeCell(document.source_path)}](${linkTarget(document.source_path)})`,
     ].map((value) => ` ${value} `).join('|').replace(/^/, '|').replace(/$/, '|'))
   }
   if (!documents.length) lines.push('| — | — | — | — | — | — | — | — |')
@@ -88,4 +90,20 @@ function documentSection(title, documents) {
 
 function escapeCell(value) {
   return String(value).replaceAll('|', '\\|').replaceAll('\n', ' ')
+}
+
+function linkTarget(path) {
+  let target = relativePath(MASTER_INDEX_DIRECTORY, path)
+  if (!target.startsWith('.')) target = `./${target}`
+  return encodeURI(target)
+}
+
+function relativePath(fromDirectory, targetPath) {
+  const from = fromDirectory.split('/')
+  const target = String(targetPath).split('/')
+  while (from.length && target.length && from[0] === target[0]) {
+    from.shift()
+    target.shift()
+  }
+  return [...from.map(() => '..'), ...target].join('/') || '.'
 }
