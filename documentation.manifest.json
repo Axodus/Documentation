@@ -7433,12 +7433,13 @@
       "document_id": "DOC-ADR-021",
       "document_state": "CURRENT",
       "document_type": "ADR",
-      "last_updated": "2026-07-03",
-      "maturity_level": "D2",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-01",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-020",
@@ -7446,12 +7447,12 @@
         "DOC-SPEC-008",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "89cb2caf1360d51915f152ec3bf8750fe9be8ee09eec44c486f0a2a0099a3198",
+      "sha256": "190062e11ce05c29e079e6037e926ef680ce7ad2b224d95eea3801dbc35259cc",
       "source_path": "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Exception Expiry Disposition Governance",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -7461,12 +7462,13 @@
       "document_id": "DOC-ADR-022",
       "document_state": "CURRENT",
       "document_type": "ADR",
-      "last_updated": "2026-07-03",
-      "maturity_level": "D2",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-01",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-004",
         "DOC-ADR-005",
         "DOC-ADR-010",
@@ -7475,12 +7477,12 @@
         "DOC-SPEC-002",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "93ae12e1bb8a9a981ef4bca93f39c363a8e454df0881a443e57a5c61b084db26",
+      "sha256": "c0a643b6abf64eea944f96b019ad976f6724aae0e41d14175cb8129f6742aa95",
       "source_path": "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Traceability Depth Quality Model",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -7490,12 +7492,13 @@
       "document_id": "DOC-ADR-023",
       "document_state": "CURRENT",
       "document_type": "ADR",
-      "last_updated": "2026-07-03",
-      "maturity_level": "D2",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-01",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-002",
         "DOC-ADR-004",
         "DOC-ADR-011",
@@ -7505,12 +7508,12 @@
         "DOC-SPEC-009",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "07576ddbb90d6c6695c38c5eba6190712cf2b39266ad2385aef60f7ce784b8d4",
+      "sha256": "d77b0c2862463ae08853ee15e495b3722ebeb627f79d7881eb904d579988c08e",
       "source_path": "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "ADOPTED_TARGET Criteria",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -13381,7 +13384,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "2c998bb4346dc496ca6de60cd51deecaba16928e7ff37a4afc6141250d129334",
+      "sha256": "98151cf819448d1c933941bb3f2f1d1cb4336d937b8f38b3979d8b77ee6be18c",
       "source_path": "DOCUMENTATION-ADR-INDEX.md",
       "superseded_by": [],
       "supersedes": [],
@@ -14547,12 +14550,13 @@
       "document_id": "DOC-SPEC-009",
       "document_state": "CURRENT",
       "document_type": "SPECIFICATION",
-      "last_updated": "2026-07-03",
+      "last_updated": "2026-07-07",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
       "publication_status": "DRAFT",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-01",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-021",
@@ -14562,7 +14566,7 @@
         "DOC-SPEC-005",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "ad6ebfd14be1ffc4928c0d1359738752969694bc96fb56fff13f6bab32c3a602",
+      "sha256": "4cf20eaa0fbce92847a14d9be9c18feacd3e09ae60a9ecf0e24a2853487fe558",
       "source_path": "DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md",
       "superseded_by": [],
       "supersedes": [],
@@ -14577,12 +14581,13 @@
       "document_id": "DOC-ROAD-010",
       "document_state": "CURRENT",
       "document_type": "ROADMAP",
-      "last_updated": "2026-07-03",
+      "last_updated": "2026-07-07",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
       "publication_status": "DRAFT",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-01",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-020",
@@ -14594,7 +14599,7 @@
         "DOCUMENTATION-EPIC-02",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "94993083d3c87315cacbe9ef5a4d67b466279c4aa3c17f9d6bd09a4f3a1947f7",
+      "sha256": "6dc4ea09fae551bb34cbfebffa77b047b9a1272916e36c3a10274dd61ceac860",
       "source_path": "DOCUMENTATION-EPIC-03-PLAN.md",
       "superseded_by": [],
       "supersedes": [],
@@ -14609,12 +14614,13 @@
       "document_id": "DOC-RPT-041",
       "document_state": "CURRENT",
       "document_type": "REPORT",
-      "last_updated": "2026-07-04",
+      "last_updated": "2026-07-07",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
       "publication_status": "DRAFT",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-020",
@@ -14626,12 +14632,12 @@
         "DOC-SPEC-009",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "18b996896df13d6c05527e800cca2098ce2a5b2771ea70c429b98a3681ad9c16",
+      "sha256": "e54a912c097708692763d1bea704bca5b916652c2a9c724a74ccaae132a11623",
       "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Epic 03 Progress Report",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "aliases": [],
@@ -14754,12 +14760,13 @@
       "document_id": "DOC-RPT-039",
       "document_state": "CURRENT",
       "document_type": "REPORT",
-      "last_updated": "2026-07-04",
+      "last_updated": "2026-07-07",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
       "publication_status": "DRAFT",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-001",
         "DOC-ADR-017",
         "DOC-ADR-019",
@@ -14768,7 +14775,7 @@
         "DOC-REF-010",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "b9d062dfa9c46875fc9ca8e871c343b80b455b0f81ef1441675122e2184d6102",
+      "sha256": "ece867d56a4c6578b7f1064a37f7a2ce836446089ac29a97523537b60466d486",
       "source_path": "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
       "superseded_by": [],
       "supersedes": [],
@@ -14812,12 +14819,13 @@
       "document_id": "DOC-SPEC-008",
       "document_state": "CURRENT",
       "document_type": "SPECIFICATION",
-      "last_updated": "2026-07-03",
-      "maturity_level": "D2",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D3",
       "owner": "Axodus Documentation Core",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-01",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-020",
@@ -14826,12 +14834,12 @@
         "DOC-ROAD-011",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "a7ec3aa2f3e0db3a07f52539fee8edc2fe06e41dca664e871ecbf9658686a422",
+      "sha256": "71131427ab4e31a2ce58ad77ecaaf16625ccc201adec6f00042dc539228a0ab8",
       "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Exception Disposition Model",
-      "version": "0.1.0"
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -16884,7 +16892,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-04T00:00:00Z",
+  "generated_at": "2026-07-07T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -18910,8 +18918,8 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 90,
-      "D3": 79,
+      "D2": 86,
+      "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 600
     },
@@ -18946,8 +18954,8 @@
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
-      "APPROVED": 124,
-      "DRAFT": 39,
+      "APPROVED": 128,
+      "DRAFT": 35,
       "UNSPECIFIED": 600
     },
     "documents_by_type": {

@@ -4,11 +4,11 @@ document_id: "DOC-ADR-023"
 aliases: []
 document_type: "ADR"
 title: "ADOPTED_TARGET Criteria"
-summary: "Proposes multi-dimensional criteria for determining when a public core reaches target documentation adoption."
-version: "0.1.0"
-publication_status: "DRAFT"
+summary: "Approves multi-dimensional criteria for determining when a public core reaches target documentation adoption."
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.ADOPTION"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-03"
-last_updated: "2026-07-03"
-last_reviewed: "2026-07-03"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-SPEC-005"}, {type: "DEPENDS_ON", target: "DOC-REF-005"}, {type: "DOCUMENTS", target: "DOC-SPEC-009"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-002", "DOC-ADR-004", "DOC-ADR-011", "DOC-ADR-019"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-ADOPTION-METRICS.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-CORE-ADOPTION-MATRIX.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -37,7 +37,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-PROPOSED
+APPROVED
+
+## Approval Date
+
+2026-07-07
 
 ## Context
 
@@ -59,7 +63,7 @@ readiness.
    traceability, exceptions, validation, and navigation.
 4. Defer target adoption indefinitely.
 
-## Proposed Decision
+## Adopted Solution
 
 Define `ADOPTED_TARGET` as a multi-dimensional documentary state. A public core
 qualifies only when all approved thresholds pass:

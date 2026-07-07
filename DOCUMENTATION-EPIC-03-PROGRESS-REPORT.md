@@ -4,8 +4,8 @@ document_id: "DOC-RPT-041"
 aliases: []
 document_type: "REPORT"
 title: "Documentation Epic 03 Progress Report"
-summary: "Tracks disposition inventory coverage, unchanged migration state, and readiness for governance approval and registry design."
-version: "0.1.0"
+summary: "Tracks disposition inventory coverage, governance approval, registry-extension design, and unchanged migration state."
+version: "0.2.0"
 publication_status: "DRAFT"
 document_state: "CURRENT"
 maturity_level: "D2"
@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-04"
-last_updated: "2026-07-04"
-last_reviewed: "2026-07-04"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{"type":"DEPENDS_ON","target":"DOC-RPT-037"},{"type":"RELATES_TO","target":"DOC-SPEC-009"},{"type":"RELATES_TO","target":"DOC-ROAD-010"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-018","DOC-ADR-019","DOC-ADR-020","DOC-ADR-021","DOC-ADR-022","DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
@@ -49,11 +49,25 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 REQ-02 completes classification coverage, not remediation. The six canonical reports are evidence artifacts and do not count as legacy migration.
 
-Baseline and exceptions remain synchronized at 573. Every exception has one proposed disposition, P0 priority, target action, and target date. ADR-021 through ADR-023 remain DRAFT/PROPOSED. Batch 04 remains unauthorized.
+Baseline and exceptions remain synchronized at 573. Every exception has one proposed disposition, P0 priority, target action, and target date. ADR-021 through ADR-023 are APPROVED by REQ-03. Batch 04 remains unauthorized.
+
+## REQ-03 Progress
+
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-03: GOVERNANCE_APPROVED_DESIGN_ONLY`
+
+ADR-021, ADR-022, and ADR-023 are approved as documentation governance
+decisions. `DOC-SPEC-008` now defines the compact companion disposition
+registry design, validator impact, Markdown-to-JSON migration boundary, and
+public/private visibility boundary.
+
+REQ-03 does not create `documentation.exception-dispositions.json`, mutate
+`documentation.exceptions.json`, remove baseline entries, remove exception
+entries, migrate documents, reserve final IDs, add traceability edges, mark any
+core `ADOPTED_TARGET`, or authorize Batch 04.
 
 ## Next Request
 
-`AXODUS-DOCUMENTATION-EPIC-03-REQ-03 — Disposition Governance Approval and Registry Extension Design`.
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-04 — Registry Extension Implementation and Disposition Application Dry Run`.
 
 ## Gate Preservation
 

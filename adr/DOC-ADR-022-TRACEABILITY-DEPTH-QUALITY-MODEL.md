@@ -4,11 +4,11 @@ document_id: "DOC-ADR-022"
 aliases: []
 document_type: "ADR"
 title: "Traceability Depth Quality Model"
-summary: "Proposes evidence-backed semantic quality criteria for enriching shallow canonical document relationships."
-version: "0.1.0"
-publication_status: "DRAFT"
+summary: "Approves evidence-backed semantic quality criteria for enriching shallow canonical document relationships."
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.TRACEABILITY"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-03"
-last_updated: "2026-07-03"
-last_reviewed: "2026-07-03"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-SPEC-002"}, {type: "DEPENDS_ON", target: "DOC-ADR-004"}, {type: "RELATES_TO", target: "DOC-RPT-024"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-004", "DOC-ADR-005", "DOC-ADR-010", "DOC-ADR-016"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "governance/DOCUMENTATION-TRACEABILITY-MODEL.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -37,7 +37,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-PROPOSED
+APPROVED
+
+## Approval Date
+
+2026-07-07
 
 ## Context
 
@@ -59,7 +63,7 @@ relationships.
 3. Enrich only with evidence-backed semantic relations.
 4. Require a fixed minimum relation count without semantic review.
 
-## Proposed Decision
+## Adopted Solution
 
 Measure traceability quality using evidence-backed semantic relevance.
 Enrichment may connect a canonical document to applicable canonical ADRs,

@@ -4,11 +4,11 @@ document_id: "DOC-ADR-021"
 aliases: []
 document_type: "ADR"
 title: "Exception Expiry Disposition Governance"
-summary: "Proposes evidence-backed dispositions and risk-capped renewal for expiring documentation exceptions."
-version: "0.1.0"
-publication_status: "DRAFT"
+summary: "Approves evidence-backed dispositions and risk-capped renewal for expiring documentation exceptions."
+version: "1.0.0"
+publication_status: "APPROVED"
 document_state: "CURRENT"
-maturity_level: "D2"
+maturity_level: "D3"
 authority_scope: "DOCUMENTATION.EXCEPTIONS"
 authority_level: "CORE"
 author: "Axodus Documentation Core"
@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-03"
-last_updated: "2026-07-03"
-last_reviewed: "2026-07-03"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-POL-006"}, {type: "RELATES_TO", target: "DOC-ADR-018"}, {type: "DOCUMENTS", target: "DOC-SPEC-008"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019", "DOC-ADR-020"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-EXCEPTION-POLICY.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -37,7 +37,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Status
 
-PROPOSED
+APPROVED
+
+## Approval Date
+
+2026-07-07
 
 ## Context
 
@@ -59,7 +63,7 @@ expired exceptions to remain tolerated.
 3. Define evidence-backed dispositions with risk-capped renewal.
 4. Leave expired exceptions active until their source changes.
 
-## Proposed Decision
+## Adopted Solution
 
 Adopt one evidence-backed primary disposition per exception:
 `MIGRATE`, `RENEW_EXCEPTION`, `REVOKE_EXCEPTION`, `ARCHIVE_LEGACY`,
@@ -90,9 +94,11 @@ exception identity and baseline evidence established by existing policy.
 
 ## Compatibility
 
-REQ-01 does not change the registry, Validation Framework, exception policy, or
-Documentation Schema 1.0.0. Until separately approved and implemented, current
-entries retain `MIGRATE_ON_CHANGE`.
+REQ-03 approves the governance model and registry-extension design only. It
+does not mutate `documentation.exceptions.json`, remove baseline entries,
+apply dispositions, migrate documents, or change Documentation Schema 1.0.0.
+Until a separately authorized implementation request applies metadata, current
+exception entries retain `MIGRATE_ON_CHANGE`.
 
 ## Future Impacts
 

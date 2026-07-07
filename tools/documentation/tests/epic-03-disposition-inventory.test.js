@@ -100,7 +100,7 @@ test('routing summaries remain category-level and redacted', async () => {
   assert.match(security, /Secret values inspected, copied, logged, or reported: 0/)
 })
 
-test('ADR proposals and approved ADR index remain unchanged in status', async () => {
+test('REQ-03 approved ADR index includes disposition governance decisions', async () => {
   const index = await read('DOCUMENTATION-ADR-INDEX.md')
   for (const [path, id] of [
     ['adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md', 'DOC-ADR-021'],
@@ -108,9 +108,10 @@ test('ADR proposals and approved ADR index remain unchanged in status', async ()
     ['adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md', 'DOC-ADR-023'],
   ]) {
     const document = await loadDocument(resolve(root, path), { root })
-    assert.equal(document.metadata.publication_status, 'DRAFT')
-    assert.match(document.body, /## Status\n\nPROPOSED/)
-    assert.equal(index.includes(id), false)
+    assert.equal(document.metadata.publication_status, 'APPROVED')
+    assert.equal(document.metadata.maturity_level, 'D3')
+    assert.match(document.body, /## Status\n\nAPPROVED/)
+    assert.equal(index.includes(id), true)
   }
 })
 

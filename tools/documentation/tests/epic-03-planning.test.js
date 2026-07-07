@@ -9,11 +9,10 @@ const read = (path) => readFile(resolve(root, path), 'utf8')
 const planningArtifacts = [
   ['DOCUMENTATION-EPIC-03-PLAN.md', 'DOC-ROAD-010', 'ROADMAP'],
   ['DOCUMENTATION-EXCEPTION-EXPIRY-REMEDIATION-PLAN.md', 'DOC-ROAD-011', 'ROADMAP'],
-  ['DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md', 'DOC-SPEC-008', 'SPECIFICATION'],
   ['DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md', 'DOC-SPEC-009', 'SPECIFICATION'],
   ['DOCUMENTATION-EPIC-03-RISK-REGISTER.md', 'DOC-REF-009', 'REFERENCE'],
 ]
-const proposedAdrs = [
+const approvedAdrs = [
   ['adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md', 'DOC-ADR-021'],
   ['adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md', 'DOC-ADR-022'],
   ['adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md', 'DOC-ADR-023'],
@@ -33,21 +32,34 @@ test('REQ-01 planning artifacts conform to Schema 1.0.0 as drafts', async () => 
   }
 })
 
-test('ADRs 021 through 023 remain unapproved proposals', async () => {
+test('REQ-03 approves ADRs 021 through 023 without applying execution', async () => {
   const approvedIndex = await read('DOCUMENTATION-ADR-INDEX.md')
-  for (const [path, id] of proposedAdrs) {
+  for (const [path, id] of approvedAdrs) {
     const document = await loadDocument(resolve(root, path), { root })
     assert.equal(document.profile, 'CANONICAL')
     assert.equal(document.metadata.document_id, id)
-    assert.equal(document.metadata.publication_status, 'DRAFT')
-    assert.equal(document.metadata.maturity_level, 'D2')
-    assert.match(document.body, /## Status\n\nPROPOSED/)
+    assert.equal(document.metadata.publication_status, 'APPROVED')
+    assert.equal(document.metadata.maturity_level, 'D3')
+    assert.match(document.body, /## Status\n\nAPPROVED/)
+    assert.match(document.body, /## Approval Date\n\n2026-07-07/)
     assert.match(document.body, /## Alternatives Considered/)
-    assert.match(document.body, /## Proposed Decision/)
+    assert.match(document.body, /## Adopted Solution/)
     assert.match(document.body, /## Trade-offs/)
     assert.match(document.body, /## Future Impacts/)
-    assert.equal(approvedIndex.includes(id), false)
+    assert.equal(approvedIndex.includes(id), true)
   }
+})
+
+test('REQ-03 approves disposition model and compact registry-extension design', async () => {
+  const document = await loadDocument(resolve(root, 'DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md'), { root })
+  const model = await read('DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md')
+  assert.equal(document.metadata.document_id, 'DOC-SPEC-008')
+  assert.equal(document.metadata.publication_status, 'APPROVED')
+  assert.equal(document.metadata.maturity_level, 'D3')
+  assert.match(model, /APPROVED for governance and registry-extension design/)
+  assert.match(model, /documentation\.exception-dispositions\.json/)
+  assert.match(model, /exactly one disposition entry per active exception/)
+  assert.match(model, /does\s+not mutate the current exception registry/)
 })
 
 test('exception disposition model defines all proposed decisions and renewal caps', async () => {
@@ -67,7 +79,7 @@ test('exception disposition model defines all proposed decisions and renewal cap
   assert.match(model, /P0\/P1 renewal is capped at 90 days/)
   assert.match(model, /Lower-priority renewal is capped at 180\s+days/)
   assert.match(model, /exactly one current primary disposition/)
-  assert.match(model, /existing registry continues to use `MIGRATE_ON_CHANGE` during REQ-01/)
+  assert.match(model, /existing registry continues to use `MIGRATE_ON_CHANGE` after REQ-03/)
 })
 
 test('EPIC-03 metrics preserve the accepted baseline and closure targets', async () => {
@@ -102,14 +114,14 @@ test('all REQ-01 canonical nodes are connected after generation', async () => {
   const graph = JSON.parse(await read('documentation.graph.json'))
   const nodes = new Set(graph.nodes.map((node) => node.document_id))
   const orphanPaths = new Set(graph.orphan_documents)
-  for (const [path, id] of [...planningArtifacts, ...proposedAdrs]) {
+  for (const [path, id] of [...planningArtifacts, ['DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md', 'DOC-SPEC-008'], ...approvedAdrs]) {
     assert.equal(nodes.has(id), true)
     assert.equal(orphanPaths.has(path), false)
   }
 })
 
 test('REQ-01 preserves closed operational gates', async () => {
-  for (const [path] of [...planningArtifacts, ...proposedAdrs]) {
+  for (const [path] of [...planningArtifacts, ['DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md'], ...approvedAdrs]) {
     const document = await loadDocument(resolve(root, path), { root })
     assert.equal(document.metadata.production_gate_impact, 'PRESERVES_CLOSED')
   }

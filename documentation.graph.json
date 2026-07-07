@@ -244,7 +244,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-04T00:00:00Z",
+  "generated_at": "2026-07-07T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -4320,7 +4320,7 @@
       "document_id": "DOC-ADR-021",
       "document_type": "ADR",
       "node_id": "DOC-ADR-021",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md",
       "title": "Exception Expiry Disposition Governance"
     },
@@ -4330,7 +4330,7 @@
       "document_id": "DOC-ADR-022",
       "document_type": "ADR",
       "node_id": "DOC-ADR-022",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
       "title": "Traceability Depth Quality Model"
     },
@@ -4340,7 +4340,7 @@
       "document_id": "DOC-ADR-023",
       "document_type": "ADR",
       "node_id": "DOC-ADR-023",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
       "title": "ADOPTED_TARGET Criteria"
     },
@@ -5170,7 +5170,7 @@
       "document_id": "DOC-SPEC-008",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-008",
-      "publication_status": "DRAFT",
+      "publication_status": "APPROVED",
       "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "title": "Documentation Exception Disposition Model"
     },

@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-04"
-last_updated: "2026-07-04"
-last_reviewed: "2026-07-04"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{"type":"DEPENDS_ON","target":"DOC-REF-010"},{"type":"RELATES_TO","target":"DOC-POL-001"},{"type":"RELATES_TO","target":"DOC-ADR-021"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-001","DOC-ADR-017","DOC-ADR-019","DOC-ADR-021"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"governance/DOCUMENTATION-AUTHORITY-MODEL.md","ref":"main","kind":"SOURCE","environment":"LOCAL"}]
@@ -46,7 +46,7 @@ Authority review is required for 327 exceptions: 285 internal knowledge paths an
 | `.instructions/` | 0 | Security-first review |
 | `other/historical` | 42 | Retention and authority review with accepted risk |
 
-Commit author, filename, and folder name are not authority evidence. ADR-021 remains proposed and no authority decision is applied.
+Commit author, filename, and folder name are not authority evidence. ADR-021 approves disposition governance, but no individual authority decision is applied by this routing report.
 
 ## Scope/Core Distribution
 

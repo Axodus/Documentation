@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-03"
-last_updated: "2026-07-03"
-last_reviewed: "2026-07-03"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-ROAD-010"}, {type: "DEPENDS_ON", target: "DOC-SPEC-005"}, {type: "RELATES_TO", target: "DOC-ADR-023"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019", "DOC-ADR-021", "DOC-ADR-022", "DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "documentation.manifest.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.graph.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
@@ -90,7 +90,7 @@ speculative edges do not count and are validation defects.
 
 ## ADOPTED_TARGET Metrics
 
-Target adoption will be evaluated per public core using the proposed
+Target adoption will be evaluated per public core using the approved
 multi-dimensional model:
 
 - canonical coverage;
@@ -101,8 +101,8 @@ multi-dimensional model:
 - zero errors, warnings, orphans, and broken references;
 - navigation visibility and publication verification.
 
-No core may be marked `ADOPTED_TARGET` until ADR-023 and its criteria are
-approved.
+No core may be marked `ADOPTED_TARGET` until its evidence passes the ADR-023
+criteria through a separately authorized assessment request.
 
 ## Reporting Cadence
 

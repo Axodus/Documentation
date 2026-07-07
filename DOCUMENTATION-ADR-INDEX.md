@@ -2,7 +2,7 @@
 
 Status: MANUALLY_MAINTAINED
 Version: 1.1.0
-Last Updated: 2026-07-02
+Last Updated: 2026-07-07
 Owner: Axodus Documentation Core
 
 This index records the approved architectural baseline for the Documentation Governance Framework. It is manually maintained and is not generated.
@@ -29,6 +29,9 @@ This index records the approved architectural baseline for the Documentation Gov
 | [DOC-ADR-018](adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md) | Controlled Batch Migration Governance | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-02 | DOCUMENTATION.MIGRATION / CORE | Controlled batches require frozen candidates, evidence, deterministic generation, synchronized registries, and full changeset rollback. | 004, 016, 019, 020 | Migration Playbook; Adoption Plan; Adoption Metrics |
 | [DOC-ADR-019](adr/DOC-ADR-019-CANONICAL-PROMOTION-THRESHOLD.md) | Canonical Promotion Threshold | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-02 | DOCUMENTATION.MIGRATION / CORE | Evidence-backed Schema 1.0.0 metadata, authority, semantic review, relationships, and validation gate canonical promotion. | 005, 011, 017, 018, 020 | Migration Criteria; Debt Classification; Migration Playbook |
 | [DOC-ADR-020](adr/DOC-ADR-020-LEGACY-ARCHIVAL-POLICY.md) | Legacy Archival Policy | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-02 | DOCUMENTATION.MIGRATION / CORE | Historically valuable legacy content is preserved as traceable non-current evidence instead of deleted. | 008, 015, 018, 019 | Debt Classification; Migration Playbook; Lifecycle |
+| [DOC-ADR-021](adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md) | Exception Expiry Disposition Governance | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-07 | DOCUMENTATION.EXCEPTIONS / CORE | Evidence-backed dispositions and risk-capped renewal govern expiring documentation exceptions without applying registry mutation. | 018, 019, 020 | Exception Policy; Disposition Model; Disposition Inventory |
+| [DOC-ADR-022](adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md) | Traceability Depth Quality Model | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-07 | DOCUMENTATION.TRACEABILITY / CORE | Semantic traceability depth uses evidence-backed relationships and rejects artificial metadata-derived edges. | 004, 005, 010, 016 | Traceability Model; Graph Enrichment Report |
+| [DOC-ADR-023](adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md) | ADOPTED_TARGET Criteria | APPROVED | 1.0.0 | Axodus Documentation Core | 2026-07-07 | DOCUMENTATION.ADOPTION / CORE | Target adoption requires coverage, required documents, authority, traceability, validation, navigation, and non-operational gate separation. | 002, 004, 011, 019 | Adoption Metrics; Core Adoption Matrix |
 
 ## Architecture Consistency Review
 
@@ -48,4 +51,4 @@ No unresolved semantic conflict was identified within this baseline.
 
 ## Remaining External Decisions
 
-The approved architecture intentionally leaves batch candidate classification, freeze, execution, and migration scheduling to separately authorized requests. Approval of ADRs 018–020 does not start migration or authorize Batch 01.
+The approved architecture intentionally leaves batch candidate classification, freeze, execution, migration scheduling, disposition registry mutation, and traceability edge additions to separately authorized requests. Approval of ADRs 018–023 does not start migration, apply exception dispositions, authorize Batch 04, or open operational gates.

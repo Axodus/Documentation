@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-07-03"
-last_updated: "2026-07-03"
-last_reviewed: "2026-07-03"
+last_updated: "2026-07-07"
+last_reviewed: "2026-07-07"
 review_cycle: "EVENT_DRIVEN"
 next_review: null
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "DOC-RPT-035"}, {type: "DEPENDS_ON", target: "DOC-ROAD-009"}, {type: "RELATES_TO", target: "DOC-ADR-021"}, {type: "RELATES_TO", target: "DOC-ADR-022"}, {type: "RELATES_TO", target: "DOC-ADR-023"}]
 related_epics: ["DOCUMENTATION-EPIC-02", "DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-01", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019", "DOC-ADR-020", "DOC-ADR-021", "DOC-ADR-022", "DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "DOCUMENTATION-EPIC-02-COMPLETION-REPORT.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/Documentation", path: "documentation.exceptions.json", ref: "main", kind: "CONFIG", environment: "LOCAL"}]
@@ -43,8 +43,8 @@ continues controlled adoption, and defines a measurable target state for public
 cores.
 
 The EPIC-01 framework and EPIC-02 migration controls remain authoritative.
-This plan does not redesign the framework, approve ADR proposals, modify the
-exception registry, or authorize migration.
+This plan does not redesign the framework, modify the exception registry, or
+authorize migration. ADR-021 through ADR-023 are governed separately by REQ-03.
 
 ## Accepted Baseline
 
@@ -99,14 +99,16 @@ is `ADOPTED_PARTIAL`; `CORE` remains `GOVERNANCE_RESERVED`.
 
 ## Governance Gates
 
-The following proposals require a separate approval request before they become
-normative:
+The following governance decisions became normative through
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-03`:
 
 - `DOC-ADR-021` — Exception Expiry Disposition Governance.
 - `DOC-ADR-022` — Traceability Depth Quality Model.
 - `DOC-ADR-023` — ADOPTED_TARGET Criteria.
 
-REQ-01 creates proposals only. The approved ADR index remains unchanged.
+REQ-01 created proposals only. REQ-03 approved those ADRs and updated the
+approved ADR index. Approval does not apply dispositions, mutate registries,
+add traceability edges, assign `ADOPTED_TARGET`, or authorize migration.
 
 ## Exception Strategy
 
