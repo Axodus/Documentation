@@ -9326,10 +9326,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-028",
+      "error_code": "DOC-VAL-027",
       "field": null,
-      "message": "Legacy document hash differs from the accepted baseline.",
-      "rule_id": "DOC-RULE-028",
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/tokenomics/academy-rewards.md"
     },
@@ -9434,10 +9434,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-028",
+      "error_code": "DOC-VAL-027",
       "field": null,
-      "message": "Legacy document hash differs from the accepted baseline.",
-      "rule_id": "DOC-RULE-028",
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/tokenomics/neurons-token.md"
     },
@@ -9452,10 +9452,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-028",
+      "error_code": "DOC-VAL-027",
       "field": null,
-      "message": "Legacy document hash differs from the accepted baseline.",
-      "rule_id": "DOC-RULE-028",
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/tokenomics/pok-minting.md"
     },
@@ -9542,10 +9542,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-028",
+      "error_code": "DOC-VAL-027",
       "field": null,
-      "message": "Legacy document hash differs from the accepted baseline.",
-      "rule_id": "DOC-RULE-028",
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/tokenomics/supply-and-emission.md"
     },
@@ -9560,10 +9560,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-028",
+      "error_code": "DOC-VAL-027",
       "field": null,
-      "message": "Legacy document hash differs from the accepted baseline.",
-      "rule_id": "DOC-RULE-028",
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "docs/tokenomics/technical-architecture.md"
     },
@@ -10861,13 +10861,13 @@
   "repository_statistics": {
     "active_exceptions": 573,
     "baseline_entries": 573,
-    "changed_legacy": 5,
+    "changed_legacy": 0,
     "errors": 0,
     "exception_entries": 573,
     "expired_exceptions": 0,
     "info": 1206,
     "invalid_exceptions": 0,
-    "known_legacy": 568,
+    "known_legacy": 573,
     "legacy_documents": 600,
     "relationships": 332,
     "removed_legacy": 0,

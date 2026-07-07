@@ -5987,7 +5987,7 @@
         "DOC-RULE-001"
       ],
       "path": "docs/tokenomics/academy-rewards.md",
-      "sha256": "ae9b21273ff4181d8e1aca51da94a3831acb617844d600b23820003e4b29538a",
+      "sha256": "25eccdb2dc60b896474f5d9bf3baed73e7ba30d8b879c9bb3f5f6b0a5d76949e",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6059,7 +6059,7 @@
         "DOC-RULE-001"
       ],
       "path": "docs/tokenomics/neurons-token.md",
-      "sha256": "060ef17f345bf394dcf855e74e1fa78a5b982c3d9e8e76b68d905164884022c0",
+      "sha256": "1807a1b1e74401a64e625cb288afd6125ae235229556ad09fab6f6a16b534cc7",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6071,7 +6071,7 @@
         "DOC-RULE-001"
       ],
       "path": "docs/tokenomics/pok-minting.md",
-      "sha256": "a616ae5baa5a8846ae55541ec856703011cc1768e2c830bc150c76eeab1fc0ae",
+      "sha256": "15c9a744ab50ea1bbd63b0b687e2ede2242c2fdb4271654c0e3be11737f70803",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6119,7 +6119,7 @@
         "DOC-RULE-001"
       ],
       "path": "docs/tokenomics/supply-and-emission.md",
-      "sha256": "7820b3e5de971d50ef2cf89b182956b0e5541f3a7571a3aef3d214fe99fc93ed",
+      "sha256": "cbd52ed3f0bb1826a74c602b0e091d289dcb60eb78317d7fbf23e03e3314b8aa",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
@@ -6131,7 +6131,7 @@
         "DOC-RULE-001"
       ],
       "path": "docs/tokenomics/technical-architecture.md",
-      "sha256": "e11d83544bea0dc056eb7145f62eb8bb3b2c1e5140017bfb4999ab1d521e952c",
+      "sha256": "4c12247e1d06597ebbbd6dd51e4cd48709d6fec0817cdb4190d7f7da1b439960",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
     {
