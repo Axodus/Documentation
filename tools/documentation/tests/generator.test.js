@@ -13,6 +13,7 @@ import {
   test,
 } from 'node:test'
 import { main } from '../cli/index.js'
+import { discoverDocuments } from '../index.js'
 import {
   checkGeneratedArtifacts,
   generateAll,
@@ -22,6 +23,7 @@ import {
   generateReports,
   writeGeneratedArtifacts,
 } from '../generator/index.js'
+import { buildGraph } from '../generator/outputs/graph.js'
 
 let generation
 let secondGeneration
@@ -49,6 +51,89 @@ test('graph generation produces nodes, relationships, reachability, and cycles',
   assert.ok(Array.isArray(graph.cycles))
 })
 
+test('graph cycle detection reports a simple cycle deterministically', () => {
+  const graph = buildGraph(graphFixture({
+    documents: ['A', 'B', 'C'],
+    relationships: [
+      edge('A', 'RELATES_TO', 'B'),
+      edge('B', 'RELATES_TO', 'C'),
+      edge('C', 'RELATES_TO', 'A'),
+    ],
+  }))
+  assert.deepEqual(graph.cycles, [{
+    nodes: ['A', 'B', 'C'],
+    edge_count: 3,
+    source_document_ids: ['A', 'B', 'C'],
+    relationship_types: ['RELATES_TO'],
+    allowed: true,
+  }])
+})
+
+test('graph cycle detection handles acyclic and disconnected graphs', () => {
+  const graph = buildGraph(graphFixture({
+    documents: ['A', 'B', 'C', 'D'],
+    relationships: [
+      edge('A', 'RELATES_TO', 'B'),
+      edge('C', 'RELATES_TO', 'D'),
+    ],
+  }))
+  assert.deepEqual(graph.cycles, [])
+})
+
+test('graph cycle detection reports disconnected cycles in deterministic order', () => {
+  const graph = buildGraph(graphFixture({
+    documents: ['A', 'B', 'C', 'D'],
+    relationships: [
+      edge('D', 'DEPENDS_ON', 'C'),
+      edge('C', 'DEPENDS_ON', 'D'),
+      edge('B', 'RELATES_TO', 'A'),
+      edge('A', 'RELATES_TO', 'B'),
+    ],
+  }))
+  assert.deepEqual(graph.cycles.map((cycle) => ({
+    nodes: cycle.nodes,
+    relationship_types: cycle.relationship_types,
+    allowed: cycle.allowed,
+  })), [
+    { nodes: ['A', 'B'], relationship_types: ['RELATES_TO'], allowed: true },
+    { nodes: ['C', 'D'], relationship_types: ['DEPENDS_ON'], allowed: false },
+  ])
+})
+
+test('graph cycle detection handles duplicate edges and unresolved targets', () => {
+  const graph = buildGraph(graphFixture({
+    documents: ['A', 'B'],
+    relationships: [
+      edge('A', 'RELATES_TO', 'B'),
+      edge('A', 'RELATES_TO', 'B'),
+      edge('B', 'RELATES_TO', 'A'),
+      edge('B', 'RELATES_TO', 'MISSING'),
+    ],
+  }))
+  assert.equal(graph.duplicate_references.length, 2)
+  assert.equal(graph.unresolved_references.length, 1)
+  assert.deepEqual(graph.cycles, [{
+    nodes: ['A', 'B'],
+    edge_count: 3,
+    source_document_ids: ['A', 'B'],
+    relationship_types: ['RELATES_TO'],
+    allowed: true,
+  }])
+})
+
+test('graph cycle detection handles large graphs without path explosion', () => {
+  const documents = Array.from({ length: 500 }, (_, index) => `NODE-${index}`)
+  const relationships = []
+  for (let index = 0; index < 499; index += 1) relationships.push(edge(`NODE-${index}`, 'RELATES_TO', `NODE-${index + 1}`))
+  for (let index = 0; index < 1500; index += 1) relationships.push(edge(`NODE-${index % 400}`, 'DOCUMENTS', `NODE-${100 + (index % 400)}`))
+  relationships.push(edge('NODE-499', 'RELATES_TO', 'NODE-0'))
+
+  const graph = buildGraph(graphFixture({ documents, relationships }))
+  assert.equal(graph.relationship_statistics.total, 2000)
+  assert.equal(graph.cycles.length, 1)
+  assert.equal(graph.cycles[0].nodes.length, 500)
+})
+
 test('master index generation is complete and prohibits manual editing', () => {
   const index = generation.artifacts['DOCUMENTATION-MASTER-INDEX.md']
   assert.match(index, /GENERATED FILE — DO NOT EDIT MANUALLY/)
@@ -56,6 +141,24 @@ test('master index generation is complete and prohibits manual editing', () => {
   assert.match(index, /## Documents by Authority/)
   assert.match(index, /## Documents by Lifecycle/)
   assert.match(index, /## Generated Artifacts/)
+})
+
+test('public generated artifacts exclude private disclosure and request surfaces', () => {
+  const manifest = JSON.parse(generation.artifacts['documentation.manifest.json'])
+  const graph = JSON.parse(generation.artifacts['documentation.graph.json'])
+  const masterIndex = generation.artifacts['DOCUMENTATION-MASTER-INDEX.md']
+  assert.equal(manifest.documents.some((item) => item.source_path.startsWith('institutional-disclosure/')), false)
+  assert.equal(manifest.documents.some((item) => item.source_path.startsWith('requests/')), false)
+  assert.equal(graph.nodes.some((item) => item.source_path.startsWith('institutional-disclosure/')), false)
+  assert.equal(graph.nodes.some((item) => item.source_path.startsWith('requests/')), false)
+  assert.doesNotMatch(masterIndex, /\]\(institutional-disclosure\//)
+  assert.doesNotMatch(masterIndex, /\]\(requests\//)
+})
+
+test('private disclosure files remain discoverable for internal validation', async () => {
+  const documents = await discoverDocuments(process.cwd())
+  assert.equal(documents.some((item) => item.sourcePath === 'institutional-disclosure/tokenomics-draft.md'), true)
+  assert.equal(documents.some((item) => item.sourcePath === 'requests/track-c-tokenomics-draft-execution-request.md'), true)
 })
 
 test('report generation produces all persistent reports', () => {
@@ -156,6 +259,32 @@ function artifactFixture(content) {
     generator_version: '1.0.0',
     generated_at: '2026-07-01T00:00:00Z',
     artifacts: { 'generated.txt': content },
+  }
+}
+
+function graphFixture({ documents, relationships }) {
+  return {
+    generated_at: '2026-07-01T00:00:00Z',
+    documents: documents.map((id) => ({
+      document_id: id,
+      document_type: 'GUIDE',
+      classification: 'CANONICAL',
+      publication_status: 'DRAFT',
+      authority_level: 'PROJECT',
+      source_path: `${id}.md`,
+      title: id,
+    })),
+    relationships,
+    derived_relationships: [],
+  }
+}
+
+function edge(source, type, target) {
+  return {
+    source,
+    type,
+    target,
+    source_path: `${source}.md`,
   }
 }
 

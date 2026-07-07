@@ -12,6 +12,7 @@ import { buildReports } from './outputs/reports.js'
 import {
   GENERATOR_VERSION,
   GENERATED_ARTIFACTS,
+  PUBLIC_GENERATION_EXCLUDED_PATH_PREFIXES,
 } from './shared/constants.js'
 import {
   normalizeText,
@@ -126,24 +127,30 @@ async function createGenerationContext(options) {
 async function createContext(options) {
   const root = resolve(options.root ?? process.cwd())
   const documents = options.documents ?? await discoverDocuments(root)
+  const publicDocuments = documents.filter(isPublicGenerationDocument)
   const baseline = options.baseline ?? await loadBaseline(options.baselinePath, { root })
   const exceptions = options.exceptions ?? await loadExceptions(options.exceptionsPath, { root })
-  const generatedAt = stableTimestamp(documents)
+  const generatedAt = stableTimestamp(publicDocuments)
   const validation = options.validation ?? await validateRepository({
     root,
-    documents,
+    documents: publicDocuments,
     baseline,
     exceptions,
     currentDate: options.referenceDate ?? generatedAt,
   })
   return {
     root,
-    documents,
+    documents: publicDocuments,
+    discovered_documents: documents,
     baseline,
     exceptions,
     validation,
     generatedAt,
   }
+}
+
+function isPublicGenerationDocument(document) {
+  return !PUBLIC_GENERATION_EXCLUDED_PATH_PREFIXES.some((prefix) => document.sourcePath.startsWith(prefix))
 }
 
 function stableTimestamp(documents) {

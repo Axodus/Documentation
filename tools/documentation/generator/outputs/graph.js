@@ -83,31 +83,70 @@ function detectCycles(edges, ids) {
     values.sort((left, right) => left.target.localeCompare(right.target) || left.type.localeCompare(right.type))
   }
 
-  const cycles = new Map()
-  function visit(start, node, path, edgeTypes, visited) {
-    for (const edge of graph.get(node) ?? []) {
-      if (edge.target === start) {
-        const members = [...path]
-        const canonical = canonicalCycle(members)
-        const types = [...edgeTypes, edge.type]
-        const key = canonical.join('\0')
-        const existing = cycles.get(key)
-        const allowed = types.every((type) => type === 'RELATES_TO')
-        if (!existing || (!existing.allowed && allowed)) {
-          cycles.set(key, { nodes: canonical, relationship_types: unique(types), allowed })
-        }
-      } else if (!visited.has(edge.target) && path.length < graph.size) {
-        visit(start, edge.target, [...path, edge.target], [...edgeTypes, edge.type], new Set([...visited, edge.target]))
-      }
-    }
-  }
-  for (const id of [...ids].sort()) visit(id, id, [id], [], new Set([id]))
-  return [...cycles.values()].sort((left, right) => left.nodes.join('\0').localeCompare(right.nodes.join('\0')))
+  const components = stronglyConnectedComponents(graph)
+  return components
+    .map((nodes) => cycleFromComponent(nodes, graph))
+    .filter(Boolean)
+    .sort((left, right) => left.nodes.join('\0').localeCompare(right.nodes.join('\0')))
 }
 
-function canonicalCycle(nodes) {
-  const rotations = nodes.map((_, index) => [...nodes.slice(index), ...nodes.slice(0, index)])
-  return rotations.sort((left, right) => left.join('\0').localeCompare(right.join('\0')))[0]
+function stronglyConnectedComponents(graph) {
+  let index = 0
+  const indexes = new Map()
+  const lowlinks = new Map()
+  const stack = []
+  const onStack = new Set()
+  const components = []
+
+  function connect(node) {
+    indexes.set(node, index)
+    lowlinks.set(node, index)
+    index += 1
+    stack.push(node)
+    onStack.add(node)
+
+    for (const edge of graph.get(node) ?? []) {
+      const target = edge.target
+      if (!indexes.has(target)) {
+        connect(target)
+        lowlinks.set(node, Math.min(lowlinks.get(node), lowlinks.get(target)))
+      } else if (onStack.has(target)) {
+        lowlinks.set(node, Math.min(lowlinks.get(node), indexes.get(target)))
+      }
+    }
+
+    if (lowlinks.get(node) !== indexes.get(node)) return
+
+    const component = []
+    let current
+    do {
+      current = stack.pop()
+      onStack.delete(current)
+      component.push(current)
+    } while (current !== node)
+    components.push(component.sort((left, right) => left.localeCompare(right)))
+  }
+
+  for (const node of [...graph.keys()].sort()) {
+    if (!indexes.has(node)) connect(node)
+  }
+  return components
+}
+
+function cycleFromComponent(nodes, graph) {
+  const members = new Set(nodes)
+  const internalEdges = nodes
+    .flatMap((node) => graph.get(node) ?? [])
+    .filter((edge) => members.has(edge.target))
+  if (nodes.length === 1 && !internalEdges.some((edge) => edge.source === edge.target)) return null
+  const relationshipTypes = unique(internalEdges.map((edge) => edge.type))
+  return {
+    nodes,
+    edge_count: internalEdges.length,
+    source_document_ids: unique(internalEdges.map((edge) => edge.source)),
+    relationship_types: relationshipTypes,
+    allowed: relationshipTypes.every((type) => type === 'RELATES_TO'),
+  }
 }
 
 function counts(edges) {

@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 757
-- Canonical metadata field coverage: 24.31%
+- Source documents: 784
+- Canonical metadata field coverage: 23.47%
 - Schema 1.0.0 canonical documents: 170
-- Legacy documents: 573
-- Documents missing canonical metadata: 573
-- Documents without YAML front matter: 573
+- Legacy documents: 600
+- Documents missing canonical metadata: 600
+- Documents without YAML front matter: 600
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 184 | 573 | 24.31% |
-| `document_id` | 184 | 573 | 24.31% |
-| `aliases` | 184 | 573 | 24.31% |
-| `document_type` | 184 | 573 | 24.31% |
-| `title` | 184 | 573 | 24.31% |
-| `summary` | 184 | 573 | 24.31% |
-| `version` | 184 | 573 | 24.31% |
-| `publication_status` | 184 | 573 | 24.31% |
-| `document_state` | 184 | 573 | 24.31% |
-| `maturity_level` | 184 | 573 | 24.31% |
-| `authority_scope` | 184 | 573 | 24.31% |
-| `authority_level` | 184 | 573 | 24.31% |
-| `author` | 184 | 573 | 24.31% |
-| `owner` | 184 | 573 | 24.31% |
-| `maintainer` | 184 | 573 | 24.31% |
-| `technical_reviewers` | 184 | 573 | 24.31% |
-| `business_reviewers` | 184 | 573 | 24.31% |
-| `security_reviewers` | 184 | 573 | 24.31% |
-| `approver` | 184 | 573 | 24.31% |
-| `created_date` | 184 | 573 | 24.31% |
-| `last_updated` | 184 | 573 | 24.31% |
-| `last_reviewed` | 184 | 573 | 24.31% |
-| `review_cycle` | 184 | 573 | 24.31% |
-| `next_review` | 184 | 573 | 24.31% |
-| `supersedes` | 184 | 573 | 24.31% |
-| `relationships` | 184 | 573 | 24.31% |
-| `related_epics` | 184 | 573 | 24.31% |
-| `related_requirements` | 184 | 573 | 24.31% |
-| `related_adrs` | 184 | 573 | 24.31% |
-| `related_cores` | 184 | 573 | 24.31% |
-| `implementation_refs` | 184 | 573 | 24.31% |
-| `production_gate_impact` | 184 | 573 | 24.31% |
+| `schema_version` | 184 | 600 | 23.47% |
+| `document_id` | 184 | 600 | 23.47% |
+| `aliases` | 184 | 600 | 23.47% |
+| `document_type` | 184 | 600 | 23.47% |
+| `title` | 184 | 600 | 23.47% |
+| `summary` | 184 | 600 | 23.47% |
+| `version` | 184 | 600 | 23.47% |
+| `publication_status` | 184 | 600 | 23.47% |
+| `document_state` | 184 | 600 | 23.47% |
+| `maturity_level` | 184 | 600 | 23.47% |
+| `authority_scope` | 184 | 600 | 23.47% |
+| `authority_level` | 184 | 600 | 23.47% |
+| `author` | 184 | 600 | 23.47% |
+| `owner` | 184 | 600 | 23.47% |
+| `maintainer` | 184 | 600 | 23.47% |
+| `technical_reviewers` | 184 | 600 | 23.47% |
+| `business_reviewers` | 184 | 600 | 23.47% |
+| `security_reviewers` | 184 | 600 | 23.47% |
+| `approver` | 184 | 600 | 23.47% |
+| `created_date` | 184 | 600 | 23.47% |
+| `last_updated` | 184 | 600 | 23.47% |
+| `last_reviewed` | 184 | 600 | 23.47% |
+| `review_cycle` | 184 | 600 | 23.47% |
+| `next_review` | 184 | 600 | 23.47% |
+| `supersedes` | 184 | 600 | 23.47% |
+| `relationships` | 184 | 600 | 23.47% |
+| `related_epics` | 184 | 600 | 23.47% |
+| `related_requirements` | 184 | 600 | 23.47% |
+| `related_adrs` | 184 | 600 | 23.47% |
+| `related_cores` | 184 | 600 | 23.47% |
+| `implementation_refs` | 184 | 600 | 23.47% |
+| `production_gate_impact` | 184 | 600 | 23.47% |
 
 ## Documents Without Front Matter
 
@@ -83,6 +83,7 @@ Generator Version: 1.0.0
 - .instructions/REBUILD_PROTOCOL.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md
+- .instructions/reports/README.md
 - .instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md
 - .instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md
 - .instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md
@@ -185,6 +186,7 @@ Generator Version: 1.0.0
 - .knowledge/core/ecosystem.akp.md
 - .knowledge/core/glossary.akp.md
 - .knowledge/core/philosophy.akp.md
+- .knowledge/core/README.md
 - .knowledge/core/terminology.akp.md
 - .knowledge/defi/academy-user-education.akp.md
 - .knowledge/defi/acs-integration.akp.md
@@ -413,8 +415,10 @@ Generator Version: 1.0.0
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
 - docs/academy/proof-of-knowledge.md
+- docs/academy/README.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
+- docs/accountability/README.md
 - docs/acs/accountability.md
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
@@ -424,6 +428,7 @@ Generator Version: 1.0.0
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
 - docs/acs/morpheus.md
+- docs/acs/README.md
 - docs/acs/risk-review.md
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
@@ -439,6 +444,7 @@ Generator Version: 1.0.0
 - docs/bba-agency/dao-and-governance-communication.md
 - docs/bba-agency/growth-operations.md
 - docs/bba-agency/positioning.md
+- docs/bba-agency/README.md
 - docs/bba-agency/reporting-and-accountability.md
 - docs/bba-agency/risk-and-compliance.md
 - docs/bba-agency/service-model.md
@@ -452,6 +458,7 @@ Generator Version: 1.0.0
 - docs/business/delivery-lifecycle.md
 - docs/business/governance-alignment.md
 - docs/business/plugin-requests.md
+- docs/business/README.md
 - docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
 - docs/business/runtime.md
@@ -466,6 +473,7 @@ Generator Version: 1.0.0
 - docs/defi/governance-alignment.md
 - docs/defi/liquidity-model.md
 - docs/defi/protocol-model.md
+- docs/defi/README.md
 - docs/defi/reporting-and-accountability.md
 - docs/defi/risk-management.md
 - docs/defi/security-and-smart-contracts.md
@@ -481,12 +489,14 @@ Generator Version: 1.0.0
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
+- docs/dex/README.md
 - docs/dex/reporting-and-accountability.md
 - docs/dex/slippage-and-price-impact.md
 - docs/dex/swap-model.md
 - docs/dex/tokenomics-alignment.md
 - docs/dex/trading-integration.md
 - docs/dex/treasury-alignment.md
+- docs/glossary/README.md
 - docs/glossary/terms.md
 - docs/governance/boardroom-council.md
 - docs/governance/community-dao.md
@@ -494,6 +504,7 @@ Generator Version: 1.0.0
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
 - docs/governance/plugin-requests.md
+- docs/governance/README.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/draw-lifecycle.md
@@ -503,6 +514,7 @@ Generator Version: 1.0.0
 - docs/lottery/operations-and-runtime.md
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
+- docs/lottery/README.md
 - docs/lottery/reporting-and-accountability.md
 - docs/lottery/supersete-style-model.md
 - docs/lottery/ticket-model.md
@@ -518,6 +530,7 @@ Generator Version: 1.0.0
 - docs/marketplace/governance-alignment.md
 - docs/marketplace/listing-model.md
 - docs/marketplace/payments-and-settlement.md
+- docs/marketplace/README.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
 - docs/marketplace/service-catalog.md
@@ -532,6 +545,7 @@ Generator Version: 1.0.0
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
+- docs/mining/README.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
 - docs/mining/sustainability-and-responsible-operations.md
@@ -542,7 +556,9 @@ Generator Version: 1.0.0
 - docs/overview/constitutional-model.md
 - docs/overview/documentation-standards.md
 - docs/overview/product-map.md
+- docs/overview/README.md
 - docs/overview/terminology.md
+- docs/README.md
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
 - docs/runtime/architecture.md
@@ -550,9 +566,11 @@ Generator Version: 1.0.0
 - docs/runtime/delays-and-blockers.md
 - docs/runtime/execution-handoff.md
 - docs/runtime/milestones.md
+- docs/runtime/README.md
 - docs/runtime/request-lifecycle.md
 - docs/runtime/status-model.md
 - docs/runtime/validation-and-confirmation.md
+- docs/security/README.md
 - docs/security/trading-api-security.md
 - docs/tokenomics/academy-rewards.md
 - docs/tokenomics/contract-dependencies.md
@@ -562,6 +580,7 @@ Generator Version: 1.0.0
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
 - docs/tokenomics/pok-minting.md
+- docs/tokenomics/README.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
 - docs/tokenomics/risk-and-compliance.md
@@ -576,6 +595,7 @@ Generator Version: 1.0.0
 - docs/trading/compliance-and-user-disclosures.md
 - docs/trading/governance-alignment.md
 - docs/trading/internal-trading.md
+- docs/trading/README.md
 - docs/trading/reporting-and-accountability.md
 - docs/trading/risk-management.md
 - docs/trading/scalper-futures.md
@@ -586,6 +606,7 @@ Generator Version: 1.0.0
 - docs/treasury/architecture.md
 - docs/treasury/capital-allocation.md
 - docs/treasury/governance-alignment.md
+- docs/treasury/README.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
@@ -595,12 +616,15 @@ Generator Version: 1.0.0
 - docs/treasury/treasury-policy.md
 - DOCUMENTATION-ADR-INDEX.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
+- Documents/agents/README.md
 - Documents/archive/README.md
 - Documents/commercial/AXODUS_COMMERCIAL_CORE.md
+- Documents/commercial/README.md
 - Documents/planning/README.md
 - Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
 - Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md
 - Documents/product/AXODUS_USER_JOURNEY.md
+- Documents/product/README.md
 - Documents/README.md
 - Documents/research/README.md
 - Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
@@ -608,7 +632,9 @@ Generator Version: 1.0.0
 - Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md
 - Documents/strategy/AXODUS_ECONOMIC_MODEL.md
 - Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md
+- Documents/strategy/README.md
 - Documents/trading/AXODUS_TRADING_PRINCIPLES.md
+- Documents/trading/README.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
@@ -628,6 +654,7 @@ Generator Version: 1.0.0
 - SECURITY.md
 - specifications/README.md
 - standards/README.md
+- SUMMARY.md
 - templates/README.md
 
 ## Legacy Documents
@@ -659,6 +686,7 @@ Generator Version: 1.0.0
 - .instructions/REBUILD_PROTOCOL.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md
+- .instructions/reports/README.md
 - .instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md
 - .instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md
 - .instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md
@@ -761,6 +789,7 @@ Generator Version: 1.0.0
 - .knowledge/core/ecosystem.akp.md
 - .knowledge/core/glossary.akp.md
 - .knowledge/core/philosophy.akp.md
+- .knowledge/core/README.md
 - .knowledge/core/terminology.akp.md
 - .knowledge/defi/academy-user-education.akp.md
 - .knowledge/defi/acs-integration.akp.md
@@ -989,8 +1018,10 @@ Generator Version: 1.0.0
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
 - docs/academy/proof-of-knowledge.md
+- docs/academy/README.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
+- docs/accountability/README.md
 - docs/acs/accountability.md
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
@@ -1000,6 +1031,7 @@ Generator Version: 1.0.0
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
 - docs/acs/morpheus.md
+- docs/acs/README.md
 - docs/acs/risk-review.md
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
@@ -1015,6 +1047,7 @@ Generator Version: 1.0.0
 - docs/bba-agency/dao-and-governance-communication.md
 - docs/bba-agency/growth-operations.md
 - docs/bba-agency/positioning.md
+- docs/bba-agency/README.md
 - docs/bba-agency/reporting-and-accountability.md
 - docs/bba-agency/risk-and-compliance.md
 - docs/bba-agency/service-model.md
@@ -1028,6 +1061,7 @@ Generator Version: 1.0.0
 - docs/business/delivery-lifecycle.md
 - docs/business/governance-alignment.md
 - docs/business/plugin-requests.md
+- docs/business/README.md
 - docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
 - docs/business/runtime.md
@@ -1042,6 +1076,7 @@ Generator Version: 1.0.0
 - docs/defi/governance-alignment.md
 - docs/defi/liquidity-model.md
 - docs/defi/protocol-model.md
+- docs/defi/README.md
 - docs/defi/reporting-and-accountability.md
 - docs/defi/risk-management.md
 - docs/defi/security-and-smart-contracts.md
@@ -1057,12 +1092,14 @@ Generator Version: 1.0.0
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
+- docs/dex/README.md
 - docs/dex/reporting-and-accountability.md
 - docs/dex/slippage-and-price-impact.md
 - docs/dex/swap-model.md
 - docs/dex/tokenomics-alignment.md
 - docs/dex/trading-integration.md
 - docs/dex/treasury-alignment.md
+- docs/glossary/README.md
 - docs/glossary/terms.md
 - docs/governance/boardroom-council.md
 - docs/governance/community-dao.md
@@ -1070,6 +1107,7 @@ Generator Version: 1.0.0
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
 - docs/governance/plugin-requests.md
+- docs/governance/README.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/draw-lifecycle.md
@@ -1079,6 +1117,7 @@ Generator Version: 1.0.0
 - docs/lottery/operations-and-runtime.md
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
+- docs/lottery/README.md
 - docs/lottery/reporting-and-accountability.md
 - docs/lottery/supersete-style-model.md
 - docs/lottery/ticket-model.md
@@ -1094,6 +1133,7 @@ Generator Version: 1.0.0
 - docs/marketplace/governance-alignment.md
 - docs/marketplace/listing-model.md
 - docs/marketplace/payments-and-settlement.md
+- docs/marketplace/README.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
 - docs/marketplace/service-catalog.md
@@ -1108,6 +1148,7 @@ Generator Version: 1.0.0
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
+- docs/mining/README.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
 - docs/mining/sustainability-and-responsible-operations.md
@@ -1118,7 +1159,9 @@ Generator Version: 1.0.0
 - docs/overview/constitutional-model.md
 - docs/overview/documentation-standards.md
 - docs/overview/product-map.md
+- docs/overview/README.md
 - docs/overview/terminology.md
+- docs/README.md
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
 - docs/runtime/architecture.md
@@ -1126,9 +1169,11 @@ Generator Version: 1.0.0
 - docs/runtime/delays-and-blockers.md
 - docs/runtime/execution-handoff.md
 - docs/runtime/milestones.md
+- docs/runtime/README.md
 - docs/runtime/request-lifecycle.md
 - docs/runtime/status-model.md
 - docs/runtime/validation-and-confirmation.md
+- docs/security/README.md
 - docs/security/trading-api-security.md
 - docs/tokenomics/academy-rewards.md
 - docs/tokenomics/contract-dependencies.md
@@ -1138,6 +1183,7 @@ Generator Version: 1.0.0
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
 - docs/tokenomics/pok-minting.md
+- docs/tokenomics/README.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
 - docs/tokenomics/risk-and-compliance.md
@@ -1152,6 +1198,7 @@ Generator Version: 1.0.0
 - docs/trading/compliance-and-user-disclosures.md
 - docs/trading/governance-alignment.md
 - docs/trading/internal-trading.md
+- docs/trading/README.md
 - docs/trading/reporting-and-accountability.md
 - docs/trading/risk-management.md
 - docs/trading/scalper-futures.md
@@ -1162,6 +1209,7 @@ Generator Version: 1.0.0
 - docs/treasury/architecture.md
 - docs/treasury/capital-allocation.md
 - docs/treasury/governance-alignment.md
+- docs/treasury/README.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
@@ -1171,12 +1219,15 @@ Generator Version: 1.0.0
 - docs/treasury/treasury-policy.md
 - DOCUMENTATION-ADR-INDEX.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
+- Documents/agents/README.md
 - Documents/archive/README.md
 - Documents/commercial/AXODUS_COMMERCIAL_CORE.md
+- Documents/commercial/README.md
 - Documents/planning/README.md
 - Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
 - Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md
 - Documents/product/AXODUS_USER_JOURNEY.md
+- Documents/product/README.md
 - Documents/README.md
 - Documents/research/README.md
 - Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
@@ -1184,7 +1235,9 @@ Generator Version: 1.0.0
 - Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md
 - Documents/strategy/AXODUS_ECONOMIC_MODEL.md
 - Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md
+- Documents/strategy/README.md
 - Documents/trading/AXODUS_TRADING_PRINCIPLES.md
+- Documents/trading/README.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
@@ -1204,6 +1257,7 @@ Generator Version: 1.0.0
 - SECURITY.md
 - specifications/README.md
 - standards/README.md
+- SUMMARY.md
 - templates/README.md
 
 ## Recommendations

@@ -7,7 +7,14 @@ Generated At: 2026-07-04T00:00:00Z
 
 ## Source Scope
 
-Discover repository Markdown through the public Validation Framework API. Exclude generated outputs, dependency trees, VitePress build/cache output, and Git internals. Generated artifacts are listed separately and never recursively hashed.
+Discover repository Markdown through the public Validation Framework API. Exclude generated outputs, dependency trees, VitePress build/cache output, Git internals, and private disclosure/request surfaces from public generated artifacts. Generated artifacts are listed separately and never recursively hashed.
+
+## Public Artifact Exclusions
+
+- `institutional-disclosure/**`
+- `requests/**`
+
+Private excluded paths may still be validated by the Validation Framework outside generator public-artifact mode.
 
 ## Canonicalization
 

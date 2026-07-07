@@ -15,6 +15,11 @@ export const GENERATED_ARTIFACTS = Object.freeze([
   'documentation.validation.json',
 ])
 
+export const PUBLIC_GENERATION_EXCLUDED_PATH_PREFIXES = Object.freeze([
+  'institutional-disclosure/',
+  'requests/',
+])
+
 export const CANONICAL_FIELDS = Object.freeze([
   'schema_version',
   'document_id',

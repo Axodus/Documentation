@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-04T00:00:00Z
-Source Documents: 757
+Source Documents: 784
 
 ## Navigation
 
@@ -22,9 +22,9 @@ Source Documents: 757
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 757 |
+| Total source documents | 784 |
 | Canonical documents | 170 |
-| Legacy documents | 573 |
+| Legacy documents | 600 |
 | Template documents | 14 |
 | Declared relationships | 332 |
 | Derived relationships | 0 |
@@ -49,7 +49,7 @@ Source Documents: 757
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 573 |
+| UNSPECIFIED | 600 |
 ## Documents by Authority
 
 | Value | Count |
@@ -59,7 +59,7 @@ Source Documents: 757
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
-| UNSPECIFIED | 573 |
+| UNSPECIFIED | 600 |
 ## Documents by Lifecycle
 
 | Value | Count |
@@ -67,7 +67,7 @@ Source Documents: 757
 | ACTIVE | 21 |
 | APPROVED | 124 |
 | DRAFT | 39 |
-| UNSPECIFIED | 573 |
+| UNSPECIFIED | 600 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -273,6 +273,7 @@ Source Documents: 757
 | — | Documentation Rebuild Protocol | — | — | — | — | — | [.instructions/REBUILD_PROTOCOL.md](.instructions/REBUILD_PROTOCOL.md) |
 | — | Documentation Sprint 01 Closeout Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md](.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md) |
 | — | Documentation Sprint 01 - VitePress Validation & Documentation Content Change Pipeline - 2026-06-04 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md](.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md) |
+| — | reports | — | — | — | — | — | [.instructions/reports/README.md](.instructions/reports/README.md) |
 | — | REQ-02 - Documentation Nucleus Recovery L3 to L4 Report - 2026-06-04 | — | — | — | — | — | [.instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md](.instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md) |
 | — | REQ-02A - Documentation Publication Target Correction - GitBook to VitePress - 2026-06-04 | — | — | — | — | — | [.instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md](.instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md) |
 | — | REQ-03 - Documentation Asset Inventory & VitePress Alignment - 2026-06-04 | — | — | — | — | — | [.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md](.instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md) |
@@ -375,6 +376,7 @@ Source Documents: 757
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/ecosystem.akp.md](.knowledge/core/ecosystem.akp.md) |
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/glossary.akp.md](.knowledge/core/glossary.akp.md) |
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/philosophy.akp.md](.knowledge/core/philosophy.akp.md) |
+| — | core | — | — | — | — | — | [.knowledge/core/README.md](.knowledge/core/README.md) |
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/core/terminology.akp.md](.knowledge/core/terminology.akp.md) |
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/academy-user-education.akp.md](.knowledge/defi/academy-user-education.akp.md) |
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/defi/acs-integration.akp.md](.knowledge/defi/acs-integration.akp.md) |
@@ -603,8 +605,10 @@ Source Documents: 757
 | — | Academy Locked Rewards | — | — | — | — | — | [docs/academy/locked-rewards.md](docs/academy/locked-rewards.md) |
 | — | Academy Marketplace Integration | — | — | — | — | — | [docs/academy/marketplace-integration.md](docs/academy/marketplace-integration.md) |
 | — | Proof of Knowledge | — | — | — | — | — | [docs/academy/proof-of-knowledge.md](docs/academy/proof-of-knowledge.md) |
+| — | academy | — | — | — | — | — | [docs/academy/README.md](docs/academy/README.md) |
 | — | Academy Token Reward Flows | — | — | — | — | — | [docs/academy/token-reward-flows.md](docs/academy/token-reward-flows.md) |
 | — | Tutor Validation | — | — | — | — | — | [docs/academy/tutor-validation.md](docs/academy/tutor-validation.md) |
+| — | accountability | — | — | — | — | — | [docs/accountability/README.md](docs/accountability/README.md) |
 | — | ACS Accountability | — | — | — | — | — | [docs/acs/accountability.md](docs/acs/accountability.md) |
 | — | ACS Agent Roles | — | — | — | — | — | [docs/acs/agent-roles.md](docs/acs/agent-roles.md) |
 | — | Agent Smith | — | — | — | — | — | [docs/acs/agent-smith.md](docs/acs/agent-smith.md) |
@@ -614,6 +618,7 @@ Source Documents: 757
 | — | ACS Human Oversight | — | — | — | — | — | [docs/acs/human-oversight.md](docs/acs/human-oversight.md) |
 | — | ACS Memory and Knowledge | — | — | — | — | — | [docs/acs/memory-and-knowledge.md](docs/acs/memory-and-knowledge.md) |
 | — | Morpheus | — | — | — | — | — | [docs/acs/morpheus.md](docs/acs/morpheus.md) |
+| — | acs | — | — | — | — | — | [docs/acs/README.md](docs/acs/README.md) |
 | — | ACS Risk Review | — | — | — | — | — | [docs/acs/risk-review.md](docs/acs/risk-review.md) |
 | — | ACS Runtime | — | — | — | — | — | [docs/acs/runtime.md](docs/acs/runtime.md) |
 | — | ACS Security and Risk | — | — | — | — | — | [docs/acs/security-and-risk.md](docs/acs/security-and-risk.md) |
@@ -629,6 +634,7 @@ Source Documents: 757
 | — | DAO and Governance Communication | — | — | — | — | — | [docs/bba-agency/dao-and-governance-communication.md](docs/bba-agency/dao-and-governance-communication.md) |
 | — | Growth Operations | — | — | — | — | — | [docs/bba-agency/growth-operations.md](docs/bba-agency/growth-operations.md) |
 | — | Positioning | — | — | — | — | — | [docs/bba-agency/positioning.md](docs/bba-agency/positioning.md) |
+| — | bba-agency | — | — | — | — | — | [docs/bba-agency/README.md](docs/bba-agency/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/bba-agency/reporting-and-accountability.md](docs/bba-agency/reporting-and-accountability.md) |
 | — | Risk and Compliance | — | — | — | — | — | [docs/bba-agency/risk-and-compliance.md](docs/bba-agency/risk-and-compliance.md) |
 | — | Service Model | — | — | — | — | — | [docs/bba-agency/service-model.md](docs/bba-agency/service-model.md) |
@@ -642,6 +648,7 @@ Source Documents: 757
 | — | Delivery Lifecycle | — | — | — | — | — | [docs/business/delivery-lifecycle.md](docs/business/delivery-lifecycle.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/business/governance-alignment.md](docs/business/governance-alignment.md) |
 | — | Plugin Requests | — | — | — | — | — | [docs/business/plugin-requests.md](docs/business/plugin-requests.md) |
+| — | business | — | — | — | — | — | [docs/business/README.md](docs/business/README.md) |
 | — | Business Request Intake | — | — | — | — | — | [docs/business/request-intake.md](docs/business/request-intake.md) |
 | — | Risk and Compliance | — | — | — | — | — | [docs/business/risk-and-compliance.md](docs/business/risk-and-compliance.md) |
 | — | Business Runtime | — | — | — | — | — | [docs/business/runtime.md](docs/business/runtime.md) |
@@ -656,6 +663,7 @@ Source Documents: 757
 | — | Governance Alignment | — | — | — | — | — | [docs/defi/governance-alignment.md](docs/defi/governance-alignment.md) |
 | — | Liquidity Model | — | — | — | — | — | [docs/defi/liquidity-model.md](docs/defi/liquidity-model.md) |
 | — | Protocol Model | — | — | — | — | — | [docs/defi/protocol-model.md](docs/defi/protocol-model.md) |
+| — | defi | — | — | — | — | — | [docs/defi/README.md](docs/defi/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/defi/reporting-and-accountability.md](docs/defi/reporting-and-accountability.md) |
 | — | DeFi Risk Management | — | — | — | — | — | [docs/defi/risk-management.md](docs/defi/risk-management.md) |
 | — | Security and Smart Contracts | — | — | — | — | — | [docs/defi/security-and-smart-contracts.md](docs/defi/security-and-smart-contracts.md) |
@@ -671,12 +679,14 @@ Source Documents: 757
 | — | LP Model | — | — | — | — | — | [docs/dex/lp-model.md](docs/dex/lp-model.md) |
 | — | Marketplace Integration | — | — | — | — | — | [docs/dex/marketplace-integration.md](docs/dex/marketplace-integration.md) |
 | — | MEV and Execution Risk | — | — | — | — | — | [docs/dex/mev-and-execution-risk.md](docs/dex/mev-and-execution-risk.md) |
+| — | dex | — | — | — | — | — | [docs/dex/README.md](docs/dex/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/dex/reporting-and-accountability.md](docs/dex/reporting-and-accountability.md) |
 | — | Slippage and Price Impact | — | — | — | — | — | [docs/dex/slippage-and-price-impact.md](docs/dex/slippage-and-price-impact.md) |
 | — | Swap Model | — | — | — | — | — | [docs/dex/swap-model.md](docs/dex/swap-model.md) |
 | — | Tokenomics Alignment | — | — | — | — | — | [docs/dex/tokenomics-alignment.md](docs/dex/tokenomics-alignment.md) |
 | — | Trading Integration | — | — | — | — | — | [docs/dex/trading-integration.md](docs/dex/trading-integration.md) |
 | — | Treasury Alignment | — | — | — | — | — | [docs/dex/treasury-alignment.md](docs/dex/treasury-alignment.md) |
+| — | glossary | — | — | — | — | — | [docs/glossary/README.md](docs/glossary/README.md) |
 | — | Glossary Terms | — | — | — | — | — | [docs/glossary/terms.md](docs/glossary/terms.md) |
 | — | Boardroom Council | — | — | — | — | — | [docs/governance/boardroom-council.md](docs/governance/boardroom-council.md) |
 | — | Community DAO | — | — | — | — | — | [docs/governance/community-dao.md](docs/governance/community-dao.md) |
@@ -684,6 +694,7 @@ Source Documents: 757
 | — | Executive DAO | — | — | — | — | — | [docs/governance/executive-dao.md](docs/governance/executive-dao.md) |
 | — | Governance Lifecycle | — | — | — | — | — | [docs/governance/governance-lifecycle.md](docs/governance/governance-lifecycle.md) |
 | — | Governance Plugin Requests | — | — | — | — | — | [docs/governance/plugin-requests.md](docs/governance/plugin-requests.md) |
+| — | governance | — | — | — | — | — | [docs/governance/README.md](docs/governance/README.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/lottery/acs-integration.md](docs/lottery/acs-integration.md) |
 | — | Claims and Settlement | — | — | — | — | — | [docs/lottery/claims-and-settlement.md](docs/lottery/claims-and-settlement.md) |
 | — | Draw Lifecycle | — | — | — | — | — | [docs/lottery/draw-lifecycle.md](docs/lottery/draw-lifecycle.md) |
@@ -693,6 +704,7 @@ Source Documents: 757
 | — | Operations and Runtime | — | — | — | — | — | [docs/lottery/operations-and-runtime.md](docs/lottery/operations-and-runtime.md) |
 | — | Prize Pools and Payouts | — | — | — | — | — | [docs/lottery/prize-pools-and-payouts.md](docs/lottery/prize-pools-and-payouts.md) |
 | — | Randomness and VRF | — | — | — | — | — | [docs/lottery/randomness-and-vrf.md](docs/lottery/randomness-and-vrf.md) |
+| — | lottery | — | — | — | — | — | [docs/lottery/README.md](docs/lottery/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/lottery/reporting-and-accountability.md](docs/lottery/reporting-and-accountability.md) |
 | — | SuperSete-Style Model | — | — | — | — | — | [docs/lottery/supersete-style-model.md](docs/lottery/supersete-style-model.md) |
 | — | Ticket Model | — | — | — | — | — | [docs/lottery/ticket-model.md](docs/lottery/ticket-model.md) |
@@ -708,6 +720,7 @@ Source Documents: 757
 | — | Governance Alignment | — | — | — | — | — | [docs/marketplace/governance-alignment.md](docs/marketplace/governance-alignment.md) |
 | — | Listing Model | — | — | — | — | — | [docs/marketplace/listing-model.md](docs/marketplace/listing-model.md) |
 | — | Payments and Settlement | — | — | — | — | — | [docs/marketplace/payments-and-settlement.md](docs/marketplace/payments-and-settlement.md) |
+| — | marketplace | — | — | — | — | — | [docs/marketplace/README.md](docs/marketplace/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/marketplace/reporting-and-accountability.md](docs/marketplace/reporting-and-accountability.md) |
 | — | Reputation and Quality | — | — | — | — | — | [docs/marketplace/reputation-and-quality.md](docs/marketplace/reputation-and-quality.md) |
 | — | Service Catalog | — | — | — | — | — | [docs/marketplace/service-catalog.md](docs/marketplace/service-catalog.md) |
@@ -722,6 +735,7 @@ Source Documents: 757
 | — | Monitoring and Telemetry | — | — | — | — | — | [docs/mining/monitoring-and-telemetry.md](docs/mining/monitoring-and-telemetry.md) |
 | — | Node and Validator Operations | — | — | — | — | — | [docs/mining/node-and-validator-operations.md](docs/mining/node-and-validator-operations.md) |
 | — | Pools, Hashrate and Network Difficulty | — | — | — | — | — | [docs/mining/pools-hashrate-and-network-difficulty.md](docs/mining/pools-hashrate-and-network-difficulty.md) |
+| — | mining | — | — | — | — | — | [docs/mining/README.md](docs/mining/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/mining/reporting-and-accountability.md](docs/mining/reporting-and-accountability.md) |
 | — | Rewards and Payouts | — | — | — | — | — | [docs/mining/rewards-and-payouts.md](docs/mining/rewards-and-payouts.md) |
 | — | Sustainability and Responsible Operations | — | — | — | — | — | [docs/mining/sustainability-and-responsible-operations.md](docs/mining/sustainability-and-responsible-operations.md) |
@@ -732,7 +746,9 @@ Source Documents: 757
 | — | Constitutional Model | — | — | — | — | — | [docs/overview/constitutional-model.md](docs/overview/constitutional-model.md) |
 | — | Documentation Standards | — | — | — | — | — | [docs/overview/documentation-standards.md](docs/overview/documentation-standards.md) |
 | — | Product Map | — | — | — | — | — | [docs/overview/product-map.md](docs/overview/product-map.md) |
+| — | overview | — | — | — | — | — | [docs/overview/README.md](docs/overview/README.md) |
 | — | Terminology | — | — | — | — | — | [docs/overview/terminology.md](docs/overview/terminology.md) |
+| — | docs | — | — | — | — | — | [docs/README.md](docs/README.md) |
 | — | Accountability Records | — | — | — | — | — | [docs/runtime/accountability-records.md](docs/runtime/accountability-records.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/runtime/acs-integration.md](docs/runtime/acs-integration.md) |
 | — | Runtime Architecture | — | — | — | — | — | [docs/runtime/architecture.md](docs/runtime/architecture.md) |
@@ -740,9 +756,11 @@ Source Documents: 757
 | — | Delays and Blockers | — | — | — | — | — | [docs/runtime/delays-and-blockers.md](docs/runtime/delays-and-blockers.md) |
 | — | Execution Handoff | — | — | — | — | — | [docs/runtime/execution-handoff.md](docs/runtime/execution-handoff.md) |
 | — | Milestones | — | — | — | — | — | [docs/runtime/milestones.md](docs/runtime/milestones.md) |
+| — | runtime | — | — | — | — | — | [docs/runtime/README.md](docs/runtime/README.md) |
 | — | Request Lifecycle | — | — | — | — | — | [docs/runtime/request-lifecycle.md](docs/runtime/request-lifecycle.md) |
 | — | Status Model | — | — | — | — | — | [docs/runtime/status-model.md](docs/runtime/status-model.md) |
 | — | Validation and Confirmation | — | — | — | — | — | [docs/runtime/validation-and-confirmation.md](docs/runtime/validation-and-confirmation.md) |
+| — | security | — | — | — | — | — | [docs/security/README.md](docs/security/README.md) |
 | — | Trading API Security | — | — | — | — | — | [docs/security/trading-api-security.md](docs/security/trading-api-security.md) |
 | — | Academy Rewards | — | — | — | — | — | [docs/tokenomics/academy-rewards.md](docs/tokenomics/academy-rewards.md) |
 | — | Contract Dependencies | — | — | — | — | — | [docs/tokenomics/contract-dependencies.md](docs/tokenomics/contract-dependencies.md) |
@@ -752,6 +770,7 @@ Source Documents: 757
 | — | Marketplace Utility | — | — | — | — | — | [docs/tokenomics/marketplace-utility.md](docs/tokenomics/marketplace-utility.md) |
 | — | $Neurons Token | — | — | — | — | — | [docs/tokenomics/neurons-token.md](docs/tokenomics/neurons-token.md) |
 | — | PoK Minting | — | — | — | — | — | [docs/tokenomics/pok-minting.md](docs/tokenomics/pok-minting.md) |
+| — | tokenomics | — | — | — | — | — | [docs/tokenomics/README.md](docs/tokenomics/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/tokenomics/reporting-and-accountability.md](docs/tokenomics/reporting-and-accountability.md) |
 | — | Reward Policy | — | — | — | — | — | [docs/tokenomics/reward-policy.md](docs/tokenomics/reward-policy.md) |
 | — | Risk and Compliance | — | — | — | — | — | [docs/tokenomics/risk-and-compliance.md](docs/tokenomics/risk-and-compliance.md) |
@@ -766,6 +785,7 @@ Source Documents: 757
 | — | Compliance and User Disclosures | — | — | — | — | — | [docs/trading/compliance-and-user-disclosures.md](docs/trading/compliance-and-user-disclosures.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/trading/governance-alignment.md](docs/trading/governance-alignment.md) |
 | — | Internal Trading | — | — | — | — | — | [docs/trading/internal-trading.md](docs/trading/internal-trading.md) |
+| — | trading | — | — | — | — | — | [docs/trading/README.md](docs/trading/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/trading/reporting-and-accountability.md](docs/trading/reporting-and-accountability.md) |
 | — | Risk Management | — | — | — | — | — | [docs/trading/risk-management.md](docs/trading/risk-management.md) |
 | — | Scalper Futures | — | — | — | — | — | [docs/trading/scalper-futures.md](docs/trading/scalper-futures.md) |
@@ -776,6 +796,7 @@ Source Documents: 757
 | — | Treasury Architecture | — | — | — | — | — | [docs/treasury/architecture.md](docs/treasury/architecture.md) |
 | — | Capital Allocation | — | — | — | — | — | [docs/treasury/capital-allocation.md](docs/treasury/capital-allocation.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/treasury/governance-alignment.md](docs/treasury/governance-alignment.md) |
+| — | treasury | — | — | — | — | — | [docs/treasury/README.md](docs/treasury/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/treasury/reporting-and-accountability.md](docs/treasury/reporting-and-accountability.md) |
 | — | Reserves and Liquidity | — | — | — | — | — | [docs/treasury/reserves-and-liquidity.md](docs/treasury/reserves-and-liquidity.md) |
 | — | Revenue and Fees | — | — | — | — | — | [docs/treasury/revenue-and-fees.md](docs/treasury/revenue-and-fees.md) |
@@ -785,12 +806,15 @@ Source Documents: 757
 | — | Treasury Policy | — | — | — | — | — | [docs/treasury/treasury-policy.md](docs/treasury/treasury-policy.md) |
 | — | Documentation ADR Index | — | — | — | — | — | [DOCUMENTATION-ADR-INDEX.md](DOCUMENTATION-ADR-INDEX.md) |
 | — | AXODUS AGENT ALIGNMENT | — | — | — | — | — | [Documents/agents/AXODUS_AGENT_ALIGNMENT.md](Documents/agents/AXODUS_AGENT_ALIGNMENT.md) |
+| — | agents | — | — | — | — | — | [Documents/agents/README.md](Documents/agents/README.md) |
 | — | Documents Archive | — | — | — | — | — | [Documents/archive/README.md](Documents/archive/README.md) |
 | — | AXODUS COMMERCIAL CORE | — | — | — | — | — | [Documents/commercial/AXODUS_COMMERCIAL_CORE.md](Documents/commercial/AXODUS_COMMERCIAL_CORE.md) |
+| — | commercial | — | — | — | — | — | [Documents/commercial/README.md](Documents/commercial/README.md) |
 | — | Planning Documents | — | — | — | — | — | [Documents/planning/README.md](Documents/planning/README.md) |
 | — | VitePress Customization Report | — | — | — | — | — | [Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md](Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md) |
 | — | AXODUS ECOSYSTEM ONBOARDING | — | — | — | — | — | [Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md](Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md) |
 | — | AXODUS USER JOURNEY | — | — | — | — | — | [Documents/product/AXODUS_USER_JOURNEY.md](Documents/product/AXODUS_USER_JOURNEY.md) |
+| — | product | — | — | — | — | — | [Documents/product/README.md](Documents/product/README.md) |
 | — | Documents | — | — | — | — | — | [Documents/README.md](Documents/README.md) |
 | — | Research Documents | — | — | — | — | — | [Documents/research/README.md](Documents/research/README.md) |
 | — | AXODUS CAPITAL ALLOCATION MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md](Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md) |
@@ -798,7 +822,9 @@ Source Documents: 757
 | — | AXODUS DAO FEDERATION MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md](Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md) |
 | — | AXODUS ECONOMIC MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_ECONOMIC_MODEL.md](Documents/strategy/AXODUS_ECONOMIC_MODEL.md) |
 | — | AXODUS TREASURY PHILOSOPHY | — | — | — | — | — | [Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md](Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md) |
+| — | strategy | — | — | — | — | — | [Documents/strategy/README.md](Documents/strategy/README.md) |
 | — | AXODUS TRADING PRINCIPLES | — | — | — | — | — | [Documents/trading/AXODUS_TRADING_PRINCIPLES.md](Documents/trading/AXODUS_TRADING_PRINCIPLES.md) |
+| — | trading | — | — | — | — | — | [Documents/trading/README.md](Documents/trading/README.md) |
 | — | Axodus Glossary | — | — | — | — | — | [GLOSSARY.md](GLOSSARY.md) |
 | — | Axodus Governance | — | — | — | — | — | [GOVERNANCE.md](GOVERNANCE.md) |
 | — | Governance | — | — | — | — | — | [governance/README.md](governance/README.md) |
@@ -818,6 +844,7 @@ Source Documents: 757
 | — | Axodus Security | — | — | — | — | — | [SECURITY.md](SECURITY.md) |
 | — | Specifications | — | — | — | — | — | [specifications/README.md](specifications/README.md) |
 | — | Standards | — | — | — | — | — | [standards/README.md](standards/README.md) |
+| — | Table of contents | — | — | — | — | — | [SUMMARY.md](SUMMARY.md) |
 | — | Documentation Templates | — | — | — | — | — | [templates/README.md](templates/README.md) |
 ## Templates
 

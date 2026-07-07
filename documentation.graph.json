@@ -2,128 +2,65 @@
   "cycles": [
     {
       "allowed": false,
+      "edge_count": 10,
       "nodes": [
         "DOC-ADR-001",
-        "DOC-ADR-003"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-ADR-001",
+        "DOC-ADR-003",
+        "DOC-ADR-006",
+        "DOC-ADR-012",
         "DOC-ADR-017"
       ],
       "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-ADR-001",
-        "DOC-ADR-017",
-        "DOC-ADR-006"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-ADR-001",
-        "DOC-ADR-017",
-        "DOC-ADR-012",
-        "DOC-ADR-006"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-005",
-        "DOC-ADR-011"
-      ],
-      "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "DOC-ADR-001",
+        "DOC-ADR-003",
+        "DOC-ADR-006",
+        "DOC-ADR-012",
+        "DOC-ADR-017"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 5,
       "nodes": [
         "DOC-ADR-005",
+        "DOC-ADR-011",
         "DOC-ADR-016"
       ],
       "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
+      ],
+      "source_document_ids": [
         "DOC-ADR-005",
-        "DOC-ADR-016",
-        "DOC-ADR-011"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
+        "DOC-ADR-011",
+        "DOC-ADR-016"
       ]
     },
     {
       "allowed": false,
-      "nodes": [
-        "DOC-ADR-006",
-        "DOC-ADR-017"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-006",
-        "DOC-ADR-017",
-        "DOC-ADR-012"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
+      "edge_count": 4,
       "nodes": [
         "DOC-ADR-007",
-        "DOC-ADR-013"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-007",
+        "DOC-ADR-013",
         "DOC-ADR-014"
       ],
       "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "DOC-ADR-007",
+        "DOC-ADR-013",
+        "DOC-ADR-014"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 2,
       "nodes": [
         "DOC-ADR-008",
         "DOC-ADR-015"
@@ -131,31 +68,15 @@
       "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-012",
-        "DOC-ADR-017"
       ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
+      "source_document_ids": [
+        "DOC-ADR-008",
+        "DOC-ADR-015"
       ]
     },
     {
       "allowed": true,
-      "nodes": [
-        "DOC-ADR-018",
-        "DOC-ADR-019"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
+      "edge_count": 6,
       "nodes": [
         "DOC-ADR-018",
         "DOC-ADR-019",
@@ -163,163 +84,79 @@
       ],
       "relationship_types": [
         "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-ADR-018",
-        "DOC-ADR-020"
       ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
+      "source_document_ids": [
         "DOC-ADR-018",
-        "DOC-ADR-020",
-        "DOC-ADR-019"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
         "DOC-ADR-019",
         "DOC-ADR-020"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 10,
       "nodes": [
         "DOC-ADR-021",
-        "DOC-SPEC-008"
-      ],
-      "relationship_types": [
-        "DOCUMENTS",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-021",
-        "DOC-SPEC-008",
-        "DOC-ROAD-011"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "DOCUMENTS",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-021",
-        "DOC-SPEC-008",
-        "DOC-ROAD-011",
-        "DOC-ROAD-010"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "DOCUMENTS",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
         "DOC-ADR-023",
+        "DOC-ROAD-010",
+        "DOC-ROAD-011",
+        "DOC-SPEC-008",
         "DOC-SPEC-009"
       ],
       "relationship_types": [
-        "DOCUMENTS",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ADR-023",
-        "DOC-SPEC-009",
-        "DOC-ROAD-010"
-      ],
-      "relationship_types": [
         "DEPENDS_ON",
         "DOCUMENTS",
         "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "DOC-ADR-021",
+        "DOC-ADR-023",
+        "DOC-ROAD-010",
+        "DOC-ROAD-011",
+        "DOC-SPEC-008",
+        "DOC-SPEC-009"
       ]
     },
     {
       "allowed": true,
+      "edge_count": 2,
       "nodes": [
         "DOC-GDE-005",
         "DOC-GDE-006"
       ],
       "relationship_types": [
         "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-PLAY-001",
-        "DOC-STD-002"
       ],
-      "relationship_types": [
-        "RELATES_TO"
+      "source_document_ids": [
+        "DOC-GDE-005",
+        "DOC-GDE-006"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 9,
       "nodes": [
         "DOC-PLAY-001",
+        "DOC-ROAD-001",
+        "DOC-SPEC-005",
         "DOC-STD-002",
-        "DOC-STD-003",
-        "DOC-SPEC-005",
-        "DOC-ROAD-001"
+        "DOC-STD-003"
       ],
       "relationship_types": [
         "DEPENDS_ON",
         "DOCUMENTS",
         "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
+      ],
+      "source_document_ids": [
         "DOC-PLAY-001",
-        "DOC-STD-003",
+        "DOC-ROAD-001",
         "DOC-SPEC-005",
-        "DOC-ROAD-001"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "DOCUMENTS",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-PLAY-001",
-        "DOC-STD-003",
-        "DOC-STD-002"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
+        "DOC-STD-002",
+        "DOC-STD-003"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 2,
       "nodes": [
         "DOC-POL-005",
         "DOC-POL-006"
@@ -327,10 +164,15 @@
       "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "DOC-POL-005",
+        "DOC-POL-006"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 2,
       "nodes": [
         "DOC-REF-003",
         "DOC-REF-004"
@@ -338,24 +180,17 @@
       "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "DOC-REF-003",
+        "DOC-REF-004"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 6,
       "nodes": [
         "DOC-REF-005",
-        "DOC-RPT-003",
-        "DOC-RPT-004"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO",
-        "VALIDATES"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
         "DOC-ROAD-002",
         "DOC-RPT-003",
         "DOC-RPT-004"
@@ -364,77 +199,35 @@
         "DEPENDS_ON",
         "RELATES_TO",
         "VALIDATES"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-ROAD-008",
-        "DOC-ROAD-009"
       ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ROAD-008",
-        "DOC-ROAD-009",
-        "DOC-RPT-035"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ROAD-008",
-        "DOC-RPT-035"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ROAD-008",
-        "DOC-RPT-035",
-        "DOC-ROAD-009"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
-        "DOC-ROAD-009",
-        "DOC-RPT-035"
-      ],
-      "relationship_types": [
-        "DEPENDS_ON",
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": false,
-      "nodes": [
+      "source_document_ids": [
+        "DOC-REF-005",
+        "DOC-ROAD-002",
         "DOC-RPT-003",
         "DOC-RPT-004"
-      ],
-      "relationship_types": [
-        "RELATES_TO",
-        "VALIDATES"
       ]
     },
     {
       "allowed": false,
+      "edge_count": 6,
+      "nodes": [
+        "DOC-ROAD-008",
+        "DOC-ROAD-009",
+        "DOC-RPT-035"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "DOC-ROAD-008",
+        "DOC-ROAD-009",
+        "DOC-RPT-035"
+      ]
+    },
+    {
+      "allowed": false,
+      "edge_count": 2,
       "nodes": [
         "DOC-RPT-024",
         "DOC-SPEC-006"
@@ -442,26 +235,10 @@
       "relationship_types": [
         "DEPENDS_ON",
         "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-SPEC-005",
-        "DOC-STD-003"
       ],
-      "relationship_types": [
-        "RELATES_TO"
-      ]
-    },
-    {
-      "allowed": true,
-      "nodes": [
-        "DOC-STD-002",
-        "DOC-STD-003"
-      ],
-      "relationship_types": [
-        "RELATES_TO"
+      "source_document_ids": [
+        "DOC-RPT-024",
+        "DOC-SPEC-006"
       ]
     }
   ],
@@ -746,6 +523,16 @@
       "publication_status": null,
       "source_path": ".instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md",
       "title": "Documentation Sprint 01 - VitePress Validation & Documentation Content Change Pipeline - 2026-06-04"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/reports/README.md",
+      "publication_status": null,
+      "source_path": ".instructions/reports/README.md",
+      "title": "reports"
     },
     {
       "authority_level": null,
@@ -1766,6 +1553,16 @@
       "publication_status": null,
       "source_path": ".knowledge/core/philosophy.akp.md",
       "title": "AXODUS KNOWLEDGE PACK"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".knowledge/core/README.md",
+      "publication_status": null,
+      "source_path": ".knowledge/core/README.md",
+      "title": "core"
     },
     {
       "authority_level": null,
@@ -5492,6 +5289,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/academy/README.md",
+      "publication_status": null,
+      "source_path": "docs/academy/README.md",
+      "title": "academy"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/academy/token-reward-flows.md",
       "publication_status": null,
       "source_path": "docs/academy/token-reward-flows.md",
@@ -5506,6 +5313,16 @@
       "publication_status": null,
       "source_path": "docs/academy/tutor-validation.md",
       "title": "Tutor Validation"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/accountability/README.md",
+      "publication_status": null,
+      "source_path": "docs/accountability/README.md",
+      "title": "accountability"
     },
     {
       "authority_level": null,
@@ -5596,6 +5413,16 @@
       "publication_status": null,
       "source_path": "docs/acs/morpheus.md",
       "title": "Morpheus"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/acs/README.md",
+      "publication_status": null,
+      "source_path": "docs/acs/README.md",
+      "title": "acs"
     },
     {
       "authority_level": null,
@@ -5752,6 +5579,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/bba-agency/README.md",
+      "publication_status": null,
+      "source_path": "docs/bba-agency/README.md",
+      "title": "bba-agency"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/bba-agency/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/bba-agency/reporting-and-accountability.md",
@@ -5876,6 +5713,16 @@
       "publication_status": null,
       "source_path": "docs/business/plugin-requests.md",
       "title": "Plugin Requests"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/business/README.md",
+      "publication_status": null,
+      "source_path": "docs/business/README.md",
+      "title": "business"
     },
     {
       "authority_level": null,
@@ -6016,6 +5863,16 @@
       "publication_status": null,
       "source_path": "docs/defi/protocol-model.md",
       "title": "Protocol Model"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/defi/README.md",
+      "publication_status": null,
+      "source_path": "docs/defi/README.md",
+      "title": "defi"
     },
     {
       "authority_level": null,
@@ -6172,6 +6029,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/dex/README.md",
+      "publication_status": null,
+      "source_path": "docs/dex/README.md",
+      "title": "dex"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/dex/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/dex/reporting-and-accountability.md",
@@ -6226,6 +6093,16 @@
       "publication_status": null,
       "source_path": "docs/dex/treasury-alignment.md",
       "title": "Treasury Alignment"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/glossary/README.md",
+      "publication_status": null,
+      "source_path": "docs/glossary/README.md",
+      "title": "glossary"
     },
     {
       "authority_level": null,
@@ -6296,6 +6173,16 @@
       "publication_status": null,
       "source_path": "docs/governance/plugin-requests.md",
       "title": "Governance Plugin Requests"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/governance/README.md",
+      "publication_status": null,
+      "source_path": "docs/governance/README.md",
+      "title": "governance"
     },
     {
       "authority_level": null,
@@ -6386,6 +6273,16 @@
       "publication_status": null,
       "source_path": "docs/lottery/randomness-and-vrf.md",
       "title": "Randomness and VRF"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/lottery/README.md",
+      "publication_status": null,
+      "source_path": "docs/lottery/README.md",
+      "title": "lottery"
     },
     {
       "authority_level": null,
@@ -6542,6 +6439,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/marketplace/README.md",
+      "publication_status": null,
+      "source_path": "docs/marketplace/README.md",
+      "title": "marketplace"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/marketplace/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/marketplace/reporting-and-accountability.md",
@@ -6682,6 +6589,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/mining/README.md",
+      "publication_status": null,
+      "source_path": "docs/mining/README.md",
+      "title": "mining"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/mining/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/mining/reporting-and-accountability.md",
@@ -6782,10 +6699,30 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/overview/README.md",
+      "publication_status": null,
+      "source_path": "docs/overview/README.md",
+      "title": "overview"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/overview/terminology.md",
       "publication_status": null,
       "source_path": "docs/overview/terminology.md",
       "title": "Terminology"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/README.md",
+      "publication_status": null,
+      "source_path": "docs/README.md",
+      "title": "docs"
     },
     {
       "authority_level": null,
@@ -6862,6 +6799,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/runtime/README.md",
+      "publication_status": null,
+      "source_path": "docs/runtime/README.md",
+      "title": "runtime"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/runtime/request-lifecycle.md",
       "publication_status": null,
       "source_path": "docs/runtime/request-lifecycle.md",
@@ -6886,6 +6833,16 @@
       "publication_status": null,
       "source_path": "docs/runtime/validation-and-confirmation.md",
       "title": "Validation and Confirmation"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/security/README.md",
+      "publication_status": null,
+      "source_path": "docs/security/README.md",
+      "title": "security"
     },
     {
       "authority_level": null,
@@ -6976,6 +6933,16 @@
       "publication_status": null,
       "source_path": "docs/tokenomics/pok-minting.md",
       "title": "PoK Minting"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "docs/tokenomics/README.md",
+      "publication_status": null,
+      "source_path": "docs/tokenomics/README.md",
+      "title": "tokenomics"
     },
     {
       "authority_level": null,
@@ -7122,6 +7089,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/trading/README.md",
+      "publication_status": null,
+      "source_path": "docs/trading/README.md",
+      "title": "trading"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/trading/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/trading/reporting-and-accountability.md",
@@ -7222,6 +7199,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "docs/treasury/README.md",
+      "publication_status": null,
+      "source_path": "docs/treasury/README.md",
+      "title": "treasury"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "docs/treasury/reporting-and-accountability.md",
       "publication_status": null,
       "source_path": "docs/treasury/reporting-and-accountability.md",
@@ -7312,6 +7299,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "Documents/agents/README.md",
+      "publication_status": null,
+      "source_path": "Documents/agents/README.md",
+      "title": "agents"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "Documents/archive/README.md",
       "publication_status": null,
       "source_path": "Documents/archive/README.md",
@@ -7326,6 +7323,16 @@
       "publication_status": null,
       "source_path": "Documents/commercial/AXODUS_COMMERCIAL_CORE.md",
       "title": "AXODUS COMMERCIAL CORE"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "Documents/commercial/README.md",
+      "publication_status": null,
+      "source_path": "Documents/commercial/README.md",
+      "title": "commercial"
     },
     {
       "authority_level": null,
@@ -7366,6 +7373,16 @@
       "publication_status": null,
       "source_path": "Documents/product/AXODUS_USER_JOURNEY.md",
       "title": "AXODUS USER JOURNEY"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "Documents/product/README.md",
+      "publication_status": null,
+      "source_path": "Documents/product/README.md",
+      "title": "product"
     },
     {
       "authority_level": null,
@@ -7442,10 +7459,30 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "Documents/strategy/README.md",
+      "publication_status": null,
+      "source_path": "Documents/strategy/README.md",
+      "title": "strategy"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "Documents/trading/AXODUS_TRADING_PRINCIPLES.md",
       "publication_status": null,
       "source_path": "Documents/trading/AXODUS_TRADING_PRINCIPLES.md",
       "title": "AXODUS TRADING PRINCIPLES"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": "Documents/trading/README.md",
+      "publication_status": null,
+      "source_path": "Documents/trading/README.md",
+      "title": "trading"
     },
     {
       "authority_level": null,
@@ -7982,6 +8019,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "SUMMARY.md",
+      "publication_status": null,
+      "source_path": "SUMMARY.md",
+      "title": "Table of contents"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "templates/README.md",
       "publication_status": null,
       "source_path": "templates/README.md",
@@ -8076,6 +8123,7 @@
     ".instructions/REBUILD_PROTOCOL.md",
     ".instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md",
     ".instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md",
+    ".instructions/reports/README.md",
     ".instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md",
     ".instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md",
     ".instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md",
@@ -8178,6 +8226,7 @@
     ".knowledge/core/ecosystem.akp.md",
     ".knowledge/core/glossary.akp.md",
     ".knowledge/core/philosophy.akp.md",
+    ".knowledge/core/README.md",
     ".knowledge/core/terminology.akp.md",
     ".knowledge/defi/academy-user-education.akp.md",
     ".knowledge/defi/acs-integration.akp.md",
@@ -8406,8 +8455,10 @@
     "docs/academy/locked-rewards.md",
     "docs/academy/marketplace-integration.md",
     "docs/academy/proof-of-knowledge.md",
+    "docs/academy/README.md",
     "docs/academy/token-reward-flows.md",
     "docs/academy/tutor-validation.md",
+    "docs/accountability/README.md",
     "docs/acs/accountability.md",
     "docs/acs/agent-roles.md",
     "docs/acs/agent-smith.md",
@@ -8417,6 +8468,7 @@
     "docs/acs/human-oversight.md",
     "docs/acs/memory-and-knowledge.md",
     "docs/acs/morpheus.md",
+    "docs/acs/README.md",
     "docs/acs/risk-review.md",
     "docs/acs/runtime.md",
     "docs/acs/security-and-risk.md",
@@ -8432,6 +8484,7 @@
     "docs/bba-agency/dao-and-governance-communication.md",
     "docs/bba-agency/growth-operations.md",
     "docs/bba-agency/positioning.md",
+    "docs/bba-agency/README.md",
     "docs/bba-agency/reporting-and-accountability.md",
     "docs/bba-agency/risk-and-compliance.md",
     "docs/bba-agency/service-model.md",
@@ -8445,6 +8498,7 @@
     "docs/business/delivery-lifecycle.md",
     "docs/business/governance-alignment.md",
     "docs/business/plugin-requests.md",
+    "docs/business/README.md",
     "docs/business/request-intake.md",
     "docs/business/risk-and-compliance.md",
     "docs/business/runtime.md",
@@ -8459,6 +8513,7 @@
     "docs/defi/governance-alignment.md",
     "docs/defi/liquidity-model.md",
     "docs/defi/protocol-model.md",
+    "docs/defi/README.md",
     "docs/defi/reporting-and-accountability.md",
     "docs/defi/risk-management.md",
     "docs/defi/security-and-smart-contracts.md",
@@ -8474,12 +8529,14 @@
     "docs/dex/lp-model.md",
     "docs/dex/marketplace-integration.md",
     "docs/dex/mev-and-execution-risk.md",
+    "docs/dex/README.md",
     "docs/dex/reporting-and-accountability.md",
     "docs/dex/slippage-and-price-impact.md",
     "docs/dex/swap-model.md",
     "docs/dex/tokenomics-alignment.md",
     "docs/dex/trading-integration.md",
     "docs/dex/treasury-alignment.md",
+    "docs/glossary/README.md",
     "docs/glossary/terms.md",
     "docs/governance/boardroom-council.md",
     "docs/governance/community-dao.md",
@@ -8487,6 +8544,7 @@
     "docs/governance/executive-dao.md",
     "docs/governance/governance-lifecycle.md",
     "docs/governance/plugin-requests.md",
+    "docs/governance/README.md",
     "docs/lottery/acs-integration.md",
     "docs/lottery/claims-and-settlement.md",
     "docs/lottery/draw-lifecycle.md",
@@ -8496,6 +8554,7 @@
     "docs/lottery/operations-and-runtime.md",
     "docs/lottery/prize-pools-and-payouts.md",
     "docs/lottery/randomness-and-vrf.md",
+    "docs/lottery/README.md",
     "docs/lottery/reporting-and-accountability.md",
     "docs/lottery/supersete-style-model.md",
     "docs/lottery/ticket-model.md",
@@ -8511,6 +8570,7 @@
     "docs/marketplace/governance-alignment.md",
     "docs/marketplace/listing-model.md",
     "docs/marketplace/payments-and-settlement.md",
+    "docs/marketplace/README.md",
     "docs/marketplace/reporting-and-accountability.md",
     "docs/marketplace/reputation-and-quality.md",
     "docs/marketplace/service-catalog.md",
@@ -8525,6 +8585,7 @@
     "docs/mining/monitoring-and-telemetry.md",
     "docs/mining/node-and-validator-operations.md",
     "docs/mining/pools-hashrate-and-network-difficulty.md",
+    "docs/mining/README.md",
     "docs/mining/reporting-and-accountability.md",
     "docs/mining/rewards-and-payouts.md",
     "docs/mining/sustainability-and-responsible-operations.md",
@@ -8535,7 +8596,9 @@
     "docs/overview/constitutional-model.md",
     "docs/overview/documentation-standards.md",
     "docs/overview/product-map.md",
+    "docs/overview/README.md",
     "docs/overview/terminology.md",
+    "docs/README.md",
     "docs/runtime/accountability-records.md",
     "docs/runtime/acs-integration.md",
     "docs/runtime/architecture.md",
@@ -8543,9 +8606,11 @@
     "docs/runtime/delays-and-blockers.md",
     "docs/runtime/execution-handoff.md",
     "docs/runtime/milestones.md",
+    "docs/runtime/README.md",
     "docs/runtime/request-lifecycle.md",
     "docs/runtime/status-model.md",
     "docs/runtime/validation-and-confirmation.md",
+    "docs/security/README.md",
     "docs/security/trading-api-security.md",
     "docs/tokenomics/academy-rewards.md",
     "docs/tokenomics/contract-dependencies.md",
@@ -8555,6 +8620,7 @@
     "docs/tokenomics/marketplace-utility.md",
     "docs/tokenomics/neurons-token.md",
     "docs/tokenomics/pok-minting.md",
+    "docs/tokenomics/README.md",
     "docs/tokenomics/reporting-and-accountability.md",
     "docs/tokenomics/reward-policy.md",
     "docs/tokenomics/risk-and-compliance.md",
@@ -8569,6 +8635,7 @@
     "docs/trading/compliance-and-user-disclosures.md",
     "docs/trading/governance-alignment.md",
     "docs/trading/internal-trading.md",
+    "docs/trading/README.md",
     "docs/trading/reporting-and-accountability.md",
     "docs/trading/risk-management.md",
     "docs/trading/scalper-futures.md",
@@ -8579,6 +8646,7 @@
     "docs/treasury/architecture.md",
     "docs/treasury/capital-allocation.md",
     "docs/treasury/governance-alignment.md",
+    "docs/treasury/README.md",
     "docs/treasury/reporting-and-accountability.md",
     "docs/treasury/reserves-and-liquidity.md",
     "docs/treasury/revenue-and-fees.md",
@@ -8588,12 +8656,15 @@
     "docs/treasury/treasury-policy.md",
     "DOCUMENTATION-ADR-INDEX.md",
     "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
+    "Documents/agents/README.md",
     "Documents/archive/README.md",
     "Documents/commercial/AXODUS_COMMERCIAL_CORE.md",
+    "Documents/commercial/README.md",
     "Documents/planning/README.md",
     "Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md",
     "Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md",
     "Documents/product/AXODUS_USER_JOURNEY.md",
+    "Documents/product/README.md",
     "Documents/README.md",
     "Documents/research/README.md",
     "Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md",
@@ -8601,7 +8672,9 @@
     "Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md",
     "Documents/strategy/AXODUS_ECONOMIC_MODEL.md",
     "Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md",
+    "Documents/strategy/README.md",
     "Documents/trading/AXODUS_TRADING_PRINCIPLES.md",
+    "Documents/trading/README.md",
     "GLOSSARY.md",
     "GOVERNANCE.md",
     "governance/README.md",
@@ -8621,6 +8694,7 @@
     "SECURITY.md",
     "specifications/README.md",
     "standards/README.md",
+    "SUMMARY.md",
     "templates/ADR-TEMPLATE.md",
     "templates/API-TEMPLATE.md",
     "templates/MEETING-TEMPLATE.md",
@@ -8666,6 +8740,7 @@
       ".instructions/REBUILD_PROTOCOL.md",
       ".instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md",
       ".instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md",
+      ".instructions/reports/README.md",
       ".instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md",
       ".instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md",
       ".instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md",
@@ -8768,6 +8843,7 @@
       ".knowledge/core/ecosystem.akp.md",
       ".knowledge/core/glossary.akp.md",
       ".knowledge/core/philosophy.akp.md",
+      ".knowledge/core/README.md",
       ".knowledge/core/terminology.akp.md",
       ".knowledge/defi/academy-user-education.akp.md",
       ".knowledge/defi/acs-integration.akp.md",
@@ -9020,11 +9096,13 @@
       "docs/academy/marketplace-integration.md",
       "docs/academy/overview.md",
       "docs/academy/proof-of-knowledge.md",
+      "docs/academy/README.md",
       "docs/academy/token-reward-flows.md",
       "docs/academy/tutor-validation.md",
       "docs/accountability/financial-reports.md",
       "docs/accountability/governance-records.md",
       "docs/accountability/overview.md",
+      "docs/accountability/README.md",
       "docs/accountability/release-notes.md",
       "docs/accountability/roadmap-updates.md",
       "docs/acs/accountability.md",
@@ -9037,6 +9115,7 @@
       "docs/acs/memory-and-knowledge.md",
       "docs/acs/morpheus.md",
       "docs/acs/overview.md",
+      "docs/acs/README.md",
       "docs/acs/risk-review.md",
       "docs/acs/runtime.md",
       "docs/acs/security-and-risk.md",
@@ -9053,6 +9132,7 @@
       "docs/bba-agency/growth-operations.md",
       "docs/bba-agency/overview.md",
       "docs/bba-agency/positioning.md",
+      "docs/bba-agency/README.md",
       "docs/bba-agency/reporting-and-accountability.md",
       "docs/bba-agency/risk-and-compliance.md",
       "docs/bba-agency/service-model.md",
@@ -9067,6 +9147,7 @@
       "docs/business/governance-alignment.md",
       "docs/business/overview.md",
       "docs/business/plugin-requests.md",
+      "docs/business/README.md",
       "docs/business/request-intake.md",
       "docs/business/risk-and-compliance.md",
       "docs/business/runtime.md",
@@ -9082,6 +9163,7 @@
       "docs/defi/liquidity-model.md",
       "docs/defi/overview.md",
       "docs/defi/protocol-model.md",
+      "docs/defi/README.md",
       "docs/defi/reporting-and-accountability.md",
       "docs/defi/risk-management.md",
       "docs/defi/security-and-smart-contracts.md",
@@ -9100,6 +9182,7 @@
       "docs/dex/marketplace-integration.md",
       "docs/dex/mev-and-execution-risk.md",
       "docs/dex/overview.md",
+      "docs/dex/README.md",
       "docs/dex/reporting-and-accountability.md",
       "docs/dex/risk-and-disclosures.md",
       "docs/dex/routing-and-aggregation.md",
@@ -9109,6 +9192,7 @@
       "docs/dex/tokenomics-alignment.md",
       "docs/dex/trading-integration.md",
       "docs/dex/treasury-alignment.md",
+      "docs/glossary/README.md",
       "docs/glossary/terms.md",
       "docs/governance/accountability.md",
       "docs/governance/boardroom-council.md",
@@ -9122,6 +9206,7 @@
       "docs/governance/overview.md",
       "docs/governance/plugin-requests.md",
       "docs/governance/proposal-lifecycle.md",
+      "docs/governance/README.md",
       "docs/index.md",
       "docs/lottery/acs-integration.md",
       "docs/lottery/claims-and-settlement.md",
@@ -9135,6 +9220,7 @@
       "docs/lottery/overview.md",
       "docs/lottery/prize-pools-and-payouts.md",
       "docs/lottery/randomness-and-vrf.md",
+      "docs/lottery/README.md",
       "docs/lottery/reporting-and-accountability.md",
       "docs/lottery/responsible-participation.md",
       "docs/lottery/risk-and-compliance.md",
@@ -9156,6 +9242,7 @@
       "docs/marketplace/listing-model.md",
       "docs/marketplace/overview.md",
       "docs/marketplace/payments-and-settlement.md",
+      "docs/marketplace/README.md",
       "docs/marketplace/reporting-and-accountability.md",
       "docs/marketplace/reputation-and-quality.md",
       "docs/marketplace/risk-and-compliance.md",
@@ -9177,6 +9264,7 @@
       "docs/mining/node-and-validator-operations.md",
       "docs/mining/overview.md",
       "docs/mining/pools-hashrate-and-network-difficulty.md",
+      "docs/mining/README.md",
       "docs/mining/reporting-and-accountability.md",
       "docs/mining/rewards-and-payouts.md",
       "docs/mining/risk-and-compliance.md",
@@ -9192,8 +9280,10 @@
       "docs/overview/documentation-status.md",
       "docs/overview/ecosystem-overview.md",
       "docs/overview/product-map.md",
+      "docs/overview/README.md",
       "docs/overview/risk-notices.md",
       "docs/overview/terminology.md",
+      "docs/README.md",
       "docs/runtime/accountability-records.md",
       "docs/runtime/acs-integration.md",
       "docs/runtime/architecture.md",
@@ -9204,6 +9294,7 @@
       "docs/runtime/governance-escalation.md",
       "docs/runtime/milestones.md",
       "docs/runtime/overview.md",
+      "docs/runtime/README.md",
       "docs/runtime/request-lifecycle.md",
       "docs/runtime/risk-controls.md",
       "docs/runtime/status-model.md",
@@ -9212,6 +9303,7 @@
       "docs/security/disclosure-policy.md",
       "docs/security/frontend-security.md",
       "docs/security/overview.md",
+      "docs/security/README.md",
       "docs/security/smart-contract-security.md",
       "docs/security/trading-api-security.md",
       "docs/security/wallet-security.md",
@@ -9224,6 +9316,7 @@
       "docs/tokenomics/neurons-token.md",
       "docs/tokenomics/overview.md",
       "docs/tokenomics/pok-minting.md",
+      "docs/tokenomics/README.md",
       "docs/tokenomics/reporting-and-accountability.md",
       "docs/tokenomics/reward-policy.md",
       "docs/tokenomics/risk-and-compliance.md",
@@ -9239,6 +9332,7 @@
       "docs/trading/governance-alignment.md",
       "docs/trading/internal-trading.md",
       "docs/trading/overview.md",
+      "docs/trading/README.md",
       "docs/trading/reporting-and-accountability.md",
       "docs/trading/risk-management.md",
       "docs/trading/scalper-futures.md",
@@ -9252,6 +9346,7 @@
       "docs/treasury/custody-and-security.md",
       "docs/treasury/governance-alignment.md",
       "docs/treasury/overview.md",
+      "docs/treasury/README.md",
       "docs/treasury/reporting-and-accountability.md",
       "docs/treasury/reserves-and-liquidity.md",
       "docs/treasury/revenue-and-fees.md",
@@ -9336,12 +9431,15 @@
       "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "DOCUMENTATION-VALIDATION-RULES.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
+      "Documents/agents/README.md",
       "Documents/archive/README.md",
       "Documents/commercial/AXODUS_COMMERCIAL_CORE.md",
+      "Documents/commercial/README.md",
       "Documents/planning/README.md",
       "Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md",
       "Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md",
       "Documents/product/AXODUS_USER_JOURNEY.md",
+      "Documents/product/README.md",
       "Documents/README.md",
       "Documents/research/README.md",
       "Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md",
@@ -9349,7 +9447,9 @@
       "Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md",
       "Documents/strategy/AXODUS_ECONOMIC_MODEL.md",
       "Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md",
+      "Documents/strategy/README.md",
       "Documents/trading/AXODUS_TRADING_PRINCIPLES.md",
+      "Documents/trading/README.md",
       "GLOSSARY.md",
       "GOVERNANCE.md",
       "governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md",
@@ -9381,6 +9481,7 @@
       "SECURITY.md",
       "specifications/README.md",
       "standards/README.md",
+      "SUMMARY.md",
       "templates/ADR-TEMPLATE.md",
       "templates/API-TEMPLATE.md",
       "templates/MEETING-TEMPLATE.md",

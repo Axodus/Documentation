@@ -7,14 +7,14 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 757
+- Graph nodes: 784
 - Declared relationships: 332
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 587
-- Cycles: 41
+- Orphan documents: 614
+- Cycles: 13
 
 ## Relationship Counts
 
@@ -36,47 +36,19 @@ None.
 
 ## Cycles
 
-- DOC-ADR-001 → DOC-ADR-003 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-001 → DOC-ADR-017 (permitted; RELATES_TO)
-- DOC-ADR-001 → DOC-ADR-017 → DOC-ADR-006 (permitted; RELATES_TO)
-- DOC-ADR-001 → DOC-ADR-017 → DOC-ADR-012 → DOC-ADR-006 (permitted; RELATES_TO)
-- DOC-ADR-005 → DOC-ADR-011 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-005 → DOC-ADR-016 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-005 → DOC-ADR-016 → DOC-ADR-011 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-006 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-006 → DOC-ADR-017 → DOC-ADR-012 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-007 → DOC-ADR-013 (permitted; RELATES_TO)
-- DOC-ADR-007 → DOC-ADR-014 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ADR-001 → DOC-ADR-003 → DOC-ADR-006 → DOC-ADR-012 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ADR-005 → DOC-ADR-011 → DOC-ADR-016 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
+- DOC-ADR-007 → DOC-ADR-013 → DOC-ADR-014 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-008 → DOC-ADR-015 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-012 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ADR-018 → DOC-ADR-019 (permitted; RELATES_TO)
 - DOC-ADR-018 → DOC-ADR-019 → DOC-ADR-020 (permitted; RELATES_TO)
-- DOC-ADR-018 → DOC-ADR-020 (permitted; RELATES_TO)
-- DOC-ADR-018 → DOC-ADR-020 → DOC-ADR-019 (permitted; RELATES_TO)
-- DOC-ADR-019 → DOC-ADR-020 (permitted; RELATES_TO)
-- DOC-ADR-021 → DOC-SPEC-008 (requires Validation Engine assessment; DOCUMENTS, RELATES_TO)
-- DOC-ADR-021 → DOC-SPEC-008 → DOC-ROAD-011 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
-- DOC-ADR-021 → DOC-SPEC-008 → DOC-ROAD-011 → DOC-ROAD-010 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
-- DOC-ADR-023 → DOC-SPEC-009 (requires Validation Engine assessment; DOCUMENTS, RELATES_TO)
-- DOC-ADR-023 → DOC-SPEC-009 → DOC-ROAD-010 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
+- DOC-ADR-021 → DOC-ADR-023 → DOC-ROAD-010 → DOC-ROAD-011 → DOC-SPEC-008 → DOC-SPEC-009 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
 - DOC-GDE-005 → DOC-GDE-006 (permitted; RELATES_TO)
-- DOC-PLAY-001 → DOC-STD-002 (permitted; RELATES_TO)
-- DOC-PLAY-001 → DOC-STD-002 → DOC-STD-003 → DOC-SPEC-005 → DOC-ROAD-001 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
-- DOC-PLAY-001 → DOC-STD-003 → DOC-SPEC-005 → DOC-ROAD-001 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
-- DOC-PLAY-001 → DOC-STD-003 → DOC-STD-002 (permitted; RELATES_TO)
+- DOC-PLAY-001 → DOC-ROAD-001 → DOC-SPEC-005 → DOC-STD-002 → DOC-STD-003 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
 - DOC-POL-005 → DOC-POL-006 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-REF-003 → DOC-REF-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-REF-005 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
-- DOC-ROAD-002 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
-- DOC-ROAD-008 → DOC-ROAD-009 (permitted; RELATES_TO)
+- DOC-REF-005 → DOC-ROAD-002 → DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO, VALIDATES)
 - DOC-ROAD-008 → DOC-ROAD-009 → DOC-RPT-035 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ROAD-008 → DOC-RPT-035 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ROAD-008 → DOC-RPT-035 → DOC-ROAD-009 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-ROAD-009 → DOC-RPT-035 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-RPT-003 → DOC-RPT-004 (requires Validation Engine assessment; RELATES_TO, VALIDATES)
 - DOC-RPT-024 → DOC-SPEC-006 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
-- DOC-SPEC-005 → DOC-STD-003 (permitted; RELATES_TO)
-- DOC-STD-002 → DOC-STD-003 (permitted; RELATES_TO)
 
 ## Orphan Documents
 
@@ -107,6 +79,7 @@ None.
 - .instructions/REBUILD_PROTOCOL.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md
+- .instructions/reports/README.md
 - .instructions/reports/REQ_02_DOCUMENTATION_NUCLEUS_RECOVERY_L3_TO_L4_REPORT_2026-06-04.md
 - .instructions/reports/REQ_02A_DOCUMENTATION_PUBLICATION_TARGET_CORRECTION_GITBOOK_TO_VITEPRESS_2026-06-04.md
 - .instructions/reports/REQ_03_DOCUMENTATION_ASSET_INVENTORY_AND_VITEPRESS_ALIGNMENT_2026-06-04.md
@@ -209,6 +182,7 @@ None.
 - .knowledge/core/ecosystem.akp.md
 - .knowledge/core/glossary.akp.md
 - .knowledge/core/philosophy.akp.md
+- .knowledge/core/README.md
 - .knowledge/core/terminology.akp.md
 - .knowledge/defi/academy-user-education.akp.md
 - .knowledge/defi/acs-integration.akp.md
@@ -437,8 +411,10 @@ None.
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
 - docs/academy/proof-of-knowledge.md
+- docs/academy/README.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
+- docs/accountability/README.md
 - docs/acs/accountability.md
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
@@ -448,6 +424,7 @@ None.
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
 - docs/acs/morpheus.md
+- docs/acs/README.md
 - docs/acs/risk-review.md
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
@@ -463,6 +440,7 @@ None.
 - docs/bba-agency/dao-and-governance-communication.md
 - docs/bba-agency/growth-operations.md
 - docs/bba-agency/positioning.md
+- docs/bba-agency/README.md
 - docs/bba-agency/reporting-and-accountability.md
 - docs/bba-agency/risk-and-compliance.md
 - docs/bba-agency/service-model.md
@@ -476,6 +454,7 @@ None.
 - docs/business/delivery-lifecycle.md
 - docs/business/governance-alignment.md
 - docs/business/plugin-requests.md
+- docs/business/README.md
 - docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
 - docs/business/runtime.md
@@ -490,6 +469,7 @@ None.
 - docs/defi/governance-alignment.md
 - docs/defi/liquidity-model.md
 - docs/defi/protocol-model.md
+- docs/defi/README.md
 - docs/defi/reporting-and-accountability.md
 - docs/defi/risk-management.md
 - docs/defi/security-and-smart-contracts.md
@@ -505,12 +485,14 @@ None.
 - docs/dex/lp-model.md
 - docs/dex/marketplace-integration.md
 - docs/dex/mev-and-execution-risk.md
+- docs/dex/README.md
 - docs/dex/reporting-and-accountability.md
 - docs/dex/slippage-and-price-impact.md
 - docs/dex/swap-model.md
 - docs/dex/tokenomics-alignment.md
 - docs/dex/trading-integration.md
 - docs/dex/treasury-alignment.md
+- docs/glossary/README.md
 - docs/glossary/terms.md
 - docs/governance/boardroom-council.md
 - docs/governance/community-dao.md
@@ -518,6 +500,7 @@ None.
 - docs/governance/executive-dao.md
 - docs/governance/governance-lifecycle.md
 - docs/governance/plugin-requests.md
+- docs/governance/README.md
 - docs/lottery/acs-integration.md
 - docs/lottery/claims-and-settlement.md
 - docs/lottery/draw-lifecycle.md
@@ -527,6 +510,7 @@ None.
 - docs/lottery/operations-and-runtime.md
 - docs/lottery/prize-pools-and-payouts.md
 - docs/lottery/randomness-and-vrf.md
+- docs/lottery/README.md
 - docs/lottery/reporting-and-accountability.md
 - docs/lottery/supersete-style-model.md
 - docs/lottery/ticket-model.md
@@ -542,6 +526,7 @@ None.
 - docs/marketplace/governance-alignment.md
 - docs/marketplace/listing-model.md
 - docs/marketplace/payments-and-settlement.md
+- docs/marketplace/README.md
 - docs/marketplace/reporting-and-accountability.md
 - docs/marketplace/reputation-and-quality.md
 - docs/marketplace/service-catalog.md
@@ -556,6 +541,7 @@ None.
 - docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
+- docs/mining/README.md
 - docs/mining/reporting-and-accountability.md
 - docs/mining/rewards-and-payouts.md
 - docs/mining/sustainability-and-responsible-operations.md
@@ -566,7 +552,9 @@ None.
 - docs/overview/constitutional-model.md
 - docs/overview/documentation-standards.md
 - docs/overview/product-map.md
+- docs/overview/README.md
 - docs/overview/terminology.md
+- docs/README.md
 - docs/runtime/accountability-records.md
 - docs/runtime/acs-integration.md
 - docs/runtime/architecture.md
@@ -574,9 +562,11 @@ None.
 - docs/runtime/delays-and-blockers.md
 - docs/runtime/execution-handoff.md
 - docs/runtime/milestones.md
+- docs/runtime/README.md
 - docs/runtime/request-lifecycle.md
 - docs/runtime/status-model.md
 - docs/runtime/validation-and-confirmation.md
+- docs/security/README.md
 - docs/security/trading-api-security.md
 - docs/tokenomics/academy-rewards.md
 - docs/tokenomics/contract-dependencies.md
@@ -586,6 +576,7 @@ None.
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
 - docs/tokenomics/pok-minting.md
+- docs/tokenomics/README.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
 - docs/tokenomics/risk-and-compliance.md
@@ -600,6 +591,7 @@ None.
 - docs/trading/compliance-and-user-disclosures.md
 - docs/trading/governance-alignment.md
 - docs/trading/internal-trading.md
+- docs/trading/README.md
 - docs/trading/reporting-and-accountability.md
 - docs/trading/risk-management.md
 - docs/trading/scalper-futures.md
@@ -610,6 +602,7 @@ None.
 - docs/treasury/architecture.md
 - docs/treasury/capital-allocation.md
 - docs/treasury/governance-alignment.md
+- docs/treasury/README.md
 - docs/treasury/reporting-and-accountability.md
 - docs/treasury/reserves-and-liquidity.md
 - docs/treasury/revenue-and-fees.md
@@ -619,12 +612,15 @@ None.
 - docs/treasury/treasury-policy.md
 - DOCUMENTATION-ADR-INDEX.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
+- Documents/agents/README.md
 - Documents/archive/README.md
 - Documents/commercial/AXODUS_COMMERCIAL_CORE.md
+- Documents/commercial/README.md
 - Documents/planning/README.md
 - Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
 - Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md
 - Documents/product/AXODUS_USER_JOURNEY.md
+- Documents/product/README.md
 - Documents/README.md
 - Documents/research/README.md
 - Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
@@ -632,7 +628,9 @@ None.
 - Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md
 - Documents/strategy/AXODUS_ECONOMIC_MODEL.md
 - Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md
+- Documents/strategy/README.md
 - Documents/trading/AXODUS_TRADING_PRINCIPLES.md
+- Documents/trading/README.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
@@ -652,6 +650,7 @@ None.
 - SECURITY.md
 - specifications/README.md
 - standards/README.md
+- SUMMARY.md
 - templates/ADR-TEMPLATE.md
 - templates/API-TEMPLATE.md
 - templates/MEETING-TEMPLATE.md
