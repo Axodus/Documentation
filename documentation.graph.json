@@ -5107,6 +5107,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-043",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-043",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "title": "Documentation Traceability Depth Baseline"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -9439,6 +9449,7 @@
       "DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "DOCUMENTATION-MIGRATION-WAVE-01.md",
       "DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
+      "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "DOCUMENTATION-VALIDATION-RULES.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
@@ -9629,6 +9640,7 @@
       "DOC-RPT-040",
       "DOC-RPT-041",
       "DOC-RPT-042",
+      "DOC-RPT-043",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -9700,17 +9712,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 107,
+    "DEPENDS_ON": 108,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 155,
+    "RELATES_TO": 157,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 335,
+    "declared": 338,
     "derived": 0,
     "duplicates": 0,
-    "total": 335,
+    "total": 338,
     "unresolved": 0
   },
   "relationship_types": [
@@ -11291,6 +11303,24 @@
       "source": "DOC-RPT-042",
       "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
       "target": "DOC-RPT-041",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-043",
+      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "target": "DOC-ADR-022",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-043",
+      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "target": "DOC-SPEC-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-043",
+      "source_path": "DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
+      "target": "DOC-SPEC-006",
       "type": "RELATES_TO"
     },
     {

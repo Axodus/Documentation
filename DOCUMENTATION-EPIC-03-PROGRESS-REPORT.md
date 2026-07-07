@@ -4,8 +4,8 @@ document_id: "DOC-RPT-041"
 aliases: []
 document_type: "REPORT"
 title: "Documentation Epic 03 Progress Report"
-summary: "Tracks disposition inventory coverage, governance approval, registry-extension application, and unchanged migration state."
-version: "0.3.0"
+summary: "Tracks disposition inventory coverage, governance approval, registry-extension application, traceability baseline planning, and unchanged migration state."
+version: "0.4.0"
 publication_status: "DRAFT"
 document_state: "CURRENT"
 maturity_level: "D2"
@@ -26,10 +26,10 @@ next_review: null
 supersedes: []
 relationships: [{"type":"DEPENDS_ON","target":"DOC-RPT-037"},{"type":"RELATES_TO","target":"DOC-SPEC-009"},{"type":"RELATES_TO","target":"DOC-ROAD-010"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03", "AXODUS-DOCUMENTATION-EPIC-03-REQ-04", "AXODUS-DOCUMENTATION-EPIC-03-REQ-05"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03", "AXODUS-DOCUMENTATION-EPIC-03-REQ-04", "AXODUS-DOCUMENTATION-EPIC-03-REQ-05", "AXODUS-DOCUMENTATION-EPIC-03-REQ-06"]
 related_adrs: ["DOC-ADR-018","DOC-ADR-019","DOC-ADR-020","DOC-ADR-021","DOC-ADR-022","DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
-implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
+implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
 production_gate_impact: "PRESERVES_CLOSED"
 ---
 
@@ -96,10 +96,25 @@ REQ-05 removes 0 baseline entries, removes 0 exception entries, mutates 0
 operational exception entries, performs 0 migrations, reserves 0 final IDs, and
 authorizes no batch execution.
 
+## REQ-06 Progress
+
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-06: TRACEABILITY_DEPTH_BASELINED`
+
+`DOC-RPT-043` records the traceability-depth baseline for canonical public
+documents whose only declared semantic relationship targets their core
+overview. The measured EPIC-03 enrichment cohort remains 40 documents, with 2
+additional `CORE` transversal observations outside the accepted cohort.
+
+REQ-06 adds 0 relationship edges, performs 0 migrations, reserves 0 final IDs,
+mutates 0 baseline entries, mutates 0 exception entries, and records remediation
+targets as proposals only. Future enrichment must be evidence-reviewed and must
+not convert owner, lifecycle, authority, maturity, or gate metadata into graph
+edges.
+
 ## Next Request
 
-`AXODUS-DOCUMENTATION-EPIC-03-REQ-06 — Traceability Depth Baseline and Remediation Planning`.
+`SPRINT-REQ-09 — Sprint Closure Audit`.
 
 ## Gate Preservation
 
-This request inventoried and classified remaining exception dispositions only. It did not migrate legacy documents, promote canonical documents from legacy sources, reserve final IDs, remove or mutate baseline entries, remove or mutate exception registry entries, enable production, execute financial actions, use credentials, enable providers, write contracts, modify production databases or open operational gates.
+This request inventoried and classified remaining exception dispositions, applied governed disposition metadata to the compact companion registry, and baselined traceability depth only. It did not migrate legacy documents, promote canonical documents from legacy sources, add relationship edges, reserve final IDs, remove or mutate baseline entries, remove or mutate exception registry entries, enable production, execute financial actions, use credentials, enable providers, write contracts, modify production databases or open operational gates.
