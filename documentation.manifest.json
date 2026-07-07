@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 787,
+  "document_count": 788,
   "documents": [
     {
       "aliases": [],
@@ -15439,6 +15439,36 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.REPOSITORY.SANITIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-045",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-014",
+        "DOC-ADR-021",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOC-POL-004",
+        "DOC-RPT-044",
+        "DOCUMENTATION-EPIC-03",
+        "DOCUMENTATION-REPOSITORY-SANITIZATION"
+      ],
+      "sha256": "e152f7862d6727e7d7b6d999a9b17f52501a184345b120b2faf759443f759cfc",
+      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Repository Sanitization Audit",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.SPRINT.CLOSURE",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-044",
@@ -18630,6 +18660,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-045",
+      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "target": "DOC-RPT-044",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-045",
+      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "target": "DOC-ADR-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-045",
+      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "target": "DOC-ADR-014",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-045",
+      "source_path": "DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "target": "DOC-POL-004",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -19071,12 +19125,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 173,
-    "declared_relationships": 343,
+    "compliant_documents": 174,
+    "declared_relationships": 347,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 131,
+      "CORE": 132,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -19084,7 +19138,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 89,
+      "D2": 90,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 600
@@ -19102,7 +19156,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 113,
+      "Axodus Documentation Core": 114,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -19121,7 +19175,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 128,
-      "DRAFT": 38,
+      "DRAFT": 39,
       "UNSPECIFIED": 600
     },
     "documents_by_type": {
@@ -19134,7 +19188,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 45,
+      "REPORT": 46,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -19147,6 +19201,6 @@
     "generated_documents": 8,
     "legacy_documents": 600,
     "template_documents": 14,
-    "total_documents": 787
+    "total_documents": 788
   }
 }

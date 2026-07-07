@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-07T00:00:00Z
-Source Documents: 787
+Source Documents: 788
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 787
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 787 |
-| Canonical documents | 173 |
+| Total source documents | 788 |
+| Canonical documents | 174 |
 | Legacy documents | 600 |
 | Template documents | 14 |
-| Declared relationships | 343 |
+| Declared relationships | 347 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 787
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 45 |
+| REPORT | 46 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 787
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 131 |
+| CORE | 132 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 787
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 128 |
-| DRAFT | 38 |
+| DRAFT | 39 |
 | UNSPECIFIED | 600 |
 ## Canonical Documents
 
@@ -229,6 +229,7 @@ Source Documents: 787
 | DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-PLAYBOOK.md](DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
 | DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-MIGRATION-WAVE-01.md](DOCUMENTATION-MIGRATION-WAVE-01.md) |
 | DOC-ROAD-008 | Documentation Post Epic 02 Backlog | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-POST-EPIC-02-BACKLOG.md](DOCUMENTATION-POST-EPIC-02-BACKLOG.md) |
+| DOC-RPT-045 | Documentation Repository Sanitization Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md](DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md) |
 | DOC-RPT-044 | Documentation Recovery Sprint Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md](DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md) |
 | DOC-RPT-043 | Documentation Traceability Depth Baseline | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md](DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-TRACEABILITY-EXPANSION.md](DOCUMENTATION-TRACEABILITY-EXPANSION.md) |

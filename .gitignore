@@ -1,4 +1,35 @@
+# Dependencies
 node_modules/
+
+# VitePress generated artifacts
 docs/.vitepress/dist/
 docs/.vitepress/cache/
-docs/.vitepress/cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and runtime output
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary and editor artifacts
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local tool caches
+.cache/
+.vite/
+coverage/
