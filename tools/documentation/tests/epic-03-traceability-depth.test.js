@@ -42,6 +42,7 @@ test('REQ-06 progress report advances to sprint closure without authorizing migr
   const progress = await read('DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md')
   assert.match(progress, /AXODUS-DOCUMENTATION-EPIC-03-REQ-06: TRACEABILITY_DEPTH_BASELINED/)
   assert.match(progress, /REQ-06 adds 0 relationship edges/)
-  assert.match(progress, /SPRINT-REQ-09/)
+  assert.match(progress, /EPIC-03 migration planning request/)
+  assert.match(progress, /must not execute migrations/)
   assert.match(progress, /did not migrate legacy documents/)
 })

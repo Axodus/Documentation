@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 786,
+  "document_count": 787,
   "documents": [
     {
       "aliases": [],
@@ -14635,7 +14635,7 @@
         "DOC-SPEC-009",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "fa2eeda035d37c064e10fce8d2520886521e96829f46fcc1f03a136ae1ad18f4",
+      "sha256": "213be443068e4d796ac4d9a879f6da3631aecc87ce68f538d92f9c7eb529e70a",
       "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "superseded_by": [],
       "supersedes": [],
@@ -15435,6 +15435,45 @@
       "supersedes": [],
       "title": "Documentation Post Epic 02 Backlog",
       "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.SPRINT.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-044",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-04",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-05",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-06",
+        "DOC-ADR-021",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOC-RPT-041",
+        "DOC-RPT-042",
+        "DOC-RPT-043",
+        "DOC-SPEC-008",
+        "DOC-SPEC-009",
+        "DOCUMENTATION-EPIC-03",
+        "SPRINT-REQ-01",
+        "SPRINT-REQ-02",
+        "SPRINT-REQ-03",
+        "SPRINT-REQ-04",
+        "SPRINT-REQ-09"
+      ],
+      "sha256": "7b593734451b7668727f29cf4ad34134a59d24e924c2fef762b15845c9e13d2a",
+      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Recovery Sprint Closure Audit",
+      "version": "0.1.0"
     },
     {
       "aliases": [],
@@ -18561,6 +18600,36 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-044",
+      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-041",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-044",
+      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-042",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-044",
+      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "target": "DOC-RPT-043",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-044",
+      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "target": "DOC-SPEC-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-044",
+      "source_path": "DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "target": "DOC-SPEC-009",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -19002,12 +19071,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 172,
-    "declared_relationships": 338,
+    "compliant_documents": 173,
+    "declared_relationships": 343,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 130,
+      "CORE": 131,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -19015,7 +19084,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 88,
+      "D2": 89,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 600
@@ -19033,7 +19102,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 112,
+      "Axodus Documentation Core": 113,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -19052,7 +19121,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 128,
-      "DRAFT": 37,
+      "DRAFT": 38,
       "UNSPECIFIED": 600
     },
     "documents_by_type": {
@@ -19065,7 +19134,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 44,
+      "REPORT": 45,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -19078,6 +19147,6 @@
     "generated_documents": 8,
     "legacy_documents": 600,
     "template_documents": 14,
-    "total_documents": 786
+    "total_documents": 787
   }
 }

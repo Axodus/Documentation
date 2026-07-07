@@ -113,7 +113,12 @@ edges.
 
 ## Next Request
 
-`SPRINT-REQ-09 — Sprint Closure Audit`.
+`EPIC-03 migration planning request — not authorized by this sprint`.
+
+The next request should select a small evidence-backed migration planning batch
+from the governed disposition registry. It must not execute migrations, reserve
+final IDs, mutate the operational exception registry, or add traceability edges
+unless explicitly authorized by a dedicated request.
 
 ## Gate Preservation
 
