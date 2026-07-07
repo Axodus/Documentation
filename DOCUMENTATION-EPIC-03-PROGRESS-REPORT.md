@@ -26,7 +26,7 @@ next_review: null
 supersedes: []
 relationships: [{"type":"DEPENDS_ON","target":"DOC-RPT-037"},{"type":"RELATES_TO","target":"DOC-SPEC-009"},{"type":"RELATES_TO","target":"DOC-ROAD-010"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03", "AXODUS-DOCUMENTATION-EPIC-03-REQ-04"]
 related_adrs: ["DOC-ADR-018","DOC-ADR-019","DOC-ADR-020","DOC-ADR-021","DOC-ADR-022","DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
@@ -65,9 +65,27 @@ REQ-03 does not create `documentation.exception-dispositions.json`, mutate
 entries, migrate documents, reserve final IDs, add traceability edges, mark any
 core `ADOPTED_TARGET`, or authorize Batch 04.
 
+## REQ-04 Progress
+
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-04: COMPACT_REGISTRY_DRY_RUN_READY`
+
+`documentation.exception-dispositions.json` represents all 573 proposed
+dispositions from `DOC-REF-010` in a compact machine-readable companion
+registry. The Validation Framework can validate the companion registry through
+the `DISPOSITIONS` layer and the CLI can run `dispositions-dry-run`.
+
+The dry run represents 573 dispositions, 187 migration candidates, 327
+authority routes, 344 security routes, and 42 deferred routes while removing 0
+baseline entries, removing 0 exception entries, and mutating 0 operational
+exception registry entries.
+
+REQ-04 does not apply dispositions to `documentation.exceptions.json`, migrate
+documents, remove baseline entries, remove exception entries, reserve final IDs,
+add traceability edges, mark any core `ADOPTED_TARGET`, or authorize Batch 04.
+
 ## Next Request
 
-`AXODUS-DOCUMENTATION-EPIC-03-REQ-04 — Registry Extension Implementation and Disposition Application Dry Run`.
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-05 — Exception Disposition Application Gate`.
 
 ## Gate Preservation
 

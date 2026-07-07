@@ -15,6 +15,8 @@ export const COMMANDS = Object.freeze({
   relationships: { layers: ['RELATIONSHIPS'], description: 'Validate declared relationships only.' },
   baseline: { layers: ['BASELINE'], description: 'Verify the legacy baseline only.' },
   exceptions: { layers: ['EXCEPTIONS'], description: 'Validate the exception registry only.' },
+  dispositions: { layers: ['DISPOSITIONS'], description: 'Validate the exception disposition companion registry only.' },
+  'dispositions-dry-run': { kind: 'DISPOSITIONS', operation: 'DRY_RUN', description: 'Preview disposition application without registry mutation.' },
   check: { layers: null, description: 'Run the complete validation pipeline.' },
   generate: { kind: 'GENERATION', description: 'Generate or check persistent derived artifacts.' },
   snapshot: { kind: 'EVIDENCE', operation: 'CREATE', description: 'Create or reuse an instructions evidence snapshot.' },

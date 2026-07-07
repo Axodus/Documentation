@@ -1,10 +1,12 @@
 import { resolve } from 'node:path'
 import {
   loadBaseline,
+  loadDispositionRegistry,
   loadDocument,
   loadExceptions,
   validateRepository,
 } from '../../index.js'
+import { dryRunDispositionApplication } from '../../repository/dispositions.js'
 import {
   checkGeneratedArtifacts,
   generateAll,
@@ -26,6 +28,7 @@ export async function runCommand(commandName, options = {}) {
   }
   if (command.kind === 'GENERATION') return runGenerator(options)
   if (command.kind === 'EVIDENCE') return runEvidence(command.operation, options)
+  if (command.kind === 'DISPOSITIONS') return runDispositions(command.operation, options)
   const root = process.cwd()
   await verifyConfiguredInputs(commandName, options, root)
   const result = await validateRepository({
@@ -33,6 +36,7 @@ export async function runCommand(commandName, options = {}) {
     layers: command.layers,
     baselinePath: options.baseline,
     exceptionsPath: options.exceptions,
+    dispositionsPath: options.dispositions,
     currentDate: options.referenceDate,
   })
   const diagnostics = await filterDiagnostics(result.diagnostics, options, root)
@@ -52,6 +56,28 @@ export async function runCommand(commandName, options = {}) {
     exit_code: failed ? EXIT_CODES.VALIDATION_FAILED : EXIT_CODES.SUCCESS,
     statistics,
     diagnostics,
+  }
+}
+
+async function runDispositions(operation, options) {
+  if (operation !== 'DRY_RUN') throw new Error(`Unknown disposition operation '${operation}'.`)
+  const root = process.cwd()
+  const baseline = await loadBaseline(options.baseline, { root })
+  const exceptions = await loadExceptions(options.exceptions, { root })
+  const registry = await loadDispositionRegistry(options.dispositions, { root })
+  const dryRun = dryRunDispositionApplication(registry, {
+    baseline,
+    exceptions,
+    currentDate: options.referenceDate,
+  })
+  return {
+    kind: 'DISPOSITIONS',
+    command: 'dispositions-dry-run',
+    status: dryRun.status,
+    exit_code: dryRun.status === 'PASS' ? EXIT_CODES.SUCCESS : EXIT_CODES.VALIDATION_FAILED,
+    statistics: dryRun.statistics,
+    diagnostics: dryRun.diagnostics,
+    diff_preview: dryRun.diff_preview,
   }
 }
 
@@ -160,6 +186,9 @@ async function verifyConfiguredInputs(commandName, options, root) {
     }
     if (options.exceptions || commandName === 'exceptions' || commandName === 'check') {
       await loadExceptions(options.exceptions, { root })
+    }
+    if (options.dispositions || commandName === 'dispositions' || commandName === 'dispositions-dry-run' || commandName === 'check') {
+      await loadDispositionRegistry(options.dispositions, { root })
     }
   } catch (error) {
     error.exitCode = EXIT_CODES.CONFIGURATION_ERROR

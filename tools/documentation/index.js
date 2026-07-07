@@ -11,6 +11,10 @@ import {
   validateBaseline,
   validateExceptions,
 } from './repository/baseline.js'
+import {
+  loadDispositionRegistry,
+  validateDispositionRegistry,
+} from './repository/dispositions.js'
 import { validateParsedDocument } from './validators/semantic-validator.js'
 import {
   createValidationReport,
@@ -32,13 +36,17 @@ export async function validateRepository(options = {}) {
   const documents = options.documents ?? await discoverDocuments(root)
   const canonicalValidation = validateDocumentSet(documents)
   const layers = normalizeLayers(options.layers)
-  const requiresBaseline = !layers || layers.has('BASELINE') || layers.has('EXCEPTIONS')
-  const requiresExceptions = !layers || layers.has('EXCEPTIONS')
+  const requiresDispositions = !layers || layers.has('DISPOSITIONS')
+  const requiresBaseline = !layers || layers.has('BASELINE') || layers.has('EXCEPTIONS') || requiresDispositions
+  const requiresExceptions = !layers || layers.has('EXCEPTIONS') || requiresDispositions
   const baseline = requiresBaseline
     ? options.baseline ?? await loadOptional(loadBaseline, options.baselinePath, root)
     : null
   const exceptions = requiresExceptions
     ? options.exceptions ?? await loadOptional(loadExceptions, options.exceptionsPath, root)
+    : null
+  const dispositions = requiresDispositions
+    ? options.dispositions ?? await loadOptional(loadDispositionRegistry, options.dispositionsPath, root)
     : null
   const baselineValidation = baseline && (!layers || layers.has('BASELINE'))
     ? validateBaseline(baseline, { documents })
@@ -49,20 +57,30 @@ export async function validateRepository(options = {}) {
         currentDate: options.currentDate ?? baseline?.created_at,
       })
     : emptyExceptionValidation()
+  const dispositionValidation = dispositions && (!layers || layers.has('DISPOSITIONS'))
+    ? validateDispositionRegistry(dispositions, {
+        baseline,
+        exceptions,
+        currentDate: options.currentDate ?? baseline?.created_at,
+      })
+    : emptyDispositionValidation()
   const completeValidation = {
     ...canonicalValidation,
     diagnostics: [
       ...canonicalValidation.diagnostics,
       ...baselineValidation.diagnostics,
       ...exceptionValidation.diagnostics,
+      ...dispositionValidation.diagnostics,
     ].sort(compareDiagnostics),
     statistics: {
       ...canonicalValidation.statistics,
       ...baselineValidation.statistics,
       ...exceptionValidation.statistics,
+      ...dispositionValidation.statistics,
       info: canonicalValidation.statistics.info +
         baselineValidation.diagnostics.length +
-        exceptionValidation.diagnostics.length,
+        exceptionValidation.diagnostics.length +
+        dispositionValidation.diagnostics.length,
     },
   }
   const validation = selectValidationLayers(completeValidation, layers)
@@ -83,6 +101,7 @@ const LAYER_RULE_RANGES = Object.freeze({
   RELATIONSHIPS: [14, 21, 26],
   BASELINE: [27, 30, 34, 35],
   EXCEPTIONS: [31, 33],
+  DISPOSITIONS: [36, 38],
 })
 
 function selectValidationLayers(validation, requestedLayers) {
@@ -124,10 +143,12 @@ export {
   createValidationReport,
   discoverDocuments,
   loadBaseline,
+  loadDispositionRegistry,
   loadExceptions,
   parseDocument,
   serializeValidationReport,
   validateBaseline,
+  validateDispositionRegistry,
   validateExceptions,
 }
 
@@ -165,6 +186,22 @@ function emptyExceptionValidation() {
       expired_exceptions: 0,
       revoked_exceptions: 0,
       invalid_exceptions: 0,
+    },
+  }
+}
+
+function emptyDispositionValidation() {
+  return {
+    valid: true,
+    diagnostics: [],
+    statistics: {
+      disposition_entries: 0,
+      disposition_registry_valid: true,
+      dispositions_decided: 0,
+      migrate_dispositions: 0,
+      security_review_dispositions: 0,
+      authority_review_dispositions: 0,
+      defer_with_risk_dispositions: 0,
     },
   }
 }

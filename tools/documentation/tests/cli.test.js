@@ -57,6 +57,23 @@ test('exception command reports exception statistics', async () => {
   assert.equal(payload.statistics.active_exceptions, exceptions.exceptions.length)
 })
 
+test('dispositions command reports compact registry statistics', async () => {
+  const payload = await json('dispositions')
+  const dispositions = JSON.parse(await readFile('documentation.exception-dispositions.json', 'utf8'))
+  assert.equal(payload.statistics.disposition_entries, dispositions.entries.length)
+  assert.equal(payload.statistics.dispositions_decided, dispositions.entries.length)
+})
+
+test('dispositions dry run previews application without registry mutation', async () => {
+  const payload = await json('dispositions-dry-run')
+  assert.equal(payload.status, 'PASS')
+  assert.equal(payload.statistics.disposition_entries, 573)
+  assert.equal(payload.statistics.would_apply_dispositions, 573)
+  assert.equal(payload.statistics.baseline_entries_removed, 0)
+  assert.equal(payload.statistics.exception_entries_removed, 0)
+  assert.equal(payload.statistics.exception_registry_entries_mutated, 0)
+})
+
 test('schema command excludes relationship diagnostics', async () => {
   const payload = await json('schema')
   assert.ok(payload.diagnostics.every((item) =>
@@ -87,7 +104,8 @@ test('argument parser supports every documented option', () => {
     'check', '--json', '--pretty', '--summary', '--fail-on-warning',
     '--scope', 'DOCUMENTATION', '--path', 'governance', '--document-id', 'DOC-SPEC-001',
     '--type', 'SPECIFICATION', '--baseline', 'documentation.baseline.json',
-    '--exceptions', 'documentation.exceptions.json', '--output', '/tmp/output.json',
+    '--exceptions', 'documentation.exceptions.json', '--dispositions', 'documentation.exception-dispositions.json',
+    '--output', '/tmp/output.json',
     '--reference-date', '2026-07-01T00:00:00Z',
   ])
   assert.equal(parsed.options.documentId, 'DOC-SPEC-001')

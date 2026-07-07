@@ -1,0 +1,186 @@
+{
+  "$id": "urn:axodus:documentation:exception-dispositions:schema:1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Axodus Documentation Exception Disposition Companion Registry Schema 1.0.0.",
+  "properties": {
+    "baseline_version": {
+      "const": "1.0.0",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "entries": {
+      "items": {
+        "$ref": "#/$defs/disposition"
+      },
+      "type": "array"
+    },
+    "exception_registry_version": {
+      "const": "1.0.0",
+      "type": "string"
+    },
+    "registry_version": {
+      "const": "1.0.0",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "type": "string"
+    },
+    "source_inventory_id": {
+      "const": "DOC-REF-010",
+      "type": "string"
+    }
+  },
+  "required": [
+    "registry_version",
+    "schema_version",
+    "created_at",
+    "source_inventory_id",
+    "baseline_version",
+    "exception_registry_version",
+    "entries"
+  ],
+  "title": "Axodus Documentation Exception Disposition Companion Registry",
+  "type": "object",
+  "$defs": {
+    "disposition": {
+      "additionalProperties": false,
+      "properties": {
+        "approver_confirmation": {
+          "enum": [
+            "CONFIRMED",
+            "PENDING",
+            "NOT_APPLICABLE"
+          ],
+          "type": "string"
+        },
+        "authority_routing": {
+          "enum": [
+            "REQUIRED",
+            "PASSED",
+            "NOT_APPLICABLE",
+            "PENDING"
+          ],
+          "type": "string"
+        },
+        "baseline_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "current_exception_disposition": {
+          "const": "MIGRATE_ON_CHANGE",
+          "type": "string"
+        },
+        "document_path": {
+          "minLength": 1,
+          "not": {
+            "pattern": "(^|/)\\.\\.(/|$)|\\\\"
+          },
+          "type": "string"
+        },
+        "evidence_refs": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "exception_id": {
+          "pattern": "^DOC-EXC-[0-9]{3,}$",
+          "type": "string"
+        },
+        "owner_confirmation": {
+          "enum": [
+            "CONFIRMED",
+            "PENDING",
+            "NOT_APPLICABLE"
+          ],
+          "type": "string"
+        },
+        "primary_disposition": {
+          "enum": [
+            "MIGRATE",
+            "RENEW_EXCEPTION",
+            "REVOKE_EXCEPTION",
+            "ARCHIVE_LEGACY",
+            "MERGE_DUPLICATE",
+            "SECURITY_REVIEW",
+            "AUTHORITY_REVIEW",
+            "DEFER_WITH_RISK"
+          ],
+          "type": "string"
+        },
+        "rationale": {
+          "minLength": 20,
+          "type": "string"
+        },
+        "renewal_expires_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "risk_priority": {
+          "enum": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "type": "string"
+        },
+        "secondary_flags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "security_routing": {
+          "enum": [
+            "REQUIRED",
+            "PASSED",
+            "NOT_APPLICABLE",
+            "PENDING"
+          ],
+          "type": "string"
+        },
+        "target_action": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "target_resolution_date": {
+          "format": "date",
+          "type": "string"
+        }
+      },
+      "required": [
+        "exception_id",
+        "document_path",
+        "baseline_sha256",
+        "current_exception_disposition",
+        "primary_disposition",
+        "risk_priority",
+        "secondary_flags",
+        "authority_routing",
+        "security_routing",
+        "owner_confirmation",
+        "approver_confirmation",
+        "target_action",
+        "target_resolution_date",
+        "renewal_expires_at",
+        "rationale",
+        "evidence_refs"
+      ],
+      "type": "object"
+    }
+  }
+}

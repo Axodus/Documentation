@@ -106,7 +106,7 @@ tolerance.
 The approved implementation direction is a compact companion registry, not a
 replacement for `documentation.exceptions.json`.
 
-The future artifact is `documentation.exception-dispositions.json`. It is a
+The companion artifact is `documentation.exception-dispositions.json`. It is a
 machine-readable configuration artifact sourced from `DOC-REF-010` and governed
 by `DOC-ADR-021`. It records disposition metadata for all active exceptions
 while preserving the existing baseline and exception registries unchanged until
@@ -151,8 +151,7 @@ unreviewed financial/legal claims.
 
 ## Validator Impact
 
-REQ-03 does not change validator behavior. A future implementation request may
-add validation for the companion registry with these checks:
+REQ-04 adds validation for the companion registry with these checks:
 
 - exactly one disposition entry per active exception;
 - synchronized `exception_id` and `document_path` with the exception registry;
@@ -174,7 +173,7 @@ dispositions. The future compact registry is derived from that inventory and
 must be reconciled back to it by count, exception ID, path, disposition,
 priority, routing, target date, and evidence references.
 
-The first implementation request must run in dry-run mode. It may create the
+The first implementation request runs in dry-run mode. It creates the
 companion registry and validator support, but it may not update
 `documentation.exceptions.json`, remove baseline entries, remove exception
 entries, migrate documents, reserve final document IDs, or add traceability

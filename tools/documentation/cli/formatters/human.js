@@ -1,6 +1,7 @@
 export function formatHuman(payload, options = {}) {
   if (payload.kind === 'GENERATION') return formatGeneration(payload)
   if (payload.kind === 'EVIDENCE') return formatEvidence(payload)
+  if (payload.kind === 'DISPOSITIONS') return formatDispositions(payload)
   const { statistics } = payload
   const lines = [
     `Documentation CLI ${payload.cli_version}`,
@@ -26,6 +27,25 @@ export function formatHuman(payload, options = {}) {
     `Execution time: ${payload.execution_time_ms} ms`,
     `Exit status: ${payload.exit_code}`,
   )
+  return `${lines.join('\n')}\n`
+}
+
+function formatDispositions(payload) {
+  const lines = [
+    'Documentation Dispositions Dry Run',
+    `Status: ${payload.status}`,
+    `Disposition entries: ${payload.statistics.disposition_entries}`,
+    `Would apply dispositions: ${payload.statistics.would_apply_dispositions}`,
+    `Baseline entries removed: ${payload.statistics.baseline_entries_removed}`,
+    `Exception entries removed: ${payload.statistics.exception_entries_removed}`,
+    `Exception registry entries mutated: ${payload.statistics.exception_registry_entries_mutated}`,
+    `Migration candidates: ${payload.statistics.migration_candidates}`,
+    `Authority routes: ${payload.statistics.authority_review_routes}`,
+    `Security routes: ${payload.statistics.security_review_routes}`,
+    `Deferred routes: ${payload.statistics.deferred_routes}`,
+    `Execution time: ${payload.execution_time_ms} ms`,
+    `Exit status: ${payload.exit_code}`,
+  ]
   return `${lines.join('\n')}\n`
 }
 

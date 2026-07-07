@@ -16,6 +16,7 @@ const VALUE_OPTIONS = new Set([
   'type',
   'baseline',
   'exceptions',
+  'dispositions',
   'output',
   'reference-date',
   'snapshot',
