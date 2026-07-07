@@ -132,6 +132,8 @@ Each entry uses:
 | `document_path` | Existing baseline and exception path |
 | `baseline_sha256` | Baseline SHA-256 at decision time |
 | `current_exception_disposition` | Current registry disposition, initially `MIGRATE_ON_CHANGE` |
+| `disposition_state` | Governed application state in the companion registry |
+| `decided_at` | RFC3339 UTC governance decision timestamp |
 | `primary_disposition` | Approved disposition taxonomy value |
 | `risk_priority` | `P0`, `P1`, `P2`, or `P3` |
 | `secondary_flags` | Approved flag vocabulary from the inventory |
@@ -141,6 +143,10 @@ Each entry uses:
 | `approver_confirmation` | `CONFIRMED`, `PENDING`, or `NOT_APPLICABLE` |
 | `target_action` | Short operational action label |
 | `target_resolution_date` | ISO date deadline |
+| `maximum_extension_days` | Renewal/temporary-extension cap from ADR-021 |
+| `temporary_extension_required` | Boolean marker for review or defer dispositions requiring extension planning |
+| `migration_candidate` | Boolean marker for governed batch planning candidates |
+| `unresolved_blockers` | Security, authority, or deferral blockers still requiring action |
 | `renewal_expires_at` | Nullable RFC3339 timestamp for approved extensions |
 | `rationale` | Safe evidence-backed rationale without source bodies |
 | `evidence_refs` | Canonical document IDs or safe evidence paths |

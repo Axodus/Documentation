@@ -5097,6 +5097,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-042",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-042",
+      "publication_status": "DRAFT",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "title": "Documentation Exception Disposition Application Gate"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -9406,6 +9416,7 @@
       "DOCUMENTATION-ERROR-CATALOG.md",
       "DOCUMENTATION-EVIDENCE-FRAMEWORK.md",
       "DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md",
+      "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
       "DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md",
       "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md",
@@ -9617,6 +9628,7 @@
       "DOC-RPT-039",
       "DOC-RPT-040",
       "DOC-RPT-041",
+      "DOC-RPT-042",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -9688,17 +9700,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 105,
+    "DEPENDS_ON": 107,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 154,
+    "RELATES_TO": 155,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 332,
+    "declared": 335,
     "derived": 0,
     "duplicates": 0,
-    "total": 332,
+    "total": 335,
     "unresolved": 0
   },
   "relationship_types": [
@@ -11261,6 +11273,24 @@
       "source": "DOC-RPT-041",
       "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "target": "DOC-SPEC-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-042",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-042",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "target": "DOC-SPEC-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-042",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "target": "DOC-RPT-041",
       "type": "RELATES_TO"
     },
     {

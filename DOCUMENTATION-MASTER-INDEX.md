@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-07T00:00:00Z
-Source Documents: 784
+Source Documents: 785
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 784
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 784 |
-| Canonical documents | 170 |
+| Total source documents | 785 |
+| Canonical documents | 171 |
 | Legacy documents | 600 |
 | Template documents | 14 |
-| Declared relationships | 332 |
+| Declared relationships | 335 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 784
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 42 |
+| REPORT | 43 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 784
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 128 |
+| CORE | 129 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 784
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 128 |
-| DRAFT | 35 |
+| DRAFT | 36 |
 | UNSPECIFIED | 600 |
 ## Canonical Documents
 
@@ -200,12 +200,13 @@ Source Documents: 784
 | DOC-RPT-014 | Documentation Epic 02 Progress Report | REPORT | APPROVED | PROJECT | 1.3.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-02-PROGRESS-REPORT.md) |
 | DOC-SPEC-009 | Documentation Epic 03 Adoption Metrics | SPECIFICATION | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md](DOCUMENTATION-EPIC-03-ADOPTION-METRICS.md) |
 | DOC-ROAD-010 | Documentation Epic 03 Plan | ROADMAP | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-PLAN.md](DOCUMENTATION-EPIC-03-PLAN.md) |
-| DOC-RPT-041 | Documentation Epic 03 Progress Report | REPORT | DRAFT | CORE | 0.2.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md) |
+| DOC-RPT-041 | Documentation Epic 03 Progress Report | REPORT | DRAFT | CORE | 0.3.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md](DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md) |
 | DOC-ROAD-009 | Documentation Epic 03 Recommendation | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RECOMMENDATION.md](DOCUMENTATION-EPIC-03-RECOMMENDATION.md) |
 | DOC-REF-009 | Documentation Epic 03 Risk Register | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EPIC-03-RISK-REGISTER.md](DOCUMENTATION-EPIC-03-RISK-REGISTER.md) |
 | DOC-REF-004 | Documentation Validation Error Catalog | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [DOCUMENTATION-ERROR-CATALOG.md](DOCUMENTATION-ERROR-CATALOG.md) |
 | DOC-GDE-003 | Documentation Evidence Snapshot Framework | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EVIDENCE-FRAMEWORK.md](DOCUMENTATION-EVIDENCE-FRAMEWORK.md) |
 | DOC-RPT-039 | Documentation Exception Authority Routing | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md](DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md) |
+| DOC-RPT-042 | Documentation Exception Disposition Application Gate | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md](DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md) |
 | DOC-REF-010 | Documentation Exception Disposition Inventory | REFERENCE | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md](DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md) |
 | DOC-SPEC-008 | Documentation Exception Disposition Model | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md](DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md) |
 | DOC-RPT-037 | Documentation Exception Disposition Summary | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md](DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md) |

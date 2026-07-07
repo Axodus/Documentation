@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 784,
+  "document_count": 785,
   "documents": [
     {
       "aliases": [],
@@ -14622,6 +14622,7 @@
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-02",
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-03",
         "AXODUS-DOCUMENTATION-EPIC-03-REQ-04",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-05",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-ADR-020",
@@ -14633,12 +14634,12 @@
         "DOC-SPEC-009",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "4b0cc4103edb97070a64033917593e0b142dddb79d1cbb1448c9d1f671fa4d30",
+      "sha256": "b5c548282c26ffe23280dbcd69e006e78aa422020226beab06fe73df6a6a8ad8",
       "source_path": "DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Epic 03 Progress Report",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
     {
       "aliases": [],
@@ -14786,6 +14787,36 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EXCEPTIONS.REPORTING",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-042",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-07",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-05",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ADR-021",
+        "DOC-REF-010",
+        "DOC-RPT-041",
+        "DOC-SPEC-008",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "6bf405290e910d5a2b7080728d658b23ab226f7c4ab7a5aaccc6f0414070b7f2",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Exception Disposition Application Gate",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EXCEPTIONS.INVENTORY",
       "classification": "CANONICAL",
       "document_id": "DOC-REF-010",
@@ -14835,7 +14866,7 @@
         "DOC-ROAD-011",
         "DOCUMENTATION-EPIC-03"
       ],
-      "sha256": "b2bd80f6810ae69b5a19216f9f96fdec99c98fbebb8d37bd039bad9739d832a4",
+      "sha256": "d25feaa8a51ed846dcaad0bbf3e72fcba8bff07fb452d69e3b32f1d599fc7760",
       "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-MODEL.md",
       "superseded_by": [],
       "supersedes": [],
@@ -18465,6 +18496,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-042",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "target": "DOC-REF-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-042",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "target": "DOC-SPEC-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-042",
+      "source_path": "DOCUMENTATION-EXCEPTION-DISPOSITION-APPLICATION-GATE.md",
+      "target": "DOC-RPT-041",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -18906,12 +18955,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 170,
-    "declared_relationships": 332,
+    "compliant_documents": 171,
+    "declared_relationships": 335,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 128,
+      "CORE": 129,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -18919,7 +18968,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 86,
+      "D2": 87,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 600
@@ -18937,7 +18986,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 110,
+      "Axodus Documentation Core": 111,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -18956,7 +19005,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 128,
-      "DRAFT": 35,
+      "DRAFT": 36,
       "UNSPECIFIED": 600
     },
     "documents_by_type": {
@@ -18969,7 +19018,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 42,
+      "REPORT": 43,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -18982,6 +19031,6 @@
     "generated_documents": 8,
     "legacy_documents": 600,
     "template_documents": 14,
-    "total_documents": 784
+    "total_documents": 785
   }
 }

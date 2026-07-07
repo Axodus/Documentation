@@ -22,6 +22,7 @@ const PRIMARY_DISPOSITIONS = new Set([
   'DEFER_WITH_RISK',
 ])
 const PRIORITIES = new Set(['P0', 'P1', 'P2', 'P3'])
+const DISPOSITION_STATES = new Set(['GOVERNED'])
 const ROUTING_STATES = new Set(['REQUIRED', 'PASSED', 'NOT_APPLICABLE', 'PENDING'])
 const CONFIRMATION_STATES = new Set(['CONFIRMED', 'PENDING', 'NOT_APPLICABLE'])
 const APPROVED_FLAGS = new Set([
@@ -131,6 +132,9 @@ export function validateDispositionRegistry(registry, options = {}) {
       disposition_entries: entries.length,
       disposition_registry_valid: structurallyValid,
       dispositions_decided: entries.filter((entry) => PRIMARY_DISPOSITIONS.has(entry.primary_disposition)).length,
+      governed_dispositions: entries.filter((entry) => entry.disposition_state === 'GOVERNED').length,
+      undecided_dispositions: entries.filter((entry) => entry.disposition_state !== 'GOVERNED').length,
+      temporary_extension_candidates: entries.filter((entry) => entry.temporary_extension_required === true).length,
       migrate_dispositions: counts.get('MIGRATE') ?? 0,
       security_review_dispositions: counts.get('SECURITY_REVIEW') ?? 0,
       authority_review_dispositions: counts.get('AUTHORITY_REVIEW') ?? 0,
@@ -150,6 +154,9 @@ export function dryRunDispositionApplication(registry, options = {}) {
     statistics: {
       disposition_entries: entries.length,
       would_apply_dispositions: validation.valid ? entries.length : 0,
+      governed_dispositions: entries.filter((entry) => entry.disposition_state === 'GOVERNED').length,
+      undecided_dispositions: entries.filter((entry) => entry.disposition_state !== 'GOVERNED').length,
+      temporary_extension_candidates: entries.filter((entry) => entry.temporary_extension_required === true).length,
       baseline_entries_removed: 0,
       exception_entries_removed: 0,
       exception_registry_entries_mutated: 0,
@@ -213,6 +220,8 @@ function validateEntryShape(entry, diagnostics, base) {
     'baseline_sha256',
     'current_exception_disposition',
     'primary_disposition',
+    'disposition_state',
+    'decided_at',
     'risk_priority',
     'authority_routing',
     'security_routing',
@@ -234,12 +243,18 @@ function validateEntryShape(entry, diagnostics, base) {
   }
   if (!Array.isArray(entry?.secondary_flags) || !Array.isArray(entry?.evidence_refs)) valid = false
   if (!PRIMARY_DISPOSITIONS.has(entry?.primary_disposition)) valid = false
+  if (!DISPOSITION_STATES.has(entry?.disposition_state)) valid = false
   if (!PRIORITIES.has(entry?.risk_priority)) valid = false
   if (!ROUTING_STATES.has(entry?.authority_routing) || !ROUTING_STATES.has(entry?.security_routing)) valid = false
   if (!CONFIRMATION_STATES.has(entry?.owner_confirmation) || !CONFIRMATION_STATES.has(entry?.approver_confirmation)) valid = false
   if (!/^[a-f0-9]{64}$/.test(entry?.baseline_sha256 ?? '')) valid = false
   if (!/^\d{4}-\d{2}-\d{2}$/.test(entry?.target_resolution_date ?? '')) valid = false
+  if (!isRfc3339(entry?.decided_at)) valid = false
   if (entry?.renewal_expires_at !== null && !isRfc3339(entry?.renewal_expires_at)) valid = false
+  if (typeof entry?.maximum_extension_days !== 'number') valid = false
+  if (typeof entry?.temporary_extension_required !== 'boolean') valid = false
+  if (typeof entry?.migration_candidate !== 'boolean') valid = false
+  if (!Array.isArray(entry?.unresolved_blockers)) valid = false
   if (entry?.secondary_flags?.some((flag) => !APPROVED_FLAGS.has(flag))) valid = false
   if (!valid) {
     diagnostics.push(error(RULES.DISPOSITION_REGISTRY_INVALID, {

@@ -4,8 +4,8 @@ document_id: "DOC-RPT-041"
 aliases: []
 document_type: "REPORT"
 title: "Documentation Epic 03 Progress Report"
-summary: "Tracks disposition inventory coverage, governance approval, registry-extension design, and unchanged migration state."
-version: "0.2.0"
+summary: "Tracks disposition inventory coverage, governance approval, registry-extension application, and unchanged migration state."
+version: "0.3.0"
 publication_status: "DRAFT"
 document_state: "CURRENT"
 maturity_level: "D2"
@@ -26,7 +26,7 @@ next_review: null
 supersedes: []
 relationships: [{"type":"DEPENDS_ON","target":"DOC-RPT-037"},{"type":"RELATES_TO","target":"DOC-SPEC-009"},{"type":"RELATES_TO","target":"DOC-ROAD-010"}]
 related_epics: ["DOCUMENTATION-EPIC-03"]
-related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03", "AXODUS-DOCUMENTATION-EPIC-03-REQ-04"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-02", "AXODUS-DOCUMENTATION-EPIC-03-REQ-03", "AXODUS-DOCUMENTATION-EPIC-03-REQ-04", "AXODUS-DOCUMENTATION-EPIC-03-REQ-05"]
 related_adrs: ["DOC-ADR-018","DOC-ADR-019","DOC-ADR-020","DOC-ADR-021","DOC-ADR-022","DOC-ADR-023"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{"repository":"Axodus/Documentation","path":"DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md","ref":"main","kind":"SOURCE","environment":"LOCAL"},{"repository":"Axodus/Documentation","path":"documentation.manifest.json","ref":"main","kind":"CONFIG","environment":"LOCAL"}]
@@ -83,9 +83,22 @@ REQ-04 does not apply dispositions to `documentation.exceptions.json`, migrate
 documents, remove baseline entries, remove exception entries, reserve final IDs,
 add traceability edges, mark any core `ADOPTED_TARGET`, or authorize Batch 04.
 
+## REQ-05 Progress
+
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-05: GOVERNED_DISPOSITIONS_APPLIED_TO_EXTENSION`
+
+All 573 dispositions are applied as governed metadata in the compact companion
+registry. The application gate records 573 governed states, 0 undecided states,
+187 migration candidates, 386 temporary extension candidates, 344 security
+routes, and 327 authority routes.
+
+REQ-05 removes 0 baseline entries, removes 0 exception entries, mutates 0
+operational exception entries, performs 0 migrations, reserves 0 final IDs, and
+authorizes no batch execution.
+
 ## Next Request
 
-`AXODUS-DOCUMENTATION-EPIC-03-REQ-05 — Exception Disposition Application Gate`.
+`AXODUS-DOCUMENTATION-EPIC-03-REQ-06 — Traceability Depth Baseline and Remediation Planning`.
 
 ## Gate Preservation
 

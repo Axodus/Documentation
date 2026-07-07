@@ -75,6 +75,14 @@
           "const": "MIGRATE_ON_CHANGE",
           "type": "string"
         },
+        "decided_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "disposition_state": {
+          "const": "GOVERNED",
+          "type": "string"
+        },
         "document_path": {
           "minLength": 1,
           "not": {
@@ -92,6 +100,13 @@
         "exception_id": {
           "pattern": "^DOC-EXC-[0-9]{3,}$",
           "type": "string"
+        },
+        "maximum_extension_days": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "migration_candidate": {
+          "type": "boolean"
         },
         "owner_confirmation": {
           "enum": [
@@ -160,6 +175,21 @@
         "target_resolution_date": {
           "format": "date",
           "type": "string"
+        },
+        "temporary_extension_required": {
+          "type": "boolean"
+        },
+        "unresolved_blockers": {
+          "items": {
+            "enum": [
+              "AUTHORITY_REVIEW",
+              "SECURITY_REVIEW",
+              "DEFER_WITH_RISK"
+            ],
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
         }
       },
       "required": [
@@ -167,6 +197,8 @@
         "document_path",
         "baseline_sha256",
         "current_exception_disposition",
+        "disposition_state",
+        "decided_at",
         "primary_disposition",
         "risk_priority",
         "secondary_flags",
@@ -176,6 +208,10 @@
         "approver_confirmation",
         "target_action",
         "target_resolution_date",
+        "maximum_extension_days",
+        "temporary_extension_required",
+        "migration_candidate",
+        "unresolved_blockers",
         "renewal_expires_at",
         "rationale",
         "evidence_refs"
