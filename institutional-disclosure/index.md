@@ -4,7 +4,7 @@ document_id: "PRIV-GDE-003"
 aliases: []
 document_type: "GUIDE"
 title: "Private Disclosure Index"
-summary: "Private index for internal governance and tokenomics disclosure artifacts."
+summary: "Private index for internal governance, tokenomics, and Academy disclosure artifacts."
 version: "0.1.0"
 publication_status: "DRAFT"
 document_state: "EXPERIMENTAL"
@@ -19,7 +19,7 @@ business_reviewers: []
 security_reviewers: []
 approver: null
 created_date: "2026-07-06"
-last_updated: "2026-07-06"
+last_updated: "2026-07-08"
 last_reviewed: null
 review_cycle: "EVENT_DRIVEN"
 next_review: null
@@ -28,7 +28,7 @@ relationships: []
 related_epics: []
 related_requirements: []
 related_adrs: []
-related_cores: ["GOVERNANCE", "TOKENOMICS"]
+related_cores: ["GOVERNANCE", "TOKENOMICS", "ACADEMY"]
 implementation_refs: []
 production_gate_impact: "PRESERVES_CLOSED"
 ---
@@ -58,6 +58,10 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Track C | [Tokenomics Draft](tokenomics-draft.md) | Private baseline |
 | Track C | [Tokenomics Risk Review](tokenomics-risk-review.md) | Private review |
 | Track C | [Tokenomics Baseline Record](tokenomics-baseline-record.md) | Private closure |
+| Academy | [Academy Private Architecture](academy-private-architecture.md) | Private baseline |
+| Academy | [Academy Boundary Risk Review](academy-boundary-risk-review.md) | Private/internal-only review |
+| Academy | [Academy Open Decisions](academy-open-decisions.md) | Private/internal-only decision register |
+| Academy | [Academy Economic Template Notes](academy-economic-template-notes.md) | Private/internal-only guide |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
 
 ## Boundary
