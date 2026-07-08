@@ -4,7 +4,7 @@ document_id: "PRIV-GDE-003"
 aliases: []
 document_type: "GUIDE"
 title: "Private Disclosure Index"
-summary: "Private index for internal governance, tokenomics, and Academy disclosure artifacts."
+summary: "Private index for internal governance, tokenomics, Academy, and Marketplace disclosure artifacts."
 version: "0.1.0"
 publication_status: "DRAFT"
 document_state: "EXPERIMENTAL"
@@ -28,7 +28,7 @@ relationships: []
 related_epics: []
 related_requirements: []
 related_adrs: []
-related_cores: ["GOVERNANCE", "TOKENOMICS", "ACADEMY"]
+related_cores: ["GOVERNANCE", "TOKENOMICS", "ACADEMY", "MARKETPLACE"]
 implementation_refs: []
 production_gate_impact: "PRESERVES_CLOSED"
 ---
@@ -62,6 +62,10 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Academy | [Academy Boundary Risk Review](academy-boundary-risk-review.md) | Private/internal-only review |
 | Academy | [Academy Open Decisions](academy-open-decisions.md) | Private/internal-only decision register |
 | Academy | [Academy Economic Template Notes](academy-economic-template-notes.md) | Private/internal-only guide |
+| Marketplace | [Marketplace Private Architecture](marketplace-private-architecture.md) | Private baseline |
+| Marketplace | [Marketplace Boundary Risk Review](marketplace-boundary-risk-review.md) | Private/internal-only review |
+| Marketplace | [Marketplace Open Decisions](marketplace-open-decisions.md) | Private/internal-only decision register |
+| Marketplace | [Marketplace Licensing and Royalty Notes](marketplace-licensing-and-royalty-notes.md) | Private/internal-only guide |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
 
 ## Boundary
