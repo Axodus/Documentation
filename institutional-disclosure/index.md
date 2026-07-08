@@ -4,7 +4,7 @@ document_id: "PRIV-GDE-003"
 aliases: []
 document_type: "GUIDE"
 title: "Private Disclosure Index"
-summary: "Private index for internal governance, tokenomics, Academy, and Marketplace disclosure artifacts."
+summary: "Private index for internal governance, tokenomics, Academy, Marketplace, and boundary-audit disclosure artifacts."
 version: "0.1.0"
 publication_status: "DRAFT"
 document_state: "EXPERIMENTAL"
@@ -66,6 +66,8 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Marketplace | [Marketplace Boundary Risk Review](marketplace-boundary-risk-review.md) | Private/internal-only review |
 | Marketplace | [Marketplace Open Decisions](marketplace-open-decisions.md) | Private/internal-only decision register |
 | Marketplace | [Marketplace Licensing and Royalty Notes](marketplace-licensing-and-royalty-notes.md) | Private/internal-only guide |
+| Cross-track | [Academy and Marketplace Boundary Consolidation Audit](academy-marketplace-boundary-consolidation-audit.md) | Private audit |
+| Cross-track | [Academy and Marketplace Sanitization Decision Register](academy-marketplace-sanitization-decision-register.md) | Private decision register |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
 
 ## Boundary
