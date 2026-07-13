@@ -6280,6 +6280,24 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
+      "source_path": "AGENTS.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": "AGENTS.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
       "source_path": "api/README.md"
     },
     {
@@ -10856,8 +10874,8 @@
     }
   ],
   "errors": 0,
-  "generated_at": "2026-07-07T00:00:00Z",
-  "legacy_documents": 600,
+  "generated_at": "2026-07-13T00:00:00Z",
+  "legacy_documents": 601,
   "repository_statistics": {
     "active_exceptions": 573,
     "authority_review_dispositions": 285,
@@ -10871,28 +10889,28 @@
     "exception_entries": 573,
     "expired_exceptions": 0,
     "governed_dispositions": 573,
-    "info": 1206,
+    "info": 1208,
     "invalid_exceptions": 0,
     "known_legacy": 573,
-    "legacy_documents": 600,
+    "legacy_documents": 601,
     "migrate_dispositions": 187,
-    "relationships": 347,
+    "relationships": 351,
     "removed_legacy": 0,
     "revoked_exceptions": 0,
     "security_review_dispositions": 59,
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 788,
-    "unbaselined_legacy": 27,
+    "total_documents": 791,
+    "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 174,
+    "validated_documents": 176,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 174,
+  "validated_documents": 176,
   "validation_version": "1.1.0",
   "warnings": 0
 }

@@ -2,17 +2,17 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-07T00:00:00Z
+Generated At: 2026-07-13T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 788
-- Canonical metadata field coverage: 23.86%
-- Schema 1.0.0 canonical documents: 174
-- Legacy documents: 600
-- Documents missing canonical metadata: 600
-- Documents without YAML front matter: 600
+- Source documents: 791
+- Canonical metadata field coverage: 24.02%
+- Schema 1.0.0 canonical documents: 176
+- Legacy documents: 601
+- Documents missing canonical metadata: 601
+- Documents without YAML front matter: 601
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 188 | 600 | 23.86% |
-| `document_id` | 188 | 600 | 23.86% |
-| `aliases` | 188 | 600 | 23.86% |
-| `document_type` | 188 | 600 | 23.86% |
-| `title` | 188 | 600 | 23.86% |
-| `summary` | 188 | 600 | 23.86% |
-| `version` | 188 | 600 | 23.86% |
-| `publication_status` | 188 | 600 | 23.86% |
-| `document_state` | 188 | 600 | 23.86% |
-| `maturity_level` | 188 | 600 | 23.86% |
-| `authority_scope` | 188 | 600 | 23.86% |
-| `authority_level` | 188 | 600 | 23.86% |
-| `author` | 188 | 600 | 23.86% |
-| `owner` | 188 | 600 | 23.86% |
-| `maintainer` | 188 | 600 | 23.86% |
-| `technical_reviewers` | 188 | 600 | 23.86% |
-| `business_reviewers` | 188 | 600 | 23.86% |
-| `security_reviewers` | 188 | 600 | 23.86% |
-| `approver` | 188 | 600 | 23.86% |
-| `created_date` | 188 | 600 | 23.86% |
-| `last_updated` | 188 | 600 | 23.86% |
-| `last_reviewed` | 188 | 600 | 23.86% |
-| `review_cycle` | 188 | 600 | 23.86% |
-| `next_review` | 188 | 600 | 23.86% |
-| `supersedes` | 188 | 600 | 23.86% |
-| `relationships` | 188 | 600 | 23.86% |
-| `related_epics` | 188 | 600 | 23.86% |
-| `related_requirements` | 188 | 600 | 23.86% |
-| `related_adrs` | 188 | 600 | 23.86% |
-| `related_cores` | 188 | 600 | 23.86% |
-| `implementation_refs` | 188 | 600 | 23.86% |
-| `production_gate_impact` | 188 | 600 | 23.86% |
+| `schema_version` | 190 | 601 | 24.02% |
+| `document_id` | 190 | 601 | 24.02% |
+| `aliases` | 190 | 601 | 24.02% |
+| `document_type` | 190 | 601 | 24.02% |
+| `title` | 190 | 601 | 24.02% |
+| `summary` | 190 | 601 | 24.02% |
+| `version` | 190 | 601 | 24.02% |
+| `publication_status` | 190 | 601 | 24.02% |
+| `document_state` | 190 | 601 | 24.02% |
+| `maturity_level` | 190 | 601 | 24.02% |
+| `authority_scope` | 190 | 601 | 24.02% |
+| `authority_level` | 190 | 601 | 24.02% |
+| `author` | 190 | 601 | 24.02% |
+| `owner` | 190 | 601 | 24.02% |
+| `maintainer` | 190 | 601 | 24.02% |
+| `technical_reviewers` | 190 | 601 | 24.02% |
+| `business_reviewers` | 190 | 601 | 24.02% |
+| `security_reviewers` | 190 | 601 | 24.02% |
+| `approver` | 190 | 601 | 24.02% |
+| `created_date` | 190 | 601 | 24.02% |
+| `last_updated` | 190 | 601 | 24.02% |
+| `last_reviewed` | 190 | 601 | 24.02% |
+| `review_cycle` | 190 | 601 | 24.02% |
+| `next_review` | 190 | 601 | 24.02% |
+| `supersedes` | 190 | 601 | 24.02% |
+| `relationships` | 190 | 601 | 24.02% |
+| `related_epics` | 190 | 601 | 24.02% |
+| `related_requirements` | 190 | 601 | 24.02% |
+| `related_adrs` | 190 | 601 | 24.02% |
+| `related_cores` | 190 | 601 | 24.02% |
+| `implementation_refs` | 190 | 601 | 24.02% |
+| `production_gate_impact` | 190 | 601 | 24.02% |
 
 ## Documents Without Front Matter
 
@@ -403,6 +403,7 @@ Generator Version: 1.0.0
 - .knowledge/treasury/treasury-page-directives.akp.md
 - .knowledge/treasury/treasury-policy.akp.md
 - adr/README.md
+- AGENTS.md
 - api/README.md
 - ARCHITECTURE.md
 - architecture/README.md
@@ -1006,6 +1007,7 @@ Generator Version: 1.0.0
 - .knowledge/treasury/treasury-page-directives.akp.md
 - .knowledge/treasury/treasury-policy.akp.md
 - adr/README.md
+- AGENTS.md
 - api/README.md
 - ARCHITECTURE.md
 - architecture/README.md

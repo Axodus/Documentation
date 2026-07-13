@@ -244,7 +244,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-07T00:00:00Z",
+  "generated_at": "2026-07-13T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -3939,6 +3939,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": "AGENTS.md",
+      "publication_status": null,
+      "source_path": "AGENTS.md",
+      "title": "Repository Guidelines"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": "api/README.md",
       "publication_status": null,
       "source_path": "api/README.md",
@@ -5133,6 +5143,26 @@
       "publication_status": "DRAFT",
       "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "title": "Documentation Repository Sanitization Audit"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-046",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-046",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "title": "Documentation Generator Drift Investigation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-047",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-047",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
+      "title": "Documentation Generator Drift Reconciliation Plan"
     },
     {
       "authority_level": "CORE",
@@ -8483,6 +8513,7 @@
     ".knowledge/treasury/treasury-page-directives.akp.md",
     ".knowledge/treasury/treasury-policy.akp.md",
     "adr/README.md",
+    "AGENTS.md",
     "api/README.md",
     "ARCHITECTURE.md",
     "architecture/README.md",
@@ -9123,6 +9154,7 @@
       "adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md",
       "adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md",
       "adr/README.md",
+      "AGENTS.md",
       "api/README.md",
       "ARCHITECTURE.md",
       "architecture/README.md",
@@ -9454,6 +9486,8 @@
       "documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md",
       "documentation/DOCUMENTATION-EXCEPTION-POLICY.md",
       "documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md",
+      "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
       "documentation/DOCUMENTATION-GENERATOR.md",
       "documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md",
       "documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md",
@@ -9665,6 +9699,8 @@
       "DOC-RPT-043",
       "DOC-RPT-044",
       "DOC-RPT-045",
+      "DOC-RPT-046",
+      "DOC-RPT-047",
       "DOC-SPEC-001",
       "DOC-SPEC-002",
       "DOC-SPEC-003",
@@ -9736,17 +9772,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 112,
+    "DEPENDS_ON": 114,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 162,
+    "RELATES_TO": 164,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 347,
+    "declared": 351,
     "derived": 0,
     "duplicates": 0,
-    "total": 347,
+    "total": 351,
     "unresolved": 0
   },
   "relationship_types": [
@@ -11399,6 +11435,30 @@
       "source": "DOC-RPT-045",
       "source_path": "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "target": "DOC-POL-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-046",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "target": "DOC-RPT-045",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-046",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "target": "DOC-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-047",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
+      "target": "DOC-RPT-046",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-047",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
+      "target": "DOC-GDE-002",
       "type": "RELATES_TO"
     },
     {

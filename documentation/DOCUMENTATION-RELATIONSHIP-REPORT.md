@@ -2,28 +2,28 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-07T00:00:00Z
+Generated At: 2026-07-13T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 788
-- Declared relationships: 347
+- Graph nodes: 791
+- Declared relationships: 351
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 614
+- Orphan documents: 615
 - Cycles: 13
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 112 |
+| `DEPENDS_ON` | 114 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 162 |
+| `RELATES_TO` | 164 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -399,6 +399,7 @@ None.
 - .knowledge/treasury/treasury-page-directives.akp.md
 - .knowledge/treasury/treasury-policy.akp.md
 - adr/README.md
+- AGENTS.md
 - api/README.md
 - ARCHITECTURE.md
 - architecture/README.md

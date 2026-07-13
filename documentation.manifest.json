@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 788,
+  "document_count": 791,
   "documents": [
     {
       "aliases": [],
@@ -7548,6 +7548,26 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
+      "sha256": "79f14f67f4d9caf070c07cea52fd043ae8e7100ae51029c00523f81be8e0d254",
+      "source_path": "AGENTS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Guidelines",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
       "sha256": "beb796f802da6f9f75775f3255df198b417df3ec45856e8ef19af0c244b00515",
       "source_path": "api/README.md",
       "superseded_by": [],
@@ -15022,6 +15042,60 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.GENERATOR.AUDIT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-046",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-13",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-014",
+        "DOC-GDE-002",
+        "DOC-RPT-045",
+        "DOCUMENTATION-EPIC-03",
+        "DOCUMENTATION-GENERATOR-DRIFT-REQ-01"
+      ],
+      "sha256": "0c39cc3a805217519c7d77e183d9e1ff872e1590ecc9998abe1bde45c1a9cb55",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Generator Drift Investigation",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.GENERATOR.PLANNING",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-047",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-13",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-014",
+        "DOC-GDE-002",
+        "DOC-RPT-046",
+        "DOCUMENTATION-EPIC-03",
+        "DOCUMENTATION-GENERATOR-DRIFT-REQ-01"
+      ],
+      "sha256": "22358a06b70db83b29b76608a42721be55824e79b46b5ef57e75e53c865e539d",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Generator Drift Reconciliation Plan",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION",
       "classification": "CANONICAL",
       "document_id": "DOC-GDE-002",
@@ -17022,7 +17096,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-07T00:00:00Z",
+  "generated_at": "2026-07-13T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -18684,6 +18758,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DOC-RPT-046",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "target": "DOC-RPT-045",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-046",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md",
+      "target": "DOC-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DOC-RPT-047",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
+      "target": "DOC-RPT-046",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "DOC-RPT-047",
+      "source_path": "documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md",
+      "target": "DOC-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DOC-SPEC-001",
       "source_path": "governance/DOCUMENTATION-METADATA-SCHEMA.md",
       "target": "DOC-ADR-005",
@@ -19125,23 +19223,23 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 174,
-    "declared_relationships": 347,
+    "compliant_documents": 176,
+    "declared_relationships": 351,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 132,
+      "CORE": 134,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
-      "UNSPECIFIED": 600
+      "UNSPECIFIED": 601
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 90,
+      "D2": 92,
       "D3": 83,
       "D4": 1,
-      "UNSPECIFIED": 600
+      "UNSPECIFIED": 601
     },
     "documents_by_owner": {
       "<facilitator>": 1,
@@ -19156,7 +19254,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 114,
+      "Axodus Documentation Core": 116,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -19170,13 +19268,13 @@
       "Axodus Treasury": 4,
       "Governance Nucleus": 6,
       "Security": 6,
-      "UNSPECIFIED": 600
+      "UNSPECIFIED": 601
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 128,
-      "DRAFT": 39,
-      "UNSPECIFIED": 600
+      "DRAFT": 41,
+      "UNSPECIFIED": 601
     },
     "documents_by_type": {
       "ADR": 24,
@@ -19188,19 +19286,19 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 46,
+      "REPORT": 48,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
       "RUNBOOK": 1,
       "SPECIFICATION": 10,
       "STANDARD": 4,
-      "UNSPECIFIED": 600
+      "UNSPECIFIED": 601
     },
-    "documents_missing_metadata": 600,
+    "documents_missing_metadata": 601,
     "generated_documents": 8,
-    "legacy_documents": 600,
+    "legacy_documents": 601,
     "template_documents": 14,
-    "total_documents": 788
+    "total_documents": 791
   }
 }

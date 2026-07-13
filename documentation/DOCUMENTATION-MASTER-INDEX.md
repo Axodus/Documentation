@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-07T00:00:00Z
-Source Documents: 788
+Generated At: 2026-07-13T00:00:00Z
+Source Documents: 791
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 788
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 788 |
-| Canonical documents | 174 |
-| Legacy documents | 600 |
+| Total source documents | 791 |
+| Canonical documents | 176 |
+| Legacy documents | 601 |
 | Template documents | 14 |
-| Declared relationships | 347 |
+| Declared relationships | 351 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,32 +42,32 @@ Source Documents: 788
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 46 |
+| REPORT | 48 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 600 |
+| UNSPECIFIED | 601 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 132 |
+| CORE | 134 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
-| UNSPECIFIED | 600 |
+| UNSPECIFIED | 601 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 128 |
-| DRAFT | 39 |
-| UNSPECIFIED | 600 |
+| DRAFT | 41 |
+| UNSPECIFIED | 601 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -214,6 +214,8 @@ Source Documents: 788
 | DOC-RPT-038 | Documentation Exception Expiry Risk Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md](./DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md) |
 | DOC-POL-006 | Documentation Exception Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-EXCEPTION-POLICY.md](./DOCUMENTATION-EXCEPTION-POLICY.md) |
 | DOC-RPT-040 | Documentation Exception Security Routing | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md](./DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md) |
+| DOC-RPT-046 | Documentation Generator Drift Investigation | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md](./DOCUMENTATION-GENERATOR-DRIFT-INVESTIGATION.md) |
+| DOC-RPT-047 | Documentation Generator Drift Reconciliation Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md](./DOCUMENTATION-GENERATOR-DRIFT-RECONCILIATION-PLAN.md) |
 | DOC-GDE-002 | Persistent Documentation Generator | GUIDE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-GENERATOR.md](./DOCUMENTATION-GENERATOR.md) |
 | DOC-RPT-024 | Documentation Graph Enrichment Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md](./DOCUMENTATION-GRAPH-ENRICHMENT-REPORT.md) |
 | DOC-RPT-004 | Documentation Legacy Classification Evidence | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md](./DOCUMENTATION-LEGACY-CLASSIFICATION-EVIDENCE.md) |
@@ -597,6 +599,7 @@ Source Documents: 788
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/treasury-page-directives.akp.md](../.knowledge/treasury/treasury-page-directives.akp.md) |
 | — | AXODUS KNOWLEDGE PACK | — | — | — | — | — | [.knowledge/treasury/treasury-policy.akp.md](../.knowledge/treasury/treasury-policy.akp.md) |
 | — | Architecture Decision Records | — | — | — | — | — | [adr/README.md](../adr/README.md) |
+| — | Repository Guidelines | — | — | — | — | — | [AGENTS.md](../AGENTS.md) |
 | — | APIs | — | — | — | — | — | [api/README.md](../api/README.md) |
 | — | Axodus Architecture | — | — | — | — | — | [ARCHITECTURE.md](../ARCHITECTURE.md) |
 | — | Architecture | — | — | — | — | — | [architecture/README.md](../architecture/README.md) |
