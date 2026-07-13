@@ -4,7 +4,7 @@ document_id: "PRIV-GDE-003"
 aliases: []
 document_type: "GUIDE"
 title: "Private Disclosure Index"
-summary: "Private index for internal governance, tokenomics, Academy, Marketplace, ACS, and boundary-audit disclosure artifacts."
+summary: "Private index for internal governance, tokenomics, Academy, Marketplace, ACS, Trading, and boundary-audit disclosure artifacts."
 version: "0.1.0"
 publication_status: "DRAFT"
 document_state: "EXPERIMENTAL"
@@ -28,7 +28,7 @@ relationships: []
 related_epics: []
 related_requirements: []
 related_adrs: []
-related_cores: ["GOVERNANCE", "TOKENOMICS", "ACADEMY", "MARKETPLACE", "ACS"]
+related_cores: ["GOVERNANCE", "TOKENOMICS", "ACADEMY", "MARKETPLACE", "ACS", "TRADING"]
 implementation_refs: []
 production_gate_impact: "PRESERVES_CLOSED"
 ---
@@ -71,6 +71,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 | ACS | [ACS Agent Governance Model](acs-agent-governance-model.md) | Private/internal-only guide |
 | ACS | [ACS RedHat Security and Permissioning](acs-redhat-security-and-permissioning.md) | Private/internal-only guide |
 | ACS | [ACS Open Decisions](acs-open-decisions.md) | Private/internal-only decision register |
+| Trading | [Trading Private Architecture](trading-private-architecture.md) | Private baseline |
+| Trading | [Trading Boundary Risk Review](trading-boundary-risk-review.md) | Private/internal-only review |
+| Trading | [Trading Promotional Agent Model](trading-promotional-agent-model.md) | Private/internal-only guide |
+| Trading | [Trading Core Strategy Catalog](trading-core-strategy-catalog.md) | Private/internal-only guide |
+| Trading | [Trading Open Decisions](trading-open-decisions.md) | Private/internal-only decision register |
 | Cross-track | [Academy and Marketplace Boundary Consolidation Audit](academy-marketplace-boundary-consolidation-audit.md) | Private audit |
 | Cross-track | [Academy and Marketplace Sanitization Decision Register](academy-marketplace-sanitization-decision-register.md) | Private decision register |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
