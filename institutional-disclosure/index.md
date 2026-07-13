@@ -83,6 +83,9 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Cross-track | [Academy and Marketplace Boundary Consolidation Audit](academy-marketplace-boundary-consolidation-audit.md) | Private audit |
 | Cross-track | [Academy and Marketplace Sanitization Decision Register](academy-marketplace-sanitization-decision-register.md) | Private decision register |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
+| Cross-core | [Cross-Core Disclosure Matrix](cross-core-disclosure-matrix.md) | Private/internal-only reference |
+| Cross-core | [Cross-Core Disclosure Governance Standard](cross-core-disclosure-governance-standard.md) | Private/internal-only standard |
+| Cross-core | [Cross-Core Sanitization Roadmap](cross-core-sanitization-roadmap.md) | Private/internal-only roadmap |
 
 ## Boundary
 
