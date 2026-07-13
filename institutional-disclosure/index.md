@@ -76,6 +76,8 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Trading | [Trading Promotional Agent Model](trading-promotional-agent-model.md) | Private/internal-only guide |
 | Trading | [Trading Core Strategy Catalog](trading-core-strategy-catalog.md) | Private/internal-only guide |
 | Trading | [Trading Open Decisions](trading-open-decisions.md) | Private/internal-only decision register |
+| Trading | [Trading Boundary Consolidation Audit](trading-boundary-consolidation-audit.md) | Private/internal-only audit |
+| Trading | [Trading Sanitization Decision Register](trading-sanitization-decision-register.md) | Private/internal-only decision register |
 | Cross-track | [Academy and Marketplace Boundary Consolidation Audit](academy-marketplace-boundary-consolidation-audit.md) | Private audit |
 | Cross-track | [Academy and Marketplace Sanitization Decision Register](academy-marketplace-sanitization-decision-register.md) | Private decision register |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
