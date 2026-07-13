@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "outcome",
+    "decision",
+    "corpus_changed",
+    "files_changed",
+    "summary"
+  ],
+  "properties": {
+    "request_id": { "type": "string" },
+    "outcome": {
+      "type": "string",
+      "enum": ["READY_TO_COMMIT", "ESCALATION_REQUIRED", "BLOCKED", "FAIL"]
+    },
+    "decision": {
+      "type": ["string", "null"],
+      "enum": ["GO_SCOPED", "NO_GO", "DEFERRED_PENDING_LEGAL", "NO_ACTION", "CONSOLIDATED", null]
+    },
+    "corpus_changed": { "type": "boolean" },
+    "files_changed": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "summary": { "type": "string" }
+  }
+}

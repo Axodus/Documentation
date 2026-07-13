@@ -4,7 +4,7 @@ document_id: "PRIV-PROP-001"
 aliases: []
 document_type: "PROPOSAL"
 title: "Private Track Execution Requests Index"
-summary: "Indexes the internal execution requests for private governance and tokenomics documentation tracks."
+summary: "Indexes internal execution requests for private disclosure and documentation-governance work."
 version: "0.1.0"
 publication_status: "DRAFT"
 document_state: "EXPERIMENTAL"
@@ -19,7 +19,7 @@ business_reviewers: []
 security_reviewers: []
 approver: null
 created_date: "2026-07-06"
-last_updated: "2026-07-06"
+last_updated: "2026-07-13"
 last_reviewed: null
 review_cycle: "EVENT_DRIVEN"
 next_review: null
@@ -28,7 +28,7 @@ relationships: []
 related_epics: []
 related_requirements: []
 related_adrs: []
-related_cores: ["GOVERNANCE", "TOKENOMICS"]
+related_cores: ["GOVERNANCE", "TOKENOMICS", "ACADEMY", "MARKETPLACE", "ACS", "TRADING", "DOCUMENTATION"]
 implementation_refs: []
 production_gate_impact: "PRESERVES_CLOSED"
 ---
@@ -63,6 +63,8 @@ material, external disclosure, or outreach content.
 7. Execute `track-c-tokenomics-baseline-closure-request.md`.
 8. Execute `private-tracks-boundary-audit-request.md`.
 9. Execute `private-disclosure-index-update-request.md`.
+10. Execute `sprint-02/documentation-sprint-02.md` through the model-aware
+    sprint runner only after its dependency gate passes.
 
 ## Request Set
 
@@ -75,6 +77,7 @@ material, external disclosure, or outreach content.
 - [Track C - Tokenomics Baseline Closure](track-c-tokenomics-baseline-closure-request.md)
 - [Private Tracks Boundary Audit](private-tracks-boundary-audit-request.md)
 - [Private Disclosure Index Update](private-disclosure-index-update-request.md)
+- [Documentation Sprint 02](sprint-02/documentation-sprint-02.md)
 
 ## Cross-Track Rules
 

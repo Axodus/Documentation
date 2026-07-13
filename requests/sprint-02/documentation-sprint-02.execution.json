@@ -1,0 +1,124 @@
+{
+  "sprint_id": "DOCUMENTATION-SPRINT-02",
+  "required_ancestor": "ede3da6",
+  "preflight_commands": [
+    ["node", "tools/documentation/cli/index.js", "validate", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "relationships", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "check", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "generate", "--check"],
+    ["git", "diff", "--check"]
+  ],
+  "request_validation_commands": [
+    ["node", "tools/documentation/cli/index.js", "validate", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "relationships", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "check", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "generate", "--check"],
+    ["git", "diff", "--check"]
+  ],
+  "final_validation_commands": [
+    ["node", "tools/documentation/cli/index.js", "validate", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "relationships", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "check", "--summary"],
+    ["node", "tools/documentation/cli/index.js", "generate", "--check"],
+    ["node", "--test", "tools/documentation/tests/*.test.js"],
+    ["pnpm", "docs:build"],
+    ["git", "diff", "--check"]
+  ],
+  "boundary_scan_paths": [
+    "documentation.manifest.json",
+    "documentation.graph.json",
+    "documentation/DOCUMENTATION-MASTER-INDEX.md"
+  ],
+  "boundary_forbidden_terms": [
+    "institutional-disclosure/",
+    "requests/",
+    "PRIV-",
+    "trading-public-sanitization-decision",
+    "academy-public-sanitization-decision",
+    "marketplace-public-sanitization-decision",
+    "acs-public-sanitization-decision",
+    "sanitization-decision-sprint-02-closure",
+    "sanitization-authorized-correction-set-register"
+  ],
+  "requests": [
+    {
+      "id": "TRADING-PUBLIC-SANITIZATION-DECISION-REQ-01",
+      "prompt_path": "requests/sprint-02/trading-public-sanitization-decision-request.md",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "max",
+      "allowed_paths": ["institutional-disclosure/trading-public-sanitization-decision.md"],
+      "expected_document_ids": [
+        {"path": "institutional-disclosure/trading-public-sanitization-decision.md", "id": "PRIV-RPT-021"}
+      ],
+      "commit_message": "docs(private): decide trading public sanitization"
+    },
+    {
+      "id": "ACADEMY-PUBLIC-SANITIZATION-DECISION-REQ-01",
+      "prompt_path": "requests/sprint-02/academy-public-sanitization-decision-request.md",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "extra high",
+      "allowed_paths": ["institutional-disclosure/academy-public-sanitization-decision.md"],
+      "expected_document_ids": [
+        {"path": "institutional-disclosure/academy-public-sanitization-decision.md", "id": "PRIV-RPT-022"}
+      ],
+      "commit_message": "docs(private): decide academy public sanitization"
+    },
+    {
+      "id": "MARKETPLACE-PUBLIC-SANITIZATION-DECISION-REQ-01",
+      "prompt_path": "requests/sprint-02/marketplace-public-sanitization-decision-request.md",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "max",
+      "allowed_paths": ["institutional-disclosure/marketplace-public-sanitization-decision.md"],
+      "expected_document_ids": [
+        {"path": "institutional-disclosure/marketplace-public-sanitization-decision.md", "id": "PRIV-RPT-023"}
+      ],
+      "commit_message": "docs(private): decide marketplace public sanitization"
+    },
+    {
+      "id": "ACS-PUBLIC-SANITIZATION-DECISION-REQ-01",
+      "prompt_path": "requests/sprint-02/acs-public-sanitization-decision-request.md",
+      "model": "gpt-5.6-terra",
+      "reasoning_effort": "high",
+      "allowed_paths": ["institutional-disclosure/acs-public-sanitization-decision.md"],
+      "expected_document_ids": [
+        {"path": "institutional-disclosure/acs-public-sanitization-decision.md", "id": "PRIV-RPT-024"}
+      ],
+      "escalation": {
+        "when_paths_changed_since": "cdad0a0",
+        "watch_paths": ["docs/acs", "docs/index.md", "README.md", "SUMMARY.md", "docs/.vitepress"],
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "extra high"
+      },
+      "commit_message": "docs(private): decide acs public sanitization"
+    },
+    {
+      "id": "SANITIZATION-DECISION-CLOSURE-REPORT-REQ-01",
+      "prompt_path": "requests/sprint-02/sanitization-decision-closure-request.md",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "extra high",
+      "allowed_paths": [
+        "institutional-disclosure/sanitization-decision-sprint-02-closure.md",
+        "institutional-disclosure/sanitization-authorized-correction-set-register.md",
+        "institutional-disclosure/index.md"
+      ],
+      "expected_document_ids": [
+        {"path": "institutional-disclosure/sanitization-decision-sprint-02-closure.md", "id": "PRIV-RPT-025"},
+        {"path": "institutional-disclosure/sanitization-authorized-correction-set-register.md", "id": "PRIV-RPT-026"}
+      ],
+      "expected_content": [
+        {
+          "path": "institutional-disclosure/index.md",
+          "includes": [
+            "Trading Public Sanitization Decision",
+            "Academy Public Sanitization Decision",
+            "Marketplace Public Sanitization Decision",
+            "ACS Public Sanitization Decision",
+            "Sanitization Decision Sprint 02 Closure",
+            "Sanitization Authorized Correction Set Register"
+          ]
+        }
+      ],
+      "commit_message": "docs(private): close sanitization decision sprint"
+    }
+  ]
+}
