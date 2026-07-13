@@ -71,6 +71,8 @@ production_gate_impact: "PRESERVES_CLOSED"
 | ACS | [ACS Agent Governance Model](acs-agent-governance-model.md) | Private/internal-only guide |
 | ACS | [ACS RedHat Security and Permissioning](acs-redhat-security-and-permissioning.md) | Private/internal-only guide |
 | ACS | [ACS Open Decisions](acs-open-decisions.md) | Private/internal-only decision register |
+| ACS | [ACS Boundary Consolidation Audit](acs-boundary-consolidation-audit.md) | Private/internal-only audit |
+| ACS | [ACS Sanitization Decision Register](acs-sanitization-decision-register.md) | Private/internal-only decision register |
 | Trading | [Trading Private Architecture](trading-private-architecture.md) | Private baseline |
 | Trading | [Trading Boundary Risk Review](trading-boundary-risk-review.md) | Private/internal-only review |
 | Trading | [Trading Promotional Agent Model](trading-promotional-agent-model.md) | Private/internal-only guide |
