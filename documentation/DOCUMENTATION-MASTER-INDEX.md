@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 865
+Source Documents: 872
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 865
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 865 |
-| Canonical documents | 260 |
+| Total source documents | 872 |
+| Canonical documents | 267 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 865
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 122 |
+| REPORT | 129 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 865
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 218 |
+| CORE | 225 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 865
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 115 |
+| DRAFT | 122 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -275,6 +275,7 @@ Source Documents: 865
 | DOC-RPT-051 | Epic 03 Traceability Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md](./EPIC-03-TRACEABILITY-EXECUTION-PLAN.md) |
 | DOC-RPT-048 | Epic 03 Traceability Remediation Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md](./EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md) |
 | DOC-RPT-050 | Epic 03 Traceability Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md](./EPIC-03-TRACEABILITY-RISK-REVIEW.md) |
+| DOC-RPT-128 | EPIC-05 Handover Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-05-HANDOVER-PLAN.md](./EPIC-05-HANDOVER-PLAN.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |
 | DOC-RPT-090 | Institutional Controlled Intake Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md) |
@@ -313,8 +314,14 @@ Source Documents: 865
 | DOC-RPT-095 | Repository Information Architecture Target | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md](./REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md) |
 | DOC-RPT-097 | Repository Path Dependency Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md](./REPOSITORY-PATH-DEPENDENCY-REGISTER.md) |
 | DOC-RPT-093 | Repository Reorganization Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md](./REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md) |
+| DOC-RPT-122 | Repository Reorganization Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-CLOSURE-AUDIT.md](./REPOSITORY-REORGANIZATION-CLOSURE-AUDIT.md) |
 | DOC-RPT-096 | Repository Reorganization Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md](./REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md) |
+| DOC-RPT-125 | Repository Reorganization Final Boundary Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-FINAL-BOUNDARY-AUDIT.md](./REPOSITORY-REORGANIZATION-FINAL-BOUNDARY-AUDIT.md) |
+| DOC-RPT-126 | Repository Reorganization Final Generator Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-FINAL-GENERATOR-AUDIT.md](./REPOSITORY-REORGANIZATION-FINAL-GENERATOR-AUDIT.md) |
+| DOC-RPT-127 | Repository Reorganization Maturity Assessment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-MATURITY-ASSESSMENT.md](./REPOSITORY-REORGANIZATION-MATURITY-ASSESSMENT.md) |
+| DOC-RPT-124 | Repository Reorganization Residual Backlog | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-RESIDUAL-BACKLOG.md](./REPOSITORY-REORGANIZATION-RESIDUAL-BACKLOG.md) |
 | DOC-RPT-092 | Repository Surface Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-SURFACE-INVENTORY.md](./REPOSITORY-SURFACE-INVENTORY.md) |
+| DOC-RPT-123 | Repository Topology Final Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-TOPOLOGY-FINAL-REPORT.md](./REPOSITORY-TOPOLOGY-FINAL-REPORT.md) |
 | DOC-RPT-110 | Root Canonical Directory Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CANONICAL-DIRECTORY-INVENTORY.md](./ROOT-CANONICAL-DIRECTORY-INVENTORY.md) |
 | DOC-RPT-111 | Root Consolidation Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md](./ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md) |
 | DOC-RPT-113 | Root Consolidation Dependency Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md](./ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md) |

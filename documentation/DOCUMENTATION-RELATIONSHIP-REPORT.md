@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 865
+- Graph nodes: 872
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 679
+- Orphan documents: 686
 - Cycles: 13
 
 ## Relationship Counts
@@ -631,6 +631,7 @@ None.
 - documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md
 - documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md
 - documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md
+- documentation/EPIC-05-HANDOVER-PLAN.md
 - documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md
 - documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md
 - documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md
@@ -669,8 +670,14 @@ None.
 - documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md
 - documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md
 - documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md
+- documentation/REPOSITORY-REORGANIZATION-CLOSURE-AUDIT.md
 - documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md
+- documentation/REPOSITORY-REORGANIZATION-FINAL-BOUNDARY-AUDIT.md
+- documentation/REPOSITORY-REORGANIZATION-FINAL-GENERATOR-AUDIT.md
+- documentation/REPOSITORY-REORGANIZATION-MATURITY-ASSESSMENT.md
+- documentation/REPOSITORY-REORGANIZATION-RESIDUAL-BACKLOG.md
 - documentation/REPOSITORY-SURFACE-INVENTORY.md
+- documentation/REPOSITORY-TOPOLOGY-FINAL-REPORT.md
 - documentation/ROOT-CANONICAL-DIRECTORY-INVENTORY.md
 - documentation/ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md
 - documentation/ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md

@@ -10216,6 +10216,15 @@
       "source_path": "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md"
     },
     {
+      "document_id": "DOC-RPT-128",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-05-HANDOVER-PLAN.md"
+    },
+    {
       "document_id": "DOC-RPT-087",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10558,6 +10567,15 @@
       "source_path": "documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-122",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-CLOSURE-AUDIT.md"
+    },
+    {
       "document_id": "DOC-RPT-096",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10567,6 +10585,42 @@
       "source_path": "documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md"
     },
     {
+      "document_id": "DOC-RPT-125",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-FINAL-BOUNDARY-AUDIT.md"
+    },
+    {
+      "document_id": "DOC-RPT-126",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-FINAL-GENERATOR-AUDIT.md"
+    },
+    {
+      "document_id": "DOC-RPT-127",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-MATURITY-ASSESSMENT.md"
+    },
+    {
+      "document_id": "DOC-RPT-124",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-RESIDUAL-BACKLOG.md"
+    },
+    {
       "document_id": "DOC-RPT-092",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10574,6 +10628,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/REPOSITORY-SURFACE-INVENTORY.md"
+    },
+    {
+      "document_id": "DOC-RPT-123",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/REPOSITORY-TOPOLOGY-FINAL-REPORT.md"
     },
     {
       "document_id": "DOC-RPT-110",
@@ -11384,7 +11447,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1263,
+    "info": 1270,
     "invalid_exceptions": 0,
     "known_legacy": 561,
     "legacy_documents": 591,
@@ -11396,16 +11459,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 865,
+    "total_documents": 872,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 260,
+    "validated_documents": 267,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 260,
+  "validated_documents": 267,
   "validation_version": "1.1.0",
   "warnings": 0
 }

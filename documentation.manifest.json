@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 865,
+  "document_count": 872,
   "documents": [
     {
       "aliases": [],
@@ -16534,6 +16534,33 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-128",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "eea8b634948213a2d9cceef2917a122909c4011d4436b2749e8ccfaa14a733d8",
+      "source_path": "documentation/EPIC-05-HANDOVER-PLAN.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-05 Handover Plan",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-087",
@@ -17535,6 +17562,33 @@
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-122",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "1d116fd6604f4803eb417d05bfcea3c068e80ce14a3c875bb4316735d0957694",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-CLOSURE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Reorganization Closure Audit",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-096",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -17562,6 +17616,114 @@
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-125",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "78d2ada4d796ab8516e1cd02266e4f011c2e3b4eea9511f594d24b29272f7a6f",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-FINAL-BOUNDARY-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Reorganization Final Boundary Audit",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-126",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-014",
+        "DOC-ADR-016",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "8569e6b7bcd96204b0b4f6128b5fcec0ebe21b74d7c2c360bcd4b81224533b6e",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-FINAL-GENERATOR-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Reorganization Final Generator Audit",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-127",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "83a9c26fd7eaac97e4285d7b2bc54d2f132f1b003c64c77b97b92a7fab9ff812",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-MATURITY-ASSESSMENT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Reorganization Maturity Assessment",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-124",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "ce7d253013ac3a3ab0ea939704e63f0842739846fac386a2eac33ab2420966ed",
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-RESIDUAL-BACKLOG.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Reorganization Residual Backlog",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-092",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -17582,6 +17744,33 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Repository Surface Inventory",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-123",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-08"
+      ],
+      "sha256": "673abd876cb959a1b428605c91a58629c8da5849797a56873a13a43d4d3da673",
+      "source_path": "documentation/REPOSITORY-TOPOLOGY-FINAL-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Repository Topology Final Report",
       "version": "0.1.0"
     },
     {
@@ -21507,12 +21696,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 260,
+    "compliant_documents": 267,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 218,
+      "CORE": 225,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -21520,7 +21709,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 176,
+      "D2": 183,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 591
@@ -21538,7 +21727,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 190,
+      "Axodus Documentation Core": 197,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -21559,7 +21748,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 115,
+      "DRAFT": 122,
       "UNSPECIFIED": 591
     },
     "documents_by_type": {
@@ -21572,7 +21761,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 122,
+      "REPORT": 129,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -21585,6 +21774,6 @@
     "generated_documents": 8,
     "legacy_documents": 591,
     "template_documents": 14,
-    "total_documents": 865
+    "total_documents": 872
   }
 }
