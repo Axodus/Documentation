@@ -92,6 +92,15 @@ test('runner owns the commit after validating an allowlisted worker change', asy
   })
 })
 
+test('runner preserves an allowlisted tracked path from porcelain status', async () => {
+  await withFixture(async (root) => {
+    const fake = fakeProcess(root, { tracked: true })
+    const result = await runSprint(fixtureManifest(), { root, run: fake.run, log: () => {} })
+    assert.deepEqual(result.requests[0].changed_paths, ['decision.md'])
+    assert.equal(fake.commits.length, 1)
+  })
+})
+
 test('runner blocks unauthorized worker paths before commit', async () => {
   await withFixture(async (root) => {
     const fake = fakeProcess(root, { unauthorized: true })
@@ -168,7 +177,8 @@ function fakeProcess(root, options = {}) {
       assert.equal(command, 'git')
       if (args[0] === 'merge-base') return success()
       if (args[0] === 'status') {
-        return success(dirty.map((path) => `?? ${path}`).join('\n'))
+        const status = options.tracked ? ' M ' : '?? '
+        return success(dirty.map((path) => `${status}${path}`).join('\n'))
       }
       if (args[0] === 'rev-parse' && args.includes('--short=12')) return success('abc123def456\n')
       if (args[0] === 'rev-parse') return success(`${head}\n`)

@@ -325,8 +325,11 @@ async function assertRequiredAncestor(run, root, commit) {
 }
 
 async function worktreePaths(run, root) {
-  const output = await gitOutput(run, root, ['status', '--porcelain=v1', '--untracked-files=all'])
-  return lines(output).map((line) => line.slice(3).replace(/^"|"$/g, ''))
+  const result = await git(run, root, ['status', '--porcelain=v1', '--untracked-files=all'])
+  return result.stdout
+    .split(/\r?\n/)
+    .filter(Boolean)
+    .map((line) => line.slice(3).replace(/^"|"$/g, ''))
 }
 
 async function git(run, root, args, options = {}) {
