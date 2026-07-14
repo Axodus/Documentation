@@ -13468,7 +13468,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "29fcb51124c6235b1f7d3dd185f6230435cb768caf1991bf599e88adf58b8623",
+      "sha256": "e8aa98e6b13058f819e12418513cc740b5aa9f06579b1e891c9d61ea631c6f38",
       "source_path": "documentation/CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13493,7 +13493,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "e37225b6b719f15a72b326f333515ec6ffcd6c1f3317b89b4fddb90c3f3bd73e",
+      "sha256": "bd40d55cad0b0cd001fc7b596a942d8b4dfee920f96058b023925e74726fff15",
       "source_path": "documentation/CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13521,7 +13521,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "800dd0ea2629353b395c84fe34bc3c6cdc30fdd44cbf377ea4b35278cad353d8",
+      "sha256": "2c1b6145aa7404f4d8ee61a7b2ee5b241251ee538284ed37d09d6c6b4c527dd4",
       "source_path": "documentation/CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13548,7 +13548,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "3665031bbd845d80e2378376834267aea6b9d43fb569326eb4d8b0900e000c03",
+      "sha256": "a7e1681e6529cf1f23cc0f8d71b677581f4388df7fdd05263e006e4dd7f7f41a",
       "source_path": "documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13573,7 +13573,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "e35f873a6e61c51efc9485656a12d167f2372eb0bbadc4b9249385bc8a29bad7",
+      "sha256": "911d672e028887e4cd1aa52b28d476cfd38352f51c200a12389c46f8da0f61c7",
       "source_path": "documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md",
       "superseded_by": [],
       "supersedes": [],
@@ -16600,7 +16600,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "4d1e52745bec5896539970d5c23c61371f3b30097bb954c5a01a55e92f7e7905",
+      "sha256": "d48ab0a32893482784ae7332d8f0d702d0fb914f2482848c1d05dc1b84b7496b",
       "source_path": "documentation/INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md",
       "superseded_by": [],
       "supersedes": [],
@@ -16625,7 +16625,7 @@
         "DOCUMENTATION-EPIC-04",
         "DOCUMENTATION-REORG-INTAKE-REQ-02"
       ],
-      "sha256": "1b60834f286a1cf119770c28834f861d05fc132c7df3e8f51c6cc6071b44ec23",
+      "sha256": "66af47d9f1648541a849abd06150bcaf54366672d00ec719995188a871bf51e6",
       "source_path": "documentation/INSTITUTIONAL-INTAKE-REQ-03-RELEASE-REGISTER.md",
       "superseded_by": [],
       "supersedes": [],
