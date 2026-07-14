@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 835
+Source Documents: 846
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 835
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 835 |
-| Canonical documents | 230 |
+| Total source documents | 846 |
+| Canonical documents | 241 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 835
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 92 |
+| REPORT | 103 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 835
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 188 |
+| CORE | 199 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 835
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 85 |
+| DRAFT | 96 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -290,6 +290,17 @@ Source Documents: 835
 | DOC-RPT-088 | Institutional Paper Scope Impact Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md](./INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md) |
 | DOC-RPT-086 | Institutional Research Gaps Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md](./INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md) |
 | DOC-RPT-084 | Institutional Terminology Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md](./INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md) |
+| DOC-RPT-098 | Legacy Directory Canonicalization Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md](./LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md) |
+| DOC-RPT-102 | Legacy Directory Closure Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-CLOSURE-REPORT.md](./LEGACY-DIRECTORY-CLOSURE-REPORT.md) |
+| DOC-RPT-101 | Legacy Directory Dependency Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md](./LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md) |
+| DOC-RPT-099 | Legacy Directory Migration Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md](./LEGACY-DIRECTORY-MIGRATION-REGISTER.md) |
+| DOC-RPT-100 | Legacy Directory Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-RISK-REVIEW.md](./LEGACY-DIRECTORY-RISK-REVIEW.md) |
+| DOC-RPT-094 | Repository Boundary Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md](./REPOSITORY-BOUNDARY-RISK-REVIEW.md) |
+| DOC-RPT-095 | Repository Information Architecture Target | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md](./REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md) |
+| DOC-RPT-097 | Repository Path Dependency Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md](./REPOSITORY-PATH-DEPENDENCY-REGISTER.md) |
+| DOC-RPT-093 | Repository Reorganization Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md](./REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md) |
+| DOC-RPT-096 | Repository Reorganization Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md](./REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md) |
+| DOC-RPT-092 | Repository Surface Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-SURFACE-INVENTORY.md](./REPOSITORY-SURFACE-INVENTORY.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](../governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
 | DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](../governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
 | DOC-REF-001 | Documentation Conflict Register | REFERENCE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-CONFLICT-REGISTER.md](../governance/DOCUMENTATION-CONFLICT-REGISTER.md) |
@@ -856,29 +867,29 @@ Source Documents: 835
 | — | Trading Alignment | — | — | — | — | — | [docs/treasury/trading-alignment.md](../docs/treasury/trading-alignment.md) |
 | — | Treasury Policy | — | — | — | — | — | [docs/treasury/treasury-policy.md](../docs/treasury/treasury-policy.md) |
 | — | Documentation ADR Index | — | — | — | — | — | [documentation/DOCUMENTATION-ADR-INDEX.md](./DOCUMENTATION-ADR-INDEX.md) |
-| — | AXODUS AGENT ALIGNMENT | — | — | — | — | — | [Documents/agents/AXODUS_AGENT_ALIGNMENT.md](../Documents/agents/AXODUS_AGENT_ALIGNMENT.md) |
-| — | agents | — | — | — | — | — | [Documents/agents/README.md](../Documents/agents/README.md) |
-| — | Documents Archive | — | — | — | — | — | [Documents/archive/README.md](../Documents/archive/README.md) |
-| — | AXODUS COMMERCIAL CORE | — | — | — | — | — | [Documents/commercial/AXODUS_COMMERCIAL_CORE.md](../Documents/commercial/AXODUS_COMMERCIAL_CORE.md) |
-| — | commercial | — | — | — | — | — | [Documents/commercial/README.md](../Documents/commercial/README.md) |
-| — | Planning Documents | — | — | — | — | — | [Documents/planning/README.md](../Documents/planning/README.md) |
-| — | VitePress Customization Report | — | — | — | — | — | [Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md](../Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md) |
-| — | AXODUS ECOSYSTEM ONBOARDING | — | — | — | — | — | [Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md](../Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md) |
-| — | AXODUS USER JOURNEY | — | — | — | — | — | [Documents/product/AXODUS_USER_JOURNEY.md](../Documents/product/AXODUS_USER_JOURNEY.md) |
-| — | product | — | — | — | — | — | [Documents/product/README.md](../Documents/product/README.md) |
-| — | Documents | — | — | — | — | — | [Documents/README.md](../Documents/README.md) |
-| — | Research Documents | — | — | — | — | — | [Documents/research/README.md](../Documents/research/README.md) |
-| — | AXODUS CAPITAL ALLOCATION MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md](../Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md) |
-| — | AXODUS CONSTITUTION | — | — | — | — | — | [Documents/strategy/AXODUS_CONSTITUTION.md](../Documents/strategy/AXODUS_CONSTITUTION.md) |
-| — | AXODUS DAO FEDERATION MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md](../Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md) |
-| — | AXODUS ECONOMIC MODEL | — | — | — | — | — | [Documents/strategy/AXODUS_ECONOMIC_MODEL.md](../Documents/strategy/AXODUS_ECONOMIC_MODEL.md) |
-| — | AXODUS TREASURY PHILOSOPHY | — | — | — | — | — | [Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md](../Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md) |
-| — | strategy | — | — | — | — | — | [Documents/strategy/README.md](../Documents/strategy/README.md) |
-| — | AXODUS TRADING PRINCIPLES | — | — | — | — | — | [Documents/trading/AXODUS_TRADING_PRINCIPLES.md](../Documents/trading/AXODUS_TRADING_PRINCIPLES.md) |
-| — | trading | — | — | — | — | — | [Documents/trading/README.md](../Documents/trading/README.md) |
 | — | Axodus Glossary | — | — | — | — | — | [GLOSSARY.md](../GLOSSARY.md) |
 | — | Axodus Governance | — | — | — | — | — | [GOVERNANCE.md](../GOVERNANCE.md) |
 | — | Governance | — | — | — | — | — | [governance/README.md](../governance/README.md) |
+| — | AXODUS AGENT ALIGNMENT | — | — | — | — | — | [legacy/agents/AXODUS_AGENT_ALIGNMENT.md](../legacy/agents/AXODUS_AGENT_ALIGNMENT.md) |
+| — | agents | — | — | — | — | — | [legacy/agents/README.md](../legacy/agents/README.md) |
+| — | Documents Archive | — | — | — | — | — | [legacy/archive/README.md](../legacy/archive/README.md) |
+| — | AXODUS COMMERCIAL CORE | — | — | — | — | — | [legacy/commercial/AXODUS_COMMERCIAL_CORE.md](../legacy/commercial/AXODUS_COMMERCIAL_CORE.md) |
+| — | commercial | — | — | — | — | — | [legacy/commercial/README.md](../legacy/commercial/README.md) |
+| — | Planning Documents | — | — | — | — | — | [legacy/planning/README.md](../legacy/planning/README.md) |
+| — | VitePress Customization Report | — | — | — | — | — | [legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md](../legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md) |
+| — | AXODUS ECOSYSTEM ONBOARDING | — | — | — | — | — | [legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md](../legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md) |
+| — | AXODUS USER JOURNEY | — | — | — | — | — | [legacy/product/AXODUS_USER_JOURNEY.md](../legacy/product/AXODUS_USER_JOURNEY.md) |
+| — | product | — | — | — | — | — | [legacy/product/README.md](../legacy/product/README.md) |
+| — | Documents | — | — | — | — | — | [legacy/README.md](../legacy/README.md) |
+| — | Research Documents | — | — | — | — | — | [legacy/research/README.md](../legacy/research/README.md) |
+| — | AXODUS CAPITAL ALLOCATION MODEL | — | — | — | — | — | [legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md](../legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md) |
+| — | AXODUS CONSTITUTION | — | — | — | — | — | [legacy/strategy/AXODUS_CONSTITUTION.md](../legacy/strategy/AXODUS_CONSTITUTION.md) |
+| — | AXODUS DAO FEDERATION MODEL | — | — | — | — | — | [legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md](../legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md) |
+| — | AXODUS ECONOMIC MODEL | — | — | — | — | — | [legacy/strategy/AXODUS_ECONOMIC_MODEL.md](../legacy/strategy/AXODUS_ECONOMIC_MODEL.md) |
+| — | AXODUS TREASURY PHILOSOPHY | — | — | — | — | — | [legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md](../legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md) |
+| — | strategy | — | — | — | — | — | [legacy/strategy/README.md](../legacy/strategy/README.md) |
+| — | AXODUS TRADING PRINCIPLES | — | — | — | — | — | [legacy/trading/AXODUS_TRADING_PRINCIPLES.md](../legacy/trading/AXODUS_TRADING_PRINCIPLES.md) |
+| — | trading | — | — | — | — | — | [legacy/trading/README.md](../legacy/trading/README.md) |
 | — | Meetings | — | — | — | — | — | [meetings/README.md](../meetings/README.md) |
 | — | Playbooks | — | — | — | — | — | [operations/playbooks/README.md](../operations/playbooks/README.md) |
 | — | Operations | — | — | — | — | — | [operations/README.md](../operations/README.md) |

@@ -161,7 +161,7 @@ All 601 legacy nodes lack canonical IDs and cannot be valid relationship
 sources or targets. The disposition registry identifies 187 migration
 candidates, including 116 with security routing. One exact legacy hash
 duplicate exists between `docs/trading/README.md` and
-`Documents/trading/README.md`; neither path is evidence that one supersedes the
+`legacy/trading/README.md`; neither path is evidence that one supersedes the
 other. Migration, deduplication, and canonical identity must precede edge
 review. No migration-preferred item is in `TRACEABILITY-BATCH-01`.
 

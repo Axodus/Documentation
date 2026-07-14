@@ -1,7 +1,7 @@
 {
   "baseline_entries": 563,
   "baseline_version": "1.0.0",
-  "canonical_documents": 230,
+  "canonical_documents": 241,
   "changed_legacy": 0,
   "exception_entries": 563,
   "expired_exceptions": 0,
@@ -13,10 +13,10 @@
   "removed_legacy": 0,
   "repository_summary": {
     "active_exceptions": 563,
-    "baseline_valid": true,
+    "baseline_valid": false,
     "exceptions_valid": true,
     "invalid_exceptions": 0,
     "revoked_exceptions": 0
   },
-  "total_documents": 835
+  "total_documents": 846
 }

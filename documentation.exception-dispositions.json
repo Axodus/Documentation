@@ -19542,7 +19542,7 @@
     },
     {
       "exception_id": "DOC-EXC-600",
-      "document_path": "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
+      "document_path": "legacy/agents/AXODUS_AGENT_ALIGNMENT.md",
       "baseline_sha256": "ae444795ff39aa2b325d804d6117ec2650420bbcf05077b684a5474ec29b1627",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19579,7 +19579,7 @@
     },
     {
       "exception_id": "DOC-EXC-601",
-      "document_path": "Documents/archive/README.md",
+      "document_path": "legacy/archive/README.md",
       "baseline_sha256": "eb5e88760bf731cb0b41aadbee09c4b941121a2227e83f64d0b452e365ea3d18",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19616,7 +19616,7 @@
     },
     {
       "exception_id": "DOC-EXC-602",
-      "document_path": "Documents/commercial/AXODUS_COMMERCIAL_CORE.md",
+      "document_path": "legacy/commercial/AXODUS_COMMERCIAL_CORE.md",
       "baseline_sha256": "fcf960b1e11bd875d8056b922e0ba5f8b7ee25a8b5d91aca1c9b96cf9cfdc168",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19653,7 +19653,7 @@
     },
     {
       "exception_id": "DOC-EXC-603",
-      "document_path": "Documents/planning/README.md",
+      "document_path": "legacy/planning/README.md",
       "baseline_sha256": "246a740dcfcf342e4b27c322805eb8eebf2ef926903467decdff758bc367c72f",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19690,7 +19690,7 @@
     },
     {
       "exception_id": "DOC-EXC-604",
-      "document_path": "Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md",
+      "document_path": "legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md",
       "baseline_sha256": "60340cbde8576645d5b857e3e6e1d64e2a8cd6169a5c4d4e9d497d99076fbba3",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19727,7 +19727,7 @@
     },
     {
       "exception_id": "DOC-EXC-605",
-      "document_path": "Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md",
+      "document_path": "legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md",
       "baseline_sha256": "cb55c096f0a7f5d6ebc278646b3c7457668d1f1bfa88861b2afe8bf93439940c",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19764,7 +19764,7 @@
     },
     {
       "exception_id": "DOC-EXC-606",
-      "document_path": "Documents/product/AXODUS_USER_JOURNEY.md",
+      "document_path": "legacy/product/AXODUS_USER_JOURNEY.md",
       "baseline_sha256": "8de79da06c042b6c3b7aa902ae60080680ad153c646fda503b025bbb44564f20",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19801,7 +19801,7 @@
     },
     {
       "exception_id": "DOC-EXC-607",
-      "document_path": "Documents/README.md",
+      "document_path": "legacy/README.md",
       "baseline_sha256": "f1a227f3a60e6c5ee9e7b64adb66eafbb7fd7782a1e5458af7ee908224636dbc",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19838,7 +19838,7 @@
     },
     {
       "exception_id": "DOC-EXC-608",
-      "document_path": "Documents/research/README.md",
+      "document_path": "legacy/research/README.md",
       "baseline_sha256": "729a9e2c51c9e15286e18779aea4b24a4ee8cd8f8c8c36dd93684e61366d4191",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19875,7 +19875,7 @@
     },
     {
       "exception_id": "DOC-EXC-609",
-      "document_path": "Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md",
+      "document_path": "legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md",
       "baseline_sha256": "8d26b48bc4c1a98787710778fb485b3b7e54c0c9466923b22bbf800ce28e092a",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19912,7 +19912,7 @@
     },
     {
       "exception_id": "DOC-EXC-610",
-      "document_path": "Documents/strategy/AXODUS_CONSTITUTION.md",
+      "document_path": "legacy/strategy/AXODUS_CONSTITUTION.md",
       "baseline_sha256": "322695d46ff8e35469dcb5631a909ec4ebf4d9d4661e60df7b04a5f78cc09bbd",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19949,7 +19949,7 @@
     },
     {
       "exception_id": "DOC-EXC-611",
-      "document_path": "Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md",
+      "document_path": "legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md",
       "baseline_sha256": "4cc7c6421978a73c5be1451829764f0fcd460d884fb6e3c46c5393429a57c0ca",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -19986,7 +19986,7 @@
     },
     {
       "exception_id": "DOC-EXC-612",
-      "document_path": "Documents/strategy/AXODUS_ECONOMIC_MODEL.md",
+      "document_path": "legacy/strategy/AXODUS_ECONOMIC_MODEL.md",
       "baseline_sha256": "f04078866fb6a78fd2f65d9f3d167bceb31cb9079cc054f391c9afbc80f64c77",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -20023,7 +20023,7 @@
     },
     {
       "exception_id": "DOC-EXC-613",
-      "document_path": "Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md",
+      "document_path": "legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md",
       "baseline_sha256": "5004174f41a6969ec14cc35bbea0f7af761140374d6d45496684da0a73270b22",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",
@@ -20060,7 +20060,7 @@
     },
     {
       "exception_id": "DOC-EXC-614",
-      "document_path": "Documents/trading/AXODUS_TRADING_PRINCIPLES.md",
+      "document_path": "legacy/trading/AXODUS_TRADING_PRINCIPLES.md",
       "baseline_sha256": "461a5c14724bdac23a66b898bba4616bd7b4ac8601c1e558760db1ae2b38dbee",
       "current_exception_disposition": "MIGRATE_ON_CHANGE",
       "primary_disposition": "DEFER_WITH_RISK",

@@ -2,6 +2,15 @@
   "diagnostics": [
     {
       "document_id": null,
+      "error_code": "DOC-VAL-034",
+      "field": "entries",
+      "message": "Baseline entries must be sorted by normalized POSIX path.",
+      "rule_id": "DOC-RULE-034",
+      "severity": "INFO",
+      "source_path": null
+    },
+    {
+      "document_id": null,
       "error_code": "DOC-VAL-001",
       "field": null,
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
@@ -10342,364 +10351,103 @@
       "source_path": "documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
+      "document_id": "DOC-RPT-098",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/agents/AXODUS_AGENT_ALIGNMENT.md"
+      "source_path": "documentation/LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "document_id": "DOC-RPT-102",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/agents/AXODUS_AGENT_ALIGNMENT.md"
+      "source_path": "documentation/LEGACY-DIRECTORY-CLOSURE-REPORT.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
+      "document_id": "DOC-RPT-101",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/agents/README.md"
+      "source_path": "documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-029",
-      "field": null,
-      "message": "Legacy document is not present in the accepted baseline.",
-      "rule_id": "DOC-RULE-029",
+      "document_id": "DOC-RPT-099",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/agents/README.md"
+      "source_path": "documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
+      "document_id": "DOC-RPT-100",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/archive/README.md"
+      "source_path": "documentation/LEGACY-DIRECTORY-RISK-REVIEW.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "document_id": "DOC-RPT-094",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/archive/README.md"
+      "source_path": "documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
+      "document_id": "DOC-RPT-095",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/commercial/AXODUS_COMMERCIAL_CORE.md"
+      "source_path": "documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "document_id": "DOC-RPT-097",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/commercial/AXODUS_COMMERCIAL_CORE.md"
+      "source_path": "documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
+      "document_id": "DOC-RPT-093",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/commercial/README.md"
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-029",
-      "field": null,
-      "message": "Legacy document is not present in the accepted baseline.",
-      "rule_id": "DOC-RULE-029",
+      "document_id": "DOC-RPT-096",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/commercial/README.md"
+      "source_path": "documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md"
     },
     {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
+      "document_id": "DOC-RPT-092",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
       "severity": "INFO",
-      "source_path": "Documents/planning/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/planning/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/product/AXODUS_USER_JOURNEY.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/product/AXODUS_USER_JOURNEY.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/product/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-029",
-      "field": null,
-      "message": "Legacy document is not present in the accepted baseline.",
-      "rule_id": "DOC-RULE-029",
-      "severity": "INFO",
-      "source_path": "Documents/product/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/research/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/research/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_CONSTITUTION.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_CONSTITUTION.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_ECONOMIC_MODEL.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_ECONOMIC_MODEL.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-029",
-      "field": null,
-      "message": "Legacy document is not present in the accepted baseline.",
-      "rule_id": "DOC-RULE-029",
-      "severity": "INFO",
-      "source_path": "Documents/strategy/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/trading/AXODUS_TRADING_PRINCIPLES.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
-      "severity": "INFO",
-      "source_path": "Documents/trading/AXODUS_TRADING_PRINCIPLES.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-001",
-      "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "Documents/trading/README.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-029",
-      "field": null,
-      "message": "Legacy document is not present in the accepted baseline.",
-      "rule_id": "DOC-RULE-029",
-      "severity": "INFO",
-      "source_path": "Documents/trading/README.md"
+      "source_path": "documentation/REPOSITORY-SURFACE-INVENTORY.md"
     },
     {
       "document_id": null,
@@ -10754,6 +10502,366 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": "governance/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/agents/AXODUS_AGENT_ALIGNMENT.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/agents/AXODUS_AGENT_ALIGNMENT.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/agents/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": "legacy/agents/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/archive/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/archive/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/commercial/AXODUS_COMMERCIAL_CORE.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/commercial/AXODUS_COMMERCIAL_CORE.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/commercial/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": "legacy/commercial/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/planning/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/planning/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/product/AXODUS_USER_JOURNEY.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/product/AXODUS_USER_JOURNEY.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/product/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": "legacy/product/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/research/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/research/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_CONSTITUTION.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_CONSTITUTION.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_ECONOMIC_MODEL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_ECONOMIC_MODEL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": "legacy/strategy/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/trading/AXODUS_TRADING_PRINCIPLES.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-027",
+      "field": null,
+      "message": "Legacy document path and hash match the accepted baseline.",
+      "rule_id": "DOC-RULE-027",
+      "severity": "INFO",
+      "source_path": "legacy/trading/AXODUS_TRADING_PRINCIPLES.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": "legacy/trading/README.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": "legacy/trading/README.md"
     },
     {
       "document_id": null,
@@ -11105,7 +11213,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1232,
+    "info": 1244,
     "invalid_exceptions": 0,
     "known_legacy": 563,
     "legacy_documents": 591,
@@ -11117,16 +11225,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 835,
+    "total_documents": 846,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 230,
+    "validated_documents": 241,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 230,
+  "validated_documents": 241,
   "validation_version": "1.1.0",
   "warnings": 0
 }

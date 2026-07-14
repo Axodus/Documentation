@@ -6346,7 +6346,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
+      "path": "legacy/agents/AXODUS_AGENT_ALIGNMENT.md",
       "sha256": "ae444795ff39aa2b325d804d6117ec2650420bbcf05077b684a5474ec29b1627",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6358,7 +6358,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/archive/README.md",
+      "path": "legacy/archive/README.md",
       "sha256": "eb5e88760bf731cb0b41aadbee09c4b941121a2227e83f64d0b452e365ea3d18",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6370,7 +6370,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/commercial/AXODUS_COMMERCIAL_CORE.md",
+      "path": "legacy/commercial/AXODUS_COMMERCIAL_CORE.md",
       "sha256": "fcf960b1e11bd875d8056b922e0ba5f8b7ee25a8b5d91aca1c9b96cf9cfdc168",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6382,7 +6382,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/planning/README.md",
+      "path": "legacy/planning/README.md",
       "sha256": "246a740dcfcf342e4b27c322805eb8eebf2ef926903467decdff758bc367c72f",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6394,7 +6394,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md",
+      "path": "legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md",
       "sha256": "60340cbde8576645d5b857e3e6e1d64e2a8cd6169a5c4d4e9d497d99076fbba3",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6406,7 +6406,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md",
+      "path": "legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md",
       "sha256": "cb55c096f0a7f5d6ebc278646b3c7457668d1f1bfa88861b2afe8bf93439940c",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6418,7 +6418,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/product/AXODUS_USER_JOURNEY.md",
+      "path": "legacy/product/AXODUS_USER_JOURNEY.md",
       "sha256": "8de79da06c042b6c3b7aa902ae60080680ad153c646fda503b025bbb44564f20",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6430,7 +6430,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/README.md",
+      "path": "legacy/README.md",
       "sha256": "f1a227f3a60e6c5ee9e7b64adb66eafbb7fd7782a1e5458af7ee908224636dbc",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6442,7 +6442,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/research/README.md",
+      "path": "legacy/research/README.md",
       "sha256": "729a9e2c51c9e15286e18779aea4b24a4ee8cd8f8c8c36dd93684e61366d4191",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6454,7 +6454,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md",
+      "path": "legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md",
       "sha256": "8d26b48bc4c1a98787710778fb485b3b7e54c0c9466923b22bbf800ce28e092a",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6466,7 +6466,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/strategy/AXODUS_CONSTITUTION.md",
+      "path": "legacy/strategy/AXODUS_CONSTITUTION.md",
       "sha256": "322695d46ff8e35469dcb5631a909ec4ebf4d9d4661e60df7b04a5f78cc09bbd",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6478,7 +6478,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md",
+      "path": "legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md",
       "sha256": "4cc7c6421978a73c5be1451829764f0fcd460d884fb6e3c46c5393429a57c0ca",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6490,7 +6490,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/strategy/AXODUS_ECONOMIC_MODEL.md",
+      "path": "legacy/strategy/AXODUS_ECONOMIC_MODEL.md",
       "sha256": "f04078866fb6a78fd2f65d9f3d167bceb31cb9079cc054f391c9afbc80f64c77",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6502,7 +6502,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md",
+      "path": "legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md",
       "sha256": "5004174f41a6969ec14cc35bbea0f7af761140374d6d45496684da0a73270b22",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
@@ -6514,7 +6514,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "Documents/trading/AXODUS_TRADING_PRINCIPLES.md",
+      "path": "legacy/trading/AXODUS_TRADING_PRINCIPLES.md",
       "sha256": "461a5c14724bdac23a66b898bba4616bd7b4ac8601c1e558760db1ae2b38dbee",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },

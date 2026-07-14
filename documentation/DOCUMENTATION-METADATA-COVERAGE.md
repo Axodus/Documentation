@@ -7,9 +7,9 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 835
-- Canonical metadata field coverage: 29.22%
-- Schema 1.0.0 canonical documents: 230
+- Source documents: 846
+- Canonical metadata field coverage: 30.14%
+- Schema 1.0.0 canonical documents: 241
 - Legacy documents: 591
 - Documents missing canonical metadata: 591
 - Documents without YAML front matter: 591
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 244 | 591 | 29.22% |
-| `document_id` | 244 | 591 | 29.22% |
-| `aliases` | 244 | 591 | 29.22% |
-| `document_type` | 244 | 591 | 29.22% |
-| `title` | 244 | 591 | 29.22% |
-| `summary` | 244 | 591 | 29.22% |
-| `version` | 244 | 591 | 29.22% |
-| `publication_status` | 244 | 591 | 29.22% |
-| `document_state` | 244 | 591 | 29.22% |
-| `maturity_level` | 244 | 591 | 29.22% |
-| `authority_scope` | 244 | 591 | 29.22% |
-| `authority_level` | 244 | 591 | 29.22% |
-| `author` | 244 | 591 | 29.22% |
-| `owner` | 244 | 591 | 29.22% |
-| `maintainer` | 244 | 591 | 29.22% |
-| `technical_reviewers` | 244 | 591 | 29.22% |
-| `business_reviewers` | 244 | 591 | 29.22% |
-| `security_reviewers` | 244 | 591 | 29.22% |
-| `approver` | 244 | 591 | 29.22% |
-| `created_date` | 244 | 591 | 29.22% |
-| `last_updated` | 244 | 591 | 29.22% |
-| `last_reviewed` | 244 | 591 | 29.22% |
-| `review_cycle` | 244 | 591 | 29.22% |
-| `next_review` | 244 | 591 | 29.22% |
-| `supersedes` | 244 | 591 | 29.22% |
-| `relationships` | 244 | 591 | 29.22% |
-| `related_epics` | 244 | 591 | 29.22% |
-| `related_requirements` | 244 | 591 | 29.22% |
-| `related_adrs` | 244 | 591 | 29.22% |
-| `related_cores` | 244 | 591 | 29.22% |
-| `implementation_refs` | 244 | 591 | 29.22% |
-| `production_gate_impact` | 244 | 591 | 29.22% |
+| `schema_version` | 255 | 591 | 30.14% |
+| `document_id` | 255 | 591 | 30.14% |
+| `aliases` | 255 | 591 | 30.14% |
+| `document_type` | 255 | 591 | 30.14% |
+| `title` | 255 | 591 | 30.14% |
+| `summary` | 255 | 591 | 30.14% |
+| `version` | 255 | 591 | 30.14% |
+| `publication_status` | 255 | 591 | 30.14% |
+| `document_state` | 255 | 591 | 30.14% |
+| `maturity_level` | 255 | 591 | 30.14% |
+| `authority_scope` | 255 | 591 | 30.14% |
+| `authority_level` | 255 | 591 | 30.14% |
+| `author` | 255 | 591 | 30.14% |
+| `owner` | 255 | 591 | 30.14% |
+| `maintainer` | 255 | 591 | 30.14% |
+| `technical_reviewers` | 255 | 591 | 30.14% |
+| `business_reviewers` | 255 | 591 | 30.14% |
+| `security_reviewers` | 255 | 591 | 30.14% |
+| `approver` | 255 | 591 | 30.14% |
+| `created_date` | 255 | 591 | 30.14% |
+| `last_updated` | 255 | 591 | 30.14% |
+| `last_reviewed` | 255 | 591 | 30.14% |
+| `review_cycle` | 255 | 591 | 30.14% |
+| `next_review` | 255 | 591 | 30.14% |
+| `supersedes` | 255 | 591 | 30.14% |
+| `relationships` | 255 | 591 | 30.14% |
+| `related_epics` | 255 | 591 | 30.14% |
+| `related_requirements` | 255 | 591 | 30.14% |
+| `related_adrs` | 255 | 591 | 30.14% |
+| `related_cores` | 255 | 591 | 30.14% |
+| `implementation_refs` | 255 | 591 | 30.14% |
+| `production_gate_impact` | 255 | 591 | 30.14% |
 
 ## Documents Without Front Matter
 
@@ -606,29 +606,29 @@ Generator Version: 1.0.0
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
-- Documents/agents/AXODUS_AGENT_ALIGNMENT.md
-- Documents/agents/README.md
-- Documents/archive/README.md
-- Documents/commercial/AXODUS_COMMERCIAL_CORE.md
-- Documents/commercial/README.md
-- Documents/planning/README.md
-- Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
-- Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md
-- Documents/product/AXODUS_USER_JOURNEY.md
-- Documents/product/README.md
-- Documents/README.md
-- Documents/research/README.md
-- Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
-- Documents/strategy/AXODUS_CONSTITUTION.md
-- Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md
-- Documents/strategy/AXODUS_ECONOMIC_MODEL.md
-- Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md
-- Documents/strategy/README.md
-- Documents/trading/AXODUS_TRADING_PRINCIPLES.md
-- Documents/trading/README.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
+- legacy/agents/AXODUS_AGENT_ALIGNMENT.md
+- legacy/agents/README.md
+- legacy/archive/README.md
+- legacy/commercial/AXODUS_COMMERCIAL_CORE.md
+- legacy/commercial/README.md
+- legacy/planning/README.md
+- legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
+- legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md
+- legacy/product/AXODUS_USER_JOURNEY.md
+- legacy/product/README.md
+- legacy/README.md
+- legacy/research/README.md
+- legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
+- legacy/strategy/AXODUS_CONSTITUTION.md
+- legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md
+- legacy/strategy/AXODUS_ECONOMIC_MODEL.md
+- legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md
+- legacy/strategy/README.md
+- legacy/trading/AXODUS_TRADING_PRINCIPLES.md
+- legacy/trading/README.md
 - meetings/README.md
 - operations/playbooks/README.md
 - operations/README.md
@@ -1200,29 +1200,29 @@ Generator Version: 1.0.0
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
-- Documents/agents/AXODUS_AGENT_ALIGNMENT.md
-- Documents/agents/README.md
-- Documents/archive/README.md
-- Documents/commercial/AXODUS_COMMERCIAL_CORE.md
-- Documents/commercial/README.md
-- Documents/planning/README.md
-- Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
-- Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md
-- Documents/product/AXODUS_USER_JOURNEY.md
-- Documents/product/README.md
-- Documents/README.md
-- Documents/research/README.md
-- Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
-- Documents/strategy/AXODUS_CONSTITUTION.md
-- Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md
-- Documents/strategy/AXODUS_ECONOMIC_MODEL.md
-- Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md
-- Documents/strategy/README.md
-- Documents/trading/AXODUS_TRADING_PRINCIPLES.md
-- Documents/trading/README.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
+- legacy/agents/AXODUS_AGENT_ALIGNMENT.md
+- legacy/agents/README.md
+- legacy/archive/README.md
+- legacy/commercial/AXODUS_COMMERCIAL_CORE.md
+- legacy/commercial/README.md
+- legacy/planning/README.md
+- legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
+- legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md
+- legacy/product/AXODUS_USER_JOURNEY.md
+- legacy/product/README.md
+- legacy/README.md
+- legacy/research/README.md
+- legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
+- legacy/strategy/AXODUS_CONSTITUTION.md
+- legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md
+- legacy/strategy/AXODUS_ECONOMIC_MODEL.md
+- legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md
+- legacy/strategy/README.md
+- legacy/trading/AXODUS_TRADING_PRINCIPLES.md
+- legacy/trading/README.md
 - meetings/README.md
 - operations/playbooks/README.md
 - operations/README.md

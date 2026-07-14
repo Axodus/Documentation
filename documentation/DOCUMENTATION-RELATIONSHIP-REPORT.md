@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 835
+- Graph nodes: 846
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 649
+- Orphan documents: 660
 - Cycles: 13
 
 ## Relationship Counts
@@ -646,29 +646,40 @@ None.
 - documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md
 - documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md
 - documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md
-- Documents/agents/AXODUS_AGENT_ALIGNMENT.md
-- Documents/agents/README.md
-- Documents/archive/README.md
-- Documents/commercial/AXODUS_COMMERCIAL_CORE.md
-- Documents/commercial/README.md
-- Documents/planning/README.md
-- Documents/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
-- Documents/product/AXODUS_ECOSYSTEM_ONBOARDING.md
-- Documents/product/AXODUS_USER_JOURNEY.md
-- Documents/product/README.md
-- Documents/README.md
-- Documents/research/README.md
-- Documents/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
-- Documents/strategy/AXODUS_CONSTITUTION.md
-- Documents/strategy/AXODUS_DAO_FEDERATION_MODEL.md
-- Documents/strategy/AXODUS_ECONOMIC_MODEL.md
-- Documents/strategy/AXODUS_TREASURY_PHILOSOPHY.md
-- Documents/strategy/README.md
-- Documents/trading/AXODUS_TRADING_PRINCIPLES.md
-- Documents/trading/README.md
+- documentation/LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md
+- documentation/LEGACY-DIRECTORY-CLOSURE-REPORT.md
+- documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md
+- documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md
+- documentation/LEGACY-DIRECTORY-RISK-REVIEW.md
+- documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md
+- documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md
+- documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md
+- documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md
+- documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md
+- documentation/REPOSITORY-SURFACE-INVENTORY.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
+- legacy/agents/AXODUS_AGENT_ALIGNMENT.md
+- legacy/agents/README.md
+- legacy/archive/README.md
+- legacy/commercial/AXODUS_COMMERCIAL_CORE.md
+- legacy/commercial/README.md
+- legacy/planning/README.md
+- legacy/planning/VITEPRESS_CUSTOMIZATION_REPORT.md
+- legacy/product/AXODUS_ECOSYSTEM_ONBOARDING.md
+- legacy/product/AXODUS_USER_JOURNEY.md
+- legacy/product/README.md
+- legacy/README.md
+- legacy/research/README.md
+- legacy/strategy/AXODUS_CAPITAL_ALLOCATION_MODEL.md
+- legacy/strategy/AXODUS_CONSTITUTION.md
+- legacy/strategy/AXODUS_DAO_FEDERATION_MODEL.md
+- legacy/strategy/AXODUS_ECONOMIC_MODEL.md
+- legacy/strategy/AXODUS_TREASURY_PHILOSOPHY.md
+- legacy/strategy/README.md
+- legacy/trading/AXODUS_TRADING_PRINCIPLES.md
+- legacy/trading/README.md
 - meetings/README.md
 - operations/playbooks/README.md
 - operations/README.md

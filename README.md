@@ -111,7 +111,7 @@ Additional planned or context-dependent nuclei may include MCPs and Compute. The
 - [Content Guardrails](.instructions/CONTENT_GUARDRAILS.md)
 - [Rebuild Protocol](.instructions/REBUILD_PROTOCOL.md)
 - [Review Checklist](.instructions/REVIEW_CHECKLIST.md)
-- [Planning and Historical References](Documents/README.md)
+- [Planning and Historical References](legacy/README.md)
 
 ## Important Risk Note
 

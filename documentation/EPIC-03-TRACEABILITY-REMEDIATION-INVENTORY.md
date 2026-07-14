@@ -310,7 +310,7 @@ candidate provides exact authority evidence that one canonical document
 replaces another, so the frozen set contains zero supersession mutations.
 
 One exact legacy hash duplicate exists:
-`docs/trading/README.md` and `Documents/trading/README.md`. Both are unbaselined
+`docs/trading/README.md` and `legacy/trading/README.md`. Both are unbaselined
 legacy sources without canonical IDs. The duplicate is a migration conflict,
 not evidence that either path supersedes the other.
 
