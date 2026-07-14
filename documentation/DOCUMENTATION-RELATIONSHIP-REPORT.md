@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 796
+- Graph nodes: 797
 - Declared relationships: 369
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 620
+- Orphan documents: 621
 - Cycles: 13
 
 ## Relationship Counts
@@ -612,6 +612,7 @@ None.
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
+- documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md
 - documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md
 - documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md
 - documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md

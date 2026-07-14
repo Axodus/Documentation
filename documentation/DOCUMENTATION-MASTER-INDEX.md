@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 796
+Source Documents: 797
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 796
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 796 |
-| Canonical documents | 181 |
+| Total source documents | 797 |
+| Canonical documents | 182 |
 | Legacy documents | 601 |
 | Template documents | 14 |
 | Declared relationships | 369 |
@@ -42,7 +42,7 @@ Source Documents: 796
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 53 |
+| REPORT | 54 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 796
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 139 |
+| CORE | 140 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 796
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 128 |
-| DRAFT | 46 |
+| DRAFT | 47 |
 | UNSPECIFIED | 601 |
 ## Canonical Documents
 
@@ -236,6 +236,7 @@ Source Documents: 796
 | DOC-RPT-043 | Documentation Traceability Depth Baseline | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md](./DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md](./DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-VALIDATION-RULES.md](./DOCUMENTATION-VALIDATION-RULES.md) |
+| DOC-RPT-053 | Epic 03 Traceability Batch 01 Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md](./EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md) |
 | DOC-RPT-052 | Epic 03 Traceability Batch 01 Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md](./EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md) |
 | DOC-RPT-049 | Epic 03 Traceability Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md](./EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md) |
 | DOC-RPT-051 | Epic 03 Traceability Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md](./EPIC-03-TRACEABILITY-EXECUTION-PLAN.md) |

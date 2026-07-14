@@ -5217,6 +5217,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-053",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-053",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
+      "title": "Epic 03 Traceability Batch 01 Closure Audit"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -8776,6 +8786,7 @@
     "docs/treasury/trading-alignment.md",
     "docs/treasury/treasury-policy.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
+    "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
     "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
     "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
     "documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md",
@@ -9563,6 +9574,7 @@
       "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "documentation/DOCUMENTATION-VALIDATION-RULES.md",
+      "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
       "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
       "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
       "documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md",
@@ -9833,7 +9845,8 @@
       "DOC-RPT-049",
       "DOC-RPT-050",
       "DOC-RPT-051",
-      "DOC-RPT-052"
+      "DOC-RPT-052",
+      "DOC-RPT-053"
     ]
   },
   "relationship_counts": {

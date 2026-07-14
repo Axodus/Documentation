@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 796,
+  "document_count": 797,
   "documents": [
     {
       "aliases": [],
@@ -15684,6 +15684,33 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-053",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-08-CLOSURE",
+        "DOC-ADR-004",
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOC-ADR-022",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "1d742f7fb1be24570feec56c8492147c4cee4fada0a9a634662b2c8ee1da5331",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Traceability Batch 01 Closure Audit",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.EXECUTION",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-052",
@@ -19487,12 +19514,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 181,
+    "compliant_documents": 182,
     "declared_relationships": 369,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 139,
+      "CORE": 140,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -19500,7 +19527,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 97,
+      "D2": 98,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 601
@@ -19518,7 +19545,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 121,
+      "Axodus Documentation Core": 122,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -19537,7 +19564,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 128,
-      "DRAFT": 46,
+      "DRAFT": 47,
       "UNSPECIFIED": 601
     },
     "documents_by_type": {
@@ -19550,7 +19577,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 53,
+      "REPORT": 54,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -19563,6 +19590,6 @@
     "generated_documents": 8,
     "legacy_documents": 601,
     "template_documents": 14,
-    "total_documents": 796
+    "total_documents": 797
   }
 }
