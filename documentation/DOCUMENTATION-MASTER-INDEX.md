@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 846
+Source Documents: 862
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 846
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 846 |
-| Canonical documents | 241 |
+| Total source documents | 862 |
+| Canonical documents | 257 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 846
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 103 |
+| REPORT | 119 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 846
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 199 |
+| CORE | 215 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 846
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 96 |
+| DRAFT | 112 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -290,17 +290,33 @@ Source Documents: 846
 | DOC-RPT-088 | Institutional Paper Scope Impact Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md](./INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md) |
 | DOC-RPT-086 | Institutional Research Gaps Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md](./INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md) |
 | DOC-RPT-084 | Institutional Terminology Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md](./INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md) |
+| DOC-RPT-104 | Knowledge Surface Authority Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-AUTHORITY-REGISTER.md](./KNOWLEDGE-SURFACE-AUTHORITY-REGISTER.md) |
+| DOC-RPT-105 | Knowledge Surface Consumer Map | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-CONSUMER-MAP.md](./KNOWLEDGE-SURFACE-CONSUMER-MAP.md) |
+| DOC-RPT-109 | Knowledge Surface Execution Freeze | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-EXECUTION-FREEZE.md](./KNOWLEDGE-SURFACE-EXECUTION-FREEZE.md) |
+| DOC-RPT-103 | Knowledge Surface Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-INVENTORY.md](./KNOWLEDGE-SURFACE-INVENTORY.md) |
+| DOC-RPT-107 | Knowledge Surface Normalization Decision | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-NORMALIZATION-DECISION.md](./KNOWLEDGE-SURFACE-NORMALIZATION-DECISION.md) |
+| DOC-RPT-108 | Knowledge Surface Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-RISK-REVIEW.md](./KNOWLEDGE-SURFACE-RISK-REVIEW.md) |
+| DOC-RPT-106 | Knowledge Surface Topology Evaluation | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/KNOWLEDGE-SURFACE-TOPOLOGY-EVALUATION.md](./KNOWLEDGE-SURFACE-TOPOLOGY-EVALUATION.md) |
 | DOC-RPT-098 | Legacy Directory Canonicalization Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md](./LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md) |
 | DOC-RPT-102 | Legacy Directory Closure Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-CLOSURE-REPORT.md](./LEGACY-DIRECTORY-CLOSURE-REPORT.md) |
 | DOC-RPT-101 | Legacy Directory Dependency Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md](./LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md) |
 | DOC-RPT-099 | Legacy Directory Migration Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md](./LEGACY-DIRECTORY-MIGRATION-REGISTER.md) |
 | DOC-RPT-100 | Legacy Directory Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-RISK-REVIEW.md](./LEGACY-DIRECTORY-RISK-REVIEW.md) |
+| DOC-RPT-115 | Public Source Boundary Enforcement Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md](./PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md) |
+| DOC-RPT-118 | Public Source Boundary Risk Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md](./PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md) |
+| DOC-RPT-116 | Public Source Discovery Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md](./PUBLIC-SOURCE-DISCOVERY-AUDIT.md) |
+| DOC-RPT-117 | Public Source Navigation Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-NAVIGATION-AUDIT.md](./PUBLIC-SOURCE-NAVIGATION-AUDIT.md) |
 | DOC-RPT-094 | Repository Boundary Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md](./REPOSITORY-BOUNDARY-RISK-REVIEW.md) |
 | DOC-RPT-095 | Repository Information Architecture Target | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md](./REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md) |
 | DOC-RPT-097 | Repository Path Dependency Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md](./REPOSITORY-PATH-DEPENDENCY-REGISTER.md) |
 | DOC-RPT-093 | Repository Reorganization Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md](./REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md) |
 | DOC-RPT-096 | Repository Reorganization Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md](./REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md) |
 | DOC-RPT-092 | Repository Surface Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-SURFACE-INVENTORY.md](./REPOSITORY-SURFACE-INVENTORY.md) |
+| DOC-RPT-110 | Root Canonical Directory Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CANONICAL-DIRECTORY-INVENTORY.md](./ROOT-CANONICAL-DIRECTORY-INVENTORY.md) |
+| DOC-RPT-111 | Root Consolidation Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md](./ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md) |
+| DOC-RPT-113 | Root Consolidation Dependency Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md](./ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md) |
+| DOC-RPT-114 | Root Consolidation Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CONSOLIDATION-PLAN.md](./ROOT-CONSOLIDATION-PLAN.md) |
+| DOC-RPT-112 | Root Consolidation Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/ROOT-CONSOLIDATION-RISK-REVIEW.md](./ROOT-CONSOLIDATION-RISK-REVIEW.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](../governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
 | DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](../governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
 | DOC-REF-001 | Documentation Conflict Register | REFERENCE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-CONFLICT-REGISTER.md](../governance/DOCUMENTATION-CONFLICT-REGISTER.md) |

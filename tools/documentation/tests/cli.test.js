@@ -47,7 +47,12 @@ test('baseline command reports baseline statistics', async () => {
   const payload = await json('baseline')
   const baseline = JSON.parse(await readFile('documentation.baseline.json', 'utf8'))
   assert.equal(payload.statistics.baseline_entries, baseline.entries.length)
-  assert.equal(payload.statistics.known_legacy, baseline.entries.length)
+  assert.equal(
+    payload.statistics.known_legacy +
+      payload.statistics.changed_legacy +
+      payload.statistics.removed_legacy,
+    baseline.entries.length,
+  )
 })
 
 test('exception command reports exception statistics', async () => {

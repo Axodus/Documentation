@@ -25,7 +25,7 @@ The `.knowledge` directory is not public documentation. Public docs should deriv
 
 - Semantic knowledge packs under `.knowledge`
 - Public documentation under `/docs` and root files
-- Planning documents under `/Documents`
+- Legacy and historical material under `legacy/`
 - Operational memory, if implemented later
 - Agent-local memory, if implemented later
 

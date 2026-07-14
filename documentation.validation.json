@@ -6725,10 +6725,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/acs/memory-and-knowledge.md"
     },
@@ -9029,10 +9029,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/overview/documentation-standards.md"
     },
@@ -10351,6 +10351,69 @@
       "source_path": "documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-104",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-AUTHORITY-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-105",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-CONSUMER-MAP.md"
+    },
+    {
+      "document_id": "DOC-RPT-109",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-EXECUTION-FREEZE.md"
+    },
+    {
+      "document_id": "DOC-RPT-103",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-INVENTORY.md"
+    },
+    {
+      "document_id": "DOC-RPT-107",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-NORMALIZATION-DECISION.md"
+    },
+    {
+      "document_id": "DOC-RPT-108",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-RISK-REVIEW.md"
+    },
+    {
+      "document_id": "DOC-RPT-106",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/KNOWLEDGE-SURFACE-TOPOLOGY-EVALUATION.md"
+    },
+    {
       "document_id": "DOC-RPT-098",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10394,6 +10457,42 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/LEGACY-DIRECTORY-RISK-REVIEW.md"
+    },
+    {
+      "document_id": "DOC-RPT-115",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-118",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-116",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md"
+    },
+    {
+      "document_id": "DOC-RPT-117",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/PUBLIC-SOURCE-NAVIGATION-AUDIT.md"
     },
     {
       "document_id": "DOC-RPT-094",
@@ -10448,6 +10547,51 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/REPOSITORY-SURFACE-INVENTORY.md"
+    },
+    {
+      "document_id": "DOC-RPT-110",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/ROOT-CANONICAL-DIRECTORY-INVENTORY.md"
+    },
+    {
+      "document_id": "DOC-RPT-111",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-113",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md"
+    },
+    {
+      "document_id": "DOC-RPT-114",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/ROOT-CONSOLIDATION-PLAN.md"
+    },
+    {
+      "document_id": "DOC-RPT-112",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/ROOT-CONSOLIDATION-RISK-REVIEW.md"
     },
     {
       "document_id": null,
@@ -11204,7 +11348,7 @@
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
     "baseline_entries": 563,
-    "changed_legacy": 0,
+    "changed_legacy": 2,
     "defer_with_risk_dispositions": 42,
     "disposition_entries": 563,
     "disposition_registry_valid": true,
@@ -11213,9 +11357,9 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1244,
+    "info": 1260,
     "invalid_exceptions": 0,
-    "known_legacy": 563,
+    "known_legacy": 561,
     "legacy_documents": 591,
     "migrate_dispositions": 177,
     "relationships": 389,
@@ -11225,16 +11369,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 846,
+    "total_documents": 862,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 241,
+    "validated_documents": 257,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 241,
+  "validated_documents": 257,
   "validation_version": "1.1.0",
   "warnings": 0
 }

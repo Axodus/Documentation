@@ -25,7 +25,7 @@ Documentation should be professional, transparent, technical, and operationally 
 
 ## Source Boundaries
 
-Public documentation lives under `/docs`. Internal semantic memory under `.knowledge`, internal protocols under `.instructions`, and planning material under `/Documents` must not be treated as canonical public documentation unless intentionally reviewed and migrated.
+Public documentation lives under `/docs`. Internal semantic memory under `.knowledge`, internal protocols under `.instructions`, and legacy or historical material under `legacy/` must not be treated as canonical public documentation unless intentionally reviewed and migrated.
 
 ## Token Language
 

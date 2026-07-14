@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 846
+- Graph nodes: 862
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 660
+- Orphan documents: 676
 - Cycles: 13
 
 ## Relationship Counts
@@ -646,17 +646,33 @@ None.
 - documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md
 - documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md
 - documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md
+- documentation/KNOWLEDGE-SURFACE-AUTHORITY-REGISTER.md
+- documentation/KNOWLEDGE-SURFACE-CONSUMER-MAP.md
+- documentation/KNOWLEDGE-SURFACE-EXECUTION-FREEZE.md
+- documentation/KNOWLEDGE-SURFACE-INVENTORY.md
+- documentation/KNOWLEDGE-SURFACE-NORMALIZATION-DECISION.md
+- documentation/KNOWLEDGE-SURFACE-RISK-REVIEW.md
+- documentation/KNOWLEDGE-SURFACE-TOPOLOGY-EVALUATION.md
 - documentation/LEGACY-DIRECTORY-CANONICALIZATION-REPORT.md
 - documentation/LEGACY-DIRECTORY-CLOSURE-REPORT.md
 - documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md
 - documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md
 - documentation/LEGACY-DIRECTORY-RISK-REVIEW.md
+- documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md
+- documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md
+- documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md
+- documentation/PUBLIC-SOURCE-NAVIGATION-AUDIT.md
 - documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md
 - documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md
 - documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md
 - documentation/REPOSITORY-REORGANIZATION-CANDIDATE-REGISTER.md
 - documentation/REPOSITORY-REORGANIZATION-EXECUTION-PLAN.md
 - documentation/REPOSITORY-SURFACE-INVENTORY.md
+- documentation/ROOT-CANONICAL-DIRECTORY-INVENTORY.md
+- documentation/ROOT-CONSOLIDATION-CANDIDATE-REGISTER.md
+- documentation/ROOT-CONSOLIDATION-DEPENDENCY-AUDIT.md
+- documentation/ROOT-CONSOLIDATION-PLAN.md
+- documentation/ROOT-CONSOLIDATION-RISK-REVIEW.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
