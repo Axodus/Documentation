@@ -24,7 +24,7 @@ last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
 supersedes: []
-relationships: [{type: "RELATES_TO", target: "DEX-GDE-001"}]
+relationships: [{type: "RELATES_TO", target: "DEX-GDE-001"}, {type: "RELATES_TO", target: "SEC-GDE-001"}]
 related_epics: ["DOCUMENTATION-EPIC-02"]
 related_requirements: ["AXODUS-DOCUMENTATION-EPIC-02-REQ-09"]
 related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]

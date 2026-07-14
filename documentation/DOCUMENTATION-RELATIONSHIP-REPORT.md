@@ -2,28 +2,28 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-13T00:00:00Z
+Generated At: 2026-07-14T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 791
-- Declared relationships: 351
+- Graph nodes: 796
+- Declared relationships: 369
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 615
+- Orphan documents: 620
 - Cycles: 13
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 114 |
+| `DEPENDS_ON` | 115 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 164 |
+| `RELATES_TO` | 181 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -612,6 +612,11 @@ None.
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
+- documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md
+- documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md
+- documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md
+- documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md
+- documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
 - Documents/agents/README.md
 - Documents/archive/README.md

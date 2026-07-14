@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 791,
+  "document_count": 796,
   "documents": [
     {
       "aliases": [],
@@ -7896,11 +7896,12 @@
       "related_documents": [
         "ACCOUNT-GDE-001",
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-07",
+        "CORE-GDE-004",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "27894880afdb83d8b3525a01241e32b728d2c11e1567124c21e7ff182e8f5a0a",
+      "sha256": "12a72dd45420234b112de6a4b1b037c50f516a60dc1322a2d0cb139938cb3485",
       "source_path": "docs/accountability/financial-reports.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7924,9 +7925,10 @@
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-07",
         "DOC-ADR-018",
         "DOC-ADR-019",
-        "DOCUMENTATION-EPIC-02"
+        "DOCUMENTATION-EPIC-02",
+        "GOV-GDE-004"
       ],
-      "sha256": "3d365dfb8f23f4bce1243dc3f5a50c870af4afb2777a55ad465a44512d378861",
+      "sha256": "126845d9a67986ff3ef301adcaeef4cf6af786e57a7e4fe11274635215c098e3",
       "source_path": "docs/accountability/governance-records.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7994,11 +7996,12 @@
       "related_documents": [
         "ACCOUNT-GDE-001",
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-07",
+        "DOC-ADR-014",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "4af4f2434563bc1d4725a2afb6c86991b9b33b7247a23dc4b6a109d84ad1b247",
+      "sha256": "1628de63e9a3ad216b6dd8738ce22dbe8aef56b72a5c289b41117e8223fcc02a",
       "source_path": "docs/accountability/release-notes.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9430,11 +9433,12 @@
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
         "DEX-GDE-001",
+        "DEX-GDE-006",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "97a1486fe41fd6ba0b8719802cd5f00460dd73b7c559e8725f0b29376fcae30c",
+      "sha256": "f90651ba43f779f5462253563d5ad1fcdabb74e40cd2344e94572331357cb579",
       "source_path": "docs/dex/architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9496,11 +9500,12 @@
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
         "DEX-GDE-001",
+        "DEX-GDE-004",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "f4ef0a245fcfbcd0a29f011c92aa0148ed9da0380ae765bad715abe877a1d52f",
+      "sha256": "160f2168258f66f886ad8d500a6f73dba6d8b80df1f994dd47ff5b9fe68c6e57",
       "source_path": "docs/dex/liquidity-pools.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9668,11 +9673,12 @@
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
         "DEX-GDE-001",
+        "DEX-GDE-006",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "8e54f2289aa54c809aae86e74155a2bea27eac4efe092e7f456c1903a9734914",
+      "sha256": "609c2d47185849b0e1db5cd6f5a12fbae28b7f7261f896a4007b64bc190de866",
       "source_path": "docs/dex/risk-and-disclosures.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9694,11 +9700,12 @@
       "related_documents": [
         "AXODUS-DOCUMENTATION-EPIC-02-REQ-09",
         "DEX-GDE-001",
+        "DEX-GDE-004",
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "666cdc1b4e76737f4b229ffeb33c057f68084f3ed76f02313db66e97e19d5c6a",
+      "sha256": "e013338560d1047069a8709a3ede1359dc3e8e617629cb1fe33e26a225368dcb",
       "source_path": "docs/dex/routing-and-aggregation.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9722,9 +9729,10 @@
         "DEX-GDE-001",
         "DOC-ADR-018",
         "DOC-ADR-019",
-        "DOCUMENTATION-EPIC-02"
+        "DOCUMENTATION-EPIC-02",
+        "SEC-GDE-001"
       ],
-      "sha256": "bfd26855b6cbfb5974717eb3808949f65b572bbca70d00952cefc730392ed601",
+      "sha256": "e623728ddb8f460b2758c794f4451c1d6830a31f4f2bf5e36cd0470146063b37",
       "source_path": "docs/dex/security-and-smart-contracts.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10297,9 +10305,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "LOTTERY-GDE-001"
+        "LOTTERY-GDE-001",
+        "LOTTERY-GDE-005"
       ],
-      "sha256": "ab7c179876a6d0d7d2166a8e91d82ff0c016ea36576b5e9373d173a0f535a334",
+      "sha256": "37d0047d4229592129616a0db6c0dd973e31606c81169cfd2bdf3fbf2edefe94",
       "source_path": "docs/lottery/game-models.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10509,9 +10518,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "LOTTERY-GDE-001"
+        "LOTTERY-GDE-001",
+        "LOTTERY-GDE-005"
       ],
-      "sha256": "efd3750f7719355084ecd20dd3297a6ffca38b23630b62118a58af202c07e861",
+      "sha256": "3f7d78fc554017a1034e37d83f2bad7d0995deab3b807b9888b8731eaf946c58",
       "source_path": "docs/lottery/responsible-participation.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10535,9 +10545,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "LOTTERY-GDE-001"
+        "LOTTERY-GDE-001",
+        "LOTTERY-GDE-006"
       ],
-      "sha256": "43b83cfce69a5629c60afc85d7f021a434c52cd144dd748ca8c3b45d1ea8c61c",
+      "sha256": "562d2e32c3c0407effee4f176890b2410446f9f52d05120902b5499708ff13c4",
       "source_path": "docs/lottery/risk-and-compliance.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10707,9 +10718,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "MARKET-GDE-001"
+        "MARKET-GDE-001",
+        "MARKET-GDE-005"
       ],
-      "sha256": "27fbddfdcf21d562aa151373a01adc074e925a96362e005c7b2b742e36b4c137",
+      "sha256": "9d5a2da6f8f74cb526b919d22308a3816804c6a8e24d85658587d015fe3644ba",
       "source_path": "docs/marketplace/architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11031,9 +11043,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "MARKET-GDE-001"
+        "MARKET-GDE-001",
+        "SEC-GDE-001"
       ],
-      "sha256": "1090732a32701f1a7364a0e4db0e87ad104a3ffd0a45bcf34f561ad2a8776fa4",
+      "sha256": "db38155352d6b24b84e2ac52ea0feb0dc69df0db51f73f273194ce34d56c1967",
       "source_path": "docs/marketplace/security-and-data-protection.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11183,9 +11196,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "MINING-GDE-001"
+        "MINING-GDE-001",
+        "MINING-GDE-006"
       ],
-      "sha256": "2b9d872016ffdb6387e85a731d8105fd0469de84b1bc866e39e066a29aca5deb",
+      "sha256": "9142bb6c00601c39029450b0b5b10018e8603019721658c6b9f6750933a4b3d9",
       "source_path": "docs/mining/architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11315,9 +11329,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "MINING-GDE-001"
+        "MINING-GDE-001",
+        "MINING-GDE-005"
       ],
-      "sha256": "cbe04f6841b65f62bb2d3d61b81ef8d57e49c471c62faad3f81d0d54628ecfc3",
+      "sha256": "3eb240a1156a820556465b9594a2eba64e859a6534ac34ae06591126cc917547",
       "source_path": "docs/mining/mining-models.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11923,9 +11938,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "RUNTIME-GDE-001"
+        "RUNTIME-GDE-001",
+        "RUNTIME-GDE-003"
       ],
-      "sha256": "7bbbc9f6388b59624b40a1218250f255958ba120e2a10231739fd31bb7938317",
+      "sha256": "d327ddcf3477cb1b0dae9ed78581b13c426810f3c55f58f9c7ff38b6a4ee25e5",
       "source_path": "docs/runtime/change-control.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12121,9 +12137,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "RUNTIME-GDE-001"
+        "RUNTIME-GDE-001",
+        "RUNTIME-GDE-003"
       ],
-      "sha256": "57f7f1fddf6b447e1139b368a908644110ffb5f194ce13d53cd3e46d4006a902",
+      "sha256": "b7a3346c6bbd058575a0c400598e5026169fe28712ae91849b09ebad02a57d17",
       "source_path": "docs/runtime/risk-controls.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13273,9 +13290,10 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02",
-        "TREASURY-GDE-001"
+        "TREASURY-GDE-001",
+        "TREASURY-GDE-003"
       ],
-      "sha256": "2982ac672d9dd555bbd5c5359b8b021543986c78caa529ad4ae5976dbb7f9f43",
+      "sha256": "31d0d4b740984c226b48bd97e6a8719c2c82885704f2d9766ac441dd4ae7d452",
       "source_path": "docs/treasury/risk-management.md",
       "superseded_by": [],
       "supersedes": [],
@@ -15665,6 +15683,144 @@
     },
     {
       "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.EXECUTION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-052",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOC-ADR-022",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "266204a035019436c728b250fc35037c6715b7473e6d4fafbb293cfeacdc7c2c",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Traceability Batch 01 Execution Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.CANDIDATES",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-049",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-07",
+        "DOC-ADR-004",
+        "DOC-ADR-017",
+        "DOC-ADR-022",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "d6f424c0d2d3937fb502ce13780097f3fd67cf296b4834270f26c2151ae715f0",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Traceability Candidate Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.EXECUTION_PLAN",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-051",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-07",
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-08",
+        "DOC-ADR-004",
+        "DOC-ADR-017",
+        "DOC-ADR-022",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "eb1c42b967a429f44d92cae09ca5b59101736c783a5a9489afd330c926a74378",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Traceability Execution Plan",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.INVENTORY",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-048",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-07",
+        "DOC-ADR-004",
+        "DOC-ADR-017",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ADR-022",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "b858a7b34fc7bd226dc4f1011627f2bd5a287cbcadc6380a1d66fe36c935625f",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Traceability Remediation Inventory",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.RISK",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-050",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-07",
+        "DOC-ADR-004",
+        "DOC-ADR-017",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOC-ADR-020",
+        "DOC-ADR-022",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "97a29a189b8c443da75d79eff8bb6811184c0edc01aaa943931d291a0c82f981",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Traceability Risk Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
       "authority_level": null,
       "authority_scope": null,
       "classification": "LEGACY",
@@ -17096,7 +17252,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-13T00:00:00Z",
+  "generated_at": "2026-07-14T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -17132,10 +17288,28 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "ACCOUNT-GDE-002",
+      "source_path": "docs/accountability/financial-reports.md",
+      "target": "CORE-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "ACCOUNT-GDE-003",
       "source_path": "docs/accountability/governance-records.md",
       "target": "ACCOUNT-GDE-001",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-003",
+      "source_path": "docs/accountability/governance-records.md",
+      "target": "GOV-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-004",
+      "source_path": "docs/accountability/release-notes.md",
+      "target": "DOC-ADR-014",
+      "type": "DEPENDS_ON"
     },
     {
       "source": "ACCOUNT-GDE-004",
@@ -17210,9 +17384,21 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-002",
+      "source_path": "docs/dex/architecture.md",
+      "target": "DEX-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEX-GDE-003",
       "source_path": "docs/dex/liquidity-pools.md",
       "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-003",
+      "source_path": "docs/dex/liquidity-pools.md",
+      "target": "DEX-GDE-004",
       "type": "RELATES_TO"
     },
     {
@@ -17222,15 +17408,33 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-004",
+      "source_path": "docs/dex/risk-and-disclosures.md",
+      "target": "DEX-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEX-GDE-005",
       "source_path": "docs/dex/routing-and-aggregation.md",
       "target": "DEX-GDE-001",
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-005",
+      "source_path": "docs/dex/routing-and-aggregation.md",
+      "target": "DEX-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEX-GDE-006",
       "source_path": "docs/dex/security-and-smart-contracts.md",
       "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-006",
+      "source_path": "docs/dex/security-and-smart-contracts.md",
+      "target": "SEC-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -19034,15 +19238,33 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "LOTTERY-GDE-003",
+      "source_path": "docs/lottery/game-models.md",
+      "target": "LOTTERY-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "LOTTERY-GDE-004",
       "source_path": "docs/lottery/responsible-participation.md",
       "target": "LOTTERY-GDE-001",
       "type": "RELATES_TO"
     },
     {
+      "source": "LOTTERY-GDE-004",
+      "source_path": "docs/lottery/responsible-participation.md",
+      "target": "LOTTERY-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "LOTTERY-GDE-005",
       "source_path": "docs/lottery/risk-and-compliance.md",
       "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-005",
+      "source_path": "docs/lottery/risk-and-compliance.md",
+      "target": "LOTTERY-GDE-006",
       "type": "RELATES_TO"
     },
     {
@@ -19064,6 +19286,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "MARKET-GDE-002",
+      "source_path": "docs/marketplace/architecture.md",
+      "target": "MARKET-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MARKET-GDE-003",
       "source_path": "docs/marketplace/buyer-flow.md",
       "target": "MARKET-GDE-001",
@@ -19079,6 +19307,12 @@
       "source": "MARKET-GDE-005",
       "source_path": "docs/marketplace/security-and-data-protection.md",
       "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-005",
+      "source_path": "docs/marketplace/security-and-data-protection.md",
+      "target": "SEC-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -19100,6 +19334,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "MINING-GDE-002",
+      "source_path": "docs/mining/architecture.md",
+      "target": "MINING-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MINING-GDE-003",
       "source_path": "docs/mining/infrastructure-and-operations.md",
       "target": "MINING-GDE-001",
@@ -19109,6 +19349,12 @@
       "source": "MINING-GDE-004",
       "source_path": "docs/mining/mining-models.md",
       "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-004",
+      "source_path": "docs/mining/mining-models.md",
+      "target": "MINING-GDE-005",
       "type": "RELATES_TO"
     },
     {
@@ -19136,6 +19382,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "RUNTIME-GDE-002",
+      "source_path": "docs/runtime/change-control.md",
+      "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "RUNTIME-GDE-003",
       "source_path": "docs/runtime/governance-escalation.md",
       "target": "RUNTIME-GDE-001",
@@ -19145,6 +19397,12 @@
       "source": "RUNTIME-GDE-004",
       "source_path": "docs/runtime/risk-controls.md",
       "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-004",
+      "source_path": "docs/runtime/risk-controls.md",
+      "target": "RUNTIME-GDE-003",
       "type": "RELATES_TO"
     },
     {
@@ -19218,17 +19476,23 @@
       "source_path": "docs/treasury/risk-management.md",
       "target": "TREASURY-GDE-001",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-004",
+      "source_path": "docs/treasury/risk-management.md",
+      "target": "TREASURY-GDE-003",
+      "type": "RELATES_TO"
     }
   ],
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 176,
-    "declared_relationships": 351,
+    "compliant_documents": 181,
+    "declared_relationships": 369,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 134,
+      "CORE": 139,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -19236,7 +19500,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 92,
+      "D2": 97,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 601
@@ -19254,7 +19518,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 116,
+      "Axodus Documentation Core": 121,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -19273,7 +19537,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 128,
-      "DRAFT": 41,
+      "DRAFT": 46,
       "UNSPECIFIED": 601
     },
     "documents_by_type": {
@@ -19286,7 +19550,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 48,
+      "REPORT": 53,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -19299,6 +19563,6 @@
     "generated_documents": 8,
     "legacy_documents": 601,
     "template_documents": 14,
-    "total_documents": 791
+    "total_documents": 796
   }
 }

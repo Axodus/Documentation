@@ -244,7 +244,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-13T00:00:00Z",
+  "generated_at": "2026-07-14T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -5167,6 +5167,56 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-048",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-048",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md",
+      "title": "Epic 03 Traceability Remediation Inventory"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-049",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-049",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
+      "title": "Epic 03 Traceability Candidate Register"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-050",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-050",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md",
+      "title": "Epic 03 Traceability Risk Review"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-051",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-051",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md",
+      "title": "Epic 03 Traceability Execution Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-052",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-052",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
+      "title": "Epic 03 Traceability Batch 01 Execution Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -8726,6 +8776,11 @@
     "docs/treasury/trading-alignment.md",
     "docs/treasury/treasury-policy.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
+    "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
+    "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
+    "documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md",
+    "documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md",
+    "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md",
     "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
     "Documents/agents/README.md",
     "Documents/archive/README.md",
@@ -9508,6 +9563,11 @@
       "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "documentation/DOCUMENTATION-VALIDATION-RULES.md",
+      "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
+      "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
+      "documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md",
+      "documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md",
+      "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md",
       "Documents/agents/AXODUS_AGENT_ALIGNMENT.md",
       "Documents/agents/README.md",
       "Documents/archive/README.md",
@@ -9768,21 +9828,26 @@
       "<SCOPE>-RPT-<NNN>",
       "<SCOPE>-RUN-<NNN>",
       "<SCOPE>-SPEC-<NNN>",
-      "<SCOPE>-STD-<NNN>"
+      "<SCOPE>-STD-<NNN>",
+      "DOC-RPT-048",
+      "DOC-RPT-049",
+      "DOC-RPT-050",
+      "DOC-RPT-051",
+      "DOC-RPT-052"
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 114,
+    "DEPENDS_ON": 115,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 164,
+    "RELATES_TO": 181,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 351,
+    "declared": 369,
     "derived": 0,
     "duplicates": 0,
-    "total": 351,
+    "total": 369,
     "unresolved": 0
   },
   "relationship_types": [
@@ -9812,10 +9877,28 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "ACCOUNT-GDE-002",
+      "source_path": "docs/accountability/financial-reports.md",
+      "target": "CORE-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "ACCOUNT-GDE-003",
       "source_path": "docs/accountability/governance-records.md",
       "target": "ACCOUNT-GDE-001",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-003",
+      "source_path": "docs/accountability/governance-records.md",
+      "target": "GOV-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACCOUNT-GDE-004",
+      "source_path": "docs/accountability/release-notes.md",
+      "target": "DOC-ADR-014",
+      "type": "DEPENDS_ON"
     },
     {
       "source": "ACCOUNT-GDE-004",
@@ -9890,9 +9973,21 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-002",
+      "source_path": "docs/dex/architecture.md",
+      "target": "DEX-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEX-GDE-003",
       "source_path": "docs/dex/liquidity-pools.md",
       "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-003",
+      "source_path": "docs/dex/liquidity-pools.md",
+      "target": "DEX-GDE-004",
       "type": "RELATES_TO"
     },
     {
@@ -9902,15 +9997,33 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-004",
+      "source_path": "docs/dex/risk-and-disclosures.md",
+      "target": "DEX-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEX-GDE-005",
       "source_path": "docs/dex/routing-and-aggregation.md",
       "target": "DEX-GDE-001",
       "type": "RELATES_TO"
     },
     {
+      "source": "DEX-GDE-005",
+      "source_path": "docs/dex/routing-and-aggregation.md",
+      "target": "DEX-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEX-GDE-006",
       "source_path": "docs/dex/security-and-smart-contracts.md",
       "target": "DEX-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "DEX-GDE-006",
+      "source_path": "docs/dex/security-and-smart-contracts.md",
+      "target": "SEC-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -11714,15 +11827,33 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "LOTTERY-GDE-003",
+      "source_path": "docs/lottery/game-models.md",
+      "target": "LOTTERY-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "LOTTERY-GDE-004",
       "source_path": "docs/lottery/responsible-participation.md",
       "target": "LOTTERY-GDE-001",
       "type": "RELATES_TO"
     },
     {
+      "source": "LOTTERY-GDE-004",
+      "source_path": "docs/lottery/responsible-participation.md",
+      "target": "LOTTERY-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "LOTTERY-GDE-005",
       "source_path": "docs/lottery/risk-and-compliance.md",
       "target": "LOTTERY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "LOTTERY-GDE-005",
+      "source_path": "docs/lottery/risk-and-compliance.md",
+      "target": "LOTTERY-GDE-006",
       "type": "RELATES_TO"
     },
     {
@@ -11744,6 +11875,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "MARKET-GDE-002",
+      "source_path": "docs/marketplace/architecture.md",
+      "target": "MARKET-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MARKET-GDE-003",
       "source_path": "docs/marketplace/buyer-flow.md",
       "target": "MARKET-GDE-001",
@@ -11759,6 +11896,12 @@
       "source": "MARKET-GDE-005",
       "source_path": "docs/marketplace/security-and-data-protection.md",
       "target": "MARKET-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MARKET-GDE-005",
+      "source_path": "docs/marketplace/security-and-data-protection.md",
+      "target": "SEC-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -11780,6 +11923,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "MINING-GDE-002",
+      "source_path": "docs/mining/architecture.md",
+      "target": "MINING-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "MINING-GDE-003",
       "source_path": "docs/mining/infrastructure-and-operations.md",
       "target": "MINING-GDE-001",
@@ -11789,6 +11938,12 @@
       "source": "MINING-GDE-004",
       "source_path": "docs/mining/mining-models.md",
       "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-004",
+      "source_path": "docs/mining/mining-models.md",
+      "target": "MINING-GDE-005",
       "type": "RELATES_TO"
     },
     {
@@ -11816,6 +11971,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "RUNTIME-GDE-002",
+      "source_path": "docs/runtime/change-control.md",
+      "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "RUNTIME-GDE-003",
       "source_path": "docs/runtime/governance-escalation.md",
       "target": "RUNTIME-GDE-001",
@@ -11825,6 +11986,12 @@
       "source": "RUNTIME-GDE-004",
       "source_path": "docs/runtime/risk-controls.md",
       "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-004",
+      "source_path": "docs/runtime/risk-controls.md",
+      "target": "RUNTIME-GDE-003",
       "type": "RELATES_TO"
     },
     {
@@ -11897,6 +12064,12 @@
       "source": "TREASURY-GDE-004",
       "source_path": "docs/treasury/risk-management.md",
       "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-004",
+      "source_path": "docs/treasury/risk-management.md",
+      "target": "TREASURY-GDE-003",
       "type": "RELATES_TO"
     }
   ],
