@@ -10207,6 +10207,51 @@
       "source_path": "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md"
     },
     {
+      "document_id": "DOC-RPT-087",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md"
+    },
+    {
+      "document_id": "DOC-RPT-085",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-090",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-089",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EXECUTION-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-091",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-RISK-REVIEW.md"
+    },
+    {
       "document_id": "DOC-RPT-075",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10268,6 +10313,33 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md"
+    },
+    {
+      "document_id": "DOC-RPT-088",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md"
+    },
+    {
+      "document_id": "DOC-RPT-086",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-084",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md"
     },
     {
       "document_id": null,
@@ -11033,7 +11105,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1224,
+    "info": 1232,
     "invalid_exceptions": 0,
     "known_legacy": 563,
     "legacy_documents": 591,
@@ -11045,16 +11117,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 827,
+    "total_documents": 835,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 222,
+    "validated_documents": 230,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 222,
+  "validated_documents": 230,
   "validation_version": "1.1.0",
   "warnings": 0
 }

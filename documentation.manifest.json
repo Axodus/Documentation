@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 827,
+  "document_count": 835,
   "documents": [
     {
       "aliases": [],
@@ -16536,6 +16536,131 @@
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-087",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "bc8f2aa5762558ae54c47afbf839e39a6958c94397752e61aa19c26c4b26b820",
+      "source_path": "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Author Ecosystem Clarification Intake",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-085",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "5bf3fc79a6a171969b3841b27ddcc6b67909ad8f5f725eb87f39c15c38cd8ac6",
+      "source_path": "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Claims Metadata Intake Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-090",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "9cebb1857b388ab9aa4632baedfd71701144f10ddb8457f8c8916e9cd9b2bf03",
+      "source_path": "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Controlled Intake Evidence Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-089",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "2630a71c04ef4563f8a2c9e1e35b2c025abbfc82a1cb25582ed205e563501dc5",
+      "source_path": "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Controlled Intake Execution Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-091",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "878d08cabd19f60a5b48629d247626179b16527e26df5ff6ca3054a46a22e32f",
+      "source_path": "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-RISK-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Controlled Intake Risk Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-075",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -16708,6 +16833,81 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Institutional Knowledge Intake Inventory",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-088",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "4ac13b8c3a569aa75f0679073b316370df00a638fc4496a474d7591bfb23c4e7",
+      "source_path": "documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Paper Scope Impact Intake",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-086",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "97524ce36df552f1928aebf6ed22de749741bc2b701bd05a563530b6f5f19b6b",
+      "source_path": "documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Research Gaps Intake Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-084",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-014",
+        "DOC-ADR-017",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-INTAKE-REQ-03"
+      ],
+      "sha256": "bbed64f092c580b92c7e36b37a593124523ad6aad5a36de34c2be5eff183128e",
+      "source_path": "documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Institutional Terminology Intake Register",
       "version": "0.1.0"
     },
     {
@@ -20498,12 +20698,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 222,
+    "compliant_documents": 230,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 180,
+      "CORE": 188,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -20511,7 +20711,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 138,
+      "D2": 146,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 591
@@ -20529,7 +20729,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 152,
+      "Axodus Documentation Core": 160,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -20550,7 +20750,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 77,
+      "DRAFT": 85,
       "UNSPECIFIED": 591
     },
     "documents_by_type": {
@@ -20563,7 +20763,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 84,
+      "REPORT": 92,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -20576,6 +20776,6 @@
     "generated_documents": 8,
     "legacy_documents": 591,
     "template_documents": 14,
-    "total_documents": 827
+    "total_documents": 835
   }
 }

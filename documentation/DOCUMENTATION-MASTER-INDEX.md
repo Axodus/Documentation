@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 827
+Source Documents: 835
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 827
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 827 |
-| Canonical documents | 222 |
+| Total source documents | 835 |
+| Canonical documents | 230 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 827
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 84 |
+| REPORT | 92 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 827
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 180 |
+| CORE | 188 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 827
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 77 |
+| DRAFT | 85 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -275,6 +275,11 @@ Source Documents: 827
 | DOC-RPT-051 | Epic 03 Traceability Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md](./EPIC-03-TRACEABILITY-EXECUTION-PLAN.md) |
 | DOC-RPT-048 | Epic 03 Traceability Remediation Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md](./EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md) |
 | DOC-RPT-050 | Epic 03 Traceability Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md](./EPIC-03-TRACEABILITY-RISK-REVIEW.md) |
+| DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
+| DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |
+| DOC-RPT-090 | Institutional Controlled Intake Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md) |
+| DOC-RPT-089 | Institutional Controlled Intake Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EXECUTION-REPORT.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EXECUTION-REPORT.md) |
+| DOC-RPT-091 | Institutional Controlled Intake Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-RISK-REVIEW.md](./INSTITUTIONAL-CONTROLLED-INTAKE-RISK-REVIEW.md) |
 | DOC-RPT-075 | Institutional Cross-Repository Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CROSS-REPOSITORY-RISK-REVIEW.md](./INSTITUTIONAL-CROSS-REPOSITORY-RISK-REVIEW.md) |
 | DOC-RPT-072 | Institutional Cross-Repository Source Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CROSS-REPOSITORY-SOURCE-REGISTER.md](./INSTITUTIONAL-CROSS-REPOSITORY-SOURCE-REGISTER.md) |
 | DOC-RPT-082 | Institutional Intake Alignment Decision Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md](./INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md) |
@@ -282,6 +287,9 @@ Source Documents: 827
 | DOC-RPT-076 | Institutional Knowledge Alignment Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-KNOWLEDGE-ALIGNMENT-PLAN.md](./INSTITUTIONAL-KNOWLEDGE-ALIGNMENT-PLAN.md) |
 | DOC-RPT-074 | Institutional Knowledge Intake Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-CANDIDATE-REGISTER.md](./INSTITUTIONAL-KNOWLEDGE-INTAKE-CANDIDATE-REGISTER.md) |
 | DOC-RPT-073 | Institutional Knowledge Intake Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md](./INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md) |
+| DOC-RPT-088 | Institutional Paper Scope Impact Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md](./INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md) |
+| DOC-RPT-086 | Institutional Research Gaps Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md](./INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md) |
+| DOC-RPT-084 | Institutional Terminology Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md](./INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](../governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
 | DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](../governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
 | DOC-REF-001 | Documentation Conflict Register | REFERENCE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-CONFLICT-REGISTER.md](../governance/DOCUMENTATION-CONFLICT-REGISTER.md) |

@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 827
+- Graph nodes: 835
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 641
+- Orphan documents: 649
 - Cycles: 13
 
 ## Relationship Counts
@@ -631,6 +631,11 @@ None.
 - documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md
 - documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md
 - documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md
+- documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md
+- documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md
+- documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md
+- documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EXECUTION-REPORT.md
+- documentation/INSTITUTIONAL-CONTROLLED-INTAKE-RISK-REVIEW.md
 - documentation/INSTITUTIONAL-CROSS-REPOSITORY-RISK-REVIEW.md
 - documentation/INSTITUTIONAL-CROSS-REPOSITORY-SOURCE-REGISTER.md
 - documentation/INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md
@@ -638,6 +643,9 @@ None.
 - documentation/INSTITUTIONAL-KNOWLEDGE-ALIGNMENT-PLAN.md
 - documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-CANDIDATE-REGISTER.md
 - documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md
+- documentation/INSTITUTIONAL-PAPER-SCOPE-IMPACT-INTAKE.md
+- documentation/INSTITUTIONAL-RESEARCH-GAPS-INTAKE-REGISTER.md
+- documentation/INSTITUTIONAL-TERMINOLOGY-INTAKE-REGISTER.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
 - Documents/agents/README.md
 - Documents/archive/README.md
