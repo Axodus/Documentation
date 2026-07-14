@@ -73,13 +73,13 @@ test('secondary flags use only the approved vocabulary', async () => {
   }
 })
 
-test('baseline and exception registries remain synchronized and unchanged in population', async () => {
+test('baseline and exception registries remain synchronized after Batch 04', async () => {
   const baseline = JSON.parse(await read('documentation.baseline.json'))
   const exceptions = JSON.parse(await read('documentation.exceptions.json'))
   const baselinePaths = baseline.entries.map((entry) => entry.path).sort()
   const exceptionPaths = exceptions.exceptions.map((entry) => entry.document_path).sort()
-  assert.equal(baselinePaths.length, 573)
-  assert.equal(exceptionPaths.length, 573)
+  assert.equal(baselinePaths.length, 563)
+  assert.equal(exceptionPaths.length, 563)
   assert.deepEqual(baselinePaths, exceptionPaths)
   assert.ok(exceptions.exceptions.every((entry) => entry.disposition === 'MIGRATE_ON_CHANGE'))
   assert.ok(exceptions.exceptions.every((entry) => entry.expires_at === '2026-10-01T00:00:00Z'))

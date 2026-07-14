@@ -7,8 +7,8 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 797
-- Declared relationships: 369
+- Graph nodes: 807
+- Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 115 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 181 |
+| `RELATES_TO` | 201 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -556,17 +556,7 @@ None.
 - docs/overview/README.md
 - docs/overview/terminology.md
 - docs/README.md
-- docs/runtime/accountability-records.md
-- docs/runtime/acs-integration.md
-- docs/runtime/architecture.md
-- docs/runtime/communication-cadence.md
-- docs/runtime/delays-and-blockers.md
-- docs/runtime/execution-handoff.md
-- docs/runtime/milestones.md
 - docs/runtime/README.md
-- docs/runtime/request-lifecycle.md
-- docs/runtime/status-model.md
-- docs/runtime/validation-and-confirmation.md
 - docs/security/README.md
 - docs/security/trading-api-security.md
 - docs/tokenomics/academy-rewards.md
@@ -612,6 +602,16 @@ None.
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
+- documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md
+- documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md
+- documentation/EPIC-03-BATCH-04-EXECUTION-PLAN.md
+- documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md
+- documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md
+- documentation/EPIC-03-BATCH-04-PLAN.md
+- documentation/EPIC-03-BATCH-04-ROLLBACK-PLAN.md
+- documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md
+- documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md
+- documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md
 - documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md
 - documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md
 - documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md

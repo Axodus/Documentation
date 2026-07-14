@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 797
+Source Documents: 807
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 797
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 797 |
-| Canonical documents | 182 |
-| Legacy documents | 601 |
+| Total source documents | 807 |
+| Canonical documents | 202 |
+| Legacy documents | 591 |
 | Template documents | 14 |
-| Declared relationships | 369 |
+| Declared relationships | 389 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,39 +35,39 @@ Source Documents: 797
 |---|---:|
 | ADR | 24 |
 | API | 1 |
-| GUIDE | 66 |
+| GUIDE | 76 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 54 |
+| REPORT | 64 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 601 |
+| UNSPECIFIED | 591 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 140 |
+| CORE | 160 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
-| UNSPECIFIED | 601 |
+| UNSPECIFIED | 591 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 128 |
-| DRAFT | 47 |
-| UNSPECIFIED | 601 |
+| APPROVED | 138 |
+| DRAFT | 57 |
+| UNSPECIFIED | 591 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -140,10 +140,20 @@ Source Documents: 797
 | CORE-GDE-003 | Documentation Status | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/documentation-status.md](../docs/overview/documentation-status.md) |
 | CORE-GDE-001 | Ecosystem Overview | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/ecosystem-overview.md](../docs/overview/ecosystem-overview.md) |
 | CORE-GDE-004 | Risk Notices | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/risk-notices.md](../docs/overview/risk-notices.md) |
+| RUNTIME-GDE-005 | Accountability Records | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime / Accountability | [docs/runtime/accountability-records.md](../docs/runtime/accountability-records.md) |
+| RUNTIME-GDE-006 | ACS Integration | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime / ACS | [docs/runtime/acs-integration.md](../docs/runtime/acs-integration.md) |
+| RUNTIME-GDE-007 | Runtime Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/architecture.md](../docs/runtime/architecture.md) |
 | RUNTIME-GDE-002 | Change Control | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/change-control.md](../docs/runtime/change-control.md) |
+| RUNTIME-GDE-008 | Communication Cadence | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/communication-cadence.md](../docs/runtime/communication-cadence.md) |
+| RUNTIME-GDE-009 | Delays and Blockers | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/delays-and-blockers.md](../docs/runtime/delays-and-blockers.md) |
+| RUNTIME-GDE-010 | Execution Handoff | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/execution-handoff.md](../docs/runtime/execution-handoff.md) |
 | RUNTIME-GDE-003 | Governance Escalation | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime / Governance | [docs/runtime/governance-escalation.md](../docs/runtime/governance-escalation.md) |
+| RUNTIME-GDE-011 | Milestones | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/milestones.md](../docs/runtime/milestones.md) |
 | RUNTIME-GDE-001 | Runtime Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/overview.md](../docs/runtime/overview.md) |
+| RUNTIME-GDE-012 | Request Lifecycle | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/request-lifecycle.md](../docs/runtime/request-lifecycle.md) |
 | RUNTIME-GDE-004 | Risk Controls | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/risk-controls.md](../docs/runtime/risk-controls.md) |
+| RUNTIME-GDE-013 | Status Model | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/status-model.md](../docs/runtime/status-model.md) |
+| RUNTIME-GDE-014 | Validation and Confirmation | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/validation-and-confirmation.md](../docs/runtime/validation-and-confirmation.md) |
 | SEC-GDE-002 | API Security | GUIDE | APPROVED | CORE | 1.0.0 | Security | [docs/security/api-security.md](../docs/security/api-security.md) |
 | SEC-GDE-003 | Disclosure Policy | GUIDE | APPROVED | CORE | 1.0.0 | Security | [docs/security/disclosure-policy.md](../docs/security/disclosure-policy.md) |
 | SEC-GDE-004 | Frontend Security | GUIDE | APPROVED | CORE | 1.0.0 | Security | [docs/security/frontend-security.md](../docs/security/frontend-security.md) |
@@ -236,6 +246,16 @@ Source Documents: 797
 | DOC-RPT-043 | Documentation Traceability Depth Baseline | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md](./DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md](./DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-VALIDATION-RULES.md](./DOCUMENTATION-VALIDATION-RULES.md) |
+| DOC-RPT-056 | Epic 03 Batch 04 Authority Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md](./EPIC-03-BATCH-04-AUTHORITY-REVIEW.md) |
+| DOC-RPT-055 | Epic 03 Batch 04 Candidate Register | REPORT | DRAFT | CORE | 0.2.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md](./EPIC-03-BATCH-04-CANDIDATE-REGISTER.md) |
+| DOC-RPT-059 | Epic 03 Batch 04 Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-EXECUTION-PLAN.md](./EPIC-03-BATCH-04-EXECUTION-PLAN.md) |
+| DOC-RPT-060 | Epic 03 Batch 04 Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md](./EPIC-03-BATCH-04-EXECUTION-REPORT.md) |
+| DOC-RPT-062 | Epic 03 Batch 04 Migration Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md](./EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md) |
+| DOC-RPT-054 | Epic 03 Batch 04 Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-PLAN.md](./EPIC-03-BATCH-04-PLAN.md) |
+| DOC-RPT-058 | Epic 03 Batch 04 Rollback Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-ROLLBACK-PLAN.md](./EPIC-03-BATCH-04-ROLLBACK-PLAN.md) |
+| DOC-RPT-063 | Epic 03 Batch 04 Security and Boundary Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md](./EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md) |
+| DOC-RPT-057 | Epic 03 Batch 04 Security Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md](./EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md) |
+| DOC-RPT-061 | Epic 03 Batch 04 Semantic Diff | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md](./EPIC-03-BATCH-04-SEMANTIC-DIFF.md) |
 | DOC-RPT-053 | Epic 03 Traceability Batch 01 Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md](./EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md) |
 | DOC-RPT-052 | Epic 03 Traceability Batch 01 Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md](./EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md) |
 | DOC-RPT-049 | Epic 03 Traceability Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md](./EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md) |
@@ -762,17 +782,7 @@ Source Documents: 797
 | — | overview | — | — | — | — | — | [docs/overview/README.md](../docs/overview/README.md) |
 | — | Terminology | — | — | — | — | — | [docs/overview/terminology.md](../docs/overview/terminology.md) |
 | — | docs | — | — | — | — | — | [docs/README.md](../docs/README.md) |
-| — | Accountability Records | — | — | — | — | — | [docs/runtime/accountability-records.md](../docs/runtime/accountability-records.md) |
-| — | ACS Integration | — | — | — | — | — | [docs/runtime/acs-integration.md](../docs/runtime/acs-integration.md) |
-| — | Runtime Architecture | — | — | — | — | — | [docs/runtime/architecture.md](../docs/runtime/architecture.md) |
-| — | Communication Cadence | — | — | — | — | — | [docs/runtime/communication-cadence.md](../docs/runtime/communication-cadence.md) |
-| — | Delays and Blockers | — | — | — | — | — | [docs/runtime/delays-and-blockers.md](../docs/runtime/delays-and-blockers.md) |
-| — | Execution Handoff | — | — | — | — | — | [docs/runtime/execution-handoff.md](../docs/runtime/execution-handoff.md) |
-| — | Milestones | — | — | — | — | — | [docs/runtime/milestones.md](../docs/runtime/milestones.md) |
 | — | runtime | — | — | — | — | — | [docs/runtime/README.md](../docs/runtime/README.md) |
-| — | Request Lifecycle | — | — | — | — | — | [docs/runtime/request-lifecycle.md](../docs/runtime/request-lifecycle.md) |
-| — | Status Model | — | — | — | — | — | [docs/runtime/status-model.md](../docs/runtime/status-model.md) |
-| — | Validation and Confirmation | — | — | — | — | — | [docs/runtime/validation-and-confirmation.md](../docs/runtime/validation-and-confirmation.md) |
 | — | security | — | — | — | — | — | [docs/security/README.md](../docs/security/README.md) |
 | — | Trading API Security | — | — | — | — | — | [docs/security/trading-api-security.md](../docs/security/trading-api-security.md) |
 | — | Academy Rewards | — | — | — | — | — | [docs/tokenomics/academy-rewards.md](../docs/tokenomics/academy-rewards.md) |

@@ -5227,6 +5227,106 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-054",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-054",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-PLAN.md",
+      "title": "Epic 03 Batch 04 Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-055",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-055",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md",
+      "title": "Epic 03 Batch 04 Candidate Register"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-056",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-056",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
+      "title": "Epic 03 Batch 04 Authority Review"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-057",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-057",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md",
+      "title": "Epic 03 Batch 04 Security Risk Review"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-058",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-058",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-ROLLBACK-PLAN.md",
+      "title": "Epic 03 Batch 04 Rollback Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-059",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-059",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-EXECUTION-PLAN.md",
+      "title": "Epic 03 Batch 04 Execution Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-060",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-060",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md",
+      "title": "Epic 03 Batch 04 Execution Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-061",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-061",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md",
+      "title": "Epic 03 Batch 04 Semantic Diff"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-062",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-062",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md",
+      "title": "Epic 03 Batch 04 Migration Evidence Register"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-063",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-063",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md",
+      "title": "Epic 03 Batch 04 Security and Boundary Review"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -6859,110 +6959,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/runtime/accountability-records.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/accountability-records.md",
-      "title": "Accountability Records"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/acs-integration.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/acs-integration.md",
-      "title": "ACS Integration"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/architecture.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/architecture.md",
-      "title": "Runtime Architecture"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/communication-cadence.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/communication-cadence.md",
-      "title": "Communication Cadence"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/delays-and-blockers.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/delays-and-blockers.md",
-      "title": "Delays and Blockers"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/execution-handoff.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/execution-handoff.md",
-      "title": "Execution Handoff"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/milestones.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/milestones.md",
-      "title": "Milestones"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/runtime/README.md",
       "publication_status": null,
       "source_path": "docs/runtime/README.md",
       "title": "runtime"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/request-lifecycle.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/request-lifecycle.md",
-      "title": "Request Lifecycle"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/status-model.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/status-model.md",
-      "title": "Status Model"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/runtime/validation-and-confirmation.md",
-      "publication_status": null,
-      "source_path": "docs/runtime/validation-and-confirmation.md",
-      "title": "Validation and Confirmation"
     },
     {
       "authority_level": null,
@@ -8057,6 +8057,106 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/accountability-records.md",
+      "title": "Accountability Records"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/acs-integration.md",
+      "title": "ACS Integration"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-007",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-007",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/architecture.md",
+      "title": "Runtime Architecture"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-008",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-008",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/communication-cadence.md",
+      "title": "Communication Cadence"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-009",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-009",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/delays-and-blockers.md",
+      "title": "Delays and Blockers"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-010",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-010",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/execution-handoff.md",
+      "title": "Execution Handoff"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-011",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-011",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/milestones.md",
+      "title": "Milestones"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-012",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-012",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/request-lifecycle.md",
+      "title": "Request Lifecycle"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-013",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-013",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/status-model.md",
+      "title": "Status Model"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "RUNTIME-GDE-014",
+      "document_type": "GUIDE",
+      "node_id": "RUNTIME-GDE-014",
+      "publication_status": "APPROVED",
+      "source_path": "docs/runtime/validation-and-confirmation.md",
+      "title": "Validation and Confirmation"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "SEC-GDE-001",
       "document_type": "GUIDE",
       "node_id": "SEC-GDE-001",
@@ -8730,17 +8830,7 @@
     "docs/overview/README.md",
     "docs/overview/terminology.md",
     "docs/README.md",
-    "docs/runtime/accountability-records.md",
-    "docs/runtime/acs-integration.md",
-    "docs/runtime/architecture.md",
-    "docs/runtime/communication-cadence.md",
-    "docs/runtime/delays-and-blockers.md",
-    "docs/runtime/execution-handoff.md",
-    "docs/runtime/milestones.md",
     "docs/runtime/README.md",
-    "docs/runtime/request-lifecycle.md",
-    "docs/runtime/status-model.md",
-    "docs/runtime/validation-and-confirmation.md",
     "docs/security/README.md",
     "docs/security/trading-api-security.md",
     "docs/tokenomics/academy-rewards.md",
@@ -8786,6 +8876,16 @@
     "docs/treasury/trading-alignment.md",
     "docs/treasury/treasury-policy.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
+    "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
+    "documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md",
+    "documentation/EPIC-03-BATCH-04-EXECUTION-PLAN.md",
+    "documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md",
+    "documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md",
+    "documentation/EPIC-03-BATCH-04-PLAN.md",
+    "documentation/EPIC-03-BATCH-04-ROLLBACK-PLAN.md",
+    "documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md",
+    "documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md",
+    "documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md",
     "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
     "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
     "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
@@ -9574,6 +9674,16 @@
       "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "documentation/DOCUMENTATION-VALIDATION-RULES.md",
+      "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
+      "documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md",
+      "documentation/EPIC-03-BATCH-04-EXECUTION-PLAN.md",
+      "documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md",
+      "documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md",
+      "documentation/EPIC-03-BATCH-04-PLAN.md",
+      "documentation/EPIC-03-BATCH-04-ROLLBACK-PLAN.md",
+      "documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md",
+      "documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md",
+      "documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md",
       "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
       "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
       "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
@@ -9813,6 +9923,16 @@
       "RUNTIME-GDE-002",
       "RUNTIME-GDE-003",
       "RUNTIME-GDE-004",
+      "RUNTIME-GDE-005",
+      "RUNTIME-GDE-006",
+      "RUNTIME-GDE-007",
+      "RUNTIME-GDE-008",
+      "RUNTIME-GDE-009",
+      "RUNTIME-GDE-010",
+      "RUNTIME-GDE-011",
+      "RUNTIME-GDE-012",
+      "RUNTIME-GDE-013",
+      "RUNTIME-GDE-014",
       "SEC-GDE-001",
       "SEC-GDE-002",
       "SEC-GDE-003",
@@ -9846,21 +9966,31 @@
       "DOC-RPT-050",
       "DOC-RPT-051",
       "DOC-RPT-052",
-      "DOC-RPT-053"
+      "DOC-RPT-053",
+      "DOC-RPT-054",
+      "DOC-RPT-055",
+      "DOC-RPT-056",
+      "DOC-RPT-057",
+      "DOC-RPT-058",
+      "DOC-RPT-059",
+      "DOC-RPT-060",
+      "DOC-RPT-061",
+      "DOC-RPT-062",
+      "DOC-RPT-063"
     ]
   },
   "relationship_counts": {
     "DEPENDS_ON": 115,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 181,
+    "RELATES_TO": 201,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 369,
+    "declared": 389,
     "derived": 0,
     "duplicates": 0,
-    "total": 369,
+    "total": 389,
     "unresolved": 0
   },
   "relationship_types": [
@@ -12005,6 +12135,126 @@
       "source": "RUNTIME-GDE-004",
       "source_path": "docs/runtime/risk-controls.md",
       "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-005",
+      "source_path": "docs/runtime/accountability-records.md",
+      "target": "ACCOUNT-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-005",
+      "source_path": "docs/runtime/accountability-records.md",
+      "target": "GOV-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-006",
+      "source_path": "docs/runtime/acs-integration.md",
+      "target": "ACS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-006",
+      "source_path": "docs/runtime/acs-integration.md",
+      "target": "RUNTIME-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-007",
+      "source_path": "docs/runtime/architecture.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-007",
+      "source_path": "docs/runtime/architecture.md",
+      "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-008",
+      "source_path": "docs/runtime/communication-cadence.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-008",
+      "source_path": "docs/runtime/communication-cadence.md",
+      "target": "RUNTIME-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-009",
+      "source_path": "docs/runtime/delays-and-blockers.md",
+      "target": "RUNTIME-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-009",
+      "source_path": "docs/runtime/delays-and-blockers.md",
+      "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-010",
+      "source_path": "docs/runtime/execution-handoff.md",
+      "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-010",
+      "source_path": "docs/runtime/execution-handoff.md",
+      "target": "SEC-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-011",
+      "source_path": "docs/runtime/milestones.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-011",
+      "source_path": "docs/runtime/milestones.md",
+      "target": "RUNTIME-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-012",
+      "source_path": "docs/runtime/request-lifecycle.md",
+      "target": "RUNTIME-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-012",
+      "source_path": "docs/runtime/request-lifecycle.md",
+      "target": "RUNTIME-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-013",
+      "source_path": "docs/runtime/status-model.md",
+      "target": "RUNTIME-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-013",
+      "source_path": "docs/runtime/status-model.md",
+      "target": "RUNTIME-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-014",
+      "source_path": "docs/runtime/validation-and-confirmation.md",
+      "target": "ACS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "RUNTIME-GDE-014",
+      "source_path": "docs/runtime/validation-and-confirmation.md",
+      "target": "RUNTIME-GDE-004",
       "type": "RELATES_TO"
     },
     {

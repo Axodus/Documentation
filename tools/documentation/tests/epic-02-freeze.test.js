@@ -74,8 +74,8 @@ test('authority defaults and execution boundary are explicit', async () => {
 test('baseline and exception populations remain synchronized', async () => {
   const baseline = JSON.parse(await load('documentation.baseline.json'))
   const exceptions = JSON.parse(await load('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 573)
-  assert.equal(exceptions.exceptions.length, 573)
+  assert.equal(baseline.entries.length, 563)
+  assert.equal(exceptions.exceptions.length, 563)
   assert.deepEqual(
     baseline.entries.map(({ path }) => path).sort(),
     exceptions.exceptions.map(({ document_path }) => document_path).sort(),

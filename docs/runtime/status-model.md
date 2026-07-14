@@ -1,9 +1,39 @@
-# Status Model
+---
+schema_version: "1.0.0"
+document_id: "RUNTIME-GDE-013"
+aliases: []
+document_type: "GUIDE"
+title: "Status Model"
+summary: "Defines the Runtime status vocabulary, transition fields, rules, and anti-patterns."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "RUNTIME"
+authority_level: "CORE"
+author: "Axodus Runtime"
+owner: "Axodus Runtime"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-14"
+last_reviewed: "2026-07-14"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-14"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "RUNTIME-GDE-001"}, {type: "RELATES_TO", target: "RUNTIME-GDE-002"}]
+related_epics: ["DOCUMENTATION-EPIC-03"]
+related_requirements: ["AXODUS-DOCUMENTATION-EPIC-03-REQ-10"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-023"]
+related_cores: ["RUNTIME"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/runtime/status-model.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
 
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Runtime
+# Status Model
 
 ---
 

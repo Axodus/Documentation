@@ -1,22 +1,22 @@
 {
-  "baseline_entries": 573,
+  "baseline_entries": 563,
   "baseline_version": "1.0.0",
-  "canonical_documents": 182,
+  "canonical_documents": 202,
   "changed_legacy": 0,
-  "exception_entries": 573,
+  "exception_entries": 563,
   "expired_exceptions": 0,
   "generation_timestamp": "2026-07-14T00:00:00Z",
   "generator_version": "1.0.0",
-  "known_legacy": 573,
-  "legacy_documents": 601,
+  "known_legacy": 563,
+  "legacy_documents": 591,
   "new_legacy": 28,
   "removed_legacy": 0,
   "repository_summary": {
-    "active_exceptions": 573,
+    "active_exceptions": 563,
     "baseline_valid": true,
     "exceptions_valid": true,
     "invalid_exceptions": 0,
     "revoked_exceptions": 0
   },
-  "total_documents": 797
+  "total_documents": 807
 }

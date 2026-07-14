@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 797
-- Canonical metadata field coverage: 24.59%
-- Schema 1.0.0 canonical documents: 182
-- Legacy documents: 601
-- Documents missing canonical metadata: 601
-- Documents without YAML front matter: 601
+- Source documents: 807
+- Canonical metadata field coverage: 26.77%
+- Schema 1.0.0 canonical documents: 202
+- Legacy documents: 591
+- Documents missing canonical metadata: 591
+- Documents without YAML front matter: 591
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 196 | 601 | 24.59% |
-| `document_id` | 196 | 601 | 24.59% |
-| `aliases` | 196 | 601 | 24.59% |
-| `document_type` | 196 | 601 | 24.59% |
-| `title` | 196 | 601 | 24.59% |
-| `summary` | 196 | 601 | 24.59% |
-| `version` | 196 | 601 | 24.59% |
-| `publication_status` | 196 | 601 | 24.59% |
-| `document_state` | 196 | 601 | 24.59% |
-| `maturity_level` | 196 | 601 | 24.59% |
-| `authority_scope` | 196 | 601 | 24.59% |
-| `authority_level` | 196 | 601 | 24.59% |
-| `author` | 196 | 601 | 24.59% |
-| `owner` | 196 | 601 | 24.59% |
-| `maintainer` | 196 | 601 | 24.59% |
-| `technical_reviewers` | 196 | 601 | 24.59% |
-| `business_reviewers` | 196 | 601 | 24.59% |
-| `security_reviewers` | 196 | 601 | 24.59% |
-| `approver` | 196 | 601 | 24.59% |
-| `created_date` | 196 | 601 | 24.59% |
-| `last_updated` | 196 | 601 | 24.59% |
-| `last_reviewed` | 196 | 601 | 24.59% |
-| `review_cycle` | 196 | 601 | 24.59% |
-| `next_review` | 196 | 601 | 24.59% |
-| `supersedes` | 196 | 601 | 24.59% |
-| `relationships` | 196 | 601 | 24.59% |
-| `related_epics` | 196 | 601 | 24.59% |
-| `related_requirements` | 196 | 601 | 24.59% |
-| `related_adrs` | 196 | 601 | 24.59% |
-| `related_cores` | 196 | 601 | 24.59% |
-| `implementation_refs` | 196 | 601 | 24.59% |
-| `production_gate_impact` | 196 | 601 | 24.59% |
+| `schema_version` | 216 | 591 | 26.77% |
+| `document_id` | 216 | 591 | 26.77% |
+| `aliases` | 216 | 591 | 26.77% |
+| `document_type` | 216 | 591 | 26.77% |
+| `title` | 216 | 591 | 26.77% |
+| `summary` | 216 | 591 | 26.77% |
+| `version` | 216 | 591 | 26.77% |
+| `publication_status` | 216 | 591 | 26.77% |
+| `document_state` | 216 | 591 | 26.77% |
+| `maturity_level` | 216 | 591 | 26.77% |
+| `authority_scope` | 216 | 591 | 26.77% |
+| `authority_level` | 216 | 591 | 26.77% |
+| `author` | 216 | 591 | 26.77% |
+| `owner` | 216 | 591 | 26.77% |
+| `maintainer` | 216 | 591 | 26.77% |
+| `technical_reviewers` | 216 | 591 | 26.77% |
+| `business_reviewers` | 216 | 591 | 26.77% |
+| `security_reviewers` | 216 | 591 | 26.77% |
+| `approver` | 216 | 591 | 26.77% |
+| `created_date` | 216 | 591 | 26.77% |
+| `last_updated` | 216 | 591 | 26.77% |
+| `last_reviewed` | 216 | 591 | 26.77% |
+| `review_cycle` | 216 | 591 | 26.77% |
+| `next_review` | 216 | 591 | 26.77% |
+| `supersedes` | 216 | 591 | 26.77% |
+| `relationships` | 216 | 591 | 26.77% |
+| `related_epics` | 216 | 591 | 26.77% |
+| `related_requirements` | 216 | 591 | 26.77% |
+| `related_adrs` | 216 | 591 | 26.77% |
+| `related_cores` | 216 | 591 | 26.77% |
+| `implementation_refs` | 216 | 591 | 26.77% |
+| `production_gate_impact` | 216 | 591 | 26.77% |
 
 ## Documents Without Front Matter
 
@@ -560,17 +560,7 @@ Generator Version: 1.0.0
 - docs/overview/README.md
 - docs/overview/terminology.md
 - docs/README.md
-- docs/runtime/accountability-records.md
-- docs/runtime/acs-integration.md
-- docs/runtime/architecture.md
-- docs/runtime/communication-cadence.md
-- docs/runtime/delays-and-blockers.md
-- docs/runtime/execution-handoff.md
-- docs/runtime/milestones.md
 - docs/runtime/README.md
-- docs/runtime/request-lifecycle.md
-- docs/runtime/status-model.md
-- docs/runtime/validation-and-confirmation.md
 - docs/security/README.md
 - docs/security/trading-api-security.md
 - docs/tokenomics/academy-rewards.md
@@ -1164,17 +1154,7 @@ Generator Version: 1.0.0
 - docs/overview/README.md
 - docs/overview/terminology.md
 - docs/README.md
-- docs/runtime/accountability-records.md
-- docs/runtime/acs-integration.md
-- docs/runtime/architecture.md
-- docs/runtime/communication-cadence.md
-- docs/runtime/delays-and-blockers.md
-- docs/runtime/execution-handoff.md
-- docs/runtime/milestones.md
 - docs/runtime/README.md
-- docs/runtime/request-lifecycle.md
-- docs/runtime/status-model.md
-- docs/runtime/validation-and-confirmation.md
 - docs/security/README.md
 - docs/security/trading-api-security.md
 - docs/tokenomics/academy-rewards.md

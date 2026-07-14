@@ -5,7 +5,7 @@ aliases: []
 document_type: "REPORT"
 title: "Epic 03 Batch 04 Candidate Register"
 summary: "Records the deterministic primary and alternate candidates frozen for EPIC-03 legacy migration Batch 04."
-version: "0.1.0"
+version: "0.2.0"
 publication_status: "DRAFT"
 document_state: "CURRENT"
 maturity_level: "D2"
@@ -96,6 +96,37 @@ an invalid alternate with an unregistered path.
 
 All 15 reviewed candidates have exactly one planning disposition: ten
 `FREEZE_FOR_BATCH_04` and five `ALTERNATE_CANDIDATE`. No candidate is undecided.
+
+## REQ-10 Execution State
+
+The committed freeze was revalidated without a source, target, ID, authority,
+security, conflict, or boundary invalidation. No alternate was activated.
+
+| Candidate | Frozen role | Final execution state | Evidence |
+|---|---|---|---|
+| `MIG-EP3-B04-001` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-005` |
+| `MIG-EP3-B04-002` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-006` |
+| `MIG-EP3-B04-003` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-007` |
+| `MIG-EP3-B04-004` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-008` |
+| `MIG-EP3-B04-005` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-009` |
+| `MIG-EP3-B04-006` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-010` |
+| `MIG-EP3-B04-007` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-011` |
+| `MIG-EP3-B04-008` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-012` |
+| `MIG-EP3-B04-009` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-013` |
+| `MIG-EP3-B04-010` | Primary | `MIGRATED` | Promoted as `RUNTIME-GDE-014` |
+| `MIG-EP3-B04-011` | Alternate | Not activated | Primary set remained eligible; legacy and registries unchanged |
+| `MIG-EP3-B04-012` | Alternate | Not activated | Primary set remained eligible; legacy and registries unchanged |
+| `MIG-EP3-B04-013` | Alternate | Not activated | Primary set remained eligible; legacy and registries unchanged |
+| `MIG-EP3-B04-014` | Alternate | Not activated | Primary set remained eligible; legacy and registries unchanged |
+| `MIG-EP3-B04-015` | Alternate | Not activated | Primary set remained eligible; legacy and registries unchanged |
+
+```text
+MIGRATED: 10
+DEFERRED: 0
+BLOCKED: 0
+APPROVED ALTERNATES ACTIVATED: 0
+UNUSED ALTERNATES: 5
+```
 
 ## Gate Preservation
 

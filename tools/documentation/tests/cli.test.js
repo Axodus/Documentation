@@ -67,8 +67,8 @@ test('dispositions command reports compact registry statistics', async () => {
 test('dispositions dry run previews application without registry mutation', async () => {
   const payload = await json('dispositions-dry-run')
   assert.equal(payload.status, 'PASS')
-  assert.equal(payload.statistics.disposition_entries, 573)
-  assert.equal(payload.statistics.would_apply_dispositions, 573)
+  assert.equal(payload.statistics.disposition_entries, 563)
+  assert.equal(payload.statistics.would_apply_dispositions, 563)
   assert.equal(payload.statistics.baseline_entries_removed, 0)
   assert.equal(payload.statistics.exception_entries_removed, 0)
   assert.equal(payload.statistics.exception_registry_entries_mutated, 0)

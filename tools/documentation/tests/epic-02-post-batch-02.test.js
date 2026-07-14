@@ -56,8 +56,8 @@ test('Batch 03 proposal has 20 primaries, six alternates and no final IDs', asyn
 test('registries remain synchronized after governed Batch 03 migration', async () => {
   const baseline = JSON.parse(await read('documentation.baseline.json'))
   const exceptions = JSON.parse(await read('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 573)
-  assert.equal(exceptions.exceptions.length, 573)
+  assert.equal(baseline.entries.length, 563)
+  assert.equal(exceptions.exceptions.length, 563)
   assert.deepEqual(
     baseline.entries.map(({ path }) => path).sort(),
     exceptions.exceptions.map(({ document_path }) => document_path).sort(),

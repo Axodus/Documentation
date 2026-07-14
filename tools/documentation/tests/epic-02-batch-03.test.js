@@ -32,8 +32,8 @@ test('Batch 03 migrates exactly 20 approved canonical primaries', async () => {
 test('Batch 03 removes only migrated paths from synchronized registries', async () => {
   const baseline = JSON.parse(await read('documentation.baseline.json'))
   const exceptions = JSON.parse(await read('documentation.exceptions.json'))
-  assert.equal(baseline.entries.length, 573)
-  assert.equal(exceptions.exceptions.length, 573)
+  assert.equal(baseline.entries.length, 563)
+  assert.equal(exceptions.exceptions.length, 563)
   for (const [path] of migrated) {
     assert.equal(baseline.entries.some((entry) => entry.path === path), false)
     assert.equal(exceptions.exceptions.some((entry) => entry.document_path === path), false)
