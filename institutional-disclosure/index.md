@@ -19,7 +19,7 @@ business_reviewers: []
 security_reviewers: []
 approver: null
 created_date: "2026-07-06"
-last_updated: "2026-07-08"
+last_updated: "2026-07-13"
 last_reviewed: null
 review_cycle: "EVENT_DRIVEN"
 next_review: null
@@ -62,10 +62,12 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Academy | [Academy Boundary Risk Review](academy-boundary-risk-review.md) | Private/internal-only review |
 | Academy | [Academy Open Decisions](academy-open-decisions.md) | Private/internal-only decision register |
 | Academy | [Academy Economic Template Notes](academy-economic-template-notes.md) | Private/internal-only guide |
+| Academy | [Academy Public Sanitization Decision](academy-public-sanitization-decision.md) | Private/internal-only decision |
 | Marketplace | [Marketplace Private Architecture](marketplace-private-architecture.md) | Private baseline |
 | Marketplace | [Marketplace Boundary Risk Review](marketplace-boundary-risk-review.md) | Private/internal-only review |
 | Marketplace | [Marketplace Open Decisions](marketplace-open-decisions.md) | Private/internal-only decision register |
 | Marketplace | [Marketplace Licensing and Royalty Notes](marketplace-licensing-and-royalty-notes.md) | Private/internal-only guide |
+| Marketplace | [Marketplace Public Sanitization Decision](marketplace-public-sanitization-decision.md) | Private/internal-only decision |
 | ACS | [ACS Private Architecture](acs-private-architecture.md) | Private baseline |
 | ACS | [ACS Boundary Risk Review](acs-boundary-risk-review.md) | Private/internal-only review |
 | ACS | [ACS Agent Governance Model](acs-agent-governance-model.md) | Private/internal-only guide |
@@ -73,6 +75,7 @@ production_gate_impact: "PRESERVES_CLOSED"
 | ACS | [ACS Open Decisions](acs-open-decisions.md) | Private/internal-only decision register |
 | ACS | [ACS Boundary Consolidation Audit](acs-boundary-consolidation-audit.md) | Private/internal-only audit |
 | ACS | [ACS Sanitization Decision Register](acs-sanitization-decision-register.md) | Private/internal-only decision register |
+| ACS | [ACS Public Sanitization Decision](acs-public-sanitization-decision.md) | Private/internal-only decision |
 | Trading | [Trading Private Architecture](trading-private-architecture.md) | Private baseline |
 | Trading | [Trading Boundary Risk Review](trading-boundary-risk-review.md) | Private/internal-only review |
 | Trading | [Trading Promotional Agent Model](trading-promotional-agent-model.md) | Private/internal-only guide |
@@ -80,12 +83,15 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Trading | [Trading Open Decisions](trading-open-decisions.md) | Private/internal-only decision register |
 | Trading | [Trading Boundary Consolidation Audit](trading-boundary-consolidation-audit.md) | Private/internal-only audit |
 | Trading | [Trading Sanitization Decision Register](trading-sanitization-decision-register.md) | Private/internal-only decision register |
+| Trading | [Trading Public Sanitization Decision](trading-public-sanitization-decision.md) | Private/internal-only decision |
 | Cross-track | [Academy and Marketplace Boundary Consolidation Audit](academy-marketplace-boundary-consolidation-audit.md) | Private audit |
 | Cross-track | [Academy and Marketplace Sanitization Decision Register](academy-marketplace-sanitization-decision-register.md) | Private decision register |
 | Cross-track | [Private Tracks Boundary Audit](private-tracks-boundary-audit.md) | Private audit |
 | Cross-core | [Cross-Core Disclosure Matrix](cross-core-disclosure-matrix.md) | Private/internal-only reference |
 | Cross-core | [Cross-Core Disclosure Governance Standard](cross-core-disclosure-governance-standard.md) | Private/internal-only standard |
 | Cross-core | [Cross-Core Sanitization Roadmap](cross-core-sanitization-roadmap.md) | Private/internal-only roadmap |
+| Cross-core | [Sprint 02 Sanitization Decision Closure](sanitization-decision-sprint-02-closure.md) | Private/internal-only closure report |
+| Cross-core | [Sanitization Authorized Correction Set Register](sanitization-authorized-correction-set-register.md) | Private/internal-only correction-set register |
 
 ## Boundary
 
