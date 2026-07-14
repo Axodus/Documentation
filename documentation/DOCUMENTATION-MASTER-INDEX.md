@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 807
+Source Documents: 810
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 807
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 807 |
-| Canonical documents | 202 |
+| Total source documents | 810 |
+| Canonical documents | 205 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 807
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 64 |
+| REPORT | 67 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 807
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 160 |
+| CORE | 163 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 807
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 57 |
+| DRAFT | 60 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -246,12 +246,15 @@ Source Documents: 807
 | DOC-RPT-043 | Documentation Traceability Depth Baseline | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md](./DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md](./DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-VALIDATION-RULES.md](./DOCUMENTATION-VALIDATION-RULES.md) |
+| DOC-RPT-065 | Epic 03 Batch 04 Acceptance Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md](./EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md) |
 | DOC-RPT-056 | Epic 03 Batch 04 Authority Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md](./EPIC-03-BATCH-04-AUTHORITY-REVIEW.md) |
 | DOC-RPT-055 | Epic 03 Batch 04 Candidate Register | REPORT | DRAFT | CORE | 0.2.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md](./EPIC-03-BATCH-04-CANDIDATE-REGISTER.md) |
+| DOC-RPT-064 | Epic 03 Batch 04 Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-CLOSURE-AUDIT.md](./EPIC-03-BATCH-04-CLOSURE-AUDIT.md) |
 | DOC-RPT-059 | Epic 03 Batch 04 Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-EXECUTION-PLAN.md](./EPIC-03-BATCH-04-EXECUTION-PLAN.md) |
 | DOC-RPT-060 | Epic 03 Batch 04 Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md](./EPIC-03-BATCH-04-EXECUTION-REPORT.md) |
 | DOC-RPT-062 | Epic 03 Batch 04 Migration Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md](./EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md) |
 | DOC-RPT-054 | Epic 03 Batch 04 Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-PLAN.md](./EPIC-03-BATCH-04-PLAN.md) |
+| DOC-RPT-066 | Epic 03 Batch 04 Residual Risk Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-RESIDUAL-RISK-REGISTER.md](./EPIC-03-BATCH-04-RESIDUAL-RISK-REGISTER.md) |
 | DOC-RPT-058 | Epic 03 Batch 04 Rollback Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-ROLLBACK-PLAN.md](./EPIC-03-BATCH-04-ROLLBACK-PLAN.md) |
 | DOC-RPT-063 | Epic 03 Batch 04 Security and Boundary Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md](./EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md) |
 | DOC-RPT-057 | Epic 03 Batch 04 Security Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md](./EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md) |

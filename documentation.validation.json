@@ -9946,6 +9946,15 @@
       "source_path": "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md"
     },
     {
+      "document_id": "DOC-RPT-065",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md"
+    },
+    {
       "document_id": "DOC-RPT-056",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -9962,6 +9971,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-064",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-BATCH-04-CLOSURE-AUDIT.md"
     },
     {
       "document_id": "DOC-RPT-059",
@@ -9998,6 +10016,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-03-BATCH-04-PLAN.md"
+    },
+    {
+      "document_id": "DOC-RPT-066",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-BATCH-04-RESIDUAL-RISK-REGISTER.md"
     },
     {
       "document_id": "DOC-RPT-058",
@@ -10853,7 +10880,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1204,
+    "info": 1207,
     "invalid_exceptions": 0,
     "known_legacy": 563,
     "legacy_documents": 591,
@@ -10865,16 +10892,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 807,
+    "total_documents": 810,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 202,
+    "validated_documents": 205,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 202,
+  "validated_documents": 205,
   "validation_version": "1.1.0",
   "warnings": 0
 }

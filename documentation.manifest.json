@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 807,
+  "document_count": 810,
   "documents": [
     {
       "aliases": [],
@@ -15754,6 +15754,32 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.MIGRATION.BATCH_04.ACCEPTANCE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-065",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-10-CLOSURE",
+        "DOC-ADR-017",
+        "DOC-ADR-018",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "3f7b9bfcceaafbc603738e7f2270e4cf334789c7c59319aca074c057c3232476",
+      "source_path": "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Batch 04 Acceptance Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_03.MIGRATION.BATCH_04.AUTHORITY",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-056",
@@ -15804,6 +15830,33 @@
       "supersedes": [],
       "title": "Epic 03 Batch 04 Candidate Register",
       "version": "0.2.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.MIGRATION.BATCH_04.CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-064",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-10-CLOSURE",
+        "DOC-ADR-004",
+        "DOC-ADR-017",
+        "DOC-ADR-018",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "42ee5a6f1c07d9b44dc20d238eace7d8f40dd05e8166fa3e8f751638da346d09",
+      "source_path": "documentation/EPIC-03-BATCH-04-CLOSURE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Batch 04 Closure Audit",
+      "version": "0.1.0"
     },
     {
       "aliases": [],
@@ -15914,6 +15967,33 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Epic 03 Batch 04 Plan",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.MIGRATION.BATCH_04.RESIDUAL_RISK",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-066",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-10-CLOSURE",
+        "DOC-ADR-017",
+        "DOC-ADR-018",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "c4bbc16522bf41f6d44c680db2ffa15ca58144fe15b5ab6228c4d4ad9d606962",
+      "source_path": "documentation/EPIC-03-BATCH-04-RESIDUAL-RISK-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Batch 04 Residual Risk Register",
       "version": "0.1.0"
     },
     {
@@ -19974,12 +20054,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 202,
+    "compliant_documents": 205,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 160,
+      "CORE": 163,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -19987,7 +20067,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 118,
+      "D2": 121,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 591
@@ -20005,7 +20085,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 132,
+      "Axodus Documentation Core": 135,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -20026,7 +20106,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 57,
+      "DRAFT": 60,
       "UNSPECIFIED": 591
     },
     "documents_by_type": {
@@ -20039,7 +20119,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 64,
+      "REPORT": 67,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -20052,6 +20132,6 @@
     "generated_documents": 8,
     "legacy_documents": 591,
     "template_documents": 14,
-    "total_documents": 807
+    "total_documents": 810
   }
 }
