@@ -5877,6 +5877,36 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-119",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-119",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md",
+      "title": "Low-Risk Root Consolidation Execution Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-120",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-120",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md",
+      "title": "Low-Risk Root Consolidation Change Register"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-121",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-121",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md",
+      "title": "Low-Risk Root Consolidation Risk Review"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -9482,6 +9512,9 @@
     "documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md",
     "documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md",
     "documentation/LEGACY-DIRECTORY-RISK-REVIEW.md",
+    "documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md",
+    "documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md",
+    "documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md",
     "documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md",
     "documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md",
     "documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md",
@@ -10335,6 +10368,9 @@
       "documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md",
       "documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md",
       "documentation/LEGACY-DIRECTORY-RISK-REVIEW.md",
+      "documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md",
+      "documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md",
+      "documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md",
       "documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md",
       "documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md",
       "documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md",
@@ -10691,7 +10727,10 @@
       "DOC-RPT-115",
       "DOC-RPT-116",
       "DOC-RPT-117",
-      "DOC-RPT-118"
+      "DOC-RPT-118",
+      "DOC-RPT-119",
+      "DOC-RPT-120",
+      "DOC-RPT-121"
     ]
   },
   "relationship_counts": {

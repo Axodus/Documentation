@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 862
+Source Documents: 865
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 862
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 862 |
-| Canonical documents | 257 |
+| Total source documents | 865 |
+| Canonical documents | 260 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 862
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 119 |
+| REPORT | 122 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 862
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 215 |
+| CORE | 218 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 862
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 112 |
+| DRAFT | 115 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -302,6 +302,9 @@ Source Documents: 862
 | DOC-RPT-101 | Legacy Directory Dependency Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md](./LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md) |
 | DOC-RPT-099 | Legacy Directory Migration Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md](./LEGACY-DIRECTORY-MIGRATION-REGISTER.md) |
 | DOC-RPT-100 | Legacy Directory Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LEGACY-DIRECTORY-RISK-REVIEW.md](./LEGACY-DIRECTORY-RISK-REVIEW.md) |
+| DOC-RPT-120 | Low-Risk Root Consolidation Change Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md](./LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md) |
+| DOC-RPT-119 | Low-Risk Root Consolidation Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md](./LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md) |
+| DOC-RPT-121 | Low-Risk Root Consolidation Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md](./LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md) |
 | DOC-RPT-115 | Public Source Boundary Enforcement Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md](./PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md) |
 | DOC-RPT-118 | Public Source Boundary Risk Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md](./PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md) |
 | DOC-RPT-116 | Public Source Discovery Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md](./PUBLIC-SOURCE-DISCOVERY-AUDIT.md) |

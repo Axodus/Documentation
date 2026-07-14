@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 862
+- Graph nodes: 865
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 676
+- Orphan documents: 679
 - Cycles: 13
 
 ## Relationship Counts
@@ -658,6 +658,9 @@ None.
 - documentation/LEGACY-DIRECTORY-DEPENDENCY-AUDIT.md
 - documentation/LEGACY-DIRECTORY-MIGRATION-REGISTER.md
 - documentation/LEGACY-DIRECTORY-RISK-REVIEW.md
+- documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md
+- documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md
+- documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md
 - documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md
 - documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md
 - documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md

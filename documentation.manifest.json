@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 862,
+  "document_count": 865,
   "documents": [
     {
       "aliases": [],
@@ -17239,6 +17239,87 @@
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-120",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-07"
+      ],
+      "sha256": "af9008ab5efddcf885a2c70e31b3d5a957d30c32c24516910439adb7a90853c3",
+      "source_path": "documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Low-Risk Root Consolidation Change Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-119",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-07"
+      ],
+      "sha256": "8a788fefa587b169f11ee855af91ce60b0734e12883cb6cd1934f59610fe5fc4",
+      "source_path": "documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Low-Risk Root Consolidation Execution Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-121",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOC-ADR-009",
+        "DOC-ADR-017",
+        "DOC-ADR-020",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-04",
+        "DOCUMENTATION-REORG-REQ-07"
+      ],
+      "sha256": "79acca462a8eb50ee11e1124a53d2ec91cba978ec45453ff270b91d529380dda",
+      "source_path": "documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Low-Risk Root Consolidation Risk Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_04.REPOSITORY_REORGANIZATION",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-115",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -21426,12 +21507,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 257,
+    "compliant_documents": 260,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 215,
+      "CORE": 218,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -21439,7 +21520,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 173,
+      "D2": 176,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 591
@@ -21457,7 +21538,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 187,
+      "Axodus Documentation Core": 190,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -21478,7 +21559,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 112,
+      "DRAFT": 115,
       "UNSPECIFIED": 591
     },
     "documents_by_type": {
@@ -21491,7 +21572,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 119,
+      "REPORT": 122,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -21504,6 +21585,6 @@
     "generated_documents": 8,
     "legacy_documents": 591,
     "template_documents": 14,
-    "total_documents": 862
+    "total_documents": 865
   }
 }
