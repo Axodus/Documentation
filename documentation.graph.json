@@ -5357,6 +5357,56 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-067",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-067",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md",
+      "title": "Epic 03 Final Reconciliation Report"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-068",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-068",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md",
+      "title": "Epic 03 Final Closure Audit"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-069",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-069",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md",
+      "title": "Epic 03 Residual Backlog Register"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-070",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-070",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md",
+      "title": "Epic 03 Maturity and Development Assessment"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-071",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-071",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md",
+      "title": "Epic 03 Successor Workstream Plan"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -8919,6 +8969,11 @@
     "documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md",
     "documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md",
     "documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md",
+    "documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md",
+    "documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md",
+    "documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md",
+    "documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md",
+    "documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md",
     "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
     "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
     "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
@@ -9720,6 +9775,11 @@
       "documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md",
       "documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md",
       "documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md",
+      "documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md",
+      "documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md",
+      "documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md",
+      "documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md",
+      "documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md",
       "documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md",
       "documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md",
       "documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md",
@@ -10015,7 +10075,12 @@
       "DOC-RPT-063",
       "DOC-RPT-064",
       "DOC-RPT-065",
-      "DOC-RPT-066"
+      "DOC-RPT-066",
+      "DOC-RPT-067",
+      "DOC-RPT-068",
+      "DOC-RPT-069",
+      "DOC-RPT-070",
+      "DOC-RPT-071"
     ]
   },
   "relationship_counts": {

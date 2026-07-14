@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 810
+Source Documents: 815
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 810
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 810 |
-| Canonical documents | 205 |
+| Total source documents | 815 |
+| Canonical documents | 210 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 810
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 67 |
+| REPORT | 72 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 810
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 163 |
+| CORE | 168 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 810
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 60 |
+| DRAFT | 65 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -259,6 +259,11 @@ Source Documents: 810
 | DOC-RPT-063 | Epic 03 Batch 04 Security and Boundary Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md](./EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md) |
 | DOC-RPT-057 | Epic 03 Batch 04 Security Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md](./EPIC-03-BATCH-04-SECURITY-RISK-REVIEW.md) |
 | DOC-RPT-061 | Epic 03 Batch 04 Semantic Diff | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md](./EPIC-03-BATCH-04-SEMANTIC-DIFF.md) |
+| DOC-RPT-068 | Epic 03 Final Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md](./EPIC-03-FINAL-CLOSURE-AUDIT.md) |
+| DOC-RPT-067 | Epic 03 Final Reconciliation Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md](./EPIC-03-FINAL-RECONCILIATION-REPORT.md) |
+| DOC-RPT-070 | Epic 03 Maturity and Development Assessment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md](./EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md) |
+| DOC-RPT-069 | Epic 03 Residual Backlog Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md](./EPIC-03-RESIDUAL-BACKLOG-REGISTER.md) |
+| DOC-RPT-071 | Epic 03 Successor Workstream Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md](./EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md) |
 | DOC-RPT-053 | Epic 03 Traceability Batch 01 Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md](./EPIC-03-TRACEABILITY-BATCH-01-CLOSURE-AUDIT.md) |
 | DOC-RPT-052 | Epic 03 Traceability Batch 01 Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md](./EPIC-03-TRACEABILITY-BATCH-01-EXECUTION-REPORT.md) |
 | DOC-RPT-049 | Epic 03 Traceability Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md](./EPIC-03-TRACEABILITY-CANDIDATE-REGISTER.md) |

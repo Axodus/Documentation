@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 810,
+  "document_count": 815,
   "documents": [
     {
       "aliases": [],
@@ -16104,6 +16104,141 @@
     {
       "aliases": [],
       "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.FINAL_CLOSURE",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-068",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-11",
+        "DOC-ADR-002",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-021",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "16743f27defea1431c2fa8c29f64b2554abace5c3ef697015a653b7855937133",
+      "source_path": "documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Final Closure Audit",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.FINAL_RECONCILIATION",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-067",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-11",
+        "DOC-ADR-004",
+        "DOC-ADR-018",
+        "DOC-ADR-021",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "e508969f533f6dce8948dca5fc4fe323ed1b6e1d8f4826338042883dbc277fd7",
+      "source_path": "documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Final Reconciliation Report",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.MATURITY_ASSESSMENT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-070",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-11",
+        "DOC-ADR-002",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "b848a9b9a84920e8e2d66cd0f9975012462f122843068051e8edc01ed7d9ecf5",
+      "source_path": "documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Maturity and Development Assessment",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.RESIDUAL_BACKLOG",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-069",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-11",
+        "DOC-ADR-018",
+        "DOC-ADR-021",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "c99c452f7a10791a843428204bf52e576aee7cad3bda45f5bfc94549a285b17b",
+      "source_path": "documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Residual Backlog Register",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
+      "authority_scope": "DOCUMENTATION.EPIC_03.SUCCESSOR_WORKSTREAMS",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-071",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-14",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-DOCUMENTATION-EPIC-03-REQ-11",
+        "DOC-ADR-018",
+        "DOC-ADR-021",
+        "DOC-ADR-022",
+        "DOC-ADR-023",
+        "DOCUMENTATION-EPIC-03"
+      ],
+      "sha256": "4a50e6b8bd837355dbcda5e70411289fcad2f23b2a23a8e04038aff5474daa35",
+      "source_path": "documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Epic 03 Successor Workstream Plan",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_03.TRACEABILITY.CLOSURE",
       "classification": "CANONICAL",
       "document_id": "DOC-RPT-053",
@@ -20054,12 +20189,12 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 205,
+    "compliant_documents": 210,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 163,
+      "CORE": 168,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 49,
@@ -20067,7 +20202,7 @@
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 121,
+      "D2": 126,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 591
@@ -20085,7 +20220,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 135,
+      "Axodus Documentation Core": 140,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -20106,7 +20241,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 60,
+      "DRAFT": 65,
       "UNSPECIFIED": 591
     },
     "documents_by_type": {
@@ -20119,7 +20254,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 67,
+      "REPORT": 72,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -20132,6 +20267,6 @@
     "generated_documents": 8,
     "legacy_documents": 591,
     "template_documents": 14,
-    "total_documents": 810
+    "total_documents": 815
   }
 }

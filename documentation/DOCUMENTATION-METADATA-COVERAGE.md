@@ -7,9 +7,9 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 810
-- Canonical metadata field coverage: 27.04%
-- Schema 1.0.0 canonical documents: 205
+- Source documents: 815
+- Canonical metadata field coverage: 27.48%
+- Schema 1.0.0 canonical documents: 210
 - Legacy documents: 591
 - Documents missing canonical metadata: 591
 - Documents without YAML front matter: 591
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 219 | 591 | 27.04% |
-| `document_id` | 219 | 591 | 27.04% |
-| `aliases` | 219 | 591 | 27.04% |
-| `document_type` | 219 | 591 | 27.04% |
-| `title` | 219 | 591 | 27.04% |
-| `summary` | 219 | 591 | 27.04% |
-| `version` | 219 | 591 | 27.04% |
-| `publication_status` | 219 | 591 | 27.04% |
-| `document_state` | 219 | 591 | 27.04% |
-| `maturity_level` | 219 | 591 | 27.04% |
-| `authority_scope` | 219 | 591 | 27.04% |
-| `authority_level` | 219 | 591 | 27.04% |
-| `author` | 219 | 591 | 27.04% |
-| `owner` | 219 | 591 | 27.04% |
-| `maintainer` | 219 | 591 | 27.04% |
-| `technical_reviewers` | 219 | 591 | 27.04% |
-| `business_reviewers` | 219 | 591 | 27.04% |
-| `security_reviewers` | 219 | 591 | 27.04% |
-| `approver` | 219 | 591 | 27.04% |
-| `created_date` | 219 | 591 | 27.04% |
-| `last_updated` | 219 | 591 | 27.04% |
-| `last_reviewed` | 219 | 591 | 27.04% |
-| `review_cycle` | 219 | 591 | 27.04% |
-| `next_review` | 219 | 591 | 27.04% |
-| `supersedes` | 219 | 591 | 27.04% |
-| `relationships` | 219 | 591 | 27.04% |
-| `related_epics` | 219 | 591 | 27.04% |
-| `related_requirements` | 219 | 591 | 27.04% |
-| `related_adrs` | 219 | 591 | 27.04% |
-| `related_cores` | 219 | 591 | 27.04% |
-| `implementation_refs` | 219 | 591 | 27.04% |
-| `production_gate_impact` | 219 | 591 | 27.04% |
+| `schema_version` | 224 | 591 | 27.48% |
+| `document_id` | 224 | 591 | 27.48% |
+| `aliases` | 224 | 591 | 27.48% |
+| `document_type` | 224 | 591 | 27.48% |
+| `title` | 224 | 591 | 27.48% |
+| `summary` | 224 | 591 | 27.48% |
+| `version` | 224 | 591 | 27.48% |
+| `publication_status` | 224 | 591 | 27.48% |
+| `document_state` | 224 | 591 | 27.48% |
+| `maturity_level` | 224 | 591 | 27.48% |
+| `authority_scope` | 224 | 591 | 27.48% |
+| `authority_level` | 224 | 591 | 27.48% |
+| `author` | 224 | 591 | 27.48% |
+| `owner` | 224 | 591 | 27.48% |
+| `maintainer` | 224 | 591 | 27.48% |
+| `technical_reviewers` | 224 | 591 | 27.48% |
+| `business_reviewers` | 224 | 591 | 27.48% |
+| `security_reviewers` | 224 | 591 | 27.48% |
+| `approver` | 224 | 591 | 27.48% |
+| `created_date` | 224 | 591 | 27.48% |
+| `last_updated` | 224 | 591 | 27.48% |
+| `last_reviewed` | 224 | 591 | 27.48% |
+| `review_cycle` | 224 | 591 | 27.48% |
+| `next_review` | 224 | 591 | 27.48% |
+| `supersedes` | 224 | 591 | 27.48% |
+| `relationships` | 224 | 591 | 27.48% |
+| `related_epics` | 224 | 591 | 27.48% |
+| `related_requirements` | 224 | 591 | 27.48% |
+| `related_adrs` | 224 | 591 | 27.48% |
+| `related_cores` | 224 | 591 | 27.48% |
+| `implementation_refs` | 224 | 591 | 27.48% |
+| `production_gate_impact` | 224 | 591 | 27.48% |
 
 ## Documents Without Front Matter
 

@@ -10063,6 +10063,51 @@
       "source_path": "documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md"
     },
     {
+      "document_id": "DOC-RPT-068",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md"
+    },
+    {
+      "document_id": "DOC-RPT-067",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-070",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md"
+    },
+    {
+      "document_id": "DOC-RPT-069",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-071",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md"
+    },
+    {
       "document_id": "DOC-RPT-053",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10880,7 +10925,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1207,
+    "info": 1212,
     "invalid_exceptions": 0,
     "known_legacy": 563,
     "legacy_documents": 591,
@@ -10892,16 +10937,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 810,
+    "total_documents": 815,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 205,
+    "validated_documents": 210,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 205,
+  "validated_documents": 210,
   "validation_version": "1.1.0",
   "warnings": 0
 }
