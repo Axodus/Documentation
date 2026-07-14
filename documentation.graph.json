@@ -5977,6 +5977,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-129",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-129",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
+      "title": "Documentation Sprint 05 Closure"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
       "document_type": "SPECIFICATION",
       "node_id": "DOC-SPEC-001",
@@ -9531,6 +9541,7 @@
     "documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md",
     "documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
+    "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
     "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
     "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
     "documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md",
@@ -10390,6 +10401,7 @@
       "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
       "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
       "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
+      "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
       "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
       "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
@@ -10821,7 +10833,8 @@
       "DOC-RPT-125",
       "DOC-RPT-126",
       "DOC-RPT-127",
-      "DOC-RPT-128"
+      "DOC-RPT-128",
+      "DOC-RPT-129"
     ]
   },
   "relationship_counts": {

@@ -10000,6 +10000,15 @@
       "source_path": "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md"
     },
     {
+      "document_id": "DOC-RPT-129",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md"
+    },
+    {
       "document_id": "DOC-RPT-065",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -11447,7 +11456,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1270,
+    "info": 1271,
     "invalid_exceptions": 0,
     "known_legacy": 561,
     "legacy_documents": 591,
@@ -11459,16 +11468,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 872,
+    "total_documents": 873,
     "unbaselined_legacy": 28,
     "undecided_dispositions": 0,
-    "validated_documents": 267,
+    "validated_documents": 268,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 267,
+  "validated_documents": 268,
   "validation_version": "1.1.0",
   "warnings": 0
 }
