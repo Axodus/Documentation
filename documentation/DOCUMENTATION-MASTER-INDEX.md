@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-14T00:00:00Z
-Source Documents: 815
+Source Documents: 827
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 815
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 815 |
-| Canonical documents | 210 |
+| Total source documents | 827 |
+| Canonical documents | 222 |
 | Legacy documents | 591 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 815
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 72 |
+| REPORT | 84 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -55,7 +55,7 @@ Source Documents: 815
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 168 |
+| CORE | 180 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 49 |
@@ -66,7 +66,7 @@ Source Documents: 815
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 65 |
+| DRAFT | 77 |
 | UNSPECIFIED | 591 |
 ## Canonical Documents
 
@@ -166,6 +166,11 @@ Source Documents: 815
 | TREASURY-GDE-003 | Custody and Security | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/custody-and-security.md](../docs/treasury/custody-and-security.md) |
 | TREASURY-GDE-001 | Treasury Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/overview.md](../docs/treasury/overview.md) |
 | TREASURY-GDE-004 | Treasury Risk Management | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/risk-management.md](../docs/treasury/risk-management.md) |
+| DOC-RPT-081 | Cross-Repository Claims Governance Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md](./CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md) |
+| DOC-RPT-078 | Cross-Repository Disclosure Boundary Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md](./CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md) |
+| DOC-RPT-079 | Cross-Repository Evidence Boundary Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md](./CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md) |
+| DOC-RPT-077 | Cross-Repository Maturity and Development Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md](./CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md) |
+| DOC-RPT-080 | Cross-Repository Terminology Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md](./CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md) |
 | DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-ADOPTION-METRICS.md](./DOCUMENTATION-ADOPTION-METRICS.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BASELINE-POLICY.md](./DOCUMENTATION-BASELINE-POLICY.md) |
 | DOC-RPT-012 | Documentation Batch 01 Acceptance Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md](./DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md) |
@@ -270,6 +275,13 @@ Source Documents: 815
 | DOC-RPT-051 | Epic 03 Traceability Execution Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md](./EPIC-03-TRACEABILITY-EXECUTION-PLAN.md) |
 | DOC-RPT-048 | Epic 03 Traceability Remediation Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md](./EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md) |
 | DOC-RPT-050 | Epic 03 Traceability Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md](./EPIC-03-TRACEABILITY-RISK-REVIEW.md) |
+| DOC-RPT-075 | Institutional Cross-Repository Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CROSS-REPOSITORY-RISK-REVIEW.md](./INSTITUTIONAL-CROSS-REPOSITORY-RISK-REVIEW.md) |
+| DOC-RPT-072 | Institutional Cross-Repository Source Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CROSS-REPOSITORY-SOURCE-REGISTER.md](./INSTITUTIONAL-CROSS-REPOSITORY-SOURCE-REGISTER.md) |
+| DOC-RPT-082 | Institutional Intake Alignment Decision Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md](./INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md) |
+| DOC-RPT-083 | Institutional Intake REQ-03 Release Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-INTAKE-REQ-03-RELEASE-REGISTER.md](./INSTITUTIONAL-INTAKE-REQ-03-RELEASE-REGISTER.md) |
+| DOC-RPT-076 | Institutional Knowledge Alignment Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-KNOWLEDGE-ALIGNMENT-PLAN.md](./INSTITUTIONAL-KNOWLEDGE-ALIGNMENT-PLAN.md) |
+| DOC-RPT-074 | Institutional Knowledge Intake Candidate Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-CANDIDATE-REGISTER.md](./INSTITUTIONAL-KNOWLEDGE-INTAKE-CANDIDATE-REGISTER.md) |
+| DOC-RPT-073 | Institutional Knowledge Intake Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md](./INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md) |
 | DOC-SPEC-004 | Documentation Audit Log Schema | SPECIFICATION | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md](../governance/DOCUMENTATION-AUDIT-LOG-SCHEMA.md) |
 | DOC-POL-001 | Documentation Authority Model | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-AUTHORITY-MODEL.md](../governance/DOCUMENTATION-AUTHORITY-MODEL.md) |
 | DOC-REF-001 | Documentation Conflict Register | REFERENCE | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [governance/DOCUMENTATION-CONFLICT-REGISTER.md](../governance/DOCUMENTATION-CONFLICT-REGISTER.md) |

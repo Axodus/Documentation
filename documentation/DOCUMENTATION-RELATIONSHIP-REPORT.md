@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 815
+- Graph nodes: 827
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 629
+- Orphan documents: 641
 - Cycles: 13
 
 ## Relationship Counts
@@ -601,6 +601,11 @@ None.
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
+- documentation/CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md
+- documentation/CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md
+- documentation/CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md
+- documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md
+- documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
 - documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md
 - documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md
@@ -626,6 +631,13 @@ None.
 - documentation/EPIC-03-TRACEABILITY-EXECUTION-PLAN.md
 - documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md
 - documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md
+- documentation/INSTITUTIONAL-CROSS-REPOSITORY-RISK-REVIEW.md
+- documentation/INSTITUTIONAL-CROSS-REPOSITORY-SOURCE-REGISTER.md
+- documentation/INSTITUTIONAL-INTAKE-ALIGNMENT-DECISION-REGISTER.md
+- documentation/INSTITUTIONAL-INTAKE-REQ-03-RELEASE-REGISTER.md
+- documentation/INSTITUTIONAL-KNOWLEDGE-ALIGNMENT-PLAN.md
+- documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-CANDIDATE-REGISTER.md
+- documentation/INSTITUTIONAL-KNOWLEDGE-INTAKE-INVENTORY.md
 - Documents/agents/AXODUS_AGENT_ALIGNMENT.md
 - Documents/agents/README.md
 - Documents/archive/README.md
