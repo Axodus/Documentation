@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 904
+Source Documents: 907
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 904
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 904 |
-| Canonical documents | 307 |
+| Total source documents | 907 |
+| Canonical documents | 310 |
 | Legacy documents | 583 |
 | Template documents | 14 |
 | Declared relationships | 413 |
@@ -42,7 +42,7 @@ Source Documents: 904
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 155 |
+| REPORT | 158 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 904
 | CORE | 240 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 74 |
+| PROJECT | 77 |
 | UNSPECIFIED | 583 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 904
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 148 |
+| DRAFT | 151 |
 | UNSPECIFIED | 583 |
 ## Canonical Documents
 
@@ -303,11 +303,14 @@ Source Documents: 904
 | DOC-RPT-151 | EPIC-06 Business Batch 01 Freeze | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-BUSINESS-BATCH-01-FREEZE.md](./EPIC-06-BUSINESS-BATCH-01-FREEZE.md) |
 | DOC-RPT-149 | EPIC-06 Business Canonicalization Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md](./EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md) |
 | DOC-RPT-150 | EPIC-06 Business Claim and Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md](./EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md) |
+| DOC-RPT-157 | EPIC-06 Closure Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-CLOSURE-REPORT.md](./EPIC-06-CLOSURE-REPORT.md) |
 | DOC-RPT-144 | EPIC-06 Core Coverage Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-CORE-COVERAGE-MATRIX.md](./EPIC-06-CORE-COVERAGE-MATRIX.md) |
+| DOC-RPT-155 | EPIC-06 Coverage Audit | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-COVERAGE-AUDIT.md](./EPIC-06-COVERAGE-AUDIT.md) |
 | DOC-RPT-153 | EPIC-06 High-Risk Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-HIGH-RISK-BOUNDARY-REVIEW.md](./EPIC-06-HIGH-RISK-BOUNDARY-REVIEW.md) |
 | DOC-RPT-152 | EPIC-06 High-Risk Core Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-HIGH-RISK-CORE-DECISION-REGISTER.md](./EPIC-06-HIGH-RISK-CORE-DECISION-REGISTER.md) |
 | DOC-RPT-147 | EPIC-06 Page Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-PAGE-GAP-REGISTER.md](./EPIC-06-PAGE-GAP-REGISTER.md) |
 | DOC-RPT-148 | EPIC-06 REQ-01 Decision Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-REQ-01-DECISION-REPORT.md](./EPIC-06-REQ-01-DECISION-REPORT.md) |
+| DOC-RPT-156 | EPIC-06 Residual Backlog Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md](./EPIC-06-RESIDUAL-BACKLOG-REGISTER.md) |
 | DOC-RPT-146 | EPIC-06 Source of Truth Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md](./EPIC-06-SOURCE-OF-TRUTH-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |

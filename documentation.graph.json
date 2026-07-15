@@ -6325,6 +6325,36 @@
       "title": "EPIC-06 Batch Eligibility Register"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-155",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-155",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-COVERAGE-AUDIT.md",
+      "title": "EPIC-06 Coverage Audit"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-156",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-156",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
+      "title": "EPIC-06 Residual Backlog Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-157",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-157",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-CLOSURE-REPORT.md",
+      "title": "EPIC-06 Closure Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -9875,11 +9905,14 @@
     "documentation/EPIC-06-BUSINESS-BATCH-01-FREEZE.md",
     "documentation/EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md",
     "documentation/EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md",
+    "documentation/EPIC-06-CLOSURE-REPORT.md",
     "documentation/EPIC-06-CORE-COVERAGE-MATRIX.md",
+    "documentation/EPIC-06-COVERAGE-AUDIT.md",
     "documentation/EPIC-06-HIGH-RISK-BOUNDARY-REVIEW.md",
     "documentation/EPIC-06-HIGH-RISK-CORE-DECISION-REGISTER.md",
     "documentation/EPIC-06-PAGE-GAP-REGISTER.md",
     "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
+    "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
     "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
@@ -10770,11 +10803,14 @@
       "documentation/EPIC-06-BUSINESS-BATCH-01-FREEZE.md",
       "documentation/EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md",
       "documentation/EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md",
+      "documentation/EPIC-06-CLOSURE-REPORT.md",
       "documentation/EPIC-06-CORE-COVERAGE-MATRIX.md",
+      "documentation/EPIC-06-COVERAGE-AUDIT.md",
       "documentation/EPIC-06-HIGH-RISK-BOUNDARY-REVIEW.md",
       "documentation/EPIC-06-HIGH-RISK-CORE-DECISION-REGISTER.md",
       "documentation/EPIC-06-PAGE-GAP-REGISTER.md",
       "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
+      "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
       "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
@@ -11231,7 +11267,10 @@
       "DOC-RPT-151",
       "DOC-RPT-152",
       "DOC-RPT-153",
-      "DOC-RPT-154"
+      "DOC-RPT-154",
+      "DOC-RPT-155",
+      "DOC-RPT-156",
+      "DOC-RPT-157"
     ]
   },
   "relationship_counts": {
