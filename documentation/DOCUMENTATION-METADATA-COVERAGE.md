@@ -8,11 +8,11 @@ Generator Version: 1.0.0
 ## Summary
 
 - Source documents: 904
-- Canonical metadata field coverage: 33.96%
-- Schema 1.0.0 canonical documents: 293
-- Legacy documents: 597
-- Documents missing canonical metadata: 597
-- Documents without YAML front matter: 597
+- Canonical metadata field coverage: 34.96%
+- Schema 1.0.0 canonical documents: 302
+- Legacy documents: 588
+- Documents missing canonical metadata: 588
+- Documents without YAML front matter: 588
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 307 | 597 | 33.96% |
-| `document_id` | 307 | 597 | 33.96% |
-| `aliases` | 307 | 597 | 33.96% |
-| `document_type` | 307 | 597 | 33.96% |
-| `title` | 307 | 597 | 33.96% |
-| `summary` | 307 | 597 | 33.96% |
-| `version` | 307 | 597 | 33.96% |
-| `publication_status` | 307 | 597 | 33.96% |
-| `document_state` | 307 | 597 | 33.96% |
-| `maturity_level` | 307 | 597 | 33.96% |
-| `authority_scope` | 307 | 597 | 33.96% |
-| `authority_level` | 307 | 597 | 33.96% |
-| `author` | 307 | 597 | 33.96% |
-| `owner` | 307 | 597 | 33.96% |
-| `maintainer` | 307 | 597 | 33.96% |
-| `technical_reviewers` | 307 | 597 | 33.96% |
-| `business_reviewers` | 307 | 597 | 33.96% |
-| `security_reviewers` | 307 | 597 | 33.96% |
-| `approver` | 307 | 597 | 33.96% |
-| `created_date` | 307 | 597 | 33.96% |
-| `last_updated` | 307 | 597 | 33.96% |
-| `last_reviewed` | 307 | 597 | 33.96% |
-| `review_cycle` | 307 | 597 | 33.96% |
-| `next_review` | 307 | 597 | 33.96% |
-| `supersedes` | 307 | 597 | 33.96% |
-| `relationships` | 307 | 597 | 33.96% |
-| `related_epics` | 307 | 597 | 33.96% |
-| `related_requirements` | 307 | 597 | 33.96% |
-| `related_adrs` | 307 | 597 | 33.96% |
-| `related_cores` | 307 | 597 | 33.96% |
-| `implementation_refs` | 307 | 597 | 33.96% |
-| `production_gate_impact` | 307 | 597 | 33.96% |
+| `schema_version` | 316 | 588 | 34.96% |
+| `document_id` | 316 | 588 | 34.96% |
+| `aliases` | 316 | 588 | 34.96% |
+| `document_type` | 316 | 588 | 34.96% |
+| `title` | 316 | 588 | 34.96% |
+| `summary` | 316 | 588 | 34.96% |
+| `version` | 316 | 588 | 34.96% |
+| `publication_status` | 316 | 588 | 34.96% |
+| `document_state` | 316 | 588 | 34.96% |
+| `maturity_level` | 316 | 588 | 34.96% |
+| `authority_scope` | 316 | 588 | 34.96% |
+| `authority_level` | 316 | 588 | 34.96% |
+| `author` | 316 | 588 | 34.96% |
+| `owner` | 316 | 588 | 34.96% |
+| `maintainer` | 316 | 588 | 34.96% |
+| `technical_reviewers` | 316 | 588 | 34.96% |
+| `business_reviewers` | 316 | 588 | 34.96% |
+| `security_reviewers` | 316 | 588 | 34.96% |
+| `approver` | 316 | 588 | 34.96% |
+| `created_date` | 316 | 588 | 34.96% |
+| `last_updated` | 316 | 588 | 34.96% |
+| `last_reviewed` | 316 | 588 | 34.96% |
+| `review_cycle` | 316 | 588 | 34.96% |
+| `next_review` | 316 | 588 | 34.96% |
+| `supersedes` | 316 | 588 | 34.96% |
+| `relationships` | 316 | 588 | 34.96% |
+| `related_epics` | 316 | 588 | 34.96% |
+| `related_requirements` | 316 | 588 | 34.96% |
+| `related_adrs` | 316 | 588 | 34.96% |
+| `related_cores` | 316 | 588 | 34.96% |
+| `implementation_refs` | 316 | 588 | 34.96% |
+| `production_gate_impact` | 316 | 588 | 34.96% |
 
 ## Documents Without Front Matter
 
@@ -451,19 +451,10 @@ Generator Version: 1.0.0
 - docs/bba-agency/service-model.md
 - docs/bba-agency/web3-launch-support.md
 - docs/business/accountability.md
-- docs/business/acs-integration.md
 - docs/business/bba.md
 - docs/business/change-requests.md
-- docs/business/client-lifecycle.md
-- docs/business/dao-service-requests.md
-- docs/business/delivery-lifecycle.md
-- docs/business/governance-alignment.md
-- docs/business/plugin-requests.md
 - docs/business/README.md
-- docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
-- docs/business/runtime.md
-- docs/business/service-catalog.md
 - docs/defi/academy-and-user-education.md
 - docs/defi/acs-integration.md
 - docs/defi/architecture.md
@@ -1051,19 +1042,10 @@ Generator Version: 1.0.0
 - docs/bba-agency/service-model.md
 - docs/bba-agency/web3-launch-support.md
 - docs/business/accountability.md
-- docs/business/acs-integration.md
 - docs/business/bba.md
 - docs/business/change-requests.md
-- docs/business/client-lifecycle.md
-- docs/business/dao-service-requests.md
-- docs/business/delivery-lifecycle.md
-- docs/business/governance-alignment.md
-- docs/business/plugin-requests.md
 - docs/business/README.md
-- docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
-- docs/business/runtime.md
-- docs/business/service-catalog.md
 - docs/defi/academy-and-user-education.md
 - docs/defi/acs-integration.md
 - docs/defi/architecture.md

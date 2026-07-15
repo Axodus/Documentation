@@ -1,17 +1,47 @@
-# Business Service Catalog
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Business
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-003"
+aliases: []
+document_type: "GUIDE"
+title: "Business Service Catalog"
+summary: "Defines the Business request and service taxonomy as a scoped documentation baseline within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business"
+owner: "Axodus Business"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/service-catalog.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Business Service Catalog
 
 ## Purpose
 
 The Business service catalog defines the request categories Axodus Business can receive, classify, scope, coordinate, and deliver.
 
 This catalog is not a price list, guarantee, or automatic acceptance policy.
+It is also not a statement that every listed service area is commercially
+available, production-ready, or active under current operating policy.
 
 ## Scope
 
@@ -46,6 +76,10 @@ Reward flows must remain subject to governance and contract-level validation.
 ### Marketplace Services
 
 Marketplace services may include listing support, payment or fee model planning, course commerce, seller workflows, product distribution, and Marketplace policy documentation.
+
+Marketplace is a channel and commercial surface. It does not replace Business
+as the operational infrastructure nucleus that receives, scopes, routes, and
+coordinates work.
 
 Fees, refunds, locked reward usage, and seller rules must not be treated as final unless approved and implemented.
 
@@ -86,6 +120,10 @@ Documentation services may include public docs, internal docs, knowledge packs, 
 ## Service Status Model
 
 Service areas may be marked as `Concept`, `Planned`, `Available`, `Limited`, `Experimental`, `Governance Required`, or `Suspended`.
+
+These labels describe documented service posture only. They must not be read as
+evidence of production activation, finalized commercial terms, or unrestricted
+public availability unless independent records support that reading.
 
 ## Guardrails
 

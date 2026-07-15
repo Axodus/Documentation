@@ -8,12 +8,12 @@ Generator Version: 1.0.0
 ## Summary
 
 - Graph nodes: 904
-- Declared relationships: 389
+- Declared relationships: 405
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 718
+- Orphan documents: 709
 - Cycles: 13
 
 ## Relationship Counts
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 115 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 201 |
+| `RELATES_TO` | 217 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -447,19 +447,10 @@ None.
 - docs/bba-agency/service-model.md
 - docs/bba-agency/web3-launch-support.md
 - docs/business/accountability.md
-- docs/business/acs-integration.md
 - docs/business/bba.md
 - docs/business/change-requests.md
-- docs/business/client-lifecycle.md
-- docs/business/dao-service-requests.md
-- docs/business/delivery-lifecycle.md
-- docs/business/governance-alignment.md
-- docs/business/plugin-requests.md
 - docs/business/README.md
-- docs/business/request-intake.md
 - docs/business/risk-and-compliance.md
-- docs/business/runtime.md
-- docs/business/service-catalog.md
 - docs/defi/academy-and-user-education.md
 - docs/defi/acs-integration.md
 - docs/defi/architecture.md

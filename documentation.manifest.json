@@ -8708,23 +8708,30 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "465e0442a39b3bb81de954124c6dc2077ac08f22ea5b79978205b6ddd57aa3ff",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-008",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business / ACS",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "ACS-GDE-001",
+        "BUSINESS-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "00f4747065b80cc3f4897d18f970e5895613a17c55be321cb51b160a45251adb",
       "source_path": "docs/business/acs-integration.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "ACS Integration",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -8768,83 +8775,111 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "55cb11a3fca120812a79bf9b28b9345322b4f7333a209e19a8385e0d58691fe2",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "BUSINESS-GDE-004",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "86fd93b1a796ac2ec248cb71daf07be336ed0593f6130550ffa196d002ebc9d7",
       "source_path": "docs/business/client-lifecycle.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Client Lifecycle",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "36ccd857fb2706fced432837c8e003a384454f40864daf331b53cf017dca5537",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-009",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "BUSINESS-GDE-007",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "649cc28af5c0f542a0a2e6f4b2ea5fcc55fe058fec8a2cd4848e4c634a8dc2a9",
       "source_path": "docs/business/dao-service-requests.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "DAO Service Requests",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "5b5c85d349d3f22e3adde9dfb596b7a5a4dccbd288cd809814e6fdee8f6fc02a",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "BUSINESS-GDE-002",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "2f7837403765e7d43ce2b6712490232d8ea61ff1c42b6ee8160367cce1f6765c",
       "source_path": "docs/business/delivery-lifecycle.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Delivery Lifecycle",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "cc116e9e320a7e0b18568d5f542a1e38dccacf73dae5c19382f55038ef9f47c9",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-007",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business / Governance",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04",
+        "GOV-GDE-001"
+      ],
+      "sha256": "52b36e192eb6126fc09b3f817ba93bccd0c854bc01e8d819357593824fe62d82",
       "source_path": "docs/business/governance-alignment.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Governance Alignment",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -8865,7 +8900,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "ba80cfaed1b81416ded117a86bb882b533a2b5a554361b8d0461c687b67d7520",
+      "sha256": "056ef0df5d1414255b29f222d9d8d1b7bea08643e58e018dfab677adb6e5ab49",
       "source_path": "docs/business/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8874,23 +8909,30 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "48cf3dc4f7dd3c0c87b361d7b0f66d21492533561f3f2e07c267b19f337c923d",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-010",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business / Governance",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "BUSINESS-GDE-007",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "91474039fe7a7c26fa61040c52d6770680135e903f4e3b51f2f696ac4bdc4f27",
       "source_path": "docs/business/plugin-requests.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Plugin Requests",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -8914,23 +8956,30 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "073cb36b23066b69ea90606877951fb7da7e01fbd03df82d7e9092717b762e19",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-004",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "BUSINESS-GDE-002",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "5ddd218a8fcf60f66f16538d9ab3674aee40fdb222aef274610c738a3382001d",
       "source_path": "docs/business/request-intake.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Business Request Intake",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -8954,43 +9003,55 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "115261db1e9322e4e526ea3508ed7cfc232bc4b251c815f459627140c6bb3958",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "276a544b46461b0a44479e24bcea4d8f1d06443ddb6170af0faa6e6f83c1f1f5",
       "source_path": "docs/business/runtime.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Business Runtime",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "4b3916bc2ee27c1ca2e646ca58691385444eb1c630fd99839914fab0f769f0a2",
+      "authority_level": "CORE",
+      "authority_scope": "BUSINESS",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Business",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "BUSINESS-GDE-001",
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-04"
+      ],
+      "sha256": "2bb68638addd0f305900d9cf7cb1c3ff49d357f51f7d41e3b84b5aa6ac3efda6",
       "source_path": "docs/business/service-catalog.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Business Service Catalog",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -20154,6 +20215,102 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BUSINESS-GDE-002",
+      "source_path": "docs/business/runtime.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-003",
+      "source_path": "docs/business/service-catalog.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-004",
+      "source_path": "docs/business/request-intake.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-004",
+      "source_path": "docs/business/request-intake.md",
+      "target": "BUSINESS-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-005",
+      "source_path": "docs/business/client-lifecycle.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-005",
+      "source_path": "docs/business/client-lifecycle.md",
+      "target": "BUSINESS-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-006",
+      "source_path": "docs/business/delivery-lifecycle.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-006",
+      "source_path": "docs/business/delivery-lifecycle.md",
+      "target": "BUSINESS-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-007",
+      "source_path": "docs/business/governance-alignment.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-007",
+      "source_path": "docs/business/governance-alignment.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-008",
+      "source_path": "docs/business/acs-integration.md",
+      "target": "ACS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-008",
+      "source_path": "docs/business/acs-integration.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-009",
+      "source_path": "docs/business/dao-service-requests.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-009",
+      "source_path": "docs/business/dao-service-requests.md",
+      "target": "BUSINESS-GDE-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-010",
+      "source_path": "docs/business/plugin-requests.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-010",
+      "source_path": "docs/business/plugin-requests.md",
+      "target": "BUSINESS-GDE-007",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "CORE-GDE-001",
       "source_path": "docs/overview/ecosystem-overview.md",
       "target": "DOC-GDE-006",
@@ -22419,23 +22576,23 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 293,
-    "declared_relationships": 389,
+    "compliant_documents": 302,
+    "declared_relationships": 405,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 226,
+      "CORE": 235,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 74,
-      "UNSPECIFIED": 597
+      "UNSPECIFIED": 588
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 209,
+      "D2": 218,
       "D3": 83,
       "D4": 1,
-      "UNSPECIFIED": 597
+      "UNSPECIFIED": 588
     },
     "documents_by_owner": {
       "<facilitator>": 1,
@@ -22445,7 +22602,9 @@
       "Accountability Nucleus": 5,
       "ACS Nucleus": 1,
       "Axodus BBA": 1,
-      "Axodus Business": 1,
+      "Axodus Business": 7,
+      "Axodus Business / ACS": 1,
+      "Axodus Business / Governance": 2,
       "Axodus Core": 4,
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
@@ -22466,18 +22625,18 @@
       "Axodus Treasury": 4,
       "Governance Nucleus": 6,
       "Security": 6,
-      "UNSPECIFIED": 597
+      "UNSPECIFIED": 588
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
-      "APPROVED": 138,
+      "APPROVED": 147,
       "DRAFT": 148,
-      "UNSPECIFIED": 597
+      "UNSPECIFIED": 588
     },
     "documents_by_type": {
       "ADR": 24,
       "API": 1,
-      "GUIDE": 76,
+      "GUIDE": 85,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 7,
@@ -22491,11 +22650,11 @@
       "RUNBOOK": 1,
       "SPECIFICATION": 10,
       "STANDARD": 4,
-      "UNSPECIFIED": 597
+      "UNSPECIFIED": 588
     },
-    "documents_missing_metadata": 597,
+    "documents_missing_metadata": 588,
     "generated_documents": 8,
-    "legacy_documents": 597,
+    "legacy_documents": 588,
     "template_documents": 14,
     "total_documents": 904
   }

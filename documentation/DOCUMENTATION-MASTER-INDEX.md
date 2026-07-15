@@ -23,10 +23,10 @@ Source Documents: 904
 | Metric | Count |
 |---|---:|
 | Total source documents | 904 |
-| Canonical documents | 293 |
-| Legacy documents | 597 |
+| Canonical documents | 302 |
+| Legacy documents | 588 |
 | Template documents | 14 |
-| Declared relationships | 389 |
+| Declared relationships | 405 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 904
 |---|---:|
 | ADR | 24 |
 | API | 1 |
-| GUIDE | 76 |
+| GUIDE | 85 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
@@ -49,25 +49,25 @@ Source Documents: 904
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 597 |
+| UNSPECIFIED | 588 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 226 |
+| CORE | 235 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 74 |
-| UNSPECIFIED | 597 |
+| UNSPECIFIED | 588 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 138 |
+| APPROVED | 147 |
 | DRAFT | 148 |
-| UNSPECIFIED | 597 |
+| UNSPECIFIED | 588 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -103,7 +103,16 @@ Source Documents: 904
 | ACCOUNT-GDE-005 | Roadmap Updates | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/roadmap-updates.md](../docs/accountability/roadmap-updates.md) |
 | ACS-GDE-001 | ACS Overview | GUIDE | APPROVED | CORE | 1.0.0 | ACS Nucleus | [docs/acs/overview.md](../docs/acs/overview.md) |
 | BBA-GDE-001 | Axodus BBA Agency Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus BBA | [docs/bba-agency/overview.md](../docs/bba-agency/overview.md) |
+| BUSINESS-GDE-008 | ACS Integration | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business / ACS | [docs/business/acs-integration.md](../docs/business/acs-integration.md) |
+| BUSINESS-GDE-005 | Client Lifecycle | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/client-lifecycle.md](../docs/business/client-lifecycle.md) |
+| BUSINESS-GDE-009 | DAO Service Requests | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/dao-service-requests.md](../docs/business/dao-service-requests.md) |
+| BUSINESS-GDE-006 | Delivery Lifecycle | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/delivery-lifecycle.md](../docs/business/delivery-lifecycle.md) |
+| BUSINESS-GDE-007 | Governance Alignment | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business / Governance | [docs/business/governance-alignment.md](../docs/business/governance-alignment.md) |
 | BUSINESS-GDE-001 | Business Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/overview.md](../docs/business/overview.md) |
+| BUSINESS-GDE-010 | Plugin Requests | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business / Governance | [docs/business/plugin-requests.md](../docs/business/plugin-requests.md) |
+| BUSINESS-GDE-004 | Business Request Intake | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/request-intake.md](../docs/business/request-intake.md) |
+| BUSINESS-GDE-002 | Business Runtime | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/runtime.md](../docs/business/runtime.md) |
+| BUSINESS-GDE-003 | Business Service Catalog | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/service-catalog.md](../docs/business/service-catalog.md) |
 | DEFI-GDE-001 | Axodus DeFi Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DeFi | [docs/defi/overview.md](../docs/defi/overview.md) |
 | DEX-GDE-002 | DEX Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/architecture.md](../docs/dex/architecture.md) |
 | DEX-GDE-003 | Liquidity Pools | GUIDE | APPROVED | CORE | 1.0.0 | Axodus DEX | [docs/dex/liquidity-pools.md](../docs/dex/liquidity-pools.md) |
@@ -764,19 +773,10 @@ Source Documents: 904
 | — | Service Model | — | — | — | — | — | [docs/bba-agency/service-model.md](../docs/bba-agency/service-model.md) |
 | — | Web3 Launch Support | — | — | — | — | — | [docs/bba-agency/web3-launch-support.md](../docs/bba-agency/web3-launch-support.md) |
 | — | Business Accountability | — | — | — | — | — | [docs/business/accountability.md](../docs/business/accountability.md) |
-| — | ACS Integration | — | — | — | — | — | [docs/business/acs-integration.md](../docs/business/acs-integration.md) |
 | — | BBA | — | — | — | — | — | [docs/business/bba.md](../docs/business/bba.md) |
 | — | Change Requests | — | — | — | — | — | [docs/business/change-requests.md](../docs/business/change-requests.md) |
-| — | Client Lifecycle | — | — | — | — | — | [docs/business/client-lifecycle.md](../docs/business/client-lifecycle.md) |
-| — | DAO Service Requests | — | — | — | — | — | [docs/business/dao-service-requests.md](../docs/business/dao-service-requests.md) |
-| — | Delivery Lifecycle | — | — | — | — | — | [docs/business/delivery-lifecycle.md](../docs/business/delivery-lifecycle.md) |
-| — | Governance Alignment | — | — | — | — | — | [docs/business/governance-alignment.md](../docs/business/governance-alignment.md) |
-| — | Plugin Requests | — | — | — | — | — | [docs/business/plugin-requests.md](../docs/business/plugin-requests.md) |
 | — | business | — | — | — | — | — | [docs/business/README.md](../docs/business/README.md) |
-| — | Business Request Intake | — | — | — | — | — | [docs/business/request-intake.md](../docs/business/request-intake.md) |
 | — | Risk and Compliance | — | — | — | — | — | [docs/business/risk-and-compliance.md](../docs/business/risk-and-compliance.md) |
-| — | Business Runtime | — | — | — | — | — | [docs/business/runtime.md](../docs/business/runtime.md) |
-| — | Business Service Catalog | — | — | — | — | — | [docs/business/service-catalog.md](../docs/business/service-catalog.md) |
 | — | Academy and User Education | — | — | — | — | — | [docs/defi/academy-and-user-education.md](../docs/defi/academy-and-user-education.md) |
 | — | ACS Integration | — | — | — | — | — | [docs/defi/acs-integration.md](../docs/defi/acs-integration.md) |
 | — | DeFi Architecture | — | — | — | — | — | [docs/defi/architecture.md](../docs/defi/architecture.md) |

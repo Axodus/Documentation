@@ -39,9 +39,15 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Purpose
 
-Axodus Business is the structured intake, scoping, coordination, and delivery runtime for client, DAO, partner, community, and internal ecosystem requests.
+Axodus Business is the structured intake, scoping, coordination, and delivery
+runtime for client, DAO, partner, community, and internal ecosystem requests.
+It is the operational infrastructure nucleus that transforms demand into
+scoped products, infrastructure, services, and ecosystem assets.
 
-Business converts demand into scoped, reviewable, governable, and accountable work. It is not a generic sales channel, a replacement for governance, or an automatic acceptance path for every request.
+Business converts demand into scoped, reviewable, governable, and accountable
+work. It is not a generic sales channel, a traditional software house, a
+freelancer marketplace, a replacement for governance, or an automatic
+acceptance path for every request.
 
 ## Scope
 
@@ -56,9 +62,21 @@ Business may receive and coordinate:
 
 Business must identify the responsible nucleus, define scope, map dependencies, classify risk, detect governance touchpoints, coordinate delivery, manage change requests, validate acceptance, and preserve records.
 
+Business may coordinate contracted development, community-driven development,
+and strategic Axodus-first development. Not every Business initiative begins
+with a paying client, and not every Business output should be read as a
+commercially available product.
+
 ## Ecosystem Role
 
-Business is the formal demand intake and service coordination layer for Axodus. It converts requests from clients, DAOs, partners, communities, and internal teams into scoped work that can be reviewed, priced, governed, delivered, validated, and reported.
+Business is the formal demand intake and service coordination layer for
+Axodus. It converts requests from clients, DAOs, partners, communities, and
+internal teams into scoped work that can be reviewed, priced, governed,
+delivered, validated, and reported.
+
+Business also acts as an ecosystem asset-construction nucleus. It may help
+turn scoped development into reusable Axodus-owned infrastructure, tools,
+modules, or platforms when the approved operating model supports that path.
 
 ## Operating Model
 
@@ -73,6 +91,15 @@ The Business runtime is organized around these layers:
 7. Delivery coordination: manage tasks, milestones, reviews, and handoffs.
 8. Change management: log and assess new or changed requirements.
 9. Acceptance and accountability: record delivery, unresolved items, reports, and archive references.
+
+## Development Modes
+
+- Contracted development: requester-funded work under scoped delivery and
+  review boundaries.
+- Community development: ecosystem or community-driven work where operational
+  need exists, but the resulting scope still follows the Business pipeline.
+- Strategic development: Axodus-initiated work that may become ecosystem
+  infrastructure or other reusable operational assets.
 
 ## Responsibilities
 
@@ -103,7 +130,9 @@ The Business runtime is organized around these layers:
 
 Business must escalate requests that affect DAO federation, governance plugins, treasury actions, tokenomics, reward policy, product access, Marketplace fee policy, Trading access rules, ACS permissions, constitutional alignment, or material public claims.
 
-Business can prepare context and coordinate execution, but it does not approve governance-sensitive changes alone.
+Business can prepare context and coordinate execution, but it does not approve
+governance-sensitive changes alone, does not override Treasury, and does not
+provision ACS authority by itself.
 
 ## Risk Considerations
 
@@ -111,7 +140,13 @@ Business must avoid undocumented promises, unreviewed public claims, hidden scop
 
 ## Current Status
 
-The Business documentation is under reconstruction. Service availability, pricing, legal terms, production workflows, and final tooling must be validated before they are treated as active operating policy.
+The Business documentation is under reconstruction. Service availability,
+pricing, legal terms, production workflows, and final tooling must be validated
+before they are treated as active operating policy.
+
+Marketplace references inside Business should be read as channel and
+coordination references, not proof that Marketplace replaces Business as the
+operational infrastructure nucleus.
 
 ## Future Work
 

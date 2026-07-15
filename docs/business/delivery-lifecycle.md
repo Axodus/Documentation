@@ -1,17 +1,48 @@
-# Delivery Lifecycle
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Business
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-006"
+aliases: []
+document_type: "GUIDE"
+title: "Delivery Lifecycle"
+summary: "Defines the delivery coordination baseline for Business-managed work within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business"
+owner: "Axodus Business"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}, {type: "RELATES_TO", target: "BUSINESS-GDE-002"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/delivery-lifecycle.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Delivery Lifecycle
 
 ## Purpose
 
 The delivery lifecycle defines how Business coordinates approved work across humans, Agent Coder, ACS, governance, product owners, security reviewers, and requesters until deliverables are accepted and archived.
 
 Delivery begins only after scope is approved.
+This page documents delivery coordination, not autonomous transaction
+execution, production deployment authorization, wallet signing, treasury
+movement, or governance execution authority.
 
 ## Scope
 

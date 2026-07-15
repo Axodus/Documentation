@@ -3995,6 +3995,96 @@
       "title": "Business Overview"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/runtime.md",
+      "title": "Business Runtime"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/service-catalog.md",
+      "title": "Business Service Catalog"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-004",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/request-intake.md",
+      "title": "Business Request Intake"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/client-lifecycle.md",
+      "title": "Client Lifecycle"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/delivery-lifecycle.md",
+      "title": "Delivery Lifecycle"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-007",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-007",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/governance-alignment.md",
+      "title": "Governance Alignment"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-008",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-008",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/acs-integration.md",
+      "title": "ACS Integration"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-009",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-009",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/dao-service-requests.md",
+      "title": "DAO Service Requests"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "BUSINESS-GDE-010",
+      "document_type": "GUIDE",
+      "node_id": "BUSINESS-GDE-010",
+      "publication_status": "APPROVED",
+      "source_path": "docs/business/plugin-requests.md",
+      "title": "Plugin Requests"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -6779,16 +6869,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/business/acs-integration.md",
-      "publication_status": null,
-      "source_path": "docs/business/acs-integration.md",
-      "title": "ACS Integration"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/business/bba.md",
       "publication_status": null,
       "source_path": "docs/business/bba.md",
@@ -6809,56 +6889,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/business/client-lifecycle.md",
-      "publication_status": null,
-      "source_path": "docs/business/client-lifecycle.md",
-      "title": "Client Lifecycle"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/dao-service-requests.md",
-      "publication_status": null,
-      "source_path": "docs/business/dao-service-requests.md",
-      "title": "DAO Service Requests"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/delivery-lifecycle.md",
-      "publication_status": null,
-      "source_path": "docs/business/delivery-lifecycle.md",
-      "title": "Delivery Lifecycle"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/governance-alignment.md",
-      "publication_status": null,
-      "source_path": "docs/business/governance-alignment.md",
-      "title": "Governance Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/plugin-requests.md",
-      "publication_status": null,
-      "source_path": "docs/business/plugin-requests.md",
-      "title": "Plugin Requests"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/business/README.md",
       "publication_status": null,
       "source_path": "docs/business/README.md",
@@ -6869,40 +6899,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/business/request-intake.md",
-      "publication_status": null,
-      "source_path": "docs/business/request-intake.md",
-      "title": "Business Request Intake"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/business/risk-and-compliance.md",
       "publication_status": null,
       "source_path": "docs/business/risk-and-compliance.md",
       "title": "Risk and Compliance"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/runtime.md",
-      "publication_status": null,
-      "source_path": "docs/business/runtime.md",
-      "title": "Business Runtime"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/business/service-catalog.md",
-      "publication_status": null,
-      "source_path": "docs/business/service-catalog.md",
-      "title": "Business Service Catalog"
     },
     {
       "authority_level": null,
@@ -9691,19 +9691,10 @@
     "docs/bba-agency/service-model.md",
     "docs/bba-agency/web3-launch-support.md",
     "docs/business/accountability.md",
-    "docs/business/acs-integration.md",
     "docs/business/bba.md",
     "docs/business/change-requests.md",
-    "docs/business/client-lifecycle.md",
-    "docs/business/dao-service-requests.md",
-    "docs/business/delivery-lifecycle.md",
-    "docs/business/governance-alignment.md",
-    "docs/business/plugin-requests.md",
     "docs/business/README.md",
-    "docs/business/request-intake.md",
     "docs/business/risk-and-compliance.md",
-    "docs/business/runtime.md",
-    "docs/business/service-catalog.md",
     "docs/defi/academy-and-user-education.md",
     "docs/defi/acs-integration.md",
     "docs/defi/architecture.md",
@@ -10932,6 +10923,15 @@
       "ACS-GDE-001",
       "BBA-GDE-001",
       "BUSINESS-GDE-001",
+      "BUSINESS-GDE-002",
+      "BUSINESS-GDE-003",
+      "BUSINESS-GDE-004",
+      "BUSINESS-GDE-005",
+      "BUSINESS-GDE-006",
+      "BUSINESS-GDE-007",
+      "BUSINESS-GDE-008",
+      "BUSINESS-GDE-009",
+      "BUSINESS-GDE-010",
       "CORE-GDE-001",
       "CORE-GDE-002",
       "CORE-GDE-003",
@@ -11238,14 +11238,14 @@
     "DEPENDS_ON": 115,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 201,
+    "RELATES_TO": 217,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 389,
+    "declared": 405,
     "derived": 0,
     "duplicates": 0,
-    "total": 389,
+    "total": 405,
     "unresolved": 0
   },
   "relationship_types": [
@@ -11326,6 +11326,102 @@
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-002",
+      "source_path": "docs/business/runtime.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-003",
+      "source_path": "docs/business/service-catalog.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-004",
+      "source_path": "docs/business/request-intake.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-004",
+      "source_path": "docs/business/request-intake.md",
+      "target": "BUSINESS-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-005",
+      "source_path": "docs/business/client-lifecycle.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-005",
+      "source_path": "docs/business/client-lifecycle.md",
+      "target": "BUSINESS-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-006",
+      "source_path": "docs/business/delivery-lifecycle.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-006",
+      "source_path": "docs/business/delivery-lifecycle.md",
+      "target": "BUSINESS-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-007",
+      "source_path": "docs/business/governance-alignment.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-007",
+      "source_path": "docs/business/governance-alignment.md",
+      "target": "GOV-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-008",
+      "source_path": "docs/business/acs-integration.md",
+      "target": "ACS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-008",
+      "source_path": "docs/business/acs-integration.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-009",
+      "source_path": "docs/business/dao-service-requests.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-009",
+      "source_path": "docs/business/dao-service-requests.md",
+      "target": "BUSINESS-GDE-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-010",
+      "source_path": "docs/business/plugin-requests.md",
+      "target": "BUSINESS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BUSINESS-GDE-010",
+      "source_path": "docs/business/plugin-requests.md",
+      "target": "BUSINESS-GDE-007",
       "type": "RELATES_TO"
     },
     {

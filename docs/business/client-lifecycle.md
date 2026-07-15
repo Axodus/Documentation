@@ -1,11 +1,39 @@
-# Client Lifecycle
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-06-05
-Owner: Axodus Business
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-005"
+aliases: []
+document_type: "GUIDE"
+title: "Client Lifecycle"
+summary: "Defines the lifecycle baseline for Business-managed external, DAO, partner, and internal engagements within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business"
+owner: "Axodus Business"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-06-05"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}, {type: "RELATES_TO", target: "BUSINESS-GDE-004"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/client-lifecycle.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Client Lifecycle
 
 ## Purpose
 
@@ -57,6 +85,10 @@ Acceptance criteria should include deliverables, functional requirements, docume
 ## Current Status
 
 The lifecycle is a documentation baseline. Specific CRM tooling, status storage, and commercial agreement templates remain planned and require coordinator, Business owner, legal/compliance, and security review where applicable.
+
+Funding models, proposal formats, onboarding mechanics, and agreement templates
+should be read as directional operating structure only. They are not finalized
+commercial, legal, treasury, or financial frameworks by default.
 
 This page does not approve commercial terms, treasury movement, tokenomics commitments, governance outcomes, production delivery promises, or financial results.
 

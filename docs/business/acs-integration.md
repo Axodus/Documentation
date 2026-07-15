@@ -1,17 +1,48 @@
-# ACS Integration
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Business / ACS
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-008"
+aliases: []
+document_type: "GUIDE"
+title: "ACS Integration"
+summary: "Defines how Business consumes ACS analysis and support within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business / ACS"
+owner: "Axodus Business / ACS"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}, {type: "RELATES_TO", target: "ACS-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/acs-integration.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# ACS Integration
 
 ## Purpose
 
 Business is expected to be one of the largest ACS consumers. ACS supports request analysis, classification, risk detection, missing information extraction, scoping, governance routing, implementation handoff, change request review, and accountability drafting.
 
 ACS does not replace the Business owner.
+Business consumes ACS capabilities as operational support. It does not
+provision ACS authority, and ACS support remains review-bound until validated
+through the correct Business, governance, security, treasury, or domain path.
 
 ## Scope
 
@@ -49,7 +80,10 @@ Business ACS outputs may include intake summaries, risk classifications, scope d
 ## Agent Roles
 
 - Morpheus supports strategic fit, governance alignment, narrative clarity, and public-language review.
-- Trinity supports operational risk, metrics, monitoring, financial context, and trading or P&L-related analysis where relevant.
+- Trinity supports operational risk, metrics, monitoring, financial context,
+  and trading or P&L-related analysis where relevant. Trinity remains an
+  analytical support surface consumed by Business, not an institutional
+  decision-maker or direct authority replacement.
 - Agent Smith supports adversarial review, scope creep detection, abuse detection, unsafe-claim review, and permission-risk challenge.
 
 ## Review Requirements

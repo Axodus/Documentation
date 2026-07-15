@@ -1,11 +1,39 @@
-# Plugin Requests
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Business / Governance
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-010"
+aliases: []
+document_type: "GUIDE"
+title: "Plugin Requests"
+summary: "Defines the Business intake and routing baseline for plugin requests within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business / Governance"
+owner: "Axodus Business / Governance"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}, {type: "RELATES_TO", target: "BUSINESS-GDE-007"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/plugin-requests.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Plugin Requests
 
 ## Purpose
 

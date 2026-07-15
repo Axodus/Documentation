@@ -1,11 +1,39 @@
-# Business Runtime
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Business
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-002"
+aliases: []
+document_type: "GUIDE"
+title: "Business Runtime"
+summary: "Defines the Business request runtime as a documentation baseline and mock/read-only operational model within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business"
+owner: "Axodus Business"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/runtime.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Business Runtime
 
 ## Purpose
 
@@ -14,6 +42,11 @@ The Business runtime gives every request a beginning, middle, and end. It protec
 ## Scope
 
 This runtime applies to Business-managed requests across client services, DAO services, custom development, governance plugins, BBA campaigns, Academy programs, Marketplace integrations, Trading access support, ACS workflows, and internal nucleus requests.
+
+The current Business runtime is a documentation baseline and conceptual operating
+model. It should be read as a mock/read-only runtime foundation, not as proof
+of live governance bridges, treasury bridges, ACS execution bridges, billing,
+KYC, blockchain execution, or production workflow activation.
 
 ## Lifecycle
 
@@ -55,6 +88,9 @@ Escalate requests involving custom DAO governance plugins, DAO federation or pro
 ## ACS Runtime Support
 
 ACS may support intake summarization, classification, scoping, governance route suggestions, Coder handoffs, documentation drafts, change request comparison, report drafting, and accountability summaries. ACS support is advisory until reviewed.
+
+Any Governance, Financial, or ACS bridge described around this runtime remains
+architectural preparation until independently verified.
 
 ## Change Request Logic
 

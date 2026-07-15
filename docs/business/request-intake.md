@@ -1,11 +1,39 @@
-# Business Request Intake
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Business
-
 ---
+schema_version: "1.0.0"
+document_id: "BUSINESS-GDE-004"
+aliases: []
+document_type: "GUIDE"
+title: "Business Request Intake"
+summary: "Defines the structured intake baseline for Business-managed requests within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "BUSINESS"
+authority_level: "CORE"
+author: "Axodus Business"
+owner: "Axodus Business"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BUSINESS-GDE-001"}, {type: "RELATES_TO", target: "BUSINESS-GDE-002"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-04"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/business/request-intake.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Business Request Intake
 
 ## Purpose
 
@@ -16,6 +44,11 @@ Intake is not approval, pricing, delivery authorization, or a client commitment.
 ## Scope
 
 This page applies to external clients, DAOs, sub-DAOs, partners, internal nuclei, community members, tutors, content creators, and users requesting Business-coordinated services.
+
+Business does not use one architectural intake path for internal work and
+another for external work. Both follow the same operational intake discipline,
+with different review, authority, and boundary requirements applied later in
+the runtime.
 
 ## Required Intake Data
 
