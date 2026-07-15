@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-14T00:00:00Z
-Source Documents: 873
+Generated At: 2026-07-15T00:00:00Z
+Source Documents: 886
 
 ## Navigation
 
@@ -22,9 +22,9 @@ Source Documents: 873
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 873 |
-| Canonical documents | 268 |
-| Legacy documents | 591 |
+| Total source documents | 886 |
+| Canonical documents | 275 |
+| Legacy documents | 597 |
 | Template documents | 14 |
 | Declared relationships | 389 |
 | Derived relationships | 0 |
@@ -42,14 +42,14 @@ Source Documents: 873
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 130 |
+| REPORT | 137 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 591 |
+| UNSPECIFIED | 597 |
 ## Documents by Authority
 
 | Value | Count |
@@ -58,16 +58,16 @@ Source Documents: 873
 | CORE | 226 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 49 |
-| UNSPECIFIED | 591 |
+| PROJECT | 56 |
+| UNSPECIFIED | 597 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 123 |
-| UNSPECIFIED | 591 |
+| DRAFT | 130 |
+| UNSPECIFIED | 597 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -307,10 +307,17 @@ Source Documents: 873
 | DOC-RPT-120 | Low-Risk Root Consolidation Change Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md](./LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md) |
 | DOC-RPT-119 | Low-Risk Root Consolidation Execution Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md](./LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md) |
 | DOC-RPT-121 | Low-Risk Root Consolidation Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md](./LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md) |
+| DOC-RPT-132 | Public Claim Review Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-CLAIM-REVIEW-REGISTER.md](./PUBLIC-CLAIM-REVIEW-REGISTER.md) |
+| DOC-RPT-136 | Public Coherence Decision Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-COHERENCE-DECISION-REPORT.md](./PUBLIC-COHERENCE-DECISION-REPORT.md) |
+| DOC-RPT-135 | Public Coherence Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-COHERENCE-GAP-REGISTER.md](./PUBLIC-COHERENCE-GAP-REGISTER.md) |
+| DOC-RPT-133 | Public Disclosure Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-DISCLOSURE-BOUNDARY-REVIEW.md](./PUBLIC-DISCLOSURE-BOUNDARY-REVIEW.md) |
+| DOC-RPT-134 | Public Maturity Language Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-MATURITY-LANGUAGE-REVIEW.md](./PUBLIC-MATURITY-LANGUAGE-REVIEW.md) |
 | DOC-RPT-115 | Public Source Boundary Enforcement Report | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md](./PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md) |
 | DOC-RPT-118 | Public Source Boundary Risk Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md](./PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md) |
 | DOC-RPT-116 | Public Source Discovery Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md](./PUBLIC-SOURCE-DISCOVERY-AUDIT.md) |
 | DOC-RPT-117 | Public Source Navigation Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/PUBLIC-SOURCE-NAVIGATION-AUDIT.md](./PUBLIC-SOURCE-NAVIGATION-AUDIT.md) |
+| DOC-RPT-130 | Public Terminology Comparison | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-TERMINOLOGY-COMPARISON.md](./PUBLIC-TERMINOLOGY-COMPARISON.md) |
+| DOC-RPT-131 | Public Terminology Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/PUBLIC-TERMINOLOGY-DECISION-REGISTER.md](./PUBLIC-TERMINOLOGY-DECISION-REGISTER.md) |
 | DOC-RPT-094 | Repository Boundary Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md](./REPOSITORY-BOUNDARY-RISK-REVIEW.md) |
 | DOC-RPT-095 | Repository Information Architecture Target | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md](./REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md) |
 | DOC-RPT-097 | Repository Path Dependency Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md](./REPOSITORY-PATH-DEPENDENCY-REGISTER.md) |
@@ -894,6 +901,12 @@ Source Documents: 873
 | — | Trading Alignment | — | — | — | — | — | [docs/treasury/trading-alignment.md](../docs/treasury/trading-alignment.md) |
 | — | Treasury Policy | — | — | — | — | — | [docs/treasury/treasury-policy.md](../docs/treasury/treasury-policy.md) |
 | — | Documentation ADR Index | — | — | — | — | — | [documentation/DOCUMENTATION-ADR-INDEX.md](./DOCUMENTATION-ADR-INDEX.md) |
+| — | PUBLIC-DOCUMENTATION-BASELINE-DECISION | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md](./PUBLIC-DOCUMENTATION-BASELINE-DECISION.md) |
+| — | PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md](./PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md) |
+| — | PUBLIC-DOCUMENTATION-MATURITY-REVIEW | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-MATURITY-REVIEW.md](./PUBLIC-DOCUMENTATION-MATURITY-REVIEW.md) |
+| — | PUBLIC-DOCUMENTATION-REQUEST-ALIGNMENT-REVIEW | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-REQUEST-ALIGNMENT-REVIEW.md](./PUBLIC-DOCUMENTATION-REQUEST-ALIGNMENT-REVIEW.md) |
+| — | PUBLIC-DOCUMENTATION-RISK-REVIEW | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-RISK-REVIEW.md](./PUBLIC-DOCUMENTATION-RISK-REVIEW.md) |
+| — | PUBLIC-DOCUMENTATION-STATUS-REGISTER | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-STATUS-REGISTER.md](./PUBLIC-DOCUMENTATION-STATUS-REGISTER.md) |
 | — | Axodus Glossary | — | — | — | — | — | [GLOSSARY.md](../GLOSSARY.md) |
 | — | Axodus Governance | — | — | — | — | — | [GOVERNANCE.md](../GOVERNANCE.md) |
 | — | Governance | — | — | — | — | — | [governance/README.md](../governance/README.md) |

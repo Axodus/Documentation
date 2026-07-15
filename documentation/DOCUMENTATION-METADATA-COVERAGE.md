@@ -2,17 +2,17 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-14T00:00:00Z
+Generated At: 2026-07-15T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 873
-- Canonical metadata field coverage: 32.30%
-- Schema 1.0.0 canonical documents: 268
-- Legacy documents: 591
-- Documents missing canonical metadata: 591
-- Documents without YAML front matter: 591
+- Source documents: 886
+- Canonical metadata field coverage: 32.62%
+- Schema 1.0.0 canonical documents: 275
+- Legacy documents: 597
+- Documents missing canonical metadata: 597
+- Documents without YAML front matter: 597
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 282 | 591 | 32.30% |
-| `document_id` | 282 | 591 | 32.30% |
-| `aliases` | 282 | 591 | 32.30% |
-| `document_type` | 282 | 591 | 32.30% |
-| `title` | 282 | 591 | 32.30% |
-| `summary` | 282 | 591 | 32.30% |
-| `version` | 282 | 591 | 32.30% |
-| `publication_status` | 282 | 591 | 32.30% |
-| `document_state` | 282 | 591 | 32.30% |
-| `maturity_level` | 282 | 591 | 32.30% |
-| `authority_scope` | 282 | 591 | 32.30% |
-| `authority_level` | 282 | 591 | 32.30% |
-| `author` | 282 | 591 | 32.30% |
-| `owner` | 282 | 591 | 32.30% |
-| `maintainer` | 282 | 591 | 32.30% |
-| `technical_reviewers` | 282 | 591 | 32.30% |
-| `business_reviewers` | 282 | 591 | 32.30% |
-| `security_reviewers` | 282 | 591 | 32.30% |
-| `approver` | 282 | 591 | 32.30% |
-| `created_date` | 282 | 591 | 32.30% |
-| `last_updated` | 282 | 591 | 32.30% |
-| `last_reviewed` | 282 | 591 | 32.30% |
-| `review_cycle` | 282 | 591 | 32.30% |
-| `next_review` | 282 | 591 | 32.30% |
-| `supersedes` | 282 | 591 | 32.30% |
-| `relationships` | 282 | 591 | 32.30% |
-| `related_epics` | 282 | 591 | 32.30% |
-| `related_requirements` | 282 | 591 | 32.30% |
-| `related_adrs` | 282 | 591 | 32.30% |
-| `related_cores` | 282 | 591 | 32.30% |
-| `implementation_refs` | 282 | 591 | 32.30% |
-| `production_gate_impact` | 282 | 591 | 32.30% |
+| `schema_version` | 289 | 597 | 32.62% |
+| `document_id` | 289 | 597 | 32.62% |
+| `aliases` | 289 | 597 | 32.62% |
+| `document_type` | 289 | 597 | 32.62% |
+| `title` | 289 | 597 | 32.62% |
+| `summary` | 289 | 597 | 32.62% |
+| `version` | 289 | 597 | 32.62% |
+| `publication_status` | 289 | 597 | 32.62% |
+| `document_state` | 289 | 597 | 32.62% |
+| `maturity_level` | 289 | 597 | 32.62% |
+| `authority_scope` | 289 | 597 | 32.62% |
+| `authority_level` | 289 | 597 | 32.62% |
+| `author` | 289 | 597 | 32.62% |
+| `owner` | 289 | 597 | 32.62% |
+| `maintainer` | 289 | 597 | 32.62% |
+| `technical_reviewers` | 289 | 597 | 32.62% |
+| `business_reviewers` | 289 | 597 | 32.62% |
+| `security_reviewers` | 289 | 597 | 32.62% |
+| `approver` | 289 | 597 | 32.62% |
+| `created_date` | 289 | 597 | 32.62% |
+| `last_updated` | 289 | 597 | 32.62% |
+| `last_reviewed` | 289 | 597 | 32.62% |
+| `review_cycle` | 289 | 597 | 32.62% |
+| `next_review` | 289 | 597 | 32.62% |
+| `supersedes` | 289 | 597 | 32.62% |
+| `relationships` | 289 | 597 | 32.62% |
+| `related_epics` | 289 | 597 | 32.62% |
+| `related_requirements` | 289 | 597 | 32.62% |
+| `related_adrs` | 289 | 597 | 32.62% |
+| `related_cores` | 289 | 597 | 32.62% |
+| `implementation_refs` | 289 | 597 | 32.62% |
+| `production_gate_impact` | 289 | 597 | 32.62% |
 
 ## Documents Without Front Matter
 
@@ -606,6 +606,12 @@ Generator Version: 1.0.0
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
+- documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md
+- documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md
+- documentation/PUBLIC-DOCUMENTATION-MATURITY-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-REQUEST-ALIGNMENT-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-RISK-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-STATUS-REGISTER.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md
@@ -1200,6 +1206,12 @@ Generator Version: 1.0.0
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
+- documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md
+- documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md
+- documentation/PUBLIC-DOCUMENTATION-MATURITY-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-REQUEST-ALIGNMENT-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-RISK-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-STATUS-REGISTER.md
 - GLOSSARY.md
 - GOVERNANCE.md
 - governance/README.md

@@ -2,18 +2,18 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-14T00:00:00Z
+Generated At: 2026-07-15T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 873
+- Graph nodes: 886
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 687
+- Orphan documents: 700
 - Cycles: 13
 
 ## Relationship Counts
@@ -663,10 +663,23 @@ None.
 - documentation/LOW-RISK-ROOT-CONSOLIDATION-CHANGE-REGISTER.md
 - documentation/LOW-RISK-ROOT-CONSOLIDATION-EXECUTION-REPORT.md
 - documentation/LOW-RISK-ROOT-CONSOLIDATION-RISK-REVIEW.md
+- documentation/PUBLIC-CLAIM-REVIEW-REGISTER.md
+- documentation/PUBLIC-COHERENCE-DECISION-REPORT.md
+- documentation/PUBLIC-COHERENCE-GAP-REGISTER.md
+- documentation/PUBLIC-DISCLOSURE-BOUNDARY-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md
+- documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md
+- documentation/PUBLIC-DOCUMENTATION-MATURITY-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-REQUEST-ALIGNMENT-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-RISK-REVIEW.md
+- documentation/PUBLIC-DOCUMENTATION-STATUS-REGISTER.md
+- documentation/PUBLIC-MATURITY-LANGUAGE-REVIEW.md
 - documentation/PUBLIC-SOURCE-BOUNDARY-ENFORCEMENT-REPORT.md
 - documentation/PUBLIC-SOURCE-BOUNDARY-RISK-REGISTER.md
 - documentation/PUBLIC-SOURCE-DISCOVERY-AUDIT.md
 - documentation/PUBLIC-SOURCE-NAVIGATION-AUDIT.md
+- documentation/PUBLIC-TERMINOLOGY-COMPARISON.md
+- documentation/PUBLIC-TERMINOLOGY-DECISION-REGISTER.md
 - documentation/REPOSITORY-BOUNDARY-RISK-REVIEW.md
 - documentation/REPOSITORY-INFORMATION-ARCHITECTURE-TARGET.md
 - documentation/REPOSITORY-PATH-DEPENDENCY-REGISTER.md
