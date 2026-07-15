@@ -78,6 +78,9 @@ Low-risk outputs may use optional but recommended human review, especially for p
 
 ACS cannot approve scope as a client commitment, approve governance-sensitive items, approve treasury actions, approve tokenomics or reward policy, execute contract changes without authority, deploy production systems without review, publish public claims without validation, or update knowledge as source of truth without review.
 
+This boundary also applies to Runtime interpretation: ACS support here remains
+analysis- and review-bound, not autonomous production execution.
+
 ## ACS Runtime Record Fields
 
 ACS records should include ACS output identifier, runtime identifier, agent or agents, task type, input context summary, output summary, assumptions, risk flags, missing information, recommendations, review required, validation status, related handoff or record, and timestamp.

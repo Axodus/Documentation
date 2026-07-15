@@ -8,11 +8,11 @@ Generator Version: 1.0.0
 ## Summary
 
 - Source documents: 904
-- Canonical metadata field coverage: 34.96%
-- Schema 1.0.0 canonical documents: 302
-- Legacy documents: 588
-- Documents missing canonical metadata: 588
-- Documents without YAML front matter: 588
+- Canonical metadata field coverage: 35.51%
+- Schema 1.0.0 canonical documents: 307
+- Legacy documents: 583
+- Documents missing canonical metadata: 583
+- Documents without YAML front matter: 583
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 316 | 588 | 34.96% |
-| `document_id` | 316 | 588 | 34.96% |
-| `aliases` | 316 | 588 | 34.96% |
-| `document_type` | 316 | 588 | 34.96% |
-| `title` | 316 | 588 | 34.96% |
-| `summary` | 316 | 588 | 34.96% |
-| `version` | 316 | 588 | 34.96% |
-| `publication_status` | 316 | 588 | 34.96% |
-| `document_state` | 316 | 588 | 34.96% |
-| `maturity_level` | 316 | 588 | 34.96% |
-| `authority_scope` | 316 | 588 | 34.96% |
-| `authority_level` | 316 | 588 | 34.96% |
-| `author` | 316 | 588 | 34.96% |
-| `owner` | 316 | 588 | 34.96% |
-| `maintainer` | 316 | 588 | 34.96% |
-| `technical_reviewers` | 316 | 588 | 34.96% |
-| `business_reviewers` | 316 | 588 | 34.96% |
-| `security_reviewers` | 316 | 588 | 34.96% |
-| `approver` | 316 | 588 | 34.96% |
-| `created_date` | 316 | 588 | 34.96% |
-| `last_updated` | 316 | 588 | 34.96% |
-| `last_reviewed` | 316 | 588 | 34.96% |
-| `review_cycle` | 316 | 588 | 34.96% |
-| `next_review` | 316 | 588 | 34.96% |
-| `supersedes` | 316 | 588 | 34.96% |
-| `relationships` | 316 | 588 | 34.96% |
-| `related_epics` | 316 | 588 | 34.96% |
-| `related_requirements` | 316 | 588 | 34.96% |
-| `related_adrs` | 316 | 588 | 34.96% |
-| `related_cores` | 316 | 588 | 34.96% |
-| `implementation_refs` | 316 | 588 | 34.96% |
-| `production_gate_impact` | 316 | 588 | 34.96% |
+| `schema_version` | 321 | 583 | 35.51% |
+| `document_id` | 321 | 583 | 35.51% |
+| `aliases` | 321 | 583 | 35.51% |
+| `document_type` | 321 | 583 | 35.51% |
+| `title` | 321 | 583 | 35.51% |
+| `summary` | 321 | 583 | 35.51% |
+| `version` | 321 | 583 | 35.51% |
+| `publication_status` | 321 | 583 | 35.51% |
+| `document_state` | 321 | 583 | 35.51% |
+| `maturity_level` | 321 | 583 | 35.51% |
+| `authority_scope` | 321 | 583 | 35.51% |
+| `authority_level` | 321 | 583 | 35.51% |
+| `author` | 321 | 583 | 35.51% |
+| `owner` | 321 | 583 | 35.51% |
+| `maintainer` | 321 | 583 | 35.51% |
+| `technical_reviewers` | 321 | 583 | 35.51% |
+| `business_reviewers` | 321 | 583 | 35.51% |
+| `security_reviewers` | 321 | 583 | 35.51% |
+| `approver` | 321 | 583 | 35.51% |
+| `created_date` | 321 | 583 | 35.51% |
+| `last_updated` | 321 | 583 | 35.51% |
+| `last_reviewed` | 321 | 583 | 35.51% |
+| `review_cycle` | 321 | 583 | 35.51% |
+| `next_review` | 321 | 583 | 35.51% |
+| `supersedes` | 321 | 583 | 35.51% |
+| `relationships` | 321 | 583 | 35.51% |
+| `related_epics` | 321 | 583 | 35.51% |
+| `related_requirements` | 321 | 583 | 35.51% |
+| `related_adrs` | 321 | 583 | 35.51% |
+| `related_cores` | 321 | 583 | 35.51% |
+| `implementation_refs` | 321 | 583 | 35.51% |
+| `production_gate_impact` | 321 | 583 | 35.51% |
 
 ## Documents Without Front Matter
 
@@ -534,7 +534,6 @@ Generator Version: 1.0.0
 - docs/mining/governance-alignment.md
 - docs/mining/hardware-energy-and-uptime.md
 - docs/mining/marketplace-business-and-bba-alignment.md
-- docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/README.md
@@ -561,7 +560,6 @@ Generator Version: 1.0.0
 - docs/tokenomics/locked-rewards.md
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
-- docs/tokenomics/pok-minting.md
 - docs/tokenomics/README.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
@@ -569,7 +567,6 @@ Generator Version: 1.0.0
 - docs/tokenomics/supply-and-emission.md
 - docs/tokenomics/technical-architecture.md
 - docs/tokenomics/treasury-alignment.md
-- docs/tokenomics/utility-model.md
 - docs/trading/access-model.md
 - docs/trading/acs-trinity-integration.md
 - docs/trading/architecture.md
@@ -586,7 +583,6 @@ Generator Version: 1.0.0
 - docs/trading/user-facing-strategies.md
 - docs/treasury/acs-trinity-integration.md
 - docs/treasury/architecture.md
-- docs/treasury/capital-allocation.md
 - docs/treasury/governance-alignment.md
 - docs/treasury/README.md
 - docs/treasury/reporting-and-accountability.md
@@ -595,7 +591,6 @@ Generator Version: 1.0.0
 - docs/treasury/strategy-oversight.md
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
-- docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
 - documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md
 - documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md
@@ -1125,7 +1120,6 @@ Generator Version: 1.0.0
 - docs/mining/governance-alignment.md
 - docs/mining/hardware-energy-and-uptime.md
 - docs/mining/marketplace-business-and-bba-alignment.md
-- docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/README.md
@@ -1152,7 +1146,6 @@ Generator Version: 1.0.0
 - docs/tokenomics/locked-rewards.md
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
-- docs/tokenomics/pok-minting.md
 - docs/tokenomics/README.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
@@ -1160,7 +1153,6 @@ Generator Version: 1.0.0
 - docs/tokenomics/supply-and-emission.md
 - docs/tokenomics/technical-architecture.md
 - docs/tokenomics/treasury-alignment.md
-- docs/tokenomics/utility-model.md
 - docs/trading/access-model.md
 - docs/trading/acs-trinity-integration.md
 - docs/trading/architecture.md
@@ -1177,7 +1169,6 @@ Generator Version: 1.0.0
 - docs/trading/user-facing-strategies.md
 - docs/treasury/acs-trinity-integration.md
 - docs/treasury/architecture.md
-- docs/treasury/capital-allocation.md
 - docs/treasury/governance-alignment.md
 - docs/treasury/README.md
 - docs/treasury/reporting-and-accountability.md
@@ -1186,7 +1177,6 @@ Generator Version: 1.0.0
 - docs/treasury/strategy-oversight.md
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
-- docs/treasury/treasury-policy.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
 - documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md
 - documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md

@@ -41,6 +41,10 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 Axodus Tokenomics documents the draft/candidate `$Neurons` Token System: an ERC-20 token infrastructure model with controlled issuance, cryptographic authorization, anti-abuse limits, and planned cross-chain expansion, subject to source-of-truth verification before public finalization.
 
+This page is the canonical public authority anchor for Tokenomics. Adjacent
+token pages must remain consistent with its utility-bound, non-investment,
+documented-model posture.
+
 ## Scope
 
 This documentation covers `$Neurons` token specifications, supply and emission rules, Proof-of-Knowledge minting, EIP-712 / ECDSA authorization, contract architecture, burn support, LayerZero OFT preparation, reporting, risks, and future utility surfaces.

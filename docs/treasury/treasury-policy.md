@@ -1,15 +1,47 @@
-# Treasury Policy
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Treasury
-
 ---
+schema_version: "1.0.0"
+document_id: "TREASURY-GDE-005"
+aliases: []
+document_type: "GUIDE"
+title: "Treasury Policy"
+summary: "Defines the draft public Treasury policy framework within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "TREASURY"
+authority_level: "CORE"
+author: "Axodus Treasury"
+owner: "Axodus Treasury"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "TREASURY-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-05"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["TREASURY"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/treasury/treasury-policy.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Treasury Policy
 
 ## Purpose
 
 Treasury Policy defines what Axodus Treasury can hold, how funds can be allocated, which actions require approval, which risks are acceptable, and how reporting is performed.
+
+This page is a draft public framework. It is not a live treasury authorization
+record and must not be read as permission to execute Treasury actions by
+default.
 
 ## Scope
 

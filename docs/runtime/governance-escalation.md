@@ -47,6 +47,10 @@ Governance escalation protects Axodus from unauthorized policy changes, treasury
 
 This page applies to Business, ACS, Coder, product owners, and operators who need to know when normal execution must stop or pause for Governance.
 
+It defines the canonical escalation model and record posture. It should not be
+read as proof that every governance-routing tool, automation, or enforcement
+surface is already active.
+
 ## Governance-Sensitive Categories
 
 - Constitutional alignment: Axodus principles, local DAO autonomy, or product access status.

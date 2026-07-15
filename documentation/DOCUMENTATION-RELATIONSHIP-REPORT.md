@@ -8,12 +8,12 @@ Generator Version: 1.0.0
 ## Summary
 
 - Graph nodes: 904
-- Declared relationships: 405
+- Declared relationships: 413
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 709
+- Orphan documents: 704
 - Cycles: 13
 
 ## Relationship Counts
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 115 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 217 |
+| `RELATES_TO` | 225 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -530,7 +530,6 @@ None.
 - docs/mining/governance-alignment.md
 - docs/mining/hardware-energy-and-uptime.md
 - docs/mining/marketplace-business-and-bba-alignment.md
-- docs/mining/monitoring-and-telemetry.md
 - docs/mining/node-and-validator-operations.md
 - docs/mining/pools-hashrate-and-network-difficulty.md
 - docs/mining/README.md
@@ -557,7 +556,6 @@ None.
 - docs/tokenomics/locked-rewards.md
 - docs/tokenomics/marketplace-utility.md
 - docs/tokenomics/neurons-token.md
-- docs/tokenomics/pok-minting.md
 - docs/tokenomics/README.md
 - docs/tokenomics/reporting-and-accountability.md
 - docs/tokenomics/reward-policy.md
@@ -565,7 +563,6 @@ None.
 - docs/tokenomics/supply-and-emission.md
 - docs/tokenomics/technical-architecture.md
 - docs/tokenomics/treasury-alignment.md
-- docs/tokenomics/utility-model.md
 - docs/trading/access-model.md
 - docs/trading/acs-trinity-integration.md
 - docs/trading/architecture.md
@@ -582,7 +579,6 @@ None.
 - docs/trading/user-facing-strategies.md
 - docs/treasury/acs-trinity-integration.md
 - docs/treasury/architecture.md
-- docs/treasury/capital-allocation.md
 - docs/treasury/governance-alignment.md
 - docs/treasury/README.md
 - docs/treasury/reporting-and-accountability.md
@@ -591,7 +587,6 @@ None.
 - docs/treasury/strategy-oversight.md
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
-- docs/treasury/treasury-policy.md
 - documentation/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md
 - documentation/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md
 - documentation/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md

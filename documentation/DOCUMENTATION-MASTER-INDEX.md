@@ -23,10 +23,10 @@ Source Documents: 904
 | Metric | Count |
 |---|---:|
 | Total source documents | 904 |
-| Canonical documents | 302 |
-| Legacy documents | 588 |
+| Canonical documents | 307 |
+| Legacy documents | 583 |
 | Template documents | 14 |
-| Declared relationships | 405 |
+| Declared relationships | 413 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 904
 |---|---:|
 | ADR | 24 |
 | API | 1 |
-| GUIDE | 85 |
+| GUIDE | 90 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
@@ -49,25 +49,25 @@ Source Documents: 904
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 588 |
+| UNSPECIFIED | 583 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 235 |
+| CORE | 240 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
 | PROJECT | 74 |
-| UNSPECIFIED | 588 |
+| UNSPECIFIED | 583 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
-| APPROVED | 147 |
+| APPROVED | 152 |
 | DRAFT | 148 |
-| UNSPECIFIED | 588 |
+| UNSPECIFIED | 583 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -142,6 +142,7 @@ Source Documents: 904
 | MINING-GDE-002 | Mining Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/architecture.md](../docs/mining/architecture.md) |
 | MINING-GDE-003 | Infrastructure and Operations | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/infrastructure-and-operations.md](../docs/mining/infrastructure-and-operations.md) |
 | MINING-GDE-004 | Mining Models | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/mining-models.md](../docs/mining/mining-models.md) |
+| MINING-GDE-007 | Monitoring and Telemetry | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/monitoring-and-telemetry.md](../docs/mining/monitoring-and-telemetry.md) |
 | MINING-GDE-001 | Axodus Mining Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/overview.md](../docs/mining/overview.md) |
 | MINING-GDE-005 | Risk and Compliance | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/risk-and-compliance.md](../docs/mining/risk-and-compliance.md) |
 | MINING-GDE-006 | Security and Custody | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining / Security | [docs/mining/security-and-custody.md](../docs/mining/security-and-custody.md) |
@@ -170,11 +171,15 @@ Source Documents: 904
 | SEC-GDE-005 | Smart Contract Security | GUIDE | APPROVED | CORE | 1.0.0 | Security | [docs/security/smart-contract-security.md](../docs/security/smart-contract-security.md) |
 | SEC-GDE-006 | Wallet Security | GUIDE | APPROVED | CORE | 1.0.0 | Security | [docs/security/wallet-security.md](../docs/security/wallet-security.md) |
 | TOKEN-GDE-001 | Tokenomics Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Tokenomics | [docs/tokenomics/overview.md](../docs/tokenomics/overview.md) |
+| TOKEN-GDE-002 | PoK Minting | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Tokenomics / Academy | [docs/tokenomics/pok-minting.md](../docs/tokenomics/pok-minting.md) |
+| TOKEN-GDE-003 | Utility Model | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Tokenomics | [docs/tokenomics/utility-model.md](../docs/tokenomics/utility-model.md) |
 | TRADING-GDE-001 | Trading Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Trading | [docs/trading/overview.md](../docs/trading/overview.md) |
+| TREASURY-GDE-006 | Capital Allocation | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/capital-allocation.md](../docs/treasury/capital-allocation.md) |
 | TREASURY-GDE-002 | Compliance and Disclosures | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/compliance-and-disclosures.md](../docs/treasury/compliance-and-disclosures.md) |
 | TREASURY-GDE-003 | Custody and Security | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/custody-and-security.md](../docs/treasury/custody-and-security.md) |
 | TREASURY-GDE-001 | Treasury Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/overview.md](../docs/treasury/overview.md) |
 | TREASURY-GDE-004 | Treasury Risk Management | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/risk-management.md](../docs/treasury/risk-management.md) |
+| TREASURY-GDE-005 | Treasury Policy | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/treasury-policy.md](../docs/treasury/treasury-policy.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
 | DOC-RPT-138 | Canonical Coherence Batch 01 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md) |
 | DOC-RPT-139 | Canonical Coherence Batch 01 Evidence Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md) |
@@ -856,7 +861,6 @@ Source Documents: 904
 | — | Governance Alignment | — | — | — | — | — | [docs/mining/governance-alignment.md](../docs/mining/governance-alignment.md) |
 | — | Hardware, Energy and Uptime | — | — | — | — | — | [docs/mining/hardware-energy-and-uptime.md](../docs/mining/hardware-energy-and-uptime.md) |
 | — | Marketplace, Business and BBA Alignment | — | — | — | — | — | [docs/mining/marketplace-business-and-bba-alignment.md](../docs/mining/marketplace-business-and-bba-alignment.md) |
-| — | Monitoring and Telemetry | — | — | — | — | — | [docs/mining/monitoring-and-telemetry.md](../docs/mining/monitoring-and-telemetry.md) |
 | — | Node and Validator Operations | — | — | — | — | — | [docs/mining/node-and-validator-operations.md](../docs/mining/node-and-validator-operations.md) |
 | — | Pools, Hashrate and Network Difficulty | — | — | — | — | — | [docs/mining/pools-hashrate-and-network-difficulty.md](../docs/mining/pools-hashrate-and-network-difficulty.md) |
 | — | mining | — | — | — | — | — | [docs/mining/README.md](../docs/mining/README.md) |
@@ -883,7 +887,6 @@ Source Documents: 904
 | — | Locked Rewards Status | — | — | — | — | — | [docs/tokenomics/locked-rewards.md](../docs/tokenomics/locked-rewards.md) |
 | — | Marketplace Utility | — | — | — | — | — | [docs/tokenomics/marketplace-utility.md](../docs/tokenomics/marketplace-utility.md) |
 | — | $Neurons Token | — | — | — | — | — | [docs/tokenomics/neurons-token.md](../docs/tokenomics/neurons-token.md) |
-| — | PoK Minting | — | — | — | — | — | [docs/tokenomics/pok-minting.md](../docs/tokenomics/pok-minting.md) |
 | — | tokenomics | — | — | — | — | — | [docs/tokenomics/README.md](../docs/tokenomics/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/tokenomics/reporting-and-accountability.md](../docs/tokenomics/reporting-and-accountability.md) |
 | — | Reward Policy | — | — | — | — | — | [docs/tokenomics/reward-policy.md](../docs/tokenomics/reward-policy.md) |
@@ -891,7 +894,6 @@ Source Documents: 904
 | — | Supply and Emission | — | — | — | — | — | [docs/tokenomics/supply-and-emission.md](../docs/tokenomics/supply-and-emission.md) |
 | — | Technical Architecture | — | — | — | — | — | [docs/tokenomics/technical-architecture.md](../docs/tokenomics/technical-architecture.md) |
 | — | Treasury Alignment | — | — | — | — | — | [docs/tokenomics/treasury-alignment.md](../docs/tokenomics/treasury-alignment.md) |
-| — | Utility Model | — | — | — | — | — | [docs/tokenomics/utility-model.md](../docs/tokenomics/utility-model.md) |
 | — | Access Model | — | — | — | — | — | [docs/trading/access-model.md](../docs/trading/access-model.md) |
 | — | ACS and Trinity Integration | — | — | — | — | — | [docs/trading/acs-trinity-integration.md](../docs/trading/acs-trinity-integration.md) |
 | — | Trading Architecture | — | — | — | — | — | [docs/trading/architecture.md](../docs/trading/architecture.md) |
@@ -908,7 +910,6 @@ Source Documents: 904
 | — | User-Facing Strategies | — | — | — | — | — | [docs/trading/user-facing-strategies.md](../docs/trading/user-facing-strategies.md) |
 | — | ACS and Trinity Integration | — | — | — | — | — | [docs/treasury/acs-trinity-integration.md](../docs/treasury/acs-trinity-integration.md) |
 | — | Treasury Architecture | — | — | — | — | — | [docs/treasury/architecture.md](../docs/treasury/architecture.md) |
-| — | Capital Allocation | — | — | — | — | — | [docs/treasury/capital-allocation.md](../docs/treasury/capital-allocation.md) |
 | — | Governance Alignment | — | — | — | — | — | [docs/treasury/governance-alignment.md](../docs/treasury/governance-alignment.md) |
 | — | treasury | — | — | — | — | — | [docs/treasury/README.md](../docs/treasury/README.md) |
 | — | Reporting and Accountability | — | — | — | — | — | [docs/treasury/reporting-and-accountability.md](../docs/treasury/reporting-and-accountability.md) |
@@ -917,7 +918,6 @@ Source Documents: 904
 | — | Strategy Oversight | — | — | — | — | — | [docs/treasury/strategy-oversight.md](../docs/treasury/strategy-oversight.md) |
 | — | Tokenomics Alignment | — | — | — | — | — | [docs/treasury/tokenomics-alignment.md](../docs/treasury/tokenomics-alignment.md) |
 | — | Trading Alignment | — | — | — | — | — | [docs/treasury/trading-alignment.md](../docs/treasury/trading-alignment.md) |
-| — | Treasury Policy | — | — | — | — | — | [docs/treasury/treasury-policy.md](../docs/treasury/treasury-policy.md) |
 | — | Documentation ADR Index | — | — | — | — | — | [documentation/DOCUMENTATION-ADR-INDEX.md](./DOCUMENTATION-ADR-INDEX.md) |
 | — | PUBLIC-DOCUMENTATION-BASELINE-DECISION | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-BASELINE-DECISION.md](./PUBLIC-DOCUMENTATION-BASELINE-DECISION.md) |
 | — | PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY | — | — | — | — | — | [documentation/PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md](./PUBLIC-DOCUMENTATION-DOMAIN-INVENTORY.md) |

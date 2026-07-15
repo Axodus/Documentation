@@ -51,7 +51,11 @@ Fields should include operation ID, operation type, location reference, infrastr
 
 ## Lifecycle
 
-The lifecycle includes feasibility review, cost and reward assumption review, hosting or facility review, hardware or node setup, security and wallet setup, monitoring setup, test run, governance or treasury approval if needed, production operation, reporting, maintenance, pause, upgrade, or decommission.
+The lifecycle includes feasibility review, cost and reward assumption review,
+hosting or facility review, hardware or node setup, security and wallet setup,
+monitoring setup, test run, governance or treasury approval if needed,
+approved operation under verified scope, reporting, maintenance, pause,
+upgrade, or decommission.
 
 ## Operational Risks
 

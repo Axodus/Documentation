@@ -7699,16 +7699,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/mining/monitoring-and-telemetry.md",
-      "publication_status": null,
-      "source_path": "docs/mining/monitoring-and-telemetry.md",
-      "title": "Monitoring and Telemetry"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/mining/node-and-validator-operations.md",
       "publication_status": null,
       "source_path": "docs/mining/node-and-validator-operations.md",
@@ -7969,16 +7959,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/tokenomics/pok-minting.md",
-      "publication_status": null,
-      "source_path": "docs/tokenomics/pok-minting.md",
-      "title": "PoK Minting"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/tokenomics/README.md",
       "publication_status": null,
       "source_path": "docs/tokenomics/README.md",
@@ -8043,16 +8023,6 @@
       "publication_status": null,
       "source_path": "docs/tokenomics/treasury-alignment.md",
       "title": "Treasury Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/tokenomics/utility-model.md",
-      "publication_status": null,
-      "source_path": "docs/tokenomics/utility-model.md",
-      "title": "Utility Model"
     },
     {
       "authority_level": null,
@@ -8219,16 +8189,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/treasury/capital-allocation.md",
-      "publication_status": null,
-      "source_path": "docs/treasury/capital-allocation.md",
-      "title": "Capital Allocation"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/treasury/governance-alignment.md",
       "publication_status": null,
       "source_path": "docs/treasury/governance-alignment.md",
@@ -8303,16 +8263,6 @@
       "publication_status": null,
       "source_path": "docs/treasury/trading-alignment.md",
       "title": "Trading Alignment"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/treasury/treasury-policy.md",
-      "publication_status": null,
-      "source_path": "docs/treasury/treasury-policy.md",
-      "title": "Treasury Policy"
     },
     {
       "authority_level": null,
@@ -8865,6 +8815,16 @@
       "title": "Security and Custody"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-007",
+      "document_type": "GUIDE",
+      "node_id": "MINING-GDE-007",
+      "publication_status": "APPROVED",
+      "source_path": "docs/mining/monitoring-and-telemetry.md",
+      "title": "Monitoring and Telemetry"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -9247,6 +9207,26 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "TOKEN-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "TOKEN-GDE-002",
+      "publication_status": "APPROVED",
+      "source_path": "docs/tokenomics/pok-minting.md",
+      "title": "PoK Minting"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TOKEN-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "TOKEN-GDE-003",
+      "publication_status": "APPROVED",
+      "source_path": "docs/tokenomics/utility-model.md",
+      "title": "Utility Model"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "TRADING-GDE-001",
       "document_type": "GUIDE",
       "node_id": "TRADING-GDE-001",
@@ -9293,6 +9273,26 @@
       "publication_status": "APPROVED",
       "source_path": "docs/treasury/risk-management.md",
       "title": "Treasury Risk Management"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "TREASURY-GDE-005",
+      "publication_status": "APPROVED",
+      "source_path": "docs/treasury/treasury-policy.md",
+      "title": "Treasury Policy"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "TREASURY-GDE-006",
+      "publication_status": "APPROVED",
+      "source_path": "docs/treasury/capital-allocation.md",
+      "title": "Capital Allocation"
     }
   ],
   "orphan_documents": [
@@ -9774,7 +9774,6 @@
     "docs/mining/governance-alignment.md",
     "docs/mining/hardware-energy-and-uptime.md",
     "docs/mining/marketplace-business-and-bba-alignment.md",
-    "docs/mining/monitoring-and-telemetry.md",
     "docs/mining/node-and-validator-operations.md",
     "docs/mining/pools-hashrate-and-network-difficulty.md",
     "docs/mining/README.md",
@@ -9801,7 +9800,6 @@
     "docs/tokenomics/locked-rewards.md",
     "docs/tokenomics/marketplace-utility.md",
     "docs/tokenomics/neurons-token.md",
-    "docs/tokenomics/pok-minting.md",
     "docs/tokenomics/README.md",
     "docs/tokenomics/reporting-and-accountability.md",
     "docs/tokenomics/reward-policy.md",
@@ -9809,7 +9807,6 @@
     "docs/tokenomics/supply-and-emission.md",
     "docs/tokenomics/technical-architecture.md",
     "docs/tokenomics/treasury-alignment.md",
-    "docs/tokenomics/utility-model.md",
     "docs/trading/access-model.md",
     "docs/trading/acs-trinity-integration.md",
     "docs/trading/architecture.md",
@@ -9826,7 +9823,6 @@
     "docs/trading/user-facing-strategies.md",
     "docs/treasury/acs-trinity-integration.md",
     "docs/treasury/architecture.md",
-    "docs/treasury/capital-allocation.md",
     "docs/treasury/governance-alignment.md",
     "docs/treasury/README.md",
     "docs/treasury/reporting-and-accountability.md",
@@ -9835,7 +9831,6 @@
     "docs/treasury/strategy-oversight.md",
     "docs/treasury/tokenomics-alignment.md",
     "docs/treasury/trading-alignment.md",
-    "docs/treasury/treasury-policy.md",
     "documentation/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
     "documentation/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
     "documentation/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -11083,6 +11078,7 @@
       "MINING-GDE-004",
       "MINING-GDE-005",
       "MINING-GDE-006",
+      "MINING-GDE-007",
       "RUNTIME-GDE-001",
       "RUNTIME-GDE-002",
       "RUNTIME-GDE-003",
@@ -11104,11 +11100,15 @@
       "SEC-GDE-005",
       "SEC-GDE-006",
       "TOKEN-GDE-001",
+      "TOKEN-GDE-002",
+      "TOKEN-GDE-003",
       "TRADING-GDE-001",
       "TREASURY-GDE-001",
       "TREASURY-GDE-002",
       "TREASURY-GDE-003",
-      "TREASURY-GDE-004"
+      "TREASURY-GDE-004",
+      "TREASURY-GDE-005",
+      "TREASURY-GDE-006"
     ],
     "relationship_unreachable": [
       "<SCOPE>-ADR-<NNN>",
@@ -11238,14 +11238,14 @@
     "DEPENDS_ON": 115,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 217,
+    "RELATES_TO": 225,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 405,
+    "declared": 413,
     "derived": 0,
     "duplicates": 0,
-    "total": 405,
+    "total": 413,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13453,6 +13453,18 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "MINING-GDE-007",
+      "source_path": "docs/mining/monitoring-and-telemetry.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-007",
+      "source_path": "docs/mining/monitoring-and-telemetry.md",
+      "target": "MINING-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "RUNTIME-GDE-001",
       "source_path": "docs/runtime/overview.md",
       "target": "CORE-GDE-001",
@@ -13651,6 +13663,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "TOKEN-GDE-002",
+      "source_path": "docs/tokenomics/pok-minting.md",
+      "target": "TOKEN-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TOKEN-GDE-003",
+      "source_path": "docs/tokenomics/utility-model.md",
+      "target": "TOKEN-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TOKEN-GDE-003",
+      "source_path": "docs/tokenomics/utility-model.md",
+      "target": "TOKEN-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "TRADING-GDE-001",
       "source_path": "docs/trading/overview.md",
       "target": "CORE-GDE-001",
@@ -13684,6 +13714,24 @@
       "source": "TREASURY-GDE-004",
       "source_path": "docs/treasury/risk-management.md",
       "target": "TREASURY-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-005",
+      "source_path": "docs/treasury/treasury-policy.md",
+      "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-006",
+      "source_path": "docs/treasury/capital-allocation.md",
+      "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-006",
+      "source_path": "docs/treasury/capital-allocation.md",
+      "target": "TREASURY-GDE-005",
       "type": "RELATES_TO"
     }
   ],

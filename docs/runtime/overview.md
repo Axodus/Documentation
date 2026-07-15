@@ -124,6 +124,10 @@ Runtime failures can create unclear ownership, uncontrolled scope, hidden approv
 
 Runtime is under active specification. These pages define the operating model and documentation baseline, not a claim that every automation or tool workflow is already implemented.
 
+Runtime documentation should not be read as proof of provider activation, live
+automation, autonomous execution, wallet-signing capability, or production
+readiness by architecture alone.
+
 ## Future Work
 
 - Define canonical runtime item templates.

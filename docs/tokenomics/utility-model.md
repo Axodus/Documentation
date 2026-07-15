@@ -1,11 +1,39 @@
-# Utility Model
-
-Status: Draft
-Version: 0.2.0
-Last Updated: 2026-05-16
-Owner: Axodus Tokenomics
-
 ---
+schema_version: "1.0.0"
+document_id: "TOKEN-GDE-003"
+aliases: []
+document_type: "GUIDE"
+title: "Utility Model"
+summary: "Defines the current and future utility interpretation for $Neurons within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "TOKENOMICS"
+authority_level: "CORE"
+author: "Axodus Tokenomics"
+owner: "Axodus Tokenomics"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "TOKEN-GDE-001"}, {type: "RELATES_TO", target: "TOKEN-GDE-002"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-05"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["TOKENOMICS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/tokenomics/utility-model.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Utility Model
 
 ## Purpose
 
@@ -15,9 +43,9 @@ The utility model defines current and future uses of $Neurons without overstatin
 
 | Utility | Status |
 | --- | --- |
-| ERC-20 transferability | Current |
-| PoK-controlled minting | Current |
-| Burn support | Current / supported |
+| ERC-20 transferability | Documented current model |
+| PoK-controlled minting | Documented model if verified |
+| Burn support | Documented support if verified |
 | Cross-chain integration | Prepared |
 | Participation incentives through PoK | Possible |
 | DAO governance | Future |
@@ -28,7 +56,13 @@ The utility model defines current and future uses of $Neurons without overstatin
 
 ## Current Utility Interpretation
 
-The current utility is technical and issuance-focused: $Neurons can exist as an ERC-20 token, be minted through controlled Proof-of-Knowledge flows, be burned where supported, and later connect to cross-chain infrastructure.
+The current utility is technical and issuance-focused: $Neurons can exist as
+an ERC-20 token, be minted through controlled Proof-of-Knowledge flows, be
+burned where supported, and later connect to cross-chain infrastructure.
+
+Public references to current utility describe the documented token model. They
+must not be read as proof of finalized deployment, active distribution, or live
+access-gating unless implementation and policy records support that reading.
 
 ## Future Utility Surfaces
 

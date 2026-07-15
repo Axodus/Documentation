@@ -8723,19 +8723,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/mining/monitoring-and-telemetry.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/mining/monitoring-and-telemetry.md"
     },
@@ -9209,19 +9200,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/tokenomics/pok-minting.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/tokenomics/pok-minting.md"
     },
@@ -9353,19 +9335,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/tokenomics/utility-model.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/tokenomics/utility-model.md"
     },
@@ -9659,19 +9632,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/treasury/capital-allocation.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/treasury/capital-allocation.md"
     },
@@ -9821,19 +9785,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/treasury/treasury-policy.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/treasury/treasury-policy.md"
     },
@@ -11694,7 +11649,7 @@
   ],
   "errors": 0,
   "generated_at": "2026-07-15T00:00:00Z",
-  "legacy_documents": 588,
+  "legacy_documents": 583,
   "repository_statistics": {
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
@@ -11708,13 +11663,13 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1299,
+    "info": 1294,
     "invalid_exceptions": 0,
-    "known_legacy": 552,
-    "legacy_documents": 588,
+    "known_legacy": 547,
+    "legacy_documents": 583,
     "migrate_dispositions": 177,
-    "relationships": 405,
-    "removed_legacy": 9,
+    "relationships": 413,
+    "removed_legacy": 14,
     "revoked_exceptions": 0,
     "security_review_dispositions": 59,
     "skipped_documents": 0,
@@ -11723,13 +11678,13 @@
     "total_documents": 904,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 302,
+    "validated_documents": 307,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 302,
+  "validated_documents": 307,
   "validation_version": "1.1.0",
   "warnings": 0
 }

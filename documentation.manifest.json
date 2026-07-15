@@ -11346,7 +11346,7 @@
         "DOCUMENTATION-EPIC-02",
         "MINING-GDE-001"
       ],
-      "sha256": "1bfea79e678b95e5be0fcab119b7e34e9a8e83c5f1fec1bd50b690a6f0a57c40",
+      "sha256": "fc5810239b76be4dbc431757c4d7bc4068d35d91f1c994cbe54fd35bad4fb7b5",
       "source_path": "docs/mining/infrastructure-and-operations.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11402,23 +11402,30 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "28196871445eb887075aad775b8add9e203b8e36a6fa6e4431943c683db7fee1",
+      "authority_level": "CORE",
+      "authority_scope": "MINING",
+      "classification": "CANONICAL",
+      "document_id": "MINING-GDE-007",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Mining",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-05",
+        "MINING-GDE-001",
+        "MINING-GDE-003"
+      ],
+      "sha256": "da0eef7e0a5e37bb42725d460ea55391595f0a0a9c2e34ea6938d7d8e8a7a70f",
       "source_path": "docs/mining/monitoring-and-telemetry.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Monitoring and Telemetry",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -11459,7 +11466,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "77ba154790a52f4092b39812cc6886081cd55a46ad1e7a4fa11df64577b81866",
+      "sha256": "dd9086c527e814102dbdbd03245525c092709cfcdb437dbea9e1324d6ab85ecc",
       "source_path": "docs/mining/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11969,7 +11976,7 @@
         "DOCUMENTATION-EPIC-03",
         "RUNTIME-GDE-004"
       ],
-      "sha256": "d49a96f9caeb533810b26c63a962aa9a854b3568b587bf3f878028ef453714e5",
+      "sha256": "6f9b2b616314bba258a1df93974a9d855437d77d53cd7bd5df9fbcdf0ca81d76",
       "source_path": "docs/runtime/acs-integration.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11996,7 +12003,7 @@
         "RUNTIME-GDE-001",
         "RUNTIME-GDE-003"
       ],
-      "sha256": "840ffcc9c4e38373f5c28796c5f91ea169c35d5df5d3cd42136b4185d523cc7f",
+      "sha256": "7f616715d662b62d7f9d0661d5159ec437dd99e716394b7c5b8eb3574089385a",
       "source_path": "docs/runtime/architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12130,7 +12137,7 @@
         "DOCUMENTATION-EPIC-02",
         "RUNTIME-GDE-001"
       ],
-      "sha256": "efa3b676416854364517507513e3b9d63a1bf780e1173127e12b67c272688b16",
+      "sha256": "45e49871ce9297266ecf64afc70d7f83ec2a88e5b001b4c4b13bb5c019d11e96",
       "source_path": "docs/runtime/governance-escalation.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12183,7 +12190,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "0f4aaaccd1e1ccd8e15ba0c1af3b97a7213fd49000504e78122c01f8384a6a67",
+      "sha256": "3f317e041249b4d15663563483ec0be35e90820c04c481d96a00b23639a10c79",
       "source_path": "docs/runtime/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12673,7 +12680,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "bad5402e4e75559b79ae2c3f1d479cf702cce0f54f993f82c25553017f04b553",
+      "sha256": "4f7d0828c900c5cc257fd12b89c50a58d82fca878d2545d6b6ee2f18b78183a9",
       "source_path": "docs/tokenomics/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12682,23 +12689,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "15c9a744ab50ea1bbd63b0b687e2ede2242c2fdb4271654c0e3be11737f70803",
+      "authority_level": "CORE",
+      "authority_scope": "TOKENOMICS",
+      "classification": "CANONICAL",
+      "document_id": "TOKEN-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Tokenomics / Academy",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-05",
+        "TOKEN-GDE-001"
+      ],
+      "sha256": "2ec2a9a340a956f7d2f3a275e95e4e7952cb3f6869c920ee6d2887835d33f78a",
       "source_path": "docs/tokenomics/pok-minting.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "PoK Minting",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -12842,23 +12855,30 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "28c61057cf48415bd075cf3f660fc66e440dbdff6681dc0c19f776ff6fd9a746",
+      "authority_level": "CORE",
+      "authority_scope": "TOKENOMICS",
+      "classification": "CANONICAL",
+      "document_id": "TOKEN-GDE-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Tokenomics",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-05",
+        "TOKEN-GDE-001",
+        "TOKEN-GDE-002"
+      ],
+      "sha256": "0a9de32fe57af1678208d620a0477f78766002aa6e3842122cc2e90c02eb00e1",
       "source_path": "docs/tokenomics/utility-model.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Utility Model",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -13208,23 +13228,30 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "5ab41c905286cc1e04256bd2113e98387cc2da23137d0debd163511042fd395f",
+      "authority_level": "CORE",
+      "authority_scope": "TREASURY",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Treasury",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-05",
+        "TREASURY-GDE-001",
+        "TREASURY-GDE-005"
+      ],
+      "sha256": "b8f952d482a9e44c8cba9463e974beecd2c926091ac642269d7841db27a2030a",
       "source_path": "docs/treasury/capital-allocation.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Capital Allocation",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -13271,7 +13298,7 @@
         "DOCUMENTATION-EPIC-02",
         "TREASURY-GDE-001"
       ],
-      "sha256": "4b0211d38a75ec7d2460d48a4a3527ebeab0dac6b0eb392324ba84c496fb75bb",
+      "sha256": "f99dd062911277c5e82d6f961e43cd8dde29fc0417c329342facdb39ebe06298",
       "source_path": "docs/treasury/custody-and-security.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13317,7 +13344,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "d68e897d91e41b76a339a95c55032b2c06ff18af46336e2ac2b35a475d946d0c",
+      "sha256": "b3641f1ca924c850ac2d10a013011ea4b0b1819e4deec8c8798c306c5413e835",
       "source_path": "docs/treasury/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13493,23 +13520,29 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "774ebe81cedcbe9c47db77ed85a11a791295d57e5fc17a94a975b9a24e023df2",
+      "authority_level": "CORE",
+      "authority_scope": "TREASURY",
+      "classification": "CANONICAL",
+      "document_id": "TREASURY-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Treasury",
+      "publication_status": "APPROVED",
+      "related_documents": [
+        "DOC-ADR-018",
+        "DOC-ADR-019",
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-05",
+        "TREASURY-GDE-001"
+      ],
+      "sha256": "c4009e7862a63f4931eb9e936faf2792239e1f5bc9e14a42b02c16a2e51f5459",
       "source_path": "docs/treasury/treasury-policy.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Treasury Policy",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -22339,6 +22372,18 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "MINING-GDE-007",
+      "source_path": "docs/mining/monitoring-and-telemetry.md",
+      "target": "MINING-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "MINING-GDE-007",
+      "source_path": "docs/mining/monitoring-and-telemetry.md",
+      "target": "MINING-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "RUNTIME-GDE-001",
       "source_path": "docs/runtime/overview.md",
       "target": "CORE-GDE-001",
@@ -22537,6 +22582,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "TOKEN-GDE-002",
+      "source_path": "docs/tokenomics/pok-minting.md",
+      "target": "TOKEN-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TOKEN-GDE-003",
+      "source_path": "docs/tokenomics/utility-model.md",
+      "target": "TOKEN-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TOKEN-GDE-003",
+      "source_path": "docs/tokenomics/utility-model.md",
+      "target": "TOKEN-GDE-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "TRADING-GDE-001",
       "source_path": "docs/trading/overview.md",
       "target": "CORE-GDE-001",
@@ -22571,28 +22634,46 @@
       "source_path": "docs/treasury/risk-management.md",
       "target": "TREASURY-GDE-003",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-005",
+      "source_path": "docs/treasury/treasury-policy.md",
+      "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-006",
+      "source_path": "docs/treasury/capital-allocation.md",
+      "target": "TREASURY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "TREASURY-GDE-006",
+      "source_path": "docs/treasury/capital-allocation.md",
+      "target": "TREASURY-GDE-005",
+      "type": "RELATES_TO"
     }
   ],
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 302,
-    "declared_relationships": 405,
+    "compliant_documents": 307,
+    "declared_relationships": 413,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 235,
+      "CORE": 240,
       "MODULE": 1,
       "PORTFOLIO": 4,
       "PROJECT": 74,
-      "UNSPECIFIED": 588
+      "UNSPECIFIED": 583
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 218,
+      "D2": 223,
       "D3": 83,
       "D4": 1,
-      "UNSPECIFIED": 588
+      "UNSPECIFIED": 583
     },
     "documents_by_owner": {
       "<facilitator>": 1,
@@ -22614,29 +22695,30 @@
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
       "Axodus Marketplace / Security": 1,
-      "Axodus Mining": 5,
+      "Axodus Mining": 6,
       "Axodus Mining / Security": 1,
       "Axodus Runtime": 11,
       "Axodus Runtime / Accountability": 1,
       "Axodus Runtime / ACS": 1,
       "Axodus Runtime / Governance": 1,
-      "Axodus Tokenomics": 1,
+      "Axodus Tokenomics": 2,
+      "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
-      "Axodus Treasury": 4,
+      "Axodus Treasury": 6,
       "Governance Nucleus": 6,
       "Security": 6,
-      "UNSPECIFIED": 588
+      "UNSPECIFIED": 583
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
-      "APPROVED": 147,
+      "APPROVED": 152,
       "DRAFT": 148,
-      "UNSPECIFIED": 588
+      "UNSPECIFIED": 583
     },
     "documents_by_type": {
       "ADR": 24,
       "API": 1,
-      "GUIDE": 85,
+      "GUIDE": 90,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 7,
@@ -22650,11 +22732,11 @@
       "RUNBOOK": 1,
       "SPECIFICATION": 10,
       "STANDARD": 4,
-      "UNSPECIFIED": 588
+      "UNSPECIFIED": 583
     },
-    "documents_missing_metadata": 588,
+    "documents_missing_metadata": 583,
     "generated_documents": 8,
-    "legacy_documents": 588,
+    "legacy_documents": 583,
     "template_documents": 14,
     "total_documents": 904
   }

@@ -1,15 +1,47 @@
-# Capital Allocation
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Axodus Treasury
-
 ---
+schema_version: "1.0.0"
+document_id: "TREASURY-GDE-006"
+aliases: []
+document_type: "GUIDE"
+title: "Capital Allocation"
+summary: "Defines the draft capital-allocation model for Treasury within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "TREASURY"
+authority_level: "CORE"
+author: "Axodus Treasury"
+owner: "Axodus Treasury"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "TREASURY-GDE-001"}, {type: "RELATES_TO", target: "TREASURY-GDE-005"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-05"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["TREASURY"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/treasury/capital-allocation.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Capital Allocation
 
 ## Purpose
 
 Capital allocation assigns treasury resources to reserves, operations, growth, rewards, liquidity, strategies, and ecosystem development.
+
+This page documents a directional allocation model. It must not be interpreted
+as evidence of live allocations, active strategy programs, or currently
+approved execution thresholds.
 
 ## Scope
 

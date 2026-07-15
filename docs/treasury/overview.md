@@ -41,6 +41,10 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 Treasury is the financial responsibility layer of Axodus. It manages reserves, capital allocation, risk, reporting, and governance-aligned financial accountability.
 
+This page should be read as a governed Treasury model and accountability
+surface, not as proof that live Treasury execution, custody configuration,
+signing policy, or active allocation programs are already enabled.
+
 ## Scope
 
 Treasury covers asset and wallet records, reserve policy, liquidity planning, capital allocation, reward budgets, trading allocations, DeFi and DaaS exposure review, fee routing, custody controls, execution receipts, and treasury reporting.
@@ -78,6 +82,10 @@ Treasury connects directly to [Governance](../governance/overview.md), [Trading]
 ## Current Status
 
 Treasury documentation is under active reconstruction. Policies, thresholds, wallet registries, and reporting cadence remain draft until confirmed through governance, security, and operational review.
+
+Conceptual Treasury, prototype Treasury, and active Treasury must not be
+conflated. Public documentation approval does not, by itself, authorize live
+fund movement or active financial execution.
 
 ## Documentation Map
 

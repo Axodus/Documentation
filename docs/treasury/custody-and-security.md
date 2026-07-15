@@ -41,6 +41,10 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 Treasury assets require strong custody and security controls. Transparency must not expose secrets or exploitable operational details.
 
+This page is a governed control surface for custody principles and public-safe
+execution guidance. It is not proof of deployed wallet topology, signer
+configuration, or active execution approval by itself.
+
 ## Scope
 
 This document describes custody models, security principles, safe wallet registry fields, permission controls, execution security, incident types, and custody risks.

@@ -45,6 +45,10 @@ Runtime architecture separates operational concerns so request intake, analysis,
 
 This architecture is transversal and can be reused by Business, Governance, ACS, Academy, Trading, Treasury, Marketplace, BBA, documentation, and technical delivery.
 
+Its integration surfaces are conceptual and documentation-governed unless
+separately verified. They do not, by themselves, prove live production
+integration, active providers, or enabled execution channels.
+
 ## Architecture Layers
 
 - Intake layer: captures request, requester, source, and initial context.

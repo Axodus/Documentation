@@ -39,11 +39,21 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 ## Purpose
 
-Axodus Mining is the infrastructure and product nucleus for mining, validation, reward accounting, monitoring, user education, treasury exposure, marketplace integration, and reporting.
+Axodus Mining is the infrastructure and product nucleus for mining,
+validation, reward accounting, monitoring, user education, treasury exposure,
+marketplace integration, and reporting.
+
+This page should be read as a governed concept, architecture, and product-model
+overview. It is not, by itself, evidence of active mining operations, active
+user products, active payouts, or verified production deployment.
 
 ## Scope
 
 Mining may include Proof-of-Work mining, pool mining, hashrate allocation, hosted mining, user-facing mining products, node operations, validator operations, mining education, and mining-related services.
+
+Where public pages describe products, operations, treasury exposure, or
+conversion paths, those references remain conditional on verified ownership,
+operational approval, custody controls, and reporting records.
 
 Mining is not a guaranteed income platform, passive income guarantee, fixed-yield product, APY guarantee, risk-free mining product, legal or tax advice, or substitute for governance, treasury, security, compliance, and user disclosures.
 

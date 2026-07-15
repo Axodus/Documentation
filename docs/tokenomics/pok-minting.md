@@ -1,19 +1,57 @@
-# PoK Minting
-
-Status: Draft
-Version: 0.1.0
-Last Updated: 2026-05-16
-Owner: Axodus Tokenomics / Academy
-
 ---
+schema_version: "1.0.0"
+document_id: "TOKEN-GDE-002"
+aliases: []
+document_type: "GUIDE"
+title: "PoK Minting"
+summary: "Defines the documented Proof of Knowledge minting model for $Neurons within the Axodus documentation corpus."
+version: "1.0.0"
+publication_status: "APPROVED"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "TOKENOMICS"
+authority_level: "CORE"
+author: "Axodus Tokenomics / Academy"
+owner: "Axodus Tokenomics / Academy"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: "Documentation Coordinator"
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "TOKEN-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-06"]
+related_requirements: ["DOCUMENTATION-EPIC-06-REQ-05"]
+related_adrs: ["DOC-ADR-018", "DOC-ADR-019"]
+related_cores: ["TOKENOMICS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/tokenomics/pok-minting.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# PoK Minting
 
 ## Purpose
 
-PoK minting defines how $Neurons can be issued through Proof-of-Knowledge authorization and cryptographic validation.
+PoK minting defines how $Neurons can be issued through Proof-of-Knowledge
+authorization and cryptographic validation.
+
+For public documentation, `Proof of Knowledge` should be read as an
+educational-participation and authorization model, not as a guarantee of live
+credential issuance or a claim that the described mint flow is already active
+in production.
 
 ## Scope
 
 This page covers the `PoKMinter.sol` and `ECDSAVerifier.sol` flow, including EIP-712 signatures, ECDSA verification, nonces, limits, cooldown, and replay protection.
+
+It documents a controlled issuance model and prototype-capable mechanism. It
+must not be read as a finalized public issuance policy or independently
+verified deployment record.
 
 ## Mint Rules
 
