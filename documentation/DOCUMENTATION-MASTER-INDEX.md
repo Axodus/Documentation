@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 914
+Source Documents: 918
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 914
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 914 |
-| Canonical documents | 317 |
+| Total source documents | 918 |
+| Canonical documents | 321 |
 | Legacy documents | 583 |
 | Template documents | 14 |
 | Declared relationships | 413 |
@@ -42,7 +42,7 @@ Source Documents: 914
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 165 |
+| REPORT | 169 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -57,8 +57,8 @@ Source Documents: 914
 | COMPONENT | 2 |
 | CORE | 240 |
 | MODULE | 1 |
-| PORTFOLIO | 4 |
-| PROJECT | 84 |
+| PORTFOLIO | 7 |
+| PROJECT | 85 |
 | UNSPECIFIED | 583 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 914
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 158 |
+| DRAFT | 162 |
 | UNSPECIFIED | 583 |
 ## Canonical Documents
 
@@ -312,12 +312,16 @@ Source Documents: 914
 | DOC-RPT-148 | EPIC-06 REQ-01 Decision Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-REQ-01-DECISION-REPORT.md](./EPIC-06-REQ-01-DECISION-REPORT.md) |
 | DOC-RPT-156 | EPIC-06 Residual Backlog Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md](./EPIC-06-RESIDUAL-BACKLOG-REGISTER.md) |
 | DOC-RPT-146 | EPIC-06 Source of Truth Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md](./EPIC-06-SOURCE-OF-TRUTH-REGISTER.md) |
+| DOC-RPT-165 | EPIC-07 Canonical Concept and Product Model | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md](./EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md) |
 | DOC-RPT-162 | EPIC-07 Contradiction Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-CONTRADICTION-REGISTER.md](./EPIC-07-CONTRADICTION-REGISTER.md) |
 | DOC-RPT-160 | EPIC-07 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-DECISION-REGISTER.md](./EPIC-07-DECISION-REGISTER.md) |
 | DOC-RPT-159 | EPIC-07 Fact Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-FACT-REGISTER.md](./EPIC-07-FACT-REGISTER.md) |
 | DOC-RPT-163 | EPIC-07 Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-GAP-REGISTER.md](./EPIC-07-GAP-REGISTER.md) |
+| DOC-RPT-167 | EPIC-07 Nucleus Responsibility Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md](./EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md) |
 | DOC-RPT-161 | EPIC-07 Owner Context Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md](./EPIC-07-OWNER-CONTEXT-REGISTER.md) |
+| DOC-RPT-166 | EPIC-07 Participant and Tenant Model | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md](./EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md) |
 | DOC-RPT-164 | EPIC-07 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-01-FREEZE-REPORT.md](./EPIC-07-REQ-01-FREEZE-REPORT.md) |
+| DOC-RPT-168 | EPIC-07 REQ-02 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-02-FREEZE-REPORT.md](./EPIC-07-REQ-02-FREEZE-REPORT.md) |
 | DOC-RPT-158 | EPIC-07 Source Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-SOURCE-REGISTER.md](./EPIC-07-SOURCE-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |

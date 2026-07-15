@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 914,
+  "document_count": 918,
   "documents": [
     {
       "aliases": [],
@@ -17165,6 +17165,29 @@
     },
     {
       "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-165",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-02"
+      ],
+      "sha256": "3d22c13703dc147038ba2ccf6a411f41f01703d22b779e6934a4d5609fda24b4",
+      "source_path": "documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 Canonical Concept and Product Model",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_07",
       "classification": "CANONICAL",
@@ -17257,6 +17280,29 @@
     },
     {
       "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-167",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-02"
+      ],
+      "sha256": "b099012b7582f3b20d76b4a3875e1c319b4ea3c0fe514533969be47eef195a30",
+      "source_path": "documentation/EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 Nucleus Responsibility Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_07",
       "classification": "CANONICAL",
@@ -17280,6 +17326,29 @@
     },
     {
       "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-166",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-02"
+      ],
+      "sha256": "f05cc7f97ff75fb7cad14d9645159118edaa246f9bbbc66b4a512d17c821b3e5",
+      "source_path": "documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 Participant and Tenant Model",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_07",
       "classification": "CANONICAL",
@@ -17299,6 +17368,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-07 REQ-01 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-168",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-02"
+      ],
+      "sha256": "5727f925ef9618317f0a30d3f7e1be094cf00e36a259dd7b33c2d3e425739ee6",
+      "source_path": "documentation/EPIC-07-REQ-02-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 REQ-02 Freeze Report",
       "version": "1.0.0"
     },
     {
@@ -22887,20 +22979,20 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 317,
+    "compliant_documents": 321,
     "declared_relationships": 413,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 240,
       "MODULE": 1,
-      "PORTFOLIO": 4,
-      "PROJECT": 84,
+      "PORTFOLIO": 7,
+      "PROJECT": 85,
       "UNSPECIFIED": 583
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 233,
+      "D2": 237,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 583
@@ -22916,11 +23008,11 @@
       "Axodus Business": 7,
       "Axodus Business / ACS": 1,
       "Axodus Business / Governance": 2,
-      "Axodus Core": 4,
+      "Axodus Core": 7,
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 233,
+      "Axodus Documentation Core": 234,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -22942,7 +23034,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 158,
+      "DRAFT": 162,
       "UNSPECIFIED": 583
     },
     "documents_by_type": {
@@ -22955,7 +23047,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 165,
+      "REPORT": 169,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -22968,6 +23060,6 @@
     "generated_documents": 8,
     "legacy_documents": 583,
     "template_documents": 14,
-    "total_documents": 914
+    "total_documents": 918
   }
 }

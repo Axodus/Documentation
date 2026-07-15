@@ -6425,6 +6425,46 @@
       "title": "EPIC-07 REQ-01 Freeze Report"
     },
     {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-165",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-165",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md",
+      "title": "EPIC-07 Canonical Concept and Product Model"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-166",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-166",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md",
+      "title": "EPIC-07 Participant and Tenant Model"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-167",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-167",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md",
+      "title": "EPIC-07 Nucleus Responsibility Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-168",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-168",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-REQ-02-FREEZE-REPORT.md",
+      "title": "EPIC-07 REQ-02 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -9984,12 +10024,16 @@
     "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
     "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
     "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
+    "documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md",
     "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
     "documentation/EPIC-07-DECISION-REGISTER.md",
     "documentation/EPIC-07-FACT-REGISTER.md",
     "documentation/EPIC-07-GAP-REGISTER.md",
+    "documentation/EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md",
     "documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md",
+    "documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md",
     "documentation/EPIC-07-REQ-01-FREEZE-REPORT.md",
+    "documentation/EPIC-07-REQ-02-FREEZE-REPORT.md",
     "documentation/EPIC-07-SOURCE-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
@@ -10889,12 +10933,16 @@
       "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
       "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
       "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
+      "documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md",
       "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
       "documentation/EPIC-07-DECISION-REGISTER.md",
       "documentation/EPIC-07-FACT-REGISTER.md",
       "documentation/EPIC-07-GAP-REGISTER.md",
+      "documentation/EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md",
       "documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md",
+      "documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md",
       "documentation/EPIC-07-REQ-01-FREEZE-REPORT.md",
+      "documentation/EPIC-07-REQ-02-FREEZE-REPORT.md",
       "documentation/EPIC-07-SOURCE-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
@@ -11361,7 +11409,11 @@
       "DOC-RPT-161",
       "DOC-RPT-162",
       "DOC-RPT-163",
-      "DOC-RPT-164"
+      "DOC-RPT-164",
+      "DOC-RPT-165",
+      "DOC-RPT-166",
+      "DOC-RPT-167",
+      "DOC-RPT-168"
     ]
   },
   "relationship_counts": {
