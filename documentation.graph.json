@@ -6355,6 +6355,76 @@
       "title": "EPIC-06 Closure Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-158",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-158",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-SOURCE-REGISTER.md",
+      "title": "EPIC-07 Source Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-159",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-159",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-FACT-REGISTER.md",
+      "title": "EPIC-07 Fact Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-160",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-160",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-DECISION-REGISTER.md",
+      "title": "EPIC-07 Decision Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-161",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-161",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md",
+      "title": "EPIC-07 Owner Context Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-162",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-162",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
+      "title": "EPIC-07 Contradiction Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-163",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-163",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-GAP-REGISTER.md",
+      "title": "EPIC-07 Gap Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-164",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-164",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-REQ-01-FREEZE-REPORT.md",
+      "title": "EPIC-07 REQ-01 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -9914,6 +9984,13 @@
     "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
     "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
     "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
+    "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
+    "documentation/EPIC-07-DECISION-REGISTER.md",
+    "documentation/EPIC-07-FACT-REGISTER.md",
+    "documentation/EPIC-07-GAP-REGISTER.md",
+    "documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md",
+    "documentation/EPIC-07-REQ-01-FREEZE-REPORT.md",
+    "documentation/EPIC-07-SOURCE-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
     "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -10812,6 +10889,13 @@
       "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
       "documentation/EPIC-06-RESIDUAL-BACKLOG-REGISTER.md",
       "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
+      "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
+      "documentation/EPIC-07-DECISION-REGISTER.md",
+      "documentation/EPIC-07-FACT-REGISTER.md",
+      "documentation/EPIC-07-GAP-REGISTER.md",
+      "documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md",
+      "documentation/EPIC-07-REQ-01-FREEZE-REPORT.md",
+      "documentation/EPIC-07-SOURCE-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
       "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11270,7 +11354,14 @@
       "DOC-RPT-154",
       "DOC-RPT-155",
       "DOC-RPT-156",
-      "DOC-RPT-157"
+      "DOC-RPT-157",
+      "DOC-RPT-158",
+      "DOC-RPT-159",
+      "DOC-RPT-160",
+      "DOC-RPT-161",
+      "DOC-RPT-162",
+      "DOC-RPT-163",
+      "DOC-RPT-164"
     ]
   },
   "relationship_counts": {

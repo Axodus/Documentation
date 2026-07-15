@@ -10297,6 +10297,69 @@
       "source_path": "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-162",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-CONTRADICTION-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-160",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-DECISION-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-159",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-FACT-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-163",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-GAP-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-161",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-164",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-REQ-01-FREEZE-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-158",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-SOURCE-REGISTER.md"
+    },
+    {
       "document_id": "DOC-RPT-087",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -11690,7 +11753,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1297,
+    "info": 1304,
     "invalid_exceptions": 0,
     "known_legacy": 547,
     "legacy_documents": 583,
@@ -11702,16 +11765,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 907,
+    "total_documents": 914,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 310,
+    "validated_documents": 317,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 310,
+  "validated_documents": 317,
   "validation_version": "1.1.0",
   "warnings": 0
 }
