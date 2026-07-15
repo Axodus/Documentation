@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 930
+Source Documents: 934
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 930
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 930 |
-| Canonical documents | 333 |
+| Total source documents | 934 |
+| Canonical documents | 337 |
 | Legacy documents | 583 |
 | Template documents | 14 |
 | Declared relationships | 413 |
@@ -42,7 +42,7 @@ Source Documents: 930
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 181 |
+| REPORT | 185 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 930
 | CORE | 240 |
 | MODULE | 1 |
 | PORTFOLIO | 16 |
-| PROJECT | 88 |
+| PROJECT | 92 |
 | UNSPECIFIED | 583 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 930
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 174 |
+| DRAFT | 178 |
 | UNSPECIFIED | 583 |
 ## Canonical Documents
 
@@ -316,6 +316,7 @@ Source Documents: 930
 | DOC-RPT-169 | EPIC-07 Canonical Architecture Model | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-CANONICAL-ARCHITECTURE-MODEL.md](./EPIC-07-CANONICAL-ARCHITECTURE-MODEL.md) |
 | DOC-RPT-165 | EPIC-07 Canonical Concept and Product Model | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md](./EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md) |
 | DOC-RPT-162 | EPIC-07 Contradiction Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-CONTRADICTION-REGISTER.md](./EPIC-07-CONTRADICTION-REGISTER.md) |
+| DOC-RPT-181 | EPIC-07 Corpus Fidelity Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-CORPUS-FIDELITY-MATRIX.md](./EPIC-07-CORPUS-FIDELITY-MATRIX.md) |
 | DOC-RPT-160 | EPIC-07 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-DECISION-REGISTER.md](./EPIC-07-DECISION-REGISTER.md) |
 | DOC-RPT-173 | EPIC-07 Decision Rights Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-DECISION-RIGHTS-MATRIX.md](./EPIC-07-DECISION-RIGHTS-MATRIX.md) |
 | DOC-RPT-177 | EPIC-07 End-to-End Flow Catalog | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-END-TO-END-FLOW-CATALOG.md](./EPIC-07-END-TO-END-FLOW-CATALOG.md) |
@@ -325,14 +326,17 @@ Source Documents: 930
 | DOC-RPT-163 | EPIC-07 Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-GAP-REGISTER.md](./EPIC-07-GAP-REGISTER.md) |
 | DOC-RPT-175 | EPIC-07 Human and Agent Authority Model | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-HUMAN-AGENT-AUTHORITY-MODEL.md](./EPIC-07-HUMAN-AGENT-AUTHORITY-MODEL.md) |
 | DOC-RPT-170 | EPIC-07 Interface Event and Data Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-INTERFACE-EVENT-DATA-REGISTER.md](./EPIC-07-INTERFACE-EVENT-DATA-REGISTER.md) |
+| DOC-RPT-183 | EPIC-07 New Page Justification Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-NEW-PAGE-JUSTIFICATION-REGISTER.md](./EPIC-07-NEW-PAGE-JUSTIFICATION-REGISTER.md) |
 | DOC-RPT-167 | EPIC-07 Nucleus Responsibility Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md](./EPIC-07-NUCLEUS-RESPONSIBILITY-MATRIX.md) |
 | DOC-RPT-161 | EPIC-07 Owner Context Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-OWNER-CONTEXT-REGISTER.md](./EPIC-07-OWNER-CONTEXT-REGISTER.md) |
 | DOC-RPT-166 | EPIC-07 Participant and Tenant Model | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md](./EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md) |
+| DOC-RPT-182 | EPIC-07 Remediation Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REMEDIATION-MANIFEST.md](./EPIC-07-REMEDIATION-MANIFEST.md) |
 | DOC-RPT-164 | EPIC-07 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-01-FREEZE-REPORT.md](./EPIC-07-REQ-01-FREEZE-REPORT.md) |
 | DOC-RPT-168 | EPIC-07 REQ-02 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-02-FREEZE-REPORT.md](./EPIC-07-REQ-02-FREEZE-REPORT.md) |
 | DOC-RPT-172 | EPIC-07 REQ-03 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-03-FREEZE-REPORT.md](./EPIC-07-REQ-03-FREEZE-REPORT.md) |
 | DOC-RPT-176 | EPIC-07 REQ-04 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-04-FREEZE-REPORT.md](./EPIC-07-REQ-04-FREEZE-REPORT.md) |
 | DOC-RPT-180 | EPIC-07 REQ-05 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-05-FREEZE-REPORT.md](./EPIC-07-REQ-05-FREEZE-REPORT.md) |
+| DOC-RPT-184 | EPIC-07 REQ-06 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-06-FREEZE-REPORT.md](./EPIC-07-REQ-06-FREEZE-REPORT.md) |
 | DOC-RPT-171 | EPIC-07 Runtime Boundary Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md](./EPIC-07-RUNTIME-BOUNDARY-MATRIX.md) |
 | DOC-RPT-158 | EPIC-07 Source Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-SOURCE-REGISTER.md](./EPIC-07-SOURCE-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |

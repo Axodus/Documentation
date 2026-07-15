@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 930,
+  "document_count": 934,
   "documents": [
     {
       "aliases": [],
@@ -17260,6 +17260,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_07",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-181",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-06"
+      ],
+      "sha256": "f0637a0620cdc80d64841eba4c6abd0630483b78e475aaab416a6012e3c8edb7",
+      "source_path": "documentation/EPIC-07-CORPUS-FIDELITY-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 Corpus Fidelity Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-160",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -17464,6 +17487,29 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-183",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-06"
+      ],
+      "sha256": "55533df8abf3dab4a612d767a90bead343e84a0b4e16611179897ec0ff80288c",
+      "source_path": "documentation/EPIC-07-NEW-PAGE-JUSTIFICATION-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 New Page Justification Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "PORTFOLIO",
       "authority_scope": "DOCUMENTATION.EPIC_07",
       "classification": "CANONICAL",
@@ -17529,6 +17575,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-07 Participant and Tenant Model",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-182",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-06"
+      ],
+      "sha256": "2a998b5d338ef1f5b07b2db4869055de1d5a742b4965def6b3d6232f65876d77",
+      "source_path": "documentation/EPIC-07-REMEDIATION-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 Remediation Manifest",
       "version": "1.0.0"
     },
     {
@@ -17644,6 +17713,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-07 REQ-05 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-184",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-06"
+      ],
+      "sha256": "cc213ea3400240c4972b96e2ef3551aec434fedbc22172af3c1505b5f0d17148",
+      "source_path": "documentation/EPIC-07-REQ-06-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 REQ-06 Freeze Report",
       "version": "1.0.0"
     },
     {
@@ -23255,7 +23347,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 333,
+    "compliant_documents": 337,
     "declared_relationships": 413,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -23263,12 +23355,12 @@
       "CORE": 240,
       "MODULE": 1,
       "PORTFOLIO": 16,
-      "PROJECT": 88,
+      "PROJECT": 92,
       "UNSPECIFIED": 583
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 249,
+      "D2": 253,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 583
@@ -23288,7 +23380,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 237,
+      "Axodus Documentation Core": 241,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -23310,7 +23402,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 174,
+      "DRAFT": 178,
       "UNSPECIFIED": 583
     },
     "documents_by_type": {
@@ -23323,7 +23415,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 181,
+      "REPORT": 185,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -23336,6 +23428,6 @@
     "generated_documents": 8,
     "legacy_documents": 583,
     "template_documents": 14,
-    "total_documents": 930
+    "total_documents": 934
   }
 }

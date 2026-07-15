@@ -10333,6 +10333,15 @@
       "source_path": "documentation/EPIC-07-CONTRADICTION-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-181",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-CORPUS-FIDELITY-MATRIX.md"
+    },
+    {
       "document_id": "DOC-RPT-160",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10414,6 +10423,15 @@
       "source_path": "documentation/EPIC-07-INTERFACE-EVENT-DATA-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-183",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-NEW-PAGE-JUSTIFICATION-REGISTER.md"
+    },
+    {
       "document_id": "DOC-RPT-167",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10439,6 +10457,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-07-PARTICIPANT-AND-TENANT-MODEL.md"
+    },
+    {
+      "document_id": "DOC-RPT-182",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-REMEDIATION-MANIFEST.md"
     },
     {
       "document_id": "DOC-RPT-164",
@@ -10484,6 +10511,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-07-REQ-05-FREEZE-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-184",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-REQ-06-FREEZE-REPORT.md"
     },
     {
       "document_id": "DOC-RPT-171",
@@ -11897,7 +11933,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1320,
+    "info": 1324,
     "invalid_exceptions": 0,
     "known_legacy": 547,
     "legacy_documents": 583,
@@ -11909,16 +11945,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 930,
+    "total_documents": 934,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 333,
+    "validated_documents": 337,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 333,
+  "validated_documents": 337,
   "validation_version": "1.1.0",
   "warnings": 0
 }
