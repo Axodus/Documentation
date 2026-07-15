@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 893
+- Graph nodes: 898
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 707
+- Orphan documents: 712
 - Cycles: 13
 
 ## Relationship Counts
@@ -640,6 +640,11 @@ None.
 - documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md
 - documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md
 - documentation/EPIC-05-HANDOVER-PLAN.md
+- documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md
+- documentation/EPIC-06-CORE-COVERAGE-MATRIX.md
+- documentation/EPIC-06-PAGE-GAP-REGISTER.md
+- documentation/EPIC-06-REQ-01-DECISION-REPORT.md
+- documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md
 - documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md
 - documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md
 - documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md

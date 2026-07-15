@@ -6125,6 +6125,56 @@
       "title": "Canonical Coherence Batch 01 Freeze Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-144",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-144",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-CORE-COVERAGE-MATRIX.md",
+      "title": "EPIC-06 Core Coverage Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-145",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-145",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md",
+      "title": "EPIC-06 Authority and Boundary Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-146",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-146",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
+      "title": "EPIC-06 Source of Truth Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-147",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-147",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-PAGE-GAP-REGISTER.md",
+      "title": "EPIC-06 Page Gap Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-148",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-148",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
+      "title": "EPIC-06 REQ-01 Decision Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -9774,6 +9824,11 @@
     "documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md",
     "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md",
     "documentation/EPIC-05-HANDOVER-PLAN.md",
+    "documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md",
+    "documentation/EPIC-06-CORE-COVERAGE-MATRIX.md",
+    "documentation/EPIC-06-PAGE-GAP-REGISTER.md",
+    "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
+    "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
     "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -10658,6 +10713,11 @@
       "documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md",
       "documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md",
       "documentation/EPIC-05-HANDOVER-PLAN.md",
+      "documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md",
+      "documentation/EPIC-06-CORE-COVERAGE-MATRIX.md",
+      "documentation/EPIC-06-PAGE-GAP-REGISTER.md",
+      "documentation/EPIC-06-REQ-01-DECISION-REPORT.md",
+      "documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
       "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11088,7 +11148,12 @@
       "DOC-RPT-140",
       "DOC-RPT-141",
       "DOC-RPT-142",
-      "DOC-RPT-143"
+      "DOC-RPT-143",
+      "DOC-RPT-144",
+      "DOC-RPT-145",
+      "DOC-RPT-146",
+      "DOC-RPT-147",
+      "DOC-RPT-148"
     ]
   },
   "relationship_counts": {

@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 893
+Source Documents: 898
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 893
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 893 |
-| Canonical documents | 282 |
+| Total source documents | 898 |
+| Canonical documents | 287 |
 | Legacy documents | 597 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 893
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 144 |
+| REPORT | 149 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 893
 | CORE | 226 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 63 |
+| PROJECT | 68 |
 | UNSPECIFIED | 597 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 893
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 137 |
+| DRAFT | 142 |
 | UNSPECIFIED | 597 |
 ## Canonical Documents
 
@@ -284,6 +284,11 @@ Source Documents: 893
 | DOC-RPT-048 | Epic 03 Traceability Remediation Inventory | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md](./EPIC-03-TRACEABILITY-REMEDIATION-INVENTORY.md) |
 | DOC-RPT-050 | Epic 03 Traceability Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md](./EPIC-03-TRACEABILITY-RISK-REVIEW.md) |
 | DOC-RPT-128 | EPIC-05 Handover Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-05-HANDOVER-PLAN.md](./EPIC-05-HANDOVER-PLAN.md) |
+| DOC-RPT-145 | EPIC-06 Authority and Boundary Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md](./EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md) |
+| DOC-RPT-144 | EPIC-06 Core Coverage Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-CORE-COVERAGE-MATRIX.md](./EPIC-06-CORE-COVERAGE-MATRIX.md) |
+| DOC-RPT-147 | EPIC-06 Page Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-PAGE-GAP-REGISTER.md](./EPIC-06-PAGE-GAP-REGISTER.md) |
+| DOC-RPT-148 | EPIC-06 REQ-01 Decision Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-REQ-01-DECISION-REPORT.md](./EPIC-06-REQ-01-DECISION-REPORT.md) |
+| DOC-RPT-146 | EPIC-06 Source of Truth Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-SOURCE-OF-TRUTH-REGISTER.md](./EPIC-06-SOURCE-OF-TRUTH-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |
 | DOC-RPT-090 | Institutional Controlled Intake Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md) |
