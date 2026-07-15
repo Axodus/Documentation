@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 886,
+  "document_count": 893,
   "documents": [
     {
       "aliases": [],
@@ -13452,6 +13452,167 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-140",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "4d4a145526107f957aeeee4e603eff56643861c14c6913fdba604b4b5db716ef",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Boundary Review",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-138",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "3bc0906a3e6a6e8b4a209c86a055d8b7a3eede1ec5d70f8e4ea9adab39a752c9",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Decision Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-139",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "0c8ca335d5f4a1ea78e80f88e481c32a15efbd3e5d90f3ae0920ab3040c97a65",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Evidence Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-142",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "f55f730416dff0f7c62fd484b2dabff9f27198bd71501b1f3e5191d08bbeed3c",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-EXECUTION-PLAN.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Execution Plan",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-143",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "5706e441eeb9c1048f10b2d0d57bd1c565b35599d45dc311091dabfea63da527",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-137",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "57b8e6a552cfa60193ce7e9cecd76f88987d4654fa4a99c65cbe9d37ac3a8131",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Manifest",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_05",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-141",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-05",
+        "DOCUMENTATION-EPIC-05-REQ-03"
+      ],
+      "sha256": "9b6c79bf5962fc94a704d75ab15f3515d02c2ed6c565b2a4195f76e6c6efcdcd",
+      "source_path": "documentation/CANONICAL-COHERENCE-BATCH-01-RISK-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Canonical Coherence Batch 01 Risk Review",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
       "classification": "CANONICAL",
@@ -22005,7 +22166,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 275,
+    "compliant_documents": 282,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -22013,12 +22174,12 @@
       "CORE": 226,
       "MODULE": 1,
       "PORTFOLIO": 4,
-      "PROJECT": 56,
+      "PROJECT": 63,
       "UNSPECIFIED": 597
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 191,
+      "D2": 198,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 597
@@ -22036,7 +22197,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 205,
+      "Axodus Documentation Core": 212,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -22057,7 +22218,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 130,
+      "DRAFT": 137,
       "UNSPECIFIED": 597
     },
     "documents_by_type": {
@@ -22070,7 +22231,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 137,
+      "REPORT": 144,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -22083,6 +22244,6 @@
     "generated_documents": 8,
     "legacy_documents": 597,
     "template_documents": 14,
-    "total_documents": 886
+    "total_documents": 893
   }
 }

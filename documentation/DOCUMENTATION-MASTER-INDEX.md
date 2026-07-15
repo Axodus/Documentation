@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 886
+Source Documents: 893
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 886
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 886 |
-| Canonical documents | 275 |
+| Total source documents | 893 |
+| Canonical documents | 282 |
 | Legacy documents | 597 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 886
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 137 |
+| REPORT | 144 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 886
 | CORE | 226 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 56 |
+| PROJECT | 63 |
 | UNSPECIFIED | 597 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 886
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 130 |
+| DRAFT | 137 |
 | UNSPECIFIED | 597 |
 ## Canonical Documents
 
@@ -166,6 +166,13 @@ Source Documents: 886
 | TREASURY-GDE-003 | Custody and Security | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/custody-and-security.md](../docs/treasury/custody-and-security.md) |
 | TREASURY-GDE-001 | Treasury Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/overview.md](../docs/treasury/overview.md) |
 | TREASURY-GDE-004 | Treasury Risk Management | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Treasury | [docs/treasury/risk-management.md](../docs/treasury/risk-management.md) |
+| DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
+| DOC-RPT-138 | Canonical Coherence Batch 01 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md) |
+| DOC-RPT-139 | Canonical Coherence Batch 01 Evidence Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md) |
+| DOC-RPT-142 | Canonical Coherence Batch 01 Execution Plan | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-EXECUTION-PLAN.md](./CANONICAL-COHERENCE-BATCH-01-EXECUTION-PLAN.md) |
+| DOC-RPT-143 | Canonical Coherence Batch 01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-FREEZE-REPORT.md](./CANONICAL-COHERENCE-BATCH-01-FREEZE-REPORT.md) |
+| DOC-RPT-137 | Canonical Coherence Batch 01 Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-MANIFEST.md](./CANONICAL-COHERENCE-BATCH-01-MANIFEST.md) |
+| DOC-RPT-141 | Canonical Coherence Batch 01 Risk Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/CANONICAL-COHERENCE-BATCH-01-RISK-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-RISK-REVIEW.md) |
 | DOC-RPT-081 | Cross-Repository Claims Governance Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md](./CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md) |
 | DOC-RPT-078 | Cross-Repository Disclosure Boundary Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md](./CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md) |
 | DOC-RPT-079 | Cross-Repository Evidence Boundary Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md](./CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md) |

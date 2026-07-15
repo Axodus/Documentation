@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 886
+- Graph nodes: 893
 - Declared relationships: 389
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 700
+- Orphan documents: 707
 - Cycles: 13
 
 ## Relationship Counts
@@ -601,6 +601,13 @@ None.
 - docs/treasury/tokenomics-alignment.md
 - docs/treasury/trading-alignment.md
 - docs/treasury/treasury-policy.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-EXECUTION-PLAN.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-FREEZE-REPORT.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-MANIFEST.md
+- documentation/CANONICAL-COHERENCE-BATCH-01-RISK-REVIEW.md
 - documentation/CROSS-REPOSITORY-CLAIMS-GOVERNANCE-ALIGNMENT.md
 - documentation/CROSS-REPOSITORY-DISCLOSURE-BOUNDARY-ALIGNMENT.md
 - documentation/CROSS-REPOSITORY-EVIDENCE-BOUNDARY-ALIGNMENT.md
