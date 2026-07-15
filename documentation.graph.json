@@ -6545,6 +6545,46 @@
       "title": "EPIC-07 REQ-04 Freeze Report"
     },
     {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-177",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-177",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-END-TO-END-FLOW-CATALOG.md",
+      "title": "EPIC-07 End-to-End Flow Catalog"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-178",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-178",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-EXECUTION-FLOW-REGISTER.md",
+      "title": "EPIC-07 Execution Flow Register"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-179",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-179",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-FLOW-GAP-AND-FAILURE-REGISTER.md",
+      "title": "EPIC-07 Flow Gap and Failure Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-180",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-180",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-REQ-05-FREEZE-REPORT.md",
+      "title": "EPIC-07 REQ-05 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10110,7 +10150,10 @@
     "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
     "documentation/EPIC-07-DECISION-REGISTER.md",
     "documentation/EPIC-07-DECISION-RIGHTS-MATRIX.md",
+    "documentation/EPIC-07-END-TO-END-FLOW-CATALOG.md",
+    "documentation/EPIC-07-EXECUTION-FLOW-REGISTER.md",
     "documentation/EPIC-07-FACT-REGISTER.md",
+    "documentation/EPIC-07-FLOW-GAP-AND-FAILURE-REGISTER.md",
     "documentation/EPIC-07-GAP-REGISTER.md",
     "documentation/EPIC-07-HUMAN-AGENT-AUTHORITY-MODEL.md",
     "documentation/EPIC-07-INTERFACE-EVENT-DATA-REGISTER.md",
@@ -10121,6 +10164,7 @@
     "documentation/EPIC-07-REQ-02-FREEZE-REPORT.md",
     "documentation/EPIC-07-REQ-03-FREEZE-REPORT.md",
     "documentation/EPIC-07-REQ-04-FREEZE-REPORT.md",
+    "documentation/EPIC-07-REQ-05-FREEZE-REPORT.md",
     "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
     "documentation/EPIC-07-SOURCE-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
@@ -11027,7 +11071,10 @@
       "documentation/EPIC-07-CONTRADICTION-REGISTER.md",
       "documentation/EPIC-07-DECISION-REGISTER.md",
       "documentation/EPIC-07-DECISION-RIGHTS-MATRIX.md",
+      "documentation/EPIC-07-END-TO-END-FLOW-CATALOG.md",
+      "documentation/EPIC-07-EXECUTION-FLOW-REGISTER.md",
       "documentation/EPIC-07-FACT-REGISTER.md",
+      "documentation/EPIC-07-FLOW-GAP-AND-FAILURE-REGISTER.md",
       "documentation/EPIC-07-GAP-REGISTER.md",
       "documentation/EPIC-07-HUMAN-AGENT-AUTHORITY-MODEL.md",
       "documentation/EPIC-07-INTERFACE-EVENT-DATA-REGISTER.md",
@@ -11038,6 +11085,7 @@
       "documentation/EPIC-07-REQ-02-FREEZE-REPORT.md",
       "documentation/EPIC-07-REQ-03-FREEZE-REPORT.md",
       "documentation/EPIC-07-REQ-04-FREEZE-REPORT.md",
+      "documentation/EPIC-07-REQ-05-FREEZE-REPORT.md",
       "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
       "documentation/EPIC-07-SOURCE-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
@@ -11517,7 +11565,11 @@
       "DOC-RPT-173",
       "DOC-RPT-174",
       "DOC-RPT-175",
-      "DOC-RPT-176"
+      "DOC-RPT-176",
+      "DOC-RPT-177",
+      "DOC-RPT-178",
+      "DOC-RPT-179",
+      "DOC-RPT-180"
     ]
   },
   "relationship_counts": {
