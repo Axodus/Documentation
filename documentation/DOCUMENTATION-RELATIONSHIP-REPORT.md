@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 937
+- Graph nodes: 941
 - Declared relationships: 419
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 731
+- Orphan documents: 735
 - Cycles: 13
 
 ## Relationship Counts
@@ -639,13 +639,16 @@ None.
 - documentation/EPIC-07-AUTHORITY-ESCALATION-REGISTER.md
 - documentation/EPIC-07-CANONICAL-ARCHITECTURE-MODEL.md
 - documentation/EPIC-07-CANONICAL-CONCEPT-AND-PRODUCT-MODEL.md
+- documentation/EPIC-07-CLOSURE-REPORT.md
 - documentation/EPIC-07-CONTRADICTION-REGISTER.md
 - documentation/EPIC-07-CORPUS-FIDELITY-MATRIX.md
 - documentation/EPIC-07-DECISION-REGISTER.md
 - documentation/EPIC-07-DECISION-RIGHTS-MATRIX.md
 - documentation/EPIC-07-END-TO-END-FLOW-CATALOG.md
+- documentation/EPIC-07-EVIDENCE-VALIDATION-AUDIT.md
 - documentation/EPIC-07-EXECUTION-FLOW-REGISTER.md
 - documentation/EPIC-07-FACT-REGISTER.md
+- documentation/EPIC-07-FIDELITY-SCORECARD.md
 - documentation/EPIC-07-FLOW-GAP-AND-FAILURE-REGISTER.md
 - documentation/EPIC-07-GAP-REGISTER.md
 - documentation/EPIC-07-HUMAN-AGENT-AUTHORITY-MODEL.md
@@ -662,6 +665,7 @@ None.
 - documentation/EPIC-07-REQ-05-FREEZE-REPORT.md
 - documentation/EPIC-07-REQ-06-FREEZE-REPORT.md
 - documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md
+- documentation/EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md
 - documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md
 - documentation/EPIC-07-SOURCE-REGISTER.md
 - documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md
