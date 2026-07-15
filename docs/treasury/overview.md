@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -78,6 +78,17 @@ Treasury connects directly to [Governance](../governance/overview.md), [Trading]
 5. Required approvals are recorded.
 6. Authorized execution is performed by approved operators.
 7. Execution receipts, reports, and accountability records are updated.
+
+## Economic-Flow Contract
+
+A product, Business process, Academy record, Marketplace interaction, or
+Tokenomics rule may propose an economic effect. Treasury validates the
+authorized source, destination, asset, amount rule, custody, risk, policy,
+signing, execution, reconciliation, and reporting requirements.
+
+No request, agent output, product event, or governance narrative can substitute
+for enabled custody and explicit financial authority. If those controls are
+absent, the request remains conceptual or pending.
 
 ## Current Status
 

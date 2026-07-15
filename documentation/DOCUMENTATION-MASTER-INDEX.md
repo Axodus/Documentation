@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 934
+Source Documents: 937
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 934
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 934 |
-| Canonical documents | 337 |
-| Legacy documents | 583 |
+| Total source documents | 937 |
+| Canonical documents | 344 |
+| Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 413 |
+| Declared relationships | 419 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,39 +35,39 @@ Source Documents: 934
 |---|---:|
 | ADR | 24 |
 | API | 1 |
-| GUIDE | 90 |
+| GUIDE | 96 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 185 |
+| REPORT | 186 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 583 |
+| UNSPECIFIED | 579 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 240 |
+| CORE | 242 |
 | MODULE | 1 |
-| PORTFOLIO | 16 |
-| PROJECT | 92 |
-| UNSPECIFIED | 583 |
+| PORTFOLIO | 20 |
+| PROJECT | 93 |
+| UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 178 |
-| UNSPECIFIED | 583 |
+| DRAFT | 185 |
+| UNSPECIFIED | 579 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -96,12 +96,14 @@ Source Documents: 934
 | DOC-ADR-022 | Traceability Depth Quality Model | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md](../adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md) |
 | DOC-ADR-023 | ADOPTED_TARGET Criteria | ADR | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md](../adr/DOC-ADR-023-ADOPTED-TARGET-CRITERIA.md) |
 | ACADEMY-GDE-001 | Academy Overview | GUIDE | APPROVED | CORE | 1.0.0 | Academy Nucleus | [docs/academy/overview.md](../docs/academy/overview.md) |
+| ACADEMY-GDE-002 | Proof of Knowledge | GUIDE | DRAFT | CORE | 1.0.0 | Axodus Academy | [docs/academy/proof-of-knowledge.md](../docs/academy/proof-of-knowledge.md) |
 | ACCOUNT-GDE-002 | Financial Reports | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/financial-reports.md](../docs/accountability/financial-reports.md) |
 | ACCOUNT-GDE-003 | Governance Records | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/governance-records.md](../docs/accountability/governance-records.md) |
 | ACCOUNT-GDE-001 | Accountability Overview | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/overview.md](../docs/accountability/overview.md) |
 | ACCOUNT-GDE-004 | Release Notes | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/release-notes.md](../docs/accountability/release-notes.md) |
 | ACCOUNT-GDE-005 | Roadmap Updates | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/roadmap-updates.md](../docs/accountability/roadmap-updates.md) |
 | ACS-GDE-001 | ACS Overview | GUIDE | APPROVED | CORE | 1.0.0 | ACS Nucleus | [docs/acs/overview.md](../docs/acs/overview.md) |
+| ACS-GDE-002 | Trinity | GUIDE | DRAFT | CORE | 1.0.0 | Axodus ACS | [docs/acs/trinity.md](../docs/acs/trinity.md) |
 | BBA-GDE-001 | Axodus BBA Agency Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus BBA | [docs/bba-agency/overview.md](../docs/bba-agency/overview.md) |
 | BUSINESS-GDE-008 | ACS Integration | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business / ACS | [docs/business/acs-integration.md](../docs/business/acs-integration.md) |
 | BUSINESS-GDE-005 | Client Lifecycle | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Business | [docs/business/client-lifecycle.md](../docs/business/client-lifecycle.md) |
@@ -147,9 +149,13 @@ Source Documents: 934
 | MINING-GDE-005 | Risk and Compliance | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining | [docs/mining/risk-and-compliance.md](../docs/mining/risk-and-compliance.md) |
 | MINING-GDE-006 | Security and Custody | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Mining / Security | [docs/mining/security-and-custody.md](../docs/mining/security-and-custody.md) |
 | CORE-GDE-002 | Core Principles | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/core-principles.md](../docs/overview/core-principles.md) |
+| CORE-GDE-005 | Cross-Core Architecture | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/cross-core-architecture.md](../docs/overview/cross-core-architecture.md) |
 | CORE-GDE-003 | Documentation Status | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/documentation-status.md](../docs/overview/documentation-status.md) |
 | CORE-GDE-001 | Ecosystem Overview | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/ecosystem-overview.md](../docs/overview/ecosystem-overview.md) |
+| CORE-GDE-006 | Axodus Execution Model | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/execution-model.md](../docs/overview/execution-model.md) |
+| CORE-GDE-007 | Axodus Product and Nucleus Map | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/product-map.md](../docs/overview/product-map.md) |
 | CORE-GDE-004 | Risk Notices | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/risk-notices.md](../docs/overview/risk-notices.md) |
+| CORE-GDE-008 | Canonical Terminology | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/terminology.md](../docs/overview/terminology.md) |
 | RUNTIME-GDE-005 | Accountability Records | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime / Accountability | [docs/runtime/accountability-records.md](../docs/runtime/accountability-records.md) |
 | RUNTIME-GDE-006 | ACS Integration | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime / ACS | [docs/runtime/acs-integration.md](../docs/runtime/acs-integration.md) |
 | RUNTIME-GDE-007 | Runtime Architecture | GUIDE | APPROVED | CORE | 1.0.0 | Axodus Runtime | [docs/runtime/architecture.md](../docs/runtime/architecture.md) |
@@ -337,6 +343,7 @@ Source Documents: 934
 | DOC-RPT-176 | EPIC-07 REQ-04 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-04-FREEZE-REPORT.md](./EPIC-07-REQ-04-FREEZE-REPORT.md) |
 | DOC-RPT-180 | EPIC-07 REQ-05 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-05-FREEZE-REPORT.md](./EPIC-07-REQ-05-FREEZE-REPORT.md) |
 | DOC-RPT-184 | EPIC-07 REQ-06 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-06-FREEZE-REPORT.md](./EPIC-07-REQ-06-FREEZE-REPORT.md) |
+| DOC-RPT-185 | EPIC-07 REQ-07 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md](./EPIC-07-REQ-07-EXECUTION-REPORT.md) |
 | DOC-RPT-171 | EPIC-07 Runtime Boundary Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md](./EPIC-07-RUNTIME-BOUNDARY-MATRIX.md) |
 | DOC-RPT-158 | EPIC-07 Source Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-SOURCE-REGISTER.md](./EPIC-07-SOURCE-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
@@ -772,7 +779,6 @@ Source Documents: 934
 | — | Learn-to-Win | — | — | — | — | — | [docs/academy/learn-to-win.md](../docs/academy/learn-to-win.md) |
 | — | Academy Locked Rewards | — | — | — | — | — | [docs/academy/locked-rewards.md](../docs/academy/locked-rewards.md) |
 | — | Academy Marketplace Integration | — | — | — | — | — | [docs/academy/marketplace-integration.md](../docs/academy/marketplace-integration.md) |
-| — | Proof of Knowledge | — | — | — | — | — | [docs/academy/proof-of-knowledge.md](../docs/academy/proof-of-knowledge.md) |
 | — | academy | — | — | — | — | — | [docs/academy/README.md](../docs/academy/README.md) |
 | — | Academy Token Reward Flows | — | — | — | — | — | [docs/academy/token-reward-flows.md](../docs/academy/token-reward-flows.md) |
 | — | Tutor Validation | — | — | — | — | — | [docs/academy/tutor-validation.md](../docs/academy/tutor-validation.md) |
@@ -791,7 +797,6 @@ Source Documents: 934
 | — | ACS Runtime | — | — | — | — | — | [docs/acs/runtime.md](../docs/acs/runtime.md) |
 | — | ACS Security and Risk | — | — | — | — | — | [docs/acs/security-and-risk.md](../docs/acs/security-and-risk.md) |
 | — | ACS Tooling and MCP | — | — | — | — | — | [docs/acs/tooling-and-mcp.md](../docs/acs/tooling-and-mcp.md) |
-| — | Trinity | — | — | — | — | — | [docs/acs/trinity.md](../docs/acs/trinity.md) |
 | — | Academy and Marketplace Alignment | — | — | — | — | — | [docs/bba-agency/academy-and-marketplace-alignment.md](../docs/bba-agency/academy-and-marketplace-alignment.md) |
 | — | ACS Agent Workflow | — | — | — | — | — | [docs/bba-agency/acs-agent-workflow.md](../docs/bba-agency/acs-agent-workflow.md) |
 | — | Brand Architecture | — | — | — | — | — | [docs/bba-agency/brand-architecture.md](../docs/bba-agency/brand-architecture.md) |
@@ -903,9 +908,7 @@ Source Documents: 934
 | — | User-Facing Products | — | — | — | — | — | [docs/mining/user-facing-products.md](../docs/mining/user-facing-products.md) |
 | — | Constitutional Model | — | — | — | — | — | [docs/overview/constitutional-model.md](../docs/overview/constitutional-model.md) |
 | — | Documentation Standards | — | — | — | — | — | [docs/overview/documentation-standards.md](../docs/overview/documentation-standards.md) |
-| — | Product Map | — | — | — | — | — | [docs/overview/product-map.md](../docs/overview/product-map.md) |
 | — | overview | — | — | — | — | — | [docs/overview/README.md](../docs/overview/README.md) |
-| — | Terminology | — | — | — | — | — | [docs/overview/terminology.md](../docs/overview/terminology.md) |
 | — | docs | — | — | — | — | — | [docs/README.md](../docs/README.md) |
 | — | runtime | — | — | — | — | — | [docs/runtime/README.md](../docs/runtime/README.md) |
 | — | security | — | — | — | — | — | [docs/security/README.md](../docs/security/README.md) |

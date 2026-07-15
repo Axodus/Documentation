@@ -19,14 +19,14 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-01"
-last_reviewed: "2026-07-01"
+last_updated: "2026-07-15"
+last_reviewed: "2026-07-15"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-01"
 supersedes: []
 relationships: [{type: "RELATES_TO", target: "DOC-GDE-005"}, {type: "REALIZES", target: "DOC-ADR-014"}, {type: "DOCUMENTS", target: "DOC-POL-004"}]
-related_epics: ["DOCUMENTATION-EPIC-01"]
-related_requirements: ["AXODUS-DOCUMENTATION-REQ-01"]
+related_epics: ["DOCUMENTATION-EPIC-01", "DOCUMENTATION-EPIC-07"]
+related_requirements: ["AXODUS-DOCUMENTATION-REQ-01", "DOCUMENTATION-EPIC-07-REQ-07"]
 related_adrs: ["DOC-ADR-014", "DOC-ADR-017"]
 related_cores: ["DOCUMENTATION"]
 implementation_refs: [{repository: "Axodus/Documentation", path: "docs/index.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
@@ -35,11 +35,17 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 # Axodus Documentation
 
-Governed DeFi infrastructure for treasury coordination, education, token utility, and modular product nuclei.
+Governed modular infrastructure for transforming needs into knowledge,
+decisions, services, products, infrastructure, and ecosystem assets.
 
-The canonical public documentation surface for the Axodus ecosystem.
+Axodus coordinates specialized nuclei through bounded authority, human
+accountability, agent-assisted analysis, risk controls, and reviewable
+execution lifecycles. DeFi is a material part of Axodus, but not its sole
+identity.
 
 - [Start with the Ecosystem](/overview/ecosystem-overview)
+- [Cross-Core Architecture](/overview/cross-core-architecture)
+- [Execution Model](/overview/execution-model)
 - [Governance Model](/governance/overview)
 - [Product Map](/overview/product-map)
 

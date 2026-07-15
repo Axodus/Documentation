@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-17"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -50,6 +50,15 @@ Marketplace is not a guaranteed-income platform, investment marketplace, unrevie
 ## Ecosystem Role
 
 Marketplace connects [Academy](../academy/overview.md) courses and tutors, [Business](../business/overview.md) service delivery, [BBA Agency](../bba-agency/overview.md) positioning and claim review, [Tokenomics](../tokenomics/overview.md) utility if approved, [Treasury](../treasury/overview.md) settlement reporting, [DEX](../dex/overview.md) and [DeFi](../defi/overview.md) integrations if implemented, [Governance](../governance/overview.md) policy controls, [ACS](../acs/overview.md) advisory support, and [Accountability](../accountability/overview.md) records.
+
+Marketplace is a distribution channel, not the Business operating
+infrastructure. Business may prepare an asset or service package; the owner,
+Marketplace, and required reviewers independently decide whether it may be
+listed, licensed, published, suspended, or removed.
+
+Production settlement, active commercial availability, ownership rights, and
+licensing authority must be verified per offer. A documented catalog or listing
+model is not proof that an offer can currently be purchased.
 
 ## Documentation Map
 

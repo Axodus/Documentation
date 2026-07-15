@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -64,6 +64,17 @@ Academy should teach users how to safely interact with DeFi, governance, trading
 - Define cautious token reward flows.
 - Support reputation and readiness signals.
 - Coordinate with Governance, Business, Marketplace, Tokenomics, ACS, Security, and Accountability.
+
+## Inputs, Outputs, and Authority
+
+Academy accepts learners, content, assessments, tutor contributions, and
+qualification requirements. Its canonical outputs are learning progression,
+assessment evidence, and scoped qualification records.
+
+Academy does not automatically grant professional certification, governance
+rights, identity assurance, anti-sybil proof, or token rewards. Each consuming
+nucleus decides how an approved qualification is recognized. Economic effects
+require separate Tokenomics, Treasury, contract, security, and authority gates.
 
 ## Architecture Layers
 

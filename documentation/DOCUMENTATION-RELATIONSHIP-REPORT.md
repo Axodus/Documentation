@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 934
-- Declared relationships: 413
+- Graph nodes: 937
+- Declared relationships: 419
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 734
+- Orphan documents: 731
 - Cycles: 13
 
 ## Relationship Counts
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 115 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 225 |
+| `RELATES_TO` | 231 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -411,7 +411,6 @@ None.
 - docs/academy/learn-to-win.md
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
-- docs/academy/proof-of-knowledge.md
 - docs/academy/README.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
@@ -430,7 +429,6 @@ None.
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
 - docs/acs/tooling-and-mcp.md
-- docs/acs/trinity.md
 - docs/bba-agency/academy-and-marketplace-alignment.md
 - docs/bba-agency/acs-agent-workflow.md
 - docs/bba-agency/brand-architecture.md
@@ -542,9 +540,7 @@ None.
 - docs/mining/user-facing-products.md
 - docs/overview/constitutional-model.md
 - docs/overview/documentation-standards.md
-- docs/overview/product-map.md
 - docs/overview/README.md
-- docs/overview/terminology.md
 - docs/README.md
 - docs/runtime/README.md
 - docs/security/README.md
@@ -665,6 +661,7 @@ None.
 - documentation/EPIC-07-REQ-04-FREEZE-REPORT.md
 - documentation/EPIC-07-REQ-05-FREEZE-REPORT.md
 - documentation/EPIC-07-REQ-06-FREEZE-REPORT.md
+- documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md
 - documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md
 - documentation/EPIC-07-SOURCE-REGISTER.md
 - documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md

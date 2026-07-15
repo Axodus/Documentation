@@ -6500,19 +6500,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/academy/proof-of-knowledge.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/academy/proof-of-knowledge.md"
     },
@@ -6842,19 +6833,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/acs/trinity.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/acs/trinity.md"
     },
@@ -8948,19 +8930,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/overview/product-map.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/overview/product-map.md"
     },
@@ -8984,19 +8957,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-001",
+      "error_code": "DOC-VAL-030",
       "field": null,
-      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
-      "rule_id": "DOC-RULE-001",
-      "severity": "INFO",
-      "source_path": "docs/overview/terminology.md"
-    },
-    {
-      "document_id": null,
-      "error_code": "DOC-VAL-027",
-      "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Baseline document is absent from the current legacy corpus.",
+      "rule_id": "DOC-RULE-030",
       "severity": "INFO",
       "source_path": "docs/overview/terminology.md"
     },
@@ -10522,6 +10486,15 @@
       "source_path": "documentation/EPIC-07-REQ-06-FREEZE-REPORT.md"
     },
     {
+      "document_id": "DOC-RPT-185",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md"
+    },
+    {
       "document_id": "DOC-RPT-171",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -11919,7 +11892,7 @@
   ],
   "errors": 0,
   "generated_at": "2026-07-15T00:00:00Z",
-  "legacy_documents": 583,
+  "legacy_documents": 579,
   "repository_statistics": {
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
@@ -11933,28 +11906,28 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1324,
+    "info": 1321,
     "invalid_exceptions": 0,
-    "known_legacy": 547,
-    "legacy_documents": 583,
+    "known_legacy": 543,
+    "legacy_documents": 579,
     "migrate_dispositions": 177,
-    "relationships": 413,
-    "removed_legacy": 14,
+    "relationships": 419,
+    "removed_legacy": 18,
     "revoked_exceptions": 0,
     "security_review_dispositions": 59,
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 934,
+    "total_documents": 937,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 337,
+    "validated_documents": 344,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 337,
+  "validated_documents": 344,
   "validation_version": "1.1.0",
   "warnings": 0
 }

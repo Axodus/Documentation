@@ -1,71 +1,80 @@
-# Proof of Knowledge
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: Academy Nucleus
-
+---
+schema_version: "1.0.0"
+document_id: "ACADEMY-GDE-002"
+aliases: []
+document_type: "GUIDE"
+title: "Proof of Knowledge"
+summary: "Defines Proof of Knowledge as scoped prototype learning or qualification evidence without automatic certification, governance, identity, or token effects."
+version: "1.0.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "ACADEMY.PROOF_OF_KNOWLEDGE"
+authority_level: "CORE"
+author: "Axodus Academy"
+owner: "Axodus Academy"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: null
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: null
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "ACADEMY-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-07"]
+related_requirements: ["DOCUMENTATION-EPIC-07-REQ-07"]
+related_adrs: []
+related_cores: ["ACADEMY", "GOVERNANCE", "TOKENOMICS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/academy/proof-of-knowledge.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
 ---
 
-## Purpose
+# Proof of Knowledge
 
-Proof of Knowledge validates that a user has completed learning requirements or demonstrated understanding.
+Proof of Knowledge (PoK) is a proposed model for recording scoped learning,
+assessment, or qualification evidence. It allows an authorized consumer to
+understand what was assessed, by whom, under which criteria, and for what
+purpose.
 
-## Scope
+PoK is not assumed to be a cryptographic proof protocol. A PoK record does not
+automatically prove identity, prevent sybil behavior, confer professional
+certification, grant governance rights, authorize token issuance, or guarantee
+safe financial behavior.
 
-It may support assessments, certification, marketplace reputation, and governance or product eligibility.
+## Conceptual Cycle
 
-## Overview
+1. A participant enters an authorized learning path.
+2. The Academy records progression and assessment requirements.
+3. A learner submits the required evidence.
+4. An authorized assessment process evaluates the evidence.
+5. A human or governed reviewer validates the result where required.
+6. A scoped PoK record identifies the achievement, evidence, issuer, status,
+   limitations, and applicable use.
+7. A consuming nucleus independently decides whether that record satisfies its
+   eligibility policy.
 
-Proof of Knowledge should be more robust than simple course completion. Watching content does not prove understanding. Proof of Knowledge exists to validate learning, reduce superficial completion, protect reward systems, improve user safety, and support certification or readiness signals.
+## Required Record
 
-## Proof Types
+A PoK record should identify participant reference, learning path, assessment,
+criteria version, evidence reference, result, reviewer or issuer, issue date,
+scope, limitations, status, and revocation or expiry behavior when applicable.
 
-- Quiz-based proof: multiple-choice or short-answer assessments. These require rotation or anti-copy controls.
-- Scenario-based proof: realistic decision scenarios that test judgment.
-- Practical tasks: simulated or test-environment actions such as connecting a wallet on testnet, reviewing a governance proposal, configuring safe API permissions, or identifying risk patterns.
-- Project-based proof: small artifacts such as governance summaries, risk checklists, or integrations.
-- Peer or tutor review: human review for advanced credentials.
-- On-chain or attestation-based proof: only documented as active if implemented.
+## Authority and Economic Boundary
 
-## Flow
+Academy may define and operate an approved learning assessment. Governance,
+employers, tenants, products, and other consumers retain authority over how they
+recognize the result.
 
-1. Learner completes required content.
-2. Assessment unlocks.
-3. Learner submits answers or task.
-4. System scores or routes for review.
-5. Anti-abuse checks run.
-6. Pass or fail result is created.
-7. Retry rules apply if needed.
-8. Reward policy is checked.
-9. Certificate or reputation is updated if supported.
-10. Proof record is stored.
-11. Governance or product access is updated only if policy supports it.
+Any reward, Neurons issuance, distribution, access right, or governance effect
+requires a separate Tokenomics, Treasury, contract, security, and authority
+decision. PoK alone cannot trigger an economic effect.
 
-## Validation
+## Current Status
 
-Validation may include quizzes, practical tasks, identity-independent reputation, or course completion records. Final implementation details require product and contract validation.
-
-## Assessment Requirements
-
-Assessments should define clear learning objectives, passing criteria, attempt limits or cooldowns, question randomization where available, scenario variation, anti-copy controls, review paths for high-value credentials, feedback for failed attempts, accessibility considerations, and versioning when course content changes.
-
-## Certification and Reputation
-
-Certificates may indicate completion, demonstrated skill, governance readiness, trading risk readiness, or tutor status. A trading risk readiness certificate does not certify profitability or safe trading outcomes.
-
-Reputation may support advanced course access, tutor trust, Marketplace status, governance context, or beta product access if policy defines it. Reputation should be reviewable or revocable if abuse is detected.
-
-## Governance Relationship
-
-Proof of Knowledge may support governance education, delegation context, product access readiness, or tutor validation. It must not replace formal governance rights unless governance approves that policy.
-
-## ACS Role
-
-ACS may generate assessment drafts, detect low-quality questions, review content alignment, flag possible answer leakage, evaluate project submissions, assist human review, and detect suspicious patterns. ACS should not be the sole final judge for high-value credentials.
-
-## Risk Considerations
-
-Proof systems must consider cheating, farming, sybil behavior, low-quality assessments, and false confidence.
-
-Credentials must not imply that a user cannot lose funds, cannot make mistakes, or is guaranteed safe outcomes in DeFi or trading.
+The educational intent is defined, but the complete protocol, assessment
+authority, certification recognition, revocation model, anti-abuse guarantees,
+and enabled reward behavior remain incomplete.

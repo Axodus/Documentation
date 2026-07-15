@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -65,6 +65,16 @@ Governance is required because Axodus is not a single product. It contains multi
 - Publish governance execution records.
 - Route proposals to the correct review layer.
 - Trigger public accountability for material decisions.
+
+## Applied Decision Rights
+
+Every material decision must identify who proposes, reviews, approves,
+executes, observes, may suspend, may reverse, and records the evidence.
+
+Community participation may propose and signal. Councils or review bodies may
+coordinate within assigned scope. Executive or portfolio authority applies only
+when its activation and scope are verified. Business, Runtime, ACS, Trinity,
+software, and a passed proposal cannot grant themselves execution authority.
 
 ## Documentation Map
 

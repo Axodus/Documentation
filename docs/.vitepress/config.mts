@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 const overviewItems = [
   { text: 'Start Here', link: '/' },
   { text: 'Ecosystem Overview', link: '/overview/ecosystem-overview' },
+  { text: 'Cross-Core Architecture', link: '/overview/cross-core-architecture' },
+  { text: 'Execution Model', link: '/overview/execution-model' },
   { text: 'Core Principles', link: '/overview/core-principles' },
   { text: 'Product Map', link: '/overview/product-map' },
   { text: 'Constitutional Model', link: '/overview/constitutional-model' },

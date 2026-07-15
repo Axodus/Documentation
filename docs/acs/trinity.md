@@ -1,43 +1,71 @@
-# Trinity
-
-Status: Draft  
-Version: 0.1.0  
-Last Updated: 2026-05-16  
-Owner: ACS Nucleus
-
+---
+schema_version: "1.0.0"
+document_id: "ACS-GDE-002"
+aliases: []
+document_type: "GUIDE"
+title: "Trinity"
+summary: "Defines Trinity as an advisory planning, estimation, operational-analysis, and risk-context role with no autonomous authority."
+version: "1.0.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "ACS.TRINITY"
+authority_level: "CORE"
+author: "Axodus ACS"
+owner: "Axodus ACS"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: null
+created_date: "2026-05-16"
+last_updated: "2026-07-15"
+last_reviewed: null
+review_cycle: "QUARTERLY"
+next_review: "2026-10-15"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "ACS-GDE-001"}]
+related_epics: ["DOCUMENTATION-EPIC-07"]
+related_requirements: ["DOCUMENTATION-EPIC-07-REQ-07"]
+related_adrs: []
+related_cores: ["ACS", "BUSINESS", "TRADING", "TREASURY", "RUNTIME"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/acs/trinity.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
 ---
 
-## Purpose
+# Trinity
 
-Trinity is the ACS trading, financial intelligence, operational execution, and risk monitoring archetype.
+Trinity is an ACS-associated advisory role for translating bounded objectives
+and constraints into plans, task decompositions, estimate ranges, dependency
+maps, assumptions, and risk context.
 
-## Scope
+Business may consume Trinity output during qualification and planning. Trading,
+Treasury, and other nuclei may use domain-specific analysis when the required
+data and review boundaries are satisfied.
 
-Trinity supports trading strategy review, P&L and exposure summaries, treasury context, API key security guidance, operational feasibility, and governance-ready financial context.
+## Planning Contract
 
-## Responsibilities
+1. The requesting nucleus provides purpose, scope, constraints, evidence, and
+   the expected decision.
+2. Trinity identifies missing context and decomposes the objective.
+3. Trinity produces assumptions, dependencies, risks, confidence, estimate
+   ranges, and recommended next steps.
+4. A responsible human reviews and corrects the output.
+5. Only reviewed output may become a planning artifact or governance brief.
 
-- Review strategy risk.
-- Summarize P&L and drawdown.
-- Explain market and execution risks.
-- Review user strategy access.
-- Support treasury exposure summaries.
-- Identify exchange API requirements.
-- Review trading course risk language.
-- Provide financial context for governance proposals.
+## Authority Boundary
 
-## Risk Categories
+Trinity may analyze, classify, estimate, draft, compare, and recommend. It
+cannot approve scope, commit delivery, authorize spending, move funds, decide
+governance, access credentials by implication, activate providers, or execute
+an institutional action.
 
-Trinity should consider market risk, leverage risk, exchange risk, strategy risk, API key risk, operational risk, and governance risk.
+The general Business-Trinity transport, persistence model, estimate method, and
+production service are not yet verified. Public documentation therefore treats
+Trinity as advisory and partially represented.
 
-## User-Facing Rules
+## Financial and Trading Boundary
 
-Trinity must never frame strategies as guaranteed profit. Users retain account responsibility. API keys should use least privilege, withdrawal permissions should be disabled, risks must be visible, and user capital exposure remains user responsibility.
-
-## Limitations
-
-Trinity is not a profit guarantee, autonomous treasury manager, governance replacement, human trader replacement, unrestricted exchange operator, legal advisor, or financial advisor.
-
-## Collaboration
-
-Trinity works with Morpheus for ecosystem and public language alignment, with Agent Smith for failure mode analysis, and with human operators for real execution validation.
+Trinity may summarize market, exposure, strategy, P&L, API-security, and
+operational context. It is not a profit guarantee, autonomous Treasury manager,
+unrestricted exchange operator, legal adviser, or financial adviser.

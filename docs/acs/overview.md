@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -81,6 +81,17 @@ See [ACS Architecture](architecture.md).
 - [Morpheus](morpheus.md): strategy, narrative, governance alignment, and ecosystem coherence.
 - [Trinity](trinity.md): trading, operations, execution intelligence, P&L review, and risk monitoring.
 - [Agent Smith](agent-smith.md): adversarial intelligence, stress testing, abuse resistance, and unsafe-access friction.
+
+## Signal and Suspension Semantics
+
+- An **alert** reports a condition for review.
+- A **local hold** stops a represented workflow pending human disposition.
+- A **governed suspension** is an authorized decision that disables a bounded
+  action.
+- **Production enforcement** requires an enabled control and explicit authority.
+
+ACS may produce the first two in validated local/prototype contexts. It must not
+describe them as portfolio-wide veto or production enforcement.
 
 ## Authority Limit
 

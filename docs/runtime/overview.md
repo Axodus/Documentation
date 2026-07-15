@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -99,6 +99,18 @@ Runtime uses:
 - Delivery requires validation against acceptance criteria.
 - Sensitive execution requires review.
 - Material execution requires a receipt.
+
+## Activation, Incident, and Suspension
+
+Runtime activation requires a defined environment, version, dependencies,
+provider posture, data boundary, secrets policy, observability, rollback,
+authority, and readiness evidence.
+
+An incident moves the affected capability to a local pause or contained state,
+then to technical, security, governance, Treasury, or provider escalation as
+required. Recovery requires reconciled state, validated controls, an authorized
+resume decision, and a receipt. A documentation status cannot substitute for
+activation or recovery authority.
 
 ## Documentation Map
 

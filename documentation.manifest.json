@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 934,
+  "document_count": 937,
   "documents": [
     {
       "aliases": [],
@@ -7783,7 +7783,7 @@
       "document_id": "ACADEMY-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Academy Nucleus",
       "publication_status": "APPROVED",
@@ -7794,7 +7794,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "47761280ed04c21c394f8109313667c43845cd55fece6ef71e978b0e353f52a1",
+      "sha256": "2399f667511bcbf81b8fff6e37d5fe7f3a911b376002160b4c6d25b3a691cff7",
       "source_path": "docs/academy/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7803,23 +7803,27 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "27e18733c9a4fde0ee601ab8e15b77d3029820457ea01a2179d90d191912da61",
+      "authority_level": "CORE",
+      "authority_scope": "ACADEMY.PROOF_OF_KNOWLEDGE",
+      "classification": "CANONICAL",
+      "document_id": "ACADEMY-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Academy",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "ACADEMY-GDE-001",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "7ff9c7ef5c2f15abb36014c99738a84240bc5f12917643166c687002e96a9b33",
       "source_path": "docs/academy/proof-of-knowledge.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Proof of Knowledge",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -8222,7 +8226,7 @@
       "document_id": "ACS-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "ACS Nucleus",
       "publication_status": "APPROVED",
@@ -8233,7 +8237,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "5d956fbabb6a667c3e1beee5a31f30c25d47e6d4e3f2ae8e4fa769e6e0dfb381",
+      "sha256": "4f5c72ed29775b170618606c075cdd55545f087d346db6107156b7db0ba482e8",
       "source_path": "docs/acs/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8342,23 +8346,27 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "211137c46bf23500133e3c263c71066762e8470bf4e4f77a5897b9d1c3d37e1e",
+      "authority_level": "CORE",
+      "authority_scope": "ACS.TRINITY",
+      "classification": "CANONICAL",
+      "document_id": "ACS-GDE-002",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus ACS",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "ACS-GDE-001",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "101e4566d99b149bd4d1b68a9da6b2fc643d42b3a42cbc2ddc4acd6c686cbcc8",
       "source_path": "docs/acs/trinity.md",
       "superseded_by": [],
       "supersedes": [],
       "title": "Trinity",
-      "version": null
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -8889,7 +8897,7 @@
       "document_id": "BUSINESS-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Business",
       "publication_status": "APPROVED",
@@ -8900,7 +8908,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "056ef0df5d1414255b29f222d9d8d1b7bea08643e58e018dfab677adb6e5ab49",
+      "sha256": "8af968626d0b93bfe6a80fc16f80a00eab9909ebd0a26bcb909aa17ddc37371c",
       "source_path": "docs/business/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9020,7 +9028,7 @@
         "DOCUMENTATION-EPIC-06",
         "DOCUMENTATION-EPIC-06-REQ-04"
       ],
-      "sha256": "276a544b46461b0a44479e24bcea4d8f1d06443ddb6170af0faa6e6f83c1f1f5",
+      "sha256": "7276c686860be19089bb390cec8a094755edc2ced3fad07de51b4fc0da6b3474",
       "source_path": "docs/business/runtime.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10152,7 +10160,7 @@
       "document_id": "GOV-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Governance Nucleus",
       "publication_status": "APPROVED",
@@ -10163,7 +10171,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "cda5267e0c0082a08f2db9875f6c120f1de29a8fb076557d6387bb3566e5c391",
+      "sha256": "0261ebea0de29bb7d9bb58b0fbf320e716a3612bd1de2148cb73aa866ebb9f13",
       "source_path": "docs/governance/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10198,7 +10206,7 @@
       "document_id": "GOV-GDE-006",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Governance Nucleus",
       "publication_status": "APPROVED",
@@ -10209,7 +10217,7 @@
         "DOCUMENTATION-EPIC-02",
         "GOV-GDE-001"
       ],
-      "sha256": "6050544f1ad0db943996f91513696c92ce029d8d8cbf690ea2fc3ae1bc9c2891",
+      "sha256": "6a2edf7410aa35e7e23db87e80ef4649ad9c09a2a76e1afbd4fdb68fa44c9298",
       "source_path": "docs/governance/proposal-lifecycle.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10244,7 +10252,7 @@
       "document_id": "DOC-GDE-006",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-01",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
       "publication_status": "DRAFT",
@@ -10254,9 +10262,11 @@
         "DOC-ADR-017",
         "DOC-GDE-005",
         "DOC-POL-004",
-        "DOCUMENTATION-EPIC-01"
+        "DOCUMENTATION-EPIC-01",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "e84f6a459d947f1298178a5a15452e4548da54743010a00517b68e0161dae3a4",
+      "sha256": "718f883774ccb562f82ccada44ea12a3c372d461ec35434d7e00d6f93b57a028",
       "source_path": "docs/index.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10963,7 +10973,7 @@
       "document_id": "MARKET-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Marketplace",
       "publication_status": "APPROVED",
@@ -10974,7 +10984,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "6e32a68a5e562c672d3f8c5637979833985a0c765185d78247bff925138b9a01",
+      "sha256": "ed3a167494b05d6a2b4095daeb3a58b3232969996b5e8dffda7dbfa01b604473",
       "source_path": "docs/marketplace/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11753,6 +11763,30 @@
     },
     {
       "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "AXODUS.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-005",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "CORE-GDE-001",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "a5eecc0579dd19131688236391c5fe03bf3788fe2a38a61e1f99aeae8e36e6c8",
+      "source_path": "docs/overview/cross-core-architecture.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Cross-Core Architecture",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": null,
       "authority_scope": null,
       "classification": "LEGACY",
@@ -11805,7 +11839,7 @@
       "document_id": "CORE-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Core",
       "publication_status": "APPROVED",
@@ -11814,9 +11848,11 @@
         "DOC-ADR-018",
         "DOC-ADR-019",
         "DOC-GDE-006",
-        "DOCUMENTATION-EPIC-02"
+        "DOCUMENTATION-EPIC-02",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "3c1cd967749d9ce79ab64d4cfe64cac9347c5c4f7431607e0955232538db9593",
+      "sha256": "39ec716952bce3d2cb23d975539bcf2b53464a73d362f96b58cc1259293fa04f",
       "source_path": "docs/overview/ecosystem-overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11825,23 +11861,51 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "1b623c77c654ba2422665c13f7c73abea0173510db091ac6b1057afb6d1343c5",
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "AXODUS.EXECUTION",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-006",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "CORE-GDE-001",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "db9ad13e1a2f8ad148b463e37d67c0febade137965bfffb1b6cafef9bbde2094",
+      "source_path": "docs/overview/execution-model.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Axodus Execution Model",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "AXODUS",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-007",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "CORE-GDE-001",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "042875c2a8c88211337198c3c368d12f23719d8b227b3fde1cacbafa1a487cc7",
       "source_path": "docs/overview/product-map.md",
       "superseded_by": [],
       "supersedes": [],
-      "title": "Product Map",
-      "version": null
+      "title": "Axodus Product and Nucleus Map",
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -11891,23 +11955,27 @@
     },
     {
       "aliases": [],
-      "authority_level": null,
-      "authority_scope": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_state": null,
-      "document_type": null,
-      "last_updated": null,
-      "maturity_level": null,
-      "owner": null,
-      "publication_status": null,
-      "related_documents": [],
-      "sha256": "5952fb38043e42d85b69612febc079e1f06375f388a710a08d7e96cc11a20ffe",
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "AXODUS",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-008",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "CORE-GDE-001",
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "41328239bf9967bc0faa073f5abbac9d46ba9ea172334accf458cf31435019f2",
       "source_path": "docs/overview/terminology.md",
       "superseded_by": [],
       "supersedes": [],
-      "title": "Terminology",
-      "version": null
+      "title": "Canonical Terminology",
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -12179,7 +12247,7 @@
       "document_id": "RUNTIME-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Runtime",
       "publication_status": "APPROVED",
@@ -12190,7 +12258,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "3f317e041249b4d15663563483ec0be35e90820c04c481d96a00b23639a10c79",
+      "sha256": "eae5e56b1ed629d345e21d1f52df20d43807794f3be5e2d53a5d8d363d93f774",
       "source_path": "docs/runtime/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12669,7 +12737,7 @@
       "document_id": "TOKEN-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Tokenomics",
       "publication_status": "APPROVED",
@@ -12680,7 +12748,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "4f7d0828c900c5cc257fd12b89c50a58d82fca878d2545d6b6ee2f18b78183a9",
+      "sha256": "08cf1389f339d01dcc255794e05b577d82dbe0ac4bb80d1dc13f75444d931cd9",
       "source_path": "docs/tokenomics/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -13333,7 +13401,7 @@
       "document_id": "TREASURY-GDE-001",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-07-15",
       "maturity_level": "D2",
       "owner": "Axodus Treasury",
       "publication_status": "APPROVED",
@@ -13344,7 +13412,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "b3641f1ca924c850ac2d10a013011ea4b0b1819e4deec8c8798c306c5413e835",
+      "sha256": "503a0f5d891b23a6168693c1b761190d5109ff74d26e0419e0f956e336c69775",
       "source_path": "docs/treasury/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -17740,6 +17808,29 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_07",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-185",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-07",
+        "DOCUMENTATION-EPIC-07-REQ-07"
+      ],
+      "sha256": "181eeea88d47cecebe2c4d489e241f8ed67e8488f8aa197117a09f5aad9c5059",
+      "source_path": "documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-07 REQ-07 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "PORTFOLIO",
       "authority_scope": "DOCUMENTATION.EPIC_07",
       "classification": "CANONICAL",
@@ -20872,6 +20963,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "ACADEMY-GDE-002",
+      "source_path": "docs/academy/proof-of-knowledge.md",
+      "target": "ACADEMY-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "ACCOUNT-GDE-001",
       "source_path": "docs/accountability/overview.md",
       "target": "CORE-GDE-001",
@@ -20923,6 +21020,12 @@
       "source": "ACS-GDE-001",
       "source_path": "docs/acs/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACS-GDE-002",
+      "source_path": "docs/acs/trinity.md",
+      "target": "ACS-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -21054,6 +21157,30 @@
     {
       "source": "CORE-GDE-004",
       "source_path": "docs/overview/risk-notices.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-005",
+      "source_path": "docs/overview/cross-core-architecture.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-006",
+      "source_path": "docs/overview/execution-model.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-007",
+      "source_path": "docs/overview/product-map.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-008",
+      "source_path": "docs/overview/terminology.md",
       "target": "CORE-GDE-001",
       "type": "RELATES_TO"
     },
@@ -23347,23 +23474,23 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 337,
-    "declared_relationships": 413,
+    "compliant_documents": 344,
+    "declared_relationships": 419,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
-      "CORE": 240,
+      "CORE": 242,
       "MODULE": 1,
-      "PORTFOLIO": 16,
-      "PROJECT": 92,
-      "UNSPECIFIED": 583
+      "PORTFOLIO": 20,
+      "PROJECT": 93,
+      "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 253,
+      "D2": 260,
       "D3": 83,
       "D4": 1,
-      "UNSPECIFIED": 583
+      "UNSPECIFIED": 579
     },
     "documents_by_owner": {
       "<facilitator>": 1,
@@ -23372,15 +23499,17 @@
       "Academy Nucleus": 1,
       "Accountability Nucleus": 5,
       "ACS Nucleus": 1,
+      "Axodus Academy": 1,
+      "Axodus ACS": 1,
       "Axodus BBA": 1,
       "Axodus Business": 7,
       "Axodus Business / ACS": 1,
       "Axodus Business / Governance": 2,
-      "Axodus Core": 16,
+      "Axodus Core": 20,
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 241,
+      "Axodus Documentation Core": 242,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -23397,37 +23526,37 @@
       "Axodus Treasury": 6,
       "Governance Nucleus": 6,
       "Security": 6,
-      "UNSPECIFIED": 583
+      "UNSPECIFIED": 579
     },
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 178,
-      "UNSPECIFIED": 583
+      "DRAFT": 185,
+      "UNSPECIFIED": 579
     },
     "documents_by_type": {
       "ADR": 24,
       "API": 1,
-      "GUIDE": 90,
+      "GUIDE": 96,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 7,
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 185,
+      "REPORT": 186,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
       "RUNBOOK": 1,
       "SPECIFICATION": 10,
       "STANDARD": 4,
-      "UNSPECIFIED": 583
+      "UNSPECIFIED": 579
     },
-    "documents_missing_metadata": 583,
+    "documents_missing_metadata": 579,
     "generated_documents": 8,
-    "legacy_documents": 583,
+    "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 934
+    "total_documents": 937
   }
 }

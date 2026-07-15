@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -109,6 +109,21 @@ The Business runtime is organized around these layers:
 - Coordinate with product nuclei without bypassing their ownership.
 - Maintain clear communication with clients, DAOs, partners, and internal teams.
 - Preserve intake, scope, change, delivery, acceptance, and accountability records.
+
+## Inputs and Outputs
+
+Business accepts needs from individuals, organizations, protocols, blockchains,
+DAOs, subDAOs, communities, partners, and internal Axodus teams. Internal and
+external origin does not change the qualification pipeline.
+
+Its canonical outputs are qualified requests, planning packages, scoped
+projects, reviewed deliveries, and reusable-asset candidates. A Business output
+is not automatically a commercial offer, governance decision, Treasury
+instruction, ACS provision, Marketplace listing, or production deployment.
+
+Trinity may assist planning and estimation. ACS may assist analysis and risk
+review. Governance, Treasury, Security, Legal, Marketplace, and product owners
+retain their own decision rights.
 
 ## Documentation Map
 

@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -84,6 +84,17 @@ flowchart TD
     Receipt --> Accountability[Accountability Publication]
     Accountability --> Archive[Archive]
 ```
+
+## Decision Is Not Execution
+
+After approval, the responsible authority must still verify the executor,
+environment, dependencies, permissions, rollback, and required financial,
+security, legal, or provider gates. Execution then produces evidence that is
+checked against the approved scope.
+
+A proposal remains approved-but-pending when no authorized executor or enabled
+runtime exists. Closure requires a verified outcome or an explicit record that
+execution did not occur.
 
 ## Risk-Based Review
 

@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-06-05"
-last_updated: "2026-07-02"
+last_updated: "2026-07-15"
 last_reviewed: "2026-07-02"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-02"
@@ -54,6 +54,16 @@ It does not define allocation percentages for team, investors, advisors, treasur
 ## Ecosystem Role
 
 Tokenomics is the monetary design and token utility documentation layer for Axodus. It explains how `$Neurons` supply, controlled issuance, Proof-of-Knowledge minting, utility assumptions, reporting, and future token-enabled workflows should be described without inventing allocation, staking, vesting, DAO, or investment mechanics that are not yet defined.
+
+Tokenomics may define proposed utility, eligibility, issuance constraints, and
+distribution rules. Academy or Proof of Knowledge may provide evidence;
+Governance and Treasury may review authority and economic effects; an
+authorized contract or executor would perform an enabled action.
+
+These stages are independent. Utility intent does not prove issuance.
+Eligibility does not trigger distribution. Contract code does not prove
+deployment. Distribution design does not establish value, yield, return, or
+regulatory status.
 
 ## Current Tokenomics Model
 

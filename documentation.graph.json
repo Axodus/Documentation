@@ -3867,6 +3867,16 @@
     {
       "authority_level": "CORE",
       "classification": "CANONICAL",
+      "document_id": "ACADEMY-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "ACADEMY-GDE-002",
+      "publication_status": "DRAFT",
+      "source_path": "docs/academy/proof-of-knowledge.md",
+      "title": "Proof of Knowledge"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
       "document_id": "ACCOUNT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "ACCOUNT-GDE-001",
@@ -3923,6 +3933,16 @@
       "publication_status": "APPROVED",
       "source_path": "docs/acs/overview.md",
       "title": "ACS Overview"
+    },
+    {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACS-GDE-002",
+      "document_type": "GUIDE",
+      "node_id": "ACS-GDE-002",
+      "publication_status": "DRAFT",
+      "source_path": "docs/acs/trinity.md",
+      "title": "Trinity"
     },
     {
       "authority_level": null,
@@ -4143,6 +4163,46 @@
       "publication_status": "APPROVED",
       "source_path": "docs/overview/risk-notices.md",
       "title": "Risk Notices"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-005",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-005",
+      "publication_status": "DRAFT",
+      "source_path": "docs/overview/cross-core-architecture.md",
+      "title": "Cross-Core Architecture"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-006",
+      "publication_status": "DRAFT",
+      "source_path": "docs/overview/execution-model.md",
+      "title": "Axodus Execution Model"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-007",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-007",
+      "publication_status": "DRAFT",
+      "source_path": "docs/overview/product-map.md",
+      "title": "Axodus Product and Nucleus Map"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-008",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-008",
+      "publication_status": "DRAFT",
+      "source_path": "docs/overview/terminology.md",
+      "title": "Canonical Terminology"
     },
     {
       "authority_level": "CORE",
@@ -6625,6 +6685,16 @@
       "title": "EPIC-07 REQ-06 Freeze Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-185",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-185",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md",
+      "title": "EPIC-07 REQ-07 Execution Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -6809,16 +6879,6 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/academy/proof-of-knowledge.md",
-      "publication_status": null,
-      "source_path": "docs/academy/proof-of-knowledge.md",
-      "title": "Proof of Knowledge"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/academy/README.md",
       "publication_status": null,
       "source_path": "docs/academy/README.md",
@@ -6993,16 +7053,6 @@
       "publication_status": null,
       "source_path": "docs/acs/tooling-and-mcp.md",
       "title": "ACS Tooling and MCP"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/acs/trinity.md",
-      "publication_status": null,
-      "source_path": "docs/acs/trinity.md",
-      "title": "Trinity"
     },
     {
       "authority_level": null,
@@ -8119,30 +8169,10 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
-      "node_id": "docs/overview/product-map.md",
-      "publication_status": null,
-      "source_path": "docs/overview/product-map.md",
-      "title": "Product Map"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
       "node_id": "docs/overview/README.md",
       "publication_status": null,
       "source_path": "docs/overview/README.md",
       "title": "overview"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/overview/terminology.md",
-      "publication_status": null,
-      "source_path": "docs/overview/terminology.md",
-      "title": "Terminology"
     },
     {
       "authority_level": null,
@@ -9955,7 +9985,6 @@
     "docs/academy/learn-to-win.md",
     "docs/academy/locked-rewards.md",
     "docs/academy/marketplace-integration.md",
-    "docs/academy/proof-of-knowledge.md",
     "docs/academy/README.md",
     "docs/academy/token-reward-flows.md",
     "docs/academy/tutor-validation.md",
@@ -9974,7 +10003,6 @@
     "docs/acs/runtime.md",
     "docs/acs/security-and-risk.md",
     "docs/acs/tooling-and-mcp.md",
-    "docs/acs/trinity.md",
     "docs/bba-agency/academy-and-marketplace-alignment.md",
     "docs/bba-agency/acs-agent-workflow.md",
     "docs/bba-agency/brand-architecture.md",
@@ -10086,9 +10114,7 @@
     "docs/mining/user-facing-products.md",
     "docs/overview/constitutional-model.md",
     "docs/overview/documentation-standards.md",
-    "docs/overview/product-map.md",
     "docs/overview/README.md",
-    "docs/overview/terminology.md",
     "docs/README.md",
     "docs/runtime/README.md",
     "docs/security/README.md",
@@ -10209,6 +10235,7 @@
     "documentation/EPIC-07-REQ-04-FREEZE-REPORT.md",
     "documentation/EPIC-07-REQ-05-FREEZE-REPORT.md",
     "documentation/EPIC-07-REQ-06-FREEZE-REPORT.md",
+    "documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md",
     "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
     "documentation/EPIC-07-SOURCE-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
@@ -10897,9 +10924,11 @@
       "docs/mining/user-facing-products.md",
       "docs/overview/constitutional-model.md",
       "docs/overview/core-principles.md",
+      "docs/overview/cross-core-architecture.md",
       "docs/overview/documentation-standards.md",
       "docs/overview/documentation-status.md",
       "docs/overview/ecosystem-overview.md",
+      "docs/overview/execution-model.md",
       "docs/overview/product-map.md",
       "docs/overview/README.md",
       "docs/overview/risk-notices.md",
@@ -11134,6 +11163,7 @@
       "documentation/EPIC-07-REQ-04-FREEZE-REPORT.md",
       "documentation/EPIC-07-REQ-05-FREEZE-REPORT.md",
       "documentation/EPIC-07-REQ-06-FREEZE-REPORT.md",
+      "documentation/EPIC-07-REQ-07-EXECUTION-REPORT.md",
       "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
       "documentation/EPIC-07-SOURCE-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
@@ -11270,12 +11300,14 @@
     ],
     "relationship_connected": [
       "ACADEMY-GDE-001",
+      "ACADEMY-GDE-002",
       "ACCOUNT-GDE-001",
       "ACCOUNT-GDE-002",
       "ACCOUNT-GDE-003",
       "ACCOUNT-GDE-004",
       "ACCOUNT-GDE-005",
       "ACS-GDE-001",
+      "ACS-GDE-002",
       "BBA-GDE-001",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
@@ -11291,6 +11323,10 @@
       "CORE-GDE-002",
       "CORE-GDE-003",
       "CORE-GDE-004",
+      "CORE-GDE-005",
+      "CORE-GDE-006",
+      "CORE-GDE-007",
+      "CORE-GDE-008",
       "DEFI-GDE-001",
       "DEX-GDE-001",
       "DEX-GDE-002",
@@ -11621,21 +11657,22 @@
       "DOC-RPT-181",
       "DOC-RPT-182",
       "DOC-RPT-183",
-      "DOC-RPT-184"
+      "DOC-RPT-184",
+      "DOC-RPT-185"
     ]
   },
   "relationship_counts": {
     "DEPENDS_ON": 115,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 225,
+    "RELATES_TO": 231,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 413,
+    "declared": 419,
     "derived": 0,
     "duplicates": 0,
-    "total": 413,
+    "total": 419,
     "unresolved": 0
   },
   "relationship_types": [
@@ -11650,6 +11687,12 @@
       "source": "ACADEMY-GDE-001",
       "source_path": "docs/academy/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACADEMY-GDE-002",
+      "source_path": "docs/academy/proof-of-knowledge.md",
+      "target": "ACADEMY-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -11704,6 +11747,12 @@
       "source": "ACS-GDE-001",
       "source_path": "docs/acs/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACS-GDE-002",
+      "source_path": "docs/acs/trinity.md",
+      "target": "ACS-GDE-001",
       "type": "RELATES_TO"
     },
     {
@@ -11835,6 +11884,30 @@
     {
       "source": "CORE-GDE-004",
       "source_path": "docs/overview/risk-notices.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-005",
+      "source_path": "docs/overview/cross-core-architecture.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-006",
+      "source_path": "docs/overview/execution-model.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-007",
+      "source_path": "docs/overview/product-map.md",
+      "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-008",
+      "source_path": "docs/overview/terminology.md",
       "target": "CORE-GDE-001",
       "type": "RELATES_TO"
     },

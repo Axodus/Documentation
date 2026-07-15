@@ -66,6 +66,18 @@ KYC, blockchain execution, or production workflow activation.
 14. Reporting: create delivery, governance, accountability, or public updates where needed.
 15. Archive: preserve final context, links, decisions, and lessons learned.
 
+## End-to-End Boundary
+
+The intended pipeline covers demand, intake, classification, technical review,
+readiness, required Governance/Treasury/ACS reviews, planning, development,
+validation, delivery, operation, revenue, and lifecycle management.
+
+The current implementation represents the planning and control model through
+mock/read-only data, state transitions, workflows, registries, drafts, review
+queues, and guarded bridges. It does not prove active development execution,
+governance execution, Treasury movement, ACS provisioning, billing, KYC,
+blockchain writes, or production operation.
+
 ## Runtime Statuses
 
 Business requests may use statuses such as `New`, `Intake Incomplete`, `Classified`, `Under ACS Analysis`, `Under Business Review`, `Governance Review Required`, `Ready for Scoping`, `Scoped`, `Estimate Pending`, `Pending Approval`, `Approved`, `In Delivery`, `Blocked`, `Change Request Open`, `Delivered`, `Accepted`, `Rejected`, and `Archived`.

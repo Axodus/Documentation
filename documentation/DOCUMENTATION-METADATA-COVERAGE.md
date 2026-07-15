@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 934
-- Canonical metadata field coverage: 37.58%
-- Schema 1.0.0 canonical documents: 337
-- Legacy documents: 583
-- Documents missing canonical metadata: 583
-- Documents without YAML front matter: 583
+- Source documents: 937
+- Canonical metadata field coverage: 38.21%
+- Schema 1.0.0 canonical documents: 344
+- Legacy documents: 579
+- Documents missing canonical metadata: 579
+- Documents without YAML front matter: 579
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 351 | 583 | 37.58% |
-| `document_id` | 351 | 583 | 37.58% |
-| `aliases` | 351 | 583 | 37.58% |
-| `document_type` | 351 | 583 | 37.58% |
-| `title` | 351 | 583 | 37.58% |
-| `summary` | 351 | 583 | 37.58% |
-| `version` | 351 | 583 | 37.58% |
-| `publication_status` | 351 | 583 | 37.58% |
-| `document_state` | 351 | 583 | 37.58% |
-| `maturity_level` | 351 | 583 | 37.58% |
-| `authority_scope` | 351 | 583 | 37.58% |
-| `authority_level` | 351 | 583 | 37.58% |
-| `author` | 351 | 583 | 37.58% |
-| `owner` | 351 | 583 | 37.58% |
-| `maintainer` | 351 | 583 | 37.58% |
-| `technical_reviewers` | 351 | 583 | 37.58% |
-| `business_reviewers` | 351 | 583 | 37.58% |
-| `security_reviewers` | 351 | 583 | 37.58% |
-| `approver` | 351 | 583 | 37.58% |
-| `created_date` | 351 | 583 | 37.58% |
-| `last_updated` | 351 | 583 | 37.58% |
-| `last_reviewed` | 351 | 583 | 37.58% |
-| `review_cycle` | 351 | 583 | 37.58% |
-| `next_review` | 351 | 583 | 37.58% |
-| `supersedes` | 351 | 583 | 37.58% |
-| `relationships` | 351 | 583 | 37.58% |
-| `related_epics` | 351 | 583 | 37.58% |
-| `related_requirements` | 351 | 583 | 37.58% |
-| `related_adrs` | 351 | 583 | 37.58% |
-| `related_cores` | 351 | 583 | 37.58% |
-| `implementation_refs` | 351 | 583 | 37.58% |
-| `production_gate_impact` | 351 | 583 | 37.58% |
+| `schema_version` | 358 | 579 | 38.21% |
+| `document_id` | 358 | 579 | 38.21% |
+| `aliases` | 358 | 579 | 38.21% |
+| `document_type` | 358 | 579 | 38.21% |
+| `title` | 358 | 579 | 38.21% |
+| `summary` | 358 | 579 | 38.21% |
+| `version` | 358 | 579 | 38.21% |
+| `publication_status` | 358 | 579 | 38.21% |
+| `document_state` | 358 | 579 | 38.21% |
+| `maturity_level` | 358 | 579 | 38.21% |
+| `authority_scope` | 358 | 579 | 38.21% |
+| `authority_level` | 358 | 579 | 38.21% |
+| `author` | 358 | 579 | 38.21% |
+| `owner` | 358 | 579 | 38.21% |
+| `maintainer` | 358 | 579 | 38.21% |
+| `technical_reviewers` | 358 | 579 | 38.21% |
+| `business_reviewers` | 358 | 579 | 38.21% |
+| `security_reviewers` | 358 | 579 | 38.21% |
+| `approver` | 358 | 579 | 38.21% |
+| `created_date` | 358 | 579 | 38.21% |
+| `last_updated` | 358 | 579 | 38.21% |
+| `last_reviewed` | 358 | 579 | 38.21% |
+| `review_cycle` | 358 | 579 | 38.21% |
+| `next_review` | 358 | 579 | 38.21% |
+| `supersedes` | 358 | 579 | 38.21% |
+| `relationships` | 358 | 579 | 38.21% |
+| `related_epics` | 358 | 579 | 38.21% |
+| `related_requirements` | 358 | 579 | 38.21% |
+| `related_adrs` | 358 | 579 | 38.21% |
+| `related_cores` | 358 | 579 | 38.21% |
+| `implementation_refs` | 358 | 579 | 38.21% |
+| `production_gate_impact` | 358 | 579 | 38.21% |
 
 ## Documents Without Front Matter
 
@@ -415,7 +415,6 @@ Generator Version: 1.0.0
 - docs/academy/learn-to-win.md
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
-- docs/academy/proof-of-knowledge.md
 - docs/academy/README.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
@@ -434,7 +433,6 @@ Generator Version: 1.0.0
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
 - docs/acs/tooling-and-mcp.md
-- docs/acs/trinity.md
 - docs/bba-agency/academy-and-marketplace-alignment.md
 - docs/bba-agency/acs-agent-workflow.md
 - docs/bba-agency/brand-architecture.md
@@ -546,9 +544,7 @@ Generator Version: 1.0.0
 - docs/mining/user-facing-products.md
 - docs/overview/constitutional-model.md
 - docs/overview/documentation-standards.md
-- docs/overview/product-map.md
 - docs/overview/README.md
-- docs/overview/terminology.md
 - docs/README.md
 - docs/runtime/README.md
 - docs/security/README.md
@@ -1001,7 +997,6 @@ Generator Version: 1.0.0
 - docs/academy/learn-to-win.md
 - docs/academy/locked-rewards.md
 - docs/academy/marketplace-integration.md
-- docs/academy/proof-of-knowledge.md
 - docs/academy/README.md
 - docs/academy/token-reward-flows.md
 - docs/academy/tutor-validation.md
@@ -1020,7 +1015,6 @@ Generator Version: 1.0.0
 - docs/acs/runtime.md
 - docs/acs/security-and-risk.md
 - docs/acs/tooling-and-mcp.md
-- docs/acs/trinity.md
 - docs/bba-agency/academy-and-marketplace-alignment.md
 - docs/bba-agency/acs-agent-workflow.md
 - docs/bba-agency/brand-architecture.md
@@ -1132,9 +1126,7 @@ Generator Version: 1.0.0
 - docs/mining/user-facing-products.md
 - docs/overview/constitutional-model.md
 - docs/overview/documentation-standards.md
-- docs/overview/product-map.md
 - docs/overview/README.md
-- docs/overview/terminology.md
 - docs/README.md
 - docs/runtime/README.md
 - docs/security/README.md
