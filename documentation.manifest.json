@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 898,
+  "document_count": 901,
   "documents": [
     {
       "aliases": [],
@@ -16775,6 +16775,75 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_06",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-151",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-02"
+      ],
+      "sha256": "84a17e738904248b5391ed3133a6da8d4a8a464680709635f2eb733191c94f3b",
+      "source_path": "documentation/EPIC-06-BUSINESS-BATCH-01-FREEZE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-06 Business Batch 01 Freeze",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_06",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-149",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-02"
+      ],
+      "sha256": "d56e9783a1248287e3fd788c575217d68a5ce8e92f6311944404585f7dc84587",
+      "source_path": "documentation/EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-06 Business Canonicalization Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_06",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-150",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-15",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-06",
+        "DOCUMENTATION-EPIC-06-REQ-02"
+      ],
+      "sha256": "2fec048e4cf8b44a5a054665686cb9a0b3fbb08b68a5ab5cafb390fa902df37b",
+      "source_path": "documentation/EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-06 Business Claim and Boundary Review",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_06",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-144",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -22281,7 +22350,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 287,
+    "compliant_documents": 290,
     "declared_relationships": 389,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -22289,12 +22358,12 @@
       "CORE": 226,
       "MODULE": 1,
       "PORTFOLIO": 4,
-      "PROJECT": 68,
+      "PROJECT": 71,
       "UNSPECIFIED": 597
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 203,
+      "D2": 206,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 597
@@ -22312,7 +22381,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 217,
+      "Axodus Documentation Core": 220,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -22333,7 +22402,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 138,
-      "DRAFT": 142,
+      "DRAFT": 145,
       "UNSPECIFIED": 597
     },
     "documents_by_type": {
@@ -22346,7 +22415,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 149,
+      "REPORT": 152,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -22359,6 +22428,6 @@
     "generated_documents": 8,
     "legacy_documents": 597,
     "template_documents": 14,
-    "total_documents": 898
+    "total_documents": 901
   }
 }

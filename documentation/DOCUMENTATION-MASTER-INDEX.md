@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-15T00:00:00Z
-Source Documents: 898
+Source Documents: 901
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 898
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 898 |
-| Canonical documents | 287 |
+| Total source documents | 901 |
+| Canonical documents | 290 |
 | Legacy documents | 597 |
 | Template documents | 14 |
 | Declared relationships | 389 |
@@ -42,7 +42,7 @@ Source Documents: 898
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 149 |
+| REPORT | 152 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 898
 | CORE | 226 |
 | MODULE | 1 |
 | PORTFOLIO | 4 |
-| PROJECT | 68 |
+| PROJECT | 71 |
 | UNSPECIFIED | 597 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 898
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 138 |
-| DRAFT | 142 |
+| DRAFT | 145 |
 | UNSPECIFIED | 597 |
 ## Canonical Documents
 
@@ -285,6 +285,9 @@ Source Documents: 898
 | DOC-RPT-050 | Epic 03 Traceability Risk Review | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-TRACEABILITY-RISK-REVIEW.md](./EPIC-03-TRACEABILITY-RISK-REVIEW.md) |
 | DOC-RPT-128 | EPIC-05 Handover Plan | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-05-HANDOVER-PLAN.md](./EPIC-05-HANDOVER-PLAN.md) |
 | DOC-RPT-145 | EPIC-06 Authority and Boundary Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md](./EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md) |
+| DOC-RPT-151 | EPIC-06 Business Batch 01 Freeze | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-BUSINESS-BATCH-01-FREEZE.md](./EPIC-06-BUSINESS-BATCH-01-FREEZE.md) |
+| DOC-RPT-149 | EPIC-06 Business Canonicalization Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md](./EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md) |
+| DOC-RPT-150 | EPIC-06 Business Claim and Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md](./EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md) |
 | DOC-RPT-144 | EPIC-06 Core Coverage Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-CORE-COVERAGE-MATRIX.md](./EPIC-06-CORE-COVERAGE-MATRIX.md) |
 | DOC-RPT-147 | EPIC-06 Page Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-PAGE-GAP-REGISTER.md](./EPIC-06-PAGE-GAP-REGISTER.md) |
 | DOC-RPT-148 | EPIC-06 REQ-01 Decision Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-06-REQ-01-DECISION-REPORT.md](./EPIC-06-REQ-01-DECISION-REPORT.md) |

@@ -10306,6 +10306,33 @@
       "source_path": "documentation/EPIC-06-AUTHORITY-AND-BOUNDARY-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-151",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-06-BUSINESS-BATCH-01-FREEZE.md"
+    },
+    {
+      "document_id": "DOC-RPT-149",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-06-BUSINESS-CANONICALIZATION-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-150",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-06-BUSINESS-CLAIM-AND-BOUNDARY-REVIEW.md"
+    },
+    {
       "document_id": "DOC-RPT-144",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -11735,7 +11762,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1302,
+    "info": 1305,
     "invalid_exceptions": 0,
     "known_legacy": 561,
     "legacy_documents": 597,
@@ -11747,16 +11774,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 898,
+    "total_documents": 901,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 287,
+    "validated_documents": 290,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 287,
+  "validated_documents": 290,
   "validation_version": "1.1.0",
   "warnings": 0
 }
