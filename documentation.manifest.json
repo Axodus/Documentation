@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 970,
+  "document_count": 972,
   "documents": [
     {
       "aliases": [],
@@ -13984,6 +13984,28 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.UX",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-219",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-UX-REQ-06"
+      ],
+      "sha256": "30171975bd37bbb03a17c331a5761b3948c8b8ab90b472700bcd756b3bfb0e3b",
+      "source_path": "documentation/DOCUMENTATION-BADGE-COVERAGE-SCORECARD.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Badge Coverage Scorecard",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.UX",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-216",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -16364,6 +16386,33 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation UX Sprint 01 Closure Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.UX",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-220",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-UX-REQ-01",
+        "DOCUMENTATION-UX-REQ-02",
+        "DOCUMENTATION-UX-REQ-03",
+        "DOCUMENTATION-UX-REQ-04",
+        "DOCUMENTATION-UX-REQ-05",
+        "DOCUMENTATION-UX-REQ-06"
+      ],
+      "sha256": "95425dd3f04bc55dab9c2abe6933c11de32f4c979a11f222f2814a8fcf91b947",
+      "source_path": "documentation/DOCUMENTATION-UX-SPRINT-02-CLOSURE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation UX Sprint 02 Closure Report",
       "version": "1.0.0"
     },
     {
@@ -24247,7 +24296,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 378,
+    "compliant_documents": 380,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24255,12 +24304,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 117,
+      "PROJECT": 119,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 294,
+      "D2": 296,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24282,7 +24331,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 266,
+      "Axodus Documentation Core": 268,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24304,7 +24353,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 219,
+      "DRAFT": 221,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24317,7 +24366,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 219,
+      "REPORT": 221,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24330,6 +24379,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 970
+    "total_documents": 972
   }
 }

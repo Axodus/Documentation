@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 970
+- Graph nodes: 972
 - Declared relationships: 421
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 763
+- Orphan documents: 765
 - Cycles: 13
 
 ## Relationship Counts
@@ -596,6 +596,7 @@ None.
 - documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
 - documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md
+- documentation/DOCUMENTATION-BADGE-COVERAGE-SCORECARD.md
 - documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md
 - documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md
 - documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md
@@ -603,6 +604,7 @@ None.
 - documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md
 - documentation/DOCUMENTATION-UX-BADGE-REVIEW.md
 - documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md
+- documentation/DOCUMENTATION-UX-SPRINT-02-CLOSURE-REPORT.md
 - documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md
 - documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md
 - documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md

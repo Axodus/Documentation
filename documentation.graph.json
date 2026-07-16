@@ -7035,6 +7035,26 @@
       "title": "Documentation UX Badge Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-219",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-219",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-BADGE-COVERAGE-SCORECARD.md",
+      "title": "Documentation Badge Coverage Scorecard"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-220",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-220",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-UX-SPRINT-02-CLOSURE-REPORT.md",
+      "title": "Documentation UX Sprint 02 Closure Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10500,6 +10520,7 @@
     "documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
     "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
+    "documentation/DOCUMENTATION-BADGE-COVERAGE-SCORECARD.md",
     "documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md",
     "documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md",
     "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
@@ -10507,6 +10528,7 @@
     "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
     "documentation/DOCUMENTATION-UX-BADGE-REVIEW.md",
     "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
+    "documentation/DOCUMENTATION-UX-SPRINT-02-CLOSURE-REPORT.md",
     "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
     "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
     "documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md",
@@ -11382,6 +11404,7 @@
       "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "documentation/DOCUMENTATION-ADR-INDEX.md",
       "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
+      "documentation/DOCUMENTATION-BADGE-COVERAGE-SCORECARD.md",
       "documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md",
       "documentation/DOCUMENTATION-BASELINE-POLICY.md",
       "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
@@ -11467,6 +11490,7 @@
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "documentation/DOCUMENTATION-UX-BADGE-REVIEW.md",
       "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
+      "documentation/DOCUMENTATION-UX-SPRINT-02-CLOSURE-REPORT.md",
       "documentation/DOCUMENTATION-VALIDATION-RULES.md",
       "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
       "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
@@ -12087,7 +12111,9 @@
       "DOC-RPT-215",
       "DOC-RPT-216",
       "DOC-RPT-217",
-      "DOC-RPT-218"
+      "DOC-RPT-218",
+      "DOC-RPT-219",
+      "DOC-RPT-220"
     ]
   },
   "relationship_counts": {
