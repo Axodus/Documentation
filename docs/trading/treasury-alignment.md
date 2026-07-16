@@ -45,3 +45,12 @@ Risks include capital loss, concentration, leverage liquidation, exchange counte
 - [Governance Overview](../governance/overview.md)
 - [Risk Management](risk-management.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0035`
+- Canonical counterpart: [Treasury Trading Alignment](../treasury/trading-alignment.md)
+- Interfaces: `INT-EP7-012`, `INT-EP7-013`
+- Authority: `AUTH-EP8-0006`
+- Evidence: `EVID-EP7-0003`, `EVID-EP7-0014`
+- Status: allocation, custody, signing, and trading execution are blocked.

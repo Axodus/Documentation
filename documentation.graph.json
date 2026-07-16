@@ -3945,6 +3945,16 @@
       "title": "Trinity"
     },
     {
+      "authority_level": "CORE",
+      "classification": "CANONICAL",
+      "document_id": "ACS-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "ACS-GDE-003",
+      "publication_status": "DRAFT",
+      "source_path": "docs/acs/business-integration.md",
+      "title": "ACS Business Integration"
+    },
+    {
       "authority_level": null,
       "classification": "LEGACY",
       "document_id": null,
@@ -6905,6 +6915,16 @@
       "title": "EPIC-08 REQ-04 Freeze Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-207",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-207",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md",
+      "title": "EPIC-08 REQ-05 Execution Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -7163,16 +7183,6 @@
       "publication_status": null,
       "source_path": "docs/acs/architecture.md",
       "title": "ACS Architecture"
-    },
-    {
-      "authority_level": null,
-      "classification": "LEGACY",
-      "document_id": null,
-      "document_type": null,
-      "node_id": "docs/acs/business-integration.md",
-      "publication_status": null,
-      "source_path": "docs/acs/business-integration.md",
-      "title": "ACS Business Integration"
     },
     {
       "authority_level": null,
@@ -10203,7 +10213,6 @@
     "docs/acs/agent-roles.md",
     "docs/acs/agent-smith.md",
     "docs/acs/architecture.md",
-    "docs/acs/business-integration.md",
     "docs/acs/governance-alignment.md",
     "docs/acs/human-oversight.md",
     "docs/acs/memory-and-knowledge.md",
@@ -10465,6 +10474,7 @@
     "documentation/EPIC-08-REQ-02-FREEZE-REPORT.md",
     "documentation/EPIC-08-REQ-03-FREEZE-REPORT.md",
     "documentation/EPIC-08-REQ-04-FREEZE-REPORT.md",
+    "documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md",
     "documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md",
     "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
     "documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md",
@@ -11414,6 +11424,7 @@
       "documentation/EPIC-08-REQ-02-FREEZE-REPORT.md",
       "documentation/EPIC-08-REQ-03-FREEZE-REPORT.md",
       "documentation/EPIC-08-REQ-04-FREEZE-REPORT.md",
+      "documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md",
       "documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md",
       "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
       "documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md",
@@ -11560,6 +11571,7 @@
       "ACCOUNT-GDE-005",
       "ACS-GDE-001",
       "ACS-GDE-002",
+      "ACS-GDE-003",
       "BBA-GDE-001",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
@@ -11931,21 +11943,22 @@
       "DOC-RPT-203",
       "DOC-RPT-204",
       "DOC-RPT-205",
-      "DOC-RPT-206"
+      "DOC-RPT-206",
+      "DOC-RPT-207"
     ]
   },
   "relationship_counts": {
     "DEPENDS_ON": 115,
     "DOCUMENTS": 15,
     "REALIZES": 13,
-    "RELATES_TO": 231,
+    "RELATES_TO": 233,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 419,
+    "declared": 421,
     "derived": 0,
     "duplicates": 0,
-    "total": 419,
+    "total": 421,
     "unresolved": 0
   },
   "relationship_types": [
@@ -12026,6 +12039,18 @@
       "source": "ACS-GDE-002",
       "source_path": "docs/acs/trinity.md",
       "target": "ACS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACS-GDE-003",
+      "source_path": "docs/acs/business-integration.md",
+      "target": "ACS-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "ACS-GDE-003",
+      "source_path": "docs/acs/business-integration.md",
+      "target": "BUSINESS-GDE-008",
       "type": "RELATES_TO"
     },
     {

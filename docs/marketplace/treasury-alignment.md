@@ -33,3 +33,11 @@ Risks include hidden liabilities, settlement delay, refund shortfall, revenue ov
 - [Fees and Revenue](fees-and-revenue.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0027`
+- Canonical counterpart: [Treasury Overview](../treasury/overview.md)
+- Interfaces: `INT-EP7-012`, `INT-EP7-013`
+- Authority: `AUTH-EP8-0006`
+- Evidence: `EVID-EP7-0003`, `EVID-EP7-0012`
+- Status: settlement, custody, signing, and financial execution are unverified.

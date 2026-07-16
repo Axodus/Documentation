@@ -73,3 +73,23 @@ the ecosystem is not documented as one integrated production system. Financial
 execution, active token distribution, provider activation, autonomous
 governance, production ACS enforcement, and public Lottery operation remain
 unverified or blocked.
+
+## Canonical Traceability
+
+| Flow ID | Flow | Primary interfaces | Traceability status |
+| --- | --- | --- | --- |
+| `FLOW-EP8-0001` | Demand qualification | `INT-EP7-001`, `INT-EP7-014` | Prototype/read-only representation |
+| `FLOW-EP8-0002` | Trinity planning | `INT-EP7-002`, `INT-EP7-003` | Incomplete; advisory interface unconfirmed |
+| `FLOW-EP8-0003` | Business delivery | `INT-EP7-004`, `INT-EP7-006`, `INT-EP7-014` | Model and partial prototype |
+| `FLOW-EP8-0004` | Custom agent | `INT-EP7-015` | Incomplete; provisioning and authority blocked |
+| `FLOW-EP8-0005` | Reusable asset | `INT-EP7-008` | Incomplete; rights and release authority unresolved |
+| `FLOW-EP8-0006` | Marketplace publication | `INT-EP7-008`, `INT-EP7-009` | Incomplete; operator and settlement unverified |
+| `FLOW-EP8-0007` | Academy and PoK | `INT-EP7-010`, `INT-EP7-011`, `INT-EP7-013` | Incomplete; effects remain independently gated |
+| `FLOW-EP8-0008` | Governance | `INT-EP7-004`, `INT-EP7-005`, `INT-EP7-014` | Governed model; executor must be verified |
+| `FLOW-EP8-0009` | ACS protection | `INT-EP7-006`, `INT-EP7-007`, `INT-EP7-014` | Non-production prototype and authority gap |
+| `FLOW-EP8-0010` | Economic flow | `INT-EP7-012`, `INT-EP7-013`, `INT-EP7-015` | Incomplete and financially blocked |
+| `FLOW-EP8-0011` | Runtime activation and incident | `INT-EP7-007`, `INT-EP7-014`, `INT-EP7-015` | Model and partial prototype; activation blocked |
+
+The interface IDs are documentation crosswalks, not claims of live transport.
+Six flows (`0002`, `0004`, `0005`, `0006`, `0007`, and `0010`) remain
+explicitly incomplete under `EVID-EP8-0007`.

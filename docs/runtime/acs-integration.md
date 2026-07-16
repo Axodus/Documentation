@@ -96,3 +96,12 @@ Avoid ACS outside Runtime, ACS as final approval, unlogged agent output, stale k
 - [ACS Security and Risk](../acs/security-and-risk.md)
 - [Runtime Validation](validation-and-confirmation.md)
 - [Governance Escalation](governance-escalation.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0007`
+- Canonical counterpart: [ACS Runtime](../acs/runtime.md)
+- Interfaces: `INT-EP7-006`, `INT-EP7-007`, `INT-EP7-014`
+- Authorities: `AUTH-EP8-0012`, `AUTH-EP8-0013`, `AUTH-EP8-0014`
+- Evidence: `EVID-EP7-0008`, `EVID-EP7-0009`
+- Status: prototype and review-bound; no production enforcement is implied.

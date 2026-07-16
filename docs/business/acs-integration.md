@@ -106,3 +106,12 @@ Business should watch for ACS misclassification, client commitment risk, overcom
 - [ACS Runtime](../acs/runtime.md)
 - [ACS Security and Risk](../acs/security-and-risk.md)
 - [Business Runtime](runtime.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0008`
+- Canonical counterpart: [ACS Business Integration](../acs/business-integration.md)
+- Interfaces: `INT-EP7-006`, `INT-EP7-007`
+- Authorities: `AUTH-EP8-0002`, `AUTH-EP8-0012`
+- Evidence: `EVID-EP7-0006`, `EVID-EP7-0008`
+- Status: prototype/model; ACS remains advisory and Business owns disposition.

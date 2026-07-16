@@ -96,3 +96,23 @@ portfolio surface. These do not establish one integrated production runtime.
 Governance activation, Treasury execution, token issuance, provider access,
 wallet signing, contract writes, financial execution, and Lottery release
 remain independently evidence-gated.
+
+## Canonical Traceability
+
+EPIC-08 registers 36 material cross-core pair families. Documentation symmetry
+means that both nuclei describe compatible contracts; it does not prove that an
+interface is implemented, activated, operational, or production-ready.
+
+| Integration family | Canonical pages |
+| --- | --- |
+| Business and ACS | [Business ACS Integration](../business/acs-integration.md), [ACS Business Integration](../acs/business-integration.md) |
+| Academy and Tokenomics | [Academy Token Reward Flows](../academy/token-reward-flows.md), [Academy Rewards](../tokenomics/academy-rewards.md) |
+| Marketplace and Treasury | [Marketplace Treasury Alignment](../marketplace/treasury-alignment.md), [Treasury Overview](../treasury/overview.md) |
+| Trading and Treasury | [Trading Treasury Alignment](../trading/treasury-alignment.md), [Treasury Trading Alignment](../treasury/trading-alignment.md) |
+| Mining and ACS | [Mining ACS Integration](../mining/acs-integration.md), [ACS Overview](../acs/overview.md) |
+| Lottery and Treasury | [Lottery Treasury and Fees](../lottery/treasury-and-fees.md), [Treasury Overview](../treasury/overview.md) |
+| Governance and Runtime | [Governance Proposal Lifecycle](../governance/proposal-lifecycle.md), [Runtime Governance Escalation](../runtime/governance-escalation.md) |
+
+Evidence references `EVID-EP8-0004` and `EVID-EP8-0007` support the
+documentation inventory and flow crosswalk only. They do not activate a
+cross-core runtime.

@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 958
+Source Documents: 959
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 958
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 958 |
-| Canonical documents | 365 |
-| Legacy documents | 579 |
+| Total source documents | 959 |
+| Canonical documents | 367 |
+| Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 419 |
+| Declared relationships | 421 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,39 +35,39 @@ Source Documents: 958
 |---|---:|
 | ADR | 24 |
 | API | 1 |
-| GUIDE | 96 |
+| GUIDE | 97 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 7 |
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 207 |
+| REPORT | 208 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 4 |
-| UNSPECIFIED | 579 |
+| UNSPECIFIED | 578 |
 ## Documents by Authority
 
 | Value | Count |
 |---|---:|
 | COMPONENT | 2 |
-| CORE | 242 |
+| CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 27 |
-| PROJECT | 107 |
-| UNSPECIFIED | 579 |
+| PROJECT | 108 |
+| UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 206 |
-| UNSPECIFIED | 579 |
+| DRAFT | 208 |
+| UNSPECIFIED | 578 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -102,6 +102,7 @@ Source Documents: 958
 | ACCOUNT-GDE-001 | Accountability Overview | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/overview.md](../docs/accountability/overview.md) |
 | ACCOUNT-GDE-004 | Release Notes | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/release-notes.md](../docs/accountability/release-notes.md) |
 | ACCOUNT-GDE-005 | Roadmap Updates | GUIDE | APPROVED | CORE | 1.0.0 | Accountability Nucleus | [docs/accountability/roadmap-updates.md](../docs/accountability/roadmap-updates.md) |
+| ACS-GDE-003 | ACS Business Integration | GUIDE | DRAFT | CORE | 1.0.0 | Axodus ACS | [docs/acs/business-integration.md](../docs/acs/business-integration.md) |
 | ACS-GDE-001 | ACS Overview | GUIDE | APPROVED | CORE | 1.0.0 | ACS Nucleus | [docs/acs/overview.md](../docs/acs/overview.md) |
 | ACS-GDE-002 | Trinity | GUIDE | DRAFT | CORE | 1.0.0 | Axodus ACS | [docs/acs/trinity.md](../docs/acs/trinity.md) |
 | BBA-GDE-001 | Axodus BBA Agency Overview | GUIDE | APPROVED | CORE | 1.0.0 | Axodus BBA | [docs/bba-agency/overview.md](../docs/bba-agency/overview.md) |
@@ -363,6 +364,7 @@ Source Documents: 958
 | DOC-RPT-197 | EPIC-08 REQ-02 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-02-FREEZE-REPORT.md](./EPIC-08-REQ-02-FREEZE-REPORT.md) |
 | DOC-RPT-201 | EPIC-08 REQ-03 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-03-FREEZE-REPORT.md](./EPIC-08-REQ-03-FREEZE-REPORT.md) |
 | DOC-RPT-206 | EPIC-08 REQ-04 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-04-FREEZE-REPORT.md](./EPIC-08-REQ-04-FREEZE-REPORT.md) |
+| DOC-RPT-207 | EPIC-08 REQ-05 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md](./EPIC-08-REQ-05-EXECUTION-REPORT.md) |
 | DOC-RPT-203 | EPIC-08 Residual Flow Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md](./EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md) |
 | DOC-RPT-195 | EPIC-08 Status Evidence Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md](./EPIC-08-STATUS-EVIDENCE-MATRIX.md) |
 | DOC-RPT-205 | EPIC-08 Traceability Remediation Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md](./EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md) |
@@ -808,7 +810,6 @@ Source Documents: 958
 | — | ACS Agent Roles | — | — | — | — | — | [docs/acs/agent-roles.md](../docs/acs/agent-roles.md) |
 | — | Agent Smith | — | — | — | — | — | [docs/acs/agent-smith.md](../docs/acs/agent-smith.md) |
 | — | ACS Architecture | — | — | — | — | — | [docs/acs/architecture.md](../docs/acs/architecture.md) |
-| — | ACS Business Integration | — | — | — | — | — | [docs/acs/business-integration.md](../docs/acs/business-integration.md) |
 | — | ACS Governance Alignment | — | — | — | — | — | [docs/acs/governance-alignment.md](../docs/acs/governance-alignment.md) |
 | — | ACS Human Oversight | — | — | — | — | — | [docs/acs/human-oversight.md](../docs/acs/human-oversight.md) |
 | — | ACS Memory and Knowledge | — | — | — | — | — | [docs/acs/memory-and-knowledge.md](../docs/acs/memory-and-knowledge.md) |

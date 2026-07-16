@@ -54,3 +54,13 @@ ACS and Trinity can analyze, summarize, flag risks, draft reports, recommend lim
 - [Agent Smith](../acs/agent-smith.md)
 - [Risk Management](risk-management.md)
 - [Treasury Alignment](treasury-alignment.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0033`
+- Canonical counterpart: [ACS Overview](../acs/overview.md)
+- Interfaces: `INT-EP7-006`, `INT-EP7-007`
+- Authorities: `AUTH-EP8-0012`, `AUTH-EP8-0013`
+- Evidence: `EVID-EP7-0008`, `EVID-EP7-0014`
+- Status: analysis and monitoring are non-production; exchange and provider
+  execution remain closed.

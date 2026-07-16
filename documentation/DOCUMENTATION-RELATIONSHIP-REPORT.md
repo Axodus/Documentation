@@ -7,8 +7,8 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 958
-- Declared relationships: 419
+- Graph nodes: 959
+- Declared relationships: 421
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 115 |
 | `DOCUMENTS` | 15 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 231 |
+| `RELATES_TO` | 233 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -419,7 +419,6 @@ None.
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
 - docs/acs/architecture.md
-- docs/acs/business-integration.md
 - docs/acs/governance-alignment.md
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
@@ -681,6 +680,7 @@ None.
 - documentation/EPIC-08-REQ-02-FREEZE-REPORT.md
 - documentation/EPIC-08-REQ-03-FREEZE-REPORT.md
 - documentation/EPIC-08-REQ-04-FREEZE-REPORT.md
+- documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md
 - documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md
 - documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md
 - documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md

@@ -40,3 +40,12 @@ ACS cannot approve mining products, authorize payouts, change wallets or pool ad
 - [Agent Smith](../acs/agent-smith.md)
 - [Morpheus](../acs/morpheus.md)
 
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0028`
+- Canonical counterpart: [ACS Overview](../acs/overview.md)
+- Interfaces: `INT-EP7-006`, `INT-EP7-007`
+- Authorities: `AUTH-EP8-0012`, `AUTH-EP8-0013`
+- Evidence: `EVID-EP7-0008`, `EVID-EP7-0015`
+- Status: monitoring interface unconfirmed; no continuous or production
+  monitoring claim is authorized.

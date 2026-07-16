@@ -41,3 +41,14 @@ Risks include prize underfunding, hidden fees, unpaid liabilities, refund gaps, 
 - [Prize Pools and Payouts](prize-pools-and-payouts.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0024`
+- Canonical counterpart: [Treasury Overview](../treasury/overview.md)
+- Interfaces: `INT-EP7-012`, `INT-EP7-013`
+- Authority: `AUTH-EP8-0006`
+- Evidence: `EVID-EP7-0003`, `EVID-EP7-0016`
+- Status: no active prize, fee, custody, settlement, or public operation.
+
+This traceability block is a boundary clarification and does not expand the
+Lottery product model.

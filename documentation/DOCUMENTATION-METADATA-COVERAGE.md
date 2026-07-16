@@ -7,12 +7,12 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 958
-- Canonical metadata field coverage: 39.56%
-- Schema 1.0.0 canonical documents: 365
-- Legacy documents: 579
-- Documents missing canonical metadata: 579
-- Documents without YAML front matter: 579
+- Source documents: 959
+- Canonical metadata field coverage: 39.73%
+- Schema 1.0.0 canonical documents: 367
+- Legacy documents: 578
+- Documents missing canonical metadata: 578
+- Documents without YAML front matter: 578
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 379 | 579 | 39.56% |
-| `document_id` | 379 | 579 | 39.56% |
-| `aliases` | 379 | 579 | 39.56% |
-| `document_type` | 379 | 579 | 39.56% |
-| `title` | 379 | 579 | 39.56% |
-| `summary` | 379 | 579 | 39.56% |
-| `version` | 379 | 579 | 39.56% |
-| `publication_status` | 379 | 579 | 39.56% |
-| `document_state` | 379 | 579 | 39.56% |
-| `maturity_level` | 379 | 579 | 39.56% |
-| `authority_scope` | 379 | 579 | 39.56% |
-| `authority_level` | 379 | 579 | 39.56% |
-| `author` | 379 | 579 | 39.56% |
-| `owner` | 379 | 579 | 39.56% |
-| `maintainer` | 379 | 579 | 39.56% |
-| `technical_reviewers` | 379 | 579 | 39.56% |
-| `business_reviewers` | 379 | 579 | 39.56% |
-| `security_reviewers` | 379 | 579 | 39.56% |
-| `approver` | 379 | 579 | 39.56% |
-| `created_date` | 379 | 579 | 39.56% |
-| `last_updated` | 379 | 579 | 39.56% |
-| `last_reviewed` | 379 | 579 | 39.56% |
-| `review_cycle` | 379 | 579 | 39.56% |
-| `next_review` | 379 | 579 | 39.56% |
-| `supersedes` | 379 | 579 | 39.56% |
-| `relationships` | 379 | 579 | 39.56% |
-| `related_epics` | 379 | 579 | 39.56% |
-| `related_requirements` | 379 | 579 | 39.56% |
-| `related_adrs` | 379 | 579 | 39.56% |
-| `related_cores` | 379 | 579 | 39.56% |
-| `implementation_refs` | 379 | 579 | 39.56% |
-| `production_gate_impact` | 379 | 579 | 39.56% |
+| `schema_version` | 381 | 578 | 39.73% |
+| `document_id` | 381 | 578 | 39.73% |
+| `aliases` | 381 | 578 | 39.73% |
+| `document_type` | 381 | 578 | 39.73% |
+| `title` | 381 | 578 | 39.73% |
+| `summary` | 381 | 578 | 39.73% |
+| `version` | 381 | 578 | 39.73% |
+| `publication_status` | 381 | 578 | 39.73% |
+| `document_state` | 381 | 578 | 39.73% |
+| `maturity_level` | 381 | 578 | 39.73% |
+| `authority_scope` | 381 | 578 | 39.73% |
+| `authority_level` | 381 | 578 | 39.73% |
+| `author` | 381 | 578 | 39.73% |
+| `owner` | 381 | 578 | 39.73% |
+| `maintainer` | 381 | 578 | 39.73% |
+| `technical_reviewers` | 381 | 578 | 39.73% |
+| `business_reviewers` | 381 | 578 | 39.73% |
+| `security_reviewers` | 381 | 578 | 39.73% |
+| `approver` | 381 | 578 | 39.73% |
+| `created_date` | 381 | 578 | 39.73% |
+| `last_updated` | 381 | 578 | 39.73% |
+| `last_reviewed` | 381 | 578 | 39.73% |
+| `review_cycle` | 381 | 578 | 39.73% |
+| `next_review` | 381 | 578 | 39.73% |
+| `supersedes` | 381 | 578 | 39.73% |
+| `relationships` | 381 | 578 | 39.73% |
+| `related_epics` | 381 | 578 | 39.73% |
+| `related_requirements` | 381 | 578 | 39.73% |
+| `related_adrs` | 381 | 578 | 39.73% |
+| `related_cores` | 381 | 578 | 39.73% |
+| `implementation_refs` | 381 | 578 | 39.73% |
+| `production_gate_impact` | 381 | 578 | 39.73% |
 
 ## Documents Without Front Matter
 
@@ -423,7 +423,6 @@ Generator Version: 1.0.0
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
 - docs/acs/architecture.md
-- docs/acs/business-integration.md
 - docs/acs/governance-alignment.md
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md
@@ -1005,7 +1004,6 @@ Generator Version: 1.0.0
 - docs/acs/agent-roles.md
 - docs/acs/agent-smith.md
 - docs/acs/architecture.md
-- docs/acs/business-integration.md
 - docs/acs/governance-alignment.md
 - docs/acs/human-oversight.md
 - docs/acs/memory-and-knowledge.md

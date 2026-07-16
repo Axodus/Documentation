@@ -60,3 +60,12 @@ Academy rewards are utility and eligibility mechanisms, not income promises or g
 - [Reward Policy](reward-policy.md)
 - [Proof of Knowledge](../academy/proof-of-knowledge.md)
 - [Risk and Compliance](risk-and-compliance.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0005`
+- Canonical counterpart: [Academy Token Reward Flows](../academy/token-reward-flows.md)
+- Interfaces: `INT-EP7-010`, `INT-EP7-011`, `INT-EP7-013`
+- Authority: `AUTH-EP8-0007`
+- Evidence: `EVID-EP7-0011`, `EVID-EP7-0019`
+- Status: directional; issuance and distribution are not activated.

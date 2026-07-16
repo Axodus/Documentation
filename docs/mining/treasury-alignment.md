@@ -33,3 +33,11 @@ Risks include negative profitability, asset volatility, hardware depreciation, e
 - [Trading and Risk Hedging](trading-and-risk-hedging.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0030`
+- Canonical counterpart: [Treasury Overview](../treasury/overview.md)
+- Interfaces: `INT-EP7-012`, `INT-EP7-013`
+- Authority: `AUTH-EP8-0006`
+- Evidence: `EVID-EP7-0003`, `EVID-EP7-0015`
+- Status: cost, revenue, custody, payout, and financial execution are unverified.

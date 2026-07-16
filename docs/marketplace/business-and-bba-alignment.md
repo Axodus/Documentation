@@ -40,3 +40,14 @@ Triggers include guaranteed business results, ROI, marketing performance, offici
 - [BBA Agency Overview](../bba-agency/overview.md)
 - [Runtime Overview](../runtime/overview.md)
 
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0010`
+- Canonical counterpart: [Business Service Catalog](../business/service-catalog.md)
+- Interfaces: `INT-EP7-008`, `INT-EP7-009`
+- Authorities: `AUTH-EP8-0004`, `AUTH-EP8-0005`
+- Evidence: `EVID-EP7-0004`, `EVID-EP7-0012`
+- Status: incomplete asset and publication flow.
+
+Asset ownership, reuse approval, release authority, and Marketplace listing are
+separate decisions; no listing or commercial availability is inferred.

@@ -78,3 +78,15 @@ Locked rewards must not be described as freely tradable unless contract rules al
 ## Reward Policy Fields
 
 Reward policies should define course ID, course type, reward asset, reward amount, calculation method, max reward per user, max budget, free or paid context, locked status, internal-use status, transferability, claim conditions, unlock conditions, expiration, anti-abuse rules, governance status, contract reference, version, effective date, and review date.
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0005`
+- Canonical counterpart: [Tokenomics Academy Rewards](../tokenomics/academy-rewards.md)
+- Interfaces: `INT-EP7-010`, `INT-EP7-011`, `INT-EP7-013`
+- Authority: `AUTH-EP8-0007`
+- Evidence: `EVID-EP7-0011`, `EVID-EP7-0019`
+- Status: directional and inactive economic effect.
+
+Assessment or qualification evidence does not itself authorize issuance,
+distribution, transferability, Marketplace spending, or governance rights.

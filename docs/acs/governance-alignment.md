@@ -80,3 +80,15 @@ Common flags include `CONSTITUTIONAL_ALIGNMENT_UNCLEAR`, `TREASURY_IMPACT`, `TOK
 - Treating reason codes as final decisions.
 - Automated plugin approval.
 - No receipt for ACS-supported material action.
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0006`
+- Interfaces: `INT-EP7-007`, `INT-EP7-004`
+- Authorities: `AUTH-EP8-0012`, `AUTH-EP8-0013`
+- Evidence: `EVID-EP7-0008`, `EVID-EP7-0009`
+- Status: signal and local hold are prototype-level; production suspension
+  authority is unresolved.
+
+An advisory signal, a local default-deny hold, a governed suspension, and
+production enforcement are distinct authority and implementation states.

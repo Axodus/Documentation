@@ -1,3 +1,38 @@
+---
+schema_version: "1.0.0"
+document_id: "ACS-GDE-003"
+aliases: []
+document_type: "GUIDE"
+title: "ACS Business Integration"
+summary: "Defines the advisory, review-bound integration between ACS and Business."
+version: "1.0.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D2"
+authority_scope: "ACS"
+authority_level: "CORE"
+author: "Axodus ACS"
+owner: "Axodus ACS"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer"]
+business_reviewers: ["Portfolio Documentation Reviewer"]
+security_reviewers: ["Security Reviewer"]
+approver: null
+created_date: "2026-05-16"
+last_updated: "2026-07-16"
+last_reviewed: null
+review_cycle: "QUARTERLY"
+next_review: "2026-10-16"
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "ACS-GDE-001"}, {type: "RELATES_TO", target: "BUSINESS-GDE-008"}]
+related_epics: ["DOCUMENTATION-EPIC-08"]
+related_requirements: ["DOCUMENTATION-EPIC-08-REQ-05"]
+related_adrs: []
+related_cores: ["ACS", "BUSINESS"]
+implementation_refs: [{repository: "Axodus/Documentation", path: "docs/acs/business-integration.md", ref: "main", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
 # ACS Business Integration
 
 Status: Draft  
@@ -52,3 +87,15 @@ ACS may summarize the request, identify request type, identify responsible nucle
 ## Change Requests
 
 ACS may compare new requests to approved scope, classify them as in-scope, minor adjustment, scope expansion, governance impact, new project, or rejected, and draft change request summaries for review.
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0008`
+- Canonical counterpart: [Business ACS Integration](../business/acs-integration.md)
+- Interfaces: `INT-EP7-006`, `INT-EP7-007`
+- Authorities: `AUTH-EP8-0002`, `AUTH-EP8-0012`
+- Evidence: `EVID-EP7-0006`, `EVID-EP7-0008`
+- Status: advisory prototype/model; Business owns review and disposition.
+
+ACS analysis does not approve scope, create a client commitment, activate a
+service, or transfer Business authority.

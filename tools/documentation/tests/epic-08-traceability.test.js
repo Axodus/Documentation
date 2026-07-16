@@ -143,3 +143,20 @@ test('EPIC-08 REQ-04 freezes eleven flows, six gaps, and existing-page-only mani
   assert.doesNotMatch(manifest, /\| `CREATE` \|/)
   for (const row of rows) await access(resolve(root, row[2]))
 })
+
+test('EPIC-08 REQ-05 public pages implement the exact frozen traceability manifest', async () => {
+  const report = await loadDocument(resolve(root, 'documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md'), { root })
+  assert.equal(report.metadata.document_id, 'DOC-RPT-207')
+
+  const manifest = await read('documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md')
+  const paths = [...manifest.matchAll(/^\| `REM-EP8-\d{4}` \| `(docs\/[^`]+)` \|/gm)].map((match) => match[1])
+  assert.equal(paths.length, 19)
+  for (const path of paths) {
+    const content = await read(path)
+    assert.match(content, /## Canonical Traceability/)
+  }
+
+  const acsBusiness = await loadDocument(resolve(root, 'docs/acs/business-integration.md'), { root })
+  assert.equal(acsBusiness.metadata.document_id, 'ACS-GDE-003')
+  assert.equal(acsBusiness.metadata.production_gate_impact, 'PRESERVES_CLOSED')
+})

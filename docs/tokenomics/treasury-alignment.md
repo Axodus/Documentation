@@ -50,3 +50,12 @@ Risks include undocumented treasury obligations, unsupported fee claims, supply 
 - [Supply and Emission](supply-and-emission.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 - [Risk and Compliance](risk-and-compliance.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0032`
+- Canonical counterpart: [Treasury Tokenomics Alignment](../treasury/tokenomics-alignment.md)
+- Interfaces: `INT-EP7-012`, `INT-EP7-013`
+- Authorities: `AUTH-EP8-0006`, `AUTH-EP8-0007`
+- Evidence: `EVID-EP7-0003`, `EVID-EP7-0019`
+- Status: issuance, distribution, signing, and economic execution are inactive.

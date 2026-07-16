@@ -46,3 +46,12 @@ Treasury reporting may include maximum supply, current total supply, minted amou
 ## Risk Considerations
 
 Risk includes undocumented treasury obligations, signer compromise, uncontrolled campaign issuance, supply reconciliation errors, contract-policy mismatch, unsupported fee claims, and future liquidity assumptions.
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0032`
+- Canonical counterpart: [Tokenomics Treasury Alignment](../tokenomics/treasury-alignment.md)
+- Interfaces: `INT-EP7-012`, `INT-EP7-013`
+- Authorities: `AUTH-EP8-0006`, `AUTH-EP8-0007`
+- Evidence: `EVID-EP7-0003`, `EVID-EP7-0019`
+- Status: issuance, distribution, signing, and economic execution are inactive.

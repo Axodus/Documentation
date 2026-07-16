@@ -44,3 +44,12 @@ Outputs may include draw summary, risk review, claim review note, governance bri
 - [Agent Smith](../acs/agent-smith.md)
 - [Trinity](../acs/trinity.md)
 
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0021`
+- Canonical counterpart: [ACS Overview](../acs/overview.md)
+- Interfaces: `INT-EP7-006`, `INT-EP7-007`
+- Authorities: `AUTH-EP8-0012`, `AUTH-EP8-0013`
+- Evidence: `EVID-EP7-0008`, `EVID-EP7-0016`
+- Status: conceptual/prototype analysis only; no production enforcement or
+  public Lottery release is authorized.

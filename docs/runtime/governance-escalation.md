@@ -103,3 +103,13 @@ Avoid governance bypass, over-escalating minor work, under-escalating policy or 
 - [Governance Overview](../governance/overview.md)
 - [Proposal Lifecycle](../governance/proposal-lifecycle.md)
 - [Business Governance Alignment](../business/governance-alignment.md)
+
+## Canonical Traceability
+
+- Integration: `INTG-EP8-0017`
+- Canonical counterpart: [Governance Proposal Lifecycle](../governance/proposal-lifecycle.md)
+- Interfaces: `INT-EP7-004`, `INT-EP7-005`, `INT-EP7-014`
+- Authorities: `AUTH-EP8-0010`, `AUTH-EP8-0011`
+- Evidence: `EVID-EP7-0013`, `EVID-EP8-0002`
+- Status: a governance decision does not prove executor readiness, execution,
+  verification, or receipt.
