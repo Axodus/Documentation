@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 959
+Source Documents: 963
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 959
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 959 |
-| Canonical documents | 367 |
+| Total source documents | 963 |
+| Canonical documents | 371 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 959
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 208 |
+| REPORT | 212 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -57,8 +57,8 @@ Source Documents: 959
 | COMPONENT | 2 |
 | CORE | 243 |
 | MODULE | 1 |
-| PORTFOLIO | 27 |
-| PROJECT | 108 |
+| PORTFOLIO | 29 |
+| PROJECT | 110 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 959
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 208 |
+| DRAFT | 212 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -354,17 +354,21 @@ Source Documents: 959
 | DOC-RPT-200 | EPIC-08 Authority Conflict Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md](./EPIC-08-AUTHORITY-CONFLICT-REGISTER.md) |
 | DOC-RPT-198 | EPIC-08 Authority Traceability Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md](./EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md) |
 | DOC-RPT-194 | EPIC-08 Claim Traceability Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md](./EPIC-08-CLAIM-TRACEABILITY-REGISTER.md) |
+| DOC-RPT-211 | EPIC-08 Closure Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-CLOSURE-REPORT.md](./EPIC-08-CLOSURE-REPORT.md) |
+| DOC-RPT-209 | EPIC-08 Cross-Core Coherence Audit | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-CROSS-CORE-COHERENCE-AUDIT.md](./EPIC-08-CROSS-CORE-COHERENCE-AUDIT.md) |
 | DOC-RPT-190 | EPIC-08 Cross-Core Integration Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md](./EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md) |
 | DOC-RPT-199 | EPIC-08 Decision to Execution Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md](./EPIC-08-DECISION-TO-EXECUTION-REGISTER.md) |
 | DOC-RPT-191 | EPIC-08 Dependency Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-DEPENDENCY-REGISTER.md](./EPIC-08-DEPENDENCY-REGISTER.md) |
 | DOC-RPT-204 | EPIC-08 Flow Closure Eligibility Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md](./EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md) |
 | DOC-RPT-202 | EPIC-08 Flow Interface Traceability Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md](./EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md) |
 | DOC-RPT-192 | EPIC-08 Integration Contradiction Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md](./EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md) |
+| DOC-RPT-208 | EPIC-08 Maturity and Traceability Scorecard | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-MATURITY-AND-TRACEABILITY-SCORECARD.md](./EPIC-08-MATURITY-AND-TRACEABILITY-SCORECARD.md) |
 | DOC-RPT-193 | EPIC-08 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-01-FREEZE-REPORT.md](./EPIC-08-REQ-01-FREEZE-REPORT.md) |
 | DOC-RPT-197 | EPIC-08 REQ-02 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-02-FREEZE-REPORT.md](./EPIC-08-REQ-02-FREEZE-REPORT.md) |
 | DOC-RPT-201 | EPIC-08 REQ-03 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-03-FREEZE-REPORT.md](./EPIC-08-REQ-03-FREEZE-REPORT.md) |
 | DOC-RPT-206 | EPIC-08 REQ-04 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-04-FREEZE-REPORT.md](./EPIC-08-REQ-04-FREEZE-REPORT.md) |
 | DOC-RPT-207 | EPIC-08 REQ-05 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md](./EPIC-08-REQ-05-EXECUTION-REPORT.md) |
+| DOC-RPT-210 | EPIC-08 Residual Backlog Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-RESIDUAL-BACKLOG-REGISTER.md](./EPIC-08-RESIDUAL-BACKLOG-REGISTER.md) |
 | DOC-RPT-203 | EPIC-08 Residual Flow Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md](./EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md) |
 | DOC-RPT-195 | EPIC-08 Status Evidence Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md](./EPIC-08-STATUS-EVIDENCE-MATRIX.md) |
 | DOC-RPT-205 | EPIC-08 Traceability Remediation Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md](./EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md) |

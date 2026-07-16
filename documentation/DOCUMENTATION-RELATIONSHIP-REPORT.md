@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 959
+- Graph nodes: 963
 - Declared relationships: 421
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 752
+- Orphan documents: 756
 - Cycles: 13
 
 ## Relationship Counts
@@ -670,17 +670,21 @@ None.
 - documentation/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md
 - documentation/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md
 - documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md
+- documentation/EPIC-08-CLOSURE-REPORT.md
+- documentation/EPIC-08-CROSS-CORE-COHERENCE-AUDIT.md
 - documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md
 - documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md
 - documentation/EPIC-08-DEPENDENCY-REGISTER.md
 - documentation/EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md
 - documentation/EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md
 - documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md
+- documentation/EPIC-08-MATURITY-AND-TRACEABILITY-SCORECARD.md
 - documentation/EPIC-08-REQ-01-FREEZE-REPORT.md
 - documentation/EPIC-08-REQ-02-FREEZE-REPORT.md
 - documentation/EPIC-08-REQ-03-FREEZE-REPORT.md
 - documentation/EPIC-08-REQ-04-FREEZE-REPORT.md
 - documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md
+- documentation/EPIC-08-RESIDUAL-BACKLOG-REGISTER.md
 - documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md
 - documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md
 - documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md

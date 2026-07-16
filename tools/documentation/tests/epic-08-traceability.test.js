@@ -160,3 +160,33 @@ test('EPIC-08 REQ-05 public pages implement the exact frozen traceability manife
   assert.equal(acsBusiness.metadata.document_id, 'ACS-GDE-003')
   assert.equal(acsBusiness.metadata.production_gate_impact, 'PRESERVES_CLOSED')
 })
+
+test('EPIC-08 REQ-06 closes with dimensional maturity and governed gaps', async () => {
+  const reports = [
+    ['documentation/EPIC-08-MATURITY-AND-TRACEABILITY-SCORECARD.md', 'DOC-RPT-208'],
+    ['documentation/EPIC-08-CROSS-CORE-COHERENCE-AUDIT.md', 'DOC-RPT-209'],
+    ['documentation/EPIC-08-RESIDUAL-BACKLOG-REGISTER.md', 'DOC-RPT-210'],
+    ['documentation/EPIC-08-CLOSURE-REPORT.md', 'DOC-RPT-211'],
+  ]
+  for (const [path, id] of reports) {
+    const document = await loadDocument(resolve(root, path), { root })
+    assert.equal(document.metadata.document_id, id)
+    assert.deepEqual(document.metadata.relationships, [])
+  }
+
+  const scorecard = await read(reports[0][0])
+  for (const dimension of [
+    'Concept', 'Architecture', 'Governance', 'Execution', 'Status', 'Boundary',
+    'Integration', 'Traceability', 'Evidence',
+  ]) assert.match(scorecard, new RegExp(dimension))
+  assert.match(scorecard, /`T4`/)
+  assert.doesNotMatch(scorecard, /single global maturity: `M[0-5]`/)
+
+  const backlog = await read(reports[2][0])
+  const backlogIds = [...backlog.matchAll(/^\| `(BACK-EP8-\d{4})` \|/gm)]
+  assert.equal(backlogIds.length, 14)
+
+  const closure = await read(reports[3][0])
+  assert.match(closure, /PASS_CLOSED_WITH_GOVERNED_TRACEABILITY_AND_MATURITY_GAPS/)
+  assert.match(closure, /REQ-06 public `docs\/` changes: `0`/)
+})
