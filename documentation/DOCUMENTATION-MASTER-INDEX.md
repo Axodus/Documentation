@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-15T00:00:00Z
-Source Documents: 941
+Generated At: 2026-07-16T00:00:00Z
+Source Documents: 945
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 941
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 941 |
-| Canonical documents | 348 |
+| Total source documents | 945 |
+| Canonical documents | 352 |
 | Legacy documents | 579 |
 | Template documents | 14 |
 | Declared relationships | 419 |
@@ -42,7 +42,7 @@ Source Documents: 941
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 190 |
+| REPORT | 194 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -57,8 +57,8 @@ Source Documents: 941
 | COMPONENT | 2 |
 | CORE | 242 |
 | MODULE | 1 |
-| PORTFOLIO | 20 |
-| PROJECT | 97 |
+| PORTFOLIO | 22 |
+| PROJECT | 99 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 941
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 189 |
+| DRAFT | 193 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -350,6 +350,10 @@ Source Documents: 941
 | DOC-RPT-188 | EPIC-07 Residual Fidelity Backlog | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md](./EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md) |
 | DOC-RPT-171 | EPIC-07 Runtime Boundary Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md](./EPIC-07-RUNTIME-BOUNDARY-MATRIX.md) |
 | DOC-RPT-158 | EPIC-07 Source Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-07-SOURCE-REGISTER.md](./EPIC-07-SOURCE-REGISTER.md) |
+| DOC-RPT-190 | EPIC-08 Cross-Core Integration Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md](./EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md) |
+| DOC-RPT-191 | EPIC-08 Dependency Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-DEPENDENCY-REGISTER.md](./EPIC-08-DEPENDENCY-REGISTER.md) |
+| DOC-RPT-192 | EPIC-08 Integration Contradiction Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md](./EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md) |
+| DOC-RPT-193 | EPIC-08 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-01-FREEZE-REPORT.md](./EPIC-08-REQ-01-FREEZE-REPORT.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |
 | DOC-RPT-090 | Institutional Controlled Intake Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md) |

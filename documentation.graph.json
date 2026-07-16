@@ -244,7 +244,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-15T00:00:00Z",
+  "generated_at": "2026-07-16T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -6735,6 +6735,46 @@
       "title": "EPIC-07 Closure Report"
     },
     {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-190",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-190",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md",
+      "title": "EPIC-08 Cross-Core Integration Matrix"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-191",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-191",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-DEPENDENCY-REGISTER.md",
+      "title": "EPIC-08 Dependency Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-192",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-192",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md",
+      "title": "EPIC-08 Integration Contradiction Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-193",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-193",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-REQ-01-FREEZE-REPORT.md",
+      "title": "EPIC-08 REQ-01 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10282,6 +10322,10 @@
     "documentation/EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md",
     "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
     "documentation/EPIC-07-SOURCE-REGISTER.md",
+    "documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md",
+    "documentation/EPIC-08-DEPENDENCY-REGISTER.md",
+    "documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md",
+    "documentation/EPIC-08-REQ-01-FREEZE-REPORT.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
     "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11214,6 +11258,10 @@
       "documentation/EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md",
       "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
       "documentation/EPIC-07-SOURCE-REGISTER.md",
+      "documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md",
+      "documentation/EPIC-08-DEPENDENCY-REGISTER.md",
+      "documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md",
+      "documentation/EPIC-08-REQ-01-FREEZE-REPORT.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
       "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11710,7 +11758,11 @@
       "DOC-RPT-186",
       "DOC-RPT-187",
       "DOC-RPT-188",
-      "DOC-RPT-189"
+      "DOC-RPT-189",
+      "DOC-RPT-190",
+      "DOC-RPT-191",
+      "DOC-RPT-192",
+      "DOC-RPT-193"
     ]
   },
   "relationship_counts": {
