@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 963,
+  "document_count": 964,
   "documents": [
     {
       "aliases": [],
@@ -16211,6 +16211,31 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.UX",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-212",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-08",
+        "DOCUMENTATION-UX-REQ-01",
+        "DOCUMENTATION-UX-REQ-02",
+        "DOCUMENTATION-UX-REQ-03"
+      ],
+      "sha256": "68a0f40d200b7d2573501717e81918ee35e7b4085635c5142d66fa34cb7facdf",
+      "source_path": "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation UX Sprint 01 Closure Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION",
       "classification": "CANONICAL",
@@ -24090,7 +24115,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 371,
+    "compliant_documents": 372,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24098,12 +24123,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 110,
+      "PROJECT": 111,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 287,
+      "D2": 288,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24125,7 +24150,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 259,
+      "Axodus Documentation Core": 260,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24147,7 +24172,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 212,
+      "DRAFT": 213,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24160,7 +24185,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 212,
+      "REPORT": 213,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24173,6 +24198,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 963
+    "total_documents": 964
   }
 }
