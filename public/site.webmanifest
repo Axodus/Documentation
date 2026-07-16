@@ -1,0 +1,23 @@
+{
+  "name": "Axodus Documentation",
+  "short_name": "Axodus Docs",
+  "description": "Governed documentation for the Axodus ecosystem.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e2636",
+  "theme_color": "#1e2636",
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "sizes": "192x186",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo512.png",
+      "sizes": "512x496",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

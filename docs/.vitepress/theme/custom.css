@@ -50,6 +50,22 @@ body {
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
+.VPNavBarTitle .logo {
+  width: 116px;
+  height: auto;
+  max-height: none;
+  border: 1px solid rgba(92, 198, 208, 0.24);
+  border-radius: 4px;
+  padding: 7px 9px;
+  background: #172033;
+  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.12);
+}
+
+.VPNavBarTitle .title:focus-visible .logo {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
+}
+
 .VPNavBar.has-sidebar .content {
   background-color: color-mix(in srgb, var(--vp-c-bg) 90%, transparent);
   backdrop-filter: blur(14px);
@@ -548,6 +564,11 @@ body {
 }
 
 @media (max-width: 640px) {
+  .VPNavBarTitle .logo {
+    width: 104px;
+    padding: 6px 8px;
+  }
+
   .axodus-home-page .VPHomeContent .container {
     padding: 54px 20px 68px;
   }

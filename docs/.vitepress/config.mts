@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath } from 'node:url'
 import { pageStatusPlugin } from './theme/statusPlugin'
 
 const overviewItems = [
@@ -312,6 +313,9 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
   lastUpdated: true,
+  vite: {
+    publicDir: fileURLToPath(new URL('../../public', import.meta.url))
+  },
   transformPageData(pageData) {
     if (pageData.relativePath === 'index.md') {
       pageData.frontmatter.layout = 'home'
@@ -321,15 +325,28 @@ export default defineConfig({
     }
   },
   head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '192x186', href: '/logo192.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/logo192.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#1e2636' }],
+    ['meta', { name: 'application-name', content: 'Axodus Documentation' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Axodus Docs' }],
     ['meta', { property: 'og:title', content: 'Axodus Documentation' }],
     ['meta', { property: 'og:description', content: 'Governed infrastructure for coordinating knowledge, decisions, services, products, and ecosystem execution.' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://axodus-documentation.vercel.app/' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }]
+    ['meta', { property: 'og:image', content: 'https://axodus-documentation.vercel.app/logo512.png' }],
+    ['meta', { property: 'og:image:alt', content: 'Axodus brand mark' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:image', content: 'https://axodus-documentation.vercel.app/logo512.png' }]
   ],
   themeConfig: {
-    siteTitle: 'Axodus',
+    logo: {
+      src: '/logo.png',
+      alt: 'Axodus'
+    },
+    siteTitle: false,
     nav: [
       { text: 'Overview', link: '/' },
       { text: 'Governance', items: [
