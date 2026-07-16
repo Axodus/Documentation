@@ -6775,6 +6775,46 @@
       "title": "EPIC-08 REQ-01 Freeze Report"
     },
     {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-194",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-194",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md",
+      "title": "EPIC-08 Claim Traceability Register"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-195",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-195",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
+      "title": "EPIC-08 Status Evidence Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-196",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-196",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md",
+      "title": "EPIC-08 Unsupported Claim Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-197",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-197",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-08-REQ-02-FREEZE-REPORT.md",
+      "title": "EPIC-08 REQ-02 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10322,10 +10362,14 @@
     "documentation/EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md",
     "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
     "documentation/EPIC-07-SOURCE-REGISTER.md",
+    "documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md",
     "documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md",
     "documentation/EPIC-08-DEPENDENCY-REGISTER.md",
     "documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md",
     "documentation/EPIC-08-REQ-01-FREEZE-REPORT.md",
+    "documentation/EPIC-08-REQ-02-FREEZE-REPORT.md",
+    "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
+    "documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
     "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11258,10 +11302,14 @@
       "documentation/EPIC-07-RESIDUAL-FIDELITY-BACKLOG.md",
       "documentation/EPIC-07-RUNTIME-BOUNDARY-MATRIX.md",
       "documentation/EPIC-07-SOURCE-REGISTER.md",
+      "documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md",
       "documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md",
       "documentation/EPIC-08-DEPENDENCY-REGISTER.md",
       "documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md",
       "documentation/EPIC-08-REQ-01-FREEZE-REPORT.md",
+      "documentation/EPIC-08-REQ-02-FREEZE-REPORT.md",
+      "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
+      "documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
       "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11762,7 +11810,11 @@
       "DOC-RPT-190",
       "DOC-RPT-191",
       "DOC-RPT-192",
-      "DOC-RPT-193"
+      "DOC-RPT-193",
+      "DOC-RPT-194",
+      "DOC-RPT-195",
+      "DOC-RPT-196",
+      "DOC-RPT-197"
     ]
   },
   "relationship_counts": {

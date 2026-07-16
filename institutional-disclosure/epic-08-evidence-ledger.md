@@ -21,6 +21,7 @@ personal data.
 | `EVID-EP8-0002` | `DOCUMENTATION_DECISION` | `Axodus/Documentation` | `b1402eceb2e3e82bb277bc261370326162a9f078` | EPIC-07 model and closure records | Concept, architecture, authority, eleven flows, six incomplete flows, and residual boundaries are frozen inputs. | `PUBLIC_SAFE` |
 | `EVID-EP8-0003` | `COMMIT_EXISTENCE_VERIFICATION` | frozen EPIC-07 repositories | EPIC-07 source register revisions | 18 external repositories | Every frozen evidence commit exists and each repository HEAD remains at the recorded revision. | `INTERNAL_REFERENCE_PUBLIC_CONCLUSION_SAFE` |
 | `EVID-EP8-0004` | `CORPUS_TRACEABILITY_SCAN` | `Axodus/Documentation` | `b1402eceb2e3e82bb277bc261370326162a9f078` | 269 pages and 36 minimum pair families | Material integration claims are unevenly represented and require bilateral classification. | `PUBLIC_SAFE_WITH_QUALIFICATION` |
+| `EVID-EP8-0005` | `MATERIAL_CLAIM_SCAN` | `Axodus/Documentation` | `046dd7d` | 269 public Markdown pages | Status-sensitive terms and material claims were scanned across the complete corpus and classified by canonical evidence and boundary. | `PUBLIC_SAFE_WITH_QUALIFICATION` |
 
 ## Handling Rules
 

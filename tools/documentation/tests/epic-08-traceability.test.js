@@ -14,6 +14,13 @@ const req01Reports = [
   ['documentation/EPIC-08-REQ-01-FREEZE-REPORT.md', 'DOC-RPT-193'],
 ]
 
+const req02Reports = [
+  ['documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md', 'DOC-RPT-194'],
+  ['documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md', 'DOC-RPT-195'],
+  ['documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md', 'DOC-RPT-196'],
+  ['documentation/EPIC-08-REQ-02-FREEZE-REPORT.md', 'DOC-RPT-197'],
+]
+
 test('EPIC-08 REQ-01 reports are canonical and monotonically identified', async () => {
   for (const [path, id] of req01Reports) {
     const document = await loadDocument(resolve(root, path), { root })
@@ -51,4 +58,27 @@ test('EPIC-08 private evidence ledger is marked and excluded from public outputs
   const graph = await read('documentation.graph.json')
   assert.doesNotMatch(manifest, /epic-08-evidence-ledger/)
   assert.doesNotMatch(graph, /epic-08-evidence-ledger/)
+})
+
+test('EPIC-08 REQ-02 claim and status objects are complete and unique', async () => {
+  for (const [path, id] of req02Reports) {
+    const document = await loadDocument(resolve(root, path), { root })
+    assert.equal(document.metadata.document_id, id)
+    assert.deepEqual(document.metadata.relationships, [])
+  }
+
+  const claims = await read(req02Reports[0][0])
+  const claimIds = [...claims.matchAll(/^\| `(CLAIM-EP8-\d{4})` \|/gm)].map((match) => match[1])
+  assert.equal(claimIds.length, 32)
+  assert.equal(new Set(claimIds).size, 32)
+  for (const category of [
+    'IDENTITY', 'PRODUCT', 'ARCHITECTURE', 'GOVERNANCE', 'AUTHORITY',
+    'EXECUTION', 'RUNTIME', 'TOKENOMICS', 'TREASURY', 'FINANCIAL',
+    'SECURITY', 'COMPLIANCE', 'PRODUCTION', 'ACTIVATION',
+  ]) assert.match(claims, new RegExp('\\| `' + category + '` \\|'))
+
+  const statuses = await read(req02Reports[1][0])
+  const statusIds = [...statuses.matchAll(/^\| `(STAT-EP8-\d{4})` \|/gm)].map((match) => match[1])
+  assert.equal(statusIds.length, 14)
+  assert.equal(new Set(statusIds).size, 14)
 })
