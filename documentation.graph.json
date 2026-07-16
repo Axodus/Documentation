@@ -7025,6 +7025,16 @@
       "title": "Documentation Page Status Register"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-218",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-218",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-UX-BADGE-REVIEW.md",
+      "title": "Documentation UX Badge Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10495,6 +10505,7 @@
     "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
     "documentation/DOCUMENTATION-STATUS-MAPPING.md",
     "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
+    "documentation/DOCUMENTATION-UX-BADGE-REVIEW.md",
     "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
     "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
     "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
@@ -11454,6 +11465,7 @@
       "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
       "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
+      "documentation/DOCUMENTATION-UX-BADGE-REVIEW.md",
       "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
       "documentation/DOCUMENTATION-VALIDATION-RULES.md",
       "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
@@ -12074,7 +12086,8 @@
       "DOC-RPT-214",
       "DOC-RPT-215",
       "DOC-RPT-216",
-      "DOC-RPT-217"
+      "DOC-RPT-217",
+      "DOC-RPT-218"
     ]
   },
   "relationship_counts": {

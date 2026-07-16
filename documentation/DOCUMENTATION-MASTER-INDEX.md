@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 969
+Source Documents: 970
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 969
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 969 |
-| Canonical documents | 377 |
+| Total source documents | 970 |
+| Canonical documents | 378 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 969
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 218 |
+| REPORT | 219 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 969
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 116 |
+| PROJECT | 117 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 969
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 218 |
+| DRAFT | 219 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -284,6 +284,7 @@ Source Documents: 969
 | DOC-RPT-213 | Documentation Status Taxonomy Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md](./DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md) |
 | DOC-RPT-043 | Documentation Traceability Depth Baseline | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md](./DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md](./DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
+| DOC-RPT-218 | Documentation UX Badge Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-UX-BADGE-REVIEW.md](./DOCUMENTATION-UX-BADGE-REVIEW.md) |
 | DOC-RPT-212 | Documentation UX Sprint 01 Closure Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md](./DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md) |
 | DOC-REF-003 | Documentation Validation Rules | REFERENCE | ACTIVE | CORE | 1.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-VALIDATION-RULES.md](./DOCUMENTATION-VALIDATION-RULES.md) |
 | DOC-RPT-065 | Epic 03 Batch 04 Acceptance Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md](./EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md) |
