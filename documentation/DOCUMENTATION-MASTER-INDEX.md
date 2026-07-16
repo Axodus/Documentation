@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 967
+Source Documents: 968
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 967
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 967 |
-| Canonical documents | 375 |
+| Total source documents | 968 |
+| Canonical documents | 376 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 967
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 216 |
+| REPORT | 217 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 967
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 114 |
+| PROJECT | 115 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 967
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 216 |
+| DRAFT | 217 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -201,6 +201,7 @@ Source Documents: 967
 | DOC-RPT-080 | Cross-Repository Terminology Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md](./CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md) |
 | DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-ADOPTION-METRICS.md](./DOCUMENTATION-ADOPTION-METRICS.md) |
 | DOC-RPT-214 | Documentation Badge Coverage Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md](./DOCUMENTATION-BADGE-COVERAGE-MATRIX.md) |
+| DOC-RPT-216 | Documentation Badge Taxonomy Freeze | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md](./DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BASELINE-POLICY.md](./DOCUMENTATION-BASELINE-POLICY.md) |
 | DOC-RPT-012 | Documentation Batch 01 Acceptance Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md](./DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md) |
 | DOC-RPT-006 | Documentation Batch 01 Authority Evidence | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md](./DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md) |

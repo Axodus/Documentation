@@ -7005,6 +7005,16 @@
       "title": "Documentation Status Mapping"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-216",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-216",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md",
+      "title": "Documentation Badge Taxonomy Freeze"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10470,6 +10480,7 @@
     "documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
     "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
+    "documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md",
     "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
     "documentation/DOCUMENTATION-STATUS-MAPPING.md",
     "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
@@ -11349,6 +11360,7 @@
       "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "documentation/DOCUMENTATION-ADR-INDEX.md",
       "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
+      "documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md",
       "documentation/DOCUMENTATION-BASELINE-POLICY.md",
       "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
       "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
@@ -12048,7 +12060,8 @@
       "DOC-RPT-212",
       "DOC-RPT-213",
       "DOC-RPT-214",
-      "DOC-RPT-215"
+      "DOC-RPT-215",
+      "DOC-RPT-216"
     ]
   },
   "relationship_counts": {

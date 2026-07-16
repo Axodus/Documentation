@@ -12,7 +12,7 @@ test('DOCUMENTATION markdown artifacts live under documentation directory', asyn
   const rootEntries = await readdir(root)
   const documentationEntries = await readdir(resolve(root, 'documentation'))
   assert.deepEqual(rootEntries.filter((entry) => rootDocumentationPattern.test(entry)).sort(), [])
-  assert.equal(documentationEntries.filter((entry) => rootDocumentationPattern.test(entry)).length, 90)
+  assert.equal(documentationEntries.filter((entry) => rootDocumentationPattern.test(entry)).length, 91)
 })
 
 test('generated DOCUMENTATION markdown artifacts use documentation paths', async () => {
