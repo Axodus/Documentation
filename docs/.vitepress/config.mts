@@ -307,14 +307,22 @@ const referenceItems = [
 
 export default defineConfig({
   title: 'Axodus Documentation',
-  description: 'Governed DeFi infrastructure, treasury coordination, education, token utility, and modular product nuclei.',
+  description: 'Governed infrastructure for coordinating knowledge, decisions, services, products, and ecosystem execution.',
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
   lastUpdated: true,
+  transformPageData(pageData) {
+    if (pageData.relativePath === 'index.md') {
+      pageData.frontmatter.layout = 'home'
+      pageData.frontmatter.sidebar = false
+      pageData.frontmatter.aside = false
+      pageData.frontmatter.pageClass = 'axodus-home-page'
+    }
+  },
   head: [
     ['meta', { name: 'theme-color', content: '#1e2636' }],
     ['meta', { property: 'og:title', content: 'Axodus Documentation' }],
-    ['meta', { property: 'og:description', content: 'Governed DeFi infrastructure, treasury coordination, education, token utility, and modular product nuclei.' }],
+    ['meta', { property: 'og:description', content: 'Governed infrastructure for coordinating knowledge, decisions, services, products, and ecosystem execution.' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://axodus-documentation.vercel.app/' }],
     ['meta', { name: 'twitter:card', content: 'summary' }]
