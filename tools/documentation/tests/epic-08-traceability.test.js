@@ -21,6 +21,13 @@ const req02Reports = [
   ['documentation/EPIC-08-REQ-02-FREEZE-REPORT.md', 'DOC-RPT-197'],
 ]
 
+const req03Reports = [
+  ['documentation/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md', 'DOC-RPT-198'],
+  ['documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md', 'DOC-RPT-199'],
+  ['documentation/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md', 'DOC-RPT-200'],
+  ['documentation/EPIC-08-REQ-03-FREEZE-REPORT.md', 'DOC-RPT-201'],
+]
+
 test('EPIC-08 REQ-01 reports are canonical and monotonically identified', async () => {
   for (const [path, id] of req01Reports) {
     const document = await loadDocument(resolve(root, path), { root })
@@ -81,4 +88,23 @@ test('EPIC-08 REQ-02 claim and status objects are complete and unique', async ()
   const statusIds = [...statuses.matchAll(/^\| `(STAT-EP8-\d{4})` \|/gm)].map((match) => match[1])
   assert.equal(statusIds.length, 14)
   assert.equal(new Set(statusIds).size, 14)
+})
+
+test('EPIC-08 REQ-03 authority objects cover every required action class', async () => {
+  for (const [path, id] of req03Reports) {
+    const document = await loadDocument(resolve(root, path), { root })
+    assert.equal(document.metadata.document_id, id)
+    assert.deepEqual(document.metadata.relationships, [])
+  }
+
+  const matrix = await read(req03Reports[0][0])
+  const authorityIds = [...matrix.matchAll(/^\| `(AUTH-EP8-\d{4})` \|/gm)].map((match) => match[1])
+  assert.equal(authorityIds.length, 14)
+  assert.equal(new Set(authorityIds).size, 14)
+  for (const state of [
+    'FORMALLY_GRANTED_NOT_ACTIVATED', 'IMPLEMENTED_WITHOUT_AUTHORITY',
+    'OWNER_DEFINED_PENDING_DECISION', 'OBSERVATIONAL_ONLY',
+    'UNRESOLVED_AUTHORITY',
+  ]) assert.match(matrix, new RegExp(state))
+  assert.match(matrix, /CONSULTATIVE_ONLY/)
 })

@@ -10549,6 +10549,24 @@
       "source_path": "documentation/EPIC-07-SOURCE-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-200",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-198",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md"
+    },
+    {
       "document_id": "DOC-RPT-194",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10565,6 +10583,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md"
+    },
+    {
+      "document_id": "DOC-RPT-199",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md"
     },
     {
       "document_id": "DOC-RPT-191",
@@ -10601,6 +10628,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-08-REQ-02-FREEZE-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-201",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-08-REQ-03-FREEZE-REPORT.md"
     },
     {
       "document_id": "DOC-RPT-195",
@@ -12014,7 +12050,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1333,
+    "info": 1337,
     "invalid_exceptions": 0,
     "known_legacy": 543,
     "legacy_documents": 579,
@@ -12026,16 +12062,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 949,
+    "total_documents": 953,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 356,
+    "validated_documents": 360,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 356,
+  "validated_documents": 360,
   "validation_version": "1.1.0",
   "warnings": 0
 }

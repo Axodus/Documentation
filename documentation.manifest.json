@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 949,
+  "document_count": 953,
   "documents": [
     {
       "aliases": [],
@@ -17969,6 +17969,52 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_08",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-200",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-08",
+        "DOCUMENTATION-EPIC-08-REQ-03"
+      ],
+      "sha256": "2c331a90ef2944e69353111880190dfbd0e4314a7fc390bd21cce97f23a2b140",
+      "source_path": "documentation/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-08 Authority Conflict Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "DOCUMENTATION.EPIC_08",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-198",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-08",
+        "DOCUMENTATION-EPIC-08-REQ-03"
+      ],
+      "sha256": "838b522be3ff17a918b7e5abca2ed990cbd848da7f6422e1a531054dff3e9506",
+      "source_path": "documentation/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-08 Authority Traceability Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "PORTFOLIO",
       "authority_scope": "DOCUMENTATION.EPIC_08",
       "classification": "CANONICAL",
@@ -18011,6 +18057,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-08 Cross-Core Integration Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "DOCUMENTATION.EPIC_08",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-199",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-08",
+        "DOCUMENTATION-EPIC-08-REQ-03"
+      ],
+      "sha256": "75351320859d00db101b4ea6d32311f6181c490a596a578467b2134163e58e79",
+      "source_path": "documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-08 Decision to Execution Register",
       "version": "1.0.0"
     },
     {
@@ -18103,6 +18172,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-08 REQ-02 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_08",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-201",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-08",
+        "DOCUMENTATION-EPIC-08-REQ-03"
+      ],
+      "sha256": "ef7625883db65fdd63d9aba1eddf135899eee6ca6d5f9446c2d67222bef27a50",
+      "source_path": "documentation/EPIC-08-REQ-03-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-08 REQ-03 Freeze Report",
       "version": "1.0.0"
     },
     {
@@ -23750,20 +23842,20 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 356,
+    "compliant_documents": 360,
     "declared_relationships": 419,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 242,
       "MODULE": 1,
-      "PORTFOLIO": 24,
-      "PROJECT": 101,
+      "PORTFOLIO": 26,
+      "PROJECT": 103,
       "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 272,
+      "D2": 276,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 579
@@ -23781,11 +23873,11 @@
       "Axodus Business": 7,
       "Axodus Business / ACS": 1,
       "Axodus Business / Governance": 2,
-      "Axodus Core": 24,
+      "Axodus Core": 26,
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 250,
+      "Axodus Documentation Core": 252,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -23807,7 +23899,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 197,
+      "DRAFT": 201,
       "UNSPECIFIED": 579
     },
     "documents_by_type": {
@@ -23820,7 +23912,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 198,
+      "REPORT": 202,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -23833,6 +23925,6 @@
     "generated_documents": 8,
     "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 949
+    "total_documents": 953
   }
 }
