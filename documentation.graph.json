@@ -7015,6 +7015,16 @@
       "title": "Documentation Badge Taxonomy Freeze"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-217",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-217",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md",
+      "title": "Documentation Page Status Register"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10481,6 +10491,7 @@
     "documentation/DOCUMENTATION-ADR-INDEX.md",
     "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
     "documentation/DOCUMENTATION-BADGE-TAXONOMY-FREEZE.md",
+    "documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md",
     "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
     "documentation/DOCUMENTATION-STATUS-MAPPING.md",
     "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
@@ -11434,6 +11445,7 @@
       "documentation/DOCUMENTATION-MIGRATION-CRITERIA.md",
       "documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md",
       "documentation/DOCUMENTATION-MIGRATION-WAVE-01.md",
+      "documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md",
       "documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md",
       "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
@@ -12061,7 +12073,8 @@
       "DOC-RPT-213",
       "DOC-RPT-214",
       "DOC-RPT-215",
-      "DOC-RPT-216"
+      "DOC-RPT-216",
+      "DOC-RPT-217"
     ]
   },
   "relationship_counts": {

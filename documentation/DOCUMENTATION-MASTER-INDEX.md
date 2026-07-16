@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 968
+Source Documents: 969
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 968
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 968 |
-| Canonical documents | 376 |
+| Total source documents | 969 |
+| Canonical documents | 377 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 968
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 217 |
+| REPORT | 218 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 968
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 115 |
+| PROJECT | 116 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 968
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 217 |
+| DRAFT | 218 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -275,6 +275,7 @@ Source Documents: 968
 | DOC-STD-002 | Documentation Migration Criteria | STANDARD | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-MIGRATION-CRITERIA.md](./DOCUMENTATION-MIGRATION-CRITERIA.md) |
 | DOC-PLAY-001 | Documentation Migration Playbook | PLAYBOOK | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md](./DOCUMENTATION-MIGRATION-PLAYBOOK.md) |
 | DOC-RPT-001 | Documentation Migration Wave 01 | REPORT | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-MIGRATION-WAVE-01.md](./DOCUMENTATION-MIGRATION-WAVE-01.md) |
+| DOC-RPT-217 | Documentation Page Status Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md](./DOCUMENTATION-PAGE-STATUS-REGISTER.md) |
 | DOC-ROAD-008 | Documentation Post Epic 02 Backlog | ROADMAP | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-POST-EPIC-02-BACKLOG.md](./DOCUMENTATION-POST-EPIC-02-BACKLOG.md) |
 | DOC-RPT-045 | Documentation Repository Sanitization Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md](./DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md) |
 | DOC-RPT-129 | Documentation Sprint 05 Closure | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md](./DOCUMENTATION-SPRINT-05-CLOSURE.md) |
