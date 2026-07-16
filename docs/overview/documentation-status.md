@@ -47,11 +47,16 @@ This page explains how to interpret maturity labels across Axodus documentation.
 | --- | --- |
 | <PageStatusBadge status="Draft" compact /> | The page is being actively developed and should not be treated as a final production specification. |
 | <PageStatusBadge status="Planned" compact /> | The capability is part of the roadmap or design direction, but implementation is not confirmed. |
-| <PageStatusBadge status="Needs Review" compact /> | The page requires domain, governance, security, or implementation review before it can be relied on. |
 | <PageStatusBadge status="Prototype" compact /> | The capability may exist in an experimental form and should not be treated as production-ready. |
 | <PageStatusBadge status="Testnet" compact /> | The capability may be validated in non-production environments only. |
 | <PageStatusBadge status="Active if Verified" compact /> | The capability may be active only when supported by implementation evidence, governance records, and current deployment context. |
 | <PageStatusBadge status="Deprecated" compact /> | The page or concept is retained for reference but should not guide current implementation. |
+| <PageStatusBadge status="Canonical" compact /> | The page is a current official part of the public corpus; this does not assert implementation or production maturity. |
+| <PageStatusBadge status="Reference" compact /> | The page provides navigation or supporting context and is not thereby optional, orphaned, or lower authority. |
+| <PageStatusBadge status="Governed" compact /> | The page is explicitly classified as a documentary control surface; this does not activate governance execution. |
+| <PageStatusBadge status="Baseline" compact /> | The page records a conceptual or documentary line of record, not a deployed system baseline. |
+| <PageStatusBadge status="Review Required" compact /> | The page requires classification, domain, governance, security, or implementation review. |
+| <PageStatusBadge status="Legacy" compact /> | The page is retained for compatibility or history and should not guide current implementation. |
 
 ## Interpretation Rule
 
@@ -60,3 +65,7 @@ If a page does not clearly state that a system is active and verified, readers s
 ## Documentation Boundaries
 
 Documentation status does not replace security review, governance approval, legal review, deployment records, audit records, or operational acceptance.
+
+`Canonical`, `Reference`, `Governed`, and `Baseline` describe documentary
+posture. They must not be interpreted as active, implemented, operational,
+production-ready, financially enabled, legally approved, or security validated.

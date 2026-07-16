@@ -464,11 +464,16 @@ body {
 
 .status-draft { border-color: #7c8798; background: rgba(100, 116, 139, 0.12); }
 .status-planned { border-color: #3b82b8; background: rgba(14, 116, 144, 0.12); }
-.status-needs-review { border-color: #b7791f; background: rgba(180, 83, 9, 0.12); }
 .status-prototype { border-color: #8862a9; background: rgba(126, 86, 153, 0.12); }
 .status-testnet { border-color: #158b9d; background: rgba(8, 145, 178, 0.12); }
 .status-active-if-verified { border-color: #16806f; background: rgba(13, 148, 136, 0.12); }
 .status-deprecated { border-color: #b45b62; background: rgba(185, 28, 28, 0.1); text-decoration: line-through; }
+.status-canonical { border-color: #0f766e; background: rgba(15, 118, 110, 0.12); }
+.status-reference { border-color: #64748b; background: rgba(100, 116, 139, 0.1); }
+.status-governed { border-color: #2563a5; background: rgba(37, 99, 165, 0.11); }
+.status-baseline { border-color: #76539b; background: rgba(118, 83, 155, 0.11); }
+.status-review-required { border-color: #b7791f; background: rgba(180, 83, 9, 0.12); }
+.status-legacy { border-color: #80644d; background: rgba(128, 100, 77, 0.12); }
 
 .ux-legend-link {
   margin: 20px 0 0;

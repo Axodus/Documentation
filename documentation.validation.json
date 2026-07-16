@@ -12161,10 +12161,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "templates/README.md"
     }
@@ -12176,7 +12176,7 @@
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
     "baseline_entries": 563,
-    "changed_legacy": 15,
+    "changed_legacy": 16,
     "defer_with_risk_dispositions": 42,
     "disposition_entries": 563,
     "disposition_registry_valid": true,
@@ -12187,7 +12187,7 @@
     "governed_dispositions": 563,
     "info": 1352,
     "invalid_exceptions": 0,
-    "known_legacy": 529,
+    "known_legacy": 528,
     "legacy_documents": 578,
     "migrate_dispositions": 177,
     "relationships": 421,

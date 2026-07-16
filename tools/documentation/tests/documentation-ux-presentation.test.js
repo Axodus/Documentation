@@ -27,20 +27,24 @@ test('public corpus status audit never assigns a silent default', () => {
 
   for (const file of files) {
     const parsed = matter(readFileSync(file, 'utf8'))
+    const relativePath = path.relative(docsRoot, file).split(path.sep).join('/')
     const resolution = resolveDisplayStatus({
       ...parsed.data,
       legacy_status: legacyStatus(parsed.content)
-    })
+    }, relativePath)
     const key = resolution.state === 'RESOLVED' ? resolution.status : resolution.reason
     audit.set(key, (audit.get(key) ?? 0) + 1)
   }
 
   assert.equal(files.length, 269)
   assert.equal(audit.get('Draft'), 161)
-  assert.equal(audit.get('Planned'), 1)
-  assert.equal(audit.get('Needs Review'), 2)
-  assert.equal(audit.get('UNSUPPORTED_METADATA'), 86)
-  assert.equal(audit.get('MISSING_METADATA'), 19)
+  assert.equal(audit.get('Planned'), 2)
+  assert.equal(audit.get('Review Required'), 2)
+  assert.equal(audit.get('Canonical'), 84)
+  assert.equal(audit.get('Reference'), 19)
+  assert.equal(audit.get('Baseline'), 1)
+  assert.equal(audit.get('UNSUPPORTED_METADATA') ?? 0, 0)
+  assert.equal(audit.get('MISSING_METADATA') ?? 0, 0)
   assert.equal([...audit.values()].reduce((total, count) => total + count, 0), files.length)
 })
 
@@ -143,5 +147,5 @@ test('frontpage preserves the frozen hierarchy and responsive presentation', () 
 test('status reference uses the global component for every official label', () => {
   const statusPage = readFileSync(path.join(docsRoot, 'overview/documentation-status.md'), 'utf8')
   const badges = statusPage.match(/<PageStatusBadge status="[^"]+" compact \/>/g) ?? []
-  assert.equal(badges.length, 7)
+  assert.equal(badges.length, 12)
 })

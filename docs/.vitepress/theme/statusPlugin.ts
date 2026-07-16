@@ -77,7 +77,7 @@ export function pageStatusPlugin(md: MarkdownItLike): void {
       ...(state.env?.frontmatter ?? {}),
       legacy_status: legacyStatus
     }
-    const resolution = resolveDisplayStatus(metadata)
+    const resolution = resolveDisplayStatus(metadata, relativePath)
     const badgeToken = new state.Token('html_block', '', 0)
 
     if (resolution.state === 'RESOLVED') {

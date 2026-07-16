@@ -16,15 +16,20 @@ const root = new URL('../../../', import.meta.url)
 const componentSource = readFileSync(new URL('docs/.vitepress/theme/components/PageStatusBadge.vue', root), 'utf8')
 const cssSource = readFileSync(new URL('docs/.vitepress/theme/custom.css', root), 'utf8')
 
-test('status resolver supports exactly the seven official labels', () => {
+test('status resolver supports exactly the twelve frozen labels', () => {
   assert.deepEqual(DISPLAY_STATUSES, [
     'Draft',
     'Planned',
-    'Needs Review',
     'Prototype',
     'Testnet',
     'Active if Verified',
-    'Deprecated'
+    'Deprecated',
+    'Canonical',
+    'Reference',
+    'Governed',
+    'Baseline',
+    'Review Required',
+    'Legacy'
   ])
 
   for (const status of DISPLAY_STATUSES) {
@@ -39,10 +44,16 @@ test('status resolver supports exactly the seven official labels', () => {
 
 test('status resolver maps only unambiguous publication states', () => {
   assert.equal(resolveDisplayStatus({ publication_status: 'DRAFT' }).status, 'Draft')
-  assert.equal(resolveDisplayStatus({ publication_status: 'UNDER_REVIEW' }).status, 'Needs Review')
+  assert.equal(resolveDisplayStatus({ publication_status: 'UNDER_REVIEW' }).status, 'Review Required')
   assert.equal(resolveDisplayStatus({ publication_status: 'DEPRECATED' }).status, 'Deprecated')
+  assert.equal(resolveDisplayStatus({ publication_status: 'APPROVED', document_state: 'CURRENT' }).status, 'Canonical')
+  assert.equal(resolveDisplayStatus({ publication_status: 'ACTIVE', document_state: 'CURRENT' }).status, 'Canonical')
 
-  for (const publicationStatus of ['APPROVED', 'ACTIVE', 'SUPERSEDED', 'ARCHIVED', 'RETRACTED']) {
+  for (const publicationStatus of ['SUPERSEDED', 'ARCHIVED', 'RETRACTED']) {
+    assert.equal(resolveDisplayStatus({ publication_status: publicationStatus }).status, 'Legacy')
+  }
+
+  for (const publicationStatus of ['APPROVED', 'ACTIVE']) {
     assert.deepEqual(resolveDisplayStatus({ publication_status: publicationStatus }), {
       state: 'NO_BADGE_WITH_REVIEW_WARNING',
       reason: 'UNSUPPORTED_METADATA'
@@ -50,12 +61,29 @@ test('status resolver maps only unambiguous publication states', () => {
   }
 })
 
-test('status resolver does not infer from maturity or document state', () => {
+test('status resolver maps frozen aliases and lifecycle states', () => {
+  assert.equal(resolveDisplayStatus({ legacy_status: 'Needs Review' }).status, 'Review Required')
+  assert.equal(resolveDisplayStatus({ legacy_status: 'Future' }).status, 'Planned')
+  assert.equal(resolveDisplayStatus({ legacy_status: 'Conceptual' }).status, 'Baseline')
+  assert.equal(resolveDisplayStatus({ document_state: 'HISTORICAL' }).status, 'Legacy')
+
   assert.deepEqual(resolveDisplayStatus({ document_state: 'EXPERIMENTAL', maturity_level: 'D2' }), {
     state: 'NO_BADGE_WITH_REVIEW_WARNING',
     reason: 'UNSUPPORTED_METADATA'
   })
   assert.deepEqual(resolveDisplayStatus({}), {
+    state: 'NO_BADGE_WITH_REVIEW_WARNING',
+    reason: 'MISSING_METADATA'
+  })
+})
+
+test('exact frozen index paths resolve as reference without a global default', () => {
+  assert.deepEqual(resolveDisplayStatus({}, 'treasury/README.md'), {
+    state: 'RESOLVED',
+    status: 'Reference',
+    source: 'PATH_CLASSIFICATION'
+  })
+  assert.deepEqual(resolveDisplayStatus({}, 'treasury/unclassified.md'), {
     state: 'NO_BADGE_WITH_REVIEW_WARNING',
     reason: 'MISSING_METADATA'
   })
