@@ -23,6 +23,7 @@ personal data.
 | `EVID-EP8-0004` | `CORPUS_TRACEABILITY_SCAN` | `Axodus/Documentation` | `b1402eceb2e3e82bb277bc261370326162a9f078` | 269 pages and 36 minimum pair families | Material integration claims are unevenly represented and require bilateral classification. | `PUBLIC_SAFE_WITH_QUALIFICATION` |
 | `EVID-EP8-0005` | `MATERIAL_CLAIM_SCAN` | `Axodus/Documentation` | `046dd7d` | 269 public Markdown pages | Status-sensitive terms and material claims were scanned across the complete corpus and classified by canonical evidence and boundary. | `PUBLIC_SAFE_WITH_QUALIFICATION` |
 | `EVID-EP8-0006` | `AUTHORITY_TRACEABILITY_REVIEW` | `Axodus/Documentation` | `210ca65` | EPIC-07 decision model and EPIC-08 claims | Material action classes were checked for formal decision, executor, activation, and receipt evidence; unresolved authority was retained. | `PUBLIC_SAFE_WITH_QUALIFICATION` |
+| `EVID-EP8-0007` | `FLOW_INTERFACE_REVIEW` | `Axodus/Documentation` | `0b2d4f4` | eleven EPIC-07 flows and fifteen frozen interfaces | Every priority flow was decomposed into traceable steps; six incomplete flows remain governed gaps. | `PUBLIC_SAFE_WITH_QUALIFICATION` |
 
 ## Handling Rules
 

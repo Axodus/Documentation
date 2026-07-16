@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 953
+Source Documents: 958
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 953
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 953 |
-| Canonical documents | 360 |
+| Total source documents | 958 |
+| Canonical documents | 365 |
 | Legacy documents | 579 |
 | Template documents | 14 |
 | Declared relationships | 419 |
@@ -42,7 +42,7 @@ Source Documents: 953
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 202 |
+| REPORT | 207 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -57,8 +57,8 @@ Source Documents: 953
 | COMPONENT | 2 |
 | CORE | 242 |
 | MODULE | 1 |
-| PORTFOLIO | 26 |
-| PROJECT | 103 |
+| PORTFOLIO | 27 |
+| PROJECT | 107 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 953
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 201 |
+| DRAFT | 206 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -356,11 +356,16 @@ Source Documents: 953
 | DOC-RPT-190 | EPIC-08 Cross-Core Integration Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md](./EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md) |
 | DOC-RPT-199 | EPIC-08 Decision to Execution Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md](./EPIC-08-DECISION-TO-EXECUTION-REGISTER.md) |
 | DOC-RPT-191 | EPIC-08 Dependency Register | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-DEPENDENCY-REGISTER.md](./EPIC-08-DEPENDENCY-REGISTER.md) |
+| DOC-RPT-204 | EPIC-08 Flow Closure Eligibility Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md](./EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md) |
+| DOC-RPT-202 | EPIC-08 Flow Interface Traceability Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md](./EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md) |
 | DOC-RPT-192 | EPIC-08 Integration Contradiction Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md](./EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md) |
 | DOC-RPT-193 | EPIC-08 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-01-FREEZE-REPORT.md](./EPIC-08-REQ-01-FREEZE-REPORT.md) |
 | DOC-RPT-197 | EPIC-08 REQ-02 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-02-FREEZE-REPORT.md](./EPIC-08-REQ-02-FREEZE-REPORT.md) |
 | DOC-RPT-201 | EPIC-08 REQ-03 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-03-FREEZE-REPORT.md](./EPIC-08-REQ-03-FREEZE-REPORT.md) |
+| DOC-RPT-206 | EPIC-08 REQ-04 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-REQ-04-FREEZE-REPORT.md](./EPIC-08-REQ-04-FREEZE-REPORT.md) |
+| DOC-RPT-203 | EPIC-08 Residual Flow Gap Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md](./EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md) |
 | DOC-RPT-195 | EPIC-08 Status Evidence Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md](./EPIC-08-STATUS-EVIDENCE-MATRIX.md) |
+| DOC-RPT-205 | EPIC-08 Traceability Remediation Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md](./EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md) |
 | DOC-RPT-196 | EPIC-08 Unsupported Claim Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md](./EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |

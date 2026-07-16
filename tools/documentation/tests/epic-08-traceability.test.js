@@ -28,6 +28,14 @@ const req03Reports = [
   ['documentation/EPIC-08-REQ-03-FREEZE-REPORT.md', 'DOC-RPT-201'],
 ]
 
+const req04Reports = [
+  ['documentation/EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md', 'DOC-RPT-202'],
+  ['documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md', 'DOC-RPT-203'],
+  ['documentation/EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md', 'DOC-RPT-204'],
+  ['documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md', 'DOC-RPT-205'],
+  ['documentation/EPIC-08-REQ-04-FREEZE-REPORT.md', 'DOC-RPT-206'],
+]
+
 test('EPIC-08 REQ-01 reports are canonical and monotonically identified', async () => {
   for (const [path, id] of req01Reports) {
     const document = await loadDocument(resolve(root, path), { root })
@@ -107,4 +115,31 @@ test('EPIC-08 REQ-03 authority objects cover every required action class', async
     'UNRESOLVED_AUTHORITY',
   ]) assert.match(matrix, new RegExp(state))
   assert.match(matrix, /CONSULTATIVE_ONLY/)
+})
+
+test('EPIC-08 REQ-04 freezes eleven flows, six gaps, and existing-page-only manifest', async () => {
+  for (const [path, id] of req04Reports) {
+    const document = await loadDocument(resolve(root, path), { root })
+    assert.equal(document.metadata.document_id, id)
+    assert.deepEqual(document.metadata.relationships, [])
+  }
+
+  const matrix = await read(req04Reports[0][0])
+  const flowIds = [...matrix.matchAll(/`(FLOW-EP8-\d{4})`/g)].map((match) => match[1])
+  assert.equal(new Set(flowIds).size, 11)
+  const stepIds = [...matrix.matchAll(/^\| `FLOW-EP8-\d{4}` \| `(FLOW-EP8-\d{4}-S\d{2})` \|/gm)].map((match) => match[1])
+  assert.equal(stepIds.length, 44)
+  assert.equal(new Set(stepIds).size, 44)
+
+  const gaps = await read(req04Reports[1][0])
+  const gapIds = [...gaps.matchAll(/^\| `(GAP-EP8-\d{4})` \|/gm)].map((match) => match[1])
+  assert.equal(gapIds.length, 6)
+
+  const manifest = await read(req04Reports[3][0])
+  const rows = [...manifest.matchAll(/^\| `(REM-EP8-\d{4})` \| `(docs\/[^`]+)` \|/gm)]
+  assert.equal(rows.length, 19)
+  assert.equal(new Set(rows.map((row) => row[1])).size, 19)
+  assert.equal(new Set(rows.map((row) => row[2])).size, 19)
+  assert.doesNotMatch(manifest, /\| `CREATE` \|/)
+  for (const row of rows) await access(resolve(root, row[2]))
 })
