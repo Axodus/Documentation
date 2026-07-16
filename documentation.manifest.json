@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 964,
+  "document_count": 967,
   "documents": [
     {
       "aliases": [],
@@ -13959,6 +13959,28 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.UX",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-214",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-UX-REQ-01"
+      ],
+      "sha256": "324b4a4a06ff0cf2575daa8b57e78da5efc64e9e3999b5a40ea2417c589ca4e7",
+      "source_path": "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Badge Coverage Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION",
       "classification": "CANONICAL",
@@ -16152,6 +16174,50 @@
       "supersedes": [],
       "title": "Documentation Recovery Sprint Closure Audit",
       "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.UX",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-215",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-UX-REQ-01"
+      ],
+      "sha256": "bdbaec1b490dfa2822890b4ced0f89e82f44423a712cb3cf07c3b687a77446cb",
+      "source_path": "documentation/DOCUMENTATION-STATUS-MAPPING.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Status Mapping",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.UX",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-213",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-16",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-UX-REQ-01"
+      ],
+      "sha256": "a6e3a4e258b0b3faf67f0cc2136f47cce8466f0759bd957f9a7819d9132190ca",
+      "source_path": "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Status Taxonomy Review",
+      "version": "1.0.0"
     },
     {
       "aliases": [],
@@ -24115,7 +24181,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 372,
+    "compliant_documents": 375,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24123,12 +24189,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 111,
+      "PROJECT": 114,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 288,
+      "D2": 291,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24150,7 +24216,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 260,
+      "Axodus Documentation Core": 263,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24172,7 +24238,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 213,
+      "DRAFT": 216,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24185,7 +24251,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 213,
+      "REPORT": 216,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24198,6 +24264,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 964
+    "total_documents": 967
   }
 }

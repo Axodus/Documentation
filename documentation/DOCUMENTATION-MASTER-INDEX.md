@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-16T00:00:00Z
-Source Documents: 964
+Source Documents: 967
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 964
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 964 |
-| Canonical documents | 372 |
+| Total source documents | 967 |
+| Canonical documents | 375 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 964
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 213 |
+| REPORT | 216 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 964
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 111 |
+| PROJECT | 114 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 964
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 213 |
+| DRAFT | 216 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -200,6 +200,7 @@ Source Documents: 964
 | DOC-RPT-077 | Cross-Repository Maturity and Development Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md](./CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md) |
 | DOC-RPT-080 | Cross-Repository Terminology Alignment | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md](./CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md) |
 | DOC-SPEC-005 | Documentation Adoption Metrics | SPECIFICATION | APPROVED | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-ADOPTION-METRICS.md](./DOCUMENTATION-ADOPTION-METRICS.md) |
+| DOC-RPT-214 | Documentation Badge Coverage Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md](./DOCUMENTATION-BADGE-COVERAGE-MATRIX.md) |
 | DOC-POL-005 | Documentation Legacy Baseline Policy | POLICY | ACTIVE | CORE | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BASELINE-POLICY.md](./DOCUMENTATION-BASELINE-POLICY.md) |
 | DOC-RPT-012 | Documentation Batch 01 Acceptance Report | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md](./DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md) |
 | DOC-RPT-006 | Documentation Batch 01 Authority Evidence | REPORT | APPROVED | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md](./DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md) |
@@ -277,6 +278,8 @@ Source Documents: 964
 | DOC-RPT-045 | Documentation Repository Sanitization Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md](./DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md) |
 | DOC-RPT-129 | Documentation Sprint 05 Closure | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md](./DOCUMENTATION-SPRINT-05-CLOSURE.md) |
 | DOC-RPT-044 | Documentation Recovery Sprint Closure Audit | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md](./DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md) |
+| DOC-RPT-215 | Documentation Status Mapping | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-STATUS-MAPPING.md](./DOCUMENTATION-STATUS-MAPPING.md) |
+| DOC-RPT-213 | Documentation Status Taxonomy Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md](./DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md) |
 | DOC-RPT-043 | Documentation Traceability Depth Baseline | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md](./DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md) |
 | DOC-SPEC-006 | Documentation Traceability Expansion | SPECIFICATION | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md](./DOCUMENTATION-TRACEABILITY-EXPANSION.md) |
 | DOC-RPT-212 | Documentation UX Sprint 01 Closure Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md](./DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md) |

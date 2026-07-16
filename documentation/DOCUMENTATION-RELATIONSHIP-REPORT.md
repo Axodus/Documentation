@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 964
+- Graph nodes: 967
 - Declared relationships: 421
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 757
+- Orphan documents: 760
 - Cycles: 13
 
 ## Relationship Counts
@@ -595,7 +595,10 @@ None.
 - documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md
 - documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md
 - documentation/DOCUMENTATION-ADR-INDEX.md
+- documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md
 - documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md
+- documentation/DOCUMENTATION-STATUS-MAPPING.md
+- documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md
 - documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md
 - documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md
 - documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md

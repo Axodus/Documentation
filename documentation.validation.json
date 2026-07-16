@@ -9874,6 +9874,15 @@
       "source_path": "documentation/DOCUMENTATION-ADR-INDEX.md"
     },
     {
+      "document_id": "DOC-RPT-214",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md"
+    },
+    {
       "document_id": "DOC-PLAY-001",
       "error_code": "DOC-VAL-021",
       "field": "relationships",
@@ -9899,6 +9908,24 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md"
+    },
+    {
+      "document_id": "DOC-RPT-215",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/DOCUMENTATION-STATUS-MAPPING.md"
+    },
+    {
+      "document_id": "DOC-RPT-213",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md"
     },
     {
       "document_id": "DOC-RPT-212",
@@ -12140,7 +12167,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1347,
+    "info": 1350,
     "invalid_exceptions": 0,
     "known_legacy": 529,
     "legacy_documents": 578,
@@ -12152,16 +12179,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 964,
+    "total_documents": 967,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 372,
+    "validated_documents": 375,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 372,
+  "validated_documents": 375,
   "validation_version": "1.1.0",
   "warnings": 0
 }

@@ -6975,6 +6975,36 @@
       "title": "Documentation UX Sprint 01 Closure Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-213",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-213",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
+      "title": "Documentation Status Taxonomy Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-214",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-214",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
+      "title": "Documentation Badge Coverage Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-215",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-215",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/DOCUMENTATION-STATUS-MAPPING.md",
+      "title": "Documentation Status Mapping"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10439,7 +10469,10 @@
     "documentation/CROSS-REPOSITORY-MATURITY-AND-DEVELOPMENT-ALIGNMENT.md",
     "documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md",
     "documentation/DOCUMENTATION-ADR-INDEX.md",
+    "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
     "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
+    "documentation/DOCUMENTATION-STATUS-MAPPING.md",
+    "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
     "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
     "documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md",
     "documentation/EPIC-03-BATCH-04-AUTHORITY-REVIEW.md",
@@ -11315,6 +11348,7 @@
       "documentation/CROSS-REPOSITORY-TERMINOLOGY-ALIGNMENT.md",
       "documentation/DOCUMENTATION-ADOPTION-METRICS.md",
       "documentation/DOCUMENTATION-ADR-INDEX.md",
+      "documentation/DOCUMENTATION-BADGE-COVERAGE-MATRIX.md",
       "documentation/DOCUMENTATION-BASELINE-POLICY.md",
       "documentation/DOCUMENTATION-BATCH-01-ACCEPTANCE-REPORT.md",
       "documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md",
@@ -11392,6 +11426,8 @@
       "documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md",
       "documentation/DOCUMENTATION-SPRINT-05-CLOSURE.md",
       "documentation/DOCUMENTATION-SPRINT-CLOSURE-AUDIT.md",
+      "documentation/DOCUMENTATION-STATUS-MAPPING.md",
+      "documentation/DOCUMENTATION-STATUS-TAXONOMY-REVIEW.md",
       "documentation/DOCUMENTATION-TRACEABILITY-DEPTH-BASELINE.md",
       "documentation/DOCUMENTATION-TRACEABILITY-EXPANSION.md",
       "documentation/DOCUMENTATION-UX-SPRINT-01-CLOSURE-REPORT.md",
@@ -12009,7 +12045,10 @@
       "DOC-RPT-209",
       "DOC-RPT-210",
       "DOC-RPT-211",
-      "DOC-RPT-212"
+      "DOC-RPT-212",
+      "DOC-RPT-213",
+      "DOC-RPT-214",
+      "DOC-RPT-215"
     ]
   },
   "relationship_counts": {
