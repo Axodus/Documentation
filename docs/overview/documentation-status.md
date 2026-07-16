@@ -45,13 +45,13 @@ This page explains how to interpret maturity labels across Axodus documentation.
 
 | Status | Meaning |
 | --- | --- |
-| Draft | The page is being actively developed and should not be treated as a final production specification. |
-| Planned | The capability is part of the roadmap or design direction, but implementation is not confirmed. |
-| Needs Review | The page requires domain, governance, security, or implementation review before it can be relied on. |
-| Prototype | The capability may exist in an experimental form and should not be treated as production-ready. |
-| Testnet | The capability may be validated in non-production environments only. |
-| Active if Verified | The capability may be active only when supported by implementation evidence, governance records, and current deployment context. |
-| Deprecated | The page or concept is retained for reference but should not guide current implementation. |
+| <PageStatusBadge status="Draft" compact /> | The page is being actively developed and should not be treated as a final production specification. |
+| <PageStatusBadge status="Planned" compact /> | The capability is part of the roadmap or design direction, but implementation is not confirmed. |
+| <PageStatusBadge status="Needs Review" compact /> | The page requires domain, governance, security, or implementation review before it can be relied on. |
+| <PageStatusBadge status="Prototype" compact /> | The capability may exist in an experimental form and should not be treated as production-ready. |
+| <PageStatusBadge status="Testnet" compact /> | The capability may be validated in non-production environments only. |
+| <PageStatusBadge status="Active if Verified" compact /> | The capability may be active only when supported by implementation evidence, governance records, and current deployment context. |
+| <PageStatusBadge status="Deprecated" compact /> | The page or concept is retained for reference but should not guide current implementation. |
 
 ## Interpretation Rule
 

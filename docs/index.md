@@ -151,13 +151,13 @@ production_gate_impact: "PRESERVES_CLOSED"
       </div>
     </div>
     <div class="ux-status-legend" aria-label="Official documentation statuses">
-      <span class="status-badge status-draft">&#9679; Draft</span>
-      <span class="status-badge status-planned">&#9670; Planned</span>
-      <span class="status-badge status-needs-review">! Needs Review</span>
-      <span class="status-badge status-prototype">&#9671; Prototype</span>
-      <span class="status-badge status-testnet">&#8761; Testnet</span>
-      <span class="status-badge status-active-if-verified">&#10003; Active if Verified</span>
-      <span class="status-badge status-deprecated">&#215; Deprecated</span>
+      <PageStatusBadge status="Draft" compact />
+      <PageStatusBadge status="Planned" compact />
+      <PageStatusBadge status="Needs Review" compact />
+      <PageStatusBadge status="Prototype" compact />
+      <PageStatusBadge status="Testnet" compact />
+      <PageStatusBadge status="Active if Verified" compact />
+      <PageStatusBadge status="Deprecated" compact />
     </div>
     <p class="ux-legend-link"><a href="/overview/documentation-status">Read the complete status interpretation rules &#8594;</a></p>
   </section>

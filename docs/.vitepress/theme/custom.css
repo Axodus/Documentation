@@ -425,18 +425,41 @@ body {
   gap: 9px;
 }
 
-.status-badge {
+.page-status-badge {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  width: fit-content;
+  margin: 8px 0 22px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 999px;
   padding: 6px 11px;
   background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
+  color: var(--vp-c-text-1) !important;
   font-size: 0.76rem;
   font-weight: 720;
   line-height: 1;
+  text-decoration: none !important;
+}
+
+.page-status-badge:hover,
+.page-status-badge:focus-visible {
+  outline: 2px solid color-mix(in srgb, currentColor 38%, transparent);
+  outline-offset: 2px;
+}
+
+.page-status-badge-compact {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.page-status-icon {
+  min-width: 0.9em;
+  text-align: center;
+}
+
+.dark .page-status-badge {
+  color: var(--vp-c-text-1) !important;
 }
 
 .status-draft { border-color: #7c8798; background: rgba(100, 116, 139, 0.12); }

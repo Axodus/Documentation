@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { pageStatusPlugin } from './theme/statusPlugin'
 
 const overviewItems = [
   { text: 'Start Here', link: '/' },
@@ -448,6 +449,9 @@ export default defineConfig({
     theme: {
       light: 'github-light',
       dark: 'github-dark'
+    },
+    config(md) {
+      md.use(pageStatusPlugin)
     }
   }
 })
