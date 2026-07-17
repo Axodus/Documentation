@@ -2,18 +2,18 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-16T00:00:00Z
+Generated At: 2026-07-17T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 972
+- Graph nodes: 977
 - Declared relationships: 421
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 765
+- Orphan documents: 770
 - Cycles: 13
 
 ## Relationship Counts
@@ -698,6 +698,11 @@ None.
 - documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md
 - documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md
 - documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md
+- documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md
+- documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md
+- documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md
+- documentation/EPIC-09-REQ-01-FREEZE-REPORT.md
+- documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md
 - documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md
 - documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md
 - documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md

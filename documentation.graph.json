@@ -244,7 +244,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-16T00:00:00Z",
+  "generated_at": "2026-07-17T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -7055,6 +7055,56 @@
       "title": "Documentation UX Sprint 02 Closure Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-221",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-221",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md",
+      "title": "EPIC-09 Content Substance Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-222",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-222",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md",
+      "title": "EPIC-09 Placeholder and Thin Content Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-223",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-223",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
+      "title": "EPIC-09 Status Alignment Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-224",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-224",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md",
+      "title": "EPIC-09 Core Qualification Priority Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-225",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-225",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md",
+      "title": "EPIC-09 REQ-01 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10622,6 +10672,11 @@
     "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
     "documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md",
     "documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md",
+    "documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md",
+    "documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md",
+    "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md",
+    "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md",
+    "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
     "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11585,6 +11640,11 @@
       "documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md",
       "documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md",
       "documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md",
+      "documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md",
+      "documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md",
+      "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md",
+      "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md",
+      "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
       "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -12113,7 +12173,12 @@
       "DOC-RPT-217",
       "DOC-RPT-218",
       "DOC-RPT-219",
-      "DOC-RPT-220"
+      "DOC-RPT-220",
+      "DOC-RPT-221",
+      "DOC-RPT-222",
+      "DOC-RPT-223",
+      "DOC-RPT-224",
+      "DOC-RPT-225"
     ]
   },
   "relationship_counts": {

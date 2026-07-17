@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-16T00:00:00Z
-Source Documents: 972
+Generated At: 2026-07-17T00:00:00Z
+Source Documents: 977
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 972
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 972 |
-| Canonical documents | 380 |
+| Total source documents | 977 |
+| Canonical documents | 385 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 972
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 221 |
+| REPORT | 226 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 972
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 119 |
+| PROJECT | 124 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 972
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 221 |
+| DRAFT | 226 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -382,6 +382,11 @@ Source Documents: 972
 | DOC-RPT-195 | EPIC-08 Status Evidence Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md](./EPIC-08-STATUS-EVIDENCE-MATRIX.md) |
 | DOC-RPT-205 | EPIC-08 Traceability Remediation Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md](./EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md) |
 | DOC-RPT-196 | EPIC-08 Unsupported Claim Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md](./EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md) |
+| DOC-RPT-221 | EPIC-09 Content Substance Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md](./EPIC-09-CONTENT-SUBSTANCE-MATRIX.md) |
+| DOC-RPT-224 | EPIC-09 Core Qualification Priority Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md](./EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md) |
+| DOC-RPT-222 | EPIC-09 Placeholder and Thin Content Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md](./EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md) |
+| DOC-RPT-225 | EPIC-09 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-01-FREEZE-REPORT.md](./EPIC-09-REQ-01-FREEZE-REPORT.md) |
+| DOC-RPT-223 | EPIC-09 Status Alignment Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md](./EPIC-09-STATUS-ALIGNMENT-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |
 | DOC-RPT-090 | Institutional Controlled Intake Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md) |

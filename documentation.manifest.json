@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 972,
+  "document_count": 977,
   "documents": [
     {
       "aliases": [],
@@ -18687,6 +18687,121 @@
     },
     {
       "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-221",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-01"
+      ],
+      "sha256": "b8a4b554295a41f1ffd2bc4d144b6b573d068cf7dd43acf0d0fc8e72365ce1bf",
+      "source_path": "documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Content Substance Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-224",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-01"
+      ],
+      "sha256": "810d2502dc9e6b2ffea8cdc1cf54cb5c7d3933f4b5178b6fceae6d5059cb863e",
+      "source_path": "documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Core Qualification Priority Matrix",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-222",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-01"
+      ],
+      "sha256": "0c2ab8695d18a0eb79a488de9abe22259444cb13a433be575bb288e7bbb3f029",
+      "source_path": "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Placeholder and Thin Content Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-225",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-01"
+      ],
+      "sha256": "3d72785d8489c3f48fc77c9848c9debf1d4f38f1dd35fcfa440990f0fc112ad5",
+      "source_path": "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-01 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-223",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-01"
+      ],
+      "sha256": "6109248ca0b27d56a224bed044b8e5196156d3836305926ae84f9aacc525ce9b",
+      "source_path": "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Status Alignment Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
       "authority_level": "CORE",
       "authority_scope": "DOCUMENTATION.EPIC_04.INSTITUTIONAL_INTAKE",
       "classification": "CANONICAL",
@@ -21749,7 +21864,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-16T00:00:00Z",
+  "generated_at": "2026-07-17T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -24296,7 +24411,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 380,
+    "compliant_documents": 385,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24304,12 +24419,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 119,
+      "PROJECT": 124,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 296,
+      "D2": 301,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24331,7 +24446,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 268,
+      "Axodus Documentation Core": 273,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24353,7 +24468,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 221,
+      "DRAFT": 226,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24366,7 +24481,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 221,
+      "REPORT": 226,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24379,6 +24494,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 972
+    "total_documents": 977
   }
 }

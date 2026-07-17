@@ -10819,6 +10819,51 @@
       "source_path": "documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-221",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md"
+    },
+    {
+      "document_id": "DOC-RPT-224",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md"
+    },
+    {
+      "document_id": "DOC-RPT-222",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-225",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-223",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md"
+    },
+    {
       "document_id": "DOC-RPT-087",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -12197,7 +12242,7 @@
     }
   ],
   "errors": 0,
-  "generated_at": "2026-07-16T00:00:00Z",
+  "generated_at": "2026-07-17T00:00:00Z",
   "legacy_documents": 578,
   "repository_statistics": {
     "active_exceptions": 563,
@@ -12212,7 +12257,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1355,
+    "info": 1360,
     "invalid_exceptions": 0,
     "known_legacy": 528,
     "legacy_documents": 578,
@@ -12224,16 +12269,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 972,
+    "total_documents": 977,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 380,
+    "validated_documents": 385,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 380,
+  "validated_documents": 385,
   "validation_version": "1.1.0",
   "warnings": 0
 }
