@@ -10864,6 +10864,15 @@
       "source_path": "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md"
     },
     {
+      "document_id": "DOC-RPT-232",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-PRODUCT-PROTOCOL-QUALIFICATION-REGISTER.md"
+    },
+    {
       "document_id": "DOC-RPT-225",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10898,6 +10907,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-09-REQ-04-FREEZE-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-233",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-REQ-05-FREEZE-REPORT.md"
     },
     {
       "document_id": "DOC-RPT-223",
@@ -12311,7 +12329,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1366,
+    "info": 1368,
     "invalid_exceptions": 0,
     "known_legacy": 528,
     "legacy_documents": 578,
@@ -12323,16 +12341,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 983,
+    "total_documents": 985,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 391,
+    "validated_documents": 393,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 391,
+  "validated_documents": 393,
   "validation_version": "1.1.0",
   "warnings": 0
 }
