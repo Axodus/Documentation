@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 977,
+  "document_count": 979,
   "documents": [
     {
       "aliases": [],
@@ -18736,6 +18736,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-226",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-02"
+      ],
+      "sha256": "223838d57ad913775852d4a9a9e56553a90744ed88122c7d0497c3856a688ab0",
+      "source_path": "documentation/EPIC-09-FOUNDATIONS-QUALIFICATION-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Documentary Foundations Qualification Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-222",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -18775,6 +18798,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-09 REQ-01 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-227",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-02"
+      ],
+      "sha256": "1ec2f7e4f7afb196af0ed8d732abd6e3f94d56a9c77d1cda74dff247cc915bf4",
+      "source_path": "documentation/EPIC-09-REQ-02-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-02 Freeze Report",
       "version": "1.0.0"
     },
     {
@@ -24411,7 +24457,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 385,
+    "compliant_documents": 387,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24419,12 +24465,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 124,
+      "PROJECT": 126,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 301,
+      "D2": 303,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24446,7 +24492,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 273,
+      "Axodus Documentation Core": 275,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24468,7 +24514,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 226,
+      "DRAFT": 228,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24481,7 +24527,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 226,
+      "REPORT": 228,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24494,6 +24540,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 977
+    "total_documents": 979
   }
 }
