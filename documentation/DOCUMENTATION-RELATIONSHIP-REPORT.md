@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 979
+- Graph nodes: 981
 - Declared relationships: 421
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 772
+- Orphan documents: 774
 - Cycles: 13
 
 ## Relationship Counts
@@ -704,7 +704,9 @@ None.
 - documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md
 - documentation/EPIC-09-REQ-01-FREEZE-REPORT.md
 - documentation/EPIC-09-REQ-02-FREEZE-REPORT.md
+- documentation/EPIC-09-REQ-03-FREEZE-REPORT.md
 - documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md
+- documentation/EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md
 - documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md
 - documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md
 - documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md

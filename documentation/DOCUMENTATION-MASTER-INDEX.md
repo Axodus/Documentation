@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-17T00:00:00Z
-Source Documents: 979
+Source Documents: 981
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 979
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 979 |
-| Canonical documents | 387 |
+| Total source documents | 981 |
+| Canonical documents | 389 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 979
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 228 |
+| REPORT | 230 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 979
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 126 |
+| PROJECT | 128 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 979
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 228 |
+| DRAFT | 230 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -388,7 +388,9 @@ Source Documents: 979
 | DOC-RPT-222 | EPIC-09 Placeholder and Thin Content Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md](./EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md) |
 | DOC-RPT-225 | EPIC-09 REQ-01 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-01-FREEZE-REPORT.md](./EPIC-09-REQ-01-FREEZE-REPORT.md) |
 | DOC-RPT-227 | EPIC-09 REQ-02 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-02-FREEZE-REPORT.md](./EPIC-09-REQ-02-FREEZE-REPORT.md) |
+| DOC-RPT-229 | EPIC-09 REQ-03 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-03-FREEZE-REPORT.md](./EPIC-09-REQ-03-FREEZE-REPORT.md) |
 | DOC-RPT-223 | EPIC-09 Status Alignment Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md](./EPIC-09-STATUS-ALIGNMENT-REGISTER.md) |
+| DOC-RPT-228 | EPIC-09 User and Value-Creation Qualification Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md](./EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md) |
 | DOC-RPT-087 | Institutional Author Ecosystem Clarification Intake | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md](./INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md) |
 | DOC-RPT-085 | Institutional Claims Metadata Intake Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md](./INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md) |
 | DOC-RPT-090 | Institutional Controlled Intake Evidence Register | REPORT | DRAFT | CORE | 0.1.0 | Axodus Documentation Core | [documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md](./INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md) |

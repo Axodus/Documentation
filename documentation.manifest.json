@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 979,
+  "document_count": 981,
   "documents": [
     {
       "aliases": [],
@@ -18828,6 +18828,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-229",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-03"
+      ],
+      "sha256": "a006cc1e19ea5fb98f51ba9d695bc2ec58d24a8aa8b3d05850a9e347805a4b3a",
+      "source_path": "documentation/EPIC-09-REQ-03-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-03 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-223",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -18844,6 +18867,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-09 Status Alignment Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-228",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-03"
+      ],
+      "sha256": "3dad8c9fe19bce079120868a5b1bc59d21df99f0ed5fb3144b8dea6962aec90a",
+      "source_path": "documentation/EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 User and Value-Creation Qualification Register",
       "version": "1.0.0"
     },
     {
@@ -24457,7 +24503,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 387,
+    "compliant_documents": 389,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24465,12 +24511,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 126,
+      "PROJECT": 128,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 303,
+      "D2": 305,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24492,7 +24538,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 275,
+      "Axodus Documentation Core": 277,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24514,7 +24560,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 228,
+      "DRAFT": 230,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24527,7 +24573,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 228,
+      "REPORT": 230,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24540,6 +24586,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 979
+    "total_documents": 981
   }
 }

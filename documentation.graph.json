@@ -7125,6 +7125,26 @@
       "title": "EPIC-09 REQ-02 Freeze Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-228",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-228",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md",
+      "title": "EPIC-09 User and Value-Creation Qualification Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-229",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-229",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-REQ-03-FREEZE-REPORT.md",
+      "title": "EPIC-09 REQ-03 Freeze Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10698,7 +10718,9 @@
     "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md",
     "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md",
     "documentation/EPIC-09-REQ-02-FREEZE-REPORT.md",
+    "documentation/EPIC-09-REQ-03-FREEZE-REPORT.md",
     "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
+    "documentation/EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md",
     "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
     "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
     "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -11668,7 +11690,9 @@
       "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md",
       "documentation/EPIC-09-REQ-01-FREEZE-REPORT.md",
       "documentation/EPIC-09-REQ-02-FREEZE-REPORT.md",
+      "documentation/EPIC-09-REQ-03-FREEZE-REPORT.md",
       "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
+      "documentation/EPIC-09-USER-VALUE-QUALIFICATION-REGISTER.md",
       "documentation/INSTITUTIONAL-AUTHOR-ECOSYSTEM-CLARIFICATION-INTAKE.md",
       "documentation/INSTITUTIONAL-CLAIMS-METADATA-INTAKE-REGISTER.md",
       "documentation/INSTITUTIONAL-CONTROLLED-INTAKE-EVIDENCE-REGISTER.md",
@@ -12204,7 +12228,9 @@
       "DOC-RPT-224",
       "DOC-RPT-225",
       "DOC-RPT-226",
-      "DOC-RPT-227"
+      "DOC-RPT-227",
+      "DOC-RPT-228",
+      "DOC-RPT-229"
     ]
   },
   "relationship_counts": {
