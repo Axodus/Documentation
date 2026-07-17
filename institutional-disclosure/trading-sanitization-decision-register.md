@@ -91,7 +91,7 @@ It does not modify or remediate public files.
 | README.md | Ecosystem Trading framing and financial-risk notice | No private mechanics or paths found |
 | SUMMARY.md | Trading navigation entries | Public filenames only; no private artifact exposure |
 | docs/.vitepress/ | Public navigation configuration | Public Trading pages only; no private artifact exposure |
-| documentation/DOCUMENTATION-MASTER-INDEX.md | Generated public document inventory | Public Trading sources only |
+| .rag/DOCUMENTATION-MASTER-INDEX.md | Generated public document inventory | Public Trading sources only |
 | public generated JSON artifacts | Manifest, graph, validation, and baseline-report inventory | institutional-disclosure sources remain excluded |
 | papers/ | Academic-paper scan | NOT_PRESENT |
 

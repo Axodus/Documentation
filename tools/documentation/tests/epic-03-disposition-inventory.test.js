@@ -7,12 +7,12 @@ import { loadDocument } from '../index.js'
 const root = process.cwd()
 const read = (path) => readFile(resolve(root, path), 'utf8')
 const artifacts = [
-  ['documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md', 'DOC-REF-010'],
-  ['documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md', 'DOC-RPT-037'],
-  ['documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md', 'DOC-RPT-038'],
-  ['documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md', 'DOC-RPT-039'],
-  ['documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md', 'DOC-RPT-040'],
-  ['documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md', 'DOC-RPT-041'],
+  ['.rag/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md', 'DOC-REF-010'],
+  ['.rag/DOCUMENTATION-EXCEPTION-DISPOSITION-SUMMARY.md', 'DOC-RPT-037'],
+  ['.rag/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md', 'DOC-RPT-038'],
+  ['.rag/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md', 'DOC-RPT-039'],
+  ['.rag/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md', 'DOC-RPT-040'],
+  ['.rag/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md', 'DOC-RPT-041'],
 ]
 const dispositions = new Set([
   'MIGRATE', 'RENEW_EXCEPTION', 'REVOKE_EXCEPTION', 'ARCHIVE_LEGACY',
@@ -26,7 +26,7 @@ const flags = new Set([
 ])
 
 async function inventoryRows() {
-  return (await read('documentation/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md'))
+  return (await read('.rag/DOCUMENTATION-EXCEPTION-DISPOSITION-INVENTORY.md'))
     .split('\n')
     .filter((line) => /^\| `DOC-EXC-\d+` \|/.test(line))
     .map((line) => line.split('|').map((value) => value.trim()))
@@ -86,22 +86,22 @@ test('baseline and exception registries remain synchronized after Batch 04', asy
 })
 
 test('renewal forecast applies P0 90-day cap without mutating exceptions', async () => {
-  const report = await read('documentation/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md')
+  const report = await read('.rag/DOCUMENTATION-EXCEPTION-EXPIRY-RISK-REPORT.md')
   assert.match(report, /Total extension candidates \| 386 \| 90 days/)
   assert.match(report, /P2\/P3 would permit at most 180 days/)
   assert.match(report, /89 calendar days remain/)
 })
 
 test('routing summaries remain category-level and redacted', async () => {
-  const authority = await read('documentation/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md')
-  const security = await read('documentation/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md')
+  const authority = await read('.rag/DOCUMENTATION-EXCEPTION-AUTHORITY-ROUTING.md')
+  const security = await read('.rag/DOCUMENTATION-EXCEPTION-SECURITY-ROUTING.md')
   assert.match(authority, /Authority review is required for 327 exceptions/)
   assert.match(security, /Security review is conservatively routed for 344 exceptions/)
   assert.match(security, /Secret values inspected, copied, logged, or reported: 0/)
 })
 
 test('REQ-03 approved ADR index includes disposition governance decisions', async () => {
-  const index = await read('documentation/DOCUMENTATION-ADR-INDEX.md')
+  const index = await read('.rag/DOCUMENTATION-ADR-INDEX.md')
   for (const [path, id] of [
     ['adr/DOC-ADR-021-EXCEPTION-EXPIRY-DISPOSITION-GOVERNANCE.md', 'DOC-ADR-021'],
     ['adr/DOC-ADR-022-TRACEABILITY-DEPTH-QUALITY-MODEL.md', 'DOC-ADR-022'],
@@ -129,7 +129,7 @@ test('mandatory gate-preservation statement is present', async () => {
   const expected = 'This request inventoried and classified remaining exception dispositions only.'
   for (const [path] of artifacts) {
     const content = await read(path)
-    if (path === 'documentation/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md') {
+    if (path === '.rag/DOCUMENTATION-EPIC-03-PROGRESS-REPORT.md') {
       assert.match(content, /baselined traceability depth only/)
     } else {
       assert.match(content, new RegExp(expected))

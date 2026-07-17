@@ -126,7 +126,7 @@ context:
 - `README.md`
 - `SUMMARY.md`
 - `docs/.vitepress/`
-- `documentation/DOCUMENTATION-MASTER-INDEX.md`
+- `.rag/DOCUMENTATION-MASTER-INDEX.md`
 - `papers/`: NOT_PRESENT
 
 ## Current Public Trading Reference Findings

@@ -11,9 +11,9 @@ const hash = (paths) => createHash('sha256').update(`${paths.join('\n')}\n`).dig
 
 test('REQ-04 governance artifacts conform to Schema 1.0.0', async () => {
   const artifacts = [
-    ['documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md', 'DOC-RPT-006', 'APPROVED'],
-    ['documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md', 'DOC-RPT-005', 'APPROVED'],
-    ['documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md', 'DOC-SPEC-007', 'DRAFT'],
+    ['.rag/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md', 'DOC-RPT-006', 'APPROVED'],
+    ['.rag/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md', 'DOC-RPT-005', 'APPROVED'],
+    ['.rag/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md', 'DOC-SPEC-007', 'DRAFT'],
   ]
   for (const [path, id, status] of artifacts) {
     const document = await loadDocument(resolve(root, path), { root })
@@ -25,7 +25,7 @@ test('REQ-04 governance artifacts conform to Schema 1.0.0', async () => {
 })
 
 test('Core Adoption Matrix retains all 16 governed public cores', async () => {
-  const matrix = await load('documentation/DOCUMENTATION-CORE-ADOPTION-MATRIX.md')
+  const matrix = await load('.rag/DOCUMENTATION-CORE-ADOPTION-MATRIX.md')
   assert.match(matrix, /publication_status: "APPROVED"/)
   assert.equal((matrix.match(/\| `(?:BATCH_PLANNED|ADOPTED_PARTIAL)` \|/g) ?? []).length, 16)
   assert.match(matrix, /`CORE` remains `GOVERNANCE_RESERVED`/)
@@ -33,7 +33,7 @@ test('Core Adoption Matrix retains all 16 governed public cores', async () => {
 })
 
 test('freeze proposal contains 20 primaries and four ordered alternates', async () => {
-  const proposal = await load('documentation/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md')
+  const proposal = await load('.rag/DOCUMENTATION-BATCH-01-CANDIDATE-FREEZE-PROPOSAL.md')
   assert.equal((proposal.match(/`FROZEN_PRIMARY`/g) ?? []).length, 20)
   assert.equal((proposal.match(/`FROZEN_ALTERNATE`/g) ?? []).length, 4)
   assert.equal((proposal.match(/-GDE-<NNN>/g) ?? []).length, 24)
@@ -55,15 +55,15 @@ test('freeze record hashes the exact ordered candidate sets', async () => {
     'docs/overview/constitutional-model.md', 'docs/overview/documentation-standards.md',
     'docs/overview/product-map.md', 'docs/overview/terminology.md',
   ]
-  const record = await load('documentation/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md')
+  const record = await load('.rag/DOCUMENTATION-BATCH-01-FREEZE-RECORD.md')
   assert.ok(primary.every((path) => path))
   assert.match(record, new RegExp(hash(primary)))
   assert.match(record, new RegExp(hash(alternates)))
 })
 
 test('authority defaults and execution boundary are explicit', async () => {
-  const evidence = await load('documentation/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md')
-  const contract = await load('documentation/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md')
+  const evidence = await load('.rag/DOCUMENTATION-BATCH-01-AUTHORITY-EVIDENCE.md')
+  const contract = await load('.rag/DOCUMENTATION-BATCH-01-EXECUTION-CONTRACT.md')
   for (const role of ['Documentation Architecture Reviewer', 'Portfolio Documentation Reviewer', 'Security Reviewer', 'Documentation Coordinator']) {
     assert.match(evidence, new RegExp(role))
   }

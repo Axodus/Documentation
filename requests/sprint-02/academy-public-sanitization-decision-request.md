@@ -61,7 +61,7 @@ Decide the treatment of the four Academy `SANITIZATION_REQUIRED` groups:
 Review the Academy private baseline, Academy/Marketplace consolidation audit
 and decision register, and cross-core disclosure matrix, standard, and
 roadmap. Scan `docs/academy/`, `docs/index.md`, `README.md`, `SUMMARY.md`,
-`docs/.vitepress/`, and `documentation/DOCUMENTATION-MASTER-INDEX.md`.
+`docs/.vitepress/`, and `.rag/DOCUMENTATION-MASTER-INDEX.md`.
 
 Freeze every public occurrence. Separate public-safe education from token,
 treasury, redemption, settlement, revenue, and investment-like mechanics.

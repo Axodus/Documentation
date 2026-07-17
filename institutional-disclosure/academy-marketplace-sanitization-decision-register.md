@@ -95,7 +95,7 @@ The following criteria govern classification:
 
 | Core | Public Surface | Observed Reference | Classification | Rationale | Required Action | Follow-Up Request | Owner | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cross-Core | `docs/`, `README.md`, `SUMMARY.md`, `docs/.vitepress/`, `documentation/DOCUMENTATION-MASTER-INDEX.md` | No `institutional-disclosure/` path or private artifact filename exposure found | MONITOR_ONLY | No boundary blocker exists, but future regressions would be severe | Keep as a recurring boundary regression scan | None | Documentation Core | ACTIVE |
+| Cross-Core | `docs/`, `README.md`, `SUMMARY.md`, `docs/.vitepress/`, `.rag/DOCUMENTATION-MASTER-INDEX.md` | No `institutional-disclosure/` path or private artifact filename exposure found | MONITOR_ONLY | No boundary blocker exists, but future regressions would be severe | Keep as a recurring boundary regression scan | None | Documentation Core | ACTIVE |
 | Cross-Core | `README.md` and `docs/index.md` | Negative risk language around profit, yield, APY, and return | ACCEPTABLE_PUBLIC_ABSTRACTION | These references are cautionary prohibitions, not return promises | No remediation in this request; retain watch for accidental promotional drift | None | Documentation Core | ACTIVE |
 | Cross-Core | `docs/index.md` | Generic `PoK minting` reference on the Tokenomics card | MONITOR_ONLY | Generic tokenomics reference does not expose Academy or Marketplace private mechanics, but remains adjacent to private themes | Keep under watch if stricter whole-corpus sanitization is later pursued | None | Documentation Core / Tokenomics | ACTIVE |
 

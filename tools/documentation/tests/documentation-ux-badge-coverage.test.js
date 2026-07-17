@@ -63,7 +63,7 @@ test('all public pages resolve to exactly one governed badge', () => {
 })
 
 test('the 105 frozen decisions reconcile to the previously unresolved set', () => {
-  const register = readFileSync(path.join(root, 'documentation/DOCUMENTATION-PAGE-STATUS-REGISTER.md'), 'utf8')
+  const register = readFileSync(path.join(root, '.rag/DOCUMENTATION-PAGE-STATUS-REGISTER.md'), 'utf8')
   const registeredPaths = new Set(
     [...register.matchAll(/^\| `PSC-\d{3}` \| `(docs\/[^`]+)` \|/gm)].map((match) => match[1])
   )

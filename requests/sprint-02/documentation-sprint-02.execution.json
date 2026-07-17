@@ -27,7 +27,7 @@
   "boundary_scan_paths": [
     "documentation.manifest.json",
     "documentation.graph.json",
-    "documentation/DOCUMENTATION-MASTER-INDEX.md"
+    ".rag/DOCUMENTATION-MASTER-INDEX.md"
   ],
   "boundary_forbidden_terms": [
     "institutional-disclosure/",

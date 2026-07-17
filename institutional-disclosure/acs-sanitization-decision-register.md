@@ -88,7 +88,7 @@ This request records ACS boundary findings and sanitization decisions only. It d
 | README.md | Repository-level ACS references | CLASSIFIED |
 | SUMMARY.md | Public ACS navigation references | CLASSIFIED |
 | docs/.vitepress/ | Source navigation configuration | CLASSIFIED |
-| documentation/DOCUMENTATION-MASTER-INDEX.md | Generated public ACS index entries | CLASSIFIED |
+| .rag/DOCUMENTATION-MASTER-INDEX.md | Generated public ACS index entries | CLASSIFIED |
 | Public generated indexes and navigation artifacts | Existing tracked outputs, inspected without regeneration | CLASSIFIED |
 | papers/ | NOT_PRESENT | NOT_APPLICABLE |
 

@@ -1,7 +1,7 @@
 import { GENERATED_ARTIFACTS } from '../shared/constants.js'
 import { normalizeText } from '../serialization/canonical.js'
 
-const MASTER_INDEX_DIRECTORY = 'documentation'
+const MASTER_INDEX_DIRECTORY = '.rag'
 
 export function buildMasterIndex(manifest) {
   const statistics = manifest.statistics

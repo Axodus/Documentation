@@ -60,7 +60,7 @@ Decide whether the two existing `SANITIZATION_REQUIRED` groups should receive
 Review the five private Trading baseline artifacts, the Trading consolidation
 audit and decision register, and the three cross-core governance artifacts.
 Scan `docs/trading/`, `docs/index.md`, `README.md`, `SUMMARY.md`,
-`docs/.vitepress/`, and `documentation/DOCUMENTATION-MASTER-INDEX.md`.
+`docs/.vitepress/`, and `.rag/DOCUMENTATION-MASTER-INDEX.md`.
 
 Freeze every public occurrence by exact path and semantic context. Determine
 whether wording is misleading, financially suggestive, or inconsistent with

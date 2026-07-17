@@ -202,7 +202,7 @@ token, a locked value state, a reward transition, and a payment use.
 | `docs/index.md` | 81 | The Academy card advertises cautious reward documentation; this is part of ACADEMY-SAN-03. |
 | `SUMMARY.md` | 489; 493 | Public navigation names Academy Locked Rewards and Academy Token Reward Flows. |
 | `docs/.vitepress/config.mts` | 106-107 | Academy sidebar source names Token Reward Flows and Locked Rewards. |
-| `documentation/DOCUMENTATION-MASTER-INDEX.md` | 612; 616 | The generated public index reproduces the two Academy document titles. |
+| `.rag/DOCUMENTATION-MASTER-INDEX.md` | 612; 616 | The generated public index reproduces the two Academy document titles. |
 
 `README.md` lines 42 and 44 and `docs/index.md` lines 38, 80, and 111
 contain generic ecosystem or Tokenomics references. They do not independently
@@ -354,7 +354,7 @@ the exact derived changes.
 
 - All files under `docs/`, including every frozen Academy source.
 - `docs/index.md`, `README.md`, `SUMMARY.md`, `docs/.vitepress/`, and
-  `documentation/DOCUMENTATION-MASTER-INDEX.md`.
+  `.rag/DOCUMENTATION-MASTER-INDEX.md`.
 - Public manifests, graphs, indexes, validation outputs, rendered output, and
   search artifacts.
 - Academy, Marketplace, Tokenomics, Treasury, ACS, Legal, or cross-core private

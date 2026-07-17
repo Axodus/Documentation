@@ -41,9 +41,9 @@ test('Batch 03 removes only migrated paths from synchronized registries', async 
 })
 
 test('Batch 03 evidence records IDs, freeze and zero substitutions', async () => {
-  const evidence = await read('documentation/DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md')
-  const ids = await read('documentation/DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md')
-  const freeze = await read('documentation/DOCUMENTATION-BATCH-03-FREEZE-RECORD.md')
+  const evidence = await read('.rag/DOCUMENTATION-MIGRATION-BATCH-03-EVIDENCE.md')
+  const ids = await read('.rag/DOCUMENTATION-BATCH-03-ID-RESERVATION-RECORD.md')
+  const freeze = await read('.rag/DOCUMENTATION-BATCH-03-FREEZE-RECORD.md')
   for (const [path, id] of migrated) {
     assert.match(evidence, new RegExp(path.replaceAll('/', '\\/')))
     assert.match(ids, new RegExp(id))

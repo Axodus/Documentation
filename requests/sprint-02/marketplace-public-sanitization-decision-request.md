@@ -58,7 +58,7 @@ seller settlement, locked rewards, and payment or accepted-asset framing.
 Review the Marketplace private baseline, Academy/Marketplace consolidation
 audit and register, and the cross-core matrix, standard, and roadmap. Scan
 `docs/marketplace/`, `docs/index.md`, `README.md`, `SUMMARY.md`,
-`docs/.vitepress/`, and `documentation/DOCUMENTATION-MASTER-INDEX.md`.
+`docs/.vitepress/`, and `.rag/DOCUMENTATION-MASTER-INDEX.md`.
 
 Freeze every public occurrence and distinguish product discovery and commerce
 abstractions from private economics, routing, settlement, treasury, oracle,

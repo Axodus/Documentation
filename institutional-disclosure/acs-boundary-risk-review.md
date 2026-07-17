@@ -116,7 +116,7 @@ The following public-facing surfaces were reviewed for ACS boundary context:
 - `README.md`
 - `SUMMARY.md`
 - `docs/.vitepress/`
-- `documentation/DOCUMENTATION-MASTER-INDEX.md`
+- `.rag/DOCUMENTATION-MASTER-INDEX.md`
 
 ## Current Public ACS Reference Findings
 

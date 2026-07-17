@@ -50,7 +50,7 @@ export async function generateAll(options = {}) {
   const values = {
     'documentation.manifest.json': context.manifest,
     'documentation.graph.json': context.graph,
-    'documentation/DOCUMENTATION-MASTER-INDEX.md': buildMasterIndex(context.manifest),
+    '.rag/DOCUMENTATION-MASTER-INDEX.md': buildMasterIndex(context.manifest),
     ...reports,
   }
   const artifacts = {}

@@ -6,10 +6,10 @@ import { loadDocument } from '../index.js'
 
 const root = process.cwd()
 const approvedContracts = [
-  ['documentation/DOCUMENTATION-MIGRATION-PLAYBOOK.md', 'DOC-PLAY-001'],
-  ['documentation/DOCUMENTATION-MIGRATION-CRITERIA.md', 'DOC-STD-002'],
-  ['documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md', 'DOC-STD-003'],
-  ['documentation/DOCUMENTATION-ADOPTION-METRICS.md', 'DOC-SPEC-005'],
+  ['.rag/DOCUMENTATION-MIGRATION-PLAYBOOK.md', 'DOC-PLAY-001'],
+  ['.rag/DOCUMENTATION-MIGRATION-CRITERIA.md', 'DOC-STD-002'],
+  ['.rag/DOCUMENTATION-DEBT-CLASSIFICATION.md', 'DOC-STD-003'],
+  ['.rag/DOCUMENTATION-ADOPTION-METRICS.md', 'DOC-SPEC-005'],
 ]
 const approvedAdrs = [
   ['adr/DOC-ADR-018-CONTROLLED-BATCH-MIGRATION-GOVERNANCE.md', 'DOC-ADR-018'],
@@ -18,7 +18,7 @@ const approvedAdrs = [
 ]
 
 test('REQ-02 approved contracts conform to Schema 1.0.0', async () => {
-  const plan = await loadDocument(resolve(root, 'documentation/DOCUMENTATION-EPIC-02-PLAN.md'), { root })
+  const plan = await loadDocument(resolve(root, '.rag/DOCUMENTATION-EPIC-02-PLAN.md'), { root })
   assert.equal(plan.profile, 'CANONICAL')
   assert.equal(plan.metadata.document_id, 'DOC-ROAD-001')
   assert.equal(plan.metadata.publication_status, 'DRAFT')
@@ -35,7 +35,7 @@ test('REQ-02 approved contracts conform to Schema 1.0.0', async () => {
 })
 
 test('ADRs 018 through 020 are approved and indexed', async () => {
-  const approvedIndex = await readFile(resolve(root, 'documentation/DOCUMENTATION-ADR-INDEX.md'), 'utf8')
+  const approvedIndex = await readFile(resolve(root, '.rag/DOCUMENTATION-ADR-INDEX.md'), 'utf8')
   for (const [path, id] of approvedAdrs) {
     const document = await loadDocument(resolve(root, path), { root })
     assert.equal(document.profile, 'CANONICAL')
@@ -56,8 +56,8 @@ test('REQ-02 preserves legacy baseline and exception populations', async () => {
   const exceptions = JSON.parse(await readFile(resolve(root, 'documentation.exceptions.json'), 'utf8'))
   assert.equal(baseline.entries.length, 563)
   assert.equal(exceptions.exceptions.length, 563)
-  assert.ok(baseline.entries.some((entry) => entry.path === 'documentation/DOCUMENTATION-ADR-INDEX.md'))
-  assert.ok(exceptions.exceptions.some((entry) => entry.document_path === 'documentation/DOCUMENTATION-ADR-INDEX.md'))
+  assert.ok(baseline.entries.some((entry) => entry.path === '.rag/DOCUMENTATION-ADR-INDEX.md'))
+  assert.ok(exceptions.exceptions.some((entry) => entry.document_path === '.rag/DOCUMENTATION-ADR-INDEX.md'))
 })
 
 test('REQ-02 approved nodes are connected in the generated graph', async () => {
@@ -73,7 +73,7 @@ test('REQ-02 approved nodes are connected in the generated graph', async () => {
 })
 
 test('initial scope registry covers the 16 detected public cores with stable allocation rules', async () => {
-  const criteria = await readFile(resolve(root, 'documentation/DOCUMENTATION-MIGRATION-CRITERIA.md'), 'utf8')
+  const criteria = await readFile(resolve(root, '.rag/DOCUMENTATION-MIGRATION-CRITERIA.md'), 'utf8')
   const detectedScopes = [
     'ACCOUNT',
     'ACADEMY',
@@ -102,7 +102,7 @@ test('initial scope registry covers the 16 detected public cores with stable all
 })
 
 test('debt classification precedence and flags are frozen', async () => {
-  const classification = await readFile(resolve(root, 'documentation/DOCUMENTATION-DEBT-CLASSIFICATION.md'), 'utf8')
+  const classification = await readFile(resolve(root, '.rag/DOCUMENTATION-DEBT-CLASSIFICATION.md'), 'utf8')
   const expected = [
     '`CONFLICTING`',
     '`DUPLICATED`',

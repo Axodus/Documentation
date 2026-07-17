@@ -8,32 +8,32 @@ const root = process.cwd()
 const read = (path) => readFile(resolve(root, path), 'utf8')
 
 const req01Reports = [
-  ['documentation/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md', 'DOC-RPT-190'],
-  ['documentation/EPIC-08-DEPENDENCY-REGISTER.md', 'DOC-RPT-191'],
-  ['documentation/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md', 'DOC-RPT-192'],
-  ['documentation/EPIC-08-REQ-01-FREEZE-REPORT.md', 'DOC-RPT-193'],
+  ['.rag/EPIC-08-CROSS-CORE-INTEGRATION-MATRIX.md', 'DOC-RPT-190'],
+  ['.rag/EPIC-08-DEPENDENCY-REGISTER.md', 'DOC-RPT-191'],
+  ['.rag/EPIC-08-INTEGRATION-CONTRADICTION-REGISTER.md', 'DOC-RPT-192'],
+  ['.rag/EPIC-08-REQ-01-FREEZE-REPORT.md', 'DOC-RPT-193'],
 ]
 
 const req02Reports = [
-  ['documentation/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md', 'DOC-RPT-194'],
-  ['documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md', 'DOC-RPT-195'],
-  ['documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md', 'DOC-RPT-196'],
-  ['documentation/EPIC-08-REQ-02-FREEZE-REPORT.md', 'DOC-RPT-197'],
+  ['.rag/EPIC-08-CLAIM-TRACEABILITY-REGISTER.md', 'DOC-RPT-194'],
+  ['.rag/EPIC-08-STATUS-EVIDENCE-MATRIX.md', 'DOC-RPT-195'],
+  ['.rag/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md', 'DOC-RPT-196'],
+  ['.rag/EPIC-08-REQ-02-FREEZE-REPORT.md', 'DOC-RPT-197'],
 ]
 
 const req03Reports = [
-  ['documentation/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md', 'DOC-RPT-198'],
-  ['documentation/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md', 'DOC-RPT-199'],
-  ['documentation/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md', 'DOC-RPT-200'],
-  ['documentation/EPIC-08-REQ-03-FREEZE-REPORT.md', 'DOC-RPT-201'],
+  ['.rag/EPIC-08-AUTHORITY-TRACEABILITY-MATRIX.md', 'DOC-RPT-198'],
+  ['.rag/EPIC-08-DECISION-TO-EXECUTION-REGISTER.md', 'DOC-RPT-199'],
+  ['.rag/EPIC-08-AUTHORITY-CONFLICT-REGISTER.md', 'DOC-RPT-200'],
+  ['.rag/EPIC-08-REQ-03-FREEZE-REPORT.md', 'DOC-RPT-201'],
 ]
 
 const req04Reports = [
-  ['documentation/EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md', 'DOC-RPT-202'],
-  ['documentation/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md', 'DOC-RPT-203'],
-  ['documentation/EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md', 'DOC-RPT-204'],
-  ['documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md', 'DOC-RPT-205'],
-  ['documentation/EPIC-08-REQ-04-FREEZE-REPORT.md', 'DOC-RPT-206'],
+  ['.rag/EPIC-08-FLOW-INTERFACE-TRACEABILITY-MATRIX.md', 'DOC-RPT-202'],
+  ['.rag/EPIC-08-RESIDUAL-FLOW-GAP-REGISTER.md', 'DOC-RPT-203'],
+  ['.rag/EPIC-08-FLOW-CLOSURE-ELIGIBILITY-REGISTER.md', 'DOC-RPT-204'],
+  ['.rag/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md', 'DOC-RPT-205'],
+  ['.rag/EPIC-08-REQ-04-FREEZE-REPORT.md', 'DOC-RPT-206'],
 ]
 
 test('EPIC-08 REQ-01 reports are canonical and monotonically identified', async () => {
@@ -145,10 +145,10 @@ test('EPIC-08 REQ-04 freezes eleven flows, six gaps, and existing-page-only mani
 })
 
 test('EPIC-08 REQ-05 public pages implement the exact frozen traceability manifest', async () => {
-  const report = await loadDocument(resolve(root, 'documentation/EPIC-08-REQ-05-EXECUTION-REPORT.md'), { root })
+  const report = await loadDocument(resolve(root, '.rag/EPIC-08-REQ-05-EXECUTION-REPORT.md'), { root })
   assert.equal(report.metadata.document_id, 'DOC-RPT-207')
 
-  const manifest = await read('documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md')
+  const manifest = await read('.rag/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md')
   const paths = [...manifest.matchAll(/^\| `REM-EP8-\d{4}` \| `(docs\/[^`]+)` \|/gm)].map((match) => match[1])
   assert.equal(paths.length, 19)
   for (const path of paths) {
@@ -163,10 +163,10 @@ test('EPIC-08 REQ-05 public pages implement the exact frozen traceability manife
 
 test('EPIC-08 REQ-06 closes with dimensional maturity and governed gaps', async () => {
   const reports = [
-    ['documentation/EPIC-08-MATURITY-AND-TRACEABILITY-SCORECARD.md', 'DOC-RPT-208'],
-    ['documentation/EPIC-08-CROSS-CORE-COHERENCE-AUDIT.md', 'DOC-RPT-209'],
-    ['documentation/EPIC-08-RESIDUAL-BACKLOG-REGISTER.md', 'DOC-RPT-210'],
-    ['documentation/EPIC-08-CLOSURE-REPORT.md', 'DOC-RPT-211'],
+    ['.rag/EPIC-08-MATURITY-AND-TRACEABILITY-SCORECARD.md', 'DOC-RPT-208'],
+    ['.rag/EPIC-08-CROSS-CORE-COHERENCE-AUDIT.md', 'DOC-RPT-209'],
+    ['.rag/EPIC-08-RESIDUAL-BACKLOG-REGISTER.md', 'DOC-RPT-210'],
+    ['.rag/EPIC-08-CLOSURE-REPORT.md', 'DOC-RPT-211'],
   ]
   for (const [path, id] of reports) {
     const document = await loadDocument(resolve(root, path), { root })

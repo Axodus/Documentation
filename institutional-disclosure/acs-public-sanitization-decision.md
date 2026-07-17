@@ -95,7 +95,7 @@ with reviewed repository state
 | `docs/acs/` | Sixteen ACS source pages were unchanged since the audit commit and remain conceptual or explicitly limited. |
 | `docs/index.md`, `README.md`, and `SUMMARY.md` | No ACS private-material reference was found. The only `L3 to L4` occurrence is a non-ACS historical documentation-report title. |
 | `docs/.vitepress/` | The source configuration and theme files contain no private ACS reference. |
-| `documentation/DOCUMENTATION-MASTER-INDEX.md` | Changed only for unrelated generated-index counts and documentation rows; no ACS or disclosure-boundary row changed. |
+| `.rag/DOCUMENTATION-MASTER-INDEX.md` | Changed only for unrelated generated-index counts and documentation rows; no ACS or disclosure-boundary row changed. |
 
 The master-index change is not a material ACS public-source change. No
 escalation is required for the reviewed corpus state.

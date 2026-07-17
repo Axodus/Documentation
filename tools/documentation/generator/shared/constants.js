@@ -5,10 +5,10 @@ export const SCHEMA_VERSION = '1.0.0'
 export const REPOSITORY = 'Axodus/Documentation'
 
 export const GENERATED_ARTIFACTS = Object.freeze([
-  'documentation/DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md',
-  'documentation/DOCUMENTATION-MASTER-INDEX.md',
-  'documentation/DOCUMENTATION-METADATA-COVERAGE.md',
-  'documentation/DOCUMENTATION-RELATIONSHIP-REPORT.md',
+  '.rag/DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md',
+  '.rag/DOCUMENTATION-MASTER-INDEX.md',
+  '.rag/DOCUMENTATION-METADATA-COVERAGE.md',
+  '.rag/DOCUMENTATION-RELATIONSHIP-REPORT.md',
   'documentation.baseline.report.json',
   'documentation.graph.json',
   'documentation.manifest.json',

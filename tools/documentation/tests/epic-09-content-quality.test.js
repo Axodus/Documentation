@@ -5,11 +5,11 @@ import path from 'node:path'
 
 const root = process.cwd()
 const manifests = [
-  'documentation/EPIC-09-FOUNDATIONS-MANIFEST.md',
-  'documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md',
-  'documentation/EPIC-09-CONTROL-INFRASTRUCTURE-MANIFEST.md',
-  'documentation/EPIC-09-PRODUCT-PROTOCOL-MANIFEST.md',
-  'documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md'
+  '.rag/EPIC-09-FOUNDATIONS-MANIFEST.md',
+  '.rag/EPIC-09-USER-VALUE-CREATION-MANIFEST.md',
+  '.rag/EPIC-09-CONTROL-INFRASTRUCTURE-MANIFEST.md',
+  '.rag/EPIC-09-PRODUCT-PROTOCOL-MANIFEST.md',
+  '.rag/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md'
 ]
 
 async function walk(directory) {
@@ -31,7 +31,7 @@ test('EPIC-09 qualification and execution ownership are complete and non-overlap
     .map((file) => path.relative(root, file).replaceAll(path.sep, '/'))
   assert.equal(publicPages.length, 269)
 
-  const matrix = await readFile(path.join(root, 'documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md'), 'utf8')
+  const matrix = await readFile(path.join(root, '.rag/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md'), 'utf8')
   const qualified = [...matrix.matchAll(/\| `(docs\/[^\`]+\.md)` \|/g)].map((match) => match[1])
   assert.equal(qualified.length, 269)
   assert.equal(new Set(qualified).size, 269)
@@ -48,7 +48,7 @@ test('EPIC-09 qualification and execution ownership are complete and non-overlap
 
 test('EPIC-09 private owner context stays out of public generated artifacts', async () => {
   const generated = [
-    'documentation/DOCUMENTATION-MASTER-INDEX.md',
+    '.rag/DOCUMENTATION-MASTER-INDEX.md',
     'documentation.manifest.json',
     'documentation.graph.json',
     'documentation.validation.json'

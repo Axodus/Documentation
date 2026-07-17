@@ -47,10 +47,10 @@ test('Batch 04 retires matching active registry entries atomically', async () =>
 
 test('Batch 04 execution evidence uses monotonic canonical IDs and no report edges', async () => {
   for (const [path, id] of [
-    ['documentation/EPIC-03-BATCH-04-EXECUTION-REPORT.md', 'DOC-RPT-060'],
-    ['documentation/EPIC-03-BATCH-04-SEMANTIC-DIFF.md', 'DOC-RPT-061'],
-    ['documentation/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md', 'DOC-RPT-062'],
-    ['documentation/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md', 'DOC-RPT-063'],
+    ['.rag/EPIC-03-BATCH-04-EXECUTION-REPORT.md', 'DOC-RPT-060'],
+    ['.rag/EPIC-03-BATCH-04-SEMANTIC-DIFF.md', 'DOC-RPT-061'],
+    ['.rag/EPIC-03-BATCH-04-MIGRATION-EVIDENCE-REGISTER.md', 'DOC-RPT-062'],
+    ['.rag/EPIC-03-BATCH-04-SECURITY-AND-BOUNDARY-REVIEW.md', 'DOC-RPT-063'],
   ]) {
     const document = await loadDocument(resolve(root, path), { root })
     assert.equal(document.profile, 'CANONICAL')
@@ -60,7 +60,7 @@ test('Batch 04 execution evidence uses monotonic canonical IDs and no report edg
 })
 
 test('Batch 04 candidate register reconciles primaries and unused alternates', async () => {
-  const register = await read('documentation/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md')
+  const register = await read('.rag/EPIC-03-BATCH-04-CANDIDATE-REGISTER.md')
   assert.equal((register.match(/\| Primary \| `MIGRATED` \|/g) ?? []).length, 10)
   assert.equal((register.match(/\| Alternate \| Not activated \|/g) ?? []).length, 5)
   assert.match(register, /MIGRATED: 10/)
@@ -69,17 +69,17 @@ test('Batch 04 candidate register reconciles primaries and unused alternates', a
 
 test('Batch 04 closure independently reconciles all candidates and records PASS', async () => {
   for (const [path, id] of [
-    ['documentation/EPIC-03-BATCH-04-CLOSURE-AUDIT.md', 'DOC-RPT-064'],
-    ['documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md', 'DOC-RPT-065'],
-    ['documentation/EPIC-03-BATCH-04-RESIDUAL-RISK-REGISTER.md', 'DOC-RPT-066'],
+    ['.rag/EPIC-03-BATCH-04-CLOSURE-AUDIT.md', 'DOC-RPT-064'],
+    ['.rag/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md', 'DOC-RPT-065'],
+    ['.rag/EPIC-03-BATCH-04-RESIDUAL-RISK-REGISTER.md', 'DOC-RPT-066'],
   ]) {
     const document = await loadDocument(resolve(root, path), { root })
     assert.equal(document.profile, 'CANONICAL')
     assert.equal(document.metadata.document_id, id)
     assert.deepEqual(document.metadata.relationships, [])
   }
-  const audit = await read('documentation/EPIC-03-BATCH-04-CLOSURE-AUDIT.md')
-  const acceptance = await read('documentation/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md')
+  const audit = await read('.rag/EPIC-03-BATCH-04-CLOSURE-AUDIT.md')
+  const acceptance = await read('.rag/EPIC-03-BATCH-04-ACCEPTANCE-REGISTER.md')
   assert.match(audit, /Decision: PASS/)
   assert.equal((acceptance.match(/`ACCEPTED` \|/g) ?? []).length, 10)
   assert.equal((acceptance.match(/`DEFERRED_CONFIRMED` \|/g) ?? []).length, 5)

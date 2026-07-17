@@ -58,7 +58,7 @@ zero `BOUNDARY_BLOCKER` findings.
 Review the five private ACS baseline artifacts, ACS consolidation audit and
 decision register, and cross-core matrix, standard, and roadmap. Scan
 `docs/acs/`, `docs/index.md`, `README.md`, `SUMMARY.md`, `docs/.vitepress/`, and
-`documentation/DOCUMENTATION-MASTER-INDEX.md`.
+`.rag/DOCUMENTATION-MASTER-INDEX.md`.
 
 Confirm continued absence of RedHat, L1-L4, private veto or fraud heuristics,
 override mechanics, local versus in-Axodus topology, immutable logging

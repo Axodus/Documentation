@@ -7,9 +7,9 @@ import { normalizeText } from '../serialization/canonical.js'
 
 export function buildReports(context) {
   return {
-    'documentation/DOCUMENTATION-METADATA-COVERAGE.md': buildMetadataCoverage(context),
-    'documentation/DOCUMENTATION-RELATIONSHIP-REPORT.md': buildRelationshipReport(context),
-    'documentation/DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md': buildGenerationRules(context),
+    '.rag/DOCUMENTATION-METADATA-COVERAGE.md': buildMetadataCoverage(context),
+    '.rag/DOCUMENTATION-RELATIONSHIP-REPORT.md': buildRelationshipReport(context),
+    '.rag/DOCUMENTATION-DETERMINISTIC-GENERATION-RULES.md': buildGenerationRules(context),
     'documentation.validation.json': context.validation.report,
     'documentation.baseline.report.json': buildBaselineReport(context),
   }

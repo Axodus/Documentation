@@ -8,7 +8,7 @@ const root = process.cwd()
 const read = (path) => readFile(resolve(root, path), 'utf8')
 
 test('repository sanitization audit is a connected canonical report', async () => {
-  const document = await loadDocument(resolve(root, 'documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md'), { root })
+  const document = await loadDocument(resolve(root, '.rag/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md'), { root })
   assert.equal(document.profile, 'CANONICAL')
   assert.equal(document.metadata.document_id, 'DOC-RPT-045')
   assert.equal(document.metadata.publication_status, 'DRAFT')
@@ -44,7 +44,7 @@ test('gitignore covers local dependency, build, secret, log, and temporary artif
 })
 
 test('repository sanitization report records false-positive triage and closed gates', async () => {
-  const report = await read('documentation/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md')
+  const report = await read('.rag/DOCUMENTATION-REPOSITORY-SANITIZATION-AUDIT.md')
   assert.match(report, /No high-confidence live credential found/)
   assert.match(report, /Synthetic fixture strings/)
   assert.match(report, /Private Tracks B\/C remain internal/)

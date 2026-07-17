@@ -281,9 +281,9 @@ are separated from substantive source contexts.
 | `docs/marketplace/overview.md` | 61-63; 69 | The Marketplace map names Payments and Settlement, Fees and Revenue, Credits and Locked Rewards, and Treasury Alignment. |
 | `SUMMARY.md` | 630; 633; 637; 644-645 | Public navigation reproduces the sensitive Marketplace page titles. |
 | `docs/.vitepress/config.mts` | 120-123; 128 | Marketplace sidebar source reproduces the sensitive page titles. |
-| `documentation/DOCUMENTATION-MASTER-INDEX.md` | 723; 726; 729; 734-735 | The generated public index reproduces the sensitive Marketplace page titles. |
+| `.rag/DOCUMENTATION-MASTER-INDEX.md` | 723; 726; 729; 734-735 | The generated public index reproduces the sensitive Marketplace page titles. |
 | `SUMMARY.md` | 322; 325; 332; 339-340 | Legacy Marketplace navigation mirrors the sensitive topic labels without adding an independent governed mechanic. |
-| `documentation/DOCUMENTATION-MASTER-INDEX.md` | 485; 488; 495; 503-504 | The generated index mirrors the corresponding legacy topic paths without adding an independent governed mechanic. |
+| `.rag/DOCUMENTATION-MASTER-INDEX.md` | 485; 488; 495; 503-504 | The generated index mirrors the corresponding legacy topic paths without adding an independent governed mechanic. |
 
 `README.md` lines 42, 65, and 102, `docs/index.md` lines 56 and 109, and
 the generic Marketplace root, navigation, and approved-document rows contain
@@ -510,7 +510,7 @@ the expected derived file set, and verify the exact generated changes.
 - All files under `docs/`, including every frozen Marketplace source and
   `docs/index.md`.
 - `README.md`, `SUMMARY.md`, `docs/.vitepress/`, and
-  `documentation/DOCUMENTATION-MASTER-INDEX.md`.
+  `.rag/DOCUMENTATION-MASTER-INDEX.md`.
 - Public manifests, graphs, indexes, validation outputs, rendered output,
   search artifacts, and legacy knowledge-pack surfaces.
 - Marketplace, Academy, Tokenomics, Treasury, Business, Governance,

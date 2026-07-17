@@ -104,7 +104,7 @@ source, and no public artifact was regenerated or remediated.
 | README.md | ACS references reviewed; no private reference found |
 | SUMMARY.md | ACS references reviewed; no private reference found |
 | docs/.vitepress/ | Source navigation configuration reviewed; no private reference found |
-| documentation/DOCUMENTATION-MASTER-INDEX.md | ACS entries reviewed; no private reference found |
+| .rag/DOCUMENTATION-MASTER-INDEX.md | ACS entries reviewed; no private reference found |
 | Public generated indexes and navigation artifacts | Existing ACS entries inspected without regeneration; no private reference found |
 | papers/ | NOT_PRESENT |
 

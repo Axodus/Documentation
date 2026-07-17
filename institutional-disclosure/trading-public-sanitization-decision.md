@@ -168,7 +168,7 @@ controlled regeneration and verification:
 The rest of `docs/trading/` contains no additional occurrence in either finding
 group. `docs/index.md`, `README.md`, `SUMMARY.md`,
 `docs/.vitepress/config.mts`, and
-`documentation/DOCUMENTATION-MASTER-INDEX.md` contain only generic ecosystem or
+`.rag/DOCUMENTATION-MASTER-INDEX.md` contain only generic ecosystem or
 navigation references and do not associate the two finding groups with Trading
 access. VitePress cache dependencies contain no independent governed wording.
 
@@ -233,7 +233,7 @@ execution request.
 
 - All files under `docs/`, including the frozen Trading source paths.
 - `docs/index.md`, `README.md`, `SUMMARY.md`, `docs/.vitepress/`, and
-  `documentation/DOCUMENTATION-MASTER-INDEX.md`.
+  `.rag/DOCUMENTATION-MASTER-INDEX.md`.
 - Public manifests, graphs, indexes, validation outputs, rendered output, and
   search artifacts.
 - Private baseline policy, unresolved economic or operational mechanics, and

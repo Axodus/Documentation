@@ -104,7 +104,7 @@ Scanned public-facing or public-index surfaces:
 - `README.md`
 - `SUMMARY.md`
 - `docs/.vitepress/`
-- `documentation/DOCUMENTATION-MASTER-INDEX.md`
+- `.rag/DOCUMENTATION-MASTER-INDEX.md`
 - `papers/: NOT_PRESENT`
 
 ## Academy Findings

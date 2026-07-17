@@ -9,11 +9,11 @@ const read = (path) => readFile(resolve(root, path), 'utf8')
 const readJson = async (path) => JSON.parse(await read(path))
 
 const finalReports = [
-  ['documentation/EPIC-03-FINAL-RECONCILIATION-REPORT.md', 'DOC-RPT-067'],
-  ['documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md', 'DOC-RPT-068'],
-  ['documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md', 'DOC-RPT-069'],
-  ['documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md', 'DOC-RPT-070'],
-  ['documentation/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md', 'DOC-RPT-071'],
+  ['.rag/EPIC-03-FINAL-RECONCILIATION-REPORT.md', 'DOC-RPT-067'],
+  ['.rag/EPIC-03-FINAL-CLOSURE-AUDIT.md', 'DOC-RPT-068'],
+  ['.rag/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md', 'DOC-RPT-069'],
+  ['.rag/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md', 'DOC-RPT-070'],
+  ['.rag/EPIC-03-SUCCESSOR-WORKSTREAM-PLAN.md', 'DOC-RPT-071'],
 ]
 
 test('EPIC-03 final closure reports use monotonic IDs and no authored relationships', async () => {
@@ -41,9 +41,9 @@ test('EPIC-03 final closure preserves registry reconciliation and residual backl
 })
 
 test('EPIC-03 final closure records residual-governed closure without maturity promotion', async () => {
-  const audit = await read('documentation/EPIC-03-FINAL-CLOSURE-AUDIT.md')
-  const maturity = await read('documentation/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md')
-  const backlog = await read('documentation/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md')
+  const audit = await read('.rag/EPIC-03-FINAL-CLOSURE-AUDIT.md')
+  const maturity = await read('.rag/EPIC-03-MATURITY-AND-DEVELOPMENT-ASSESSMENT.md')
+  const backlog = await read('.rag/EPIC-03-RESIDUAL-BACKLOG-REGISTER.md')
 
   assert.match(audit, /CLOSED_WITH_RESIDUAL_GOVERNED_BACKLOG/)
   assert.match(audit, /PASS_CLOSED_WITH_RESIDUAL_GOVERNED_BACKLOG/)

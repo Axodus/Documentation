@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-Canonical VitePress content lives in `docs/`, grouped by ecosystem area such as `docs/governance/` and `docs/treasury/`. Root files (`README.md`, `ARCHITECTURE.md`, `SECURITY.md`) provide repository-wide guidance. Document-type collections—including `adr/`, `policies/`, `requirements/`, `research/`, and `operations/`—hold governed records; `legacy/` contains legacy or historical material. Reuse authoring patterns from `templates/`. Validation, generation, and CLI code lives in `tools/documentation/`, with tests in `tools/documentation/tests/`. Generated indexes and JSON artifacts at the root must not be edited manually.
+Canonical VitePress content lives in `docs/`, grouped by ecosystem area such as `docs/governance/` and `docs/treasury/`. The versioned `.rag/` directory contains governed retrieval and knowledge artifacts; it is not a disposable cache. Root files (`README.md`, `ARCHITECTURE.md`, `SECURITY.md`) provide repository-wide guidance. Document-type collections—including `adr/`, `policies/`, `requirements/`, `research/`, and `operations/`—hold governed records; `legacy/` contains legacy or historical material. Reuse authoring patterns from `templates/`. Validation, generation, and CLI code lives in `tools/documentation/`, with tests in `tools/documentation/tests/`. Generated indexes and JSON artifacts at the root must not be edited manually.
 
 ## Build, Test, and Development Commands
 

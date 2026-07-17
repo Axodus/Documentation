@@ -116,7 +116,7 @@ Scanned surfaces:
 - README.md
 - SUMMARY.md
 - docs/.vitepress/ source configuration and navigation
-- documentation/DOCUMENTATION-MASTER-INDEX.md
+- .rag/DOCUMENTATION-MASTER-INDEX.md
 - public generated manifest, graph, validation, and baseline-report JSON
   artifacts
 - papers/: NOT_PRESENT

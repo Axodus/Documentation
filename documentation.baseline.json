@@ -6334,7 +6334,7 @@
       "missing_rules": [
         "DOC-RULE-001"
       ],
-      "path": "documentation/DOCUMENTATION-ADR-INDEX.md",
+      "path": ".rag/DOCUMENTATION-ADR-INDEX.md",
       "sha256": "6fccb1d4316b9accb454f6e8551f0e85ef81c45d5127ab46ec3fe2e96eb2dbb2",
       "source_inventory_version": "DOCUMENTATION-VALIDATION-1.1.0"
     },
