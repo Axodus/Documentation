@@ -7,6 +7,22 @@ Owner: Axodus BBA / ACS
 
 ---
 
+
+## Human-Controlled Workflow
+
+A BBA owner submits a bounded task such as research organization, claim
+screening, audience analysis, or draft preparation. ACS may return structured
+findings, missing-evidence flags, risk classifications, and suggested edits.
+The responsible human reviews sources, rejects unsupported output, and decides
+whether the material can advance.
+
+ACS does not approve campaigns, publish content, contact users, purchase media,
+or certify legal compliance. Sensitive claims route to the appropriate product,
+legal, security, governance, or treasury reviewer. If the evidence is missing
+or contradictory, the workflow ends in revision or rejection, not automated
+publication.
+
+
 ## Purpose
 
 Define how ACS supports BBA work without replacing human accountability.
@@ -30,4 +46,3 @@ ACS may prepare governance communication drafts, but it cannot approve claims, c
 ## Risk Considerations
 
 ACS may be wrong. Sensitive claims require human validation and domain review before publication.
-

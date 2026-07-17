@@ -64,3 +64,17 @@ Statuses may include Created, Awaiting Payment, Paid, In Delivery, Delivered, Co
 ## Buyer Protection Requirements
 
 Listings should expose seller status, price, fees, refund policy, delivery model, risk disclosures, support path, and transaction summary before payment. Outcomes depend on listing terms and are not guaranteed.
+
+## Buyer Decision Flow
+
+1. The buyer identifies a listing and reviews provider, status, scope, price or
+   quote basis, delivery terms, and risks.
+2. Eligibility and availability are checked in the applicable context.
+3. Custom or ambiguous work routes to Business before commitment.
+4. Any payment or credit step routes through an authorized settlement surface.
+5. Delivery and acceptance are recorded.
+6. A mismatch routes to support or dispute handling.
+
+No step implies that listings, checkout, payments, refunds, credits, or
+settlement are currently enabled. A buyer-facing interface must fail closed
+when status, authority, or payment evidence is unavailable.

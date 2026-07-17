@@ -7,6 +7,21 @@ Owner: Axodus Marketplace / Treasury
 
 ---
 
+
+## Settlement Preconditions
+
+A settlement flow requires an identified payer and payee, accepted asset,
+amount, fees, custody model, authorization, signing route, confirmation source,
+refund or reversal policy, reconciliation owner, and failure handling. The
+Marketplace may prepare an order or settlement instruction but must not move
+assets independently.
+
+Current documentation is conceptual. It does not confirm enabled checkout,
+wallet signing, token payment, credit redemption, payout, escrow, refund, or
+Treasury routing. Missing authorization, custody, compliance, or reconciliation
+evidence blocks settlement and routes the dependency to EPIC-10.
+
+
 ## Purpose
 
 Marketplace payments and settlement must be transparent, auditable, and aligned with treasury policy.
@@ -33,4 +48,3 @@ Payment statuses may include Pending, Confirmed, Failed, Refunded, Partially Ref
 
 - [Disputes, Refunds and Support](disputes-refunds-and-support.md)
 - [Treasury Alignment](treasury-alignment.md)
-

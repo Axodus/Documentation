@@ -7,6 +7,20 @@ Owner: Axodus BBA
 
 ---
 
+
+## Review Decision
+
+Each claim is decomposed into subject, asserted state, scope, time, audience,
+and required evidence. The reviewer assigns one of four outcomes: supported,
+supported with qualification, directional only, or remove/rewrite.
+
+Product, partnership, adoption, security, audit, financial, token, treasury,
+performance, and compliance claims require a canonical source and a current
+status context. Owner intent can explain positioning but cannot prove an active
+capability. When evidence is private, the public output records only a safe
+conclusion and limitation; it does not reproduce the underlying material.
+
+
 ## Purpose
 
 Claim review is BBA's primary safety function.
@@ -30,4 +44,3 @@ Claims require an appropriate source of truth such as release note, governance r
 ## Risk Considerations
 
 Dangerous claims include guaranteed ROI, guaranteed profit, guaranteed APY, guaranteed token appreciation, audited without audit, official partner without confirmation, legally compliant without review, and community approved without governance record.
-

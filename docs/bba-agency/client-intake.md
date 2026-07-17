@@ -7,6 +7,21 @@ Owner: Axodus BBA / Business
 
 ---
 
+
+## Intake Output
+
+Intake converts an initial request into a reviewable brief. The brief identifies
+the requester, intended audience, objective, deliverables, channels, source
+materials, prohibited claims, dependencies, deadlines, acceptance criteria, and
+required reviewers.
+
+BBA may clarify and structure the request but cannot commit Business delivery,
+Marketplace publication, legal approval, financial performance, or product
+availability. Incomplete ownership, evidence, budget authority, privacy terms,
+or product status produces a blocked brief. Only an approved brief can enter
+campaign planning.
+
+
 ## Purpose
 
 Define how BBA receives and classifies communication, launch, positioning, and claim review requests.
@@ -31,4 +46,3 @@ DAO, treasury, tokenomics, public launch, official partnership, and governance-s
 ## Risk Considerations
 
 Intake is not approval. Unsupported claims, vague objectives, missing evidence, unclear product status, and unrealistic campaign goals must be flagged before delivery.
-

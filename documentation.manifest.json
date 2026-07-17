@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 993,
+  "document_count": 994,
   "documents": [
     {
       "aliases": [],
@@ -7818,7 +7818,7 @@
         "DOCUMENTATION-EPIC-07",
         "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "7ff9c7ef5c2f15abb36014c99738a84240bc5f12917643166c687002e96a9b33",
+      "sha256": "b7c602eb0b15b22d72db705116156e7b7eb216c61256922b3e63211df0566602",
       "source_path": "docs/academy/proof-of-knowledge.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8406,7 +8406,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "b128231722ca59744f09f4b1b4a5cec7a084ad104b82d790806ba0b115a44c1d",
+      "sha256": "41e2d884f3e99476c19fe0aef9e3d2e2cb39cabe90c18afae61e3d588a1925ef",
       "source_path": "docs/bba-agency/acs-agent-workflow.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8446,7 +8446,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "f1a58088ada1aa36f16123eff85189742f02aff2d2bc5125dc861c131abf8c8f",
+      "sha256": "3ea68c60ddeee682f4514198a757463086e34aa63b3b8114d82772bfa2ad142c",
       "source_path": "docs/bba-agency/campaign-lifecycle.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8466,7 +8466,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "b9eb4791d95f946f9724d1b30267d290cf274da5adf4501b4b3fbb37e9a1ed58",
+      "sha256": "879d33d3aec29e94f7a53220534cc3b3597f771da7f4f23499518db5b265f121",
       "source_path": "docs/bba-agency/claim-review.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8486,7 +8486,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "35b75609cdb5da58b62d49408a0e9aaffb135eebd602a46628764e5caac1703b",
+      "sha256": "ccf24250c2edb5dabfa0d199d7232a1dd7ac924a6bb5f978c3ca19b59efde8e1",
       "source_path": "docs/bba-agency/client-intake.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8672,7 +8672,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "9833f108354a346bbcc2f89d091d6d1a17e5a763a5a8e9bb4dda256ff2bd5a1a",
+      "sha256": "bb2b081490f2ee27e3fb23186ac173ad2b861c369315ef4ce8db18a9cc8071fc",
       "source_path": "docs/bba-agency/service-model.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10797,7 +10797,7 @@
         "MARKET-GDE-001",
         "MARKET-GDE-005"
       ],
-      "sha256": "9d5a2da6f8f74cb526b919d22308a3816804c6a8e24d85658587d015fe3644ba",
+      "sha256": "9195b6ead41c20a67155c3523e560bf89eb5099822b4689fb97977c31687f93b",
       "source_path": "docs/marketplace/architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10843,7 +10843,7 @@
         "DOCUMENTATION-EPIC-02",
         "MARKET-GDE-001"
       ],
-      "sha256": "42039cc3e336ae8ccca79c5bf12d3a160877ddd40754105c7969928f4e67eda3",
+      "sha256": "eed05b9668b93846c915208aad44c1d87187abca65bb563bf0e3bb8b4f1afd01",
       "source_path": "docs/marketplace/buyer-flow.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10963,7 +10963,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "5d517a0041cf0745b100a5ab423f1aa5216df86f4ea74477705f1a07c941b88d",
+      "sha256": "8db5bc174a33ae7cb174e73838745dd017cd7d729a4de02905beef84d3826c17",
       "source_path": "docs/marketplace/listing-model.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11009,7 +11009,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "de5667af43b4bc2d459078f90075b028dbcd22174146a4e670e6214dafae10d8",
+      "sha256": "66aedccfdf72bd3d83109e0df5a0c17c5452638e5515f81cd0da841c0068e76f",
       "source_path": "docs/marketplace/payments-and-settlement.md",
       "superseded_by": [],
       "supersedes": [],
@@ -19081,6 +19081,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-242",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-08"
+      ],
+      "sha256": "7ca78e95489dc2f2ccf0758424a5ead1d6b2345184605d39522dcca0384a8714",
+      "source_path": "documentation/EPIC-09-REQ-08-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-08 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-239",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -24779,7 +24802,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 401,
+    "compliant_documents": 402,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24787,12 +24810,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 140,
+      "PROJECT": 141,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 317,
+      "D2": 318,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24814,7 +24837,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 289,
+      "Axodus Documentation Core": 290,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24836,7 +24859,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 242,
+      "DRAFT": 243,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24849,7 +24872,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 242,
+      "REPORT": 243,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24862,6 +24885,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 993
+    "total_documents": 994
   }
 }

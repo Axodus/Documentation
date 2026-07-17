@@ -7,6 +7,21 @@ Owner: Axodus BBA
 
 ---
 
+
+## Campaign State Transitions
+
+A campaign moves through intake, objective definition, audience and channel
+selection, claim review, asset production, owner approval, bounded release,
+measurement, and closure. Each transition records its owner, inputs, decision,
+and unresolved risks.
+
+A campaign can be paused when claims lose support, approvals expire, a product
+status changes, a security incident occurs, or observed results conflict with
+public wording. Measurement distinguishes delivery metrics from business
+outcomes; impressions, clicks, or leads do not prove adoption, revenue, token
+performance, or return on investment.
+
+
 ## Purpose
 
 Define the lifecycle for BBA campaigns from discovery through reporting.
@@ -30,4 +45,3 @@ Governance review may be required for DAO campaigns, treasury claims, public roa
 ## Risk Considerations
 
 Campaign metrics are measurement tools, not guaranteed outcomes. Campaigns must avoid guaranteed growth, guaranteed acquisition, guaranteed revenue, or token price claims.
-

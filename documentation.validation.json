@@ -6860,10 +6860,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/bba-agency/acs-agent-workflow.md"
     },
@@ -6896,10 +6896,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/bba-agency/campaign-lifecycle.md"
     },
@@ -6914,10 +6914,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/bba-agency/claim-review.md"
     },
@@ -6932,10 +6932,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/bba-agency/client-intake.md"
     },
@@ -7076,10 +7076,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/bba-agency/service-model.md"
     },
@@ -8453,10 +8453,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/marketplace/listing-model.md"
     },
@@ -8471,10 +8471,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/marketplace/payments-and-settlement.md"
     },
@@ -10972,6 +10972,15 @@
       "source_path": "documentation/EPIC-09-REQ-07-EXECUTION-REPORT.md"
     },
     {
+      "document_id": "DOC-RPT-242",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-REQ-08-EXECUTION-REPORT.md"
+    },
+    {
       "document_id": "DOC-RPT-239",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -12392,7 +12401,7 @@
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
     "baseline_entries": 563,
-    "changed_legacy": 20,
+    "changed_legacy": 27,
     "defer_with_risk_dispositions": 42,
     "disposition_entries": 563,
     "disposition_registry_valid": true,
@@ -12401,9 +12410,9 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1376,
+    "info": 1377,
     "invalid_exceptions": 0,
-    "known_legacy": 524,
+    "known_legacy": 517,
     "legacy_documents": 578,
     "migrate_dispositions": 177,
     "relationships": 421,
@@ -12413,16 +12422,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 993,
+    "total_documents": 994,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 401,
+    "validated_documents": 402,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 401,
+  "validated_documents": 402,
   "validation_version": "1.1.0",
   "warnings": 0
 }

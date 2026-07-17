@@ -7,6 +7,21 @@ Owner: Axodus BBA
 
 ---
 
+
+## Service Boundary
+
+BBA services transform governed product knowledge into positioning, content,
+campaign assets, launch support, and accountability records. Inputs come from a
+client or owning nucleus; outputs are reviewed communication deliverables, not
+product implementation or guaranteed commercial results.
+
+A service engagement identifies scope, responsible human, evidence sources,
+review routes, acceptance criteria, publication owner, and exclusions. Work that
+requires software delivery routes through Business. Listings route through
+Marketplace. Governance, legal, security, Treasury, and product owners retain
+their own decisions.
+
+
 ## Purpose
 
 Define BBA services as scoped, measurable, claim-reviewed business workflows.
@@ -30,4 +45,3 @@ Governance review is required when services affect public governance claims, DAO
 ## Risk Considerations
 
 BBA services must not promise guaranteed sales, ROI, token growth, community growth, or investment outcomes.
-

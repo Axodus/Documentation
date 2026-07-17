@@ -66,3 +66,16 @@ Core objects include `Listing`, `SellerProfile`, `Order`, `PaymentRecord`, `Sett
 ## Architecture Invariants
 
 Seller status must be visible. Listing claims must be reviewable. Payment and settlement records must be auditable. Locked rewards require explicit policy, contract, treasury, and compliance support before marketplace spending is claimed.
+
+## State And Interface Model
+
+A marketplace flow connects a provider profile, listing, eligibility state,
+buyer intent, order or access request, delivery record, dispute state, and
+accountability output. Governance defines applicable policy; Business may
+handle custom work; Treasury or an authorized payment surface would handle
+financial settlement; ACS may provide advisory risk signals.
+
+The documentation does not establish an active operator, listing authority,
+payment processor, custody model, or production marketplace. Interfaces remain
+conditional until the responsible authority, implementation, data contract,
+failure handling, and activation evidence are confirmed.

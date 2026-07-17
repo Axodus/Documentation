@@ -7,6 +7,20 @@ Owner: Axodus Marketplace
 
 ---
 
+
+## Listing State Model
+
+A listing should identify its owner, provider, offer type, scope, delivery
+model, eligibility, public status, evidence date, price or quote basis,
+dependencies, restrictions, and support route. Suggested states are draft,
+under review, approved for a named context, suspended, deprecated, and archived.
+
+Approved documentation does not itself authorize a live listing. Publication
+requires a designated listing authority and an active operator. Listings are
+suspended when evidence expires, claims become unsafe, provider status changes,
+delivery becomes unavailable, or a policy or security review blocks release.
+
+
 ## Purpose
 
 A listing is the public commercial representation of a product, service, course, subscription, template, digital asset, or access offer.
@@ -36,4 +50,3 @@ Listings should have clear titles, correct categories, visible seller status, ac
 - [Seller / Provider Model](seller-provider-model.md)
 - [Reputation and Quality](reputation-and-quality.md)
 - [Risk and Compliance](risk-and-compliance.md)
-

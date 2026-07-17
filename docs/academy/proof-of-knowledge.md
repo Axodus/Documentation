@@ -78,3 +78,17 @@ decision. PoK alone cannot trigger an economic effect.
 The educational intent is defined, but the complete protocol, assessment
 authority, certification recognition, revocation model, anti-abuse guarantees,
 and enabled reward behavior remain incomplete.
+
+## Qualification Boundary
+
+A Proof of Knowledge record is intended to connect a learner, an assessed
+activity, an issuer or reviewer, criteria, a result, and a revocation or
+correction state. The minimum conceptual flow is:
+
+`learning activity -> evidence submission -> assessment -> reviewed result -> governed record`
+
+Course completion alone does not prove competence, identity, certification
+authority, token eligibility, or external recognition. Those effects require
+separate rules and implementation evidence. Until qualification, issuance,
+revocation, and consuming-system interfaces are formally defined and verified,
+PoK remains a governed model rather than an active credential or reward system.
