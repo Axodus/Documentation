@@ -93,3 +93,16 @@ unverified or blocked.
 The interface IDs are documentation crosswalks, not claims of live transport.
 Six flows (`0002`, `0004`, `0005`, `0006`, `0007`, and `0010`) remain
 explicitly incomplete under `EVID-EP8-0007`.
+
+## End-To-End Handoff Rule
+
+A defensible execution chain is:
+
+`need -> qualification -> scoped decision -> authorized plan -> bounded action -> validation -> accountability record`
+
+At every handoff, the receiving actor checks scope, authority, required
+evidence, and open gates. Rejection returns the item with a reason; a missing
+interface or authority blocks progression; an incident can suspend the action
+and route it to the responsible recovery authority. Completion requires an
+output that matches the approved scope and a reviewable receipt. No agent,
+runtime, or product core may infer permission from an upstream request.

@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 996,
+  "document_count": 997,
   "documents": [
     {
       "aliases": [],
@@ -11783,7 +11783,7 @@
         "DOCUMENTATION-EPIC-07",
         "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "8af0aee2e63b3dc6ba98d004156a19af855dd0b3ebf1eca8a96b653a0c1d1bb6",
+      "sha256": "ca61d5e7829caa5070ddc0f35493235e851a62e38b794cbf2f8c16f404242921",
       "source_path": "docs/overview/cross-core-architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11881,7 +11881,7 @@
         "DOCUMENTATION-EPIC-07",
         "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "9a653972a4a400860fdde5bab83e30b5ee98f7d0ad42c71016ce42a7824a2254",
+      "sha256": "a8a6d88c5e95789b9b8d72671f11943805ead825acf12bcec4337f410cfbf258",
       "source_path": "docs/overview/execution-model.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11905,7 +11905,7 @@
         "DOCUMENTATION-EPIC-07",
         "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "042875c2a8c88211337198c3c368d12f23719d8b227b3fde1cacbafa1a487cc7",
+      "sha256": "078b2a04bd2618a218be63a67c4bc4de32ccfb76745f65067b26d20092a9efba",
       "source_path": "docs/overview/product-map.md",
       "superseded_by": [],
       "supersedes": [],
@@ -19150,6 +19150,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-245",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-11"
+      ],
+      "sha256": "8ed3d02000fe66d91e9d4067adeaed9a06bad1ecc8a16d772d77c7320877c1f4",
+      "source_path": "documentation/EPIC-09-REQ-11-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-11 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-239",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -24848,7 +24871,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 404,
+    "compliant_documents": 405,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24856,12 +24879,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 143,
+      "PROJECT": 144,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 320,
+      "D2": 321,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24883,7 +24906,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 292,
+      "Axodus Documentation Core": 293,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24905,7 +24928,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 245,
+      "DRAFT": 246,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24918,7 +24941,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 245,
+      "REPORT": 246,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24931,6 +24954,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 996
+    "total_documents": 997
   }
 }

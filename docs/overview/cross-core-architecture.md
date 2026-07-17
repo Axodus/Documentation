@@ -116,3 +116,16 @@ interface is implemented, activated, operational, or production-ready.
 Evidence references `EVID-EP8-0004` and `EVID-EP8-0007` support the
 documentation inventory and flow crosswalk only. They do not activate a
 cross-core runtime.
+
+## Integration Contract Minimum
+
+Every cross-core relationship should identify a requesting core, responding
+core, input, output, interface or record, responsible authority, current status,
+and failure behavior. A request is not a command unless authority explicitly
+makes it one. An event is not evidence of successful handling without a
+consumer and receipt.
+
+When either side lacks a compatible interface, the relation is directional or
+interface-unconfirmed. Documentation symmetry improves interpretation but does
+not prove transport, deployment, permissions, operational availability, or
+end-to-end execution.

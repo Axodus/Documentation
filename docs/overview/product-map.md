@@ -68,3 +68,16 @@ technical and authority gates are open. Accountability preserves the result.
 
 See [Cross-Core Architecture](cross-core-architecture.md) and
 [Execution Model](execution-model.md) for the interfaces and full flows.
+
+## Reading The Map
+
+Each nucleus is read through four questions: what request it accepts, what
+bounded responsibility it owns, what output it can prepare, and what authority
+or evidence is still required. Coordination cores may structure work without
+executing product or financial actions. Product cores may define functional
+models without being active services. Control cores may observe or advise
+without autonomous authority.
+
+A cross-reference indicates documentary dependency, not live integration.
+Current availability must be established on the destination page and supported
+by the applicable implementation, authority, activation, and evidence context.
