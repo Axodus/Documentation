@@ -42,3 +42,20 @@ Records should include proposal text, rationale, risk notes, vote outcome, execu
 ## Risk Considerations
 
 Governance should not rush treasury movement, contract deployment, plugin activation, or security-sensitive integrations without appropriate review.
+
+## Decision Handoffs
+
+A governed lifecycle separates proposal, review, approval, execution, and
+observation:
+
+1. A proponent states the requested outcome, scope, dependencies, and risks.
+2. Reviewers test constitutional fit, evidence, boundaries, and affected nuclei.
+3. The authority for that action approves, rejects, conditions, or defers it.
+4. An authorized executor acts only within the approved scope.
+5. Observers and Accountability compare the result with the decision.
+6. Material differences trigger suspension, correction, appeal, or reversal
+   according to the applicable authority.
+
+No stage can infer the next. A recommendation is not approval, approval is not
+execution, and an execution artifact is not operational success without a
+matching receipt.

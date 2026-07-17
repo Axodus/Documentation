@@ -71,3 +71,19 @@ Each material release note should include:
 ## Publication Boundary
 
 Release notes must not imply that contracts, APIs, frontends, treasury flows, trading flows, swaps, payouts, settlement, or production infrastructure are live unless verified release evidence exists.
+
+## Change Classification
+
+Release notes classify changes as documentary, prototype, configuration,
+deployment, activation, rollback, or correction. These classes are not
+interchangeable: a merged document or implementation artifact does not prove
+deployment, and deployment does not prove authorized activation.
+
+Each entry should identify the affected surface, previous and new state,
+effective context, source reference, reviewer, known limitations, and rollback
+or supersession path. Security-sensitive or private details remain in the
+appropriate restricted record.
+
+If evidence is incomplete, the entry records the change as reported or pending
+verification. It must not use release language to promote an unverified
+capability to active, operational, or production status.

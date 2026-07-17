@@ -49,3 +49,18 @@ The council must not become an opaque replacement for governance. Its review rol
 ## Accountability Expectations
 
 Material Boardroom decisions should publish rationale, required conditions, risk notes, and follow-up accountability outputs.
+
+## Bounded Decision Role
+
+The Boardroom Council is a review and coordination concept for matters that
+cross nuclei or carry constitutional, treasury, security, or reputational risk.
+Inputs may include proposals, risk assessments, unresolved authority questions,
+and escalation records. Outputs may include recommendations, conditions,
+requests for additional review, or routing to the authority responsible for the
+decision.
+
+The council does not gain execution rights merely by reviewing a matter. It
+cannot move treasury assets, deploy contracts, activate providers, override
+security controls, or replace a formally designated DAO. Composition, quorum,
+voting rights, and active authority remain unresolved until granted by an
+effective decision.

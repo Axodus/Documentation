@@ -34,3 +34,19 @@ Use `$Neurons` as the canonical public documentation name. Use `NEURONS` only wh
 ## Risk Language
 
 Sensitive pages must include appropriate risk context and must not promise guaranteed APY, yield, profit, ROI, payout, token appreciation, strategy performance, or risk-free outcomes.
+
+## Minimum Substantive Standard
+
+A public page should state its purpose and scope, identify the relevant actors
+and authority, explain applicable inputs, outputs, process or components, name
+dependencies, and distinguish current status from future direction. It must also
+state material limitations, public/private boundaries, and failure or exception
+behavior where those affect interpretation.
+
+Not every field applies to every page. A glossary or index may remain concise
+when its navigational function is explicit. An architecture or lifecycle page,
+however, is incomplete if it only lists concepts without describing components,
+handoffs, state, or unresolved interfaces.
+
+When evidence is unavailable, authors document the gap and route it to the
+appropriate backlog. They do not replace missing evidence with stronger prose.

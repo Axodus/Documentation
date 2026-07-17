@@ -72,3 +72,19 @@ Governance records should identify:
 ## Publication Boundary
 
 This page does not approve governance authority or execution. Public governance claims require verified records and coordinator/governance review.
+
+## Decision Record Chain
+
+A governance record should connect a proposal to its scope, reviewer, approving
+authority, decision state, executor, and receipt. The minimum chain is:
+
+`proposal -> review -> decision -> authorized action -> execution receipt -> follow-up`
+
+A rejected or withdrawn proposal stops before authorization. A conditional
+decision records the unmet conditions. An approved decision without an
+authorized executor remains unexecuted. A receipt that differs from the decision
+requires escalation and cannot be silently treated as successful completion.
+
+Public records may omit protected deliberation or security details, but must
+preserve the decision scope, authority basis, status, material conditions, and
+known limitations.

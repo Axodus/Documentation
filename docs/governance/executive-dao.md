@@ -50,3 +50,17 @@ The Executive DAO must avoid centralizing unchecked authority. Its decisions sho
 ## Current Status
 
 Final membership, seat count, voting thresholds, and representation model are not confirmed in this document.
+
+## Intended Operating Boundary
+
+The Executive DAO is intended to coordinate execution-oriented decisions that
+have already passed the required constitutional, risk, treasury, or security
+reviews. Its expected inputs are scoped decisions and unmet execution
+conditions; its outputs are assignments, status decisions, escalations, or
+requests for an execution receipt.
+
+It must not originate unrestricted authority, bypass Community or Boardroom
+routes, self-approve treasury movement, or grant agents autonomous execution.
+Membership, quorum, signing rights, executable scope, suspension powers, and
+activation state remain pending formal decisions. Until then, the model is
+directional and cannot be read as an active executive body.

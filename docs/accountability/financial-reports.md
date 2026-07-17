@@ -73,3 +73,22 @@ Financial reports should identify:
 ## Publication Boundary
 
 This page does not publish financial results or approve treasury claims. Financial or treasury reports require source evidence, reconciliation, review, and publication approval.
+
+## Reporting Lifecycle
+
+1. The owning financial or product surface defines the reporting period and
+   scope.
+2. Source records are collected without mixing realized values, estimates, and
+   projections.
+3. Treasury or the designated reviewer reconciles material totals and records
+   exclusions.
+4. Governance, legal, or security review is requested when the report makes a
+   sensitive claim.
+5. Only the public-safe result is published, with its evidence date and
+   unresolved reconciliation items.
+6. Corrections supersede the affected statement without deleting the earlier
+   audit trail.
+
+A report remains incomplete when its source, period, currency or unit,
+reconciliation owner, or exception treatment is absent. Publication never
+authorizes custody, signing, movement, distribution, or financial execution.

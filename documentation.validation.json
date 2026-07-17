@@ -7913,10 +7913,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/governance/boardroom-council.md"
     },
@@ -7931,10 +7931,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/governance/community-dao.md"
     },
@@ -7967,10 +7967,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/governance/executive-dao.md"
     },
@@ -7985,10 +7985,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": "docs/governance/governance-lifecycle.md"
     },
@@ -10963,6 +10963,15 @@
       "source_path": "documentation/EPIC-09-REQ-06-FREEZE-REPORT.md"
     },
     {
+      "document_id": "DOC-RPT-241",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-REQ-07-EXECUTION-REPORT.md"
+    },
+    {
       "document_id": "DOC-RPT-239",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -12383,7 +12392,7 @@
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
     "baseline_entries": 563,
-    "changed_legacy": 16,
+    "changed_legacy": 20,
     "defer_with_risk_dispositions": 42,
     "disposition_entries": 563,
     "disposition_registry_valid": true,
@@ -12392,9 +12401,9 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1375,
+    "info": 1376,
     "invalid_exceptions": 0,
-    "known_legacy": 528,
+    "known_legacy": 524,
     "legacy_documents": 578,
     "migrate_dispositions": 177,
     "relationships": 421,
@@ -12404,16 +12413,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 992,
+    "total_documents": 993,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 400,
+    "validated_documents": 401,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 400,
+  "validated_documents": 401,
   "validation_version": "1.1.0",
   "warnings": 0
 }

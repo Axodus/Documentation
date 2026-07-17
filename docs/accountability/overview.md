@@ -67,3 +67,21 @@ Accountability is the public record and transparency layer for Axodus. It connec
 ## Risk Considerations
 
 Accountability failures can create misleading public expectations, incomplete treasury visibility, unclear governance execution, missing release context, or undocumented product limitations. Reports must be clear about scope, assumptions, known gaps, and whether figures are preliminary, unaudited, or governance-approved.
+
+## Operating Model
+
+Accountability begins when an actor creates a governed record and ends only when
+the record is reviewed, published or retained privately, and linked to the
+decision or activity it represents.
+
+| Stage | Responsible Role | Output |
+| --- | --- | --- |
+| Capture | Owning nucleus | Dated source record with scope and author |
+| Review | Designated reviewer | Accepted, corrected, rejected, or restricted record |
+| Publication | Documentation or accountability owner | Public-safe reference with limitations |
+| Follow-up | Action owner | Closure evidence or an explicit unresolved item |
+
+A record can show that a statement, review, or decision exists. It does not by
+itself prove execution, activation, deployment, financial settlement, or
+production operation. Missing source data, conflicting records, and overdue
+reviews remain visible limitations rather than inferred closure.

@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 992,
+  "document_count": 993,
   "documents": [
     {
       "aliases": [],
@@ -7905,7 +7905,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "12a72dd45420234b112de6a4b1b037c50f516a60dc1322a2d0cb139938cb3485",
+      "sha256": "710c43e0917ff3890140f5f5113b0ce59225cc072c2aff7ee5c5d7ad69f3e67b",
       "source_path": "docs/accountability/financial-reports.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7932,7 +7932,7 @@
         "DOCUMENTATION-EPIC-02",
         "GOV-GDE-004"
       ],
-      "sha256": "126845d9a67986ff3ef301adcaeef4cf6af786e57a7e4fe11274635215c098e3",
+      "sha256": "69df89548135955850012d4157c716c4a32f7d2cb101266561e9ebbe59a876e1",
       "source_path": "docs/accountability/governance-records.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7958,7 +7958,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "35dd5b4d165edc9fb7916e299394b95ce9750ec31a3b3ea0f14480fdafdf3780",
+      "sha256": "3af66be53dde88e23267f55bd731792a5af40c8e7ac7bd0101ee3f0746406238",
       "source_path": "docs/accountability/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8005,7 +8005,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "1628de63e9a3ad216b6dd8738ce22dbe8aef56b72a5c289b41117e8223fcc02a",
+      "sha256": "06d4c115411fd14cbdb1ec7cee87ec20a48e416985209a570632ec4240a5acc6",
       "source_path": "docs/accountability/release-notes.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8031,7 +8031,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "4b15a117911918c065851fe36b22001f0b818fa0a45ec11b43db8721821fc97b",
+      "sha256": "b71fa8b8054a2f36dee132edeb1900b4425bd291cd26eeaaa3463ca35ccc2224",
       "source_path": "docs/accountability/roadmap-updates.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9992,7 +9992,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "e7b840f38c9c786cb23b7f55e252e63798a1b18fe65799122fd03470f998f887",
+      "sha256": "ff3d06be539142afbe434575c56ba6d5507ec27b3800acb7ed5a5d4e395023e3",
       "source_path": "docs/governance/boardroom-council.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10012,7 +10012,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "384031acf3235f94b3878956fbf0d65d9f7adb1882d63bf4e746c4eafe846aff",
+      "sha256": "40cc6b7f90032f26f35b8552e06bf3e744be8ac941cd66926c48c77101972aa7",
       "source_path": "docs/governance/community-dao.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10104,7 +10104,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "2289bb3dd4df5812dee2939f64794f594ba48c4328ff89fd02e46bd553a3ad2e",
+      "sha256": "328d47ff35271f7b08c4bbed0691111536145434a8c03c6fea253f1827914267",
       "source_path": "docs/governance/executive-dao.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10124,7 +10124,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "adc96b531174a78ce918f8aeb276447c249868dbd261096f153ed07b98076b95",
+      "sha256": "ceb29fea4c6855101e3dc3511c553ff0062fe370d9bf4dc4a0ff2ce31eb976eb",
       "source_path": "docs/governance/governance-lifecycle.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11803,7 +11803,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "6000e8cda6c5569516a5f7db2855dd8a1edaf694f9291735e5e6ee6be333fe0a",
+      "sha256": "38c0c0b66a18a4d903b227a23255d12d304a52059fa72f919bf3ec1a53483899",
       "source_path": "docs/overview/documentation-standards.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11951,7 +11951,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "25b7fc9cef56ffada7b64cbc64f12a6f5f8d9ab03da4c9420cf9bf90127f9527",
+      "sha256": "fb0d51cffe5eae1babfb9866798650a90ec8e53ec25a9b738b94456f79330ea0",
       "source_path": "docs/overview/risk-notices.md",
       "superseded_by": [],
       "supersedes": [],
@@ -19058,6 +19058,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-241",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-07"
+      ],
+      "sha256": "dafb710a1737c895563462f4ef72285cb1220dfb6cafb62d4f369cfa769ec6b0",
+      "source_path": "documentation/EPIC-09-REQ-07-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-07 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-239",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -24756,7 +24779,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 400,
+    "compliant_documents": 401,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24764,12 +24787,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 139,
+      "PROJECT": 140,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 316,
+      "D2": 317,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24791,7 +24814,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 288,
+      "Axodus Documentation Core": 289,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24813,7 +24836,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 241,
+      "DRAFT": 242,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24826,7 +24849,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 241,
+      "REPORT": 242,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24839,6 +24862,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 992
+    "total_documents": 993
   }
 }

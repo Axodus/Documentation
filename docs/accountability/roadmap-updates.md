@@ -71,3 +71,20 @@ Roadmap updates should record:
 ## Publication Boundary
 
 Roadmap pages must not imply production readiness, financial performance, governance approval, or legal/compliance approval unless the supporting evidence is referenced and approved for publication.
+
+## Roadmap State Model
+
+| State | Documentary Meaning |
+| --- | --- |
+| Planned | Direction exists, but implementation is not confirmed |
+| Accepted | Scope is governed for future work |
+| In progress | Work has started; delivery and activation are not implied |
+| Blocked | A named dependency prevents progress |
+| Delivered | The defined artifact exists |
+| Verified | Evidence confirms the stated result within a named context |
+| Deferred | Work remains valid but is not scheduled for execution |
+
+Every update names its owner, dependency, evidence date, and next decision.
+Items do not move directly from planned to verified without delivery and
+verification evidence. Closed requests, commits, or repository existence do not
+automatically change public product maturity.

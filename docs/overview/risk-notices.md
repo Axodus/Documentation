@@ -65,3 +65,19 @@ Pages may use a visible risk notice block for sensitive subjects:
   <strong>Risk Notice</strong>
   <p>Outcomes are variable and subject to market, technical, governance, operational, regulatory, and user-specific risk. Nothing in this documentation guarantees profit, yield, ROI, payout, or risk-free results.</p>
 </div>
+
+## Applicability Matrix
+
+| Risk Class | Notice Must Clarify |
+| --- | --- |
+| Documentary | Draft, planned, baseline, or conditional interpretation |
+| Operational | Whether a runtime, provider, workflow, or integration is enabled |
+| Financial | Custody, loss exposure, execution state, and absence of guarantees |
+| Legal or compliance | Jurisdiction dependency and absence of legal approval |
+| Security | Validation scope, residual risk, and incident route |
+| Governance | Responsible authority and whether it is activated |
+
+Readers should treat a notice as an interpretation control, not a warranty. A
+notice cannot make an unsupported claim safe; the underlying claim must still
+be removed, narrowed, or deferred. Critical ambiguity is escalated to the
+responsible owner and remains visible until a governed decision is recorded.
