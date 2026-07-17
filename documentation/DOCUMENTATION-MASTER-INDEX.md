@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-17T00:00:00Z
-Source Documents: 997
+Source Documents: 1001
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 997
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 997 |
-| Canonical documents | 405 |
+| Total source documents | 1001 |
+| Canonical documents | 409 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 997
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 246 |
+| REPORT | 250 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 997
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 144 |
+| PROJECT | 148 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 997
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 246 |
+| DRAFT | 250 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -382,6 +382,9 @@ Source Documents: 997
 | DOC-RPT-195 | EPIC-08 Status Evidence Matrix | REPORT | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [documentation/EPIC-08-STATUS-EVIDENCE-MATRIX.md](./EPIC-08-STATUS-EVIDENCE-MATRIX.md) |
 | DOC-RPT-205 | EPIC-08 Traceability Remediation Manifest | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md](./EPIC-08-TRACEABILITY-REMEDIATION-MANIFEST.md) |
 | DOC-RPT-196 | EPIC-08 Unsupported Claim Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md](./EPIC-08-UNSUPPORTED-CLAIM-REGISTER.md) |
+| DOC-RPT-249 | EPIC-09 Closure Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CLOSURE-REPORT.md](./EPIC-09-CLOSURE-REPORT.md) |
+| DOC-RPT-247 | EPIC-09 Content Coherence Audit | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CONTENT-COHERENCE-AUDIT.md](./EPIC-09-CONTENT-COHERENCE-AUDIT.md) |
+| DOC-RPT-246 | EPIC-09 Content Quality Scorecard | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CONTENT-QUALITY-SCORECARD.md](./EPIC-09-CONTENT-QUALITY-SCORECARD.md) |
 | DOC-RPT-221 | EPIC-09 Content Substance Matrix | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md](./EPIC-09-CONTENT-SUBSTANCE-MATRIX.md) |
 | DOC-RPT-237 | EPIC-09 CONTROL INFRASTRUCTURE MANIFEST | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CONTROL-INFRASTRUCTURE-MANIFEST.md](./EPIC-09-CONTROL-INFRASTRUCTURE-MANIFEST.md) |
 | DOC-RPT-230 | EPIC-09 Control and Infrastructure Qualification Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-CONTROL-INFRASTRUCTURE-QUALIFICATION-REGISTER.md](./EPIC-09-CONTROL-INFRASTRUCTURE-QUALIFICATION-REGISTER.md) |
@@ -403,6 +406,7 @@ Source Documents: 997
 | DOC-RPT-243 | EPIC-09 REQ-09 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-09-EXECUTION-REPORT.md](./EPIC-09-REQ-09-EXECUTION-REPORT.md) |
 | DOC-RPT-244 | EPIC-09 REQ-10 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-10-EXECUTION-REPORT.md](./EPIC-09-REQ-10-EXECUTION-REPORT.md) |
 | DOC-RPT-245 | EPIC-09 REQ-11 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-11-EXECUTION-REPORT.md](./EPIC-09-REQ-11-EXECUTION-REPORT.md) |
+| DOC-RPT-248 | EPIC-09 Residual Content Quality Backlog | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-RESIDUAL-CONTENT-QUALITY-BACKLOG.md](./EPIC-09-RESIDUAL-CONTENT-QUALITY-BACKLOG.md) |
 | DOC-RPT-239 | EPIC-09 SHARED CROSS CORE MANIFEST | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md](./EPIC-09-SHARED-CROSS-CORE-MANIFEST.md) |
 | DOC-RPT-223 | EPIC-09 Status Alignment Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md](./EPIC-09-STATUS-ALIGNMENT-REGISTER.md) |
 | DOC-RPT-236 | EPIC-09 USER VALUE CREATION MANIFEST | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md](./EPIC-09-USER-VALUE-CREATION-MANIFEST.md) |

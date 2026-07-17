@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 997,
+  "document_count": 1001,
   "documents": [
     {
       "aliases": [],
@@ -18690,6 +18690,75 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-249",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-12"
+      ],
+      "sha256": "403ea56ec225d39f6ae34c20dd99217a7caad7ead49fcd6768661e65602be1a7",
+      "source_path": "documentation/EPIC-09-CLOSURE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Closure Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-247",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-12"
+      ],
+      "sha256": "7371d1b4c43683d90cdbbc5f53ca7be1ca48e78df04eab7f17ec0573826a632f",
+      "source_path": "documentation/EPIC-09-CONTENT-COHERENCE-AUDIT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Content Coherence Audit",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-246",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-12"
+      ],
+      "sha256": "96143f07582bc72c23a7b392030ae4fc584153ce1f1176bab1842d2b7cb9b3e7",
+      "source_path": "documentation/EPIC-09-CONTENT-QUALITY-SCORECARD.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Content Quality Scorecard",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-221",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -19166,6 +19235,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-09 REQ-11 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-248",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-12"
+      ],
+      "sha256": "6eeabbb8f5ec379dc7a5faef973d0a28a39cc659e18b807187928023d2613769",
+      "source_path": "documentation/EPIC-09-RESIDUAL-CONTENT-QUALITY-BACKLOG.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Residual Content Quality Backlog",
       "version": "1.0.0"
     },
     {
@@ -24871,7 +24963,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 405,
+    "compliant_documents": 409,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24879,12 +24971,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 144,
+      "PROJECT": 148,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 321,
+      "D2": 325,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24906,7 +24998,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 293,
+      "Axodus Documentation Core": 297,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24928,7 +25020,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 246,
+      "DRAFT": 250,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24941,7 +25033,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 246,
+      "REPORT": 250,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24954,6 +25046,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 997
+    "total_documents": 1001
   }
 }
