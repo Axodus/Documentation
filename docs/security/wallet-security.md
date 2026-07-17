@@ -64,3 +64,12 @@ Wallet-facing content should describe:
 ## Publication Boundary
 
 This page does not approve any wallet flow for production use. Wallet execution claims require security review, product owner review, and explicit coordinator approval before publication.
+
+## Signing Boundary
+
+A wallet flow requires an identified asset owner, approved signer or role,
+transaction intent, network and contract verification, policy checks,
+independent review where required, receipt, and recovery path. Documentation
+does not authorize keys, signing, transfers, custody, or production wallets.
+Missing identity, policy, destination verification, or recovery capability
+blocks the flow.

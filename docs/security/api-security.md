@@ -65,3 +65,12 @@ Service documentation should identify:
 ## Publication Boundary
 
 This page is draft guidance. It does not certify any API as production-ready, audited, or safe for unrestricted access. API claims require implementation evidence, security review, and coordinator approval before publication.
+
+## Control Lifecycle
+
+An API surface should identify its owner, callers, authentication method,
+authorization scope, data classification, rate and abuse controls, audit events,
+failure behavior, and revocation path. Secrets remain outside public
+documentation. An implementation is not security-validated merely because
+controls are described; testing, deployment configuration, monitoring, and
+incident evidence remain separate requirements.

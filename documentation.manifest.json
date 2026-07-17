@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 994,
+  "document_count": 995,
   "documents": [
     {
       "aliases": [],
@@ -8091,7 +8091,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "78537301bf2dc549699e10c4b557685e130e2d9d43abb4e1905e422ba486a3f2",
+      "sha256": "c891bd92ade3180a7bb1ba041b38b7ea81a84eba33191c03accecb01324e8f5e",
       "source_path": "docs/acs/agent-smith.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8176,7 +8176,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "8cb74c24b311d291e78518673270a0788c199f57e3742447f51012b0315de365",
+      "sha256": "7949ccbc65af17bad5af3a0a4859eb35802a96ff7c06f3c093162314b2eb41a3",
       "source_path": "docs/acs/human-oversight.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8302,7 +8302,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "bb01379d8add0d5c3793f2d5374b56e146c4618ea4ea18b6fb64064689d0ced5",
+      "sha256": "27a5c351841e7363c7dda6b68c38e1f19a667d90d021970c875eeee6ca99dada",
       "source_path": "docs/acs/runtime.md",
       "superseded_by": [],
       "supersedes": [],
@@ -8366,7 +8366,7 @@
         "DOCUMENTATION-EPIC-07",
         "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "101e4566d99b149bd4d1b68a9da6b2fc643d42b3a42cbc2ddc4acd6c686cbcc8",
+      "sha256": "9b7357ef1fcef07b759105b26bb621d45c9bcc9d3e2a5cdbf636642d6e097c78",
       "source_path": "docs/acs/trinity.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12417,7 +12417,7 @@
         "DOCUMENTATION-EPIC-02",
         "SEC-GDE-001"
       ],
-      "sha256": "d70e54b2847894848106132c80be7dcf5311196026e189bb0cadd90a0523c01f",
+      "sha256": "93cab0008c482fb82b54dbf9266ed4c5b488369c11ba66d303950d3cbe12c8af",
       "source_path": "docs/security/api-security.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12495,7 +12495,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "71f6164af39b48701b362c0edbe4ac8de2d1ce66e53d45b89d3db581bc75b5f4",
+      "sha256": "ffd18f05cb0f06760824c1a85d708528e252e1e360c675284356b0fedcd056f2",
       "source_path": "docs/security/overview.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12587,7 +12587,7 @@
         "DOCUMENTATION-EPIC-02",
         "SEC-GDE-001"
       ],
-      "sha256": "e17c7a0edd3ca14f3121125a56ea357a99865fba3e8aab37d5f8b9bd0164e075",
+      "sha256": "c5d592cf9e29184bd54228c918570956852f75697f0cc47a4bf5f0cbecfec8b2",
       "source_path": "docs/security/wallet-security.md",
       "superseded_by": [],
       "supersedes": [],
@@ -12899,7 +12899,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "4c12247e1d06597ebbbd6dd51e4cd48709d6fec0817cdb4190d7f7da1b439960",
+      "sha256": "a1f9037c833d8eda188ef0156a1258826b1205ad04798712bee97a95fda8fff5",
       "source_path": "docs/tokenomics/technical-architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -19104,6 +19104,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-243",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-09"
+      ],
+      "sha256": "31366b8e07744c526213921c58fd4c518595c391ee1b8f7228c08f7ce93a1f0f",
+      "source_path": "documentation/EPIC-09-REQ-09-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-09 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-239",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -24802,7 +24825,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 402,
+    "compliant_documents": 403,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24810,12 +24833,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 141,
+      "PROJECT": 142,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 318,
+      "D2": 319,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24837,7 +24860,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 290,
+      "Axodus Documentation Core": 291,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24859,7 +24882,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 243,
+      "DRAFT": 244,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24872,7 +24895,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 243,
+      "REPORT": 244,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24885,6 +24908,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 994
+    "total_documents": 995
   }
 }

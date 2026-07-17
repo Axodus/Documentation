@@ -57,3 +57,12 @@ User or application
 ## Security Position
 
 The modular design improves auditability and reduces operational risk by separating token state, mint policy, cryptographic verification, and cross-chain integration.
+
+## Activation Preconditions
+
+Contract artifacts can define roles, supply limits, mint or burn behavior,
+pause controls, and adapter patterns. They do not establish deployed addresses,
+current role holders, enabled issuance, circulating supply, distribution,
+cross-chain operation, market value, or regulatory status. Every active reading
+requires network-specific deployment, authority, configuration, security, and
+reconciliation evidence.

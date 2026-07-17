@@ -44,3 +44,11 @@ Material ACS outputs should preserve task ID, input context summary, agent outpu
 ## Failure Modes
 
 Oversight can fail through rubber-stamp review, missing domain owner, unclear authority, unlogged approval, review after execution, or blame shifting to agents.
+
+## Oversight Responsibilities
+
+The accountable human defines the task, verifies sources, reviews tool use,
+accepts or rejects output, and owns escalation. Sensitive actions require a
+second authority appropriate to governance, security, Treasury, legal, or
+product scope. Oversight fails closed when identity, permission, evidence, or a
+recovery route is missing; agent confidence cannot substitute for approval.

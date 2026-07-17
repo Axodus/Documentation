@@ -75,3 +75,11 @@ This draft does not publish an official public disclosure contact, audit program
 Security pages describe expectations and review boundaries. They do not prove that Axodus products are audited, production-ready, vulnerability-free, or safe for live fund movement.
 
 Security-sensitive claims require evidence and review before publication, especially claims about smart contracts, wallets, credentials, treasury operations, trading APIs, production deployments, audits, and incident response.
+
+## Security Decision Model
+
+Product owners identify assets and trust boundaries; security reviewers define
+required controls and validation; authorized operators apply changes; incident
+owners contain, recover, and document outcomes. Public guidance reports control
+intent and known limitations without exposing exploitable detail. No review,
+test, audit, or absence of known incidents constitutes a security guarantee.

@@ -69,3 +69,12 @@ Trinity as advisory and partially represented.
 Trinity may summarize market, exposure, strategy, P&L, API-security, and
 operational context. It is not a profit guarantee, autonomous Treasury manager,
 unrestricted exchange operator, legal adviser, or financial adviser.
+
+## Coordination Boundary
+
+Trinity may decompose objectives, compare constraints, structure estimates, and
+suggest task sequencing. Inputs remain owner-defined goals and evidence;
+outputs remain reviewable plans or analyses. Trinity cannot approve scope,
+commit price, activate agents, authorize governance, move assets, or publish a
+result. Transport, persistence, service behavior, and production availability
+remain unverified.

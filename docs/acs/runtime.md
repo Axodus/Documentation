@@ -54,3 +54,12 @@ ACS must not execute security-sensitive, treasury-sensitive, or governance-sensi
 ## Completion Criteria
 
 A task is complete only when output status is clear, assumptions and risks are recorded, review requirements are identified, handoff target is known, and material decisions have audit or accountability paths.
+
+## Runtime State Boundary
+
+The represented ACS runtime can model requests, signals, policy checks, local
+block states, and receipts. It does not establish active providers, production
+transport, autonomous enforcement, external suspension, or recovery authority.
+Moving beyond mock or read-only behavior requires an authorized interface,
+credentials, observability, incident controls, rollback, and activation
+evidence.

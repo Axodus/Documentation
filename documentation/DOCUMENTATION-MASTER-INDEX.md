@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-17T00:00:00Z
-Source Documents: 994
+Source Documents: 995
 
 ## Navigation
 
@@ -22,8 +22,8 @@ Source Documents: 994
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 994 |
-| Canonical documents | 402 |
+| Total source documents | 995 |
+| Canonical documents | 403 |
 | Legacy documents | 578 |
 | Template documents | 14 |
 | Declared relationships | 421 |
@@ -42,7 +42,7 @@ Source Documents: 994
 | PROPOSAL | 1 |
 | REFERENCE | 11 |
 | RELEASE | 1 |
-| REPORT | 243 |
+| REPORT | 244 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 11 |
@@ -58,7 +58,7 @@ Source Documents: 994
 | CORE | 243 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 141 |
+| PROJECT | 142 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 994
 |---|---:|
 | ACTIVE | 21 |
 | APPROVED | 152 |
-| DRAFT | 243 |
+| DRAFT | 244 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -400,6 +400,7 @@ Source Documents: 994
 | DOC-RPT-240 | EPIC-09 REQ-06 Freeze Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-06-FREEZE-REPORT.md](./EPIC-09-REQ-06-FREEZE-REPORT.md) |
 | DOC-RPT-241 | EPIC-09 REQ-07 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-07-EXECUTION-REPORT.md](./EPIC-09-REQ-07-EXECUTION-REPORT.md) |
 | DOC-RPT-242 | EPIC-09 REQ-08 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-08-EXECUTION-REPORT.md](./EPIC-09-REQ-08-EXECUTION-REPORT.md) |
+| DOC-RPT-243 | EPIC-09 REQ-09 Execution Report | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-REQ-09-EXECUTION-REPORT.md](./EPIC-09-REQ-09-EXECUTION-REPORT.md) |
 | DOC-RPT-239 | EPIC-09 SHARED CROSS CORE MANIFEST | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md](./EPIC-09-SHARED-CROSS-CORE-MANIFEST.md) |
 | DOC-RPT-223 | EPIC-09 Status Alignment Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md](./EPIC-09-STATUS-ALIGNMENT-REGISTER.md) |
 | DOC-RPT-236 | EPIC-09 USER VALUE CREATION MANIFEST | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md](./EPIC-09-USER-VALUE-CREATION-MANIFEST.md) |
