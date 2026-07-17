@@ -38,3 +38,12 @@ Official assets require project or governance confirmation, verified contract ad
 ## Risk Considerations
 
 Listing risk includes impersonation tokens, honeypots, low liquidity, admin controls, misleading metadata, and endorsement confusion.
+
+## Listing Decision
+
+A listing decision evaluates token identity, contract and network, metadata
+source, issuer or owner context, liquidity evidence, technical risk, warning
+state, reviewer, and expiry. Possible documentary outcomes are unreviewed,
+reviewed with warning, approved for a named context, suspended, or deprecated.
+Documentation approval does not activate a token, pool, router, or tradable
+market.

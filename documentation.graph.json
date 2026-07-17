@@ -7285,6 +7285,16 @@
       "title": "EPIC-09 REQ-09 Execution Report"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-244",
+      "document_type": "REPORT",
+      "node_id": "DOC-RPT-244",
+      "publication_status": "DRAFT",
+      "source_path": "documentation/EPIC-09-REQ-10-EXECUTION-REPORT.md",
+      "title": "EPIC-09 REQ-10 Execution Report"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "DOC-SPEC-001",
@@ -10871,6 +10881,7 @@
     "documentation/EPIC-09-REQ-07-EXECUTION-REPORT.md",
     "documentation/EPIC-09-REQ-08-EXECUTION-REPORT.md",
     "documentation/EPIC-09-REQ-09-EXECUTION-REPORT.md",
+    "documentation/EPIC-09-REQ-10-EXECUTION-REPORT.md",
     "documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md",
     "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
     "documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md",
@@ -11857,6 +11868,7 @@
       "documentation/EPIC-09-REQ-07-EXECUTION-REPORT.md",
       "documentation/EPIC-09-REQ-08-EXECUTION-REPORT.md",
       "documentation/EPIC-09-REQ-09-EXECUTION-REPORT.md",
+      "documentation/EPIC-09-REQ-10-EXECUTION-REPORT.md",
       "documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md",
       "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md",
       "documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md",
@@ -12412,7 +12424,8 @@
       "DOC-RPT-240",
       "DOC-RPT-241",
       "DOC-RPT-242",
-      "DOC-RPT-243"
+      "DOC-RPT-243",
+      "DOC-RPT-244"
     ]
   },
   "relationship_counts": {

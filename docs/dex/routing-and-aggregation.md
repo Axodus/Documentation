@@ -68,3 +68,11 @@ External aggregators add dependency risk. The best output may not be the best ri
 ## Risk Considerations
 
 Routing is subject to liquidity, fees, chain conditions, token availability, pool safety, external aggregators, and execution timing.
+
+## Route Failure Model
+
+A route request contains input and output assets, amount, network, slippage
+limit, deadline, and permitted sources. A routing component may compare direct,
+multi-hop, or external quotes when implemented. Missing liquidity, stale data,
+unsupported assets, excessive price impact, provider failure, or policy blocks
+must return no executable route. No aggregator or router is claimed active.

@@ -34,3 +34,12 @@ Incidents may include randomness delay, ticket indexing error, prize calculation
 - [Draw Lifecycle](draw-lifecycle.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 
+## Release Gate
+
+A draw runtime would require legal release for a named jurisdiction, defined
+operator, eligibility, funding, ticket intake, randomness, claims, payout,
+consumer protection, incident handling, audit records, and suspension
+authority. None of these dependencies is inferred active. Until every gate is
+formally cleared and evidenced, the runtime remains a prototype description
+with no public participation or financial execution.
+

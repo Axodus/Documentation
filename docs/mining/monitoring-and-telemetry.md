@@ -58,3 +58,11 @@ Fields should include record ID, period, operation ID, hardware or node referenc
 ## Reporting Rules
 
 Telemetry should distinguish local and pool-reported hashrate, include downtime reason if known, reference reporting period, disclose missing data, create incident records for material alerts, and avoid implying guaranteed payout.
+
+## Signal Lifecycle
+
+Telemetry begins at an identified device, node, pool, or provider and records
+time, source, unit, expected range, and integrity context. Alerts route to an
+operator for review; ACS may classify risk but does not autonomously change
+infrastructure. Stale, missing, contradictory, or unauthenticated data produces
+an unknown state, not a performance or revenue conclusion.

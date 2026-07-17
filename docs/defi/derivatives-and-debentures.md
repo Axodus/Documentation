@@ -34,3 +34,12 @@ Do not claim fixed returns unless legally and contractually defined, guaranteed 
 ## Risk Considerations
 
 Risks include legal risk, leverage risk, counterparty risk, liquidity risk, valuation risk, smart contract risk, and user misunderstanding.
+
+## Financing Boundary
+
+A financing concept must identify issuer, eligible project, instrument terms,
+funding asset, loss allocation, repayment source, conversion rule, jurisdiction,
+authority, custody, and disclosure duties. Business may describe a project need
+but cannot issue or promise repayment. Convertible or non-convertible models
+remain future financial designs pending formal, legal, technical, and financial
+authorization.

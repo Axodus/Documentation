@@ -31,3 +31,11 @@ Sensitivity factors include asset price, network difficulty, block rewards, fee 
 
 Do not claim guaranteed ROI, guaranteed daily profit, fixed income, risk-free mining, passive income without risk, guaranteed payback period, certain profit, or impossible losses.
 
+## Cost And Result Model
+
+A defensible result separates equipment, energy, hosting, pool, network,
+maintenance, downtime, financing, custody, conversion, and tax assumptions from
+realized rewards. Forecasts identify period, unit, source, volatility, and
+scenario. No estimate is a guaranteed profit, yield, payback period, revenue,
+or Treasury inflow, and no current economics are asserted without evidence.
+

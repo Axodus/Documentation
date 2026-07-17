@@ -65,3 +65,11 @@ Core objects include `MiningOperation`, `MiningAsset`, `HardwareUnit`, `PoolAcco
 ## Architecture Invariants
 
 Rewards must be documented as variable. Gross rewards must not be treated as profit. User products require explicit status, payout rules, cost assumptions, risk disclosures, governance context, and reporting.
+
+## Responsibility Boundaries
+
+A mining architecture separates infrastructure owner, capital owner, operator,
+network or pool, telemetry source, reward recipient, cost payer, Treasury route,
+ACS review, and Runtime dependency. These roles must not be inferred as the
+same actor. Existing artifacts support a conceptual topology only; ownership,
+operation, custody, and production state remain unverified.

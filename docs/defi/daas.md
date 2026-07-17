@@ -54,3 +54,12 @@ DaaS risk includes service overpromise, external protocol dependency, custody co
 - [Governance Alignment](governance-alignment.md)
 - [Treasury Alignment](treasury-alignment.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
+
+## Service Request Model
+
+A DaaS request identifies the requester, intended strategy or infrastructure,
+assets in scope, authority, risk constraints, custody assumptions, reporting,
+and exit conditions. Business may structure the request; Governance, Treasury,
+security, and legal routes retain their decisions. No vault, allocation, yield,
+custody, or managed service is available unless separately implemented,
+authorized, activated, and evidenced.

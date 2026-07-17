@@ -46,3 +46,11 @@ Warnings should cover high price impact, high slippage, low liquidity, unverifie
 - [MEV and Execution Risk](mev-and-execution-risk.md)
 - [Listing Policy](listing-policy.md)
 - [Security and Smart Contracts](security-and-smart-contracts.md)
+
+## Swap Preconditions
+
+A swap requires verified asset identities, an available route, current quote,
+minimum received, deadline, fee disclosure, wallet authorization, transaction
+simulation or checks, and a receipt. Failure at any precondition stops before
+signing. This model does not establish deployed contracts, enabled wallets,
+liquidity, settlement, or production swaps.

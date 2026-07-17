@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 995,
+  "document_count": 996,
   "documents": [
     {
       "aliases": [],
@@ -9159,7 +9159,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "e69bcd122311d9245b473338d5358a479edcde2261e18e3ef27057a5790f1402",
+      "sha256": "637c74748826c2e9a49fe094b61ee3aee8c9d7c5f6e1683b744015140043c419",
       "source_path": "docs/defi/daas.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9179,7 +9179,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "421417f4e3d762cb8561253ed12e85a0b9b81a469dfc321af52b54a50400176d",
+      "sha256": "0c44236de5d50807812160dfd1eaeaad97ea7e3362caa105d3d862e24c19fa00",
       "source_path": "docs/defi/derivatives-and-debentures.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9285,7 +9285,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "459388abe3a7372eff381cacb4401151f7479057de08a3f11f810ea6a6fde501",
+      "sha256": "3249cfddd7b674ec6edfd0d5bef21f367d94a9bacc2806b6257bcd7ac1e97f0b",
       "source_path": "docs/defi/protocol-model.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9599,7 +9599,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "281b5005c001af07ef920eafea9cbbad849a430443aa85e1e8b0cc5a39f6e41d",
+      "sha256": "b1bb077a82615c95c1b56e023e60641aed7c9f33389d1e5c293e025b51a32e6f",
       "source_path": "docs/dex/listing-policy.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9779,7 +9779,7 @@
         "DOC-ADR-019",
         "DOCUMENTATION-EPIC-02"
       ],
-      "sha256": "e013338560d1047069a8709a3ede1359dc3e8e617629cb1fe33e26a225368dcb",
+      "sha256": "2f1387954c42e44ea14c2679211c5a36930ad2b4bb14c1a0a066df5335bbeb80",
       "source_path": "docs/dex/routing-and-aggregation.md",
       "superseded_by": [],
       "supersedes": [],
@@ -9846,7 +9846,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "555cc899ea24a67d06f3faf8b6d0eeca78f4d6c0df1ed3243a22be8df4587b87",
+      "sha256": "548554f0c76b4898663f11e61b3e1f36448c4f6bb34fc6d4a5d86efa34664238",
       "source_path": "docs/dex/swap-model.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10464,7 +10464,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "d3fc90e6e7a223a0c462618183dd96c4f3a032e199b14603bebaaa4d6996bc8b",
+      "sha256": "0808f0bfbc69d33f0046412fbde9ee68689a7db2f262594cc67c7fff9b7c9401",
       "source_path": "docs/lottery/operations-and-runtime.md",
       "superseded_by": [],
       "supersedes": [],
@@ -10530,7 +10530,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "71d65d5d872d3275a7a895e5680de82057b6ab19c24acd54e655812a691098f3",
+      "sha256": "0638f275af7a7e6d46cbb7deb67bf91f99ac5b7281acdc8f80167a67601d64e5",
       "source_path": "docs/lottery/randomness-and-vrf.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11275,7 +11275,7 @@
         "MINING-GDE-001",
         "MINING-GDE-006"
       ],
-      "sha256": "9142bb6c00601c39029450b0b5b10018e8603019721658c6b9f6750933a4b3d9",
+      "sha256": "728e262b5c8c719748b70b9368e3805b28a76bb0b86069e3ec35e780034c492b",
       "source_path": "docs/mining/architecture.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11295,7 +11295,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "4883a858f4222606d5f9019cbc4f3640c89731736aa5a9a57b494bb13db63c89",
+      "sha256": "aaaa7b8a04caf44d9c3a713f88dd19bfcd8ec90ae3250209235850118abd34a1",
       "source_path": "docs/mining/costs-fees-and-profitability.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11361,7 +11361,7 @@
         "DOCUMENTATION-EPIC-02",
         "MINING-GDE-001"
       ],
-      "sha256": "fc5810239b76be4dbc431757c4d7bc4068d35d91f1c994cbe54fd35bad4fb7b5",
+      "sha256": "6932b19199ceb8b69bd51734ccd2eb68f31503fc001b5dc8f2fe1fae77212b98",
       "source_path": "docs/mining/infrastructure-and-operations.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11435,7 +11435,7 @@
         "MINING-GDE-001",
         "MINING-GDE-003"
       ],
-      "sha256": "da0eef7e0a5e37bb42725d460ea55391595f0a0a9c2e34ea6938d7d8e8a7a70f",
+      "sha256": "e1ec097f1d6d0dfb38a6c62b8f3c2b53fbc73cd8ee2b1791dfb0d2fc545cbc45",
       "source_path": "docs/mining/monitoring-and-telemetry.md",
       "superseded_by": [],
       "supersedes": [],
@@ -19127,6 +19127,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-244",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-10"
+      ],
+      "sha256": "cb13f14abbae288a33b3f67b46d9a82ee295ebef896eb4c847c5ab9fa2e56fc9",
+      "source_path": "documentation/EPIC-09-REQ-10-EXECUTION-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-10 Execution Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-239",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -24825,7 +24848,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 403,
+    "compliant_documents": 404,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24833,12 +24856,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 142,
+      "PROJECT": 143,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 319,
+      "D2": 320,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24860,7 +24883,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 291,
+      "Axodus Documentation Core": 292,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24882,7 +24905,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 244,
+      "DRAFT": 245,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24895,7 +24918,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 244,
+      "REPORT": 245,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24908,6 +24931,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 995
+    "total_documents": 996
   }
 }

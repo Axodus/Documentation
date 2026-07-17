@@ -43,3 +43,12 @@ Failures may include request failure, callback failure, network outage, insuffic
 - [Security and Smart Contracts](security-and-smart-contracts.md)
 - [Reporting and Accountability](reporting-and-accountability.md)
 
+## Verification Boundary
+
+A randomness design must identify request, entropy or VRF source, commitment,
+fulfilment, verification, ordering, timeout, retry, bias controls, and audit
+record. Contract or prototype logic does not prove a live oracle, fair
+production draw, legal approval, or consumer availability. Missing or delayed
+randomness must fail closed and prevent finalization rather than select an
+alternative silently.
+

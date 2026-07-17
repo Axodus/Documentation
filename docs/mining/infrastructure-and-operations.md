@@ -64,3 +64,12 @@ Risks include downtime, power outage, cooling failure, hardware failure, hosting
 ## Security Note
 
 Public documentation should explain infrastructure models without exposing exact facility details, credentials, private endpoints, or exploitable procedures.
+
+## Operational Preconditions
+
+Operation would require identified infrastructure, funding, location,
+permissions, network configuration, credentials, monitoring, maintenance,
+incident response, reward custody, cost ownership, and shutdown authority.
+Missing ownership, telemetry, security, or financial authorization blocks
+activation. The page describes required operations and does not claim active
+hardware, nodes, validators, or mining service.

@@ -30,3 +30,12 @@ Use `Research`, `Watchlist`, `Approved For Test`, `Approved For Limited Use`, `A
 ## Risk Considerations
 
 Protocol risk includes smart contract bugs, admin key risk, oracle risk, bridge risk, liquidity constraints, composability failures, and external governance changes.
+
+## Protocol State Model
+
+A protocol design separates user intent, eligibility, asset custody, strategy
+logic, risk policy, transaction authorization, settlement, accounting, and
+exit. Each transition requires an identified interface and failure path.
+Repository or contract artifacts do not prove deployment, liquidity, custody,
+active strategies, or production operation; unconfirmed interfaces remain
+blocked dependencies.
