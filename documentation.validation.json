@@ -10828,6 +10828,15 @@
       "source_path": "documentation/EPIC-09-CONTENT-SUBSTANCE-MATRIX.md"
     },
     {
+      "document_id": "DOC-RPT-237",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-CONTROL-INFRASTRUCTURE-MANIFEST.md"
+    },
+    {
       "document_id": "DOC-RPT-230",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10846,6 +10855,24 @@
       "source_path": "documentation/EPIC-09-CORE-QUALIFICATION-PRIORITY-MATRIX.md"
     },
     {
+      "document_id": "DOC-RPT-234",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-CROSS-CORE-RECONCILIATION.md"
+    },
+    {
+      "document_id": "DOC-RPT-235",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-FOUNDATIONS-MANIFEST.md"
+    },
+    {
       "document_id": "DOC-RPT-226",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10862,6 +10889,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-09-PLACEHOLDER-AND-THIN-CONTENT-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-238",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-PRODUCT-PROTOCOL-MANIFEST.md"
     },
     {
       "document_id": "DOC-RPT-232",
@@ -10918,6 +10954,24 @@
       "source_path": "documentation/EPIC-09-REQ-05-FREEZE-REPORT.md"
     },
     {
+      "document_id": "DOC-RPT-240",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-REQ-06-FREEZE-REPORT.md"
+    },
+    {
+      "document_id": "DOC-RPT-239",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md"
+    },
+    {
       "document_id": "DOC-RPT-223",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -10925,6 +10979,15 @@
       "rule_id": "DOC-RULE-026",
       "severity": "INFO",
       "source_path": "documentation/EPIC-09-STATUS-ALIGNMENT-REGISTER.md"
+    },
+    {
+      "document_id": "DOC-RPT-236",
+      "error_code": "DOC-VAL-026",
+      "field": "relationships",
+      "message": "Canonical document has no incoming or outgoing semantic relationship.",
+      "rule_id": "DOC-RULE-026",
+      "severity": "INFO",
+      "source_path": "documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md"
     },
     {
       "document_id": "DOC-RPT-228",
@@ -12329,7 +12392,7 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1368,
+    "info": 1375,
     "invalid_exceptions": 0,
     "known_legacy": 528,
     "legacy_documents": 578,
@@ -12341,16 +12404,16 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 985,
+    "total_documents": 992,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 393,
+    "validated_documents": 400,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 393,
+  "validated_documents": 400,
   "validation_version": "1.1.0",
   "warnings": 0
 }

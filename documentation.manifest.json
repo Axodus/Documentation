@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 985,
+  "document_count": 992,
   "documents": [
     {
       "aliases": [],
@@ -18713,6 +18713,29 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-237",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "8da1a48b038776251b099ffb43c339e8733d60710ee84c1b096804427f28fa23",
+      "source_path": "documentation/EPIC-09-CONTROL-INFRASTRUCTURE-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 CONTROL INFRASTRUCTURE MANIFEST",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-230",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -18759,6 +18782,52 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-234",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "f917949f6c9da34503d6ba74fff82c42e648833978684325d0ae38ef7fc3ced7",
+      "source_path": "documentation/EPIC-09-CROSS-CORE-RECONCILIATION.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 Cross-Core Reconciliation Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-235",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "3866908900ca34b415e26664aeec6bf540e3b307a35b0a23c75e16335f1d07d1",
+      "source_path": "documentation/EPIC-09-FOUNDATIONS-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 FOUNDATIONS MANIFEST",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-226",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -18798,6 +18867,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-09 Placeholder and Thin Content Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-238",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "a2da8b8ff2446e4ee5dd1793c8c9264477cfc813ee80ef3c8df8eb93018d46ed",
+      "source_path": "documentation/EPIC-09-PRODUCT-PROTOCOL-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 PRODUCT PROTOCOL MANIFEST",
       "version": "1.0.0"
     },
     {
@@ -18943,6 +19035,52 @@
       "authority_level": "PROJECT",
       "authority_scope": "DOCUMENTATION.EPIC_09",
       "classification": "CANONICAL",
+      "document_id": "DOC-RPT-240",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "9a11d9920a0156fb3c27a184b7c7a1809189e7711a877f1bf9eae7b05303e67a",
+      "source_path": "documentation/EPIC-09-REQ-06-FREEZE-REPORT.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 REQ-06 Freeze Report",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-239",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "abcbe8bbd9c84b84dfcc6376fc52cc72f692d5faeb7f39f0dfe7ad5e050d56b6",
+      "source_path": "documentation/EPIC-09-SHARED-CROSS-CORE-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 SHARED CROSS CORE MANIFEST",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
       "document_id": "DOC-RPT-223",
       "document_state": "CURRENT",
       "document_type": "REPORT",
@@ -18959,6 +19097,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "EPIC-09 Status Alignment Register",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "DOCUMENTATION.EPIC_09",
+      "classification": "CANONICAL",
+      "document_id": "DOC-RPT-236",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-17",
+      "maturity_level": "D2",
+      "owner": "Axodus Documentation Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "DOCUMENTATION-EPIC-09",
+        "DOCUMENTATION-EPIC-09-REQ-06"
+      ],
+      "sha256": "ce36b5f0b6fcf3b5ddf85049804497bb66adc9618116cc27ed7bb988c1b9357c",
+      "source_path": "documentation/EPIC-09-USER-VALUE-CREATION-MANIFEST.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "EPIC-09 USER VALUE CREATION MANIFEST",
       "version": "1.0.0"
     },
     {
@@ -24595,7 +24756,7 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 393,
+    "compliant_documents": 400,
     "declared_relationships": 421,
     "derived_relationships": 0,
     "documents_by_authority_level": {
@@ -24603,12 +24764,12 @@
       "CORE": 243,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 132,
+      "PROJECT": 139,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
       "D1": 14,
-      "D2": 309,
+      "D2": 316,
       "D3": 83,
       "D4": 1,
       "UNSPECIFIED": 578
@@ -24630,7 +24791,7 @@
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
-      "Axodus Documentation Core": 281,
+      "Axodus Documentation Core": 288,
       "Axodus Lottery / CryptoDraw": 5,
       "Axodus Lottery / Security": 1,
       "Axodus Marketplace": 5,
@@ -24652,7 +24813,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 21,
       "APPROVED": 152,
-      "DRAFT": 234,
+      "DRAFT": 241,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -24665,7 +24826,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 11,
       "RELEASE": 1,
-      "REPORT": 234,
+      "REPORT": 241,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 11,
@@ -24678,6 +24839,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 985
+    "total_documents": 992
   }
 }
