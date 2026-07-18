@@ -4642,6 +4642,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-039",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-039",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "title": "BBA Platform AI Workforce Policies"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12067,6 +12077,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12803,6 +12814,7 @@
       "BBAPLT-GDE-036",
       "BBAPLT-GDE-037",
       "BBAPLT-GDE-038",
+      "BBAPLT-GDE-039",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13226,17 +13238,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 161,
+    "DEPENDS_ON": 162,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 363,
+    "RELATES_TO": 366,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 627,
+    "declared": 631,
     "derived": 0,
     "duplicates": 0,
-    "total": 627,
+    "total": 631,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14325,6 +14337,30 @@
       "source": "BBAPLT-GDE-038",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md",
       "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-038",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-027",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-037",
       "type": "RELATES_TO"
     },
     {

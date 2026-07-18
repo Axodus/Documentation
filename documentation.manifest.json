@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1059,
+  "document_count": 1060,
   "documents": [
     {
       "aliases": [],
@@ -8086,6 +8086,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform AI Workforce Rules",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-039",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0003",
+        "BBAPLT-GDE-027",
+        "BBAPLT-GDE-036",
+        "BBAPLT-GDE-037",
+        "BBAPLT-GDE-038",
+        "EPIC-002",
+        "REQ-002-03-011"
+      ],
+      "sha256": "65acd67cd1fe1acfebb91fba88d3fcc6e6d3e81d8c3f10d40212cdcd40bd7251",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform AI Workforce Policies",
       "version": "0.1.0"
     },
     {
@@ -25140,6 +25168,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-038",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-027",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-039",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-037",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -27825,19 +27877,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 467,
-    "declared_relationships": 627,
+    "compliant_documents": 468,
+    "declared_relationships": 631,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 205,
+      "PROJECT": 206,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 71,
+      "D1": 72,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -27876,7 +27928,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 33,
+      "BBA Domain Governance": 34,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -27885,13 +27937,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 307,
+      "DRAFT": 308,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 135,
+      "GUIDE": 136,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -27911,6 +27963,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1059
+    "total_documents": 1060
   }
 }

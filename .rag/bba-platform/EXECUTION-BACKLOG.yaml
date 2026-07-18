@@ -422,7 +422,7 @@ program:
               acceptance: ["AI Workforce invariants preserve Agent identity, capability boundaries, Assignment accountability, evidence, human authority, refusal, conflict, and Asset provenance."]
             - id: "REQ-002-03-011"
               title: "Define AI Workforce Policies"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-010"]
               produces: ["BBAPLT-GDE-039"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md"]

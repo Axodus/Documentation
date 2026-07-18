@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1059
+Source Documents: 1060
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1059
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1059 |
-| Canonical documents | 467 |
+| Total source documents | 1060 |
+| Canonical documents | 468 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 627 |
+| Declared relationships | 631 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1059
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 135 |
+| GUIDE | 136 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1059
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 205 |
+| PROJECT | 206 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1059
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 307 |
+| DRAFT | 308 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -114,6 +114,7 @@ Source Documents: 1059
 | BBAPLT-GDE-036 | BBA Platform AI Workforce Coordination and Delegation | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md](./bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md) |
 | BBAPLT-GDE-037 | BBA Platform AI Workforce Quality Gates and Review Obligations | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md](./bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md) |
 | BBAPLT-GDE-038 | BBA Platform AI Workforce Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md](./bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md) |
+| BBAPLT-GDE-039 | BBA Platform AI Workforce Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |

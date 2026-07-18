@@ -119,3 +119,12 @@ test('AI Workforce rules preserve human authority, bounded assignments, evidence
   assert.match(source, /Delegation in chain cannot increase authority/)
   assert.match(source, /preserve[\s\S]*provenance,[\s\S]*lineage,[\s\S]*version meaning,[\s\S]*limitations/)
 })
+
+test('AI Workforce policies govern composition, autonomy exceptions, delegation, review, and Tenant boundaries', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-039"/)
+  for (const policy of ['Workforce Composition', 'Assignment', 'Delegation', 'Evidence and Uncertainty', 'Review and Quality', 'Low-Risk Waiver', 'Conflict and Refusal', 'Tenant Boundary']) assert.match(source, new RegExp(`\\| ${policy} \\|`))
+  assert.match(source, /lower-level policy cannot weaken a Core rule/)
+  assert.match(source, /Any autonomy exception must define scope, risk, eligible activity/)
+  assert.match(source, /Chain delegation requires explicit permission[\s\S]*original authority/)
+})
