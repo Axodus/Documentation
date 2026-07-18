@@ -43,3 +43,16 @@ test('Mission Lifecycle is canonical and keeps human decisions explicit', async 
   assert.match(source, /A refusal is a governed outcome, not an execution error/)
   assert.match(source, /does not define database states[\s\S]*API commands/)
 })
+
+test('Mission State Model defines only explicit semantic transitions', async () => {
+  const path = '.rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md'
+  const source = await read(path)
+  await access(resolve(root, path))
+  assert.match(source, /document_id: "BBAPLT-GDE-013"/)
+  for (const state of ['PROPOSED', 'AUTHORIZED', 'PREPARED', 'IN_PROGRESS', 'UNDER_REVIEW', 'OUTCOME_DECISION', 'PAUSED', 'DEFERRED', 'REJECTED', 'STOPPED', 'CLOSED_WITH_LEARNING']) {
+    assert.match(source, new RegExp('\\| `' + state + '` \\|'))
+  }
+  assert.match(source, /No other transition is valid/)
+  assert.match(source, /Publication does not itself transition a Mission to closure/)
+  assert.match(source, /does not define state storage, event sourcing, commands[\s\S]*UI controls/)
+})

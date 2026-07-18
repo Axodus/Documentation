@@ -219,7 +219,7 @@ program:
               acceptance: ["Mission lifecycle phases, entry criteria, exit criteria, human decisions, and exceptional outcomes are defined semantically."]
             - id: "REQ-002-01-003"
               title: "Define Mission State Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-01-002"]
               produces: ["BBAPLT-GDE-013"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md"]
