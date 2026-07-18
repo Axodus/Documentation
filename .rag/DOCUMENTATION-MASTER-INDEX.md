@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1017
+Source Documents: 1018
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1017
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1017 |
-| Canonical documents | 425 |
+| Total source documents | 1018 |
+| Canonical documents | 426 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 455 |
+| Declared relationships | 458 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1017
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 99 |
+| GUIDE | 100 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 8 |
@@ -58,7 +58,7 @@ Source Documents: 1017
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 163 |
+| PROJECT | 164 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1017
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 265 |
+| DRAFT | 266 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -87,6 +87,7 @@ Source Documents: 1017
 | BBA-ROAD-001 | BBA Platform Sprint 00 Foundation Plan | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md](./bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md) |
 | BBA-REF-002 | BBA Platform Ubiquitous Language | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md](./bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
+| BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
 | DOC-RPT-138 | Canonical Coherence Batch 01 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md) |
 | DOC-RPT-139 | Canonical Coherence Batch 01 Evidence Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md) |
