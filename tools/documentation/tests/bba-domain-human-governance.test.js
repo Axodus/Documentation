@@ -32,3 +32,15 @@ test('Human Governance Overview preserves institutional authority and domain bou
   assert.match(source, /every Institutional Asset has defined accountability/)
   assert.match(source, /does not define authentication, authorization, RBAC, ABAC, users/)
 })
+
+test('Governance roles separate review, approval, publication, stewardship, ownership, and delegation', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-042"/)
+  for (const role of ['Steward', 'Reviewer', 'Approver', 'Publisher', 'Domain Owner', 'Governance Board', 'Delegate']) assert.match(source, new RegExp(`\| ${role} \|`))
+  assert.match(source, /Reviewer assesses but does not become an Approver/)
+  assert.match(source, /Publisher releases an approved Asset but does not create the approval/)
+  assert.match(source, /Delegate acts within a bounded grant and cannot enlarge the grant/)
+  assert.match(source, /Every Mission has a Steward/)
+  assert.match(source, /Agents may prepare evidence,[\s\S]*but they do not occupy a human governance role/)
+  assert.match(source, /does not define users, groups, identities, authentication/)
+})

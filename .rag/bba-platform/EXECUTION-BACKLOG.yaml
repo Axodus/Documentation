@@ -458,7 +458,7 @@ program:
               acceptance: ["Human Governance defines institutional authority, responsibility, decision, and accountability boundaries without technical authorization mechanisms."]
             - id: "REQ-002-04-002"
               title: "Define Governance Roles"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-001"]
               produces: ["BBAPLT-GDE-042"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md"]

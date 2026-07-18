@@ -4672,6 +4672,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-042",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-042",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
+      "title": "BBA Platform Governance Roles"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12110,6 +12120,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12850,6 +12861,7 @@
       "BBAPLT-GDE-039",
       "BBAPLT-GDE-040",
       "BBAPLT-GDE-041",
+      "BBAPLT-GDE-042",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13274,17 +13286,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 164,
+    "DEPENDS_ON": 165,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 374,
+    "RELATES_TO": 377,
     "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 653,
+    "declared": 657,
     "derived": 0,
     "duplicates": 0,
-    "total": 653,
+    "total": 657,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14445,6 +14457,30 @@
       "source": "BBAPLT-GDE-041",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
       "target": "BBAPLT-GDE-029",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-042",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
+      "target": "BBAPLT-GDE-041",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-042",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-042",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
+      "target": "BBAPLT-GDE-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-042",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
+      "target": "BBAPLT-GDE-032",
       "type": "RELATES_TO"
     },
     {
