@@ -4280,6 +4280,16 @@
       "title": "BBA Platform Product Positioning"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-003",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-003",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
+      "title": "BBA Platform Product Capabilities"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11631,6 +11641,7 @@
       ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12316,6 +12327,7 @@
       "BBA-STD-002",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
+      "BBAPLT-GDE-003",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12734,17 +12746,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 122,
+    "DEPENDS_ON": 123,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 261,
+    "RELATES_TO": 263,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 458,
+    "declared": 461,
     "derived": 0,
     "duplicates": 0,
-    "total": 458,
+    "total": 461,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13064,6 +13076,24 @@
     {
       "source": "BBAPLT-GDE-002",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-003",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
+      "target": "BBAPLT-GDE-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-003",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-003",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
       "target": "BBA-REF-002",
       "type": "RELATES_TO"
     },
