@@ -43,7 +43,7 @@ test('BBA documentation map has six layers and 43 areas', async () => {
   assert.match(source, /name: "Development"/)
 })
 
-test('BBA execution backlog has Program, six Epics, Sprint 00, and 12 REQs', async () => {
+test('BBA execution backlog has Program, six Epics, and Foundation/Product REQs', async () => {
   const source = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   assert.match(source, /id: "PROGRAM-BBA-DOC"/)
   assert.equal((source.match(/    - id: "EPIC-/g) ?? []).length, 6)

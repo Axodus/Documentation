@@ -67,7 +67,7 @@ program:
       sprints:
         - id: "SPRINT-01"
           name: "Product Vision and Operating Model"
-          status: "IN_PROGRESS"
+          status: "DONE"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006"]
           requests:
             - id: "REQ-001-01-001"
@@ -106,9 +106,9 @@ program:
               acceptance: ["Boundaries identify core responsibilities, consumer responsibilities, exclusions, and claims the product must not make."]
             - id: "REQ-001-01-006"
               title: "Review Product Documentation Baseline"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-01-001", "REQ-001-01-002", "REQ-001-01-003", "REQ-001-01-004", "REQ-001-01-005"]
-              produces: ["BBA-PRODUCT-BASELINE-REVIEW"]
+              produces: ["BBAPLT-RPT-001"]
               files: [".rag/bba-platform/product/BBAPLT-PRODUCT-BASELINE-REVIEW.md"]
               acceptance: ["Product documents use canonical language, contain no technical architecture decisions, and pass the product-layer review checklist."]
     - id: "EPIC-002"

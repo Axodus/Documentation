@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1021,
+  "document_count": 1022,
   "documents": [
     {
       "aliases": [],
@@ -7448,6 +7448,37 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Product Boundaries and Non-Goals",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.PRODUCT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-001",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Product Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0001",
+        "BBA-ADR-0004",
+        "BBA-STD-002",
+        "BBAPLT-GDE-001",
+        "BBAPLT-GDE-002",
+        "BBAPLT-GDE-003",
+        "BBAPLT-GDE-004",
+        "BBAPLT-POL-001",
+        "EPIC-001",
+        "REQ-001-01-006"
+      ],
+      "sha256": "b8a7364e96ce52849bfcfb5f934094f3a0da5e62edabbab087c8e49a7d712379",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Product Documentation Baseline Review",
       "version": "0.1.0"
     },
     {
@@ -23356,6 +23387,42 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-004",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-POL-001",
+      "type": "VALIDATES"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -25795,19 +25862,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 429,
-    "declared_relationships": 468,
+    "compliant_documents": 430,
+    "declared_relationships": 474,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 167,
+      "PROJECT": 168,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 33,
+      "D1": 34,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -25847,7 +25914,7 @@
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 3,
-      "BBA Product Governance": 6,
+      "BBA Product Governance": 7,
       "Governance Nucleus": 6,
       "Security": 6,
       "UNSPECIFIED": 578
@@ -25855,7 +25922,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 269,
+      "DRAFT": 270,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -25868,7 +25935,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 250,
+      "REPORT": 251,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -25881,6 +25948,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1021
+    "total_documents": 1022
   }
 }

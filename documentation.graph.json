@@ -4310,6 +4310,16 @@
       "title": "BBA Platform Product Boundaries and Non-Goals"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-001",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "title": "BBA Platform Product Documentation Baseline Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11664,6 +11674,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
+      ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12352,6 +12363,7 @@
       "BBAPLT-GDE-003",
       "BBAPLT-GDE-004",
       "BBAPLT-POL-001",
+      "BBAPLT-RPT-001",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12773,14 +12785,14 @@
     "DEPENDS_ON": 126,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 267,
-    "VALIDATES": 45
+    "RELATES_TO": 268,
+    "VALIDATES": 50
   },
   "relationship_statistics": {
-    "declared": 468,
+    "declared": 474,
     "derived": 0,
     "duplicates": 0,
-    "total": 468,
+    "total": 474,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13162,6 +13174,42 @@
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBA-POL-001",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-002",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-GDE-004",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      "target": "BBAPLT-POL-001",
+      "type": "VALIDATES"
     },
     {
       "source": "BUSINESS-GDE-001",
