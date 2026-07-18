@@ -4452,6 +4452,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-021",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-021",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
+      "title": "BBA Platform Institutional Asset Lifecycle"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11848,6 +11858,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
@@ -12564,6 +12575,7 @@
       "BBAPLT-GDE-018",
       "BBAPLT-GDE-019",
       "BBAPLT-GDE-020",
+      "BBAPLT-GDE-021",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -12986,17 +12998,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 142,
+    "DEPENDS_ON": 143,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 320,
+    "RELATES_TO": 321,
     "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 554,
+    "declared": 556,
     "derived": 0,
     "duplicates": 0,
-    "total": 554,
+    "total": 556,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13725,6 +13737,18 @@
       "source": "BBAPLT-GDE-020",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md",
       "target": "BBAPLT-GDE-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-021",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-020",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-021",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-019",
       "type": "RELATES_TO"
     },
     {

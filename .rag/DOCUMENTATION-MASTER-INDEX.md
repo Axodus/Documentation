@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1039
+Source Documents: 1040
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1039
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1039 |
-| Canonical documents | 447 |
+| Total source documents | 1040 |
+| Canonical documents | 448 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 554 |
+| Declared relationships | 556 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1039
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 117 |
+| GUIDE | 118 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1039
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 185 |
+| PROJECT | 186 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1039
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 287 |
+| DRAFT | 288 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -95,6 +95,7 @@ Source Documents: 1039
 | BBAPLT-GDE-018 | BBA Platform Institutional Asset Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-019 | BBA Platform Institutional Asset Identity | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md](./bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md) |
 | BBAPLT-GDE-020 | BBA Platform Institutional Asset Classification | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md](./bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md) |
+| BBAPLT-GDE-021 | BBA Platform Institutional Asset Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |

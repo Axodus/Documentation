@@ -282,7 +282,7 @@ program:
               acceptance: ["Semantic Asset classes are defined separately from formats, channels, representations, and technical media types."]
             - id: "REQ-002-02-004"
               title: "Define Asset Lifecycle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-003"]
               produces: ["BBAPLT-GDE-021"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md"]
