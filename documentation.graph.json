@@ -2,6 +2,41 @@
   "cycles": [
     {
       "allowed": false,
+      "edge_count": 24,
+      "nodes": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-GDE-100",
+        "BBA-POL-001",
+        "BBA-REF-001",
+        "BBA-REF-002",
+        "BBA-REF-003",
+        "BBA-ROAD-002",
+        "BBA-ROAD-003",
+        "BBA-STD-001",
+        "BBA-STD-002"
+      ],
+      "relationship_types": [
+        "DEPENDS_ON",
+        "DOCUMENTS",
+        "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-GDE-100",
+        "BBA-POL-001",
+        "BBA-REF-001",
+        "BBA-REF-002",
+        "BBA-REF-003",
+        "BBA-ROAD-002",
+        "BBA-ROAD-003",
+        "BBA-STD-001",
+        "BBA-STD-002"
+      ]
+    },
+    {
+      "allowed": false,
       "edge_count": 10,
       "nodes": [
         "DOC-ADR-001",
@@ -244,7 +279,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-17T00:00:00Z",
+  "generated_at": "2026-07-18T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -4075,6 +4110,46 @@
       "title": "Architecture"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ADR-0001",
+      "document_type": "ADR",
+      "node_id": "BBA-ADR-0001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0001-DOCUMENTATION-AS-SOURCE-OF-TRUTH.md",
+      "title": "Documentation as Source of Truth"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ADR-0002",
+      "document_type": "ADR",
+      "node_id": "BBA-ADR-0002",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md",
+      "title": "Mission as Core Domain Entity"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ADR-0003",
+      "document_type": "ADR",
+      "node_id": "BBA-ADR-0003",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
+      "title": "Tenant-Neutral Core"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ADR-0004",
+      "document_type": "ADR",
+      "node_id": "BBA-ADR-0004",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
+      "title": "Domain Before Architecture"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BBA-GDE-001",
@@ -4083,6 +4158,106 @@
       "publication_status": "APPROVED",
       "source_path": "docs/bba-agency/overview.md",
       "title": "Axodus BBA Agency Overview"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-GDE-100",
+      "document_type": "GUIDE",
+      "node_id": "BBA-GDE-100",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md",
+      "title": "BBA Platform Documentation Strategy"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-POL-001",
+      "document_type": "POLICY",
+      "node_id": "BBA-POL-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-PUBLIC-PRIVATE-BOUNDARY.md",
+      "title": "BBA Platform Public Private Boundary"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-REF-001",
+      "document_type": "REFERENCE",
+      "node_id": "BBA-REF-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
+      "title": "BBA Platform Concept Map"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-REF-002",
+      "document_type": "REFERENCE",
+      "node_id": "BBA-REF-002",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
+      "title": "BBA Platform Ubiquitous Language"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-REF-003",
+      "document_type": "REFERENCE",
+      "node_id": "BBA-REF-003",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-MIGRATION-REGISTER.md",
+      "title": "BBA Platform Documentation Migration Register"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ROAD-001",
+      "document_type": "ROADMAP",
+      "node_id": "BBA-ROAD-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
+      "title": "BBA Platform Sprint 00 Foundation Plan"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ROAD-002",
+      "document_type": "ROADMAP",
+      "node_id": "BBA-ROAD-002",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
+      "title": "BBA Platform Documentation Roadmap"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ROAD-003",
+      "document_type": "ROADMAP",
+      "node_id": "BBA-ROAD-003",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md",
+      "title": "BBA Platform Master Documentation Backlog"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-STD-001",
+      "document_type": "STANDARD",
+      "node_id": "BBA-STD-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
+      "title": "BBA Platform Decision Traceability"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-STD-002",
+      "document_type": "STANDARD",
+      "node_id": "BBA-STD-002",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
+      "title": "BBA Platform Documentation Quality Standards"
     },
     {
       "authority_level": "CORE",
@@ -11420,6 +11595,20 @@
       ".knowledge/treasury/treasury-core.akp.md",
       ".knowledge/treasury/treasury-page-directives.akp.md",
       ".knowledge/treasury/treasury-policy.akp.md",
+      ".rag/bba-platform/adr/BBA-ADR-0001-DOCUMENTATION-AS-SOURCE-OF-TRUTH.md",
+      ".rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md",
+      ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
+      ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
+      ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
+      ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
+      ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
+      ".rag/bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md",
+      ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md",
+      ".rag/bba-platform/BBA-DOC-MIGRATION-REGISTER.md",
+      ".rag/bba-platform/BBA-DOC-PUBLIC-PRIVATE-BOUNDARY.md",
+      ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
+      ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
+      ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12088,7 +12277,21 @@
       "ACS-GDE-001",
       "ACS-GDE-002",
       "ACS-GDE-003",
+      "BBA-ADR-0001",
+      "BBA-ADR-0002",
+      "BBA-ADR-0003",
+      "BBA-ADR-0004",
       "BBA-GDE-001",
+      "BBA-GDE-100",
+      "BBA-POL-001",
+      "BBA-REF-001",
+      "BBA-REF-002",
+      "BBA-REF-003",
+      "BBA-ROAD-001",
+      "BBA-ROAD-002",
+      "BBA-ROAD-003",
+      "BBA-STD-001",
+      "BBA-STD-002",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12507,17 +12710,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 115,
-    "DOCUMENTS": 15,
+    "DEPENDS_ON": 121,
+    "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 233,
+    "RELATES_TO": 256,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 421,
+    "declared": 452,
     "derived": 0,
     "duplicates": 0,
-    "total": 421,
+    "total": 452,
     "unresolved": 0
   },
   "relationship_types": [
@@ -12613,9 +12816,195 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBA-ADR-0001",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0001-DOCUMENTATION-AS-SOURCE-OF-TRUTH.md",
+      "target": "BBA-GDE-100",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0001",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0001-DOCUMENTATION-AS-SOURCE-OF-TRUTH.md",
+      "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0002",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md",
+      "target": "BBA-REF-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-ADR-0002",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0003",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
+      "target": "BBA-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0003",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0004",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
+      "target": "BBA-REF-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-ADR-0004",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
+      "target": "BBA-ROAD-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBA-GDE-001",
       "source_path": "docs/bba-agency/overview.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-GDE-100",
+      "source_path": ".rag/bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md",
+      "target": "BBA-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-GDE-100",
+      "source_path": ".rag/bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-POL-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-PUBLIC-PRIVATE-BOUNDARY.md",
+      "target": "BBA-GDE-100",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-POL-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-PUBLIC-PRIVATE-BOUNDARY.md",
+      "target": "BBA-REF-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-REF-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
+      "target": "BBA-ADR-0002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-REF-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-REF-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
+      "target": "BBA-REF-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-REF-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
+      "target": "BBA-ADR-0002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-REF-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-REF-003",
+      "source_path": ".rag/bba-platform/BBA-DOC-MIGRATION-REGISTER.md",
+      "target": "BBA-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-REF-003",
+      "source_path": ".rag/bba-platform/BBA-DOC-MIGRATION-REGISTER.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ROAD-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
+      "target": "BBA-ROAD-003",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "BBA-ROAD-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
+      "target": "BBA-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ROAD-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
+      "target": "BBA-REF-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ROAD-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
+      "target": "BBA-GDE-100",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-ROAD-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
+      "target": "BBA-ROAD-003",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "BBA-ROAD-003",
+      "source_path": ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md",
+      "target": "BBA-GDE-100",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-ROAD-003",
+      "source_path": ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md",
+      "target": "BBA-ROAD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ROAD-003",
+      "source_path": ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md",
+      "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-STD-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
+      "target": "BBA-ROAD-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-STD-001",
+      "source_path": ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-STD-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
+      "target": "BBA-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-STD-002",
+      "source_path": ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
+      "target": "BBA-STD-001",
       "type": "RELATES_TO"
     },
     {

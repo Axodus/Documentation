@@ -6238,6 +6238,15 @@
       "source_path": ".knowledge/treasury/treasury-policy.akp.md"
     },
     {
+      "document_id": "BBA-ADR-0002",
+      "error_code": "DOC-VAL-021",
+      "field": "relationships",
+      "message": "Allowed RELATES_TO cycle observed: BBA-ADR-0002 -> BBA-ADR-0003 -> BBA-GDE-100 -> BBA-POL-001 -> BBA-REF-002 -> BBA-REF-003 -> BBA-STD-001 -> BBA-STD-002.",
+      "rule_id": "DOC-RULE-021",
+      "severity": "INFO",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md"
+    },
+    {
       "document_id": "DOC-RPT-140",
       "error_code": "DOC-VAL-026",
       "field": "relationships",
@@ -12467,7 +12476,7 @@
     }
   ],
   "errors": 0,
-  "generated_at": "2026-07-17T00:00:00Z",
+  "generated_at": "2026-07-18T00:00:00Z",
   "legacy_documents": 578,
   "repository_statistics": {
     "active_exceptions": 563,
@@ -12482,28 +12491,28 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1385,
+    "info": 1386,
     "invalid_exceptions": 0,
     "known_legacy": 505,
     "legacy_documents": 578,
     "migrate_dispositions": 177,
-    "relationships": 421,
+    "relationships": 452,
     "removed_legacy": 19,
     "revoked_exceptions": 0,
     "security_review_dispositions": 59,
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 1002,
+    "total_documents": 1016,
     "unbaselined_legacy": 34,
     "undecided_dispositions": 0,
-    "validated_documents": 410,
+    "validated_documents": 424,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 410,
+  "validated_documents": 424,
   "validation_version": "1.1.0",
   "warnings": 0
 }

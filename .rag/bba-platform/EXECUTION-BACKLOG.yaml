@@ -1,0 +1,82 @@
+backlog_version: "1.0.0"
+program:
+  id: "PROGRAM-BBA-DOC"
+  name: "BBA Platform Documentation"
+  status: "PLANNED"
+  epics:
+    - id: "EPIC-000"
+      name: "Documentation Foundation"
+      documentation_areas: ["AREA-000"]
+      sprints:
+        - id: "SPRINT-00"
+          name: "Foundation and Master Backlog"
+          status: "READY"
+          requests:
+            - id: "REQ-000-001"
+              title: "Create Foundation Manifest"
+              produces: ["BBA-DOC-FOUNDATION-MANIFEST"]
+              acceptance: ["Manifest lists required documents, read order, schema minimum, and deterministic checksum scope."]
+            - id: "REQ-000-002"
+              title: "Create Documentation Strategy"
+              produces: ["BBA-GDE-001"]
+              acceptance: ["Strategy defines ownership, lifecycle, source-of-truth rules, and review responsibilities."]
+            - id: "REQ-000-003"
+              title: "Create Documentation Roadmap"
+              produces: ["BBA-ROAD-002"]
+              acceptance: ["Roadmap orders layers, areas, execution epics, sprints, and gates without conflating them."]
+            - id: "REQ-000-004"
+              title: "Create Migration Register"
+              produces: ["BBA-REF-003"]
+              acceptance: ["Existing BBA sources are classified with origin, destination, strategy, confidence, blockers, replacement, publication candidacy, and migration phase."]
+            - id: "REQ-000-005"
+              title: "Create Concept Map"
+              produces: ["BBA-REF-001"]
+              acceptance: ["Core relationships are represented without implementation terminology."]
+            - id: "REQ-000-006"
+              title: "Create Ubiquitous Language"
+              produces: ["BBA-REF-002"]
+              acceptance: ["Required terms contain canonical name, definition, motivation, aliases, forbidden synonyms, related concepts, lifecycle, examples, and non-examples."]
+            - id: "REQ-000-007"
+              title: "Create Foundation ADRs"
+              produces: ["BBA-ADR-0001", "BBA-ADR-0002", "BBA-ADR-0003", "BBA-ADR-0004"]
+              acceptance: ["Four proposed ADRs record Source of Truth, Mission, tenant neutrality, and domain-before-architecture decisions."]
+            - id: "REQ-000-008"
+              title: "Create Decision Traceability Matrix"
+              produces: ["BBA-STD-001"]
+              acceptance: ["Matrix supports Vision to Principle to Area to Epic to Sprint to REQ to artifact to implementation to tests."]
+            - id: "REQ-000-009"
+              title: "Create Dependency Manifest"
+              produces: ["BBA-DOC-DEPENDENCY-GRAPH"]
+              acceptance: ["Typed dependencies are explicit and cycles are detectable."]
+            - id: "REQ-000-010"
+              title: "Create Public Private Boundary"
+              produces: ["BBA-POL-001"]
+              acceptance: ["Private, public, prohibited, derived, and sanitization rules are explicit."]
+            - id: "REQ-000-011"
+              title: "Create Quality Standards"
+              produces: ["BBA-STD-002"]
+              acceptance: ["Definition of Ready, Definition of Done, completeness, consistency, traceability, review, and publication criteria are defined."]
+            - id: "REQ-000-012"
+              title: "Add Foundation Validation"
+              produces: ["BBA-FOUNDATION-VALIDATION"]
+              acceptance: ["Automated tests validate manifest, layer/area counts, execution hierarchy, IDs, dependencies, required files, and checksums."]
+    - id: "EPIC-001"
+      name: "Product Documentation Rollout"
+      documentation_areas: ["AREA-001", "AREA-002", "AREA-003", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
+      sprints: []
+    - id: "EPIC-002"
+      name: "Domain Documentation Rollout"
+      documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
+      sprints: []
+    - id: "EPIC-003"
+      name: "Canonical Review and Architecture Rollout"
+      documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]
+      sprints: []
+    - id: "EPIC-004"
+      name: "Development Documentation Rollout"
+      documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
+      sprints: []
+    - id: "EPIC-005"
+      name: "Operational Documentation Rollout"
+      documentation_areas: ["AREA-036", "AREA-037", "AREA-038", "AREA-039", "AREA-040", "AREA-041", "AREA-042"]
+      sprints: []

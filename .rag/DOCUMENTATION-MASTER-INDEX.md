@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-17T00:00:00Z
-Source Documents: 1002
+Generated At: 2026-07-18T00:00:00Z
+Source Documents: 1016
 
 ## Navigation
 
@@ -22,33 +22,33 @@ Source Documents: 1002
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1002 |
-| Canonical documents | 410 |
+| Total source documents | 1016 |
+| Canonical documents | 424 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 421 |
+| Declared relationships | 452 |
 | Derived relationships | 0 |
 
 ## Documents by Type
 
 | Value | Count |
 |---|---:|
-| ADR | 24 |
+| ADR | 28 |
 | API | 1 |
-| GUIDE | 97 |
+| GUIDE | 98 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
-| POLICY | 7 |
+| POLICY | 8 |
 | PROPOSAL | 1 |
-| REFERENCE | 12 |
+| REFERENCE | 15 |
 | RELEASE | 1 |
 | REPORT | 250 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
-| ROADMAP | 11 |
+| ROADMAP | 14 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
-| STANDARD | 4 |
+| STANDARD | 6 |
 | UNSPECIFIED | 578 |
 ## Documents by Authority
 
@@ -58,7 +58,7 @@ Source Documents: 1002
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 148 |
+| PROJECT | 162 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,12 +66,26 @@ Source Documents: 1002
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 250 |
+| DRAFT | 264 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
 |---|---|---|---|---|---|---|---|
+| BBA-ADR-0001 | Documentation as Source of Truth | ADR | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/adr/BBA-ADR-0001-DOCUMENTATION-AS-SOURCE-OF-TRUTH.md](./bba-platform/adr/BBA-ADR-0001-DOCUMENTATION-AS-SOURCE-OF-TRUTH.md) |
+| BBA-ADR-0002 | Mission as Core Domain Entity | ADR | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md](./bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md) |
+| BBA-ADR-0003 | Tenant-Neutral Core | ADR | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md](./bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md) |
+| BBA-ADR-0004 | Domain Before Architecture | ADR | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md](./bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md) |
+| BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
+| BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
+| BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |
+| BBA-GDE-100 | BBA Platform Documentation Strategy | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md](./bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md) |
+| BBA-ROAD-003 | BBA Platform Master Documentation Backlog | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md](./bba-platform/BBA-DOC-MASTER-BACKLOG.md) |
+| BBA-REF-003 | BBA Platform Documentation Migration Register | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-MIGRATION-REGISTER.md](./bba-platform/BBA-DOC-MIGRATION-REGISTER.md) |
+| BBA-POL-001 | BBA Platform Public Private Boundary | POLICY | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-PUBLIC-PRIVATE-BOUNDARY.md](./bba-platform/BBA-DOC-PUBLIC-PRIVATE-BOUNDARY.md) |
+| BBA-STD-002 | BBA Platform Documentation Quality Standards | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md](./bba-platform/BBA-DOC-QUALITY-STANDARDS.md) |
+| BBA-ROAD-001 | BBA Platform Sprint 00 Foundation Plan | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md](./bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md) |
+| BBA-REF-002 | BBA Platform Ubiquitous Language | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md](./bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
 | DOC-RPT-138 | Canonical Coherence Batch 01 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md) |
 | DOC-RPT-139 | Canonical Coherence Batch 01 Evidence Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md) |

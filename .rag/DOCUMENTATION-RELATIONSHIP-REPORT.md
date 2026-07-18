@@ -2,28 +2,28 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-17T00:00:00Z
+Generated At: 2026-07-18T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1002
-- Declared relationships: 421
+- Graph nodes: 1016
+- Declared relationships: 452
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
 - Orphan documents: 795
-- Cycles: 13
+- Cycles: 14
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 115 |
-| `DOCUMENTS` | 15 |
+| `DEPENDS_ON` | 121 |
+| `DOCUMENTS` | 17 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 233 |
+| `RELATES_TO` | 256 |
 | `VALIDATES` | 45 |
 
 ## Unresolved References
@@ -36,6 +36,7 @@ None.
 
 ## Cycles
 
+- BBA-ADR-0002 → BBA-ADR-0003 → BBA-GDE-100 → BBA-POL-001 → BBA-REF-001 → BBA-REF-002 → BBA-REF-003 → BBA-ROAD-002 → BBA-ROAD-003 → BBA-STD-001 → BBA-STD-002 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
 - DOC-ADR-001 → DOC-ADR-003 → DOC-ADR-006 → DOC-ADR-012 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-005 → DOC-ADR-011 → DOC-ADR-016 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-007 → DOC-ADR-013 → DOC-ADR-014 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
