@@ -472,7 +472,7 @@ program:
               acceptance: ["Authority, Responsibility, Permission, and Capability are distinct, with delegable, non-delegable, scoped, and bounded authority defined."]
             - id: "REQ-002-04-004"
               title: "Define Stewardship Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-003"]
               produces: ["BBAPLT-GDE-044"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md"]

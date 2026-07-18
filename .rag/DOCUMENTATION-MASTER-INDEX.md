@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1065
+Source Documents: 1066
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1065
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1065 |
-| Canonical documents | 473 |
+| Total source documents | 1066 |
+| Canonical documents | 474 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 661 |
+| Declared relationships | 665 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1065
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 140 |
+| GUIDE | 141 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1065
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 211 |
+| PROJECT | 212 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1065
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 313 |
+| DRAFT | 314 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -119,6 +119,7 @@ Source Documents: 1065
 | BBAPLT-GDE-041 | BBA Platform Human Governance Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-042 | BBA Platform Governance Roles | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md](./bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md) |
 | BBAPLT-GDE-043 | BBA Platform Human Governance Authority Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md](./bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md) |
+| BBAPLT-GDE-044 | BBA Platform Stewardship Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md](./bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

@@ -56,3 +56,15 @@ test('Authority remains distinct from Responsibility, Permission, Capability, an
   assert.match(source, /No Delegate can enlarge a grant/)
   assert.match(source, /does not define authentication, authorization systems, RBAC/)
 })
+
+test('Stewardship preserves Mission, Asset, Workforce, ownership, and accountability continuity', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-044"/)
+  for (const concept of ['Steward', 'Stewardship', 'Ownership', 'Accountability']) assert.match(source, new RegExp(`\| ${concept} \|`))
+  assert.match(source, /Every Mission has a Steward before consequential work begins/)
+  assert.match(source, /An Institutional Asset has an accountable ownership context/)
+  assert.match(source, /Human Stewardship governs the composition and assignment of the AI Workforce/)
+  assert.match(source, /replacement cannot erase history[\s\S]*unresolved obligations/)
+  assert.match(source, /Authorship, custody, ownership,[\s\S]*held by different roles/)
+  assert.match(source, /does not define users, teams, access controls, authentication/)
+})
