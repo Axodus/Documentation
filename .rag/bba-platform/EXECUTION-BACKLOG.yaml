@@ -500,7 +500,7 @@ program:
               acceptance: ["Conflicts, impasses, refusals, elevated risks, and escalation to competent authority are defined conceptually."]
             - id: "REQ-002-04-008"
               title: "Define Governance Lifecycle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-007"]
               produces: ["BBAPLT-GDE-048"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-048-GOVERNANCE-LIFECYCLE.md"]

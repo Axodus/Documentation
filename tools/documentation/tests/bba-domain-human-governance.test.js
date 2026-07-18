@@ -104,3 +104,15 @@ test('Escalation addresses conflict, impasse, refusal, risk, evidence, and bound
   assert.match(source, /It cannot decide the escalation outcome/)
   assert.match(source, /does not define incident management, routing services, alerts/)
 })
+
+test('Governance lifecycle preserves review, change, retirement, history, and human authority', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-048-GOVERNANCE-LIFECYCLE.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-048"/)
+  for (const state of ['Proposed', 'Active', 'Under Review', 'Updated', 'Retired']) assert.match(source, new RegExp(`\\| ${state} \\|`))
+  assert.match(source, /Every transition has an identifiable human Authority/)
+  assert.match(source, /An Agent may prepare evidence or recommend a transition[\s\S]*cannot activate/)
+  assert.match(source, /An Updated arrangement preserves lineage to the prior meaning/)
+  assert.match(source, /Retired for new use while residual obligations continue/)
+  assert.match(source, /Suspension is a protective condition,[\s\S]*not an additional permanent[\s\S]*lifecycle state/)
+  assert.match(source, /does not define state machines, persistence, event sourcing/)
+})
