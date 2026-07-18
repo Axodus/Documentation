@@ -70,3 +70,15 @@ test('Mission Rules preserve authority, Asset provenance, and tenant neutrality'
   assert.match(source, /Tenant knowledge, policies, Assets, authority, and decisions remain scoped/)
   assert.match(source, /These rules do not define validation code, database constraints, API behavior/)
 })
+
+test('Mission Policies define authority and escalation without technical enforcement', async () => {
+  const path = '.rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md'
+  const source = await read(path)
+  await access(resolve(root, path))
+  assert.match(source, /document_id: "BBAPLT-GDE-015"/)
+  for (const policy of ['Mission Authorization Policy', 'Stewardship Policy', 'AI Workforce Delegation Policy', 'Review Policy', 'Publication Policy', 'Tenant Boundary Policy', 'Exception and Escalation Policy']) {
+    assert.match(source, new RegExp(`## ${policy}`))
+  }
+  assert.match(source, /Silence is not approval/)
+  assert.match(source, /These policies do not define roles in an identity provider[\s\S]*policy engine/)
+})

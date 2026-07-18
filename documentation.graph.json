@@ -4402,6 +4402,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-015",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-015",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
+      "title": "BBA Platform Mission Policies"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11783,6 +11793,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -12493,6 +12504,7 @@
       "BBAPLT-GDE-012",
       "BBAPLT-GDE-013",
       "BBAPLT-GDE-014",
+      "BBAPLT-GDE-015",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -12914,17 +12926,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 137,
+    "DEPENDS_ON": 138,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 300,
+    "RELATES_TO": 304,
     "VALIDATES": 56
   },
   "relationship_statistics": {
-    "declared": 523,
+    "declared": 528,
     "derived": 0,
     "duplicates": 0,
-    "total": 523,
+    "total": 528,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13526,6 +13538,36 @@
     {
       "source": "BBAPLT-GDE-014",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-015",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
+      "target": "BBAPLT-GDE-014",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-015",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-015",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
+      "target": "BBAPLT-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-015",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
+      "target": "BBAPLT-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-015",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
       "target": "BBAPLT-GDE-009",
       "type": "RELATES_TO"
     },

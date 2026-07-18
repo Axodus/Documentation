@@ -233,7 +233,7 @@ program:
               acceptance: ["Mission invariants, ownership rules, outcome rules, asset relationships, and refusal or failure behavior are explicit."]
             - id: "REQ-002-01-005"
               title: "Define Mission Policies"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-01-004"]
               produces: ["BBAPLT-GDE-015"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md"]
