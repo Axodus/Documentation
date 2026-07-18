@@ -1,7 +1,7 @@
 {
   "baseline_entries": 563,
   "baseline_version": "1.0.0",
-  "canonical_documents": 430,
+  "canonical_documents": 431,
   "changed_legacy": 39,
   "exception_entries": 563,
   "expired_exceptions": 0,
@@ -18,5 +18,5 @@
     "invalid_exceptions": 0,
     "revoked_exceptions": 0
   },
-  "total_documents": 1022
+  "total_documents": 1023
 }

@@ -17,7 +17,7 @@ const productDocuments = [
 test('Product Sprint 01 is complete in the execution backlog', async () => {
   const source = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   assert.match(source, /id: "EPIC-001"[\s\S]*status: "IN_PROGRESS"/)
-  assert.match(source, /id: "SPRINT-01"[\s\S]*status: "DONE"/)
+  assert.match(source, /id: "SPRINT-01"[\s\S]*status: "PASS_CLOSED"/)
   for (const id of ['REQ-001-01-001', 'REQ-001-01-002', 'REQ-001-01-003', 'REQ-001-01-004', 'REQ-001-01-005', 'REQ-001-01-006']) {
     const request = source.match(new RegExp(`id: "${id}"[\\s\\S]*?status: "([A-Z_]+)"`))
     assert.equal(request?.[1], 'DONE', `${id} must be DONE`)

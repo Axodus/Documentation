@@ -67,7 +67,7 @@ program:
       sprints:
         - id: "SPRINT-01"
           name: "Product Vision and Operating Model"
-          status: "DONE"
+          status: "PASS_CLOSED"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006"]
           requests:
             - id: "REQ-001-01-001"
@@ -109,8 +109,62 @@ program:
               status: "DONE"
               depends_on: ["REQ-001-01-001", "REQ-001-01-002", "REQ-001-01-003", "REQ-001-01-004", "REQ-001-01-005"]
               produces: ["BBAPLT-RPT-001"]
-              files: [".rag/bba-platform/product/BBAPLT-PRODUCT-BASELINE-REVIEW.md"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md"]
               acceptance: ["Product documents use canonical language, contain no technical architecture decisions, and pass the product-layer review checklist."]
+        - id: "SPRINT-02"
+          name: "Product Domain Framing"
+          status: "IN_PROGRESS"
+          documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
+          requests:
+            - id: "REQ-001-02-001"
+              title: "Define Product Personas and Governance Roles"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-006"]
+              produces: ["BBAPLT-GDE-005"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md"]
+              acceptance: ["Personas, Stewards, human governance roles, AI Workforce roles, and authority boundaries are defined with canonical terminology."]
+            - id: "REQ-001-02-002"
+              title: "Define Tenant and Consumer Model"
+              status: "PLANNED"
+              depends_on: ["REQ-001-02-001"]
+              produces: ["BBAPLT-GDE-006"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md"]
+              acceptance: ["Tenant, consumer, white-label, self-hosted, SaaS, and Axodus adapter relationships are product-defined without technical tenancy design."]
+            - id: "REQ-001-02-003"
+              title: "Define Mission-Centric Value Model"
+              status: "PLANNED"
+              depends_on: ["REQ-001-02-001", "REQ-001-02-002"]
+              produces: ["BBAPLT-GDE-007"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md"]
+              acceptance: ["Mission value, inputs, outputs, human outcomes, Institutional Assets, and learning outcomes are defined without implementation state machines."]
+            - id: "REQ-001-02-004"
+              title: "Define Solutions and Use Cases"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-003", "REQ-001-02-002", "REQ-001-02-003"]
+              produces: ["BBAPLT-GDE-008"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md"]
+              acceptance: ["Solutions combine capabilities for tenant-neutral use cases and do not redefine the Core around Axodus."]
+            - id: "REQ-001-02-005"
+              title: "Define Institutional Asset Portfolio"
+              status: "PLANNED"
+              depends_on: ["REQ-001-02-003", "REQ-001-02-004"]
+              produces: ["BBAPLT-GDE-009"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md"]
+              acceptance: ["Institutional Asset classes, ownership, lifecycle intent, review needs, and publication relationships are defined."]
+            - id: "REQ-001-02-006"
+              title: "Define Product Lifecycle and Success Outcomes"
+              status: "PLANNED"
+              depends_on: ["REQ-001-02-003", "REQ-001-02-005"]
+              produces: ["BBAPLT-GDE-010"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md"]
+              acceptance: ["Product lifecycle milestones, success outcomes, completion signals, limitations, and non-guaranteed metrics are defined."]
+            - id: "REQ-001-02-007"
+              title: "Execute Product Layer Canonical Review"
+              status: "PLANNED"
+              depends_on: ["REQ-001-02-001", "REQ-001-02-002", "REQ-001-02-003", "REQ-001-02-004", "REQ-001-02-005", "REQ-001-02-006"]
+              produces: ["BBAPLT-RPT-002"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md"]
+              acceptance: ["Canonical review records semantic consistency, explicit gaps, no technical leakage, and readiness or blockers for Domain Documentation Rollout."]
     - id: "EPIC-002"
       name: "Domain Documentation Rollout"
       documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
