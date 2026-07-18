@@ -317,7 +317,7 @@ program:
               acceptance: ["Asset identity is stable, version content is immutable, changes create new versions, and version governance states have explicit meaning."]
             - id: "REQ-002-02-009"
               title: "Define Asset Rules"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-008"]
               produces: ["BBAPLT-GDE-026"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md"]

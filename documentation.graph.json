@@ -4502,6 +4502,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-026",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-026",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md",
+      "title": "BBA Platform Institutional Asset Rules"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11903,6 +11913,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-024-ASSET-AUTHORITY.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
@@ -12624,6 +12635,7 @@
       "BBAPLT-GDE-023",
       "BBAPLT-GDE-024",
       "BBAPLT-GDE-025",
+      "BBAPLT-GDE-026",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13046,17 +13058,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 147,
+    "DEPENDS_ON": 148,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 328,
+    "RELATES_TO": 330,
     "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 567,
+    "declared": 570,
     "derived": 0,
     "duplicates": 0,
-    "total": 567,
+    "total": 570,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13863,6 +13875,24 @@
       "source": "BBAPLT-GDE-025",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md",
       "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-026",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md",
+      "target": "BBAPLT-GDE-025",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-026",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md",
+      "target": "BBAPLT-GDE-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-026",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md",
+      "target": "BBAPLT-GDE-024",
       "type": "RELATES_TO"
     },
     {
