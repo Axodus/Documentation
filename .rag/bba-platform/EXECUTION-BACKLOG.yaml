@@ -64,6 +64,7 @@ program:
       name: "Product Documentation Rollout"
       documentation_areas: ["AREA-001", "AREA-002", "AREA-003", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
       status: "IN_PROGRESS"
+      status_reason: "WAITING_DOMAIN_VALIDATION"
       sprints:
         - id: "SPRINT-01"
           name: "Product Vision and Operating Model"
@@ -165,10 +166,124 @@ program:
               produces: ["BBAPLT-RPT-002"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md"]
               acceptance: ["Canonical review records semantic consistency, explicit gaps, no technical leakage, and readiness or blockers for Domain Documentation Rollout."]
+        - id: "SPRINT-001-03"
+          display_id: "SPRINT-03"
+          name: "Product Final Consistency Review"
+          status: "PLANNED"
+          status_reason: "WAITING_DOMAIN_VALIDATION"
+          documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
+          requests:
+            - id: "REQ-001-03-001"
+              title: "Review Product and Domain Consistency"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-007"]
+              produces: ["BBAPLT-RPT-004"]
+              acceptance: ["Product terms, boundaries, capabilities, solutions, Missions, Assets, and governance are compared against the approved Mission Domain review." ]
+            - id: "REQ-001-03-002"
+              title: "Reconcile Product and Domain Divergences"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-001"]
+              produces: ["BBAPLT-GDE-017"]
+              acceptance: ["Necessary Product corrections are recorded without absorbing domain implementation details or changing Core semantics silently." ]
+            - id: "REQ-001-03-003"
+              title: "Freeze Product Layer Baseline v1.0"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-002"]
+              produces: ["BBAPLT-RPT-005"]
+              acceptance: ["Product Layer v1.0 is reviewed, versioned, and explicitly frozen while future domain discoveries are routed through governed change control." ]
     - id: "EPIC-002"
       name: "Domain Documentation Rollout"
       documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
-      sprints: []
+      status: "IN_PROGRESS"
+      status_reason: "MISSION_DOMAIN_FOUNDATION_ACTIVE"
+      sprints:
+        - id: "SPRINT-002-01"
+          display_id: "SPRINT-01"
+          name: "Core Domain / Mission"
+          status: "IN_PROGRESS"
+          documentation_areas: ["AREA-011", "AREA-012"]
+          requests:
+            - id: "REQ-002-01-001"
+              title: "Define Mission Domain Overview"
+              status: "DONE"
+              depends_on: ["REQ-001-02-007"]
+              produces: ["BBAPLT-GDE-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md"]
+              acceptance: ["Mission Domain boundary, actors, relationships, inputs, outputs, and Product-to-Domain traceability are defined without implementation decisions."]
+            - id: "REQ-002-01-002"
+              title: "Define Mission Lifecycle"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-001"]
+              produces: ["BBAPLT-GDE-012"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md"]
+              acceptance: ["Mission lifecycle phases, entry criteria, exit criteria, human decisions, and exceptional outcomes are defined semantically."]
+            - id: "REQ-002-01-003"
+              title: "Define Mission State Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-002"]
+              produces: ["BBAPLT-GDE-013"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md"]
+              acceptance: ["Mission states, transitions, guards, terminal states, reopening rules, and state invariants are defined without technical event or storage contracts."]
+            - id: "REQ-002-01-004"
+              title: "Define Mission Rules"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-003"]
+              produces: ["BBAPLT-GDE-014"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md"]
+              acceptance: ["Mission invariants, ownership rules, outcome rules, asset relationships, and refusal or failure behavior are explicit."]
+            - id: "REQ-002-01-005"
+              title: "Define Mission Policies"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-004"]
+              produces: ["BBAPLT-GDE-015"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md"]
+              acceptance: ["Mission governance policies define authority, review, approval, delegation, publication boundaries, and tenant neutrality."]
+            - id: "REQ-002-01-006"
+              title: "Define Mission Constraints"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-005"]
+              produces: ["BBAPLT-GDE-016"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md"]
+              acceptance: ["Mission prerequisites, prohibited behavior, cross-tenant boundaries, uncertainty limits, and unresolved domain constraints are documented."]
+            - id: "REQ-002-01-007"
+              title: "Review Mission Domain"
+              status: "PLANNED"
+              depends_on: ["REQ-002-01-001", "REQ-002-01-002", "REQ-002-01-003", "REQ-002-01-004", "REQ-002-01-005", "REQ-002-01-006"]
+              produces: ["BBAPLT-RPT-003"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md"]
+              acceptance: ["Mission Domain Review records canonical consistency, completeness, explicit gaps, no architecture leakage, and readiness for the next Domain Sprint."]
+        - id: "SPRINT-002-02"
+          display_id: "SPRINT-02"
+          name: "Institutional Assets"
+          status: "PLANNED"
+          documentation_areas: ["AREA-014"]
+          requests: []
+        - id: "SPRINT-002-03"
+          display_id: "SPRINT-03"
+          name: "AI Workforce"
+          status: "PLANNED"
+          documentation_areas: ["AREA-013"]
+          requests: []
+        - id: "SPRINT-002-04"
+          display_id: "SPRINT-04"
+          name: "Human Governance"
+          status: "PLANNED"
+          documentation_areas: ["AREA-011", "AREA-016", "AREA-020"]
+          cross_cutting_product_areas: ["AREA-010"]
+          requests: []
+        - id: "SPRINT-002-05"
+          display_id: "SPRINT-05"
+          name: "Workflow Domain"
+          status: "PLANNED"
+          documentation_areas: ["AREA-015"]
+          requests: []
+        - id: "SPRINT-002-06"
+          display_id: "SPRINT-06"
+          name: "Connector Domain"
+          status: "PLANNED"
+          documentation_areas: ["AREA-011", "AREA-017"]
+          cross_cutting_architecture_area: "AREA-025"
+          requests: []
     - id: "EPIC-003"
       name: "Canonical Review and Architecture Rollout"
       documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]
