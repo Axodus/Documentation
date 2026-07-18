@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1027,
+  "document_count": 1028,
   "documents": [
     {
       "aliases": [],
@@ -7557,6 +7557,35 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Institutional Asset Portfolio",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.PRODUCT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-010",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Product Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBAPLT-GDE-005",
+        "BBAPLT-GDE-007",
+        "BBAPLT-GDE-008",
+        "BBAPLT-GDE-009",
+        "EPIC-001",
+        "REQ-001-02-006"
+      ],
+      "sha256": "dcdfdea732d8c7b3bd18ba27e9cfb461e1510d1d690271dc1130469c2e7ddcbe",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Product Lifecycle and Success Outcomes",
       "version": "0.1.0"
     },
     {
@@ -23595,6 +23624,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-010",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-010",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
+      "target": "BBAPLT-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-010",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
+      "target": "BBAPLT-GDE-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-010",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
+      "target": "BBAPLT-GDE-008",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -26094,19 +26147,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 435,
-    "declared_relationships": 490,
+    "compliant_documents": 436,
+    "declared_relationships": 494,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 173,
+      "PROJECT": 174,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 39,
+      "D1": 40,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -26146,7 +26199,7 @@
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 3,
-      "BBA Product Governance": 12,
+      "BBA Product Governance": 13,
       "Governance Nucleus": 6,
       "Security": 6,
       "UNSPECIFIED": 578
@@ -26154,13 +26207,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 275,
+      "DRAFT": 276,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 28,
       "API": 1,
-      "GUIDE": 107,
+      "GUIDE": 108,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -26180,6 +26233,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1027
+    "total_documents": 1028
   }
 }

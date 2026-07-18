@@ -153,7 +153,7 @@ program:
               acceptance: ["Institutional Asset classes, ownership, lifecycle intent, review needs, and publication relationships are defined."]
             - id: "REQ-001-02-006"
               title: "Define Product Lifecycle and Success Outcomes"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-02-003", "REQ-001-02-005"]
               produces: ["BBAPLT-GDE-010"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md"]

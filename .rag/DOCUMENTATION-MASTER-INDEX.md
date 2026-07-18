@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1027
+Source Documents: 1028
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1027
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1027 |
-| Canonical documents | 435 |
+| Total source documents | 1028 |
+| Canonical documents | 436 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 490 |
+| Declared relationships | 494 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1027
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 107 |
+| GUIDE | 108 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1027
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 173 |
+| PROJECT | 174 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1027
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 275 |
+| DRAFT | 276 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -95,6 +95,7 @@ Source Documents: 1027
 | BBAPLT-GDE-007 | BBA Platform Mission-Centric Value Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md](./bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md) |
 | BBAPLT-GDE-008 | BBA Platform Solutions and Use Cases | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md](./bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md) |
 | BBAPLT-GDE-009 | BBA Platform Institutional Asset Portfolio | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md](./bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md) |
+| BBAPLT-GDE-010 | BBA Platform Product Lifecycle and Success Outcomes | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md](./bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md) |
 | BBAPLT-POL-001 | BBA Platform Product Boundaries and Non-Goals | POLICY | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md](./bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md) |
 | BBAPLT-RPT-001 | BBA Platform Product Documentation Baseline Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md](./bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
