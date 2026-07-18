@@ -331,7 +331,7 @@ program:
               acceptance: ["Asset policies govern editing, review, approval, publication, archival, delegation, reuse, and Tenant boundaries."]
             - id: "REQ-002-02-011"
               title: "Define Asset Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-010"]
               produces: ["BBAPLT-GDE-028"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md"]
