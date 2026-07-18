@@ -40,3 +40,12 @@ test('Asset Identity preserves domain continuity across versions and representat
   assert.match(source, /different institutional purpose[\s\S]*authority subject[\s\S]*identity, or meaning/)
   assert.match(source, /does not prescribe database keys, URL schemes, API resources/)
 })
+
+test('Asset Classification separates semantic classes from technical media', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-020"/)
+  for (const term of ['Knowledge', 'Editorial', 'Brand', 'Marketing', 'Publication', 'Media', 'Learning', 'Governance', 'Data', 'Model', 'Template', 'Guideline']) assert.match(source, new RegExp(`\\| ${term} \\|`))
+  assert.match(source, /not semantic Asset classes/)
+  assert.match(source, /Every governed Asset has at least one semantic class/)
+  assert.match(source, /does not prescribe enum storage, search indexes, MIME mappings/)
+})

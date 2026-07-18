@@ -275,7 +275,7 @@ program:
               acceptance: ["Stable Asset identity, Tenant scope, identity continuity across versions and representations, and non-file identity rules are defined."]
             - id: "REQ-002-02-003"
               title: "Define Asset Classification"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-002"]
               produces: ["BBAPLT-GDE-020"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md"]
