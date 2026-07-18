@@ -128,3 +128,16 @@ test('Governance Rules make accountability, Stewardship, human authority, gates,
   assert.match(source, /blocked,[\s\S]*deferred,[\s\S]*rejected,[\s\S]*cancelled,[\s\S]*or escalated/)
   assert.match(source, /does not define rule engines, authorization logic,[\s\S]*policy[\s\S]*languages/)
 })
+
+test('Governance Policies remain mutable while subordinate to Rules and bounded exceptions', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-050"/)
+  for (const area of ['Review', 'Approval', 'Publication', 'Delegation', 'Conflict', 'Exception', 'Stewardship', 'Policy change']) assert.match(source, new RegExp(`\\| ${area} \\|`))
+  assert.match(source, /Policies may refine thresholds,[\s\S]*cannot weaken,[\s\S]*Core Rules/)
+  assert.match(source, /A lower-level Policy cannot weaken a Core Rule/)
+  assert.match(source, /An exception is itself a governed decision/)
+  assert.match(source, /Exceptions cannot[\s\S]*final[\s\S]*institutional[\s\S]*authority/)
+  assert.match(source, /A draft or recommendation is not active[\s\S]*policy/)
+  assert.match(source, /An Agent[\s\S]*may summarize or recommend policy application[\s\S]*cannot create, alter, approve/)
+  assert.match(source, /does not define policy engines, configuration stores,[\s\S]*RBAC/)
+})

@@ -514,7 +514,7 @@ program:
               acceptance: ["Governance invariants preserve human accountability, Mission Stewardship, Asset accountability, competent authority, critical review, and immutable domain rules."]
             - id: "REQ-002-04-010"
               title: "Define Governance Policies"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-009"]
               produces: ["BBAPLT-GDE-050"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md"]
