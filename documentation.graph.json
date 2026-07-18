@@ -4682,6 +4682,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-043",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-043",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
+      "title": "BBA Platform Human Governance Authority Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12121,6 +12131,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12862,6 +12873,7 @@
       "BBAPLT-GDE-040",
       "BBAPLT-GDE-041",
       "BBAPLT-GDE-042",
+      "BBAPLT-GDE-043",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13286,17 +13298,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 165,
+    "DEPENDS_ON": 166,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 377,
+    "RELATES_TO": 380,
     "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 657,
+    "declared": 661,
     "derived": 0,
     "duplicates": 0,
-    "total": 657,
+    "total": 661,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14481,6 +14493,30 @@
       "source": "BBAPLT-GDE-042",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-042-GOVERNANCE-ROLES.md",
       "target": "BBAPLT-GDE-032",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-043",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
+      "target": "BBAPLT-GDE-042",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-043",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
+      "target": "BBAPLT-GDE-031",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-043",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
+      "target": "BBAPLT-GDE-032",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-043",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
+      "target": "BBAPLT-GDE-037",
       "type": "RELATES_TO"
     },
     {

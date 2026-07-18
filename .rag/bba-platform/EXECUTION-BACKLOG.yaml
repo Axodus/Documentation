@@ -465,7 +465,7 @@ program:
               acceptance: ["Steward, Reviewer, Approver, Publisher, Domain Owner, Governance Board, and Delegate are defined as institutional roles without user or group implementation assumptions."]
             - id: "REQ-002-04-003"
               title: "Define Authority Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-002"]
               produces: ["BBAPLT-GDE-043"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md"]

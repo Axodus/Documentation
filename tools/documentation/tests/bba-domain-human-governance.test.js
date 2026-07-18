@@ -44,3 +44,15 @@ test('Governance roles separate review, approval, publication, stewardship, owne
   assert.match(source, /Agents may prepare evidence,[\s\S]*but they do not occupy a human governance role/)
   assert.match(source, /does not define users, groups, identities, authentication/)
 })
+
+test('Authority remains distinct from Responsibility, Permission, Capability, and Accountability', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-043"/)
+  for (const concept of ['Authority', 'Responsibility', 'Permission', 'Capability', 'Accountability']) assert.match(source, new RegExp(`\| ${concept} \|`))
+  assert.match(source, /scope, purpose, and accountable human role/)
+  assert.match(source, /Operational authority may be delegated/)
+  assert.match(source, /Final institutional accountability,[\s\S]*cannot be delegated away/)
+  assert.match(source, /No Agent can acquire Authority through Capability/)
+  assert.match(source, /No Delegate can enlarge a grant/)
+  assert.match(source, /does not define authentication, authorization systems, RBAC/)
+})
