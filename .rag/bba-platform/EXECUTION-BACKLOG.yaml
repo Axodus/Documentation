@@ -289,7 +289,7 @@ program:
               acceptance: ["Asset creation, production, review, approval, publication, archiving, supersession, and retention meaning are defined."]
             - id: "REQ-002-02-005"
               title: "Define Asset State Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-004"]
               produces: ["BBAPLT-GDE-022"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md"]

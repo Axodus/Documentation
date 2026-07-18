@@ -4462,6 +4462,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-022",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-022",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md",
+      "title": "BBA Platform Institutional Asset State Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11859,6 +11869,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
@@ -12576,6 +12587,7 @@
       "BBAPLT-GDE-019",
       "BBAPLT-GDE-020",
       "BBAPLT-GDE-021",
+      "BBAPLT-GDE-022",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -12998,17 +13010,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 143,
+    "DEPENDS_ON": 144,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 321,
+    "RELATES_TO": 322,
     "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 556,
+    "declared": 558,
     "derived": 0,
     "duplicates": 0,
-    "total": 556,
+    "total": 558,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13748,6 +13760,18 @@
     {
       "source": "BBAPLT-GDE-021",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-019",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-022",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-022",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md",
       "target": "BBAPLT-GDE-019",
       "type": "RELATES_TO"
     },
