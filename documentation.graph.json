@@ -4342,6 +4342,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-009",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-009",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md",
+      "title": "BBA Platform Institutional Asset Portfolio"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11717,6 +11727,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
@@ -12410,6 +12421,7 @@
       "BBAPLT-GDE-006",
       "BBAPLT-GDE-007",
       "BBAPLT-GDE-008",
+      "BBAPLT-GDE-009",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BUSINESS-GDE-001",
@@ -12830,17 +12842,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 130,
+    "DEPENDS_ON": 131,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 277,
+    "RELATES_TO": 279,
     "VALIDATES": 50
   },
   "relationship_statistics": {
-    "declared": 487,
+    "declared": 490,
     "derived": 0,
     "duplicates": 0,
-    "total": 487,
+    "total": 490,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13275,6 +13287,24 @@
       "source": "BBAPLT-GDE-008",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
       "target": "BBAPLT-GDE-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-009",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md",
+      "target": "BBAPLT-GDE-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-009",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md",
+      "target": "BBAPLT-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-009",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md",
+      "target": "BBAPLT-GDE-007",
       "type": "RELATES_TO"
     },
     {

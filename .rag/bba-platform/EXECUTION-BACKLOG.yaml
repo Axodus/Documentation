@@ -146,7 +146,7 @@ program:
               acceptance: ["Solutions combine capabilities for tenant-neutral use cases and do not redefine the Core around Axodus."]
             - id: "REQ-001-02-005"
               title: "Define Institutional Asset Portfolio"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-02-003", "REQ-001-02-004"]
               produces: ["BBAPLT-GDE-009"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md"]
