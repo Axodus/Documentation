@@ -49,3 +49,11 @@ test('Asset Classification separates semantic classes from technical media', asy
   assert.match(source, /Every governed Asset has at least one semantic class/)
   assert.match(source, /does not prescribe enum storage, search indexes, MIME mappings/)
 })
+
+test('Asset lineage uses typed directional relationships', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-023"/)
+  for (const relation of ['derived_from', 'references', 'supersedes', 'generated_by', 'reviews', 'translates', 'summarizes', 'extends', 'duplicates', 'publishes']) assert.match(source, new RegExp('`' + relation + '`'))
+  assert.match(source, /Mission-to-Asset[\s\S]*relationship/)
+  assert.match(source, /direct edges that establish immediate provenance/)
+})

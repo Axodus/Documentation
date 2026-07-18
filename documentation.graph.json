@@ -4472,6 +4472,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-023",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-023",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md",
+      "title": "BBA Platform Institutional Asset Relationships and Lineage"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11870,6 +11880,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
@@ -12588,6 +12599,7 @@
       "BBAPLT-GDE-020",
       "BBAPLT-GDE-021",
       "BBAPLT-GDE-022",
+      "BBAPLT-GDE-023",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13010,17 +13022,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 144,
+    "DEPENDS_ON": 145,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 322,
+    "RELATES_TO": 324,
     "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 558,
+    "declared": 561,
     "derived": 0,
     "duplicates": 0,
-    "total": 558,
+    "total": 561,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13773,6 +13785,24 @@
       "source": "BBAPLT-GDE-022",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md",
       "target": "BBAPLT-GDE-019",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-023",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md",
+      "target": "BBAPLT-GDE-022",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-023",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-023",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md",
+      "target": "BBAPLT-GDE-018",
       "type": "RELATES_TO"
     },
     {

@@ -296,7 +296,7 @@ program:
               acceptance: ["Asset states, transitions, guards, terminal states, supersession, reopening, and governance boundaries are defined without technical state storage."]
             - id: "REQ-002-02-006"
               title: "Define Asset Relationships and Lineage"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-005"]
               produces: ["BBAPLT-GDE-023"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md"]

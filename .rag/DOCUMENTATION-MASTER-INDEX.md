@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1041
+Source Documents: 1042
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1041
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1041 |
-| Canonical documents | 449 |
+| Total source documents | 1042 |
+| Canonical documents | 450 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 558 |
+| Declared relationships | 561 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1041
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 119 |
+| GUIDE | 120 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1041
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 187 |
+| PROJECT | 188 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1041
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 289 |
+| DRAFT | 290 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -97,6 +97,7 @@ Source Documents: 1041
 | BBAPLT-GDE-020 | BBA Platform Institutional Asset Classification | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md](./bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md) |
 | BBAPLT-GDE-021 | BBA Platform Institutional Asset Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md) |
 | BBAPLT-GDE-022 | BBA Platform Institutional Asset State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md) |
+| BBAPLT-GDE-023 | BBA Platform Institutional Asset Relationships and Lineage | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md](./bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |
