@@ -479,7 +479,7 @@ program:
               acceptance: ["Stewardship, Steward, organizational ownership, and continuous governance relationships to Mission, Institutional Asset, and AI Workforce are defined."]
             - id: "REQ-002-04-005"
               title: "Define Decision and Approval Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-004"]
               produces: ["BBAPLT-GDE-045"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-045-DECISION-AND-APPROVAL-MODEL.md"]

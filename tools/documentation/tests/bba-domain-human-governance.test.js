@@ -68,3 +68,15 @@ test('Stewardship preserves Mission, Asset, Workforce, ownership, and accountabi
   assert.match(source, /Authorship, custody, ownership,[\s\S]*held by different roles/)
   assert.match(source, /does not define users, teams, access controls, authentication/)
 })
+
+test('Decision and Approval model distinguishes Review, recommendation, consensus, dissent, and final authority', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-045-DECISION-AND-APPROVAL-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-045"/)
+  for (const term of ['Direction', 'Acceptance', 'Institutional approval', 'Publication', 'Exception', 'Completion', 'Retirement']) assert.match(source, new RegExp(`\\| ${term} \\|`))
+  for (const term of ['Review', 'Recommendation', 'Consultation', 'Approval', 'Publication']) assert.match(source, new RegExp(`\\*\\*${term}\\*\\*`))
+  assert.match(source, /Consensus means the required decision participants/)
+  assert.match(source, /Dissent is a recorded material disagreement/)
+  assert.match(source, /Agent preparation, automated assessment,[\s\S]*is not[\s\S]*institutional Approval/)
+  assert.match(source, /An Approval cannot retroactively conceal a missing mandatory Review/)
+  assert.match(source, /does not define workflow engines, queues, approval APIs/)
+})
