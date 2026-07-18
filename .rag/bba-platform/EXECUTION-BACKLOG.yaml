@@ -394,7 +394,7 @@ program:
               acceptance: ["Agent lifecycle defines Proposed, Active, Suspended, and Retired meaning without describing process or runtime lifecycle."]
             - id: "REQ-002-03-007"
               title: "Define Agent State Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-006"]
               produces: ["BBAPLT-GDE-035"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md"]

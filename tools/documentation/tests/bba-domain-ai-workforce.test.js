@@ -79,3 +79,12 @@ test('Agent lifecycle separates domain availability from technical execution', a
   assert.match(source, /independent of model deployment, provider availability/)
   assert.match(source, /does not define deployment lifecycle, process supervision/)
 })
+
+test('Agent and Assignment state models distinguish availability, review, refusal, and failure', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-035"/)
+  for (const state of ['Unassigned', 'Assigned', 'Active', 'Blocked', 'Awaiting Review', 'Completed', 'Rejected', 'Cancelled', 'Failed']) assert.match(source, new RegExp(`\\| ${state} \\|`))
+  assert.match(source, /ACCEPTED` is a Deliverable outcome/)
+  assert.match(source, /Refusal is a governed domain outcome/)
+  assert.match(source, /does not define state storage, event sourcing, commands/)
+})
