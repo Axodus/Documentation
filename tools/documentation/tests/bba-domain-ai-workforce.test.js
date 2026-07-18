@@ -88,3 +88,13 @@ test('Agent and Assignment state models distinguish availability, review, refusa
   assert.match(source, /Refusal is a governed domain outcome/)
   assert.match(source, /does not define state storage, event sourcing, commands/)
 })
+
+test('Coordination and delegation preserve Mission, authority, scope, and traceability', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-036"/)
+  for (const field of ['original Mission and Tenant context', 'originating responsibility and authority', 'delegator and delegate identity', 'delegated scope and limits', 'expected Deliverables and acceptance criteria', 'applicable quality gates']) assert.match(source, new RegExp(field))
+  assert.match(source, /cannot increase authority, remove a mandatory gate/)
+  assert.match(source, /Every step records the chain back to the original[\s\S]*delegator/)
+  assert.match(source, /Agents must surface conflicts rather than choose a[\s\S]*side silently/)
+  assert.match(source, /does not define orchestrators, queues, task dispatch/)
+})

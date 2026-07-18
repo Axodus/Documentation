@@ -4612,6 +4612,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-036",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-036",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
+      "title": "BBA Platform AI Workforce Coordination and Delegation"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12034,6 +12044,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12767,6 +12778,7 @@
       "BBAPLT-GDE-033",
       "BBAPLT-GDE-034",
       "BBAPLT-GDE-035",
+      "BBAPLT-GDE-036",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13190,17 +13202,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 158,
+    "DEPENDS_ON": 159,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 354,
+    "RELATES_TO": 357,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 615,
+    "declared": 619,
     "derived": 0,
     "duplicates": 0,
-    "total": 615,
+    "total": 619,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14217,6 +14229,30 @@
       "source": "BBAPLT-GDE-035",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md",
       "target": "BBAPLT-GDE-033",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-036",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
+      "target": "BBAPLT-GDE-035",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-036",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
+      "target": "BBAPLT-GDE-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-036",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
+      "target": "BBAPLT-GDE-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-036",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
+      "target": "BBAPLT-GDE-032",
       "type": "RELATES_TO"
     },
     {

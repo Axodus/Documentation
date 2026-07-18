@@ -401,7 +401,7 @@ program:
               acceptance: ["Agent availability and Assignment execution states distinguish Unassigned, Assigned, Active, Blocked, Awaiting Review, Completed, Rejected, Cancelled, and Failed outcomes."]
             - id: "REQ-002-03-008"
               title: "Define Coordination and Delegation"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-007"]
               produces: ["BBAPLT-GDE-036"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md"]
