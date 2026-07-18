@@ -359,7 +359,7 @@ program:
               acceptance: ["AI Workforce is defined as a dynamic domain composition of specialized Agents assigned to Missions, without runtime or provider assumptions."]
             - id: "REQ-002-03-002"
               title: "Define Agent Identity and Classification"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-001"]
               produces: ["BBAPLT-GDE-030"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md"]

@@ -30,3 +30,13 @@ test('AI Workforce Domain Overview preserves functional identity and human autho
   assert.match(source, /Agents cannot approve final institutional publication/)
   assert.match(source, /does not define models, providers, prompts, endpoints/)
 })
+
+test('Agent identity is independent from technical executors and role semantics', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-030"/)
+  assert.match(source, /stable functional and institutional identity/)
+  for (const term of ['model or model version', 'provider, endpoint, API, or credential', 'prompt, container, process, or runtime', 'deployment, session, worker, or temporary execution instance']) assert.match(source, new RegExp(term))
+  for (const concept of ['Agent', 'Role', 'Capability', 'Responsibility', 'Permission', 'Assignment']) assert.match(source, new RegExp(`\\| ${concept} \\|`))
+  assert.match(source, /Capability into authority/)
+  assert.match(source, /does not define model[\s\S]*registries,[\s\S]*provider adapters,[\s\S]*prompt[\s\S]*stores/)
+})
