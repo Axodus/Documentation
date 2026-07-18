@@ -4260,6 +4260,16 @@
       "title": "BBA Platform Documentation Quality Standards"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-001",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
+      "title": "BBA Platform Product Vision"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11609,6 +11619,7 @@
       ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
       ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
       ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12292,6 +12303,7 @@
       "BBA-ROAD-003",
       "BBA-STD-001",
       "BBA-STD-002",
+      "BBAPLT-GDE-001",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12713,14 +12725,14 @@
     "DEPENDS_ON": 121,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 256,
+    "RELATES_TO": 259,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 452,
+    "declared": 455,
     "derived": 0,
     "duplicates": 0,
-    "total": 452,
+    "total": 455,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13005,6 +13017,24 @@
       "source": "BBA-STD-002",
       "source_path": ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
       "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
+      "target": "BBA-GDE-100",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
+      "target": "BBA-REF-002",
       "type": "RELATES_TO"
     },
     {

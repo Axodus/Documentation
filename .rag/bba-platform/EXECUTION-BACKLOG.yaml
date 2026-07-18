@@ -63,7 +63,54 @@ program:
     - id: "EPIC-001"
       name: "Product Documentation Rollout"
       documentation_areas: ["AREA-001", "AREA-002", "AREA-003", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
-      sprints: []
+      status: "IN_PROGRESS"
+      sprints:
+        - id: "SPRINT-01"
+          name: "Product Vision and Operating Model"
+          status: "IN_PROGRESS"
+          documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006"]
+          requests:
+            - id: "REQ-001-01-001"
+              title: "Define Product Vision"
+              status: "DONE"
+              produces: ["BBAPLT-GDE-001"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md"]
+              acceptance: ["Vision defines the platform purpose, consumers, principles, product value, and non-technical success boundary."]
+            - id: "REQ-001-01-002"
+              title: "Define Product Positioning"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-001"]
+              produces: ["BBAPLT-GDE-002"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md"]
+              acceptance: ["Positioning distinguishes BBA Platform from an Axodus-only agency, generic marketing service, and implementation vendor."]
+            - id: "REQ-001-01-003"
+              title: "Define Product Capabilities"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-001"]
+              produces: ["BBAPLT-GDE-003"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md"]
+              acceptance: ["Capabilities are durable platform abilities and are separated from tenant-specific solutions and technical components."]
+            - id: "REQ-001-01-004"
+              title: "Define Product Operating Model"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-001", "REQ-001-01-003"]
+              produces: ["BBAPLT-GDE-004"]
+              files: [".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md"]
+              acceptance: ["Operating model defines Mission, AI Workforce, Human Governance, Steward, dynamic workflow, and conceptual lifecycle without technical architecture."]
+            - id: "REQ-001-01-005"
+              title: "Define Product Boundaries and Non-Goals"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-001", "REQ-001-01-003"]
+              produces: ["BBAPLT-POL-001"]
+              files: [".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md"]
+              acceptance: ["Boundaries identify core responsibilities, consumer responsibilities, exclusions, and claims the product must not make."]
+            - id: "REQ-001-01-006"
+              title: "Review Product Documentation Baseline"
+              status: "PLANNED"
+              depends_on: ["REQ-001-01-001", "REQ-001-01-002", "REQ-001-01-003", "REQ-001-01-004", "REQ-001-01-005"]
+              produces: ["BBA-PRODUCT-BASELINE-REVIEW"]
+              files: [".rag/bba-platform/product/BBAPLT-PRODUCT-BASELINE-REVIEW.md"]
+              acceptance: ["Product documents use canonical language, contain no technical architecture decisions, and pass the product-layer review checklist."]
     - id: "EPIC-002"
       name: "Domain Documentation Rollout"
       documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
