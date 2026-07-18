@@ -4562,6 +4562,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-031",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-031",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
+      "title": "BBA Platform AI Workforce Capability Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11979,6 +11989,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12707,6 +12718,7 @@
       "BBAPLT-GDE-028",
       "BBAPLT-GDE-029",
       "BBAPLT-GDE-030",
+      "BBAPLT-GDE-031",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13130,17 +13142,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 153,
+    "DEPENDS_ON": 154,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 343,
+    "RELATES_TO": 345,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 599,
+    "declared": 602,
     "derived": 0,
     "duplicates": 0,
-    "total": 599,
+    "total": 602,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14061,6 +14073,24 @@
       "source": "BBAPLT-GDE-030",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md",
       "target": "BBAPLT-GDE-025",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-031",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
+      "target": "BBAPLT-GDE-030",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-031",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-031",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
+      "target": "BBAPLT-GDE-018",
       "type": "RELATES_TO"
     },
     {

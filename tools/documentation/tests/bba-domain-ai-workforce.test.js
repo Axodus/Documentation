@@ -40,3 +40,13 @@ test('Agent identity is independent from technical executors and role semantics'
   assert.match(source, /Capability into authority/)
   assert.match(source, /does not define model[\s\S]*registries,[\s\S]*provider adapters,[\s\S]*prompt[\s\S]*stores/)
 })
+
+test('Capability is aptitude with evidence and limits, not permission', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-031"/)
+  assert.match(source, /declared aptitude to perform a class of activity/)
+  for (const field of ['expected inputs and context', 'expected quality characteristics', 'evidence or demonstrated basis', 'known limitations and uncertainty']) assert.match(source, new RegExp(field))
+  assert.match(source, /does not by itself authorize the Agent to act/)
+  assert.match(source, /Capability mismatch must block or escalate/)
+  assert.match(source, /does not define model benchmarks, provider metadata/)
+})

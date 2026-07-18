@@ -366,7 +366,7 @@ program:
               acceptance: ["Agent identity is functional and institutional, independent of model, provider, prompt, endpoint, process, container, and credentials; role, capability, responsibility, and permission remain distinct."]
             - id: "REQ-002-03-003"
               title: "Define Capability Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-002"]
               produces: ["BBAPLT-GDE-031"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md"]
