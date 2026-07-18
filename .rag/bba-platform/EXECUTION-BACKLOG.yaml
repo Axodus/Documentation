@@ -303,7 +303,7 @@ program:
               acceptance: ["Typed directional relationships and lineage semantics cover derivation, reference, supersession, generation, review, translation, summary, extension, duplication, and publication."]
             - id: "REQ-002-02-007"
               title: "Define Asset Authority"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-006"]
               produces: ["BBAPLT-GDE-024"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-024-ASSET-AUTHORITY.md"]
