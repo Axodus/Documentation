@@ -240,7 +240,7 @@ program:
               acceptance: ["Mission governance policies define authority, review, approval, delegation, publication boundaries, and tenant neutrality."]
             - id: "REQ-002-01-006"
               title: "Define Mission Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-01-005"]
               produces: ["BBAPLT-GDE-016"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md"]

@@ -82,3 +82,16 @@ test('Mission Policies define authority and escalation without technical enforce
   assert.match(source, /Silence is not approval/)
   assert.match(source, /These policies do not define roles in an identity provider[\s\S]*policy engine/)
 })
+
+test('Mission Constraints block unsafe progression and publication', async () => {
+  const path = '.rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md'
+  const source = await read(path)
+  await access(resolve(root, path))
+  assert.match(source, /document_id: "BBAPLT-GDE-016"/)
+  for (const category of ['Authorization Constraints', 'Preparation and Progress Constraints', 'Asset and Review Constraints', 'Publication Constraints', 'Uncertainty, Refusal, and Failure Constraints', 'Closure Constraints']) {
+    assert.match(source, new RegExp(`## ${category}`))
+  }
+  assert.match(source, /Publication is prohibited when:/)
+  assert.match(source, /A refusal is required[\s\S]*Tenant boundaries/)
+  assert.match(source, /Technical controls may support these[\s\S]*reinterpret their domain meaning/)
+})

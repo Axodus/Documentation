@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1034
+Source Documents: 1035
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1034
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1034 |
-| Canonical documents | 442 |
+| Total source documents | 1035 |
+| Canonical documents | 443 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 528 |
+| Declared relationships | 533 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1034
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 113 |
+| GUIDE | 114 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1034
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 180 |
+| PROJECT | 181 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1034
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 282 |
+| DRAFT | 283 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -91,6 +91,7 @@ Source Documents: 1034
 | BBAPLT-GDE-013 | BBA Platform Mission State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md) |
 | BBAPLT-GDE-014 | BBA Platform Mission Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md](./bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md) |
 | BBAPLT-GDE-015 | BBA Platform Mission Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md) |
+| BBAPLT-GDE-016 | BBA Platform Mission Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |
 | BBAPLT-GDE-003 | BBA Platform Product Capabilities | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md](./bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md) |
