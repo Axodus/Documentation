@@ -4710,6 +4710,16 @@
       "title": "BBA Platform Institutional Asset Domain Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-007",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-007",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "title": "BBA Platform AI Workforce Domain Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12091,6 +12101,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -12832,6 +12843,7 @@
       "BBAPLT-RPT-002",
       "BBAPLT-RPT-003",
       "BBAPLT-RPT-006",
+      "BBAPLT-RPT-007",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -13253,14 +13265,14 @@
     "DEPENDS_ON": 163,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 369,
-    "VALIDATES": 73
+    "RELATES_TO": 371,
+    "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 635,
+    "declared": 649,
     "derived": 0,
     "duplicates": 0,
-    "total": 635,
+    "total": 649,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14643,6 +14655,90 @@
       "source": "BBAPLT-RPT-006",
       "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       "target": "BBAPLT-GDE-028",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBA-ADR-0004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-029",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-030",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-031",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-032",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-033",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-035",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-037",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-038",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-039",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-007",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-040",
       "type": "VALIDATES"
     },
     {

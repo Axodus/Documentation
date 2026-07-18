@@ -6,11 +6,11 @@ import test from 'node:test'
 const root = process.cwd()
 const read = (path) => readFile(resolve(root, path), 'utf8')
 
-test('AI Workforce Sprint is active with thirteen ordered REQs', async () => {
+test('AI Workforce Sprint closes with thirteen ordered REQs', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
-  assert.match(backlog, /id: "SPRINT-002-03"[\s\S]*status: "IN_PROGRESS"/)
-  assert.match(backlog, /status_reason: "AI_WORKFORCE_DOMAIN_ACTIVE"/)
+  assert.match(backlog, /id: "SPRINT-002-03"[\s\S]*status: "PASS_CLOSED"/)
+  assert.match(backlog, /status_reason: "AI_WORKFORCE_CANONICAL_REVIEW_PASS"/)
   for (const id of ['REQ-002-03-001', 'REQ-002-03-002', 'REQ-002-03-003', 'REQ-002-03-004', 'REQ-002-03-005', 'REQ-002-03-006', 'REQ-002-03-007', 'REQ-002-03-008', 'REQ-002-03-009', 'REQ-002-03-010', 'REQ-002-03-011', 'REQ-002-03-012', 'REQ-002-03-013']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))
     assert.match(graph, new RegExp(`"${id}"`))
@@ -137,4 +137,21 @@ test('AI Workforce constraints block insufficient capability, hidden uncertainty
   for (const phrase of ['grant authority to itself', 'expand its Assignment scope', 'alter policy', 'remove a mandatory gate', 'approve final institutional publication', 'assume human accountability']) assert.match(source, new RegExp(phrase))
   assert.match(source, /Cross-Tenant coordination,[\s\S]*requires explicit authority/)
   assert.match(source, /must be[\s\S]*blocked,[\s\S]*refused,[\s\S]*rejected,[\s\S]*cancelled,[\s\S]*failed,[\s\S]*escalated/)
+})
+
+test('AI Workforce Domain closes with canonical review and preserves next-domain handoff', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const review = await read('.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-002-03"[\s\S]*status: "PASS_CLOSED"/)
+  assert.match(backlog, /status_reason: "AI_WORKFORCE_CANONICAL_REVIEW_PASS"/)
+  assert.match(backlog, /id: "REQ-002-03-013"[\s\S]*status: "DONE"/)
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
+  assert.match(backlog, /id: "SPRINT-002-04"[\s\S]*status: "PLANNED"/)
+  assert.match(review, /document_id: "BBAPLT-RPT-007"/)
+  assert.match(review, /PASS — AI Workforce Domain is coherent/)
+  assert.match(review, /Agent is not a model or runtime/)
+  assert.match(review, /Cross-Domain Impacts/)
+  assert.match(review, /Explicit Future Gaps/)
+  assert.match(review, /whether Agent should later become an Aggregate Root/)
+  assert.match(review, /SPRINT-002-04 — Human Governance/)
 })

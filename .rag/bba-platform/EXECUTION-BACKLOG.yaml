@@ -346,8 +346,8 @@ program:
         - id: "SPRINT-002-03"
           display_id: "SPRINT-03"
           name: "AI Workforce"
-          status: "IN_PROGRESS"
-          status_reason: "AI_WORKFORCE_DOMAIN_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "AI_WORKFORCE_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-013"]
           requests:
             - id: "REQ-002-03-001"
@@ -436,7 +436,7 @@ program:
               acceptance: ["Constraints prohibit insufficient capability, unauthorized scope, hidden uncertainty, unapproved risk, authority expansion, gate removal, and Tenant boundary violations."]
             - id: "REQ-002-03-013"
               title: "Review AI Workforce Domain"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-001", "REQ-002-03-002", "REQ-002-03-003", "REQ-002-03-004", "REQ-002-03-005", "REQ-002-03-006", "REQ-002-03-007", "REQ-002-03-008", "REQ-002-03-009", "REQ-002-03-010", "REQ-002-03-011", "REQ-002-03-012"]
               produces: ["BBAPLT-RPT-007"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md"]
