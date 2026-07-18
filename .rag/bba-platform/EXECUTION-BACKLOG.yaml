@@ -139,7 +139,7 @@ program:
               acceptance: ["Mission value, inputs, outputs, human outcomes, Institutional Assets, and learning outcomes are defined without implementation state machines."]
             - id: "REQ-001-02-004"
               title: "Define Solutions and Use Cases"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-01-003", "REQ-001-02-002", "REQ-001-02-003"]
               produces: ["BBAPLT-GDE-008"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md"]

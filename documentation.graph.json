@@ -4332,6 +4332,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-008",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-008",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
+      "title": "BBA Platform Solutions and Use Cases"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11706,6 +11716,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
@@ -12398,6 +12409,7 @@
       "BBAPLT-GDE-005",
       "BBAPLT-GDE-006",
       "BBAPLT-GDE-007",
+      "BBAPLT-GDE-008",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BUSINESS-GDE-001",
@@ -12818,17 +12830,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 129,
+    "DEPENDS_ON": 130,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 275,
+    "RELATES_TO": 277,
     "VALIDATES": 50
   },
   "relationship_statistics": {
-    "declared": 484,
+    "declared": 487,
     "derived": 0,
     "duplicates": 0,
-    "total": 484,
+    "total": 487,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13245,6 +13257,24 @@
       "source": "BBAPLT-GDE-007",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
       "target": "BBAPLT-GDE-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-008",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
+      "target": "BBAPLT-GDE-007",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-008",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-008",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
+      "target": "BBAPLT-GDE-006",
       "type": "RELATES_TO"
     },
     {
