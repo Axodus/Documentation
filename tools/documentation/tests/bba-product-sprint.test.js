@@ -24,6 +24,15 @@ test('Product Sprint 01 is complete in the execution backlog', async () => {
   }
 })
 
+test('Product Sprint 02 is closed in the execution backlog', async () => {
+  const source = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  assert.match(source, /id: "SPRINT-02"[\s\S]*status: "PASS_CLOSED"/)
+  for (const id of ['REQ-001-02-001', 'REQ-001-02-002', 'REQ-001-02-003', 'REQ-001-02-004', 'REQ-001-02-005', 'REQ-001-02-006', 'REQ-001-02-007']) {
+    const request = source.match(new RegExp(`id: "${id}"[\\s\\S]*?status: "([A-Z_]+)"`))
+    assert.equal(request?.[1], 'DONE', `${id} must be DONE`)
+  }
+})
+
 test('Product Sprint 01 documents exist and remain draft', async () => {
   for (const [path, id] of productDocuments) {
     const source = await read(path)

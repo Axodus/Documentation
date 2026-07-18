@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1028,
+  "document_count": 1029,
   "documents": [
     {
       "aliases": [],
@@ -7644,6 +7644,40 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Product Documentation Baseline Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.PRODUCT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-002",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Product Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBA-STD-002",
+        "BBAPLT-GDE-005",
+        "BBAPLT-GDE-006",
+        "BBAPLT-GDE-007",
+        "BBAPLT-GDE-008",
+        "BBAPLT-GDE-009",
+        "BBAPLT-GDE-010",
+        "BBAPLT-RPT-001",
+        "EPIC-001",
+        "REQ-001-02-007"
+      ],
+      "sha256": "1f638dc35cbc0554d0afb3370848cda49c917d720422242ac374f73bb008baae",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Product Domain Framing Review",
       "version": "0.1.0"
     },
     {
@@ -23708,6 +23742,54 @@
       "type": "VALIDATES"
     },
     {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-RPT-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-006",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-008",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-010",
+      "type": "VALIDATES"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -26147,19 +26229,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 436,
-    "declared_relationships": 494,
+    "compliant_documents": 437,
+    "declared_relationships": 502,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 174,
+      "PROJECT": 175,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 40,
+      "D1": 41,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -26199,7 +26281,7 @@
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 3,
-      "BBA Product Governance": 13,
+      "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
       "UNSPECIFIED": 578
@@ -26207,7 +26289,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 276,
+      "DRAFT": 277,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -26220,7 +26302,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 251,
+      "REPORT": 252,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -26233,6 +26315,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1028
+    "total_documents": 1029
   }
 }

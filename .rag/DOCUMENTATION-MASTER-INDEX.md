@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1028
+Source Documents: 1029
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1028
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1028 |
-| Canonical documents | 436 |
+| Total source documents | 1029 |
+| Canonical documents | 437 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 494 |
+| Declared relationships | 502 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1028
 | PROPOSAL | 1 |
 | REFERENCE | 15 |
 | RELEASE | 1 |
-| REPORT | 251 |
+| REPORT | 252 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1028
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 174 |
+| PROJECT | 175 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1028
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 276 |
+| DRAFT | 277 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -98,6 +98,7 @@ Source Documents: 1028
 | BBAPLT-GDE-010 | BBA Platform Product Lifecycle and Success Outcomes | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md](./bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md) |
 | BBAPLT-POL-001 | BBA Platform Product Boundaries and Non-Goals | POLICY | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md](./bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md) |
 | BBAPLT-RPT-001 | BBA Platform Product Documentation Baseline Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md](./bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md) |
+| BBAPLT-RPT-002 | BBA Platform Product Domain Framing Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md](./bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
 | DOC-RPT-138 | Canonical Coherence Batch 01 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md) |
 | DOC-RPT-139 | Canonical Coherence Batch 01 Evidence Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md) |

@@ -113,12 +113,12 @@ program:
               acceptance: ["Product documents use canonical language, contain no technical architecture decisions, and pass the product-layer review checklist."]
         - id: "SPRINT-02"
           name: "Product Domain Framing"
-          status: "IN_PROGRESS"
+          status: "PASS_CLOSED"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
           requests:
             - id: "REQ-001-02-001"
               title: "Define Product Personas and Governance Roles"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-01-006"]
               produces: ["BBAPLT-GDE-005"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md"]
@@ -160,7 +160,7 @@ program:
               acceptance: ["Product lifecycle milestones, success outcomes, completion signals, limitations, and non-guaranteed metrics are defined."]
             - id: "REQ-001-02-007"
               title: "Execute Product Layer Canonical Review"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-02-001", "REQ-001-02-002", "REQ-001-02-003", "REQ-001-02-004", "REQ-001-02-005", "REQ-001-02-006"]
               produces: ["BBAPLT-RPT-002"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md"]

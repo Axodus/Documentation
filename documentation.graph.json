@@ -4380,6 +4380,16 @@
       "title": "BBA Platform Product Documentation Baseline Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-002",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-002",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "title": "BBA Platform Product Domain Framing Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11741,6 +11751,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
+      ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12436,6 +12447,7 @@
       "BBAPLT-GDE-010",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
+      "BBAPLT-RPT-002",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12857,14 +12869,14 @@
     "DEPENDS_ON": 132,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 282,
-    "VALIDATES": 50
+    "RELATES_TO": 284,
+    "VALIDATES": 56
   },
   "relationship_statistics": {
-    "declared": 494,
+    "declared": 502,
     "derived": 0,
     "duplicates": 0,
-    "total": 494,
+    "total": 502,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13401,6 +13413,54 @@
       "source": "BBAPLT-RPT-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       "target": "BBAPLT-POL-001",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-RPT-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-005",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-006",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-007",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-008",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-002",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
+      "target": "BBAPLT-GDE-010",
       "type": "VALIDATES"
     },
     {
