@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1037,
+  "document_count": 1038,
   "documents": [
     {
       "aliases": [],
@@ -7518,6 +7518,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Institutional Asset Domain Overview",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-019",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBAPLT-GDE-009",
+        "BBAPLT-GDE-011",
+        "BBAPLT-GDE-018",
+        "EPIC-002",
+        "REQ-002-02-002"
+      ],
+      "sha256": "87bfecfeaf29a299c359efbe7fa2021d5f8e48bdc52fd1d38434d6e5db2bb91c",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Institutional Asset Identity",
       "version": "0.1.0"
     },
     {
@@ -24143,6 +24171,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-019",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "target": "BBAPLT-GDE-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-019",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-019",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -26750,19 +26796,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 445,
-    "declared_relationships": 549,
+    "compliant_documents": 446,
+    "declared_relationships": 552,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 183,
+      "PROJECT": 184,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 49,
+      "D1": 50,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -26801,7 +26847,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 11,
+      "BBA Domain Governance": 12,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -26810,13 +26856,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 285,
+      "DRAFT": 286,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 28,
       "API": 1,
-      "GUIDE": 115,
+      "GUIDE": 116,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -26836,6 +26882,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1037
+    "total_documents": 1038
   }
 }

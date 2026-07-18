@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1037
+Source Documents: 1038
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1037
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1037 |
-| Canonical documents | 445 |
+| Total source documents | 1038 |
+| Canonical documents | 446 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 549 |
+| Declared relationships | 552 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1037
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 115 |
+| GUIDE | 116 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1037
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 183 |
+| PROJECT | 184 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1037
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 285 |
+| DRAFT | 286 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -93,6 +93,7 @@ Source Documents: 1037
 | BBAPLT-GDE-015 | BBA Platform Mission Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md) |
 | BBAPLT-GDE-016 | BBA Platform Mission Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md) |
 | BBAPLT-GDE-018 | BBA Platform Institutional Asset Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md) |
+| BBAPLT-GDE-019 | BBA Platform Institutional Asset Identity | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md](./bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |

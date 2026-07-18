@@ -30,3 +30,13 @@ test('Asset Domain Overview establishes Asset as non-file Aggregate Root', async
   assert.match(source, /stable domain identity[\s\S]*Tenant context[\s\S]*authority relationships[\s\S]*lineage/)
   assert.match(source, /does not define database entities, object storage, filesystem[\s\S]*paths, APIs/)
 })
+
+test('Asset Identity preserves domain continuity across versions and representations', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-019"/)
+  assert.match(source, /one stable identity within its owning Tenant context/)
+  assert.match(source, /Identity Continuity/)
+  assert.match(source, /multiple versions, representations, publications/)
+  assert.match(source, /different institutional purpose[\s\S]*authority subject[\s\S]*identity, or meaning/)
+  assert.match(source, /does not prescribe database keys, URL schemes, API resources/)
+})

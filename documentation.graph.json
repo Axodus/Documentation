@@ -4432,6 +4432,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-019",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-019",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "title": "BBA Platform Institutional Asset Identity"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11826,6 +11836,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
@@ -12540,6 +12551,7 @@
       "BBAPLT-GDE-015",
       "BBAPLT-GDE-016",
       "BBAPLT-GDE-018",
+      "BBAPLT-GDE-019",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -12962,17 +12974,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 140,
+    "DEPENDS_ON": 141,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 317,
+    "RELATES_TO": 319,
     "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 549,
+    "declared": 552,
     "derived": 0,
     "duplicates": 0,
-    "total": 549,
+    "total": 552,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13670,6 +13682,24 @@
     {
       "source": "BBAPLT-GDE-018",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-019",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "target": "BBAPLT-GDE-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-019",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-019",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md",
       "target": "BBAPLT-GDE-011",
       "type": "RELATES_TO"
     },

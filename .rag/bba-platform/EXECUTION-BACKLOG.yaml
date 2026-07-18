@@ -268,7 +268,7 @@ program:
               acceptance: ["Institutional Asset is defined as a domain Aggregate Root and is distinguished from File, Representation, Publication, and technical storage."]
             - id: "REQ-002-02-002"
               title: "Define Asset Identity"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-001"]
               produces: ["BBAPLT-GDE-019"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md"]
