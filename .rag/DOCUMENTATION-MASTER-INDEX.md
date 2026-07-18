@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1049
+Source Documents: 1050
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1049
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1049 |
-| Canonical documents | 457 |
+| Total source documents | 1050 |
+| Canonical documents | 458 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 592 |
+| Declared relationships | 596 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1049
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 125 |
+| GUIDE | 126 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1049
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 195 |
+| PROJECT | 196 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1049
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 297 |
+| DRAFT | 298 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -104,6 +104,7 @@ Source Documents: 1049
 | BBAPLT-GDE-026 | BBA Platform Institutional Asset Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md](./bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md) |
 | BBAPLT-GDE-027 | BBA Platform Institutional Asset Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md) |
 | BBAPLT-GDE-028 | BBA Platform Institutional Asset Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md) |
+| BBAPLT-GDE-029 | BBA Platform AI Workforce Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |

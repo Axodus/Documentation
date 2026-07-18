@@ -346,9 +346,101 @@ program:
         - id: "SPRINT-002-03"
           display_id: "SPRINT-03"
           name: "AI Workforce"
-          status: "PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "AI_WORKFORCE_DOMAIN_ACTIVE"
           documentation_areas: ["AREA-013"]
-          requests: []
+          requests:
+            - id: "REQ-002-03-001"
+              title: "Define AI Workforce Domain Overview"
+              status: "DONE"
+              depends_on: ["BBAPLT-RPT-006"]
+              produces: ["BBAPLT-GDE-029"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md"]
+              acceptance: ["AI Workforce is defined as a dynamic domain composition of specialized Agents assigned to Missions, without runtime or provider assumptions."]
+            - id: "REQ-002-03-002"
+              title: "Define Agent Identity and Classification"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-001"]
+              produces: ["BBAPLT-GDE-030"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md"]
+              acceptance: ["Agent identity is functional and institutional, independent of model, provider, prompt, endpoint, process, container, and credentials; role, capability, responsibility, and permission remain distinct."]
+            - id: "REQ-002-03-003"
+              title: "Define Capability Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-002"]
+              produces: ["BBAPLT-GDE-031"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md"]
+              acceptance: ["Capabilities describe declared aptitudes and quality expectations without becoming permissions, roles, providers, or implementation modules."]
+            - id: "REQ-002-03-004"
+              title: "Define Responsibility and Assignment Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-003"]
+              produces: ["BBAPLT-GDE-032"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md"]
+              acceptance: ["Assignment is a Mission-bound contextual link between Agent, responsibility, scope, capabilities, deliverables, authority limits, gates, and human supervision."]
+            - id: "REQ-002-03-005"
+              title: "Define Inputs, Outputs and Deliverables"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-004"]
+              produces: ["BBAPLT-GDE-033"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md"]
+              acceptance: ["Outputs are distinguished from expected, verifiable Deliverables; evidence, assumptions, uncertainty, limitations, and Asset formation are defined semantically."]
+            - id: "REQ-002-03-006"
+              title: "Define Agent Lifecycle"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-005"]
+              produces: ["BBAPLT-GDE-034"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md"]
+              acceptance: ["Agent lifecycle defines Proposed, Active, Suspended, and Retired meaning without describing process or runtime lifecycle."]
+            - id: "REQ-002-03-007"
+              title: "Define Agent State Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-006"]
+              produces: ["BBAPLT-GDE-035"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md"]
+              acceptance: ["Agent availability and Assignment execution states distinguish Unassigned, Assigned, Active, Blocked, Awaiting Review, Completed, Rejected, Cancelled, and Failed outcomes."]
+            - id: "REQ-002-03-008"
+              title: "Define Coordination and Delegation"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-007"]
+              produces: ["BBAPLT-GDE-036"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md"]
+              acceptance: ["Dynamic coordination, handoff, conflict, refusal, and bounded delegation preserve Mission, Tenant, authority, traceability, and gates."]
+            - id: "REQ-002-03-009"
+              title: "Define Quality Gates and Review Obligations"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-008"]
+              produces: ["BBAPLT-GDE-037"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md"]
+              acceptance: ["Quality gates bind human review to acceptance, institutional approval, publication, regulated change, Mission completion, conflict resolution, and elevated risk."]
+            - id: "REQ-002-03-010"
+              title: "Define AI Workforce Rules"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-009"]
+              produces: ["BBAPLT-GDE-038"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md"]
+              acceptance: ["AI Workforce invariants preserve Agent identity, capability boundaries, Assignment accountability, evidence, human authority, refusal, conflict, and Asset provenance."]
+            - id: "REQ-002-03-011"
+              title: "Define AI Workforce Policies"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-010"]
+              produces: ["BBAPLT-GDE-039"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md"]
+              acceptance: ["Policies govern composition, assignment, delegation, review, autonomy exceptions, low-risk review waivers, conflicts, evidence, and Tenant boundaries without weakening Core rules."]
+            - id: "REQ-002-03-012"
+              title: "Define AI Workforce Constraints"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-011"]
+              produces: ["BBAPLT-GDE-040"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md"]
+              acceptance: ["Constraints prohibit insufficient capability, unauthorized scope, hidden uncertainty, unapproved risk, authority expansion, gate removal, and Tenant boundary violations."]
+            - id: "REQ-002-03-013"
+              title: "Review AI Workforce Domain"
+              status: "PLANNED"
+              depends_on: ["REQ-002-03-001", "REQ-002-03-002", "REQ-002-03-003", "REQ-002-03-004", "REQ-002-03-005", "REQ-002-03-006", "REQ-002-03-007", "REQ-002-03-008", "REQ-002-03-009", "REQ-002-03-010", "REQ-002-03-011", "REQ-002-03-012"]
+              produces: ["BBAPLT-RPT-007"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md"]
+              acceptance: ["AI Workforce Domain Review validates all documents, records cross-domain impacts and future gaps, confirms no technical leakage, and approves handoff to Human Governance and Workflow domains."]
         - id: "SPRINT-002-04"
           display_id: "SPRINT-04"
           name: "Human Governance"

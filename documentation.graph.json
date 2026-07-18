@@ -4542,6 +4542,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-029",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-029",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
+      "title": "BBA Platform AI Workforce Domain Overview"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11957,6 +11967,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12683,6 +12694,7 @@
       "BBAPLT-GDE-026",
       "BBAPLT-GDE-027",
       "BBAPLT-GDE-028",
+      "BBAPLT-GDE-029",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13106,17 +13118,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 151,
+    "DEPENDS_ON": 152,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 338,
+    "RELATES_TO": 341,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 592,
+    "declared": 596,
     "derived": 0,
     "duplicates": 0,
-    "total": 592,
+    "total": 596,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13995,6 +14007,30 @@
       "source": "BBAPLT-GDE-028",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md",
       "target": "BBAPLT-GDE-025",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-029",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-RPT-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-029",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-029",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-029",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-024",
       "type": "RELATES_TO"
     },
     {
