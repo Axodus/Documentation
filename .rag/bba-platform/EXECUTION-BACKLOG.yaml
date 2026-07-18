@@ -408,7 +408,7 @@ program:
               acceptance: ["Dynamic coordination, handoff, conflict, refusal, and bounded delegation preserve Mission, Tenant, authority, traceability, and gates."]
             - id: "REQ-002-03-009"
               title: "Define Quality Gates and Review Obligations"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-008"]
               produces: ["BBAPLT-GDE-037"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md"]

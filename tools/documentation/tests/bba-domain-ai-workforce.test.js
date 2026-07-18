@@ -98,3 +98,13 @@ test('Coordination and delegation preserve Mission, authority, scope, and tracea
   assert.match(source, /Agents must surface conflicts rather than choose a[\s\S]*side silently/)
   assert.match(source, /does not define orchestrators, queues, task dispatch/)
 })
+
+test('Quality gates bind human review to concrete consequence and risk', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-037"/)
+  for (const gate of ['Deliverable Acceptance', 'Institutional Approval', 'Publication', 'Regulated Content Change', 'Mission Completion', 'Conflict Resolution', 'Elevated Risk']) assert.match(source, new RegExp(`\\| ${gate} \\|`))
+  assert.match(source, /An individual human review may be omitted for low-risk activity[\s\S]*explicit policy/)
+  assert.match(source, /waiver[\s\S]*publication[\s\S]*regulated[\s\S]*change[\s\S]*elevated[\s\S]*risk/)
+  assert.match(source, /Preparation is[\s\S]*not approval/)
+  assert.match(source, /does not define test frameworks, scoring algorithms/)
+})

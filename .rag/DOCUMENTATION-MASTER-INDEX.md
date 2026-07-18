@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1057
+Source Documents: 1058
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1057
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1057 |
-| Canonical documents | 465 |
+| Total source documents | 1058 |
+| Canonical documents | 466 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 619 |
+| Declared relationships | 623 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1057
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 133 |
+| GUIDE | 134 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1057
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 203 |
+| PROJECT | 204 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1057
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 305 |
+| DRAFT | 306 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -112,6 +112,7 @@ Source Documents: 1057
 | BBAPLT-GDE-034 | BBA Platform Agent Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md) |
 | BBAPLT-GDE-035 | BBA Platform Agent and Assignment State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md) |
 | BBAPLT-GDE-036 | BBA Platform AI Workforce Coordination and Delegation | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md](./bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md) |
+| BBAPLT-GDE-037 | BBA Platform AI Workforce Quality Gates and Review Obligations | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md](./bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |

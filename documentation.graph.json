@@ -4622,6 +4622,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-037",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-037",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
+      "title": "BBA Platform AI Workforce Quality Gates and Review Obligations"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12045,6 +12055,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-035-AGENT-STATE-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12779,6 +12790,7 @@
       "BBAPLT-GDE-034",
       "BBAPLT-GDE-035",
       "BBAPLT-GDE-036",
+      "BBAPLT-GDE-037",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13202,17 +13214,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 159,
+    "DEPENDS_ON": 160,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 357,
+    "RELATES_TO": 360,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 619,
+    "declared": 623,
     "derived": 0,
     "duplicates": 0,
-    "total": 619,
+    "total": 623,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14253,6 +14265,30 @@
       "source": "BBAPLT-GDE-036",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-036-COORDINATION-AND-DELEGATION.md",
       "target": "BBAPLT-GDE-032",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-037",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-037",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
+      "target": "BBAPLT-GDE-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-037",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
+      "target": "BBAPLT-GDE-033",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-037",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
+      "target": "BBAPLT-GDE-035",
       "type": "RELATES_TO"
     },
     {
