@@ -324,7 +324,7 @@ program:
               acceptance: ["Asset identity, lineage, representation, version, authority, approval, publication, and supersession invariants are explicit."]
             - id: "REQ-002-02-010"
               title: "Define Asset Policies"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-009"]
               produces: ["BBAPLT-GDE-027"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md"]

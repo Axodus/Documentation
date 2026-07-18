@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1045
+Source Documents: 1046
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1045
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1045 |
-| Canonical documents | 453 |
+| Total source documents | 1046 |
+| Canonical documents | 454 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 570 |
+| Declared relationships | 573 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1045
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 123 |
+| GUIDE | 124 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1045
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 191 |
+| PROJECT | 192 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1045
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 293 |
+| DRAFT | 294 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -101,6 +101,7 @@ Source Documents: 1045
 | BBAPLT-GDE-024 | BBA Platform Institutional Asset Authority | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-024-ASSET-AUTHORITY.md](./bba-platform/domain/BBAPLT-GDE-024-ASSET-AUTHORITY.md) |
 | BBAPLT-GDE-025 | BBA Platform Institutional Asset Version Semantics | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md](./bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md) |
 | BBAPLT-GDE-026 | BBA Platform Institutional Asset Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md](./bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md) |
+| BBAPLT-GDE-027 | BBA Platform Institutional Asset Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |
