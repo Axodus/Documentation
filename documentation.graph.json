@@ -4582,6 +4582,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-033",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-033",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
+      "title": "BBA Platform AI Workforce Inputs, Outputs and Deliverables"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12001,6 +12011,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12731,6 +12742,7 @@
       "BBAPLT-GDE-030",
       "BBAPLT-GDE-031",
       "BBAPLT-GDE-032",
+      "BBAPLT-GDE-033",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13154,17 +13166,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 155,
+    "DEPENDS_ON": 156,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 348,
+    "RELATES_TO": 350,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 606,
+    "declared": 609,
     "derived": 0,
     "duplicates": 0,
-    "total": 606,
+    "total": 609,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14127,6 +14139,24 @@
       "source": "BBAPLT-GDE-032",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
       "target": "BBAPLT-GDE-028",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-033",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
+      "target": "BBAPLT-GDE-032",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-033",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
+      "target": "BBAPLT-GDE-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-033",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
+      "target": "BBAPLT-GDE-025",
       "type": "RELATES_TO"
     },
     {

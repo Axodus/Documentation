@@ -380,7 +380,7 @@ program:
               acceptance: ["Assignment is a Mission-bound contextual link between Agent, responsibility, scope, capabilities, deliverables, authority limits, gates, and human supervision."]
             - id: "REQ-002-03-005"
               title: "Define Inputs, Outputs and Deliverables"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-004"]
               produces: ["BBAPLT-GDE-033"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md"]

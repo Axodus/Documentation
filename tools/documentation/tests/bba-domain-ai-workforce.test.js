@@ -59,3 +59,14 @@ test('Assignment is Mission-bound and carries responsibility, scope, deliverable
   assert.match(source, /Agent self-report[\s\S]*does not constitute institutional acceptance/)
   assert.match(source, /does not define IDs, payloads, schemas, dispatch protocols/)
 })
+
+test('Outputs are distinct from verifiable Deliverables and preserve uncertainty', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-033"/)
+  assert.match(source, /An Output is any result produced,[\s\S]*recommended,[\s\S]*recorded/)
+  assert.match(source, /A Deliverable is an Output that the Assignment explicitly expects/)
+  assert.match(source, /Not every Output is a Deliverable/)
+  for (const term of ['evidence', 'assumptions', 'uncertainty', 'known limitations', 'unresolved questions']) assert.match(source, new RegExp(term))
+  assert.match(source, /Agent completion of work is not human acceptance/)
+  assert.match(source, /does not define message formats, payload schemas/)
+})
