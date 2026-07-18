@@ -70,3 +70,12 @@ test('Outputs are distinct from verifiable Deliverables and preserve uncertainty
   assert.match(source, /Agent completion of work is not human acceptance/)
   assert.match(source, /does not define message formats, payload schemas/)
 })
+
+test('Agent lifecycle separates domain availability from technical execution', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-034"/)
+  for (const stage of ['Proposed', 'Active', 'Suspended', 'Retired']) assert.match(source, new RegExp(`\\| ${stage} \\|`))
+  assert.match(source, /Retirement is a domain decision[\s\S]*stop[\s\S]*new use/)
+  assert.match(source, /independent of model deployment, provider availability/)
+  assert.match(source, /does not define deployment lifecycle, process supervision/)
+})

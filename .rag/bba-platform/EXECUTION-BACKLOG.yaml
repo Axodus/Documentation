@@ -387,7 +387,7 @@ program:
               acceptance: ["Outputs are distinguished from expected, verifiable Deliverables; evidence, assumptions, uncertainty, limitations, and Asset formation are defined semantically."]
             - id: "REQ-002-03-006"
               title: "Define Agent Lifecycle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-005"]
               produces: ["BBAPLT-GDE-034"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md"]

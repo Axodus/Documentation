@@ -4592,6 +4592,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-034",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-034",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
+      "title": "BBA Platform Agent Lifecycle"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12012,6 +12022,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12743,6 +12754,7 @@
       "BBAPLT-GDE-031",
       "BBAPLT-GDE-032",
       "BBAPLT-GDE-033",
+      "BBAPLT-GDE-034",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13166,17 +13178,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 156,
+    "DEPENDS_ON": 157,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 350,
+    "RELATES_TO": 352,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 609,
+    "declared": 612,
     "derived": 0,
     "duplicates": 0,
-    "total": 609,
+    "total": 612,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14157,6 +14169,24 @@
       "source": "BBAPLT-GDE-033",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-033-INPUTS-OUTPUTS-AND-DELIVERABLES.md",
       "target": "BBAPLT-GDE-025",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-034",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-033",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-034",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-030",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-034",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-034-AGENT-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-032",
       "type": "RELATES_TO"
     },
     {
