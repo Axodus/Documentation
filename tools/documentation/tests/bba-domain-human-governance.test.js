@@ -92,3 +92,15 @@ test('Delegation preserves scope, gates, traceability, and residual accountabili
   assert.match(source, /Each step preserves the original Mission, Tenant,[\s\S]*residual Accountability/)
   assert.match(source, /does not define token delegation, access-control grants/)
 })
+
+test('Escalation addresses conflict, impasse, refusal, risk, evidence, and boundary breaches', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-047-ESCALATION-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-047"/)
+  for (const trigger of ['Conflict', 'Impasse', 'Refusal', 'Elevated Risk', 'Authority gap', 'Evidence gap', 'Boundary breach']) assert.match(source, new RegExp(`\\| ${trigger} \\|`))
+  assert.match(source, /An Escalation preserves the original Mission, Tenant, scope/)
+  assert.match(source, /does not erase prior actions or accountability/)
+  assert.match(source, /Mandatory gates remain[\s\S]*in[\s\S]*force/)
+  assert.match(source, /An Agent may surface a conflict, refusal, evidence gap, or risk/)
+  assert.match(source, /It cannot decide the escalation outcome/)
+  assert.match(source, /does not define incident management, routing services, alerts/)
+})

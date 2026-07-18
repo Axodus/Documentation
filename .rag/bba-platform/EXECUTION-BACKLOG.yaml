@@ -493,7 +493,7 @@ program:
               acceptance: ["Delegation defines bounded scope, duration, revocation, traceability, and residual accountability without expanding authority or removing accountability."]
             - id: "REQ-002-04-007"
               title: "Define Escalation Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-006"]
               produces: ["BBAPLT-GDE-047"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-047-ESCALATION-MODEL.md"]

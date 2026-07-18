@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1068
+Source Documents: 1069
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1068
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1068 |
-| Canonical documents | 476 |
+| Total source documents | 1069 |
+| Canonical documents | 477 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 673 |
+| Declared relationships | 677 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1068
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 143 |
+| GUIDE | 144 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1068
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 214 |
+| PROJECT | 215 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1068
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 316 |
+| DRAFT | 317 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -122,6 +122,7 @@ Source Documents: 1068
 | BBAPLT-GDE-044 | BBA Platform Stewardship Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md](./bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md) |
 | BBAPLT-GDE-045 | BBA Platform Decision and Approval Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-045-DECISION-AND-APPROVAL-MODEL.md](./bba-platform/domain/BBAPLT-GDE-045-DECISION-AND-APPROVAL-MODEL.md) |
 | BBAPLT-GDE-046 | BBA Platform Human Governance Delegation Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md](./bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md) |
+| BBAPLT-GDE-047 | BBA Platform Governance Escalation Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-047-ESCALATION-MODEL.md](./bba-platform/domain/BBAPLT-GDE-047-ESCALATION-MODEL.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |
