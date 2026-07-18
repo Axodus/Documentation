@@ -310,7 +310,7 @@ program:
               acceptance: ["Ownership, Stewardship, Authorship, Custody, editing, review, approval, publication, and archival authority are distinct."]
             - id: "REQ-002-02-008"
               title: "Define Asset Version Semantics"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-007"]
               produces: ["BBAPLT-GDE-025"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md"]

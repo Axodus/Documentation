@@ -57,3 +57,13 @@ test('Asset lineage uses typed directional relationships', async () => {
   assert.match(source, /Mission-to-Asset[\s\S]*relationship/)
   assert.match(source, /direct edges that establish immediate provenance/)
 })
+
+test('Asset versions are immutable snapshots with stable identity', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-025"/)
+  assert.match(source, /stable identity/)
+  assert.match(source, /immutable snapshot/)
+  assert.match(source, /A representation is not a new[\s\S]*version by default/)
+  assert.match(source, /content change after approval or publication[\s\S]*new version/)
+  assert.match(source, /Published content cannot be edited in place/)
+})
