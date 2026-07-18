@@ -4662,6 +4662,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-041",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-041",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
+      "title": "BBA Platform Human Governance Domain Overview"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12099,6 +12109,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12838,6 +12849,7 @@
       "BBAPLT-GDE-038",
       "BBAPLT-GDE-039",
       "BBAPLT-GDE-040",
+      "BBAPLT-GDE-041",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13262,17 +13274,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 163,
+    "DEPENDS_ON": 164,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 371,
+    "RELATES_TO": 374,
     "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 649,
+    "declared": 653,
     "derived": 0,
     "duplicates": 0,
-    "total": 649,
+    "total": 653,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14409,6 +14421,30 @@
       "source": "BBAPLT-GDE-040",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
       "target": "BBAPLT-GDE-037",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-041",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-RPT-007",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-041",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-041",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-041",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-029",
       "type": "RELATES_TO"
     },
     {

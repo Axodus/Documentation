@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1062
+Source Documents: 1063
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1062
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1062 |
-| Canonical documents | 470 |
+| Total source documents | 1063 |
+| Canonical documents | 471 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 649 |
+| Declared relationships | 653 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1062
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 137 |
+| GUIDE | 138 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1062
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 208 |
+| PROJECT | 209 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1062
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 310 |
+| DRAFT | 311 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -116,6 +116,7 @@ Source Documents: 1062
 | BBAPLT-GDE-038 | BBA Platform AI Workforce Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md](./bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md) |
 | BBAPLT-GDE-039 | BBA Platform AI Workforce Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md) |
 | BBAPLT-GDE-040 | BBA Platform AI Workforce Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md) |
+| BBAPLT-GDE-041 | BBA Platform Human Governance Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-041-HUMAN-GOVERNANCE-DOMAIN-OVERVIEW.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |
