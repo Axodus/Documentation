@@ -4312,6 +4312,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-006",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-006",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
+      "title": "BBA Platform Tenant and Consumer Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11684,6 +11694,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
@@ -12374,6 +12385,7 @@
       "BBAPLT-GDE-003",
       "BBAPLT-GDE-004",
       "BBAPLT-GDE-005",
+      "BBAPLT-GDE-006",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BUSINESS-GDE-001",
@@ -12794,17 +12806,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 127,
+    "DEPENDS_ON": 128,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 270,
+    "RELATES_TO": 272,
     "VALIDATES": 50
   },
   "relationship_statistics": {
-    "declared": 477,
+    "declared": 480,
     "derived": 0,
     "duplicates": 0,
-    "total": 477,
+    "total": 480,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13179,6 +13191,24 @@
       "source": "BBAPLT-GDE-005",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md",
       "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-006",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
+      "target": "BBAPLT-GDE-005",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-006",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-006",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
+      "target": "BBAPLT-POL-001",
       "type": "RELATES_TO"
     },
     {

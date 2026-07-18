@@ -125,7 +125,7 @@ program:
               acceptance: ["Personas, Stewards, human governance roles, AI Workforce roles, and authority boundaries are defined with canonical terminology."]
             - id: "REQ-001-02-002"
               title: "Define Tenant and Consumer Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-02-001"]
               produces: ["BBAPLT-GDE-006"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md"]

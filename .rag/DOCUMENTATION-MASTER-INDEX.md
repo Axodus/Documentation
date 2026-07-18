@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1023
+Source Documents: 1024
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1023
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1023 |
-| Canonical documents | 431 |
+| Total source documents | 1024 |
+| Canonical documents | 432 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 477 |
+| Declared relationships | 480 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1023
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 103 |
+| GUIDE | 104 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1023
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 169 |
+| PROJECT | 170 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1023
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 271 |
+| DRAFT | 272 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -91,6 +91,7 @@ Source Documents: 1023
 | BBAPLT-GDE-003 | BBA Platform Product Capabilities | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md](./bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md) |
 | BBAPLT-GDE-004 | BBA Platform Product Operating Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md](./bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md) |
 | BBAPLT-GDE-005 | BBA Platform Product Personas and Governance Roles | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md](./bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md) |
+| BBAPLT-GDE-006 | BBA Platform Tenant and Consumer Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md](./bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md) |
 | BBAPLT-POL-001 | BBA Platform Product Boundaries and Non-Goals | POLICY | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md](./bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md) |
 | BBAPLT-RPT-001 | BBA Platform Product Documentation Baseline Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md](./bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
