@@ -92,7 +92,7 @@ program:
               acceptance: ["Capabilities are durable platform abilities and are separated from tenant-specific solutions and technical components."]
             - id: "REQ-001-01-004"
               title: "Define Product Operating Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-01-001", "REQ-001-01-003"]
               produces: ["BBAPLT-GDE-004"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md"]

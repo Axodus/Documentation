@@ -4290,6 +4290,16 @@
       "title": "BBA Platform Product Capabilities"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-004",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-004",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
+      "title": "BBA Platform Product Operating Model"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11642,6 +11652,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12328,6 +12339,7 @@
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
+      "BBAPLT-GDE-004",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12746,17 +12758,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 123,
+    "DEPENDS_ON": 124,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 263,
+    "RELATES_TO": 265,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 461,
+    "declared": 464,
     "derived": 0,
     "duplicates": 0,
-    "total": 461,
+    "total": 464,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13094,6 +13106,24 @@
     {
       "source": "BBAPLT-GDE-003",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-004",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-004",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
+      "target": "BBA-ADR-0002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-004",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
       "target": "BBA-REF-002",
       "type": "RELATES_TO"
     },
