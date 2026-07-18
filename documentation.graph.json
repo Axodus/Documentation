@@ -4372,6 +4372,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-012",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-012",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
+      "title": "BBA Platform Mission Lifecycle"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11750,6 +11760,7 @@
       ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
       ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -12457,6 +12468,7 @@
       "BBAPLT-GDE-009",
       "BBAPLT-GDE-010",
       "BBAPLT-GDE-011",
+      "BBAPLT-GDE-012",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -12878,17 +12890,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 134,
+    "DEPENDS_ON": 135,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 289,
+    "RELATES_TO": 292,
     "VALIDATES": 56
   },
   "relationship_statistics": {
-    "declared": 509,
+    "declared": 513,
     "derived": 0,
     "duplicates": 0,
-    "total": 509,
+    "total": 513,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13407,6 +13419,30 @@
       "source": "BBAPLT-GDE-011",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       "target": "BBAPLT-GDE-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-012",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-012",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-012",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-012",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-010",
       "type": "RELATES_TO"
     },
     {

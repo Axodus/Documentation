@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1030
+Source Documents: 1031
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1030
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1030 |
-| Canonical documents | 438 |
+| Total source documents | 1031 |
+| Canonical documents | 439 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 509 |
+| Declared relationships | 513 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1030
 |---|---:|
 | ADR | 28 |
 | API | 1 |
-| GUIDE | 109 |
+| GUIDE | 110 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1030
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 176 |
+| PROJECT | 177 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1030
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 278 |
+| DRAFT | 279 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -87,6 +87,7 @@ Source Documents: 1030
 | BBA-ROAD-001 | BBA Platform Sprint 00 Foundation Plan | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md](./bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md) |
 | BBA-REF-002 | BBA Platform Ubiquitous Language | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md](./bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
+| BBAPLT-GDE-012 | BBA Platform Mission Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |
 | BBAPLT-GDE-003 | BBA Platform Product Capabilities | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md](./bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md) |

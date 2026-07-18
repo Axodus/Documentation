@@ -212,7 +212,7 @@ program:
               acceptance: ["Mission Domain boundary, actors, relationships, inputs, outputs, and Product-to-Domain traceability are defined without implementation decisions."]
             - id: "REQ-002-01-002"
               title: "Define Mission Lifecycle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-01-001"]
               produces: ["BBAPLT-GDE-012"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md"]

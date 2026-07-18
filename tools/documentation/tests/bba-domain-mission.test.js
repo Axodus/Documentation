@@ -30,3 +30,16 @@ test('Mission Domain Overview is private draft and defers implementation', async
   assert.match(source, /Technical Boundary/)
   assert.match(source, /does not define aggregates, repositories, tables, APIs, events/)
 })
+
+test('Mission Lifecycle is canonical and keeps human decisions explicit', async () => {
+  const path = '.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md'
+  const source = await read(path)
+  await access(resolve(root, path))
+  assert.match(source, /document_id: "BBAPLT-GDE-012"/)
+  assert.match(source, /relationships: \[\{type: "DEPENDS_ON", target: "BBAPLT-GDE-011"\}/)
+  for (const phase of ['Proposed', 'Authorized', 'Prepared', 'In Progress', 'Under Review', 'Outcome Decision', 'Closed with Learning']) {
+    assert.match(source, new RegExp(`\\| ${phase} \\|`))
+  }
+  assert.match(source, /A refusal is a governed outcome, not an execution error/)
+  assert.match(source, /does not define database states[\s\S]*API commands/)
+})
