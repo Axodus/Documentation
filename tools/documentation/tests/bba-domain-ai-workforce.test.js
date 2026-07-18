@@ -128,3 +128,13 @@ test('AI Workforce policies govern composition, autonomy exceptions, delegation,
   assert.match(source, /Any autonomy exception must define scope, risk, eligible activity/)
   assert.match(source, /Chain delegation requires explicit permission[\s\S]*original authority/)
 })
+
+test('AI Workforce constraints block insufficient capability, hidden uncertainty, authority expansion, and Tenant violations', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-040"/)
+  assert.match(source, /An Assignment cannot progress when the Agent lacks a required Capability/)
+  assert.match(source, /Material assumptions,[\s\S]*unresolved questions cannot be[\s\S]*hidden/)
+  for (const phrase of ['grant authority to itself', 'expand its Assignment scope', 'alter policy', 'remove a mandatory gate', 'approve final institutional publication', 'assume human accountability']) assert.match(source, new RegExp(phrase))
+  assert.match(source, /Cross-Tenant coordination,[\s\S]*requires explicit authority/)
+  assert.match(source, /must be[\s\S]*blocked,[\s\S]*refused,[\s\S]*rejected,[\s\S]*cancelled,[\s\S]*failed,[\s\S]*escalated/)
+})

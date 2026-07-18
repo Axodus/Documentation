@@ -4652,6 +4652,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-040",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-040",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
+      "title": "BBA Platform AI Workforce Constraints"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12078,6 +12088,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-037-QUALITY-GATES-AND-REVIEW-OBLIGATIONS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12815,6 +12826,7 @@
       "BBAPLT-GDE-037",
       "BBAPLT-GDE-038",
       "BBAPLT-GDE-039",
+      "BBAPLT-GDE-040",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13238,17 +13250,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 162,
+    "DEPENDS_ON": 163,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 366,
+    "RELATES_TO": 369,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 631,
+    "declared": 635,
     "derived": 0,
     "duplicates": 0,
-    "total": 631,
+    "total": 635,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14360,6 +14372,30 @@
     {
       "source": "BBAPLT-GDE-039",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-039-AI-WORKFORCE-POLICIES.md",
+      "target": "BBAPLT-GDE-037",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-040",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-039",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-040",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-028",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-040",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-035",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-040",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md",
       "target": "BBAPLT-GDE-037",
       "type": "RELATES_TO"
     },

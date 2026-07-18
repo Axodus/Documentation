@@ -429,7 +429,7 @@ program:
               acceptance: ["Policies govern composition, assignment, delegation, review, autonomy exceptions, low-risk review waivers, conflicts, evidence, and Tenant boundaries without weakening Core rules."]
             - id: "REQ-002-03-012"
               title: "Define AI Workforce Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-011"]
               produces: ["BBAPLT-GDE-040"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-040-AI-WORKFORCE-CONSTRAINTS.md"]
