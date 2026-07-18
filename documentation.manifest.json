@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1070,
+  "document_count": 1071,
   "documents": [
     {
       "aliases": [],
@@ -8383,6 +8383,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Governance Lifecycle",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-049",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-014",
+        "BBAPLT-GDE-026",
+        "BBAPLT-GDE-038",
+        "BBAPLT-GDE-048",
+        "EPIC-002",
+        "REQ-002-04-009"
+      ],
+      "sha256": "2d03534dfe161bdb240521decd4f23b4f85ab9fe4fc06f8d6d5c04547602d8ce",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Human Governance Rules",
       "version": "0.1.0"
     },
     {
@@ -25717,6 +25747,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-014",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-026",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-038",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -28486,19 +28540,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 478,
-    "declared_relationships": 681,
+    "compliant_documents": 479,
+    "declared_relationships": 685,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 216,
+      "PROJECT": 217,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 82,
+      "D1": 83,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -28537,7 +28591,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 44,
+      "BBA Domain Governance": 45,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -28546,13 +28600,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 318,
+      "DRAFT": 319,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 145,
+      "GUIDE": 146,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -28572,6 +28626,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1070
+    "total_documents": 1071
   }
 }

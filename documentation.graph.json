@@ -4742,6 +4742,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-049",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-049",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "title": "BBA Platform Human Governance Rules"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12187,6 +12197,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-047-ESCALATION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-048-GOVERNANCE-LIFECYCLE.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12934,6 +12945,7 @@
       "BBAPLT-GDE-046",
       "BBAPLT-GDE-047",
       "BBAPLT-GDE-048",
+      "BBAPLT-GDE-049",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13358,17 +13370,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 171,
+    "DEPENDS_ON": 172,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 395,
+    "RELATES_TO": 398,
     "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 681,
+    "declared": 685,
     "derived": 0,
     "duplicates": 0,
-    "total": 681,
+    "total": 685,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14697,6 +14709,30 @@
       "source": "BBAPLT-GDE-048",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-048-GOVERNANCE-LIFECYCLE.md",
       "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-014",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-026",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-049",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
+      "target": "BBAPLT-GDE-038",
       "type": "RELATES_TO"
     },
     {

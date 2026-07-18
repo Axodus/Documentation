@@ -507,7 +507,7 @@ program:
               acceptance: ["Governance lifecycle defines Proposed, Active, Under Review, Updated, and Retired meanings without technical state persistence."]
             - id: "REQ-002-04-009"
               title: "Define Governance Rules"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-008"]
               produces: ["BBAPLT-GDE-049"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md"]

@@ -116,3 +116,15 @@ test('Governance lifecycle preserves review, change, retirement, history, and hu
   assert.match(source, /Suspension is a protective condition,[\s\S]*not an additional permanent[\s\S]*lifecycle state/)
   assert.match(source, /does not define state machines, persistence, event sourcing/)
 })
+
+test('Governance Rules make accountability, Stewardship, human authority, gates, and Tenant boundaries invariant', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-049"/)
+  assert.match(source, /immutable domain Rules/)
+  for (const phrase of ['Human accountability', 'Mission Steward', 'Authority identification', 'Agent boundary', 'Concept separation', 'Review integrity', 'Critical review', 'Delegation boundedness', 'Escalation safety', 'Tenant boundary', 'Asset accountability', 'Policy subordination']) assert.match(source, new RegExp(`\\*\\*${phrase}:?\\*\\*`))
+  assert.match(source, /every Mission has a Steward/)
+  assert.match(source, /an Agent never possesses final institutional Authority/)
+  assert.match(source, /no Policy, exception, delegation, or local practice[\s\S]*Core Rules/)
+  assert.match(source, /blocked,[\s\S]*deferred,[\s\S]*rejected,[\s\S]*cancelled,[\s\S]*or escalated/)
+  assert.match(source, /does not define rule engines, authorization logic,[\s\S]*policy[\s\S]*languages/)
+})
