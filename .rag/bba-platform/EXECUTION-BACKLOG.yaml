@@ -195,7 +195,7 @@ program:
       name: "Domain Documentation Rollout"
       documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
       status: "IN_PROGRESS"
-      status_reason: "MISSION_DOMAIN_FOUNDATION_ACTIVE"
+      status_reason: "DOMAIN_ROLLOUT_ACTIVE"
       sprints:
         - id: "SPRINT-002-01"
           display_id: "SPRINT-01"
@@ -255,8 +255,8 @@ program:
         - id: "SPRINT-002-02"
           display_id: "SPRINT-02"
           name: "Institutional Assets"
-          status: "IN_PROGRESS"
-          status_reason: "ASSET_DOMAIN_FOUNDATION_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "ASSET_DOMAIN_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-014"]
           requests:
             - id: "REQ-002-02-001"
@@ -338,7 +338,7 @@ program:
               acceptance: ["Asset identity, authority, rights, risk, immutability, publication, version, and cross-Tenant constraints are documented."]
             - id: "REQ-002-02-012"
               title: "Review Asset Domain and Record Immutability ADR"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-02-001", "REQ-002-02-002", "REQ-002-02-003", "REQ-002-02-004", "REQ-002-02-005", "REQ-002-02-006", "REQ-002-02-007", "REQ-002-02-008", "REQ-002-02-009", "REQ-002-02-010", "REQ-002-02-011"]
               produces: ["BBAPLT-RPT-006", "BBA-ADR-0005"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md", ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md"]

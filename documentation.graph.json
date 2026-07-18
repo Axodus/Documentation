@@ -4150,6 +4150,16 @@
       "title": "Domain Before Architecture"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ADR-0005",
+      "document_type": "ADR",
+      "node_id": "BBA-ADR-0005",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
+      "title": "Institutional Assets Are Immutable Knowledge Artifacts"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BBA-GDE-001",
@@ -4568,6 +4578,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       "title": "BBA Platform Mission Domain Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-006",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-006",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "title": "BBA Platform Institutional Asset Domain Review"
     },
     {
       "authority_level": "CORE",
@@ -11909,6 +11929,7 @@
       ".rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md",
       ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
       ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
+      ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -11937,6 +11958,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -12622,6 +12644,7 @@
       "BBA-ADR-0002",
       "BBA-ADR-0003",
       "BBA-ADR-0004",
+      "BBA-ADR-0005",
       "BBA-GDE-001",
       "BBA-GDE-100",
       "BBA-POL-001",
@@ -12664,6 +12687,7 @@
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
       "BBAPLT-RPT-003",
+      "BBAPLT-RPT-006",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -13082,17 +13106,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 150,
+    "DEPENDS_ON": 151,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 334,
-    "VALIDATES": 62
+    "RELATES_TO": 338,
+    "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 576,
+    "declared": 592,
     "derived": 0,
     "duplicates": 0,
-    "total": 576,
+    "total": 592,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13233,6 +13257,24 @@
       "source": "BBA-ADR-0004",
       "source_path": ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
       "target": "BBA-ROAD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0005",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
+      "target": "BBAPLT-RPT-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-ADR-0005",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
+      "target": "BBA-ADR-0004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0005",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
+      "target": "BBAPLT-GDE-025",
       "type": "RELATES_TO"
     },
     {
@@ -14121,6 +14163,84 @@
       "source": "BBAPLT-RPT-003",
       "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       "target": "BBAPLT-GDE-016",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBA-ADR-0004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-018",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-019",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-020",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-022",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-023",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-024",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-025",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-026",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-027",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-006",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-028",
       "type": "VALIDATES"
     },
     {

@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1047
+Source Documents: 1049
 
 ## Navigation
 
@@ -22,18 +22,18 @@ Source Documents: 1047
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1047 |
-| Canonical documents | 455 |
+| Total source documents | 1049 |
+| Canonical documents | 457 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 576 |
+| Declared relationships | 592 |
 | Derived relationships | 0 |
 
 ## Documents by Type
 
 | Value | Count |
 |---|---:|
-| ADR | 28 |
+| ADR | 29 |
 | API | 1 |
 | GUIDE | 125 |
 | MEETING | 1 |
@@ -42,7 +42,7 @@ Source Documents: 1047
 | PROPOSAL | 1 |
 | REFERENCE | 15 |
 | RELEASE | 1 |
-| REPORT | 253 |
+| REPORT | 254 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1047
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 193 |
+| PROJECT | 195 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1047
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 295 |
+| DRAFT | 297 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -76,6 +76,7 @@ Source Documents: 1047
 | BBA-ADR-0002 | Mission as Core Domain Entity | ADR | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md](./bba-platform/adr/BBA-ADR-0002-MISSION-AS-CORE-DOMAIN-ENTITY.md) |
 | BBA-ADR-0003 | Tenant-Neutral Core | ADR | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md](./bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md) |
 | BBA-ADR-0004 | Domain Before Architecture | ADR | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md](./bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md) |
+| BBA-ADR-0005 | Institutional Assets Are Immutable Knowledge Artifacts | ADR | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md](./bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |
@@ -104,6 +105,7 @@ Source Documents: 1047
 | BBAPLT-GDE-027 | BBA Platform Institutional Asset Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md) |
 | BBAPLT-GDE-028 | BBA Platform Institutional Asset Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
+| BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-GDE-001 | BBA Platform Product Vision | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md](./bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md) |
 | BBAPLT-GDE-002 | BBA Platform Product Positioning | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md](./bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md) |
 | BBAPLT-GDE-003 | BBA Platform Product Capabilities | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md](./bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md) |
