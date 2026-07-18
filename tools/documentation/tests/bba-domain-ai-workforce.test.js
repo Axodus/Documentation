@@ -50,3 +50,12 @@ test('Capability is aptitude with evidence and limits, not permission', async ()
   assert.match(source, /Capability mismatch must block or escalate/)
   assert.match(source, /does not define model benchmarks, provider metadata/)
 })
+
+test('Assignment is Mission-bound and carries responsibility, scope, deliverables, and gates', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-032"/)
+  assert.match(source, /contextual domain link that binds an Agent[\s\S]*responsibility within a Mission/)
+  for (const field of ['Tenant and Mission context', 'Agent identity and assumed Role', 'responsibility and scope of work', 'required Capabilities', 'expected Deliverables', 'allowed actions and authority limits', 'applicable quality and review gates', 'human supervisor']) assert.match(source, new RegExp(field))
+  assert.match(source, /Agent self-report[\s\S]*does not constitute institutional acceptance/)
+  assert.match(source, /does not define IDs, payloads, schemas, dispatch protocols/)
+})

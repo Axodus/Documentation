@@ -4572,6 +4572,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-032",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-032",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
+      "title": "BBA Platform Responsibility and Assignment Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11990,6 +12000,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-029-AI-WORKFORCE-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-030-AGENT-IDENTITY-AND-CLASSIFICATION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
@@ -12719,6 +12730,7 @@
       "BBAPLT-GDE-029",
       "BBAPLT-GDE-030",
       "BBAPLT-GDE-031",
+      "BBAPLT-GDE-032",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13142,17 +13154,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 154,
+    "DEPENDS_ON": 155,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 345,
+    "RELATES_TO": 348,
     "VALIDATES": 73
   },
   "relationship_statistics": {
-    "declared": 602,
+    "declared": 606,
     "derived": 0,
     "duplicates": 0,
-    "total": 602,
+    "total": 606,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14091,6 +14103,30 @@
       "source": "BBAPLT-GDE-031",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-031-CAPABILITY-MODEL.md",
       "target": "BBAPLT-GDE-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-032",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
+      "target": "BBAPLT-GDE-031",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-032",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-032",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
+      "target": "BBAPLT-GDE-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-032",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md",
+      "target": "BBAPLT-GDE-028",
       "type": "RELATES_TO"
     },
     {

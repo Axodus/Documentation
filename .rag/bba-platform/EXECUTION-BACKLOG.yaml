@@ -373,7 +373,7 @@ program:
               acceptance: ["Capabilities describe declared aptitudes and quality expectations without becoming permissions, roles, providers, or implementation modules."]
             - id: "REQ-002-03-004"
               title: "Define Responsibility and Assignment Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-003"]
               produces: ["BBAPLT-GDE-032"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-032-RESPONSIBILITY-AND-ASSIGNMENT-MODEL.md"]
