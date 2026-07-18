@@ -415,7 +415,7 @@ program:
               acceptance: ["Quality gates bind human review to acceptance, institutional approval, publication, regulated change, Mission completion, conflict resolution, and elevated risk."]
             - id: "REQ-002-03-010"
               title: "Define AI Workforce Rules"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-03-009"]
               produces: ["BBAPLT-GDE-038"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md"]

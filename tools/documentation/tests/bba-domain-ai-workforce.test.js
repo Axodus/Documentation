@@ -108,3 +108,14 @@ test('Quality gates bind human review to concrete consequence and risk', async (
   assert.match(source, /Preparation is[\s\S]*not approval/)
   assert.match(source, /does not define test frameworks, scoring algorithms/)
 })
+
+test('AI Workforce rules preserve human authority, bounded assignments, evidence, and provenance', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-038-AI-WORKFORCE-RULES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-038"/)
+  assert.match(source, /Agent identity is functional and institutional/)
+  assert.match(source, /Every Assignment is bound to one Mission and Tenant context/)
+  assert.match(source, /Material Outputs and Deliverables disclose evidence/)
+  assert.match(source, /Agents cannot approve final institutional publication/)
+  assert.match(source, /Delegation in chain cannot increase authority/)
+  assert.match(source, /preserve[\s\S]*provenance,[\s\S]*lineage,[\s\S]*version meaning,[\s\S]*limitations/)
+})
