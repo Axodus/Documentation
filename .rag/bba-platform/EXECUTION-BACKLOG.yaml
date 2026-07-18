@@ -200,7 +200,7 @@ program:
         - id: "SPRINT-002-01"
           display_id: "SPRINT-01"
           name: "Core Domain / Mission"
-          status: "IN_PROGRESS"
+          status: "PASS_CLOSED"
           documentation_areas: ["AREA-011", "AREA-012"]
           requests:
             - id: "REQ-002-01-001"
@@ -247,7 +247,7 @@ program:
               acceptance: ["Mission prerequisites, prohibited behavior, cross-tenant boundaries, uncertainty limits, and unresolved domain constraints are documented."]
             - id: "REQ-002-01-007"
               title: "Review Mission Domain"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-01-001", "REQ-002-01-002", "REQ-002-01-003", "REQ-002-01-004", "REQ-002-01-005", "REQ-002-01-006"]
               produces: ["BBAPLT-RPT-003"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md"]

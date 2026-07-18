@@ -4450,6 +4450,16 @@
       "title": "BBA Platform Product Domain Framing Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-003",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-003",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "title": "BBA Platform Mission Domain Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11805,6 +11815,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md",
+      ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -12520,6 +12531,7 @@
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
+      "BBAPLT-RPT-003",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12941,14 +12953,14 @@
     "DEPENDS_ON": 139,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 308,
-    "VALIDATES": 56
+    "RELATES_TO": 312,
+    "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 533,
+    "declared": 543,
     "derived": 0,
     "duplicates": 0,
-    "total": 533,
+    "total": 543,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13719,6 +13731,66 @@
       "source": "BBAPLT-RPT-002",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
       "target": "BBAPLT-GDE-010",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBA-ADR-0004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-012",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-013",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-014",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-015",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-003",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-016",
       "type": "VALIDATES"
     },
     {
