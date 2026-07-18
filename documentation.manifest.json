@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1073,
+  "document_count": 1074,
   "documents": [
     {
       "aliases": [],
@@ -8587,6 +8587,45 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform AI Workforce Domain Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-008",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-041",
+        "BBAPLT-GDE-042",
+        "BBAPLT-GDE-043",
+        "BBAPLT-GDE-044",
+        "BBAPLT-GDE-045",
+        "BBAPLT-GDE-046",
+        "BBAPLT-GDE-047",
+        "BBAPLT-GDE-048",
+        "BBAPLT-GDE-049",
+        "BBAPLT-GDE-050",
+        "BBAPLT-GDE-051",
+        "BBAPLT-RPT-006",
+        "BBAPLT-RPT-007",
+        "EPIC-002",
+        "REQ-002-04-012"
+      ],
+      "sha256": "d35f56372672f7390315be0ed92aa6e135d2c670d3a5cd073c38871135cbc8aa",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Human Governance Domain Review",
       "version": "0.1.0"
     },
     {
@@ -26209,6 +26248,84 @@
       "type": "VALIDATES"
     },
     {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-041",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-042",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-043",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-044",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-045",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-046",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-047",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-049",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-050",
+      "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-008",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-051",
+      "type": "VALIDATES"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -28648,19 +28765,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 481,
-    "declared_relationships": 693,
+    "compliant_documents": 482,
+    "declared_relationships": 706,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 219,
+      "PROJECT": 220,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 85,
+      "D1": 86,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -28699,7 +28816,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 47,
+      "BBA Domain Governance": 48,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -28708,7 +28825,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 321,
+      "DRAFT": 322,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -28721,7 +28838,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 255,
+      "REPORT": 256,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -28734,6 +28851,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1073
+    "total_documents": 1074
   }
 }

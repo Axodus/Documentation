@@ -444,8 +444,8 @@ program:
         - id: "SPRINT-002-04"
           display_id: "SPRINT-04"
           name: "Human Governance"
-          status: "IN_PROGRESS"
-          status_reason: "HUMAN_GOVERNANCE_DOMAIN_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "HUMAN_GOVERNANCE_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-011", "AREA-016", "AREA-020"]
           cross_cutting_product_areas: ["AREA-010"]
           requests:
@@ -528,7 +528,7 @@ program:
               acceptance: ["Tenant boundaries, authority limits, risk, compliance, accountability, and separation of functions constrain governance decisions."]
             - id: "REQ-002-04-012"
               title: "Review Human Governance Domain"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-001", "REQ-002-04-002", "REQ-002-04-003", "REQ-002-04-004", "REQ-002-04-005", "REQ-002-04-006", "REQ-002-04-007", "REQ-002-04-008", "REQ-002-04-009", "REQ-002-04-010", "REQ-002-04-011"]
               produces: ["BBAPLT-RPT-008"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md"]
@@ -537,6 +537,7 @@ program:
           display_id: "SPRINT-05"
           name: "Workflow Domain"
           status: "PLANNED"
+          status_reason: "NEXT"
           documentation_areas: ["AREA-015"]
           requests: []
         - id: "SPRINT-002-06"

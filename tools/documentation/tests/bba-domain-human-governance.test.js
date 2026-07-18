@@ -6,11 +6,11 @@ import test from 'node:test'
 const root = process.cwd()
 const read = (path) => import('node:fs/promises').then(({ readFile }) => readFile(resolve(root, path), 'utf8'))
 
-test('Human Governance Sprint activates with twelve ordered REQs and a prior-domain dependency', async () => {
+test('Human Governance Sprint closes with twelve ordered REQs and a prior-domain dependency', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
-  assert.match(backlog, /id: "SPRINT-002-04"[\s\S]*status: "IN_PROGRESS"/)
-  assert.match(backlog, /status_reason: "HUMAN_GOVERNANCE_DOMAIN_ACTIVE"/)
+  assert.match(backlog, /id: "SPRINT-002-04"[\s\S]*status: "PASS_CLOSED"/)
+  assert.match(backlog, /status_reason: "HUMAN_GOVERNANCE_CANONICAL_REVIEW_PASS"/)
   for (const id of ['REQ-002-04-001', 'REQ-002-04-002', 'REQ-002-04-003', 'REQ-002-04-004', 'REQ-002-04-005', 'REQ-002-04-006', 'REQ-002-04-007', 'REQ-002-04-008', 'REQ-002-04-009', 'REQ-002-04-010', 'REQ-002-04-011', 'REQ-002-04-012']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))
     assert.match(graph, new RegExp(`"${id}"`))
@@ -151,4 +151,19 @@ test('Governance Constraints protect Tenant, authority, risk, compliance, accoun
   assert.match(source, /Unknown or disputed[\s\S]*risk is itself a reason to pause or escalate/)
   assert.match(source, /A role must disclose and manage conflicts of interest,[\s\S]*recuse itself/)
   assert.match(source, /does not define authorization enforcement, compliance engines,[\s\S]*identity systems/)
+})
+
+test('Human Governance closes with PASS and preserves the Workflow Domain handoff', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const review = await read('.rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-002-04"[\s\S]*status: "PASS_CLOSED"/)
+  assert.match(backlog, /status_reason: "HUMAN_GOVERNANCE_CANONICAL_REVIEW_PASS"/)
+  for (const id of ['REQ-002-04-001', 'REQ-002-04-002', 'REQ-002-04-003', 'REQ-002-04-004', 'REQ-002-04-005', 'REQ-002-04-006', 'REQ-002-04-007', 'REQ-002-04-008', 'REQ-002-04-009', 'REQ-002-04-010', 'REQ-002-04-011', 'REQ-002-04-012']) assert.match(backlog, new RegExp(`id: "${id}"[\\s\\S]*status: "DONE"`))
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
+  assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "PLANNED"[\s\S]*status_reason: "NEXT"/)
+  assert.match(review, /document_id: "BBAPLT-RPT-008"/)
+  assert.match(review, /PASS — Human Governance Domain is coherent/)
+  assert.match(review, /Cross-Domain Consistency/)
+  assert.match(review, /Explicit Gaps/)
+  assert.match(review, /SPRINT-002-05 — Workflow Domain/)
 })
