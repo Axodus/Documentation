@@ -56,3 +56,17 @@ test('Mission State Model defines only explicit semantic transitions', async () 
   assert.match(source, /Publication does not itself transition a Mission to closure/)
   assert.match(source, /does not define state storage, event sourcing, commands[\s\S]*UI controls/)
 })
+
+test('Mission Rules preserve authority, Asset provenance, and tenant neutrality', async () => {
+  const path = '.rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md'
+  const source = await read(path)
+  await access(resolve(root, path))
+  assert.match(source, /document_id: "BBAPLT-GDE-014"/)
+  for (const phrase of ['Mission Identity and Context', 'Accountability and Authority', 'Work and Asset Rules', 'Review Rules', 'Outcome Rules', 'Tenant and Knowledge Rules']) {
+    assert.match(source, new RegExp(`## ${phrase}`))
+  }
+  assert.match(source, /An AI Workforce member may recommend, research, create, transform, or[\s\S]*evaluate work/)
+  assert.match(source, /Acceptance, Publication authorization, and distribution are distinct[\s\S]*decisions/)
+  assert.match(source, /Tenant knowledge, policies, Assets, authority, and decisions remain scoped/)
+  assert.match(source, /These rules do not define validation code, database constraints, API behavior/)
+})

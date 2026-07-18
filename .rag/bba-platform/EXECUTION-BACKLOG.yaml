@@ -226,7 +226,7 @@ program:
               acceptance: ["Mission states, transitions, guards, terminal states, reopening rules, and state invariants are defined without technical event or storage contracts."]
             - id: "REQ-002-01-004"
               title: "Define Mission Rules"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-01-003"]
               produces: ["BBAPLT-GDE-014"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md"]
