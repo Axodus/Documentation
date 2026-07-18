@@ -141,3 +141,14 @@ test('Governance Policies remain mutable while subordinate to Rules and bounded 
   assert.match(source, /An Agent[\s\S]*may summarize or recommend policy application[\s\S]*cannot create, alter, approve/)
   assert.match(source, /does not define policy engines, configuration stores,[\s\S]*RBAC/)
 })
+
+test('Governance Constraints protect Tenant, authority, risk, compliance, accountability, and function separation', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-051"/)
+  for (const category of ['Tenant boundary', 'Authority', 'Risk', 'Compliance', 'Accountability', 'Separation of functions', 'Evidence', 'Asset integrity', 'Mission integrity', 'Agent boundary']) assert.match(source, new RegExp(`\\| ${category} \\|`))
+  assert.match(source, /When a constraint would be violated, the affected action is blocked/)
+  assert.match(source, /External systems, Connectors, or shared participants do not dissolve[\s\S]*Tenant[\s\S]*boundaries/)
+  assert.match(source, /Unknown or disputed[\s\S]*risk is itself a reason to pause or escalate/)
+  assert.match(source, /A role must disclose and manage conflicts of interest,[\s\S]*recuse itself/)
+  assert.match(source, /does not define authorization enforcement, compliance engines,[\s\S]*identity systems/)
+})

@@ -521,7 +521,7 @@ program:
               acceptance: ["Governance policies govern review, approval, publication, delegation, conflict, exception, and policy change without weakening domain rules."]
             - id: "REQ-002-04-011"
               title: "Define Governance Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-010"]
               produces: ["BBAPLT-GDE-051"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md"]

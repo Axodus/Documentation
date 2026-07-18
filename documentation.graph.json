@@ -4762,6 +4762,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-051",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-051",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
+      "title": "BBA Platform Human Governance Constraints"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12209,6 +12219,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-048-GOVERNANCE-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12958,6 +12969,7 @@
       "BBAPLT-GDE-048",
       "BBAPLT-GDE-049",
       "BBAPLT-GDE-050",
+      "BBAPLT-GDE-051",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13382,17 +13394,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 173,
+    "DEPENDS_ON": 174,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 401,
+    "RELATES_TO": 404,
     "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 689,
+    "declared": 693,
     "derived": 0,
     "duplicates": 0,
-    "total": 689,
+    "total": 693,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14769,6 +14781,30 @@
       "source": "BBAPLT-GDE-050",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md",
       "target": "BBAPLT-GDE-045",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-051",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-050",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-051",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-028",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-051",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-040",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-051",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-043",
       "type": "RELATES_TO"
     },
     {
