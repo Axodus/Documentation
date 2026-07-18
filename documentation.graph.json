@@ -4322,6 +4322,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-007",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-007",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
+      "title": "BBA Platform Mission-Centric Value Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11695,6 +11705,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-GDE-005-PERSONAS-AND-GOVERNANCE-ROLES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
@@ -12386,6 +12397,7 @@
       "BBAPLT-GDE-004",
       "BBAPLT-GDE-005",
       "BBAPLT-GDE-006",
+      "BBAPLT-GDE-007",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BUSINESS-GDE-001",
@@ -12806,17 +12818,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 128,
+    "DEPENDS_ON": 129,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 272,
+    "RELATES_TO": 275,
     "VALIDATES": 50
   },
   "relationship_statistics": {
-    "declared": 480,
+    "declared": 484,
     "derived": 0,
     "duplicates": 0,
-    "total": 480,
+    "total": 484,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13209,6 +13221,30 @@
       "source": "BBAPLT-GDE-006",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-006-TENANT-AND-CONSUMER-MODEL.md",
       "target": "BBAPLT-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-007",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
+      "target": "BBAPLT-GDE-006",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-007",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
+      "target": "BBA-ADR-0002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-007",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-007",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md",
+      "target": "BBAPLT-GDE-005",
       "type": "RELATES_TO"
     },
     {

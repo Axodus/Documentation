@@ -132,7 +132,7 @@ program:
               acceptance: ["Tenant, consumer, white-label, self-hosted, SaaS, and Axodus adapter relationships are product-defined without technical tenancy design."]
             - id: "REQ-001-02-003"
               title: "Define Mission-Centric Value Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-02-001", "REQ-001-02-002"]
               produces: ["BBAPLT-GDE-007"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-007-MISSION-CENTRIC-VALUE-MODEL.md"]
