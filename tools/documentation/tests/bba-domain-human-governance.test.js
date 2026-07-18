@@ -80,3 +80,15 @@ test('Decision and Approval model distinguishes Review, recommendation, consensu
   assert.match(source, /An Approval cannot retroactively conceal a missing mandatory Review/)
   assert.match(source, /does not define workflow engines, queues, approval APIs/)
 })
+
+test('Delegation preserves scope, gates, traceability, and residual accountability', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-046"/)
+  for (const field of ['original Mission and Tenant context', 'delegator role and source Authority', 'Delegate role and competence', 'responsibility or decision scope', 'required evidence, Review, and Approval gates', 'revocation conditions', 'residual Accountability and escalation path']) assert.match(source, new RegExp(field))
+  assert.match(source, /never increases the Authority/)
+  assert.match(source, /never removes the delegator's residual Accountability/)
+  assert.match(source, /always preserves Mission, scope, provenance, and decision traceability/)
+  assert.match(source, /Revocation stops new use[\s\S]*grant[\s\S]*does not erase actions/)
+  assert.match(source, /Each step preserves the original Mission, Tenant,[\s\S]*residual Accountability/)
+  assert.match(source, /does not define token delegation, access-control grants/)
+})

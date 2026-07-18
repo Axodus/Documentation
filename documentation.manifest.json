@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1067,
+  "document_count": 1068,
   "documents": [
     {
       "aliases": [],
@@ -8293,6 +8293,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Decision and Approval Model",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-046",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-18",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-036",
+        "BBAPLT-GDE-043",
+        "BBAPLT-GDE-044",
+        "BBAPLT-GDE-045",
+        "EPIC-002",
+        "REQ-002-04-006"
+      ],
+      "sha256": "2f864cad9c6518482b8c7b18145bb0d26ef3df3ed560965f82dc30a9138b5c07",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Human Governance Delegation Model",
       "version": "0.1.0"
     },
     {
@@ -25555,6 +25585,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-045",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-043",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-044",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -28324,19 +28378,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 475,
-    "declared_relationships": 669,
+    "compliant_documents": 476,
+    "declared_relationships": 673,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 213,
+      "PROJECT": 214,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 79,
+      "D1": 80,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -28375,7 +28429,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 41,
+      "BBA Domain Governance": 42,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -28384,13 +28438,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 315,
+      "DRAFT": 316,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 142,
+      "GUIDE": 143,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -28410,6 +28464,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1067
+    "total_documents": 1068
   }
 }

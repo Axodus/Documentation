@@ -486,7 +486,7 @@ program:
               acceptance: ["Decision types, Review, Approval, consensus, dissent, and final human authority are defined without technical workflow mechanisms."]
             - id: "REQ-002-04-006"
               title: "Define Delegation Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-04-005"]
               produces: ["BBAPLT-GDE-046"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md"]

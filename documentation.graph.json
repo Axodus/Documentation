@@ -4712,6 +4712,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-046",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-046",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "title": "BBA Platform Human Governance Delegation Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12154,6 +12164,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-043-AUTHORITY-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-044-STEWARDSHIP-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-045-DECISION-AND-APPROVAL-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12898,6 +12909,7 @@
       "BBAPLT-GDE-043",
       "BBAPLT-GDE-044",
       "BBAPLT-GDE-045",
+      "BBAPLT-GDE-046",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13322,17 +13334,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 168,
+    "DEPENDS_ON": 169,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 386,
+    "RELATES_TO": 389,
     "VALIDATES": 85
   },
   "relationship_statistics": {
-    "declared": 669,
+    "declared": 673,
     "derived": 0,
     "duplicates": 0,
-    "total": 669,
+    "total": 673,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14589,6 +14601,30 @@
       "source": "BBAPLT-GDE-045",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-045-DECISION-AND-APPROVAL-MODEL.md",
       "target": "BBAPLT-GDE-040",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-045",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-043",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-046",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-046-DELEGATION-MODEL.md",
+      "target": "BBAPLT-GDE-044",
       "type": "RELATES_TO"
     },
     {
