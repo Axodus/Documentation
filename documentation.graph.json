@@ -4300,6 +4300,16 @@
       "title": "BBA Platform Product Operating Model"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-POL-001",
+      "document_type": "POLICY",
+      "node_id": "BBAPLT-POL-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
+      "title": "BBA Platform Product Boundaries and Non-Goals"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -11653,6 +11663,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
+      ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -12340,6 +12351,7 @@
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
       "BBAPLT-GDE-004",
+      "BBAPLT-POL-001",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -12758,17 +12770,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 124,
+    "DEPENDS_ON": 126,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 265,
+    "RELATES_TO": 267,
     "VALIDATES": 45
   },
   "relationship_statistics": {
-    "declared": 464,
+    "declared": 468,
     "derived": 0,
     "duplicates": 0,
-    "total": 464,
+    "total": 468,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13125,6 +13137,30 @@
       "source": "BBAPLT-GDE-004",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-004-OPERATING-MODEL.md",
       "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-POL-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
+      "target": "BBAPLT-GDE-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-POL-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
+      "target": "BBAPLT-GDE-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-POL-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-POL-001",
+      "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
+      "target": "BBA-POL-001",
       "type": "RELATES_TO"
     },
     {

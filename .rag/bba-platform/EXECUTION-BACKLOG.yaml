@@ -99,7 +99,7 @@ program:
               acceptance: ["Operating model defines Mission, AI Workforce, Human Governance, Steward, dynamic workflow, and conceptual lifecycle without technical architecture."]
             - id: "REQ-001-01-005"
               title: "Define Product Boundaries and Non-Goals"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-01-001", "REQ-001-01-003"]
               produces: ["BBAPLT-POL-001"]
               files: [".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md"]
