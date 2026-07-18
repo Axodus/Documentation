@@ -4422,6 +4422,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-018",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-018",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "title": "BBA Platform Institutional Asset Domain Overview"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -11815,6 +11825,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-014-MISSION-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-015-MISSION-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
@@ -12528,6 +12539,7 @@
       "BBAPLT-GDE-014",
       "BBAPLT-GDE-015",
       "BBAPLT-GDE-016",
+      "BBAPLT-GDE-018",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -12950,17 +12962,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 139,
+    "DEPENDS_ON": 140,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 312,
+    "RELATES_TO": 317,
     "VALIDATES": 62
   },
   "relationship_statistics": {
-    "declared": 543,
+    "declared": 549,
     "derived": 0,
     "duplicates": 0,
-    "total": 543,
+    "total": 549,
     "unresolved": 0
   },
   "relationship_types": [
@@ -13623,6 +13635,42 @@
       "source": "BBAPLT-GDE-016",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-016-MISSION-CONSTRAINTS.md",
       "target": "BBAPLT-POL-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-018",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-RPT-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-018",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBA-ADR-0002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-018",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBA-ADR-0004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-018",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBA-REF-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-018",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-018",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-011",
       "type": "RELATES_TO"
     },
     {

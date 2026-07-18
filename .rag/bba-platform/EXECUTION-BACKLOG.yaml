@@ -255,9 +255,94 @@ program:
         - id: "SPRINT-002-02"
           display_id: "SPRINT-02"
           name: "Institutional Assets"
-          status: "PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "ASSET_DOMAIN_FOUNDATION_ACTIVE"
           documentation_areas: ["AREA-014"]
-          requests: []
+          requests:
+            - id: "REQ-002-02-001"
+              title: "Define Asset Domain Overview"
+              status: "DONE"
+              depends_on: ["REQ-002-01-007"]
+              produces: ["BBAPLT-GDE-018"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-018-ASSET-DOMAIN-OVERVIEW.md"]
+              acceptance: ["Institutional Asset is defined as a domain Aggregate Root and is distinguished from File, Representation, Publication, and technical storage."]
+            - id: "REQ-002-02-002"
+              title: "Define Asset Identity"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-001"]
+              produces: ["BBAPLT-GDE-019"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-019-ASSET-IDENTITY.md"]
+              acceptance: ["Stable Asset identity, Tenant scope, identity continuity across versions and representations, and non-file identity rules are defined."]
+            - id: "REQ-002-02-003"
+              title: "Define Asset Classification"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-002"]
+              produces: ["BBAPLT-GDE-020"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-020-ASSET-CLASSIFICATION.md"]
+              acceptance: ["Semantic Asset classes are defined separately from formats, channels, representations, and technical media types."]
+            - id: "REQ-002-02-004"
+              title: "Define Asset Lifecycle"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-003"]
+              produces: ["BBAPLT-GDE-021"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-021-ASSET-LIFECYCLE.md"]
+              acceptance: ["Asset creation, production, review, approval, publication, archiving, supersession, and retention meaning are defined."]
+            - id: "REQ-002-02-005"
+              title: "Define Asset State Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-004"]
+              produces: ["BBAPLT-GDE-022"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-022-ASSET-STATE-MODEL.md"]
+              acceptance: ["Asset states, transitions, guards, terminal states, supersession, reopening, and governance boundaries are defined without technical state storage."]
+            - id: "REQ-002-02-006"
+              title: "Define Asset Relationships and Lineage"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-005"]
+              produces: ["BBAPLT-GDE-023"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-023-ASSET-RELATIONSHIPS-AND-LINEAGE.md"]
+              acceptance: ["Typed directional relationships and lineage semantics cover derivation, reference, supersession, generation, review, translation, summary, extension, duplication, and publication."]
+            - id: "REQ-002-02-007"
+              title: "Define Asset Authority"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-006"]
+              produces: ["BBAPLT-GDE-024"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-024-ASSET-AUTHORITY.md"]
+              acceptance: ["Ownership, Stewardship, Authorship, Custody, editing, review, approval, publication, and archival authority are distinct."]
+            - id: "REQ-002-02-008"
+              title: "Define Asset Version Semantics"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-007"]
+              produces: ["BBAPLT-GDE-025"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-025-ASSET-VERSION-SEMANTICS.md"]
+              acceptance: ["Asset identity is stable, version content is immutable, changes create new versions, and version governance states have explicit meaning."]
+            - id: "REQ-002-02-009"
+              title: "Define Asset Rules"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-008"]
+              produces: ["BBAPLT-GDE-026"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-026-ASSET-RULES.md"]
+              acceptance: ["Asset identity, lineage, representation, version, authority, approval, publication, and supersession invariants are explicit."]
+            - id: "REQ-002-02-010"
+              title: "Define Asset Policies"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-009"]
+              produces: ["BBAPLT-GDE-027"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-027-ASSET-POLICIES.md"]
+              acceptance: ["Asset policies govern editing, review, approval, publication, archival, delegation, reuse, and Tenant boundaries."]
+            - id: "REQ-002-02-011"
+              title: "Define Asset Constraints"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-010"]
+              produces: ["BBAPLT-GDE-028"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-028-ASSET-CONSTRAINTS.md"]
+              acceptance: ["Asset identity, authority, rights, risk, immutability, publication, version, and cross-Tenant constraints are documented."]
+            - id: "REQ-002-02-012"
+              title: "Review Asset Domain and Record Immutability ADR"
+              status: "PLANNED"
+              depends_on: ["REQ-002-02-001", "REQ-002-02-002", "REQ-002-02-003", "REQ-002-02-004", "REQ-002-02-005", "REQ-002-02-006", "REQ-002-02-007", "REQ-002-02-008", "REQ-002-02-009", "REQ-002-02-010", "REQ-002-02-011"]
+              produces: ["BBAPLT-RPT-006", "BBA-ADR-0005"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md", ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md"]
+              acceptance: ["Asset Domain Review validates all Asset documents, records explicit gaps and no architecture leakage, approves handoff to AI Workforce, and registers the proposed immutable-version decision."]
         - id: "SPRINT-002-03"
           display_id: "SPRINT-03"
           name: "AI Workforce"
