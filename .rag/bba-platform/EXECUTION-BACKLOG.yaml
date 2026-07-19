@@ -704,7 +704,7 @@ program:
               acceptance: ["Connector invariants preserve identity, lineage, authority, accountability, Tenant boundaries, and Mission boundaries."]
             - id: "REQ-002-06-010"
               title: "Define Connector Policies"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-009"]
               produces: ["BBAPLT-GDE-073"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md"]

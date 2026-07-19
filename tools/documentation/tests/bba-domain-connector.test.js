@@ -135,3 +135,17 @@ test('Connector Rules preserve identity, lineage, authority, accountability, Ten
   assert.match(source, /discloses semantic loss,[\s\S]*uncertainty,[\s\S]*conflict,[\s\S]*risk/)
   assert.match(source, /does not define rule engines,[\s\S]*authorization,[\s\S]*access control,[\s\S]*APIs,[\s\S]*protocols/)
 })
+
+test('Connector Policies govern exposure and sharing without weakening Rules', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-073"/)
+  for (const area of ['Exposure', 'Sharing', 'Semantic synchronization', 'Reuse', 'Institutional authorization', 'Publication restriction']) assert.match(source, new RegExp(`\\| ${area} \\|`))
+  assert.match(source, /Every Policy declares scope,[\s\S]*purpose,[\s\S]*owner,[\s\S]*effective context/)
+  assert.match(source, /absence[\s\S]*of a Policy[\s\S]*not permission to cross a boundary[\s\S]*expose an Asset/)
+  assert.match(source, /Connector Rules have precedence over Policies/)
+  assert.match(source, /cannot weaken a[\s\S]*Rule,[\s\S]*create Authority,[\s\S]*transfer Accountability,[\s\S]*change Asset identity/)
+  assert.match(source, /Policy changes are prospective[\s\S]*do not silently rewrite historical exchanges/)
+  assert.match(source, /does not define policy engines/)
+  assert.match(source, /configuration,[\s\S]*authorization[\s\S]*matrices/)
+  assert.match(source, /APIs,[\s\S]*protocols/)
+})

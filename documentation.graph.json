@@ -4995,6 +4995,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-073",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-073",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md",
+      "title": "BBA Platform Connector Policies"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12484,6 +12494,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13257,6 +13268,7 @@
       "BBAPLT-GDE-070",
       "BBAPLT-GDE-071",
       "BBAPLT-GDE-072",
+      "BBAPLT-GDE-073",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13683,17 +13695,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 196,
+    "DEPENDS_ON": 197,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 467,
+    "RELATES_TO": 469,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 789,
+    "declared": 792,
     "derived": 0,
     "duplicates": 0,
-    "total": 789,
+    "total": 792,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15574,6 +15586,24 @@
       "source": "BBAPLT-GDE-072",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
       "target": "BBAPLT-GDE-061",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-073",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md",
+      "target": "BBAPLT-GDE-072",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-073",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md",
+      "target": "BBAPLT-GDE-050",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-073",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md",
+      "target": "BBAPLT-GDE-062",
       "type": "RELATES_TO"
     },
     {
