@@ -72,8 +72,8 @@ graph, and the execution backlog.
 | --- | --- | --- | --- |
 | REQ-003-06-001 | Activate review and inventory | DONE | This report, execution backlog, Foundation manifest |
 | REQ-003-06-002 | Product → Domain → Architecture derivation | DONE | Product Final Consistency Review, Domain Rollout Review, ARCH-001, ARCH-014, ARCH-023 |
-| REQ-003-06-003 | Capability and Context coverage | IN_PROGRESS | Pending audit entry |
-| REQ-003-06-004 | Glossary, ADR, and neutrality audit | PLANNED | Pending audit entry |
+| REQ-003-06-003 | Capability and Context coverage | DONE | ARCH-003, ARCH-007, ARCH-013, ARCH-018, ARCH-023 |
+| REQ-003-06-004 | Glossary, ADR, and neutrality audit | IN_PROGRESS | Pending audit entry |
 | REQ-003-06-005 | Readiness and findings assessment | PLANNED | Pending audit entry |
 | REQ-003-06-006 | Final certification decision | PLANNED | Pending audit entry |
 
@@ -94,6 +94,46 @@ graph, and the execution backlog.
 
 No certification decision is made in this activation REQ. The report remains
 `DRAFT` until all audit REQs are complete.
+
+## Architecture Coverage Audit
+
+### Product Capability Coverage
+
+The derivation audit confirms that all 11 Product capabilities have a
+bounded-context realization, logical collaboration, canonical information
+coverage, and applicable cross-cutting quality obligations.
+
+| Capability | Context evidence | Interface / interaction evidence | Information evidence | Quality evidence | Result |
+| --- | --- | --- | --- | --- | --- |
+| Mission Orchestration | Mission, Workflow, Human Governance | ARCH-007, ARCH-014 | ARCH-018, ARCH-020 | ARCH-023, ARCH-027 | PASS |
+| Institutional Knowledge | Institutional Asset, AI Workforce | ARCH-007, ARCH-014 | ARCH-018, ARCH-022 | ARCH-024, ARCH-025 | PASS |
+| AI Workforce | AI Workforce, Mission, Workflow | ARCH-007, ARCH-013, ARCH-015 | ARCH-018, ARCH-022 | ARCH-023, ARCH-026 | PASS |
+| Brand and Identity | Institutional Asset, Human Governance | ARCH-008, ARCH-014 | ARCH-018, ARCH-021 | ARCH-024, ARCH-026 | PASS |
+| Editorial Production | AI Workforce, Institutional Asset, Workflow | ARCH-007, ARCH-014, ARCH-015 | ARCH-018, ARCH-020, ARCH-022 | ARCH-023, ARCH-027 | PASS |
+| Review and Quality | Human Governance, Institutional Asset, Workflow | ARCH-009, ARCH-012, ARCH-017 | ARCH-019, ARCH-020 | ARCH-023, ARCH-025 | PASS |
+| Publishing | Institutional Asset, Human Governance, Connector | ARCH-007, ARCH-014, ARCH-017 | ARCH-018, ARCH-020 | ARCH-024, ARCH-026 | PASS |
+| Distribution | Connector, Institutional Asset, Human Governance | ARCH-008, ARCH-014 | ARCH-018, ARCH-022 | ARCH-024, ARCH-026 | PASS |
+| Analytics and Learning | Mission, Institutional Asset, Connector | ARCH-012, ARCH-014, ARCH-016 | ARCH-018, ARCH-022 | ARCH-025, ARCH-027 | PASS |
+| Human Governance | Human Governance, Mission, Workflow | ARCH-009, ARCH-012, ARCH-017 | ARCH-019, ARCH-020 | ARCH-023, ARCH-025, ARCH-026 | PASS |
+| Connector Coordination | Connector, Workflow, Human Governance | ARCH-007, ARCH-008, ARCH-017 | ARCH-018, ARCH-022 | ARCH-024, ARCH-027 | PASS |
+
+### Bounded Context Coverage
+
+| Bounded Context | Responsibility | Interfaces | Interactions | Information ownership | Quality obligations | Result |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mission and Intent | Mission purpose, scope, objectives, lifecycle | ARCH-007, ARCH-008 | ARCH-012, ARCH-014, ARCH-016 | ARCH-018, ARCH-019 | ARCH-023, ARCH-024, ARCH-027 | PASS |
+| Institutional Asset | Asset identity, versions, representations, lineage | ARCH-007, ARCH-008, ARCH-009 | ARCH-012, ARCH-014, ARCH-017 | ARCH-018, ARCH-020, ARCH-022 | ARCH-023, ARCH-025, ARCH-026 | PASS |
+| AI Workforce | Agents, capabilities, assignments, deliverables | ARCH-007, ARCH-009, ARCH-011 | ARCH-013, ARCH-014, ARCH-015 | ARCH-018, ARCH-022 | ARCH-023, ARCH-026, ARCH-027 | PASS |
+| Human Governance | Authority, stewardship, approval, accountability | ARCH-009, ARCH-010 | ARCH-012, ARCH-015, ARCH-017 | ARCH-019, ARCH-020 | ARCH-023, ARCH-025, ARCH-026 | PASS |
+| Workflow Coordination | Stages, transitions, guards, exceptions, completion | ARCH-007, ARCH-008 | ARCH-012, ARCH-015, ARCH-016 | ARCH-018, ARCH-020 | ARCH-024, ARCH-027 | PASS |
+| Connector Boundary | Translation, external participation, boundary integrity | ARCH-007, ARCH-008, ARCH-010 | ARCH-013, ARCH-014, ARCH-017 | ARCH-018, ARCH-022 | ARCH-024, ARCH-026, ARCH-027 | PASS |
+
+`F-002` — `INFO`: All six certified Bounded Contexts have explicit evidence
+across the requested architectural dimensions. The Tenant and Boundary
+concern is treated as a transversal boundary obligation, as established by
+the Architecture Foundation, rather than as a seventh operational Context.
+Evidence: BBAPLT-ARCH-003, BBAPLT-ARCH-007, BBAPLT-ARCH-013,
+BBAPLT-ARCH-018, and BBAPLT-ARCH-023.
 
 ## Product → Domain → Architecture Derivation Audit
 

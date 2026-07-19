@@ -7972,7 +7972,7 @@
         "EPIC-003",
         "REQ-003-06-001"
       ],
-      "sha256": "3c16d10af7cca9c21f0b27fdf36c8756a65fc4d39310c01c220999e36a151d0f",
+      "sha256": "a6ecad6293c4fbcda5f99b69c59614adb6016520d7b0f42a644a02b101aa0619",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
       "superseded_by": [],
       "supersedes": [],

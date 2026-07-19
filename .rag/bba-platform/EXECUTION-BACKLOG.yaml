@@ -1124,14 +1124,14 @@ program:
               acceptance: ["Every Product capability and relevant Domain concept has explicit architectural derivation evidence or a recorded finding."]
             - id: "REQ-003-06-003"
               title: "Audit Capability and Context Coverage"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-003-06-002"]
               produces: ["BBAPLT-RPT-018"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md"]
               acceptance: ["Every Product capability and each certified Bounded Context are covered across components, interfaces, interactions, information, and quality attributes."]
             - id: "REQ-003-06-004"
               title: "Audit Glossary ADR Coverage and Technology Neutrality"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-003-06-003"]
               produces: ["BBAPLT-RPT-018"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md"]
