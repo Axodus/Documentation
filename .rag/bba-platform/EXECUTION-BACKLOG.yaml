@@ -1221,14 +1221,14 @@ program:
               acceptance: ["Backend responsibilities and boundaries realize certified Architecture Components without redefining Domain ownership."]
             - id: "REQ-004-02-002"
               title: "Define Backend Domain Realization"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-02-001"]
               produces: ["BBAPLT-GDE-082"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md"]
               acceptance: ["Backend realization rules preserve Aggregates, Context boundaries, invariants, authority, lineage, and tenant isolation."]
             - id: "REQ-004-02-003"
               title: "Define Backend Persistence and Data Access Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-02-002"]
               produces: ["BBAPLT-GDE-083"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md"]

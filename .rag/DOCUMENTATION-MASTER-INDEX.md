@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1142
+Source Documents: 1143
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1142
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1142 |
-| Canonical documents | 549 |
+| Total source documents | 1143 |
+| Canonical documents | 550 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 920 |
+| Declared relationships | 923 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1142
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 203 |
+| GUIDE | 204 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1142
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 287 |
+| PROJECT | 288 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1142
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 389 |
+| DRAFT | 390 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -125,6 +125,7 @@ Source Documents: 1142
 | BBAPLT-GDE-079 | BBA Platform Implementation Traceability and ADR Practice | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md](./bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md) |
 | BBAPLT-GDE-080 | BBA Platform Development Quality and Contribution Gates | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md](./bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md) |
 | BBAPLT-GDE-081 | BBA Platform Backend Boundary and Responsibilities | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md](./bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md) |
+| BBAPLT-GDE-082 | BBA Platform Backend Domain Realization | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md](./bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-012 | BBA Platform Mission Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md) |

@@ -5381,6 +5381,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-082",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-082",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
+      "title": "BBA Platform Backend Domain Realization"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12939,6 +12949,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
       ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
@@ -13816,6 +13827,7 @@
       "BBAPLT-GDE-079",
       "BBAPLT-GDE-080",
       "BBAPLT-GDE-081",
+      "BBAPLT-GDE-082",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14251,17 +14263,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 243,
+    "DEPENDS_ON": 244,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 551,
+    "RELATES_TO": 553,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 920,
+    "declared": 923,
     "derived": 0,
     "duplicates": 0,
-    "total": 920,
+    "total": 923,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16724,6 +16736,24 @@
       "source": "BBAPLT-GDE-081",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
       "target": "BBAPLT-ARCH-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-082",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
+      "target": "BBAPLT-GDE-081",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-082",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
+      "target": "BBAPLT-ARCH-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-082",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
+      "target": "BBAPLT-ARCH-017",
       "type": "RELATES_TO"
     },
     {
