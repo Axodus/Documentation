@@ -4325,6 +4325,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-005",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-005",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md",
+      "title": "BBA Platform Canonical Information Flow"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12517,6 +12527,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13300,6 +13311,7 @@
       "BBAPLT-ARCH-002",
       "BBAPLT-ARCH-003",
       "BBAPLT-ARCH-004",
+      "BBAPLT-ARCH-005",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13803,17 +13815,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 208,
+    "DEPENDS_ON": 209,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 490,
+    "RELATES_TO": 491,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 824,
+    "declared": 826,
     "derived": 0,
     "duplicates": 0,
-    "total": 824,
+    "total": 826,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14176,6 +14188,18 @@
       "source": "BBAPLT-ARCH-004",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md",
       "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-005",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md",
+      "target": "BBAPLT-ARCH-004",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-005",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md",
+      "target": "BBAPLT-ARCH-002",
       "type": "RELATES_TO"
     },
     {

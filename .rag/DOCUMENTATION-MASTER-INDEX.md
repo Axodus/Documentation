@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1106
+Source Documents: 1107
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1106
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1106 |
-| Canonical documents | 514 |
+| Total source documents | 1107 |
+| Canonical documents | 515 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 824 |
+| Declared relationships | 826 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1106
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 176 |
+| GUIDE | 177 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1106
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 252 |
+| PROJECT | 253 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1106
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 354 |
+| DRAFT | 355 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -81,6 +81,7 @@ Source Documents: 1106
 | BBAPLT-ARCH-002 | BBA Platform Canonical System Context | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md](./bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md) |
 | BBAPLT-ARCH-003 | BBA Platform Bounded Context Architecture | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md](./bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md) |
 | BBAPLT-ARCH-004 | BBA Platform Logical Component Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md) |
+| BBAPLT-ARCH-005 | BBA Platform Canonical Information Flow | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md](./bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

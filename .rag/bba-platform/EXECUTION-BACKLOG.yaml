@@ -891,7 +891,7 @@ program:
               acceptance: ["Core, Supporting, Coordination, Integration, Governance, and Knowledge Components plus directional dependency rules are documented without deployment topology."]
             - id: "REQ-003-01-005"
               title: "Define Canonical Information Flow"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-01-004"]
               produces: ["BBAPLT-ARCH-005"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md"]
