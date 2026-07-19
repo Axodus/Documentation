@@ -160,3 +160,17 @@ test('Workflow Policies provide bounded flexibility without weakening Rules or h
   assert.match(source, /allow an Agent to assume institutional authority/)
   assert.match(source, /does not define policy engines,[\s\S]*configuration formats,[\s\S]*authorization systems/)
 })
+
+test('Workflow Constraints protect scope, authority, evidence, quality, concurrency, Assets, and connectors', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-063"/)
+  for (const category of ['Mission scope', 'Tenant boundary', 'Assignment binding', 'Sequencing', 'Evidence', 'Quality', 'Authority', 'Human gate', 'Concurrency', 'Asset integrity', 'Cancellation', 'Connector boundary']) assert.match(source, new RegExp(`\\| ${category} \\|`))
+  assert.match(source, /A Work Item cannot exceed the Agent's assigned responsibility,[\s\S]*Capability,[\s\S]*authority/)
+  assert.match(source, /A consequential outcome cannot be accepted when material evidence,[\s\S]*uncertainty,[\s\S]*limitations are undisclosed/)
+  assert.match(source, /Mandatory human Review,[\s\S]*Approval,[\s\S]*Stewardship,[\s\S]*Escalation cannot be removed/)
+  assert.match(source, /Parallel Work Items cannot create contradictory authority,[\s\S]*hidden conflicts/)
+  assert.match(source, /external system or Connector cannot redefine internal domain concepts,[\s\S]*bypass governance/)
+  assert.match(source, /do not silently[\s\S]*convert a refusal[\s\S]*into completion/)
+  assert.match(source, /hide uncertainty,[\s\S]*rewrite Asset lineage/)
+  assert.match(source, /does not define locks,[\s\S]*transactions,[\s\S]*quotas,[\s\S]*database constraints/)
+})

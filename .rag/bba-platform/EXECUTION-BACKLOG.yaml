@@ -619,7 +619,7 @@ program:
               acceptance: ["Workflow policies govern composition, sequencing, parallel work, review cadence, exceptions, rework, and low-risk paths without weakening domain Rules."]
             - id: "REQ-002-05-012"
               title: "Define Workflow Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-011"]
               produces: ["BBAPLT-GDE-063"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md"]

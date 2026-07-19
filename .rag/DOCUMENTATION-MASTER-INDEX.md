@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1085
+Source Documents: 1086
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1085
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1085 |
-| Canonical documents | 493 |
+| Total source documents | 1086 |
+| Canonical documents | 494 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 750 |
+| Declared relationships | 754 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1085
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 159 |
+| GUIDE | 160 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1085
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 231 |
+| PROJECT | 232 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1085
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 333 |
+| DRAFT | 334 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -138,6 +138,7 @@ Source Documents: 1085
 | BBAPLT-GDE-060 | BBA Platform Workflow Completion and Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md) |
 | BBAPLT-GDE-061 | BBA Platform Workflow Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-061-WORKFLOW-RULES.md](./bba-platform/domain/BBAPLT-GDE-061-WORKFLOW-RULES.md) |
 | BBAPLT-GDE-062 | BBA Platform Workflow Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-062-WORKFLOW-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-062-WORKFLOW-POLICIES.md) |
+| BBAPLT-GDE-063 | BBA Platform Workflow Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

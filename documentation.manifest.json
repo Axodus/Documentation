@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1085,
+  "document_count": 1086,
   "documents": [
     {
       "aliases": [],
@@ -8803,6 +8803,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Workflow Policies",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-063",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-021",
+        "BBAPLT-GDE-034",
+        "BBAPLT-GDE-048",
+        "BBAPLT-GDE-062",
+        "EPIC-002",
+        "REQ-002-05-012"
+      ],
+      "sha256": "50f162d71c5e6be14e0f8eb555a7444c5632e4d6b6277137ffeca0fc93f23fcf",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Workflow Constraints",
       "version": "0.1.0"
     },
     {
@@ -26512,6 +26542,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-063",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-062",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-063",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-063",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-063",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -29359,19 +29413,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 493,
-    "declared_relationships": 750,
+    "compliant_documents": 494,
+    "declared_relationships": 754,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 231,
+      "PROJECT": 232,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 97,
+      "D1": 98,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -29410,7 +29464,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 59,
+      "BBA Domain Governance": 60,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -29419,13 +29473,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 333,
+      "DRAFT": 334,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 159,
+      "GUIDE": 160,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -29445,6 +29499,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1085
+    "total_documents": 1086
   }
 }
