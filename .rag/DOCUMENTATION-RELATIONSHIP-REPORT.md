@@ -7,11 +7,11 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1159
-- Declared relationships: 973
+- Graph nodes: 1160
+- Declared relationships: 976
 - Derived relationships: 0
 - Relationship types: 5
-- Unresolved references: 0
+- Unresolved references: 1
 - Duplicate references: 0
 - Orphan documents: 796
 - Cycles: 16
@@ -20,15 +20,15 @@ Generator Version: 1.0.0
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 264 |
+| `DEPENDS_ON` | 265 |
 | `DOCUMENTS` | 17 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 583 |
+| `RELATES_TO` | 585 |
 | `VALIDATES` | 96 |
 
 ## Unresolved References
 
-None.
+- BBAPLT-GDE-096 —RELATES_TO→ BBAPLT-ARC-007
 
 ## Duplicate References
 

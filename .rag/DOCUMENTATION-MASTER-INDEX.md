@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1159
+Source Documents: 1160
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1159
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1159 |
-| Canonical documents | 566 |
+| Total source documents | 1160 |
+| Canonical documents | 567 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 973 |
+| Declared relationships | 976 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1159
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 215 |
+| GUIDE | 216 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1159
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 304 |
+| PROJECT | 305 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1159
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 406 |
+| DRAFT | 407 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -139,6 +139,7 @@ Source Documents: 1159
 | BBAPLT-GDE-093 | BBA Platform Connector Integration Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md) |
 | BBAPLT-GDE-094 | BBA Platform Authentication and Authorization Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md) |
 | BBAPLT-GDE-095 | BBA Platform API Versioning Compatibility and Error Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md) |
+| BBAPLT-GDE-096 | BBA Platform Runtime and Environment Boundaries | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md](./bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-021 | BBA Platform Frontend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md) |

@@ -5521,6 +5521,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-096",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-096",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
+      "title": "BBA Platform Runtime and Environment Boundaries"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13123,6 +13133,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
@@ -14017,6 +14028,7 @@
       "BBAPLT-GDE-093",
       "BBAPLT-GDE-094",
       "BBAPLT-GDE-095",
+      "BBAPLT-GDE-096",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14455,18 +14467,18 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 264,
+    "DEPENDS_ON": 265,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 583,
+    "RELATES_TO": 585,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 973,
+    "declared": 976,
     "derived": 0,
     "duplicates": 0,
-    "total": 973,
-    "unresolved": 0
+    "total": 976,
+    "unresolved": 1
   },
   "relationship_types": [
     "DEPENDS_ON",
@@ -17180,6 +17192,24 @@
       "source": "BBAPLT-GDE-095",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
       "target": "BBAPLT-GDE-079",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-096",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
+      "target": "BBAPLT-RPT-022",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-096",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
+      "target": "BBAPLT-ARC-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-096",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
+      "target": "BBAPLT-GDE-080",
       "type": "RELATES_TO"
     },
     {
@@ -20316,5 +20346,12 @@
     }
   ],
   "schema_version": "1.0.0",
-  "unresolved_references": []
+  "unresolved_references": [
+    {
+      "source": "BBAPLT-GDE-096",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
+      "target": "BBAPLT-ARC-007",
+      "type": "RELATES_TO"
+    }
+  ]
 }
