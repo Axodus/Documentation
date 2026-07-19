@@ -1040,7 +1040,7 @@ program:
               acceptance: ["Institutional, operational, knowledge, governance, analytical, external, and derived information classes are defined with boundaries and handling implications."]
             - id: "REQ-003-04-005"
               title: "Define Information Integrity and Lineage"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-04-004"]
               produces: ["BBAPLT-ARCH-022"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md"]

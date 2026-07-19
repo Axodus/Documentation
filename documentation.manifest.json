@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1125,
+  "document_count": 1126,
   "documents": [
     {
       "aliases": [],
@@ -7640,6 +7640,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Information Classification",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-022"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-022",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-018",
+        "BBAPLT-ARCH-019",
+        "BBAPLT-ARCH-020",
+        "BBAPLT-ARCH-021",
+        "EPIC-003",
+        "REQ-003-04-005"
+      ],
+      "sha256": "5b7798d5a623bab2b1d2344d7ee3e2d55398db949043fcb0c12fece994339c91",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Information Integrity and Lineage",
       "version": "0.1.0"
     },
     {
@@ -26583,6 +26613,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-022",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md",
+      "target": "BBAPLT-ARCH-021",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-022",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md",
+      "target": "BBAPLT-ARCH-018",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-022",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md",
+      "target": "BBAPLT-ARCH-019",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-022",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md",
+      "target": "BBAPLT-ARCH-020",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -31212,19 +31266,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 533,
-    "declared_relationships": 868,
+    "compliant_documents": 534,
+    "declared_relationships": 872,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 271,
+      "PROJECT": 272,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 137,
+      "D1": 138,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31262,7 +31316,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 23,
+      "BBA Architecture Governance": 24,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31273,13 +31327,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 373,
+      "DRAFT": 374,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 193,
+      "GUIDE": 194,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -31299,6 +31353,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1125
+    "total_documents": 1126
   }
 }
