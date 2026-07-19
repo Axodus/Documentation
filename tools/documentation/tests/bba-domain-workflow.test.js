@@ -6,11 +6,11 @@ import test from 'node:test'
 const root = process.cwd()
 const read = (path) => readFile(resolve(root, path), 'utf8')
 
-test('Workflow Sprint activates with thirteen ordered REQs and a Human Governance dependency', async () => {
+test('Workflow Sprint closes with thirteen ordered REQs and a Human Governance dependency', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
-  assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "IN_PROGRESS"/)
-  assert.match(backlog, /status_reason: "WORKFLOW_DOMAIN_ACTIVE"/)
+  assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "PASS_CLOSED"/)
+  assert.match(backlog, /status_reason: "WORKFLOW_CANONICAL_REVIEW_PASS"/)
   for (const id of ['REQ-002-05-001', 'REQ-002-05-002', 'REQ-002-05-003', 'REQ-002-05-004', 'REQ-002-05-005', 'REQ-002-05-006', 'REQ-002-05-007', 'REQ-002-05-008', 'REQ-002-05-009', 'REQ-002-05-010', 'REQ-002-05-011', 'REQ-002-05-012', 'REQ-002-05-013']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))
     assert.match(graph, new RegExp(`"${id}"`))
@@ -173,4 +173,19 @@ test('Workflow Constraints protect scope, authority, evidence, quality, concurre
   assert.match(source, /do not silently[\s\S]*convert a refusal[\s\S]*into completion/)
   assert.match(source, /hide uncertainty,[\s\S]*rewrite Asset lineage/)
   assert.match(source, /does not define locks,[\s\S]*transactions,[\s\S]*quotas,[\s\S]*database constraints/)
+})
+
+test('Workflow Domain review closes the Sprint and hands off to Connector Domain', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const review = await read('.rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md')
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
+  for (const id of ['REQ-002-05-001', 'REQ-002-05-002', 'REQ-002-05-003', 'REQ-002-05-004', 'REQ-002-05-005', 'REQ-002-05-006', 'REQ-002-05-007', 'REQ-002-05-008', 'REQ-002-05-009', 'REQ-002-05-010', 'REQ-002-05-011', 'REQ-002-05-012', 'REQ-002-05-013']) assert.match(backlog, new RegExp(`id: "${id}"[\\s\\S]*status: "DONE"`))
+  assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "WORKFLOW_CANONICAL_REVIEW_PASS"/)
+  assert.match(backlog, /id: "SPRINT-002-06"[\s\S]*status: "PLANNED"[\s\S]*status_reason: "NEXT"/)
+  assert.match(review, /document_id: "BBAPLT-RPT-009"/)
+  assert.match(review, /PASS — Workflow Domain is coherent/)
+  assert.match(review, /Cross-Domain Consistency/)
+  assert.match(review, /Technical Boundary Verification/)
+  assert.match(review, /Known Gaps and Future Decisions/)
+  assert.match(review, /Connector Domain/)
 })

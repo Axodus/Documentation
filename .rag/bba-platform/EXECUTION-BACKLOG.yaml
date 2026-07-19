@@ -536,8 +536,8 @@ program:
         - id: "SPRINT-002-05"
           display_id: "SPRINT-05"
           name: "Workflow Domain"
-          status: "IN_PROGRESS"
-          status_reason: "WORKFLOW_DOMAIN_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "WORKFLOW_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-015"]
           requests:
             - id: "REQ-002-05-001"
@@ -626,7 +626,7 @@ program:
               acceptance: ["Workflow constraints protect sequencing, authority, evidence, quality, concurrency, Tenant, Asset, Mission, and Connector boundaries."]
             - id: "REQ-002-05-013"
               title: "Review Workflow Domain"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-001", "REQ-002-05-002", "REQ-002-05-003", "REQ-002-05-004", "REQ-002-05-005", "REQ-002-05-006", "REQ-002-05-007", "REQ-002-05-008", "REQ-002-05-009", "REQ-002-05-010", "REQ-002-05-011", "REQ-002-05-012"]
               produces: ["BBAPLT-RPT-009"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md"]
@@ -635,6 +635,7 @@ program:
           display_id: "SPRINT-06"
           name: "Connector Domain"
           status: "PLANNED"
+          status_reason: "NEXT"
           documentation_areas: ["AREA-011", "AREA-017"]
           cross_cutting_architecture_area: "AREA-025"
           requests: []

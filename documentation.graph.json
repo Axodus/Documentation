@@ -4960,6 +4960,16 @@
       "title": "BBA Platform Human Governance Domain Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-009",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-009",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
+      "title": "BBA Platform Workflow Domain Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12366,6 +12376,7 @@
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -13132,6 +13143,7 @@
       "BBAPLT-RPT-006",
       "BBAPLT-RPT-007",
       "BBAPLT-RPT-008",
+      "BBAPLT-RPT-009",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -13550,17 +13562,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 186,
+    "DEPENDS_ON": 187,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 442,
+    "RELATES_TO": 444,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 754,
+    "declared": 757,
     "derived": 0,
     "duplicates": 0,
-    "total": 754,
+    "total": 757,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15658,6 +15670,24 @@
       "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
       "target": "BBAPLT-GDE-051",
       "type": "VALIDATES"
+    },
+    {
+      "source": "BBAPLT-RPT-009",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-GDE-063",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-009",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-009",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-008",
+      "type": "RELATES_TO"
     },
     {
       "source": "BUSINESS-GDE-001",
