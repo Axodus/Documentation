@@ -5459,6 +5459,16 @@
       "title": "BBA Platform Quality Attributes and Cross-Cutting Architecture Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-018",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-018",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
+      "title": "BBA Platform Architecture Canonical Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12830,6 +12840,7 @@
       ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13725,6 +13736,7 @@
       "BBAPLT-RPT-015",
       "BBAPLT-RPT-016",
       "BBAPLT-RPT-017",
+      "BBAPLT-RPT-018",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14143,17 +14155,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 235,
+    "DEPENDS_ON": 236,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 536,
+    "RELATES_TO": 538,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 897,
+    "declared": 900,
     "derived": 0,
     "duplicates": 0,
-    "total": 897,
+    "total": 900,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17108,6 +17120,24 @@
       "source": "BBAPLT-RPT-017",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
       "target": "BBAPLT-RPT-016",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-018",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-017",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-018",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-018",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-012",
       "type": "RELATES_TO"
     },
     {
