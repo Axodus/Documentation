@@ -1228,14 +1228,14 @@ program:
               acceptance: ["Backend realization rules preserve Aggregates, Context boundaries, invariants, authority, lineage, and tenant isolation."]
             - id: "REQ-004-02-003"
               title: "Define Backend Persistence and Data Access Contracts"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-02-002"]
               produces: ["BBAPLT-GDE-083"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md"]
               acceptance: ["Persistence and data access contracts preserve canonical identity, version semantics, lineage, ownership, and migration safety."]
             - id: "REQ-004-02-004"
               title: "Define Backend Integration and Connector Realization"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-02-003"]
               produces: ["BBAPLT-GDE-084"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md"]
