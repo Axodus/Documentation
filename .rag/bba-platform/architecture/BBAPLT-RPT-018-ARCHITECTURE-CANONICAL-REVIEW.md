@@ -73,8 +73,8 @@ graph, and the execution backlog.
 | REQ-003-06-001 | Activate review and inventory | DONE | This report, execution backlog, Foundation manifest |
 | REQ-003-06-002 | Product → Domain → Architecture derivation | DONE | Product Final Consistency Review, Domain Rollout Review, ARCH-001, ARCH-014, ARCH-023 |
 | REQ-003-06-003 | Capability and Context coverage | DONE | ARCH-003, ARCH-007, ARCH-013, ARCH-018, ARCH-023 |
-| REQ-003-06-004 | Glossary, ADR, and neutrality audit | IN_PROGRESS | Pending audit entry |
-| REQ-003-06-005 | Readiness and findings assessment | PLANNED | Pending audit entry |
+| REQ-003-06-004 | Glossary, ADR, and neutrality audit | DONE | ARCH-001, ARCH-006, document metadata, explicit deferral sections |
+| REQ-003-06-005 | Readiness and findings assessment | IN_PROGRESS | Pending audit entry |
 | REQ-003-06-006 | Final certification decision | PLANNED | Pending audit entry |
 
 ## Initial Evidence Register
@@ -134,6 +134,56 @@ concern is treated as a transversal boundary obligation, as established by
 the Architecture Foundation, rather than as a seventh operational Context.
 Evidence: BBAPLT-ARCH-003, BBAPLT-ARCH-007, BBAPLT-ARCH-013,
 BBAPLT-ARCH-018, and BBAPLT-ARCH-023.
+
+## Glossary, ADR, and Technology Neutrality Audit
+
+### Terminology Audit
+
+The Architecture Glossary is the canonical source for Architecture terms such
+as `Context`, `Boundary`, `Component`, `Interface`, `Dependency`,
+`Information Flow`, `Capability Mapping`, and `Coordination`. The audit found
+no conflicting synonym or redefinition of the certified Ubiquitous Language.
+Architecture documents distinguish their terms from Domain concepts and use
+the glossary-defined names for logical relationships.
+
+| Check | Evidence | Result |
+| --- | --- | --- |
+| Architecture terms have a canonical definition | BBAPLT-ARCH-006 | PASS |
+| Product and Domain terms are not redefined | BBAPLT-ARCH-001, BBAPLT-ARCH-006 | PASS |
+| Context, Component, Interface, Boundary, and Dependency usage is consistent | BBAPLT-ARCH-001 through BBAPLT-ARCH-027 | PASS |
+| Synonyms do not create competing meanings | Glossary forbidden-usage rules and review corpus | PASS |
+
+### ADR Coverage Audit
+
+| Decision class | ADR or justification | Result |
+| --- | --- | --- |
+| Documentation and Domain derivation authority | BBA-ADR-0004 | PASS |
+| Tenant-neutral architecture and boundary preservation | BBA-ADR-0003, BBA-ADR-0004 | PASS |
+| Architecture Constitution and dependency direction | BBAPLT-ARCH-001, related ADR-0004 | PASS |
+| Logical Context, Interface, Interaction, and Information models | Derived from certified Product and Domain; no new durable technical decision | PASS |
+| Quality Attribute and cross-cutting properties | Derived from Product, Domain, Constitution, and explicit future-decision gates | PASS |
+
+Every Architecture document from `BBAPLT-ARCH-001` through
+`BBAPLT-ARCH-027` has `related_adrs` metadata. Where the document records a
+logical derivation rather than a new durable decision, the Architecture
+Constitution and `BBA-ADR-0004` provide the formal justification for not
+creating an additional ADR.
+
+### Technology Neutrality Audit
+
+The corpus uses prohibited implementation terms only to state explicit scope
+boundaries or deferred concerns. No document makes REST, GraphQL, gRPC, HTTP,
+WebSocket, queues, technical events, Kafka, RabbitMQ, MQTT, Protobuf,
+OpenAPI, OAuth, OIDC, JWT, databases, caches, infrastructure, deployment,
+microservices, monoliths, Hexagonal Architecture, Clean Architecture, Event
+Sourcing, CQRS, Saga, workflow engines, BPMN, Temporal, Camunda, runtime, or
+frameworks normative.
+
+`F-003` — `INFO`: ADR coverage is satisfied by the existing foundation ADRs
+and explicit derivation justifications. Future technical choices will require
+new ADRs when they establish durable architecture constraints. Evidence:
+BBAPLT-ARCH-001, BBAPLT-ARCH-006, metadata for BBAPLT-ARCH-001 through
+BBAPLT-ARCH-027, and the technology-neutrality sections of the review reports.
 
 ## Product → Domain → Architecture Derivation Audit
 

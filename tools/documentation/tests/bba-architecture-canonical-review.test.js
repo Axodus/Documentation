@@ -27,5 +27,8 @@ test('Architecture Canonical Review is activated with an audit-only draft', asyn
   assert.match(report, /Product Capability Coverage/)
   assert.match(report, /Bounded Context Coverage/)
   for (const context of ['Mission and Intent', 'Institutional Asset', 'AI Workforce', 'Human Governance', 'Workflow Coordination', 'Connector Boundary']) assert.match(report, new RegExp(context))
+  assert.match(report, /Glossary, ADR, and Technology Neutrality Audit/)
+  assert.match(report, /Every Architecture document from `BBAPLT-ARCH-001` through/)
+  assert.match(report, /No document makes REST, GraphQL, gRPC/i)
   await access(resolve(root, '.rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md'))
 })

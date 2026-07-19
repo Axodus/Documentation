@@ -1131,14 +1131,14 @@ program:
               acceptance: ["Every Product capability and each certified Bounded Context are covered across components, interfaces, interactions, information, and quality attributes."]
             - id: "REQ-003-06-004"
               title: "Audit Glossary ADR Coverage and Technology Neutrality"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-003-06-003"]
               produces: ["BBAPLT-RPT-018"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md"]
               acceptance: ["Architecture terminology is consistent, important decisions have ADR coverage or an explicit justification, and no prohibited implementation technology is normative in the Architecture Layer."]
             - id: "REQ-003-06-005"
               title: "Assess Architecture Readiness and Findings"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-003-06-004"]
               produces: ["BBAPLT-RPT-018"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md"]
