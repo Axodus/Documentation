@@ -1138,14 +1138,14 @@ program:
               acceptance: ["Architecture terminology is consistent, important decisions have ADR coverage or an explicit justification, and no prohibited implementation technology is normative in the Architecture Layer."]
             - id: "REQ-003-06-005"
               title: "Assess Architecture Readiness and Findings"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-003-06-004"]
               produces: ["BBAPLT-RPT-018"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md"]
               acceptance: ["Findings are classified, gaps and corrective actions are explicit, and the readiness assessment determines whether the Architecture Layer can be certified for Development."]
             - id: "REQ-003-06-006"
               title: "Close Architecture Canonical Review"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-003-06-001", "REQ-003-06-002", "REQ-003-06-003", "REQ-003-06-004", "REQ-003-06-005"]
               produces: ["BBAPLT-RPT-018"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md"]
