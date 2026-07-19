@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1113
+Source Documents: 1114
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1113
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1113 |
-| Canonical documents | 521 |
+| Total source documents | 1114 |
+| Canonical documents | 522 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 838 |
+| Declared relationships | 841 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1113
 | PROPOSAL | 1 |
 | REFERENCE | 15 |
 | RELEASE | 1 |
-| REPORT | 260 |
+| REPORT | 261 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1113
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 259 |
+| PROJECT | 260 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1113
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 361 |
+| DRAFT | 362 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -88,6 +88,7 @@ Source Documents: 1113
 | BBAPLT-ARCH-009 | BBA Platform Interface Responsibility Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md) |
 | BBAPLT-ARCH-010 | BBA Platform Logical Interface Invariants | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md](./bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md) |
 | BBAPLT-ARCH-011 | BBA Platform Logical Interface Taxonomy | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md](./bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md) |
+| BBAPLT-RPT-014 | BBA Platform Logical Interface Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

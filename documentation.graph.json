@@ -5243,6 +5243,16 @@
       "title": "BBA Platform Product Final Consistency Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-014",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-014",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "title": "BBA Platform Logical Interface Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12594,6 +12604,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md",
+      ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13469,6 +13480,7 @@
       "BBAPLT-RPT-010",
       "BBAPLT-RPT-011",
       "BBAPLT-RPT-012",
+      "BBAPLT-RPT-014",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -13887,17 +13899,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 215,
+    "DEPENDS_ON": 216,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 497,
+    "RELATES_TO": 499,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 838,
+    "declared": 841,
     "derived": 0,
     "duplicates": 0,
-    "total": 838,
+    "total": 841,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16498,6 +16510,24 @@
       "source": "BBAPLT-RPT-012",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
       "target": "BBAPLT-RPT-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "target": "BBAPLT-ARCH-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "target": "BBAPLT-ARCH-003",
       "type": "RELATES_TO"
     },
     {

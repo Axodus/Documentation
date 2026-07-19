@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1113,
+  "document_count": 1114,
   "documents": [
     {
       "aliases": [],
@@ -7356,6 +7356,33 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Logical Interface Taxonomy",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-014",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-001",
+        "BBAPLT-ARCH-003",
+        "BBAPLT-ARCH-011",
+        "EPIC-003",
+        "REQ-003-02-006"
+      ],
+      "sha256": "a5cb44277d561bad3919150421fb8e6e2c093813ceb59514346856218af74dc2",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Logical Interface Review",
       "version": "0.1.0"
     },
     {
@@ -28255,6 +28282,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "target": "BBAPLT-ARCH-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      "target": "BBAPLT-ARCH-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -30694,19 +30739,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 521,
-    "declared_relationships": 838,
+    "compliant_documents": 522,
+    "declared_relationships": 841,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 259,
+      "PROJECT": 260,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 125,
+      "D1": 126,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -30744,7 +30789,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 11,
+      "BBA Architecture Governance": 12,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -30755,7 +30800,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 361,
+      "DRAFT": 362,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -30768,7 +30813,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 260,
+      "REPORT": 261,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -30781,6 +30826,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1113
+    "total_documents": 1114
   }
 }
