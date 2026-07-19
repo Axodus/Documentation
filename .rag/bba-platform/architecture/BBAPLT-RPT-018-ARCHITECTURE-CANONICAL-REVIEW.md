@@ -71,8 +71,8 @@ graph, and the execution backlog.
 | REQ | Scope | Status | Evidence |
 | --- | --- | --- | --- |
 | REQ-003-06-001 | Activate review and inventory | DONE | This report, execution backlog, Foundation manifest |
-| REQ-003-06-002 | Product → Domain → Architecture derivation | PLANNED | Pending audit entry |
-| REQ-003-06-003 | Capability and Context coverage | PLANNED | Pending audit entry |
+| REQ-003-06-002 | Product → Domain → Architecture derivation | DONE | Product Final Consistency Review, Domain Rollout Review, ARCH-001, ARCH-014, ARCH-023 |
+| REQ-003-06-003 | Capability and Context coverage | IN_PROGRESS | Pending audit entry |
 | REQ-003-06-004 | Glossary, ADR, and neutrality audit | PLANNED | Pending audit entry |
 | REQ-003-06-005 | Readiness and findings assessment | PLANNED | Pending audit entry |
 | REQ-003-06-006 | Final certification decision | PLANNED | Pending audit entry |
@@ -94,3 +94,33 @@ graph, and the execution backlog.
 
 No certification decision is made in this activation REQ. The report remains
 `DRAFT` until all audit REQs are complete.
+
+## Product → Domain → Architecture Derivation Audit
+
+The certified Product Layer defines durable capabilities and intended
+outcomes. The certified Domain Layer defines the meaning, rules, authority,
+and boundaries that those capabilities organize. The Architecture Layer
+derives logical structures and interactions from both sources.
+
+| Product evidence | Domain realization | Architecture evidence | Result |
+| --- | --- | --- | --- |
+| Mission Orchestration | Mission, Mission lifecycle, Workflow | ARCH-001, ARCH-003, ARCH-012, ARCH-014 | PASS |
+| Institutional Knowledge | Institutional Asset, Knowledge, Lineage | ARCH-005, ARCH-018, ARCH-022 | PASS |
+| AI Workforce | Agent, Capability, Assignment, Deliverable | ARCH-003, ARCH-007, ARCH-014, ARCH-025 | PASS |
+| Brand and Identity | Institutional Asset, Authority, Review | ARCH-018, ARCH-019, ARCH-021 | PASS |
+| Editorial Production | Assignment, Deliverable, Asset version and review | ARCH-007, ARCH-012, ARCH-014, ARCH-020 | PASS |
+| Review and Quality | Review, Human Governance, Quality Attributes | ARCH-010, ARCH-017, ARCH-023, ARCH-026 | PASS |
+| Publishing | Publication, Approval, Asset representation | ARCH-007, ARCH-014, ARCH-018, ARCH-020 | PASS |
+| Distribution | Connector, Publication, Tenant Boundary | ARCH-003, ARCH-008, ARCH-014, ARCH-024 | PASS |
+| Analytics and Learning | Outcomes, evidence, uncertainty, Lineage | ARCH-005, ARCH-016, ARCH-022, ARCH-025 | PASS |
+| Human Governance | Steward, Authority, Approval, Accountability | ARCH-001, ARCH-009, ARCH-012, ARCH-027 | PASS |
+| Connector Coordination | Connector, translation, external boundary | ARCH-002, ARCH-003, ARCH-008, ARCH-017 | PASS |
+
+### Derivation Finding
+
+`F-001` — `INFO`: Product capabilities are represented by explicit logical
+Context, Interface, Interaction, Information, and Quality Attribute evidence.
+The audit found no orphaned capability and no Architecture concept that
+redefines a certified Product or Domain concept. Evidence: BBAPLT-GDE-003,
+BBAPLT-RPT-012, BBAPLT-RPT-011, BBAPLT-ARCH-003, BBAPLT-ARCH-014, and
+BBAPLT-ARCH-023.

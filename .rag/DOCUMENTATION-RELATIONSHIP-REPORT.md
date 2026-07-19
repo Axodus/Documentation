@@ -7,13 +7,13 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1134
+- Graph nodes: 1135
 - Declared relationships: 900
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 795
+- Orphan documents: 796
 - Cycles: 16
 
 ## Relationship Counts
@@ -55,6 +55,7 @@ None.
 
 ## Orphan Documents
 
+- .github/instructions/codacy.instructions.md
 - .instructions/AXODUS_CONTEXT.md
 - .instructions/BLOCKER_REGISTER.md
 - .instructions/BUB_AGENTS.md

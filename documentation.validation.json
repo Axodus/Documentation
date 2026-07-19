@@ -16,6 +16,24 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
+      "source_path": ".github/instructions/codacy.instructions.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".github/instructions/codacy.instructions.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
       "source_path": ".instructions/AXODUS_CONTEXT.md"
     },
     {
@@ -12486,7 +12504,7 @@
   ],
   "errors": 0,
   "generated_at": "2026-07-19T00:00:00Z",
-  "legacy_documents": 578,
+  "legacy_documents": 579,
   "repository_statistics": {
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
@@ -12500,10 +12518,10 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1387,
+    "info": 1389,
     "invalid_exceptions": 0,
     "known_legacy": 505,
-    "legacy_documents": 578,
+    "legacy_documents": 579,
     "migrate_dispositions": 177,
     "relationships": 900,
     "removed_legacy": 19,
@@ -12512,8 +12530,8 @@
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 1134,
-    "unbaselined_legacy": 34,
+    "total_documents": 1135,
+    "unbaselined_legacy": 35,
     "undecided_dispositions": 0,
     "validated_documents": 542,
     "warnings": 0

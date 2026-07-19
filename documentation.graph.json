@@ -323,6 +323,16 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": ".github/instructions/codacy.instructions.md",
+      "publication_status": null,
+      "source_path": ".github/instructions/codacy.instructions.md",
+      "title": "Codacy Rules"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": ".instructions/AXODUS_CONTEXT.md",
       "publication_status": null,
       "source_path": ".instructions/AXODUS_CONTEXT.md",
@@ -11660,6 +11670,7 @@
     }
   ],
   "orphan_documents": [
+    ".github/instructions/codacy.instructions.md",
     ".instructions/AXODUS_CONTEXT.md",
     ".instructions/BLOCKER_REGISTER.md",
     ".instructions/BUB_AGENTS.md",
@@ -12458,6 +12469,7 @@
   ],
   "reachability": {
     "from_master_index": [
+      ".github/instructions/codacy.instructions.md",
       ".instructions/AXODUS_CONTEXT.md",
       ".instructions/BLOCKER_REGISTER.md",
       ".instructions/BUB_AGENTS.md",

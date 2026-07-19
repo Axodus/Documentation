@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1134
+Source Documents: 1135
 
 ## Navigation
 
@@ -22,9 +22,9 @@ Source Documents: 1134
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1134 |
+| Total source documents | 1135 |
 | Canonical documents | 542 |
-| Legacy documents | 578 |
+| Legacy documents | 579 |
 | Template documents | 14 |
 | Declared relationships | 900 |
 | Derived relationships | 0 |
@@ -49,7 +49,7 @@ Source Documents: 1134
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 6 |
-| UNSPECIFIED | 578 |
+| UNSPECIFIED | 579 |
 ## Documents by Authority
 
 | Value | Count |
@@ -59,7 +59,7 @@ Source Documents: 1134
 | MODULE | 1 |
 | PORTFOLIO | 29 |
 | PROJECT | 280 |
-| UNSPECIFIED | 578 |
+| UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
 | Value | Count |
@@ -67,7 +67,7 @@ Source Documents: 1134
 | ACTIVE | 22 |
 | APPROVED | 152 |
 | DRAFT | 382 |
-| UNSPECIFIED | 578 |
+| UNSPECIFIED | 579 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -618,6 +618,7 @@ Source Documents: 1134
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
 |---|---|---|---|---|---|---|---|
+| — | Codacy Rules | — | — | — | — | — | [.github/instructions/codacy.instructions.md](../.github/instructions/codacy.instructions.md) |
 | — | Axodus Ecosystem Context | — | — | — | — | — | [.instructions/AXODUS_CONTEXT.md](../.instructions/AXODUS_CONTEXT.md) |
 | — | Documentation Blocker Register | — | — | — | — | — | [.instructions/BLOCKER_REGISTER.md](../.instructions/BLOCKER_REGISTER.md) |
 | — | BUB_AGENTS.md | — | — | — | — | — | [.instructions/BUB_AGENTS.md](../.instructions/BUB_AGENTS.md) |

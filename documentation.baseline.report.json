@@ -8,8 +8,8 @@
   "generation_timestamp": "2026-07-19T00:00:00Z",
   "generator_version": "1.0.0",
   "known_legacy": 505,
-  "legacy_documents": 578,
-  "new_legacy": 34,
+  "legacy_documents": 579,
+  "new_legacy": 35,
   "removed_legacy": 19,
   "repository_summary": {
     "active_exceptions": 563,
@@ -18,5 +18,5 @@
     "invalid_exceptions": 0,
     "revoked_exceptions": 0
   },
-  "total_documents": 1134
+  "total_documents": 1135
 }

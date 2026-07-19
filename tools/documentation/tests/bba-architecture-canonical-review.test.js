@@ -21,5 +21,8 @@ test('Architecture Canonical Review is activated with an audit-only draft', asyn
   assert.match(report, /publication_status: "DRAFT"/)
   assert.match(report, /audit-only certification gate/i)
   assert.match(report, /BBAPLT-ARCH-001.*BBAPLT-ARCH-027/)
+  for (const capability of ['Mission Orchestration', 'Institutional Knowledge', 'AI Workforce', 'Publishing', 'Human Governance', 'Connector Coordination']) assert.match(report, new RegExp(capability))
+  assert.match(report, /Product → Domain → Architecture Derivation Audit/)
+  assert.match(report, /no orphaned capability/i)
   await access(resolve(root, '.rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md'))
 })
