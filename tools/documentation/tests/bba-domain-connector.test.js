@@ -29,3 +29,16 @@ test('Connector Overview defines a semantic boundary without technical integrati
   assert.match(source, /never creates[\s\S]*institutional Authority,[\s\S]*changes Rules,[\s\S]*alters Accountability/)
   assert.match(source, /does not define APIs,[\s\S]*protocols,[\s\S]*authentication,[\s\S]*runtime/)
 })
+
+test('Connector identity and classifications remain semantic and technology-independent', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-065"/)
+  assert.match(source, /stable semantic relationship and boundary role/)
+  for (const classification of ['Inbound', 'Outbound', 'Bidirectional', 'Human-mediated', 'Automated', 'Institutional']) assert.match(source, new RegExp(`\\| ${classification} \\|`))
+  assert.match(source, /does not depend on an external vendor,[\s\S]*URL,[\s\S]*endpoint,[\s\S]*protocol/)
+  assert.match(source, /Classifications describe semantic roles/)
+  assert.match(source, /not[\s\S]*protocols,[\s\S]*deployment modes,[\s\S]*trust scores/)
+  assert.match(source, /A Connector retains its canonical identity across representations,[\s\S]*executors/)
+  assert.match(source, /Classification cannot enlarge the Connector's responsibility,[\s\S]*authority,[\s\S]*Mission scope/)
+  assert.match(source, /does not define identifiers,[\s\S]*schemas,[\s\S]*endpoints,[\s\S]*API contracts/)
+})

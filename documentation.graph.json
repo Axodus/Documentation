@@ -36,6 +36,19 @@
       ]
     },
     {
+      "allowed": true,
+      "edge_count": 1,
+      "nodes": [
+        "BBAPLT-GDE-065"
+      ],
+      "relationship_types": [
+        "RELATES_TO"
+      ],
+      "source_document_ids": [
+        "BBAPLT-GDE-065"
+      ]
+    },
+    {
       "allowed": false,
       "edge_count": 10,
       "nodes": [
@@ -4898,6 +4911,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-064-CONNECTOR-DOMAIN-OVERVIEW.md",
       "title": "BBA Platform Connector Domain Overview"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-065",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-065",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
+      "title": "BBA Platform Connector Identity and Classification"
     },
     {
       "authority_level": "PROJECT",
@@ -12383,6 +12406,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-062-WORKFLOW-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-064-CONNECTOR-DOMAIN-OVERVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13148,6 +13172,7 @@
       "BBAPLT-GDE-062",
       "BBAPLT-GDE-063",
       "BBAPLT-GDE-064",
+      "BBAPLT-GDE-065",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13574,17 +13599,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 188,
+    "DEPENDS_ON": 189,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 447,
+    "RELATES_TO": 449,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 761,
+    "declared": 764,
     "derived": 0,
     "duplicates": 0,
-    "total": 761,
+    "total": 764,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15297,6 +15322,24 @@
       "source": "BBAPLT-GDE-064",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-064-CONNECTOR-DOMAIN-OVERVIEW.md",
       "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-065",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
+      "target": "BBAPLT-GDE-064",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-065",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
+      "target": "BBAPLT-GDE-013",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-065",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
+      "target": "BBAPLT-GDE-065",
       "type": "RELATES_TO"
     },
     {

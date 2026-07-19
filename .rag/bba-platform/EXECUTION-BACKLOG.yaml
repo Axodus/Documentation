@@ -648,7 +648,7 @@ program:
               acceptance: ["Connector is defined as a semantic boundary concept that exchanges domain meaning without becoming an authority or technical integration specification."]
             - id: "REQ-002-06-002"
               title: "Define Connector Identity and Classification"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-001"]
               produces: ["BBAPLT-GDE-065"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md"]

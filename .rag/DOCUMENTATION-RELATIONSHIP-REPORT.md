@@ -7,23 +7,23 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1088
-- Declared relationships: 761
+- Graph nodes: 1089
+- Declared relationships: 764
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
 - Orphan documents: 795
-- Cycles: 14
+- Cycles: 15
 
 ## Relationship Counts
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 188 |
+| `DEPENDS_ON` | 189 |
 | `DOCUMENTS` | 17 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 447 |
+| `RELATES_TO` | 449 |
 | `VALIDATES` | 96 |
 
 ## Unresolved References
@@ -37,6 +37,7 @@ None.
 ## Cycles
 
 - BBA-ADR-0002 → BBA-ADR-0003 → BBA-GDE-100 → BBA-POL-001 → BBA-REF-001 → BBA-REF-002 → BBA-REF-003 → BBA-ROAD-002 → BBA-ROAD-003 → BBA-STD-001 → BBA-STD-002 (requires Validation Engine assessment; DEPENDS_ON, DOCUMENTS, RELATES_TO)
+- BBAPLT-GDE-065 (permitted; RELATES_TO)
 - DOC-ADR-001 → DOC-ADR-003 → DOC-ADR-006 → DOC-ADR-012 → DOC-ADR-017 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-005 → DOC-ADR-011 → DOC-ADR-016 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
 - DOC-ADR-007 → DOC-ADR-013 → DOC-ADR-014 (requires Validation Engine assessment; DEPENDS_ON, RELATES_TO)
