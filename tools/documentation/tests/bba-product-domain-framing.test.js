@@ -17,7 +17,7 @@ const framingDocuments = [
 
 test('Product Sprint 02 is closed and Epic 001 remains in progress', async () => {
   const source = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
-  assert.match(source, /id: "EPIC-001"[\s\S]*status: "IN_PROGRESS"/)
+  assert.match(source, /id: "EPIC-001"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "PRODUCT_LAYER_CERTIFIED"/)
   assert.match(source, /id: "SPRINT-02"[\s\S]*status: "PASS_CLOSED"/)
   for (const id of ['REQ-001-02-001', 'REQ-001-02-002', 'REQ-001-02-003', 'REQ-001-02-004', 'REQ-001-02-005', 'REQ-001-02-006', 'REQ-001-02-007']) {
     const request = source.match(new RegExp(`id: "${id}"[\\s\\S]*?status: "([A-Z_]+)"`))

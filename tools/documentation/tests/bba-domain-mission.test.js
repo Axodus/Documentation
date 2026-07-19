@@ -9,10 +9,10 @@ const read = (path) => readFile(resolve(root, path), 'utf8')
 test('EPIC-002 Mission Domain foundation is active with namespaced execution IDs', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
-  assert.match(backlog, /id: "EPIC-001"[\s\S]*status_reason: "WAITING_DOMAIN_VALIDATION"/)
+  assert.match(backlog, /id: "EPIC-001"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "PRODUCT_LAYER_CERTIFIED"/)
   assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "PASS_CLOSED"/)
   assert.match(backlog, /id: "SPRINT-002-01"[\s\S]*status: "PASS_CLOSED"/)
-  assert.match(backlog, /id: "SPRINT-001-03"[\s\S]*status: "PLANNED"/)
+  assert.match(backlog, /id: "SPRINT-001-03"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "PRODUCT_FINAL_CONSISTENCY_PASS"/)
   for (const id of ['SPRINT-002-01', 'SPRINT-002-02', 'SPRINT-002-03', 'SPRINT-002-04', 'SPRINT-002-05', 'SPRINT-002-06']) {
     assert.match(graph, new RegExp(`"${id}"`))
   }
@@ -101,7 +101,7 @@ test('Mission Domain Review closes the Sprint and hands off to Institutional Ass
   const path = '.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md'
   const source = await read(path)
   await access(resolve(root, path))
-  assert.match(backlog, /id: "EPIC-001"[\s\S]*status_reason: "WAITING_DOMAIN_VALIDATION"/)
+  assert.match(backlog, /id: "EPIC-001"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "PRODUCT_LAYER_CERTIFIED"/)
   assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "PASS_CLOSED"/)
   assert.match(backlog, /id: "SPRINT-002-01"[\s\S]*status: "PASS_CLOSED"/)
   for (const id of ['REQ-002-01-001', 'REQ-002-01-002', 'REQ-002-01-003', 'REQ-002-01-004', 'REQ-002-01-005', 'REQ-002-01-006', 'REQ-002-01-007']) {
