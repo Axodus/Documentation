@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-18T00:00:00Z
-Source Documents: 1074
+Generated At: 2026-07-19T00:00:00Z
+Source Documents: 1075
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1074
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1074 |
-| Canonical documents | 482 |
+| Total source documents | 1075 |
+| Canonical documents | 483 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 706 |
+| Declared relationships | 710 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1074
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 148 |
+| GUIDE | 149 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1074
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 220 |
+| PROJECT | 221 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1074
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 322 |
+| DRAFT | 323 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -127,6 +127,7 @@ Source Documents: 1074
 | BBAPLT-GDE-049 | BBA Platform Human Governance Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md](./bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md) |
 | BBAPLT-GDE-050 | BBA Platform Human Governance Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md) |
 | BBAPLT-GDE-051 | BBA Platform Human Governance Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md) |
+| BBAPLT-GDE-052 | BBA Platform Workflow Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

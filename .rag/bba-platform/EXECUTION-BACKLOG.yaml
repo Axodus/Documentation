@@ -536,10 +536,101 @@ program:
         - id: "SPRINT-002-05"
           display_id: "SPRINT-05"
           name: "Workflow Domain"
-          status: "PLANNED"
-          status_reason: "NEXT"
+          status: "IN_PROGRESS"
+          status_reason: "WORKFLOW_DOMAIN_ACTIVE"
           documentation_areas: ["AREA-015"]
-          requests: []
+          requests:
+            - id: "REQ-002-05-001"
+              title: "Define Workflow Domain Overview"
+              status: "DONE"
+              depends_on: ["REQ-002-04-012"]
+              produces: ["BBAPLT-GDE-052"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md"]
+              acceptance: ["Workflow is defined as semantic coordination of Mission work that references established domains without redefining authority, responsibility, or identity."]
+            - id: "REQ-002-05-002"
+              title: "Define Workflow Definition"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-001"]
+              produces: ["BBAPLT-GDE-053"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md"]
+              acceptance: ["Workflow Definition expresses purpose, scope, participants, stages, criteria, policies, and completion semantics without technical orchestration."]
+            - id: "REQ-002-05-003"
+              title: "Define Workflow Stages"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-002"]
+              produces: ["BBAPLT-GDE-054"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md"]
+              acceptance: ["Workflow Stage defines a bounded semantic phase with purpose, inputs, outputs, roles, criteria, gates, and exit meaning."]
+            - id: "REQ-002-05-004"
+              title: "Define Work Items and Assignment Binding"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-003"]
+              produces: ["BBAPLT-GDE-055"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md"]
+              acceptance: ["Work Item and Assignment Binding connect workflow work to Mission, Agent, Capability, Deliverable, Steward, and authority boundaries without creating new authority."]
+            - id: "REQ-002-05-005"
+              title: "Define Entry and Exit Criteria"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-004"]
+              produces: ["BBAPLT-GDE-056"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md"]
+              acceptance: ["Entry and Exit Criteria make readiness, evidence, quality, approval, and completion conditions explicit and verifiable."]
+            - id: "REQ-002-05-006"
+              title: "Define Transitions and Guards"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-005"]
+              produces: ["BBAPLT-GDE-057"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md"]
+              acceptance: ["Transitions and Guards define permitted semantic movement, preconditions, postconditions, and blocked paths without prescribing workflow engines."]
+            - id: "REQ-002-05-007"
+              title: "Define Decision Points and Human Gates"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-006"]
+              produces: ["BBAPLT-GDE-058"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md"]
+              acceptance: ["Decision Points and human gates identify when Review, Approval, Stewardship, or escalation is required without transferring authority to Workflow."]
+            - id: "REQ-002-05-008"
+              title: "Define Exception Paths"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-007"]
+              produces: ["BBAPLT-GDE-059"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md"]
+              acceptance: ["Exception Paths define refusal, conflict, risk, evidence gaps, failure, cancellation, rework, and escalation while preserving governance boundaries."]
+            - id: "REQ-002-05-009"
+              title: "Define Workflow Completion Criteria and Lifecycle"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-008"]
+              produces: ["BBAPLT-GDE-060"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md"]
+              acceptance: ["Workflow lifecycle and completion criteria distinguish semantic completion, suspension, cancellation, retirement, and technical execution state."]
+            - id: "REQ-002-05-010"
+              title: "Define Workflow Rules"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-009"]
+              produces: ["BBAPLT-GDE-061"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-061-WORKFLOW-RULES.md"]
+              acceptance: ["Workflow invariants preserve Mission scope, Assignment meaning, human authority, Asset lineage, gates, Tenant boundaries, and traceability."]
+            - id: "REQ-002-05-011"
+              title: "Define Workflow Policies"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-010"]
+              produces: ["BBAPLT-GDE-062"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-062-WORKFLOW-POLICIES.md"]
+              acceptance: ["Workflow policies govern composition, sequencing, parallel work, review cadence, exceptions, rework, and low-risk paths without weakening domain Rules."]
+            - id: "REQ-002-05-012"
+              title: "Define Workflow Constraints"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-011"]
+              produces: ["BBAPLT-GDE-063"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md"]
+              acceptance: ["Workflow constraints protect sequencing, authority, evidence, quality, concurrency, Tenant, Asset, Mission, and Connector boundaries."]
+            - id: "REQ-002-05-013"
+              title: "Review Workflow Domain"
+              status: "PLANNED"
+              depends_on: ["REQ-002-05-001", "REQ-002-05-002", "REQ-002-05-003", "REQ-002-05-004", "REQ-002-05-005", "REQ-002-05-006", "REQ-002-05-007", "REQ-002-05-008", "REQ-002-05-009", "REQ-002-05-010", "REQ-002-05-011", "REQ-002-05-012"]
+              produces: ["BBAPLT-RPT-009"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md"]
+              acceptance: ["Workflow Domain Review records PASS or FAIL, verifies cross-domain consistency and technical boundaries, lists gaps, and approves handoff to Connector Domain when complete."]
         - id: "SPRINT-002-06"
           display_id: "SPRINT-06"
           name: "Connector Domain"

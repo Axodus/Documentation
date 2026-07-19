@@ -279,7 +279,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-18T00:00:00Z",
+  "generated_at": "2026-07-19T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -4768,6 +4768,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
       "title": "BBA Platform Human Governance Constraints"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-052",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-052",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
+      "title": "BBA Platform Workflow Domain Overview"
     },
     {
       "authority_level": "PROJECT",
@@ -12230,6 +12240,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-049-GOVERNANCE-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12981,6 +12992,7 @@
       "BBAPLT-GDE-049",
       "BBAPLT-GDE-050",
       "BBAPLT-GDE-051",
+      "BBAPLT-GDE-052",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13406,17 +13418,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 174,
+    "DEPENDS_ON": 175,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 406,
+    "RELATES_TO": 409,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 706,
+    "declared": 710,
     "derived": 0,
     "duplicates": 0,
-    "total": 706,
+    "total": 710,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14817,6 +14829,30 @@
       "source": "BBAPLT-GDE-051",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
       "target": "BBAPLT-GDE-043",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-052",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-RPT-008",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-052",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-052",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-029",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-052",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
+      "target": "BBAPLT-GDE-041",
       "type": "RELATES_TO"
     },
     {
