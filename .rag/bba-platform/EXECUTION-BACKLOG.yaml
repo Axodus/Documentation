@@ -926,7 +926,7 @@ program:
               acceptance: ["All certified Contexts are covered with published, consumed, consulted information and authority relationships."]
             - id: "REQ-003-02-003"
               title: "Define Interface Responsibility Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-02-002"]
               produces: ["BBAPLT-ARCH-009"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md"]
