@@ -4295,6 +4295,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-002",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-002",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
+      "title": "BBA Platform Canonical System Context"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12484,6 +12494,7 @@
       ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
       ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13264,6 +13275,7 @@
       "BBA-STD-001",
       "BBA-STD-002",
       "BBAPLT-ARCH-001",
+      "BBAPLT-ARCH-002",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13767,17 +13779,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 204,
+    "DEPENDS_ON": 205,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 487,
+    "RELATES_TO": 489,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 817,
+    "declared": 820,
     "derived": 0,
     "duplicates": 0,
-    "total": 817,
+    "total": 820,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14098,6 +14110,24 @@
       "source": "BBAPLT-ARCH-001",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
       "target": "BBA-ADR-0004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-002",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-002",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
+      "target": "BBAPLT-RPT-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-002",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
+      "target": "BBAPLT-RPT-012",
       "type": "RELATES_TO"
     },
     {

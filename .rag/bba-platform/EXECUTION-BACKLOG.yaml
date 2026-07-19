@@ -870,7 +870,7 @@ program:
               acceptance: ["Architecture Constitution records immutable principles, authority boundaries, derivation rules, dependency direction, tenant isolation, Asset source of truth, human authority, and Change Control without selecting technologies."]
             - id: "REQ-003-01-002"
               title: "Define Canonical System Context"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-01-001"]
               produces: ["BBAPLT-ARCH-002"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md"]
