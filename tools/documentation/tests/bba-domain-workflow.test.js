@@ -117,3 +117,18 @@ test('Exception Paths cover refusal, conflict, risk, evidence, failure, cancella
   assert.match(source, /cannot change Asset identity,[\s\S]*erase lineage,[\s\S]*rewrite an immutable version/)
   assert.match(source, /does not define retries,[\s\S]*compensating transactions,[\s\S]*dead-letter[\s\S]*queues/)
 })
+
+test('Workflow completion and lifecycle distinguish semantic closure from execution state', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-060"/)
+  for (const state of ['Proposed', 'Ready', 'Active', 'Suspended', 'Completed', 'Cancelled', 'Retired']) assert.match(source, new RegExp(`\\| ${state} \\|`))
+  assert.match(source, /Workflow[\s\n]+completion is a domain conclusion[\s\S]*technical executor stopping/)
+  assert.match(source, /intended outcome and Mission contribution are explicit/)
+  assert.match(source, /Mandatory Reviews,[\s\S]*Approvals,[\s\S]*human gates are satisfied/)
+  assert.match(source, /Institutional Assets preserve identity,[\s\S]*lineage,[\s\S]*version meaning/)
+  assert.match(source, /Agent silence,[\s\S]*successful[\s\S]*execution signal without the applicable domain[\s\S]*criteria/)
+  assert.match(source, /Suspension pauses semantic progress without erasing/)
+  assert.match(source, /Cancellation[\s\S]*prevents new progress[\s\S]*does not erase[\s\S]*completed work/)
+  assert.match(source, /Retirement[\s\S]*prevents a Workflow Definition[\s\S]*historical executions/)
+  assert.match(source, /does not define database states,[\s\S]*state machines,[\s\S]*runtime termination/)
+})

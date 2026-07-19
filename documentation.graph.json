@@ -4852,6 +4852,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-060",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-060",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md",
+      "title": "BBA Platform Workflow Completion and Lifecycle"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12318,6 +12328,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13077,6 +13088,7 @@
       "BBAPLT-GDE-057",
       "BBAPLT-GDE-058",
       "BBAPLT-GDE-059",
+      "BBAPLT-GDE-060",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13502,17 +13514,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 182,
+    "DEPENDS_ON": 183,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 430,
+    "RELATES_TO": 433,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 738,
+    "declared": 742,
     "derived": 0,
     "duplicates": 0,
-    "total": 738,
+    "total": 742,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15105,6 +15117,30 @@
       "source": "BBAPLT-GDE-059",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
       "target": "BBAPLT-GDE-051",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-060",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-059",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-060",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-060",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-060",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-048",
       "type": "RELATES_TO"
     },
     {

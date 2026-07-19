@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1082
+Source Documents: 1083
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1082
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1082 |
-| Canonical documents | 490 |
+| Total source documents | 1083 |
+| Canonical documents | 491 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 738 |
+| Declared relationships | 742 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1082
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 156 |
+| GUIDE | 157 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1082
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 228 |
+| PROJECT | 229 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1082
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 330 |
+| DRAFT | 331 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -135,6 +135,7 @@ Source Documents: 1082
 | BBAPLT-GDE-057 | BBA Platform Workflow Transitions and Guards | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md](./bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md) |
 | BBAPLT-GDE-058 | BBA Platform Workflow Decision Points and Human Gates | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md](./bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md) |
 | BBAPLT-GDE-059 | BBA Platform Workflow Exception Paths | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md](./bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md) |
+| BBAPLT-GDE-060 | BBA Platform Workflow Completion and Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

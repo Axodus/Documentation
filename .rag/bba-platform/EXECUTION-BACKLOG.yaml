@@ -598,7 +598,7 @@ program:
               acceptance: ["Exception Paths define refusal, conflict, risk, evidence gaps, failure, cancellation, rework, and escalation while preserving governance boundaries."]
             - id: "REQ-002-05-009"
               title: "Define Workflow Completion Criteria and Lifecycle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-008"]
               produces: ["BBAPLT-GDE-060"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-060-WORKFLOW-COMPLETION-AND-LIFECYCLE.md"]
