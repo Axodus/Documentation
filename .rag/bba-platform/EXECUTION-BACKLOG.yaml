@@ -577,7 +577,7 @@ program:
               acceptance: ["Entry and Exit Criteria make readiness, evidence, quality, approval, and completion conditions explicit and verifiable."]
             - id: "REQ-002-05-006"
               title: "Define Transitions and Guards"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-005"]
               produces: ["BBAPLT-GDE-057"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md"]

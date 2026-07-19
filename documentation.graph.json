@@ -4822,6 +4822,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-057",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-057",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
+      "title": "BBA Platform Workflow Transitions and Guards"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12285,6 +12295,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13041,6 +13052,7 @@
       "BBAPLT-GDE-054",
       "BBAPLT-GDE-055",
       "BBAPLT-GDE-056",
+      "BBAPLT-GDE-057",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13466,17 +13478,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 179,
+    "DEPENDS_ON": 180,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 421,
+    "RELATES_TO": 424,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 726,
+    "declared": 730,
     "derived": 0,
     "duplicates": 0,
-    "total": 726,
+    "total": 730,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14997,6 +15009,30 @@
       "source": "BBAPLT-GDE-056",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
       "target": "BBAPLT-GDE-045",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-057",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
+      "target": "BBAPLT-GDE-056",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-057",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
+      "target": "BBAPLT-GDE-014",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-057",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
+      "target": "BBAPLT-GDE-035",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-057",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
+      "target": "BBAPLT-GDE-048",
       "type": "RELATES_TO"
     },
     {

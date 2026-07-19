@@ -80,3 +80,15 @@ test('Entry and Exit Criteria make readiness, evidence, quality, review, approva
   assert.match(source, /They do not define Asset[\s\S]*identity[\s\S]*version[\s\S]*semantics[\s\S]*publication[\s\S]*authority/)
   assert.match(source, /does not define assertions, test frameworks, scores, automated[\s\S]*quality gates/)
 })
+
+test('Transitions and Guards define permitted movement, preconditions, postconditions, blocking, and governance', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-057"/)
+  for (const element of ['Source', 'Triggering outcome', 'Guard', 'Postcondition', 'Consequence', 'Responsible role', 'Exception path']) assert.match(source, new RegExp(`\\| ${element} \\|`))
+  assert.match(source, /A Guard must be understandable in its Mission[\s\S]*Tenant context/)
+  assert.match(source, /A Precondition describes what must already be true/)
+  assert.match(source, /When a Guard fails, the Transition is blocked/)
+  assert.match(source, /does not[\s\S]*silently skip[\s\S]*Guard/)
+  assert.match(source, /It[\s\S]*cannot grant Authority,[\s\S]*remove a mandatory gate,[\s\S]*enlarge a Mission/)
+  assert.match(source, /does not define state machines, event handlers, queues, workflow[\s\S]*engines/)
+})
