@@ -1340,7 +1340,7 @@ program:
               acceptance: ["Technical access contracts implement Human Governance authority and Tenant isolation without replacing domain Authority or Permission semantics."]
             - id: "REQ-004-04-005"
               title: "Define API Versioning Compatibility and Error Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-04-004"]
               produces: ["BBAPLT-GDE-095"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md"]

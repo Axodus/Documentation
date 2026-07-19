@@ -5511,6 +5511,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-095",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-095",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
+      "title": "BBA Platform API Versioning Compatibility and Error Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13102,6 +13112,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
@@ -13994,6 +14005,7 @@
       "BBAPLT-GDE-092",
       "BBAPLT-GDE-093",
       "BBAPLT-GDE-094",
+      "BBAPLT-GDE-095",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14431,17 +14443,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 258,
+    "DEPENDS_ON": 259,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 581,
+    "RELATES_TO": 583,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 965,
+    "declared": 968,
     "derived": 0,
     "duplicates": 0,
-    "total": 965,
+    "total": 968,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17138,6 +17150,24 @@
       "source": "BBAPLT-GDE-094",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
       "target": "BBAPLT-GDE-051",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-095",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
+      "target": "BBAPLT-GDE-094",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-095",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-010",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-095",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
+      "target": "BBAPLT-GDE-079",
       "type": "RELATES_TO"
     },
     {
