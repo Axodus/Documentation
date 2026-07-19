@@ -782,7 +782,7 @@ program:
               acceptance: ["Domain documents are checked for leakage of APIs, databases, runtime, queues, protocols, frontend, infrastructure, authentication, authorization, and frameworks."]
             - id: "REQ-002-07-007"
               title: "Assess Domain Readiness and Open Gaps"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-07-006"]
               produces: ["BBAPLT-RPT-011"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]

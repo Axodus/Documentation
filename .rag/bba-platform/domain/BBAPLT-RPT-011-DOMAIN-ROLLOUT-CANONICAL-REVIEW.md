@@ -167,6 +167,36 @@ The domain layer names invariants and deferred concerns without selecting a
 technical realization. Architecture decisions remain reserved for EPIC-003 and
 must be traced back to the approved domain evidence.
 
+## Readiness and Open Gaps
+
+REQ-002-07-007 assessed readiness against the Architecture Layer entry
+criteria:
+
+| Readiness criterion | Result |
+| --- | --- |
+| Domain vocabulary is explicit | PASS |
+| Ownership boundaries are explicit | PASS |
+| Lifecycle, rules, policies, and constraints are present | PASS |
+| Cross-domain relationships are explicit | PASS |
+| Product-to-Domain traceability is present | PASS |
+| Architecture leakage is absent | PASS |
+| Open gaps are registered | PASS |
+| Architecture entry criteria are defined | PASS |
+
+The domain is ready to serve as the source for Architecture Layer
+documentation. The following gaps remain deliberately open and must be
+handled by later governed work:
+
+1. Aggregate Root and bounded-context decisions require architectural review;
+2. technical realization of domain lifecycles, rules, and policies is not yet defined;
+3. persistence, events, APIs, runtime, and deployment choices remain open;
+4. Product Final Consistency Review remains pending after domain validation;
+5. public publication and private-to-public sanitization remain outside this audit;
+6. implementation-level observability, security controls, and operational ownership remain open.
+
+These gaps are not blockers for domain closure because they are explicitly
+outside the scope of the canonical review and have a governed destination.
+
 ## Evidence Index
 
 | REQ | Audit evidence | Result |
@@ -177,7 +207,7 @@ must be traced back to the approved domain evidence.
 | REQ-002-07-004 | Duplication and conflict audit | PASS |
 | REQ-002-07-005 | Product-to-Domain traceability audit | PASS |
 | REQ-002-07-006 | Architecture boundary audit | PASS |
-| REQ-002-07-007 | Readiness and gap assessment | PENDING |
+| REQ-002-07-007 | Readiness and gap assessment | PASS |
 | REQ-002-07-008 | Final canonical decision | PENDING |
 
 ## Audit Boundary
