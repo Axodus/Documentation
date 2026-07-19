@@ -4945,6 +4945,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-068",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-068",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
+      "title": "BBA Platform Connector Context and Translation Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12429,6 +12439,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13197,6 +13208,7 @@
       "BBAPLT-GDE-065",
       "BBAPLT-GDE-066",
       "BBAPLT-GDE-067",
+      "BBAPLT-GDE-068",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13623,17 +13635,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 191,
+    "DEPENDS_ON": 192,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 454,
+    "RELATES_TO": 457,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 771,
+    "declared": 775,
     "derived": 0,
     "duplicates": 0,
-    "total": 771,
+    "total": 775,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15406,6 +15418,30 @@
       "source": "BBAPLT-GDE-067",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md",
       "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-068",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
+      "target": "BBAPLT-GDE-067",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-068",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-068",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-068",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
+      "target": "BBAPLT-GDE-063",
       "type": "RELATES_TO"
     },
     {

@@ -669,7 +669,7 @@ program:
               acceptance: ["Domain, external, trust, and Tenant boundaries are defined semantically without security or infrastructure mechanisms."]
             - id: "REQ-002-06-005"
               title: "Define Connector Context and Translation Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-004"]
               produces: ["BBAPLT-GDE-068"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md"]

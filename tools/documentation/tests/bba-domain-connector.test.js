@@ -69,3 +69,15 @@ test('Connector Boundary Model preserves Domain, External, Trust, and Tenant bou
   assert.match(source, /ambiguous origin,[\s\S]*missing Tenant,[\s\S]*unrecognized authority,[\s\S]*boundary bypass blocks or escalates/)
   assert.match(source, /does not define network zones,[\s\S]*firewalls,[\s\S]*encryption,[\s\S]*identity[\s\S]*providers/)
 })
+
+test('Connector Context and Translation preserve canonical meaning and disclose semantic loss', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-068"/)
+  for (const element of ['Source context', 'Target context', 'Canonical representation', 'Transformation', 'Semantic loss', 'Consequence']) assert.match(source, new RegExp(`\\| ${element} \\|`))
+  assert.match(source, /cannot[\s\S]*silently change institutional purpose,[\s\S]*Asset identity,[\s\S]*lineage,[\s\S]*Authority,[\s\S]*Mission scope/)
+  assert.match(source, /Canonical representation is a domain meaning,[\s\S]*not a file format,[\s\S]*schema,[\s\S]*API[\s\S]*payload/)
+  assert.match(source, /Semantic loss is any material meaning that is omitted,[\s\S]*ambiguous,[\s\S]*weakened/)
+  assert.match(source, /must be disclosed and may[\s\S]*block a Decision Point,[\s\S]*require human Review,[\s\S]*Escalation/)
+  assert.match(source, /preserves Asset identity and lineage[\s\S]*Mission[\s\S]*context,[\s\S]*Tenant boundary,[\s\S]*Accountability/)
+  assert.match(source, /does not define schemas,[\s\S]*field mappings,[\s\S]*serializers,[\s\S]*APIs,[\s\S]*protocols/)
+})
