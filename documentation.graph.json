@@ -4812,6 +4812,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-056",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-056",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
+      "title": "BBA Platform Workflow Entry and Exit Criteria"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12274,6 +12284,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13029,6 +13040,7 @@
       "BBAPLT-GDE-053",
       "BBAPLT-GDE-054",
       "BBAPLT-GDE-055",
+      "BBAPLT-GDE-056",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13454,17 +13466,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 178,
+    "DEPENDS_ON": 179,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 418,
+    "RELATES_TO": 421,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 722,
+    "declared": 726,
     "derived": 0,
     "duplicates": 0,
-    "total": 722,
+    "total": 726,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14961,6 +14973,30 @@
       "source": "BBAPLT-GDE-055",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
       "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-056",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
+      "target": "BBAPLT-GDE-055",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-056",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
+      "target": "BBAPLT-GDE-031",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-056",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
+      "target": "BBAPLT-GDE-037",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-056",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
+      "target": "BBAPLT-GDE-045",
       "type": "RELATES_TO"
     },
     {

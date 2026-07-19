@@ -68,3 +68,15 @@ test('Work Items bind existing Mission Assignments without expanding authority o
   assert.match(source, /does not decide[\s\S]*Asset[\s\S]*identity[\s\S]*version[\s\S]*semantics/)
   assert.match(source, /does not define task records, tickets, messages, queues, workers/)
 })
+
+test('Entry and Exit Criteria make readiness, evidence, quality, review, approval, and completion explicit', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-056"/)
+  for (const criterion of ['Entry Criteria', 'Readiness Criteria', 'Quality Criteria', 'Review Criteria', 'Approval Criteria', 'Exit Criteria', 'Completion Criteria']) assert.match(source, new RegExp(`\\| ${criterion} \\|`))
+  assert.match(source, /Each material criterion identifies its scope, expected condition, evidence/)
+  assert.match(source, /An unsatisfied Entry Criterion prevents responsible start/)
+  assert.match(source, /Material[\s\S]*assumptions, uncertainty, limitations, unresolved questions/)
+  assert.match(source, /low-risk path only when Policy defines the waiver/)
+  assert.match(source, /They do not define Asset[\s\S]*identity[\s\S]*version[\s\S]*semantics[\s\S]*publication[\s\S]*authority/)
+  assert.match(source, /does not define assertions, test frameworks, scores, automated[\s\S]*quality gates/)
+})

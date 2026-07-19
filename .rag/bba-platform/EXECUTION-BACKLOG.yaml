@@ -570,7 +570,7 @@ program:
               acceptance: ["Work Item and Assignment Binding connect workflow work to Mission, Agent, Capability, Deliverable, Steward, and authority boundaries without creating new authority."]
             - id: "REQ-002-05-005"
               title: "Define Entry and Exit Criteria"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-004"]
               produces: ["BBAPLT-GDE-056"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md"]
