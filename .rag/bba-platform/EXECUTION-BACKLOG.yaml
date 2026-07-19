@@ -556,7 +556,7 @@ program:
               acceptance: ["Workflow Definition expresses purpose, scope, participants, stages, criteria, policies, and completion semantics without technical orchestration."]
             - id: "REQ-002-05-003"
               title: "Define Workflow Stages"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-002"]
               produces: ["BBAPLT-GDE-054"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md"]

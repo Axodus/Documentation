@@ -44,3 +44,15 @@ test('Workflow Definition composes purpose, scope, stages, criteria, decisions, 
   assert.match(source, /Workflow Definition[\s\S]*cannot appoint an Agent,[\s\S]*approve a publication/)
   assert.match(source, /does not define workflow schemas, engines, orchestration, queues/)
 })
+
+test('Workflow Stage defines bounded purpose, work, criteria, gates, outputs, and exceptions', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-054"/)
+  for (const element of ['Purpose', 'Scope', 'Entry Criteria', 'Work Items', 'Participants', 'Outputs', 'Quality Gates', 'Exit Criteria', 'Exception Paths']) assert.match(source, new RegExp(`\\| ${element} \\|`))
+  assert.match(source, /A Stage may be sequential, parallel, conditional, iterative, or optional/)
+  assert.match(source, /Parallel Stages do not imply independent authority/)
+  assert.match(source, /optional Stage cannot silently remove a mandatory gate/)
+  assert.match(source, /A Stage[\s\S]*cannot change Mission purpose,[\s\S]*create an Agent,[\s\S]*assign institutional[\s\S]*Authority/)
+  assert.match(source, /Rework[\s\S]*return work to a prior[\s\S]*Stage/)
+  assert.match(source, /does not define pipeline steps, queue partitions, workers/)
+})
