@@ -181,7 +181,7 @@ test('Workflow Domain review closes the Sprint and hands off to Connector Domain
   assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
   for (const id of ['REQ-002-05-001', 'REQ-002-05-002', 'REQ-002-05-003', 'REQ-002-05-004', 'REQ-002-05-005', 'REQ-002-05-006', 'REQ-002-05-007', 'REQ-002-05-008', 'REQ-002-05-009', 'REQ-002-05-010', 'REQ-002-05-011', 'REQ-002-05-012', 'REQ-002-05-013']) assert.match(backlog, new RegExp(`id: "${id}"[\\s\\S]*status: "DONE"`))
   assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "WORKFLOW_CANONICAL_REVIEW_PASS"/)
-  assert.match(backlog, /id: "SPRINT-002-06"[\s\S]*status: "PLANNED"[\s\S]*status_reason: "NEXT"/)
+  assert.match(backlog, /id: "SPRINT-002-06"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "CONNECTOR_CANONICAL_REVIEW_PASS"/)
   assert.match(review, /document_id: "BBAPLT-RPT-009"/)
   assert.match(review, /PASS — Workflow Domain is coherent/)
   assert.match(review, /Cross-Domain Consistency/)

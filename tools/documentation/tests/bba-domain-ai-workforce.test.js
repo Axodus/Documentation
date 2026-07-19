@@ -146,7 +146,7 @@ test('AI Workforce Domain closes with canonical review and preserves next-domain
   assert.match(backlog, /status_reason: "AI_WORKFORCE_CANONICAL_REVIEW_PASS"/)
   assert.match(backlog, /id: "REQ-002-03-013"[\s\S]*status: "DONE"/)
   assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
-  assert.match(backlog, /id: "SPRINT-002-04"[\s\S]*status: "PLANNED"/)
+  assert.match(backlog, /id: "SPRINT-002-04"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "HUMAN_GOVERNANCE_CANONICAL_REVIEW_PASS"/)
   assert.match(review, /document_id: "BBAPLT-RPT-007"/)
   assert.match(review, /PASS — AI Workforce Domain is coherent/)
   assert.match(review, /Agent is not a model or runtime/)

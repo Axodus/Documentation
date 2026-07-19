@@ -634,8 +634,8 @@ program:
         - id: "SPRINT-002-06"
           display_id: "SPRINT-06"
           name: "Connector Domain"
-          status: "IN_PROGRESS"
-          status_reason: "CONNECTOR_DOMAIN_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "CONNECTOR_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-011", "AREA-017"]
           cross_cutting_architecture_area: "AREA-025"
           requests:
@@ -725,7 +725,7 @@ program:
               acceptance: ["A matrix documents Connector relationships with Mission, Institutional Asset, AI Workforce, Human Governance, and Workflow."]
             - id: "REQ-002-06-013"
               title: "Review Connector Domain"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-001", "REQ-002-06-002", "REQ-002-06-003", "REQ-002-06-004", "REQ-002-06-005", "REQ-002-06-006", "REQ-002-06-007", "REQ-002-06-008", "REQ-002-06-009", "REQ-002-06-010", "REQ-002-06-011", "REQ-002-06-012"]
               produces: ["BBAPLT-RPT-010"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md"]
