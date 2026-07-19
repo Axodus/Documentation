@@ -612,7 +612,7 @@ program:
               acceptance: ["Workflow invariants preserve Mission scope, Assignment meaning, human authority, Asset lineage, gates, Tenant boundaries, and traceability."]
             - id: "REQ-002-05-011"
               title: "Define Workflow Policies"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-010"]
               produces: ["BBAPLT-GDE-062"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-062-WORKFLOW-POLICIES.md"]

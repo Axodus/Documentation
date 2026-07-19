@@ -147,3 +147,16 @@ test('Workflow Rules preserve domain invariants and cannot be weakened by implem
   assert.match(source, /no role,[\s\S]*Agent,[\s\S]*Policy,[\s\S]*Connector,[\s\S]*technical execution signal may contradict a Rule/)
   assert.match(source, /does not define rule engines,[\s\S]*RBAC,[\s\S]*ABAC,[\s\S]*database constraints/)
 })
+
+test('Workflow Policies provide bounded flexibility without weakening Rules or human governance', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-062-WORKFLOW-POLICIES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-062"/)
+  for (const area of ['Composition', 'Sequencing', 'Review cadence', 'Rework', 'Exception handling', 'Low-risk path', 'Completion']) assert.match(source, new RegExp(`\\| ${area} \\|`))
+  assert.match(source, /Policies[\s\S]*must identify their scope,[\s\S]*competent human[\s\S]*owner,[\s\S]*review conditions/)
+  assert.match(source, /Workflow Rules have precedence over Policies/)
+  assert.match(source, /Policy that conflicts with a Rule is invalid/)
+  assert.match(source, /Policy changes are explicit[\s\S]*do not silently rewrite historical Workflow[\s\S]*meaning/)
+  assert.match(source, /cannot remove a mandatory human gate,[\s\S]*waive Asset identity or[\s\S]*lineage,[\s\S]*expand an Assignment/)
+  assert.match(source, /allow an Agent to assume institutional authority/)
+  assert.match(source, /does not define policy engines,[\s\S]*configuration formats,[\s\S]*authorization systems/)
+})
