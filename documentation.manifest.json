@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1127,
+  "document_count": 1128,
   "documents": [
     {
       "aliases": [],
@@ -7670,6 +7670,35 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Information Integrity and Lineage",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-023"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-023",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-001",
+        "BBAPLT-ARCH-018",
+        "BBAPLT-RPT-016",
+        "EPIC-003",
+        "REQ-003-05-001"
+      ],
+      "sha256": "087c3dbd9feecfe592ce586b804f3ce678e466f65346d7d203740d4e067205ad",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-023-QUALITY-ATTRIBUTES-FRAMEWORK.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Quality Attributes Framework",
       "version": "0.1.0"
     },
     {
@@ -26665,6 +26694,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-023",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-023-QUALITY-ATTRIBUTES-FRAMEWORK.md",
+      "target": "BBAPLT-RPT-016",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-023",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-023-QUALITY-ATTRIBUTES-FRAMEWORK.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-023",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-023-QUALITY-ATTRIBUTES-FRAMEWORK.md",
+      "target": "BBAPLT-ARCH-018",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -31318,19 +31365,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 535,
-    "declared_relationships": 876,
+    "compliant_documents": 536,
+    "declared_relationships": 879,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 273,
+      "PROJECT": 274,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 139,
+      "D1": 140,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31368,7 +31415,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 25,
+      "BBA Architecture Governance": 26,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31379,13 +31426,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 375,
+      "DRAFT": 376,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 194,
+      "GUIDE": 195,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -31405,6 +31452,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1127
+    "total_documents": 1128
   }
 }

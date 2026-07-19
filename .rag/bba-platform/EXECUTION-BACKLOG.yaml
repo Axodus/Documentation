@@ -1052,6 +1052,55 @@ program:
               produces: ["BBAPLT-RPT-016"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md"]
               acceptance: ["Information Architecture Review records PASS or FAIL, verifies Product and Domain traceability, ownership, lifecycle, classification, integrity, lineage, and technology neutrality."]
+        - id: "SPRINT-003-05"
+          display_id: "SPRINT-05"
+          name: "Quality Attributes and Cross-Cutting Architecture"
+          status: "IN_PROGRESS"
+          status_reason: "QUALITY_ATTRIBUTES_ARCHITECTURE_ACTIVE"
+          documentation_areas: ["AREA-025"]
+          requests:
+            - id: "REQ-003-05-001"
+              title: "Define Quality Attributes Framework"
+              status: "DONE"
+              depends_on: ["REQ-003-04-006"]
+              produces: ["BBAPLT-ARCH-023"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-023-QUALITY-ATTRIBUTES-FRAMEWORK.md"]
+              acceptance: ["Quality Attributes, scenarios, constraints, priorities, measures, thresholds, trade-offs, and evidence obligations are defined independently of implementation."]
+            - id: "REQ-003-05-002"
+              title: "Define Semantic Consistency and Tenant Isolation"
+              status: "PLANNED"
+              depends_on: ["REQ-003-05-001"]
+              produces: ["BBAPLT-ARCH-024"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md"]
+              acceptance: ["Cross-Context semantic consistency, Tenant Boundary isolation, identity preservation, and conflict resolution are defined as architectural properties."]
+            - id: "REQ-003-05-003"
+              title: "Define Auditability and Traceability Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-003-05-002"]
+              produces: ["BBAPLT-ARCH-025"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md"]
+              acceptance: ["Decision, information, interaction, ownership, lineage, and accountability traceability requirements are defined without prescribing audit mechanisms."]
+            - id: "REQ-003-05-004"
+              title: "Define Conceptual Observability and Security"
+              status: "PLANNED"
+              depends_on: ["REQ-003-05-003"]
+              produces: ["BBAPLT-ARCH-026"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-026-CONCEPTUAL-OBSERVABILITY-AND-SECURITY.md"]
+              acceptance: ["Observability, security, trust, confidentiality, integrity, accountability, and risk signals are defined as cross-cutting semantic properties without technical controls."]
+            - id: "REQ-003-05-005"
+              title: "Define Resilience, Scalability, and Governance Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-003-05-004"]
+              produces: ["BBAPLT-ARCH-027"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md"]
+              acceptance: ["Resilience, graceful degradation, recovery meaning, scalability objectives, capacity boundaries, and transversal governance are defined without selecting topology or infrastructure."]
+            - id: "REQ-003-05-006"
+              title: "Review Quality Attributes and Cross-Cutting Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-003-05-001", "REQ-003-05-002", "REQ-003-05-003", "REQ-003-05-004", "REQ-003-05-005"]
+              produces: ["BBAPLT-RPT-017"]
+              files: [".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md"]
+              acceptance: ["Quality Attributes Review records PASS or FAIL, verifies cross-cutting coverage, Product/Domain derivation, Constitution alignment, measurable scenarios, and technology neutrality."]
     - id: "EPIC-004"
       name: "Development Documentation Rollout"
       documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
