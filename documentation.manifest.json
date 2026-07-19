@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1111,
+  "document_count": 1112,
   "documents": [
     {
       "aliases": [],
@@ -7300,6 +7300,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Interface Responsibility Model",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-010"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-010",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-001",
+        "BBAPLT-ARCH-009",
+        "EPIC-003",
+        "REQ-003-02-004"
+      ],
+      "sha256": "bfe3db579a9653546e1e3689726d7d8f1c595ffb29fedc6b09d4942a892546d3",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Logical Interface Invariants",
       "version": "0.1.0"
     },
     {
@@ -26021,6 +26049,18 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-010",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
+      "target": "BBAPLT-ARCH-009",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-010",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -30614,19 +30654,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 519,
-    "declared_relationships": 834,
+    "compliant_documents": 520,
+    "declared_relationships": 836,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 257,
+      "PROJECT": 258,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 123,
+      "D1": 124,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -30664,7 +30704,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 9,
+      "BBA Architecture Governance": 10,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -30675,13 +30715,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 359,
+      "DRAFT": 360,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 181,
+      "GUIDE": 182,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -30701,6 +30741,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1111
+    "total_documents": 1112
   }
 }

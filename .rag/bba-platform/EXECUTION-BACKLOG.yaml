@@ -933,7 +933,7 @@ program:
               acceptance: ["Each interface identifies Provider, Consumer, Information Owner, Institutional Authority, Steward, constraints, outcomes, prohibited responsibilities, and non-transferable authority."]
             - id: "REQ-003-02-004"
               title: "Define Interface Invariants"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-02-003"]
               produces: ["BBAPLT-ARCH-010"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md"]

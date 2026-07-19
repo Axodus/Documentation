@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1111
+Source Documents: 1112
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1111
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1111 |
-| Canonical documents | 519 |
+| Total source documents | 1112 |
+| Canonical documents | 520 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 834 |
+| Declared relationships | 836 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1111
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 181 |
+| GUIDE | 182 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1111
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 257 |
+| PROJECT | 258 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1111
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 359 |
+| DRAFT | 360 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -86,6 +86,7 @@ Source Documents: 1111
 | BBAPLT-ARCH-007 | BBA Platform Canonical Interface Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-007-CANONICAL-INTERFACE-CONTRACTS.md](./bba-platform/architecture/BBAPLT-ARCH-007-CANONICAL-INTERFACE-CONTRACTS.md) |
 | BBAPLT-ARCH-008 | BBA Platform Cross-Context Interaction Matrix | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md](./bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md) |
 | BBAPLT-ARCH-009 | BBA Platform Interface Responsibility Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md) |
+| BBAPLT-ARCH-010 | BBA Platform Logical Interface Invariants | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md](./bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

@@ -4375,6 +4375,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-010",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-010",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
+      "title": "BBA Platform Logical Interface Invariants"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12572,6 +12582,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-007-CANONICAL-INTERFACE-CONTRACTS.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13360,6 +13371,7 @@
       "BBAPLT-ARCH-007",
       "BBAPLT-ARCH-008",
       "BBAPLT-ARCH-009",
+      "BBAPLT-ARCH-010",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13863,17 +13875,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 213,
+    "DEPENDS_ON": 214,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 495,
+    "RELATES_TO": 496,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 834,
+    "declared": 836,
     "derived": 0,
     "duplicates": 0,
-    "total": 834,
+    "total": 836,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14295,6 +14307,18 @@
     {
       "source": "BBAPLT-ARCH-009",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-010",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
+      "target": "BBAPLT-ARCH-009",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-010",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
       "target": "BBAPLT-ARCH-001",
       "type": "RELATES_TO"
     },
