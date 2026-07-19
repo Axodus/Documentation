@@ -4541,6 +4541,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-025",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-025",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "title": "BBA Platform Auditability and Traceability Architecture"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12783,6 +12793,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-023-QUALITY-ATTRIBUTES-FRAMEWORK.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
@@ -13589,6 +13600,7 @@
       "BBAPLT-ARCH-022",
       "BBAPLT-ARCH-023",
       "BBAPLT-ARCH-024",
+      "BBAPLT-ARCH-025",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -14095,17 +14107,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 231,
+    "DEPENDS_ON": 232,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 526,
+    "RELATES_TO": 528,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 883,
+    "declared": 886,
     "derived": 0,
     "duplicates": 0,
-    "total": 883,
+    "total": 886,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14761,6 +14773,24 @@
     {
       "source": "BBAPLT-ARCH-024",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md",
+      "target": "BBAPLT-ARCH-022",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-025",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "target": "BBAPLT-ARCH-024",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-025",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-025",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
       "target": "BBAPLT-ARCH-022",
       "type": "RELATES_TO"
     },

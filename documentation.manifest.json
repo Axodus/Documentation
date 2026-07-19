@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1129,
+  "document_count": 1130,
   "documents": [
     {
       "aliases": [],
@@ -7730,6 +7730,35 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Semantic Consistency and Tenant Isolation",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-025"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-025",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-001",
+        "BBAPLT-ARCH-022",
+        "BBAPLT-ARCH-024",
+        "EPIC-003",
+        "REQ-003-05-003"
+      ],
+      "sha256": "956728444ffeec55370c393c7c19fe721f12410c1500a7427c2dfa7902d49464",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Auditability and Traceability Architecture",
       "version": "0.1.0"
     },
     {
@@ -26767,6 +26796,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-025",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "target": "BBAPLT-ARCH-024",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-025",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-025",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
+      "target": "BBAPLT-ARCH-022",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -31420,19 +31467,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 537,
-    "declared_relationships": 883,
+    "compliant_documents": 538,
+    "declared_relationships": 886,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 275,
+      "PROJECT": 276,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 141,
+      "D1": 142,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31470,7 +31517,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 27,
+      "BBA Architecture Governance": 28,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31481,13 +31528,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 377,
+      "DRAFT": 378,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 196,
+      "GUIDE": 197,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -31507,6 +31554,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1129
+    "total_documents": 1130
   }
 }

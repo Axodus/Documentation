@@ -1075,7 +1075,7 @@ program:
               acceptance: ["Cross-Context semantic consistency, Tenant Boundary isolation, identity preservation, and conflict resolution are defined as architectural properties."]
             - id: "REQ-003-05-003"
               title: "Define Auditability and Traceability Architecture"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-05-002"]
               produces: ["BBAPLT-ARCH-025"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md"]
