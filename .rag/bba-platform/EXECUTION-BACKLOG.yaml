@@ -1326,7 +1326,7 @@ program:
               acceptance: ["Mission, Asset, Workforce, Governance, Workflow, and Publication contracts are explicit and traceable."]
             - id: "REQ-004-04-003"
               title: "Define Connector Integration Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-04-002"]
               produces: ["BBAPLT-GDE-093"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md"]

@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1155
+Source Documents: 1156
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1155
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1155 |
-| Canonical documents | 562 |
+| Total source documents | 1156 |
+| Canonical documents | 563 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 959 |
+| Declared relationships | 962 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1155
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 212 |
+| GUIDE | 213 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1155
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 300 |
+| PROJECT | 301 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1155
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 402 |
+| DRAFT | 403 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -136,6 +136,7 @@ Source Documents: 1155
 | BBAPLT-GDE-090 | BBA Platform Frontend Quality and Accessibility Contracts | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md) |
 | BBAPLT-GDE-091 | BBA Platform API Contract Principles | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md](./bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md) |
 | BBAPLT-GDE-092 | BBA Platform Core Domain API Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md) |
+| BBAPLT-GDE-093 | BBA Platform Connector Integration Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-021 | BBA Platform Frontend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md) |
