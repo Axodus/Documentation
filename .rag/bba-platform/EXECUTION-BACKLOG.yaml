@@ -1333,7 +1333,7 @@ program:
               acceptance: ["Connector contracts preserve translation, trust, semantic integrity, authority, accountability, and external boundary rules."]
             - id: "REQ-004-04-004"
               title: "Define Authentication and Authorization Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-04-003"]
               produces: ["BBAPLT-GDE-094"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md"]

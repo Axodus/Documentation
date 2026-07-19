@@ -5501,6 +5501,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-094",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-094",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
+      "title": "BBA Platform Authentication and Authorization Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13091,6 +13101,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
@@ -13982,6 +13993,7 @@
       "BBAPLT-GDE-091",
       "BBAPLT-GDE-092",
       "BBAPLT-GDE-093",
+      "BBAPLT-GDE-094",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14419,17 +14431,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 257,
+    "DEPENDS_ON": 258,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 579,
+    "RELATES_TO": 581,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 962,
+    "declared": 965,
     "derived": 0,
     "duplicates": 0,
-    "total": 962,
+    "total": 965,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17108,6 +17120,24 @@
       "source": "BBAPLT-GDE-093",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md",
       "target": "BBAPLT-GDE-084",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-094",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
+      "target": "BBAPLT-GDE-093",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-094",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
+      "target": "BBAPLT-GDE-043",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-094",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
+      "target": "BBAPLT-GDE-051",
       "type": "RELATES_TO"
     },
     {

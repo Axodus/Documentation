@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1156
+Source Documents: 1157
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1156
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1156 |
-| Canonical documents | 563 |
+| Total source documents | 1157 |
+| Canonical documents | 564 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 962 |
+| Declared relationships | 965 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1156
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 213 |
+| GUIDE | 214 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1156
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 301 |
+| PROJECT | 302 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1156
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 403 |
+| DRAFT | 404 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -137,6 +137,7 @@ Source Documents: 1156
 | BBAPLT-GDE-091 | BBA Platform API Contract Principles | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md](./bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md) |
 | BBAPLT-GDE-092 | BBA Platform Core Domain API Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md) |
 | BBAPLT-GDE-093 | BBA Platform Connector Integration Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md) |
+| BBAPLT-GDE-094 | BBA Platform Authentication and Authorization Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-021 | BBA Platform Frontend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md) |
