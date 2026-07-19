@@ -683,7 +683,7 @@ program:
               acceptance: ["Connector lifecycle states preserve authority, history, boundary conditions, and governance without runtime semantics."]
             - id: "REQ-002-06-007"
               title: "Define Connector State Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-006"]
               produces: ["BBAPLT-GDE-070"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md"]

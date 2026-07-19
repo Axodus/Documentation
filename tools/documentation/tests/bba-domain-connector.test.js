@@ -95,3 +95,17 @@ test('Connector lifecycle preserves governance, history, and boundary meaning', 
   assert.match(source, /An Agent, Workflow,[\s\S]*cannot activate,[\s\S]*restrict,[\s\S]*suspend, or retire/)
   assert.match(source, /does not define service health,[\s\S]*deployment,[\s\S]*connection state,[\s\S]*monitoring/)
 })
+
+test('Connector State Model defines guarded semantic movement and terminal retirement', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-070"/)
+  for (const state of ['Unassessed', 'Ready', 'Operating', 'Degraded', 'Blocked', 'Awaiting Decision', 'Retired']) assert.match(source, new RegExp(`\\| ${state} \\|`))
+  for (const transition of ['Unassessed → Ready', 'Ready → Operating', 'Operating → Degraded', 'Operating → Blocked', 'Degraded → Awaiting Decision', 'Blocked → Ready', 'Any non-terminal → Retired']) assert.match(source, new RegExp(`\\| ${transition} \\|`))
+  assert.match(source, /State describes the current semantic condition[\s\S]*does not describe process health,[\s\S]*technical availability/)
+  assert.match(source, /Retired is terminal for new Connector exchanges/)
+  assert.match(source, /Reactivation is not an[\s\S]*implicit reversal;[\s\S]*requires a new assessment/)
+  assert.match(source, /technical availability/)
+  assert.match(source, /Agent recommendation/)
+  assert.match(source, /Workflow[\s\S]*readiness[\s\S]*cannot satisfy a semantic Guard/)
+  assert.match(source, /does not define state machines,[\s\S]*events,[\s\S]*status[\s\S]*codes,[\s\S]*health[\s\S]*checks/)
+})
