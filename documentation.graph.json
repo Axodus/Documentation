@@ -5401,6 +5401,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-084",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-084",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
+      "title": "BBA Platform Backend Integration and Connector Realization"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12961,6 +12971,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
       ".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
@@ -13840,6 +13851,7 @@
       "BBAPLT-GDE-081",
       "BBAPLT-GDE-082",
       "BBAPLT-GDE-083",
+      "BBAPLT-GDE-084",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14275,17 +14287,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 245,
+    "DEPENDS_ON": 246,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 555,
+    "RELATES_TO": 557,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 926,
+    "declared": 929,
     "derived": 0,
     "duplicates": 0,
-    "total": 926,
+    "total": 929,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16783,6 +16795,24 @@
     {
       "source": "BBAPLT-GDE-083",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-022",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-084",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
+      "target": "BBAPLT-GDE-083",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-084",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
+      "target": "BBAPLT-ARCH-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-084",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
       "target": "BBAPLT-ARCH-022",
       "type": "RELATES_TO"
     },
