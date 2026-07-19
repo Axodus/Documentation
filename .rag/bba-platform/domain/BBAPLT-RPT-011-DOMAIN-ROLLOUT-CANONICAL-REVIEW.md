@@ -81,13 +81,39 @@ The audit found the six areas mutually referential but non-substitutive. Open
 implementation questions remain deferred to the Architecture Layer and are not
 treated as domain inconsistencies.
 
+## Ubiquitous Language Audit
+
+REQ-002-07-003 checked the canonical vocabulary against the Foundation
+reference and the six domain areas. The following terms retain their official
+meaning and spelling across the reviewed material:
+
+| Canonical term | Audit expectation |
+| --- | --- |
+| Mission | Core unit of institutional work and context |
+| Institutional Asset | Stable institutional identity across versions and representations |
+| AI Workforce | Dynamic composition of specialized Agents for a Mission |
+| Human Governance | Human authority, stewardship, approval, and accountability |
+| Steward | Institutional role responsible for governing a Mission, area, or Asset |
+| Connector | Semantic boundary to an external ecosystem |
+| Capability | Declared aptitude, distinct from Permission and Authority |
+| Solution | Combination of capabilities for a use case |
+| Tenant | Boundary of institutional context and responsibility |
+| Review | Evaluation required by a domain rule or policy |
+| Publication | Institutional act of making an approved Asset representation available |
+
+The audit also confirmed that identity terms, lifecycle states, and the
+distinctions between Authority, Responsibility, Accountability, Stewardship,
+Capability, Permission, Role, and Assignment remain explicit. Forbidden
+synonyms and permitted aliases remain governed by the canonical language
+document; no replacement vocabulary was introduced by this review.
+
 ## Evidence Index
 
 | REQ | Audit evidence | Result |
 | --- | --- | --- |
 | REQ-002-07-001 | Scope, inventory, and review contract | PASS |
 | REQ-002-07-002 | Cross-domain consistency matrix | PASS |
-| REQ-002-07-003 | Ubiquitous Language audit | PENDING |
+| REQ-002-07-003 | Ubiquitous Language audit | PASS |
 | REQ-002-07-004 | Duplication and conflict audit | PENDING |
 | REQ-002-07-005 | Product-to-Domain traceability audit | PENDING |
 | REQ-002-07-006 | Architecture boundary audit | PENDING |

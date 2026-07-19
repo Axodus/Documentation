@@ -9430,7 +9430,7 @@
         "EPIC-003",
         "REQ-002-07-008"
       ],
-      "sha256": "cca0c54d743365531746645452975c86f88e88775189657c23a6b6ebdf964905",
+      "sha256": "263cf598380280e8537f95ebb13fd23a7c2dde2868bfc501b8de539ee754fc71",
       "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
       "superseded_by": [],
       "supersedes": [],

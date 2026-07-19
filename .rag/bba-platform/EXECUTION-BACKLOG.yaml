@@ -754,7 +754,7 @@ program:
               acceptance: ["Mission, Institutional Asset, AI Workforce, Human Governance, Workflow, and Connector relationships and ownership boundaries are audited."]
             - id: "REQ-002-07-003"
               title: "Audit Ubiquitous Language Usage"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-07-002"]
               produces: ["BBAPLT-RPT-011"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]

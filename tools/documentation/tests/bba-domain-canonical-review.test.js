@@ -23,5 +23,8 @@ test('Domain canonical review activates with eight audit-only REQs', async () =>
   assert.match(report, /This report is audit-only/)
   assert.match(report, /## Cross-Domain Consistency Audit/)
   assert.match(report, /mutually referential but non-substitutive/)
+  assert.match(backlog, /id: "REQ-002-07-003"[\s\S]*status: "DONE"/)
+  assert.match(report, /## Ubiquitous Language Audit/)
+  assert.match(report, /no replacement vocabulary was introduced/)
   await access(resolve(root, '.rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md'))
 })
