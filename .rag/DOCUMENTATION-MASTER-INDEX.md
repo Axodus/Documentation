@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1148
+Source Documents: 1149
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1148
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1148 |
-| Canonical documents | 555 |
+| Total source documents | 1149 |
+| Canonical documents | 556 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 938 |
+| Declared relationships | 941 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1148
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 207 |
+| GUIDE | 208 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1148
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 293 |
+| PROJECT | 294 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1148
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 395 |
+| DRAFT | 396 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -130,6 +130,7 @@ Source Documents: 1148
 | BBAPLT-GDE-084 | BBA Platform Backend Integration and Connector Realization | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md](./bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md) |
 | BBAPLT-GDE-085 | BBA Platform Backend Runtime Quality Contracts | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md) |
 | BBAPLT-GDE-086 | BBA Platform Frontend Responsibilities and Boundaries | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md](./bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md) |
+| BBAPLT-GDE-087 | BBA Platform Mission and Asset Experience Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
