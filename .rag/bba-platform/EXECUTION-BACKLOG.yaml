@@ -877,7 +877,7 @@ program:
               acceptance: ["Internal and external actors, system boundary, trust boundaries, and Product/Domain relationships are documented without protocols or deployment choices."]
             - id: "REQ-003-01-003"
               title: "Define Bounded Context Architecture"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-01-002"]
               produces: ["BBAPLT-ARCH-003"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md"]

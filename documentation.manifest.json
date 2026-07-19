@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1104,
+  "document_count": 1105,
   "documents": [
     {
       "aliases": [],
@@ -7112,6 +7112,32 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Canonical System Context",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-003",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-002",
+        "BBAPLT-RPT-011",
+        "EPIC-003",
+        "REQ-003-01-003"
+      ],
+      "sha256": "8a9ee26facbb285ae317fae2e7582cc822a561dc83155fdc175c6421fc8fa3b4",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Bounded Context Architecture",
       "version": "0.1.0"
     },
     {
@@ -25749,6 +25775,18 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-003",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
+      "target": "BBAPLT-ARCH-002",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-003",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
+      "target": "BBAPLT-RPT-011",
+      "type": "DEPENDS_ON"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -30342,19 +30380,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 512,
-    "declared_relationships": 820,
+    "compliant_documents": 513,
+    "declared_relationships": 822,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 250,
+      "PROJECT": 251,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 116,
+      "D1": 117,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -30392,7 +30430,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 2,
+      "BBA Architecture Governance": 3,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -30403,13 +30441,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 352,
+      "DRAFT": 353,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 174,
+      "GUIDE": 175,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -30429,6 +30467,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1104
+    "total_documents": 1105
   }
 }
