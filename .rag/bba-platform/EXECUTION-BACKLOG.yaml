@@ -1003,6 +1003,55 @@ program:
               produces: ["BBAPLT-RPT-015"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md"]
               acceptance: ["Interaction Review records PASS or FAIL, verifies capability coverage, causal consistency, state propagation, constraints, Constitution alignment, Domain traceability, and technology neutrality."]
+        - id: "SPRINT-003-04"
+          display_id: "SPRINT-04"
+          name: "Information Architecture"
+          status: "IN_PROGRESS"
+          status_reason: "INFORMATION_ARCHITECTURE_ACTIVE"
+          documentation_areas: ["AREA-024"]
+          requests:
+            - id: "REQ-003-04-001"
+              title: "Define Canonical Information Model"
+              status: "DONE"
+              depends_on: ["REQ-003-03-006"]
+              produces: ["BBAPLT-ARCH-018"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md"]
+              acceptance: ["Canonical information objects, relationships, ownership boundaries, and semantic identity are defined without storage, schema, or serialization decisions."]
+            - id: "REQ-003-04-002"
+              title: "Define Information Ownership Model"
+              status: "PLANNED"
+              depends_on: ["REQ-003-04-001"]
+              produces: ["BBAPLT-ARCH-019"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md"]
+              acceptance: ["Information ownership, stewardship, authority, creation, alteration, approval, consumption, archiving, and publication responsibilities are defined semantically."]
+            - id: "REQ-003-04-003"
+              title: "Define Information Lifecycle"
+              status: "PLANNED"
+              depends_on: ["REQ-003-04-002"]
+              produces: ["BBAPLT-ARCH-020"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md"]
+              acceptance: ["Information states, transitions, entry criteria, exit criteria, retention meaning, and terminal conditions are documented without persistence mechanisms."]
+            - id: "REQ-003-04-004"
+              title: "Define Information Classification"
+              status: "PLANNED"
+              depends_on: ["REQ-003-04-003"]
+              produces: ["BBAPLT-ARCH-021"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-021-INFORMATION-CLASSIFICATION.md"]
+              acceptance: ["Institutional, operational, knowledge, governance, analytical, external, and derived information classes are defined with boundaries and handling implications."]
+            - id: "REQ-003-04-005"
+              title: "Define Information Integrity and Lineage"
+              status: "PLANNED"
+              depends_on: ["REQ-003-04-004"]
+              produces: ["BBAPLT-ARCH-022"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-022-INFORMATION-INTEGRITY-AND-LINEAGE.md"]
+              acceptance: ["Information origin, provenance, lineage, semantic integrity, evidence, uncertainty, alteration history, and identity preservation are defined conceptually."]
+            - id: "REQ-003-04-006"
+              title: "Review Information Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-003-04-001", "REQ-003-04-002", "REQ-003-04-003", "REQ-003-04-004", "REQ-003-04-005"]
+              produces: ["BBAPLT-RPT-016"]
+              files: [".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md"]
+              acceptance: ["Information Architecture Review records PASS or FAIL, verifies Product and Domain traceability, ownership, lifecycle, classification, integrity, lineage, and technology neutrality."]
     - id: "EPIC-004"
       name: "Development Documentation Rollout"
       documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
