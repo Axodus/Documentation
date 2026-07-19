@@ -5361,6 +5361,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-080",
+      "document_type": "STANDARD",
+      "node_id": "BBAPLT-GDE-080",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
+      "title": "BBA Platform Development Quality and Contribution Gates"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12907,6 +12917,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
       ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -13781,6 +13792,7 @@
       "BBAPLT-GDE-077",
       "BBAPLT-GDE-078",
       "BBAPLT-GDE-079",
+      "BBAPLT-GDE-080",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14215,17 +14227,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 240,
+    "DEPENDS_ON": 241,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 545,
+    "RELATES_TO": 547,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 911,
+    "declared": 914,
     "derived": 0,
     "duplicates": 0,
-    "total": 911,
+    "total": 914,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16652,6 +16664,24 @@
       "source": "BBAPLT-GDE-079",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
       "target": "BBAPLT-ARCH-025",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-080",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
+      "target": "BBAPLT-GDE-079",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-080",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
+      "target": "BBA-STD-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-080",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
+      "target": "BBAPLT-ARCH-023",
       "type": "RELATES_TO"
     },
     {

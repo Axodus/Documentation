@@ -1193,14 +1193,14 @@ program:
               acceptance: ["Implementation choices, ADRs, code, tests, and change control have an actionable bidirectional traceability contract."]
             - id: "REQ-004-01-005"
               title: "Define Development Quality and Contribution Gates"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-01-004"]
               produces: ["BBAPLT-GDE-080"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md"]
               acceptance: ["Testing, review, contribution, quality, and change gates are defined for implementation work without prescribing a vendor workflow."]
             - id: "REQ-004-01-006"
               title: "Review Development Constitution and Engineering Principles"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-01-001", "REQ-004-01-002", "REQ-004-01-003", "REQ-004-01-004", "REQ-004-01-005"]
               produces: ["BBAPLT-RPT-019"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md"]
