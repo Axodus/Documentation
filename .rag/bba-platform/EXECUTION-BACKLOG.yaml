@@ -919,7 +919,7 @@ program:
               acceptance: ["Published and consumed logical interfaces, semantic scope, available information, responsibility, and invariants are defined for every Bounded Context without technical mechanisms."]
             - id: "REQ-003-02-002"
               title: "Define Cross-Context Interaction Matrix"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-02-001"]
               produces: ["BBAPLT-ARCH-008"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md"]
