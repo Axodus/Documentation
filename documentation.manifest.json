@@ -7970,9 +7970,14 @@
         "BBAPLT-RPT-012",
         "BBAPLT-RPT-017",
         "EPIC-003",
-        "REQ-003-06-001"
+        "REQ-003-06-001",
+        "REQ-003-06-002",
+        "REQ-003-06-003",
+        "REQ-003-06-004",
+        "REQ-003-06-005",
+        "REQ-003-06-006"
       ],
-      "sha256": "3b83f0244b275cf0fd26f64267d3bbdc7bce8e1cce499c450bd8feb6041ffac3",
+      "sha256": "6e5b6f176783a6d4d8d277db5c20c99bf878a22e6c7cdb2e5646d399842d82d2",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-018-ARCHITECTURE-CANONICAL-REVIEW.md",
       "superseded_by": [],
       "supersedes": [],

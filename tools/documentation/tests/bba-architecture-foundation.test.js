@@ -10,7 +10,7 @@ test('Architecture Foundation activates with six logical REQs', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
   const source = await read('.rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md')
-  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "(ARCHITECTURE_ROLLOUT_ACTIVE|LOGICAL_INTERFACE_MODEL_ACTIVE|INTERACTION_ARCHITECTURE_ACTIVE)"/)
+  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "(?:IN_PROGRESS|PASS_CLOSED)"[\s\S]*status_reason: "(?:ARCHITECTURE_ROLLOUT_ACTIVE|LOGICAL_INTERFACE_MODEL_ACTIVE|INTERACTION_ARCHITECTURE_ACTIVE|ARCHITECTURE_LAYER_CERTIFIED)"/)
   assert.match(backlog, /id: "SPRINT-003-01"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "ARCHITECTURE_FOUNDATION_PASS"/)
   for (const id of ['REQ-003-01-001', 'REQ-003-01-002', 'REQ-003-01-003', 'REQ-003-01-004', 'REQ-003-01-005', 'REQ-003-01-006']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))

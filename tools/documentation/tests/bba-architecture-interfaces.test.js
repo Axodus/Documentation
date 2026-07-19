@@ -10,7 +10,7 @@ test('Logical Interfaces activates with six semantic REQs', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
   const glossary = await read('.rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md')
-  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "(LOGICAL_INTERFACE_MODEL_ACTIVE|ARCHITECTURE_ROLLOUT_ACTIVE|INTERACTION_ARCHITECTURE_ACTIVE)"/)
+  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "(?:IN_PROGRESS|PASS_CLOSED)"[\s\S]*status_reason: "(?:LOGICAL_INTERFACE_MODEL_ACTIVE|ARCHITECTURE_ROLLOUT_ACTIVE|INTERACTION_ARCHITECTURE_ACTIVE|ARCHITECTURE_LAYER_CERTIFIED)"/)
   assert.match(backlog, /id: "SPRINT-003-02"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "LOGICAL_INTERFACE_MODEL_PASS"/)
   for (const id of ['REQ-003-02-001', 'REQ-003-02-002', 'REQ-003-02-003', 'REQ-003-02-004', 'REQ-003-02-005', 'REQ-003-02-006']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))

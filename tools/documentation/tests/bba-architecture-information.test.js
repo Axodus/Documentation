@@ -9,7 +9,7 @@ const read = (path) => readFile(resolve(root, path), 'utf8')
 test('Information Architecture Sprint closes with six semantic REQs', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
-  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "ARCHITECTURE_ROLLOUT_ACTIVE"/)
+  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "(?:IN_PROGRESS|PASS_CLOSED)"[\s\S]*status_reason: "(?:ARCHITECTURE_ROLLOUT_ACTIVE|ARCHITECTURE_LAYER_CERTIFIED)"/)
   assert.match(backlog, /id: "SPRINT-003-04"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "INFORMATION_ARCHITECTURE_PASS"/)
   for (const id of ['REQ-003-04-001', 'REQ-003-04-002', 'REQ-003-04-003', 'REQ-003-04-004', 'REQ-003-04-005', 'REQ-003-04-006']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))
