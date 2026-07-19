@@ -775,7 +775,7 @@ program:
               acceptance: ["Product intent, capabilities, solutions, Mission value, Assets, governance, and outcomes have explicit Product-to-Domain traceability."]
             - id: "REQ-002-07-006"
               title: "Audit Domain Architecture Boundaries"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-07-005"]
               produces: ["BBAPLT-RPT-011"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]

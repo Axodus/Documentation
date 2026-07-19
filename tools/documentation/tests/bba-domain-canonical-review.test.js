@@ -32,5 +32,8 @@ test('Domain canonical review activates with eight audit-only REQs', async () =>
   assert.match(backlog, /id: "REQ-002-07-005"[\s\S]*status: "DONE"/)
   assert.match(report, /## Product-to-Domain Traceability Audit/)
   assert.match(report, /without treating Axodus as a Core dependency/)
+  assert.match(backlog, /id: "REQ-002-07-006"[\s\S]*status: "DONE"/)
+  assert.match(report, /## Architecture Boundary Audit/)
+  assert.match(report, /Architecture decisions remain reserved for EPIC-003/)
   await access(resolve(root, '.rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md'))
 })

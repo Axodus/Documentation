@@ -147,6 +147,26 @@ without treating Axodus as a Core dependency. Product-layer gaps that concern
 future technical realization, public publication, or cross-layer consistency
 remain explicitly open for later governed work.
 
+## Architecture Boundary Audit
+
+REQ-002-07-006 checked whether the domain documents prescribe implementation
+choices. The result is a clean boundary:
+
+| Concern | Domain-layer expectation | Result |
+| --- | --- | --- |
+| APIs and contracts | Not defined; interaction remains semantic | PASS |
+| Databases and storage | Not defined; Asset identity is independent of storage | PASS |
+| Queues and events | Not defined; Workflow and lifecycle remain conceptual | PASS |
+| Runtime and execution engine | Not defined; Agent identity is independent of executor | PASS |
+| Frontend and framework | Not defined | PASS |
+| Authentication and authorization | Not defined; Human Governance defines authority, not access technology | PASS |
+| Deployment and infrastructure | Not defined | PASS |
+| Protocols and integration mechanisms | Not defined; Connector is a semantic boundary | PASS |
+
+The domain layer names invariants and deferred concerns without selecting a
+technical realization. Architecture decisions remain reserved for EPIC-003 and
+must be traced back to the approved domain evidence.
+
 ## Evidence Index
 
 | REQ | Audit evidence | Result |
@@ -156,7 +176,7 @@ remain explicitly open for later governed work.
 | REQ-002-07-003 | Ubiquitous Language audit | PASS |
 | REQ-002-07-004 | Duplication and conflict audit | PASS |
 | REQ-002-07-005 | Product-to-Domain traceability audit | PASS |
-| REQ-002-07-006 | Architecture boundary audit | PENDING |
+| REQ-002-07-006 | Architecture boundary audit | PASS |
 | REQ-002-07-007 | Readiness and gap assessment | PENDING |
 | REQ-002-07-008 | Final canonical decision | PENDING |
 
