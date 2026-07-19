@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1152
+Source Documents: 1153
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1152
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1152 |
-| Canonical documents | 559 |
+| Total source documents | 1153 |
+| Canonical documents | 560 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 950 |
+| Declared relationships | 953 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1152
 | PROPOSAL | 1 |
 | REFERENCE | 16 |
 | RELEASE | 1 |
-| REPORT | 267 |
+| REPORT | 268 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1152
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 297 |
+| PROJECT | 298 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1152
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 399 |
+| DRAFT | 400 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -136,6 +136,7 @@ Source Documents: 1152
 | BBAPLT-GDE-090 | BBA Platform Frontend Quality and Accessibility Contracts | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
+| BBAPLT-RPT-021 | BBA Platform Frontend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-012 | BBA Platform Mission Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md) |
 | BBAPLT-GDE-013 | BBA Platform Mission State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md) |

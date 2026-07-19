@@ -1257,8 +1257,8 @@ program:
         - id: "SPRINT-004-03"
           display_id: "SPRINT-03"
           name: "Frontend Architecture"
-          status: "IN_PROGRESS"
-          status_reason: "FRONTEND_ARCHITECTURE_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "FRONTEND_ARCHITECTURE_PASS"
           documentation_areas: ["AREA-033", "AREA-034"]
           requests:
             - id: "REQ-004-03-001"
@@ -1298,7 +1298,7 @@ program:
               acceptance: ["Frontend quality, accessibility, security, observability, and resilience obligations are actionable and traceable."]
             - id: "REQ-004-03-006"
               title: "Review Frontend Architecture"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-03-001", "REQ-004-03-002", "REQ-004-03-003", "REQ-004-03-004", "REQ-004-03-005"]
               produces: ["BBAPLT-RPT-021"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md"]
@@ -1306,8 +1306,8 @@ program:
         - id: "SPRINT-004-04"
           display_id: "SPRINT-04"
           name: "API and Integration Contracts"
-          status: "PLANNED"
-          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "API_INTEGRATION_CONTRACTS_ACTIVE"
           documentation_areas: ["AREA-034", "AREA-035"]
           requests:
             - id: "REQ-004-04-001"

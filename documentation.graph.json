@@ -5649,6 +5649,16 @@
       "title": "BBA Platform Backend Architecture Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-021",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-021",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
+      "title": "BBA Platform Frontend Architecture Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -13050,6 +13060,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
+      ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -13953,6 +13964,7 @@
       "BBAPLT-RPT-018",
       "BBAPLT-RPT-019",
       "BBAPLT-RPT-020",
+      "BBAPLT-RPT-021",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14371,17 +14383,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 253,
+    "DEPENDS_ON": 254,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 571,
+    "RELATES_TO": 573,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 950,
+    "declared": 953,
     "derived": 0,
     "duplicates": 0,
-    "total": 950,
+    "total": 953,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17654,6 +17666,24 @@
       "source": "BBAPLT-RPT-020",
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       "target": "BBAPLT-RPT-019",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-021",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-GDE-090",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-021",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-021",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-020",
       "type": "RELATES_TO"
     },
     {

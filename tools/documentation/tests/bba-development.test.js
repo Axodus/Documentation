@@ -29,4 +29,8 @@ test('Development rollout is activated with the full execution backlog', async (
   const backendReview = await read('.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md')
   assert.match(backendReview, /document_id: "BBAPLT-RPT-020"/)
   assert.match(backendReview, /Review Result[\s\S]*PASS/)
+
+  const frontendReview = await read('.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md')
+  assert.match(frontendReview, /document_id: "BBAPLT-RPT-021"/)
+  assert.match(frontendReview, /Review Result[\s\S]*PASS/)
 })
