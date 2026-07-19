@@ -4782,6 +4782,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-053",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-053",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
+      "title": "BBA Platform Workflow Definition"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12241,6 +12251,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-050-GOVERNANCE-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-051-GOVERNANCE-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -12993,6 +13004,7 @@
       "BBAPLT-GDE-050",
       "BBAPLT-GDE-051",
       "BBAPLT-GDE-052",
+      "BBAPLT-GDE-053",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13418,17 +13430,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 175,
+    "DEPENDS_ON": 176,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 409,
+    "RELATES_TO": 412,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 710,
+    "declared": 714,
     "derived": 0,
     "duplicates": 0,
-    "total": 710,
+    "total": 714,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14853,6 +14865,30 @@
       "source": "BBAPLT-GDE-052",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
       "target": "BBAPLT-GDE-041",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-053",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
+      "target": "BBAPLT-GDE-052",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-053",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
+      "target": "BBAPLT-GDE-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-053",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
+      "target": "BBAPLT-GDE-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-053",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
+      "target": "BBAPLT-GDE-045",
       "type": "RELATES_TO"
     },
     {

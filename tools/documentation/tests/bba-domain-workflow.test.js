@@ -32,3 +32,15 @@ test('Workflow Overview coordinates semantic work without redefining domain auth
   assert.match(source, /coordinates these concepts/)
   assert.match(source, /does not define workflow engines, orchestrators, queues, event[\s\S]*buses/)
 })
+
+test('Workflow Definition composes purpose, scope, stages, criteria, decisions, exceptions, and completion', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-053"/)
+  for (const element of ['Purpose', 'Scope', 'Participants', 'Stages', 'Work Items', 'Criteria', 'Transitions', 'Decision Points', 'Exception Paths', 'Completion']) assert.match(source, new RegExp(`\\| ${element} \\|`))
+  assert.match(source, /always interpreted in a Tenant and Mission context/)
+  assert.match(source, /Reuse never silently transfers authority/)
+  assert.match(source, /active Workflow for a Mission may be composed or adapted/)
+  assert.match(source, /does not rewrite prior Work Items,[\s\S]*Decisions,[\s\S]*Assignments/)
+  assert.match(source, /Workflow Definition[\s\S]*cannot appoint an Agent,[\s\S]*approve a publication/)
+  assert.match(source, /does not define workflow schemas, engines, orchestration, queues/)
+})

@@ -549,7 +549,7 @@ program:
               acceptance: ["Workflow is defined as semantic coordination of Mission work that references established domains without redefining authority, responsibility, or identity."]
             - id: "REQ-002-05-002"
               title: "Define Workflow Definition"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-001"]
               produces: ["BBAPLT-GDE-053"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md"]
