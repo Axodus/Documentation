@@ -5411,6 +5411,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-085",
+      "document_type": "STANDARD",
+      "node_id": "BBAPLT-GDE-085",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
+      "title": "BBA Platform Backend Runtime Quality Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12972,6 +12982,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md",
       ".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
@@ -13852,6 +13863,7 @@
       "BBAPLT-GDE-082",
       "BBAPLT-GDE-083",
       "BBAPLT-GDE-084",
+      "BBAPLT-GDE-085",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14287,17 +14299,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 246,
+    "DEPENDS_ON": 247,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 557,
+    "RELATES_TO": 559,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 929,
+    "declared": 932,
     "derived": 0,
     "duplicates": 0,
-    "total": 929,
+    "total": 932,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16814,6 +16826,24 @@
       "source": "BBAPLT-GDE-084",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
       "target": "BBAPLT-ARCH-022",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-085",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
+      "target": "BBAPLT-GDE-084",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-085",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-085",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-027",
       "type": "RELATES_TO"
     },
     {
