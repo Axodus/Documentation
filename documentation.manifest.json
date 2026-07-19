@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1131,
+  "document_count": 1132,
   "documents": [
     {
       "aliases": [],
@@ -7789,6 +7789,37 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Conceptual Observability and Security",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-027"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-027",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-023",
+        "BBAPLT-ARCH-024",
+        "BBAPLT-ARCH-025",
+        "BBAPLT-ARCH-026",
+        "EPIC-003",
+        "REQ-003-05-005"
+      ],
+      "sha256": "237a7c8c92315fa9e687f863515d9b796e7b98975ea55e04eb2bf1e87aac68bf",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Resilience, Scalability, and Governance Architecture",
       "version": "0.1.0"
     },
     {
@@ -26862,6 +26893,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-026",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-025",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -31515,19 +31570,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 539,
-    "declared_relationships": 889,
+    "compliant_documents": 540,
+    "declared_relationships": 893,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 277,
+      "PROJECT": 278,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 143,
+      "D1": 144,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31565,7 +31620,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 29,
+      "BBA Architecture Governance": 30,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31576,13 +31631,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 379,
+      "DRAFT": 380,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 198,
+      "GUIDE": 199,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -31602,6 +31657,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1131
+    "total_documents": 1132
   }
 }

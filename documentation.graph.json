@@ -4561,6 +4561,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-027",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-027",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "title": "BBA Platform Resilience, Scalability, and Governance Architecture"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12805,6 +12815,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-026-CONCEPTUAL-OBSERVABILITY-AND-SECURITY.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
@@ -13613,6 +13624,7 @@
       "BBAPLT-ARCH-024",
       "BBAPLT-ARCH-025",
       "BBAPLT-ARCH-026",
+      "BBAPLT-ARCH-027",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -14119,17 +14131,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 233,
+    "DEPENDS_ON": 234,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 530,
+    "RELATES_TO": 533,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 889,
+    "declared": 893,
     "derived": 0,
     "duplicates": 0,
-    "total": 889,
+    "total": 893,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14822,6 +14834,30 @@
       "source": "BBAPLT-ARCH-026",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-026-CONCEPTUAL-OBSERVABILITY-AND-SECURITY.md",
       "target": "BBAPLT-ARCH-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-026",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-024",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-027",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md",
+      "target": "BBAPLT-ARCH-025",
       "type": "RELATES_TO"
     },
     {

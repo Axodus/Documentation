@@ -1089,7 +1089,7 @@ program:
               acceptance: ["Observability, security, trust, confidentiality, integrity, accountability, and risk signals are defined as cross-cutting semantic properties without technical controls."]
             - id: "REQ-003-05-005"
               title: "Define Resilience, Scalability, and Governance Architecture"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-05-004"]
               produces: ["BBAPLT-ARCH-027"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md"]

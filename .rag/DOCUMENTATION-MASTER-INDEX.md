@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1131
+Source Documents: 1132
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1131
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1131 |
-| Canonical documents | 539 |
+| Total source documents | 1132 |
+| Canonical documents | 540 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 889 |
+| Declared relationships | 893 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1131
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 198 |
+| GUIDE | 199 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1131
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 277 |
+| PROJECT | 278 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1131
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 379 |
+| DRAFT | 380 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -103,6 +103,7 @@ Source Documents: 1131
 | BBAPLT-ARCH-024 | BBA Platform Semantic Consistency and Tenant Isolation | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md](./bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md) |
 | BBAPLT-ARCH-025 | BBA Platform Auditability and Traceability Architecture | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md](./bba-platform/architecture/BBAPLT-ARCH-025-AUDITABILITY-AND-TRACEABILITY.md) |
 | BBAPLT-ARCH-026 | BBA Platform Conceptual Observability and Security | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-026-CONCEPTUAL-OBSERVABILITY-AND-SECURITY.md](./bba-platform/architecture/BBAPLT-ARCH-026-CONCEPTUAL-OBSERVABILITY-AND-SECURITY.md) |
+| BBAPLT-ARCH-027 | BBA Platform Resilience, Scalability, and Governance Architecture | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md](./bba-platform/architecture/BBAPLT-ARCH-027-RESILIENCE-SCALABILITY-AND-GOVERNANCE.md) |
 | BBAPLT-RPT-014 | BBA Platform Logical Interface Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md) |
 | BBAPLT-RPT-015 | BBA Platform Interaction Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-016 | BBA Platform Information Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md) |
