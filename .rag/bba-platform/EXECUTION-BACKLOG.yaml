@@ -210,7 +210,7 @@ program:
               acceptance: ["Product-to-Domain and Domain-to-Product traceability are audited for Capabilities, concepts, strategic origins, and operational representations."]
             - id: "REQ-001-03-006"
               title: "Audit Architectural Neutrality"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-03-005"]
               produces: ["BBAPLT-RPT-012"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]

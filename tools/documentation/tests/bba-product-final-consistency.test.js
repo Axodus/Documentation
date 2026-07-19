@@ -33,5 +33,8 @@ test('Product final consistency review activates with eight audit REQs', async (
   assert.match(backlog, /id: "REQ-001-03-005"[\s\S]*status: "DONE"/)
   assert.match(report, /## Bidirectional Traceability Matrix/)
   assert.match(report, /Every Product Capability has a strategic source/)
+  assert.match(backlog, /id: "REQ-001-03-006"[\s\S]*status: "DONE"/)
+  assert.match(report, /## Architectural Neutrality Audit/)
+  assert.match(report, /The Product Layer is architecturally neutral/)
   await access(resolve(root, '.rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md'))
 })
