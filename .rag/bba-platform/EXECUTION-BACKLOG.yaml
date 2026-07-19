@@ -852,7 +852,7 @@ program:
       name: "Canonical Review and Architecture Rollout"
       documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]
       status: "IN_PROGRESS"
-      status_reason: "ARCHITECTURE_ROLLOUT_ACTIVE"
+      status_reason: "LOGICAL_INTERFACE_MODEL_ACTIVE"
       sprints:
         - id: "SPRINT-003-01"
           display_id: "SPRINT-01"
@@ -903,6 +903,55 @@ program:
               produces: ["BBAPLT-ARCH-006"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md"]
               acceptance: ["Architecture terms and taxonomies are canonical, distinct from Domain language, and ready to support later logical interface and interaction documentation."]
+        - id: "SPRINT-003-02"
+          display_id: "SPRINT-02"
+          name: "Logical Interfaces"
+          status: "IN_PROGRESS"
+          status_reason: "LOGICAL_INTERFACE_MODEL_ACTIVE"
+          documentation_areas: ["AREA-022"]
+          requests:
+            - id: "REQ-003-02-001"
+              title: "Define Canonical Interface Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-003-01-006"]
+              produces: ["BBAPLT-ARCH-007"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-007-CANONICAL-INTERFACE-CONTRACTS.md"]
+              acceptance: ["Published and consumed logical interfaces, semantic scope, available information, responsibility, and invariants are defined for every Bounded Context without technical mechanisms."]
+            - id: "REQ-003-02-002"
+              title: "Define Cross-Context Interaction Matrix"
+              status: "PLANNED"
+              depends_on: ["REQ-003-02-001"]
+              produces: ["BBAPLT-ARCH-008"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md"]
+              acceptance: ["All certified Contexts are covered with published, consumed, consulted information and authority relationships."]
+            - id: "REQ-003-02-003"
+              title: "Define Interface Responsibility Model"
+              status: "PLANNED"
+              depends_on: ["REQ-003-02-002"]
+              produces: ["BBAPLT-ARCH-009"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md"]
+              acceptance: ["Each interface identifies Provider, Consumer, Information Owner, Institutional Authority, Steward, constraints, outcomes, prohibited responsibilities, and non-transferable authority."]
+            - id: "REQ-003-02-004"
+              title: "Define Interface Invariants"
+              status: "PLANNED"
+              depends_on: ["REQ-003-02-003"]
+              produces: ["BBAPLT-ARCH-010"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md"]
+              acceptance: ["Interface invariants record motivation, impact, expected violation, and architectural consequence for identity, tenant, lineage, authority, accountability, ownership, stewardship, and semantic integrity."]
+            - id: "REQ-003-02-005"
+              title: "Define Interface Taxonomy"
+              status: "PLANNED"
+              depends_on: ["REQ-003-02-004"]
+              produces: ["BBAPLT-ARCH-011"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md"]
+              acceptance: ["Command, Query, Publication, Coordination, Governance, and Knowledge interfaces are classified semantically with purpose, responsibilities, limitations, and Context usage."]
+            - id: "REQ-003-02-006"
+              title: "Review Logical Interfaces"
+              status: "PLANNED"
+              depends_on: ["REQ-003-02-001", "REQ-003-02-002", "REQ-003-02-003", "REQ-003-02-004", "REQ-003-02-005"]
+              produces: ["BBAPLT-RPT-014"]
+              files: [".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md"]
+              acceptance: ["Logical Interface Review records PASS or FAIL, verifies Context coverage, glossary adherence, Constitution alignment, Domain traceability, and absence of technology decisions."]
     - id: "EPIC-004"
       name: "Development Documentation Rollout"
       documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]

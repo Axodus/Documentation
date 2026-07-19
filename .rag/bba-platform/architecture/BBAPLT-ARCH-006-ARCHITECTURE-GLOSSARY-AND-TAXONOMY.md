@@ -65,6 +65,18 @@ The Architecture Glossary does not replace Domain language.
 | Published Language | Canonical language intentionally exposed by an owning Context for downstream architectural participants | Published Language is semantic and must not be replaced by consumer-specific reinterpretation |
 | Anti-Corruption Layer | A logical translation boundary that protects canonical domain meaning from an external or incompatible vocabulary | It preserves meaning and lineage; it is not an infrastructure adapter by definition |
 
+## Interface Role Vocabulary
+
+The following terms are canonical role qualifiers for logical interfaces:
+
+| Term | Canonical meaning | Boundary of meaning |
+| --- | --- | --- |
+| Provider | The Context or Component that offers a defined semantic responsibility through an Interface | Provider status does not transfer ownership of every piece of information exchanged |
+| Consumer | The Context or Component that uses a published responsibility within a declared scope | Consumer status does not grant authority to alter the Provider's canonical meaning |
+| Information Owner | The role or Context accountable for the canonical meaning, lineage, and permitted alteration of information | Information Owner is distinct from technical custody or temporary representation |
+| Institutional Authority | The human governance authority competent to decide, approve, or authorize an institutional outcome | Institutional Authority is never created by an Interface, Component, Agent, or Consumer |
+| Steward | The human role responsible for continuous governance of a Mission, Asset, Context, or interface concern | Stewardship remains human and is distinct from execution, permission, or technical custody |
+
 ## Component Taxonomy
 
 The taxonomy classifies logical responsibility holders. A Component may have a

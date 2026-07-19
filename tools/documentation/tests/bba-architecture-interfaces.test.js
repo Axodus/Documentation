@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict'
+import { access, readFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
+import test from 'node:test'
+
+const root = process.cwd()
+const read = (path) => readFile(resolve(root, path), 'utf8')
+
+test('Logical Interfaces activates with six semantic REQs', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const graph = await read('.rag/bba-platform/dependency-graph.yaml')
+  const glossary = await read('.rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md')
+  assert.match(backlog, /id: "EPIC-003"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "LOGICAL_INTERFACE_MODEL_ACTIVE"/)
+  assert.match(backlog, /id: "SPRINT-003-02"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "LOGICAL_INTERFACE_MODEL_ACTIVE"/)
+  for (const id of ['REQ-003-02-001', 'REQ-003-02-002', 'REQ-003-02-003', 'REQ-003-02-004', 'REQ-003-02-005', 'REQ-003-02-006']) {
+    assert.match(backlog, new RegExp(`id: "${id}"`))
+    assert.match(graph, new RegExp(`"${id}"`))
+  }
+  for (const term of ['Provider', 'Consumer', 'Information Owner', 'Institutional Authority', 'Steward']) assert.match(glossary, new RegExp(term))
+  assert.match(glossary, /Interface Role Vocabulary/)
+  await access(resolve(root, '.rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md'))
+})
