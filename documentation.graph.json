@@ -5321,6 +5321,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-076",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-076",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
+      "title": "BBA Platform Development Constitution"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12863,6 +12873,7 @@
       ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
       ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
       ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
+      ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -13733,6 +13744,7 @@
       "BBAPLT-GDE-073",
       "BBAPLT-GDE-074",
       "BBAPLT-GDE-075",
+      "BBAPLT-GDE-076",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14167,17 +14179,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 236,
+    "DEPENDS_ON": 237,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 538,
+    "RELATES_TO": 540,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 900,
+    "declared": 903,
     "derived": 0,
     "duplicates": 0,
-    "total": 900,
+    "total": 903,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16538,6 +16550,24 @@
       "source": "BBAPLT-GDE-075",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
       "target": "BBAPLT-RPT-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-076",
+      "source_path": ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
+      "target": "BBAPLT-RPT-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-076",
+      "source_path": ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-076",
+      "source_path": ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
+      "target": "BBAPLT-RPT-012",
       "type": "RELATES_TO"
     },
     {

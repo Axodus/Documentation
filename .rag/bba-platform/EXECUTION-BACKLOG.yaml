@@ -1153,9 +1153,303 @@ program:
     - id: "EPIC-004"
       name: "Development Documentation Rollout"
       documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
-      status: "PLANNED"
-      status_reason: "ARCHITECTURE_LAYER_CERTIFIED"
-      sprints: []
+      status: "IN_PROGRESS"
+      status_reason: "DEVELOPMENT_ROLLOUT_ACTIVE"
+      sprints:
+        - id: "SPRINT-004-01"
+          display_id: "SPRINT-01"
+          name: "Development Constitution and Engineering Principles"
+          status: "IN_PROGRESS"
+          status_reason: "DEVELOPMENT_CONSTITUTION_ACTIVE"
+          documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
+          requests:
+            - id: "REQ-004-01-001"
+              title: "Define Development Constitution"
+              status: "DONE"
+              depends_on: ["REQ-003-06-006"]
+              produces: ["BBAPLT-GDE-076"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-076-DEVELOPMENT-CONSTITUTION.md"]
+              acceptance: ["Development principles derive from certified Product, Domain, and Architecture sources and define implementation authority without silently changing semantic meaning."]
+            - id: "REQ-004-01-002"
+              title: "Define Engineering Principles"
+              status: "IN_PROGRESS"
+              depends_on: ["REQ-004-01-001"]
+              produces: ["BBAPLT-GDE-077"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md"]
+              acceptance: ["Engineering principles define maintainability, modularity, dependency direction, tenant safety, and implementation discipline without choosing a framework."]
+            - id: "REQ-004-01-003"
+              title: "Define Development Glossary and Taxonomy"
+              status: "PLANNED"
+              depends_on: ["REQ-004-01-002"]
+              produces: ["BBAPLT-GDE-078"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md"]
+              acceptance: ["Development terms and implementation taxonomies are canonical and remain distinct from Domain and Architecture vocabulary."]
+            - id: "REQ-004-01-004"
+              title: "Define Implementation Traceability and ADR Practice"
+              status: "PLANNED"
+              depends_on: ["REQ-004-01-003"]
+              produces: ["BBAPLT-GDE-079"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md"]
+              acceptance: ["Implementation choices, ADRs, code, tests, and change control have an actionable bidirectional traceability contract."]
+            - id: "REQ-004-01-005"
+              title: "Define Development Quality and Contribution Gates"
+              status: "PLANNED"
+              depends_on: ["REQ-004-01-004"]
+              produces: ["BBAPLT-GDE-080"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md"]
+              acceptance: ["Testing, review, contribution, quality, and change gates are defined for implementation work without prescribing a vendor workflow."]
+            - id: "REQ-004-01-006"
+              title: "Review Development Constitution and Engineering Principles"
+              status: "PLANNED"
+              depends_on: ["REQ-004-01-001", "REQ-004-01-002", "REQ-004-01-003", "REQ-004-01-004", "REQ-004-01-005"]
+              produces: ["BBAPLT-RPT-019"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md"]
+              acceptance: ["The Sprint review records PASS or FAIL, verifies certified-layer derivation, terminology, implementation traceability, and readiness for Backend Architecture."]
+        - id: "SPRINT-004-02"
+          display_id: "SPRINT-02"
+          name: "Backend Architecture"
+          status: "PLANNED"
+          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          documentation_areas: ["AREA-033", "AREA-034"]
+          requests:
+            - id: "REQ-004-02-001"
+              title: "Define Backend Boundary and Responsibilities"
+              status: "PLANNED"
+              depends_on: ["REQ-004-01-006"]
+              produces: ["BBAPLT-GDE-081"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md"]
+              acceptance: ["Backend responsibilities and boundaries realize certified Architecture Components without redefining Domain ownership."]
+            - id: "REQ-004-02-002"
+              title: "Define Backend Domain Realization"
+              status: "PLANNED"
+              depends_on: ["REQ-004-02-001"]
+              produces: ["BBAPLT-GDE-082"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-082-BACKEND-DOMAIN-REALIZATION.md"]
+              acceptance: ["Backend realization rules preserve Aggregates, Context boundaries, invariants, authority, lineage, and tenant isolation."]
+            - id: "REQ-004-02-003"
+              title: "Define Backend Persistence and Data Access Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-02-002"]
+              produces: ["BBAPLT-GDE-083"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md"]
+              acceptance: ["Persistence and data access contracts preserve canonical identity, version semantics, lineage, ownership, and migration safety."]
+            - id: "REQ-004-02-004"
+              title: "Define Backend Integration and Connector Realization"
+              status: "PLANNED"
+              depends_on: ["REQ-004-02-003"]
+              produces: ["BBAPLT-GDE-084"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md"]
+              acceptance: ["Backend integrations preserve Connector translation, authority, trust, Tenant Boundary, and semantic integrity contracts."]
+            - id: "REQ-004-02-005"
+              title: "Define Backend Runtime Quality Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-02-004"]
+              produces: ["BBAPLT-GDE-085"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md"]
+              acceptance: ["Backend error, security, observability, resilience, and scalability practices implement certified Quality Attributes."]
+            - id: "REQ-004-02-006"
+              title: "Review Backend Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-004-02-001", "REQ-004-02-002", "REQ-004-02-003", "REQ-004-02-004", "REQ-004-02-005"]
+              produces: ["BBAPLT-RPT-020"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md"]
+              acceptance: ["The Backend Architecture review records PASS or FAIL and verifies traceability, boundary preservation, and actionable implementation contracts."]
+        - id: "SPRINT-004-03"
+          display_id: "SPRINT-03"
+          name: "Frontend Architecture"
+          status: "PLANNED"
+          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          documentation_areas: ["AREA-033", "AREA-034"]
+          requests:
+            - id: "REQ-004-03-001"
+              title: "Define Frontend Responsibilities and Boundaries"
+              status: "PLANNED"
+              depends_on: ["REQ-004-02-006"]
+              produces: ["BBAPLT-GDE-086"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md"]
+              acceptance: ["Frontend responsibilities, boundaries, and ownership preserve the certified logical architecture."]
+            - id: "REQ-004-03-002"
+              title: "Define Mission and Asset Experience Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-03-001"]
+              produces: ["BBAPLT-GDE-087"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md"]
+              acceptance: ["Frontend experiences represent Mission, Asset, Review, Publication, and Governance semantics without creating new business rules."]
+            - id: "REQ-004-03-003"
+              title: "Define Workforce and Governance Experience Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-03-002"]
+              produces: ["BBAPLT-GDE-088"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md"]
+              acceptance: ["Frontend interactions preserve Agent responsibility, Human Governance authority, approval, escalation, and accountability."]
+            - id: "REQ-004-03-004"
+              title: "Define Frontend API and State Consumption Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-03-003"]
+              produces: ["BBAPLT-GDE-089"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md"]
+              acceptance: ["Frontend consumption of APIs and semantic states preserves loading, error, review, authorization, lineage, and Tenant context."]
+            - id: "REQ-004-03-005"
+              title: "Define Frontend Quality and Accessibility Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-03-004"]
+              produces: ["BBAPLT-GDE-090"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md"]
+              acceptance: ["Frontend quality, accessibility, security, observability, and resilience obligations are actionable and traceable."]
+            - id: "REQ-004-03-006"
+              title: "Review Frontend Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-004-03-001", "REQ-004-03-002", "REQ-004-03-003", "REQ-004-03-004", "REQ-004-03-005"]
+              produces: ["BBAPLT-RPT-021"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md"]
+              acceptance: ["The Frontend Architecture review records PASS or FAIL and verifies semantic fidelity and contract coverage."]
+        - id: "SPRINT-004-04"
+          display_id: "SPRINT-04"
+          name: "API and Integration Contracts"
+          status: "PLANNED"
+          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          documentation_areas: ["AREA-034", "AREA-035"]
+          requests:
+            - id: "REQ-004-04-001"
+              title: "Define API Contract Principles"
+              status: "PLANNED"
+              depends_on: ["REQ-004-03-006"]
+              produces: ["BBAPLT-GDE-091"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md"]
+              acceptance: ["API contracts derive from logical interfaces and preserve ownership, authority, identity, lineage, and Tenant boundaries."]
+            - id: "REQ-004-04-002"
+              title: "Define Core Domain API Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-04-001"]
+              produces: ["BBAPLT-GDE-092"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md"]
+              acceptance: ["Mission, Asset, Workforce, Governance, Workflow, and Publication contracts are explicit and traceable."]
+            - id: "REQ-004-04-003"
+              title: "Define Connector Integration Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-04-002"]
+              produces: ["BBAPLT-GDE-093"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md"]
+              acceptance: ["Connector contracts preserve translation, trust, semantic integrity, authority, accountability, and external boundary rules."]
+            - id: "REQ-004-04-004"
+              title: "Define Authentication and Authorization Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-04-003"]
+              produces: ["BBAPLT-GDE-094"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md"]
+              acceptance: ["Technical access contracts implement Human Governance authority and Tenant isolation without replacing domain Authority or Permission semantics."]
+            - id: "REQ-004-04-005"
+              title: "Define API Versioning Compatibility and Error Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-04-004"]
+              produces: ["BBAPLT-GDE-095"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md"]
+              acceptance: ["API evolution, compatibility, errors, deprecation, and failure semantics preserve certified information and interaction invariants."]
+            - id: "REQ-004-04-006"
+              title: "Review API and Integration Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-04-001", "REQ-004-04-002", "REQ-004-04-003", "REQ-004-04-004", "REQ-004-04-005"]
+              produces: ["BBAPLT-RPT-022"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md"]
+              acceptance: ["The API and Integration Contracts review records PASS or FAIL and verifies logical interface derivation and compatibility discipline."]
+        - id: "SPRINT-004-05"
+          display_id: "SPRINT-05"
+          name: "Infrastructure and Runtime Boundaries"
+          status: "PLANNED"
+          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          documentation_areas: ["AREA-033", "AREA-035"]
+          requests:
+            - id: "REQ-004-05-001"
+              title: "Define Runtime and Environment Boundaries"
+              status: "PLANNED"
+              depends_on: ["REQ-004-04-006"]
+              produces: ["BBAPLT-GDE-096"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md"]
+              acceptance: ["Runtime and environment boundaries implement certified Architecture boundaries and preserve Tenant isolation."]
+            - id: "REQ-004-05-002"
+              title: "Define Configuration Secrets and Dependency Management"
+              status: "PLANNED"
+              depends_on: ["REQ-004-05-001"]
+              produces: ["BBAPLT-GDE-097"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md"]
+              acceptance: ["Configuration, secrets, dependencies, and environment variation are governed without leaking credentials or changing domain meaning."]
+            - id: "REQ-004-05-003"
+              title: "Define Build and Delivery Boundaries"
+              status: "PLANNED"
+              depends_on: ["REQ-004-05-002"]
+              produces: ["BBAPLT-GDE-098"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md"]
+              acceptance: ["Build, CI/CD, artifact, promotion, and release boundaries are actionable and traceable to quality gates."]
+            - id: "REQ-004-05-004"
+              title: "Define Runtime Observability and Security Controls"
+              status: "PLANNED"
+              depends_on: ["REQ-004-05-003"]
+              produces: ["BBAPLT-GDE-099"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md"]
+              acceptance: ["Runtime observability, security, auditability, resilience, and incident evidence implement certified cross-cutting attributes."]
+            - id: "REQ-004-05-005"
+              title: "Define Infrastructure Change and Recovery Contracts"
+              status: "PLANNED"
+              depends_on: ["REQ-004-05-004"]
+              produces: ["BBAPLT-GDE-100"]
+              files: [".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md"]
+              acceptance: ["Infrastructure changes, recovery, rollback, and operational handoff preserve governance, traceability, and resilience semantics."]
+            - id: "REQ-004-05-006"
+              title: "Review Infrastructure and Runtime Boundaries"
+              status: "PLANNED"
+              depends_on: ["REQ-004-05-001", "REQ-004-05-002", "REQ-004-05-003", "REQ-004-05-004", "REQ-004-05-005"]
+              produces: ["BBAPLT-RPT-023"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md"]
+              acceptance: ["The Infrastructure and Runtime review records PASS or FAIL and verifies implementation boundaries and operational handoff."]
+        - id: "SPRINT-004-06"
+          display_id: "SPRINT-06"
+          name: "Development Canonical Review"
+          status: "PLANNED"
+          status_reason: "DEVELOPMENT_CANONICAL_REVIEW_PLANNED"
+          documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
+          requests:
+            - id: "REQ-004-06-001"
+              title: "Activate Development Canonical Review"
+              status: "PLANNED"
+              depends_on: ["REQ-004-05-006"]
+              produces: ["BBAPLT-RPT-024"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
+              acceptance: ["The audit-only review is activated and inventories all Development documents and Areas."]
+            - id: "REQ-004-06-002"
+              title: "Audit Product Domain Architecture Development Derivation"
+              status: "PLANNED"
+              depends_on: ["REQ-004-06-001"]
+              produces: ["BBAPLT-RPT-024"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
+              acceptance: ["Every Development decision has explicit Product, Domain, Architecture, or Change Control derivation."]
+            - id: "REQ-004-06-003"
+              title: "Audit Implementation Contract and ADR Coverage"
+              status: "PLANNED"
+              depends_on: ["REQ-004-06-002"]
+              produces: ["BBAPLT-RPT-024"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
+              acceptance: ["Implementation contracts and durable technical decisions have complete ADR and traceability coverage."]
+            - id: "REQ-004-06-004"
+              title: "Audit Certified Invariant Preservation"
+              status: "PLANNED"
+              depends_on: ["REQ-004-06-003"]
+              produces: ["BBAPLT-RPT-024"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
+              acceptance: ["Development documentation preserves Mission, Asset, Workforce, Governance, Workflow, Connector, Tenant, Authority, Accountability, and Lineage invariants."]
+            - id: "REQ-004-06-005"
+              title: "Assess Development Readiness for Operations"
+              status: "PLANNED"
+              depends_on: ["REQ-004-06-004"]
+              produces: ["BBAPLT-RPT-024"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
+              acceptance: ["Development completeness, risks, gaps, and entry criteria for Operations are classified."]
+            - id: "REQ-004-06-006"
+              title: "Close Development Canonical Review"
+              status: "PLANNED"
+              depends_on: ["REQ-004-06-001", "REQ-004-06-002", "REQ-004-06-003", "REQ-004-06-004", "REQ-004-06-005"]
+              produces: ["BBAPLT-RPT-024"]
+              files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
+              acceptance: ["The final review records PASS or FAIL; on PASS SPRINT-004-06 and EPIC-004 become PASS_CLOSED and EPIC-005 remains PLANNED."]
     - id: "EPIC-005"
       name: "Operational Documentation Rollout"
       documentation_areas: ["AREA-036", "AREA-037", "AREA-038", "AREA-039", "AREA-040", "AREA-041", "AREA-042"]

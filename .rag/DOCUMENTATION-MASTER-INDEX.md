@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1135
+Source Documents: 1136
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1135
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1135 |
-| Canonical documents | 542 |
+| Total source documents | 1136 |
+| Canonical documents | 543 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 900 |
+| Declared relationships | 903 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1135
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 199 |
+| GUIDE | 200 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1135
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 280 |
+| PROJECT | 281 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1135
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 382 |
+| DRAFT | 383 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -119,6 +119,7 @@ Source Documents: 1135
 | BBA-STD-002 | BBA Platform Documentation Quality Standards | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md](./bba-platform/BBA-DOC-QUALITY-STANDARDS.md) |
 | BBA-ROAD-001 | BBA Platform Sprint 00 Foundation Plan | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md](./bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md) |
 | BBA-REF-002 | BBA Platform Ubiquitous Language | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md](./bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md) |
+| BBAPLT-GDE-076 | BBA Platform Development Constitution | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md](./bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-012 | BBA Platform Mission Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md) |
 | BBAPLT-GDE-013 | BBA Platform Mission State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md) |
