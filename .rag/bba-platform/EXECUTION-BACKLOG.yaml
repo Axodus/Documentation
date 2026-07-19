@@ -1172,14 +1172,14 @@ program:
               acceptance: ["Development principles derive from certified Product, Domain, and Architecture sources and define implementation authority without silently changing semantic meaning."]
             - id: "REQ-004-01-002"
               title: "Define Engineering Principles"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-01-001"]
               produces: ["BBAPLT-GDE-077"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md"]
               acceptance: ["Engineering principles define maintainability, modularity, dependency direction, tenant safety, and implementation discipline without choosing a framework."]
             - id: "REQ-004-01-003"
               title: "Define Development Glossary and Taxonomy"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-01-002"]
               produces: ["BBAPLT-GDE-078"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md"]

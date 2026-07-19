@@ -5331,6 +5331,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-077",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-077",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
+      "title": "BBA Platform Engineering Principles"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12874,6 +12884,7 @@
       ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md",
       ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
       ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -13745,6 +13756,7 @@
       "BBAPLT-GDE-074",
       "BBAPLT-GDE-075",
       "BBAPLT-GDE-076",
+      "BBAPLT-GDE-077",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14179,17 +14191,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 237,
+    "DEPENDS_ON": 238,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 540,
+    "RELATES_TO": 542,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 903,
+    "declared": 906,
     "derived": 0,
     "duplicates": 0,
-    "total": 903,
+    "total": 906,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16568,6 +16580,24 @@
       "source": "BBAPLT-GDE-076",
       "source_path": ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
       "target": "BBAPLT-RPT-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-077",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
+      "target": "BBAPLT-GDE-076",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-077",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
+      "target": "BBAPLT-ARCH-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-077",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
+      "target": "BBAPLT-ARCH-023",
       "type": "RELATES_TO"
     },
     {
