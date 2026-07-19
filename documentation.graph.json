@@ -4441,6 +4441,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-015",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-015",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md",
+      "title": "BBA Platform Coordination Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12653,6 +12663,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-012-INTERACTION-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
@@ -13447,6 +13458,7 @@
       "BBAPLT-ARCH-012",
       "BBAPLT-ARCH-013",
       "BBAPLT-ARCH-014",
+      "BBAPLT-ARCH-015",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13951,17 +13963,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 219,
+    "DEPENDS_ON": 220,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 502,
+    "RELATES_TO": 503,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 847,
+    "declared": 849,
     "derived": 0,
     "duplicates": 0,
-    "total": 847,
+    "total": 849,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14443,6 +14455,18 @@
     {
       "source": "BBAPLT-ARCH-014",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md",
+      "target": "BBAPLT-ARCH-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-015",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md",
+      "target": "BBAPLT-ARCH-014",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-015",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md",
       "target": "BBAPLT-ARCH-012",
       "type": "RELATES_TO"
     },

@@ -931,7 +931,7 @@ program:
               acceptance: ["All 11 Product Capabilities have canonical interaction records and semantic Context flows with triggers, preconditions, outcomes, postconditions, and evidence."]
             - id: "REQ-003-03-003"
               title: "Define Coordination Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-03-002"]
               produces: ["BBAPLT-ARCH-015"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md"]
