@@ -57,3 +57,15 @@ test('Connector responsibilities preserve authority, identity, accountability, a
   assert.match(source, /institutional Accountability remains with the competent human role/)
   assert.match(source, /does not define request handlers,[\s\S]*message delivery,[\s\S]*APIs,[\s\S]*protocols/)
 })
+
+test('Connector Boundary Model preserves Domain, External, Trust, and Tenant boundaries', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-067"/)
+  for (const boundary of ['Domain Boundary', 'External Boundary', 'Trust Boundary', 'Tenant Boundary']) assert.match(source, new RegExp(`\\| ${boundary} \\|`))
+  assert.match(source, /does not erase a boundary when it exchanges context/)
+  assert.match(source, /preserves the source, destination,[\s\S]*Tenant,[\s\S]*Mission,[\s\S]*Asset,[\s\S]*authority,[\s\S]*uncertainty/)
+  assert.match(source, /cannot decide that a boundary is irrelevant,[\s\S]*transfer Authority by implication/)
+  assert.match(source, /one Tenant's Authority,[\s\S]*Assets,[\s\S]*Mission[\s\S]*purpose,[\s\S]*Accountability cannot be transferred/)
+  assert.match(source, /ambiguous origin,[\s\S]*missing Tenant,[\s\S]*unrecognized authority,[\s\S]*boundary bypass blocks or escalates/)
+  assert.match(source, /does not define network zones,[\s\S]*firewalls,[\s\S]*encryption,[\s\S]*identity[\s\S]*providers/)
+})

@@ -662,7 +662,7 @@ program:
               acceptance: ["Permitted and prohibited Connector responsibilities preserve domain authority, Asset identity, and institutional decisions."]
             - id: "REQ-002-06-004"
               title: "Define Connector Boundary Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-003"]
               produces: ["BBAPLT-GDE-067"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md"]
