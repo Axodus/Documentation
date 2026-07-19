@@ -4491,6 +4491,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-020",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-020",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md",
+      "title": "BBA Platform Information Lifecycle"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12718,6 +12728,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
@@ -13518,6 +13529,7 @@
       "BBAPLT-ARCH-017",
       "BBAPLT-ARCH-018",
       "BBAPLT-ARCH-019",
+      "BBAPLT-ARCH-020",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -14023,17 +14035,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 225,
+    "DEPENDS_ON": 226,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 511,
+    "RELATES_TO": 513,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 862,
+    "declared": 865,
     "derived": 0,
     "duplicates": 0,
-    "total": 862,
+    "total": 865,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14587,6 +14599,24 @@
     {
       "source": "BBAPLT-ARCH-019",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
+      "target": "BBAPLT-ARCH-016",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-020",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md",
+      "target": "BBAPLT-ARCH-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-020",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md",
+      "target": "BBAPLT-ARCH-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-020",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md",
       "target": "BBAPLT-ARCH-016",
       "type": "RELATES_TO"
     },
