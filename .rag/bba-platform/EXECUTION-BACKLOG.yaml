@@ -1263,14 +1263,14 @@ program:
           requests:
             - id: "REQ-004-03-001"
               title: "Define Frontend Responsibilities and Boundaries"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-02-006"]
               produces: ["BBAPLT-GDE-086"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md"]
               acceptance: ["Frontend responsibilities, boundaries, and ownership preserve the certified logical architecture."]
             - id: "REQ-004-03-002"
               title: "Define Mission and Asset Experience Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-03-001"]
               produces: ["BBAPLT-GDE-087"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md"]

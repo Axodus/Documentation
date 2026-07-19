@@ -5421,6 +5421,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-086",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-086",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
+      "title": "BBA Platform Frontend Responsibilities and Boundaries"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12993,6 +13003,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-083-BACKEND-PERSISTENCE-AND-DATA-ACCESS-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-084-BACKEND-INTEGRATION-AND-CONNECTOR-REALIZATION.md",
       ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
@@ -13875,6 +13886,7 @@
       "BBAPLT-GDE-083",
       "BBAPLT-GDE-084",
       "BBAPLT-GDE-085",
+      "BBAPLT-GDE-086",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14311,17 +14323,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 248,
+    "DEPENDS_ON": 249,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 561,
+    "RELATES_TO": 563,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 935,
+    "declared": 938,
     "derived": 0,
     "duplicates": 0,
-    "total": 935,
+    "total": 938,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16856,6 +16868,24 @@
       "source": "BBAPLT-GDE-085",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
       "target": "BBAPLT-ARCH-027",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-086",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
+      "target": "BBAPLT-RPT-020",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-086",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
+      "target": "BBAPLT-ARCH-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-086",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
+      "target": "BBAPLT-ARCH-004",
       "type": "RELATES_TO"
     },
     {
