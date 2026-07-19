@@ -149,3 +149,16 @@ test('Connector Policies govern exposure and sharing without weakening Rules', a
   assert.match(source, /configuration,[\s\S]*authorization[\s\S]*matrices/)
   assert.match(source, /APIs,[\s\S]*protocols/)
 })
+
+test('Connector Constraints protect Tenant, authority, meaning, lineage, governance, and trust', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-074"/)
+  for (const constraint of ['Tenant isolation', 'Authority preservation', 'Semantic integrity', 'Lineage preservation', 'Governance compliance', 'Trust boundary', 'Mission scope', 'Publication boundary', 'Evidence', 'Accountability']) assert.match(source, new RegExp(`\\| ${constraint} \\|`))
+  assert.match(source, /A Connector cannot expose,[\s\S]*one Tenant's context,[\s\S]*another Tenant/)
+  assert.match(source, /cannot create,[\s\S]*expand,[\s\S]*transfer,[\s\S]*institutional Authority/)
+  assert.match(source, /must preserve canonical meaning or disclose material semantic loss,[\s\S]*ambiguity,[\s\S]*uncertainty/)
+  assert.match(source, /Every Asset representation,[\s\S]*retains the originating Asset and relationship lineage/)
+  assert.match(source, /cannot enlarge,[\s\S]*create, cancel, or complete a Mission/)
+  assert.match(source, /cannot be hidden by a successful technical transfer,[\s\S]*retry,[\s\S]*replacement executor/)
+  assert.match(source, /does not define network isolation,[\s\S]*encryption,[\s\S]*quotas,[\s\S]*authorization enforcement/)
+})

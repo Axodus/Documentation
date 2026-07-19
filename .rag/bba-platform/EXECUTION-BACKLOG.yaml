@@ -711,7 +711,7 @@ program:
               acceptance: ["Mutable Connector policies govern exposure, sharing, semantic synchronization, reuse, institutional authorization, and publication restrictions."]
             - id: "REQ-002-06-011"
               title: "Define Connector Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-010"]
               produces: ["BBAPLT-GDE-074"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md"]
