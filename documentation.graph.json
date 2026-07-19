@@ -5371,6 +5371,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-081",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-081",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
+      "title": "BBA Platform Backend Boundary and Responsibilities"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12928,6 +12938,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
       ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
       ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
@@ -13804,6 +13815,7 @@
       "BBAPLT-GDE-078",
       "BBAPLT-GDE-079",
       "BBAPLT-GDE-080",
+      "BBAPLT-GDE-081",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14239,17 +14251,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 242,
+    "DEPENDS_ON": 243,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 549,
+    "RELATES_TO": 551,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 917,
+    "declared": 920,
     "derived": 0,
     "duplicates": 0,
-    "total": 917,
+    "total": 920,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16694,6 +16706,24 @@
       "source": "BBAPLT-GDE-080",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md",
       "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-081",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
+      "target": "BBAPLT-RPT-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-081",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
+      "target": "BBAPLT-ARCH-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-081",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-081-BACKEND-BOUNDARY-AND-RESPONSIBILITIES.md",
+      "target": "BBAPLT-ARCH-004",
       "type": "RELATES_TO"
     },
     {
