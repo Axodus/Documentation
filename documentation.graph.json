@@ -4481,6 +4481,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-019",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-019",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
+      "title": "BBA Platform Information Ownership Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12707,6 +12717,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
@@ -13506,6 +13517,7 @@
       "BBAPLT-ARCH-016",
       "BBAPLT-ARCH-017",
       "BBAPLT-ARCH-018",
+      "BBAPLT-ARCH-019",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -14011,17 +14023,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 224,
+    "DEPENDS_ON": 225,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 509,
+    "RELATES_TO": 511,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 859,
+    "declared": 862,
     "derived": 0,
     "duplicates": 0,
-    "total": 859,
+    "total": 862,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14558,6 +14570,24 @@
       "source": "BBAPLT-ARCH-018",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md",
       "target": "BBAPLT-ARCH-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-019",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
+      "target": "BBAPLT-ARCH-018",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-019",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
+      "target": "BBAPLT-ARCH-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-019",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md",
+      "target": "BBAPLT-ARCH-016",
       "type": "RELATES_TO"
     },
     {

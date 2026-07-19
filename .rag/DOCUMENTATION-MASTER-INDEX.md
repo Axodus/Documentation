@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1122
+Source Documents: 1123
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1122
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1122 |
-| Canonical documents | 530 |
+| Total source documents | 1123 |
+| Canonical documents | 531 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 859 |
+| Declared relationships | 862 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1122
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 190 |
+| GUIDE | 191 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1122
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 268 |
+| PROJECT | 269 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1122
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 370 |
+| DRAFT | 371 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -95,6 +95,7 @@ Source Documents: 1122
 | BBAPLT-ARCH-016 | BBA Platform State Propagation Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md) |
 | BBAPLT-ARCH-017 | BBA Platform Interaction Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md](./bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md) |
 | BBAPLT-ARCH-018 | BBA Platform Canonical Information Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md) |
+| BBAPLT-ARCH-019 | BBA Platform Information Ownership Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md) |
 | BBAPLT-RPT-014 | BBA Platform Logical Interface Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md) |
 | BBAPLT-RPT-015 | BBA Platform Interaction Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
