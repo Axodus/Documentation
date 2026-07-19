@@ -107,6 +107,27 @@ Capability, Permission, Role, and Assignment remain explicit. Forbidden
 synonyms and permitted aliases remain governed by the canonical language
 document; no replacement vocabulary was introduced by this review.
 
+## Duplication and Conflict Audit
+
+REQ-002-07-004 compared concept ownership and boundary statements across the
+domain reports. The audit recorded the following canonical ownership map:
+
+| Concept family | Canonical owner | Conflict finding |
+| --- | --- | --- |
+| Purpose, objective, scope, and institutional work | Mission | No competing owner identified |
+| Asset identity, lineage, versions, and representations | Institutional Asset | No competing owner identified |
+| Agent, Capability, Assignment, Responsibility, and Deliverable | AI Workforce | No competing owner identified |
+| Authority, Stewardship, Approval, Delegation, Escalation, and Accountability | Human Governance | No competing owner identified |
+| Stages, Transitions, Guards, decision points, and completion | Workflow | No competing owner identified |
+| External boundary, context translation, and semantic preservation | Connector | No competing owner identified |
+
+Some concepts are intentionally related across boundaries: a Mission produces
+Assets, an Assignment occurs within a Mission, Workflow coordinates work, and
+Human Governance controls institutional decisions. These relationships are
+not duplicate ownership. No contradictory definition was accepted as a
+silent correction; any future ambiguity must proceed through documented
+change control.
+
 ## Evidence Index
 
 | REQ | Audit evidence | Result |
@@ -114,7 +135,7 @@ document; no replacement vocabulary was introduced by this review.
 | REQ-002-07-001 | Scope, inventory, and review contract | PASS |
 | REQ-002-07-002 | Cross-domain consistency matrix | PASS |
 | REQ-002-07-003 | Ubiquitous Language audit | PASS |
-| REQ-002-07-004 | Duplication and conflict audit | PENDING |
+| REQ-002-07-004 | Duplication and conflict audit | PASS |
 | REQ-002-07-005 | Product-to-Domain traceability audit | PENDING |
 | REQ-002-07-006 | Architecture boundary audit | PENDING |
 | REQ-002-07-007 | Readiness and gap assessment | PENDING |

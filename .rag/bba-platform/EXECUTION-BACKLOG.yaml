@@ -761,7 +761,7 @@ program:
               acceptance: ["Canonical names, forbidden synonyms, aliases, identity terms, lifecycle terms, and semantic definitions are audited across the domain layer."]
             - id: "REQ-002-07-004"
               title: "Audit Concept Duplication and Conflicts"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-07-003"]
               produces: ["BBAPLT-RPT-011"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
