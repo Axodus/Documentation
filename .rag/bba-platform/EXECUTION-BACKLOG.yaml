@@ -182,7 +182,7 @@ program:
               acceptance: ["Product final review scope, Product Layer inventory, audit-only boundary, and DRAFT report are established after Domain certification."]
             - id: "REQ-001-03-002"
               title: "Audit Product and Domain Alignment"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-03-001"]
               produces: ["BBAPLT-RPT-012"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]

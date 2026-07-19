@@ -21,5 +21,8 @@ test('Product final consistency review activates with eight audit REQs', async (
   assert.match(report, /DRAFT — Product final consistency evidence is being accumulated/)
   assert.match(report, /This review is audit-only/)
   assert.match(report, /13 existing documents/)
+  assert.match(backlog, /id: "REQ-001-03-002"[\s\S]*status: "DONE"/)
+  assert.match(report, /## Product ↔ Domain Alignment Matrix/)
+  assert.match(report, /no orphaned strategic Product concept/)
   await access(resolve(root, '.rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md'))
 })
