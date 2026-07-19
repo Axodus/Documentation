@@ -940,7 +940,7 @@ program:
               acceptance: ["Interface invariants record motivation, impact, expected violation, and architectural consequence for identity, tenant, lineage, authority, accountability, ownership, stewardship, and semantic integrity."]
             - id: "REQ-003-02-005"
               title: "Define Interface Taxonomy"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-02-004"]
               produces: ["BBAPLT-ARCH-011"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md"]

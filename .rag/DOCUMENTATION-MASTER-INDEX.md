@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1112
+Source Documents: 1113
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1112
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1112 |
-| Canonical documents | 520 |
+| Total source documents | 1113 |
+| Canonical documents | 521 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 836 |
+| Declared relationships | 838 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1112
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 182 |
+| GUIDE | 183 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1112
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 258 |
+| PROJECT | 259 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1112
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 360 |
+| DRAFT | 361 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -87,6 +87,7 @@ Source Documents: 1112
 | BBAPLT-ARCH-008 | BBA Platform Cross-Context Interaction Matrix | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md](./bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md) |
 | BBAPLT-ARCH-009 | BBA Platform Interface Responsibility Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md) |
 | BBAPLT-ARCH-010 | BBA Platform Logical Interface Invariants | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md](./bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md) |
+| BBAPLT-ARCH-011 | BBA Platform Logical Interface Taxonomy | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md](./bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

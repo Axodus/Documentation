@@ -4385,6 +4385,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-011",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-011",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md",
+      "title": "BBA Platform Logical Interface Taxonomy"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12583,6 +12593,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-008-CROSS-CONTEXT-INTERACTION-MATRIX.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-009-INTERFACE-RESPONSIBILITY-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13372,6 +13383,7 @@
       "BBAPLT-ARCH-008",
       "BBAPLT-ARCH-009",
       "BBAPLT-ARCH-010",
+      "BBAPLT-ARCH-011",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13875,17 +13887,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 214,
+    "DEPENDS_ON": 215,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 496,
+    "RELATES_TO": 497,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 836,
+    "declared": 838,
     "derived": 0,
     "duplicates": 0,
-    "total": 836,
+    "total": 838,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14320,6 +14332,18 @@
       "source": "BBAPLT-ARCH-010",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-010-LOGICAL-INTERFACE-INVARIANTS.md",
       "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-011",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md",
+      "target": "BBAPLT-ARCH-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-011",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-011-LOGICAL-INTERFACE-TAXONOMY.md",
+      "target": "BBAPLT-ARCH-006",
       "type": "RELATES_TO"
     },
     {
