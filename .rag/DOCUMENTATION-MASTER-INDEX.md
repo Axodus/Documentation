@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1102
+Source Documents: 1103
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1102
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1102 |
-| Canonical documents | 510 |
+| Total source documents | 1103 |
+| Canonical documents | 511 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 814 |
+| Declared relationships | 817 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1102
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 172 |
+| GUIDE | 173 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1102
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 248 |
+| PROJECT | 249 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1102
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 350 |
+| DRAFT | 351 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -77,6 +77,7 @@ Source Documents: 1102
 | BBA-ADR-0003 | Tenant-Neutral Core | ADR | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md](./bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md) |
 | BBA-ADR-0004 | Domain Before Architecture | ADR | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md](./bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md) |
 | BBA-ADR-0005 | Institutional Assets Are Immutable Knowledge Artifacts | ADR | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md](./bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md) |
+| BBAPLT-ARCH-001 | BBA Platform Architecture Constitution | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md](./bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

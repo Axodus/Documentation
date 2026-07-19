@@ -4285,6 +4285,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-001",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-001",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
+      "title": "BBA Platform Architecture Constitution"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12473,6 +12483,7 @@
       ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
       ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
       ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13252,6 +13263,7 @@
       "BBA-ROAD-003",
       "BBA-STD-001",
       "BBA-STD-002",
+      "BBAPLT-ARCH-001",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13755,17 +13767,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 202,
+    "DEPENDS_ON": 204,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 486,
+    "RELATES_TO": 487,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 814,
+    "declared": 817,
     "derived": 0,
     "duplicates": 0,
-    "total": 814,
+    "total": 817,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14068,6 +14080,24 @@
       "source": "BBA-STD-002",
       "source_path": ".rag/bba-platform/BBA-DOC-QUALITY-STANDARDS.md",
       "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-001",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
+      "target": "BBAPLT-RPT-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-001",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
+      "target": "BBAPLT-RPT-012",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-001",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
+      "target": "BBA-ADR-0004",
       "type": "RELATES_TO"
     },
     {

@@ -851,7 +851,58 @@ program:
     - id: "EPIC-003"
       name: "Canonical Review and Architecture Rollout"
       documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]
-      sprints: []
+      status: "IN_PROGRESS"
+      status_reason: "ARCHITECTURE_ROLLOUT_ACTIVE"
+      sprints:
+        - id: "SPRINT-003-01"
+          display_id: "SPRINT-01"
+          name: "Architecture Foundation"
+          status: "IN_PROGRESS"
+          status_reason: "ARCHITECTURE_ROLLOUT_ACTIVE"
+          documentation_areas: ["AREA-021"]
+          requests:
+            - id: "REQ-003-01-001"
+              title: "Define Architecture Constitution"
+              status: "DONE"
+              depends_on: ["REQ-001-03-008", "REQ-002-07-008"]
+              produces: ["BBAPLT-ARCH-001"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md"]
+              acceptance: ["Architecture Constitution records immutable principles, authority boundaries, derivation rules, dependency direction, tenant isolation, Asset source of truth, human authority, and Change Control without selecting technologies."]
+            - id: "REQ-003-01-002"
+              title: "Define Canonical System Context"
+              status: "PLANNED"
+              depends_on: ["REQ-003-01-001"]
+              produces: ["BBAPLT-ARCH-002"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md"]
+              acceptance: ["Internal and external actors, system boundary, trust boundaries, and Product/Domain relationships are documented without protocols or deployment choices."]
+            - id: "REQ-003-01-003"
+              title: "Define Bounded Context Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-003-01-002"]
+              produces: ["BBAPLT-ARCH-003"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md"]
+              acceptance: ["Context ownership, upstream/downstream relationships, Shared Kernel, ACL, Published Language, Conformist, Partnership, and boundaries are documented logically."]
+            - id: "REQ-003-01-004"
+              title: "Define Logical Component Model"
+              status: "PLANNED"
+              depends_on: ["REQ-003-01-003"]
+              produces: ["BBAPLT-ARCH-004"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md"]
+              acceptance: ["Core, Supporting, Coordination, Integration, Governance, and Knowledge Components plus directional dependency rules are documented without deployment topology."]
+            - id: "REQ-003-01-005"
+              title: "Define Canonical Information Flow"
+              status: "PLANNED"
+              depends_on: ["REQ-003-01-004"]
+              produces: ["BBAPLT-ARCH-005"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md"]
+              acceptance: ["Semantic information flows, ownership, creation, alteration, approval, consumption, archiving, publication, and state changes are documented without transport mechanisms."]
+            - id: "REQ-003-01-006"
+              title: "Define Architecture Glossary and Taxonomy"
+              status: "PLANNED"
+              depends_on: ["REQ-003-01-005"]
+              produces: ["BBAPLT-ARCH-006"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md"]
+              acceptance: ["Architecture terms and taxonomies are canonical, distinct from Domain language, and ready to support later logical interface and interaction documentation."]
     - id: "EPIC-004"
       name: "Development Documentation Rollout"
       documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
