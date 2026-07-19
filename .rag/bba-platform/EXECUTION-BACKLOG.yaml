@@ -634,11 +634,102 @@ program:
         - id: "SPRINT-002-06"
           display_id: "SPRINT-06"
           name: "Connector Domain"
-          status: "PLANNED"
-          status_reason: "NEXT"
+          status: "IN_PROGRESS"
+          status_reason: "CONNECTOR_DOMAIN_ACTIVE"
           documentation_areas: ["AREA-011", "AREA-017"]
           cross_cutting_architecture_area: "AREA-025"
-          requests: []
+          requests:
+            - id: "REQ-002-06-001"
+              title: "Define Connector Domain Overview"
+              status: "DONE"
+              depends_on: ["REQ-002-05-013"]
+              produces: ["BBAPLT-GDE-064"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-064-CONNECTOR-DOMAIN-OVERVIEW.md"]
+              acceptance: ["Connector is defined as a semantic boundary concept that exchanges domain meaning without becoming an authority or technical integration specification."]
+            - id: "REQ-002-06-002"
+              title: "Define Connector Identity and Classification"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-001"]
+              produces: ["BBAPLT-GDE-065"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md"]
+              acceptance: ["Connector identity invariants and semantic classifications are defined without technology or protocol assumptions."]
+            - id: "REQ-002-06-003"
+              title: "Define Connector Responsibilities"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-002"]
+              produces: ["BBAPLT-GDE-066"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md"]
+              acceptance: ["Permitted and prohibited Connector responsibilities preserve domain authority, Asset identity, and institutional decisions."]
+            - id: "REQ-002-06-004"
+              title: "Define Connector Boundary Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-003"]
+              produces: ["BBAPLT-GDE-067"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md"]
+              acceptance: ["Domain, external, trust, and Tenant boundaries are defined semantically without security or infrastructure mechanisms."]
+            - id: "REQ-002-06-005"
+              title: "Define Connector Context and Translation Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-004"]
+              produces: ["BBAPLT-GDE-068"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md"]
+              acceptance: ["Semantic translation, canonical representation, context adaptation, and semantic loss are defined without technical contracts."]
+            - id: "REQ-002-06-006"
+              title: "Define Connector Lifecycle"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-005"]
+              produces: ["BBAPLT-GDE-069"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md"]
+              acceptance: ["Connector lifecycle states preserve authority, history, boundary conditions, and governance without runtime semantics."]
+            - id: "REQ-002-06-007"
+              title: "Define Connector State Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-006"]
+              produces: ["BBAPLT-GDE-070"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md"]
+              acceptance: ["Connector states, transitions, guards, terminal states, and reactivation conditions are semantically distinct from lifecycle labels."]
+            - id: "REQ-002-06-008"
+              title: "Define Connector Interaction Model"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-007"]
+              produces: ["BBAPLT-GDE-071"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md"]
+              acceptance: ["Connector interactions with Mission, Institutional Asset, AI Workforce, Workflow, and Human Governance are defined without control transfer."]
+            - id: "REQ-002-06-009"
+              title: "Define Connector Rules"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-008"]
+              produces: ["BBAPLT-GDE-072"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md"]
+              acceptance: ["Connector invariants preserve identity, lineage, authority, accountability, Tenant boundaries, and Mission boundaries."]
+            - id: "REQ-002-06-010"
+              title: "Define Connector Policies"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-009"]
+              produces: ["BBAPLT-GDE-073"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md"]
+              acceptance: ["Mutable Connector policies govern exposure, sharing, semantic synchronization, reuse, institutional authorization, and publication restrictions."]
+            - id: "REQ-002-06-011"
+              title: "Define Connector Constraints"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-010"]
+              produces: ["BBAPLT-GDE-074"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md"]
+              acceptance: ["Connector constraints protect Tenant isolation, authority, semantic integrity, lineage, governance compliance, and trust boundaries."]
+            - id: "REQ-002-06-012"
+              title: "Define Cross-Domain Interaction Matrix"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-011"]
+              produces: ["BBAPLT-GDE-075"]
+              files: [".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md"]
+              acceptance: ["A matrix documents Connector relationships with Mission, Institutional Asset, AI Workforce, Human Governance, and Workflow."]
+            - id: "REQ-002-06-013"
+              title: "Review Connector Domain"
+              status: "PLANNED"
+              depends_on: ["REQ-002-06-001", "REQ-002-06-002", "REQ-002-06-003", "REQ-002-06-004", "REQ-002-06-005", "REQ-002-06-006", "REQ-002-06-007", "REQ-002-06-008", "REQ-002-06-009", "REQ-002-06-010", "REQ-002-06-011", "REQ-002-06-012"]
+              produces: ["BBAPLT-RPT-010"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md"]
+              acceptance: ["Connector Domain Review records PASS or FAIL, verifies cross-domain consistency and technical boundaries, lists gaps, and approves handoff to EPIC-002 canonical review when complete."]
     - id: "EPIC-003"
       name: "Canonical Review and Architecture Rollout"
       documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]
