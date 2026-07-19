@@ -411,6 +411,7 @@ body {
   font-family: var(--axodus-display-font);
   font-size: 0.98rem;
   line-height: 1.35;
+  margin-top: 8px;
 }
 
 .ux-flow li::after {
