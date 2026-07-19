@@ -591,7 +591,7 @@ program:
               acceptance: ["Decision Points and human gates identify when Review, Approval, Stewardship, or escalation is required without transferring authority to Workflow."]
             - id: "REQ-002-05-008"
               title: "Define Exception Paths"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-007"]
               produces: ["BBAPLT-GDE-059"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md"]

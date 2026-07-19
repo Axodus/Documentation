@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1081,
+  "document_count": 1082,
   "documents": [
     {
       "aliases": [],
@@ -8683,6 +8683,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Workflow Decision Points and Human Gates",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-059",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-036",
+        "BBAPLT-GDE-047",
+        "BBAPLT-GDE-051",
+        "BBAPLT-GDE-058",
+        "EPIC-002",
+        "REQ-002-05-008"
+      ],
+      "sha256": "dac91fa1bc1e765157b4fee993a2ac43ad621aae4f86f140b6c1b813d82aa91e",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Workflow Exception Paths",
       "version": "0.1.0"
     },
     {
@@ -26296,6 +26326,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-058",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-047",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-051",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -29143,19 +29197,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 489,
-    "declared_relationships": 734,
+    "compliant_documents": 490,
+    "declared_relationships": 738,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 227,
+      "PROJECT": 228,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 93,
+      "D1": 94,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -29194,7 +29248,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 55,
+      "BBA Domain Governance": 56,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -29203,13 +29257,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 329,
+      "DRAFT": 330,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 155,
+      "GUIDE": 156,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -29229,6 +29283,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1081
+    "total_documents": 1082
   }
 }

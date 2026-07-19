@@ -160,7 +160,7 @@ test('Human Governance closes with PASS and preserves the Workflow Domain handof
   assert.match(backlog, /status_reason: "HUMAN_GOVERNANCE_CANONICAL_REVIEW_PASS"/)
   for (const id of ['REQ-002-04-001', 'REQ-002-04-002', 'REQ-002-04-003', 'REQ-002-04-004', 'REQ-002-04-005', 'REQ-002-04-006', 'REQ-002-04-007', 'REQ-002-04-008', 'REQ-002-04-009', 'REQ-002-04-010', 'REQ-002-04-011', 'REQ-002-04-012']) assert.match(backlog, new RegExp(`id: "${id}"[\\s\\S]*status: "DONE"`))
   assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
-  assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "PLANNED"[\s\S]*status_reason: "NEXT"/)
+  assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "WORKFLOW_DOMAIN_ACTIVE"/)
   assert.match(review, /document_id: "BBAPLT-RPT-008"/)
   assert.match(review, /PASS — Human Governance Domain is coherent/)
   assert.match(review, /Cross-Domain Consistency/)

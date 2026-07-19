@@ -4842,6 +4842,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-059",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-059",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "title": "BBA Platform Workflow Exception Paths"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12307,6 +12317,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13065,6 +13076,7 @@
       "BBAPLT-GDE-056",
       "BBAPLT-GDE-057",
       "BBAPLT-GDE-058",
+      "BBAPLT-GDE-059",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13490,17 +13502,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 181,
+    "DEPENDS_ON": 182,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 427,
+    "RELATES_TO": 430,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 734,
+    "declared": 738,
     "derived": 0,
     "duplicates": 0,
-    "total": 734,
+    "total": 738,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15069,6 +15081,30 @@
       "source": "BBAPLT-GDE-058",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
       "target": "BBAPLT-GDE-049",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-058",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-036",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-047",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-059",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md",
+      "target": "BBAPLT-GDE-051",
       "type": "RELATES_TO"
     },
     {

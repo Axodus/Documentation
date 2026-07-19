@@ -105,3 +105,15 @@ test('Decision Points and human gates preserve explicit human authority, outcome
   assert.match(source, /Workflow cannot approve itself, promote an Agent's recommendation/)
   assert.match(source, /does not define approval interfaces, signatures, authentication/)
 })
+
+test('Exception Paths cover refusal, conflict, risk, evidence, failure, cancellation, rework, and escalation', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-059-EXCEPTION-PATHS.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-059"/)
+  for (const path of ['Refusal', 'Conflict', 'Elevated risk', 'Evidence gap', 'Failure', 'Cancellation', 'Rework', 'Escalation']) assert.match(source, new RegExp(`\\| ${path} \\|`))
+  assert.match(source, /An Exception Path preserves Mission, Tenant, Workflow, Stage, Work Item/)
+  assert.match(source, /protective[\s\S]*action,[\s\S]*affected[\s\S]*scope,[\s\S]*responsible[\s\S]*human[\s\S]*role/)
+  assert.match(source, /Workflow cannot silently skip a failed Guard/)
+  assert.match(source, /convert refusal[\s\S]*completion,[\s\S]*hide uncertainty/)
+  assert.match(source, /cannot change Asset identity,[\s\S]*erase lineage,[\s\S]*rewrite an immutable version/)
+  assert.match(source, /does not define retries,[\s\S]*compensating transactions,[\s\S]*dead-letter[\s\S]*queues/)
+})
