@@ -20,4 +20,9 @@ test('Development rollout is activated with the full execution backlog', async (
   for (const term of ['Certified sources govern implementation', 'Domain meaning is preserved', 'Human Governance remains authoritative', 'Tenant isolation is invariant', 'Institutional Assets retain canonical identity', 'Mandatory Development Evidence']) assert.match(constitution, new RegExp(term))
   assert.match(constitution, /does not select a programming language, framework, database/i)
   await access(resolve(root, '.rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md'))
+
+  const review = await read('.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md')
+  assert.match(review, /document_id: "BBAPLT-RPT-019"/)
+  assert.match(review, /Review Result[\s\S]*PASS/)
+  assert.match(review, /No `MINOR`, `MAJOR`, or `CRITICAL` finding blocks closure/)
 })

@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1140
+Source Documents: 1141
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1140
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1140 |
-| Canonical documents | 547 |
+| Total source documents | 1141 |
+| Canonical documents | 548 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 914 |
+| Declared relationships | 917 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1140
 | PROPOSAL | 1 |
 | REFERENCE | 16 |
 | RELEASE | 1 |
-| REPORT | 265 |
+| REPORT | 266 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1140
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 285 |
+| PROJECT | 286 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1140
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 387 |
+| DRAFT | 388 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -124,6 +124,7 @@ Source Documents: 1140
 | BBAPLT-GDE-078 | BBA Platform Development Glossary and Taxonomy | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md](./bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md) |
 | BBAPLT-GDE-079 | BBA Platform Implementation Traceability and ADR Practice | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md](./bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md) |
 | BBAPLT-GDE-080 | BBA Platform Development Quality and Contribution Gates | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md](./bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md) |
+| BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-012 | BBA Platform Mission Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md) |
 | BBAPLT-GDE-013 | BBA Platform Mission State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md) |

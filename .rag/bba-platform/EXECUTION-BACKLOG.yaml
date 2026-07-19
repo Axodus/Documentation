@@ -1200,7 +1200,7 @@ program:
               acceptance: ["Testing, review, contribution, quality, and change gates are defined for implementation work without prescribing a vendor workflow."]
             - id: "REQ-004-01-006"
               title: "Review Development Constitution and Engineering Principles"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-01-001", "REQ-004-01-002", "REQ-004-01-003", "REQ-004-01-004", "REQ-004-01-005"]
               produces: ["BBAPLT-RPT-019"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md"]
@@ -1208,8 +1208,8 @@ program:
         - id: "SPRINT-004-02"
           display_id: "SPRINT-02"
           name: "Backend Architecture"
-          status: "PLANNED"
-          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "BACKEND_ARCHITECTURE_ACTIVE"
           documentation_areas: ["AREA-033", "AREA-034"]
           requests:
             - id: "REQ-004-02-001"
