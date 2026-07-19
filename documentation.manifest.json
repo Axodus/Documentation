@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1138,
+  "document_count": 1139,
   "documents": [
     {
       "aliases": [],
@@ -8345,6 +8345,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Development Glossary and Taxonomy",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DEVELOPMENT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-079",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Development Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0001",
+        "BBA-ADR-0004",
+        "BBA-STD-001",
+        "BBAPLT-ARCH-025",
+        "BBAPLT-GDE-078",
+        "EPIC-004",
+        "REQ-004-01-004"
+      ],
+      "sha256": "cd463059b21ee093ee1c6936b4ee745ccd2b72f0fa35b9fa4f2ff20adba47ff2",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Implementation Traceability and ADR Practice",
       "version": "0.1.0"
     },
     {
@@ -28769,6 +28797,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-079",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "target": "BBAPLT-GDE-078",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-079",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-079",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "target": "BBAPLT-ARCH-025",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -31820,19 +31866,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 545,
-    "declared_relationships": 908,
+    "compliant_documents": 546,
+    "declared_relationships": 911,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 283,
+      "PROJECT": 284,
       "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
-      "D1": 149,
+      "D1": 150,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31871,7 +31917,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Architecture Governance": 32,
-      "BBA Development Governance": 3,
+      "BBA Development Governance": 4,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31882,13 +31928,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 385,
+      "DRAFT": 386,
       "UNSPECIFIED": 579
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 201,
+      "GUIDE": 202,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -31908,6 +31954,6 @@
     "generated_documents": 8,
     "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 1138
+    "total_documents": 1139
   }
 }

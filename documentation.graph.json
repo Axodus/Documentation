@@ -5351,6 +5351,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-079",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-079",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "title": "BBA Platform Implementation Traceability and ADR Practice"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12896,6 +12906,7 @@
       ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
       ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -13769,6 +13780,7 @@
       "BBAPLT-GDE-076",
       "BBAPLT-GDE-077",
       "BBAPLT-GDE-078",
+      "BBAPLT-GDE-079",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14203,17 +14215,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 239,
+    "DEPENDS_ON": 240,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 543,
+    "RELATES_TO": 545,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 908,
+    "declared": 911,
     "derived": 0,
     "duplicates": 0,
-    "total": 908,
+    "total": 911,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16622,6 +16634,24 @@
       "source": "BBAPLT-GDE-078",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
       "target": "BBAPLT-ARCH-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-079",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "target": "BBAPLT-GDE-078",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-079",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-079",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md",
+      "target": "BBAPLT-ARCH-025",
       "type": "RELATES_TO"
     },
     {

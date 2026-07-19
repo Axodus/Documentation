@@ -1186,14 +1186,14 @@ program:
               acceptance: ["Development terms and implementation taxonomies are canonical and remain distinct from Domain and Architecture vocabulary."]
             - id: "REQ-004-01-004"
               title: "Define Implementation Traceability and ADR Practice"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-01-003"]
               produces: ["BBAPLT-GDE-079"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md"]
               acceptance: ["Implementation choices, ADRs, code, tests, and change control have an actionable bidirectional traceability contract."]
             - id: "REQ-004-01-005"
               title: "Define Development Quality and Contribution Gates"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-01-004"]
               produces: ["BBAPLT-GDE-080"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-080-QUALITY-AND-CONTRIBUTION-GATES.md"]

@@ -7,8 +7,8 @@ Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1138
-- Declared relationships: 908
+- Graph nodes: 1139
+- Declared relationships: 911
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
@@ -20,10 +20,10 @@ Generator Version: 1.0.0
 
 | Type | Count |
 |---|---:|
-| `DEPENDS_ON` | 239 |
+| `DEPENDS_ON` | 240 |
 | `DOCUMENTS` | 17 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 543 |
+| `RELATES_TO` | 545 |
 | `VALIDATES` | 96 |
 
 ## Unresolved References
