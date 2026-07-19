@@ -852,7 +852,7 @@ program:
       name: "Canonical Review and Architecture Rollout"
       documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]
       status: "IN_PROGRESS"
-      status_reason: "ARCHITECTURE_ROLLOUT_ACTIVE"
+      status_reason: "INTERACTION_ARCHITECTURE_ACTIVE"
       sprints:
         - id: "SPRINT-003-01"
           display_id: "SPRINT-01"
@@ -908,6 +908,55 @@ program:
           name: "Logical Interfaces"
           status: "PASS_CLOSED"
           status_reason: "LOGICAL_INTERFACE_MODEL_PASS"
+        - id: "SPRINT-003-03"
+          display_id: "SPRINT-03"
+          name: "Interaction Architecture"
+          status: "IN_PROGRESS"
+          status_reason: "INTERACTION_ARCHITECTURE_ACTIVE"
+          documentation_areas: ["AREA-023"]
+          requests:
+            - id: "REQ-003-03-001"
+              title: "Define Interaction Model"
+              status: "DONE"
+              depends_on: ["REQ-003-02-006"]
+              produces: ["BBAPLT-ARCH-012"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-012-INTERACTION-MODEL.md"]
+              acceptance: ["Semantic collaboration, roles, entry points, exit points, responsibility, causal meaning, and interaction outcomes are defined without implementation mechanisms."]
+            - id: "REQ-003-03-002"
+              title: "Define Capability Interaction Flows and Interaction Catalog"
+              status: "PLANNED"
+              depends_on: ["REQ-003-03-001"]
+              produces: ["BBAPLT-ARCH-013", "BBAPLT-ARCH-014"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md", ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md"]
+              acceptance: ["All 11 Product Capabilities have canonical interaction records and semantic Context flows with triggers, preconditions, outcomes, postconditions, and evidence."]
+            - id: "REQ-003-03-003"
+              title: "Define Coordination Model"
+              status: "PLANNED"
+              depends_on: ["REQ-003-03-002"]
+              produces: ["BBAPLT-ARCH-015"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md"]
+              acceptance: ["Conceptual coordination, temporal dependencies, synchronization, preconditions, postconditions, waiting, blocking, refusal, and escalation are defined without events, messages, or queues."]
+            - id: "REQ-003-03-004"
+              title: "Define State Propagation Model"
+              status: "PLANNED"
+              depends_on: ["REQ-003-03-003"]
+              produces: ["BBAPLT-ARCH-016"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md"]
+              acceptance: ["Authoritative state ownership, semantic propagation conditions, effects, non-inferences, and preservation invariants are documented without technical events."]
+            - id: "REQ-003-03-005"
+              title: "Define Interaction Constraints"
+              status: "PLANNED"
+              depends_on: ["REQ-003-03-004"]
+              produces: ["BBAPLT-ARCH-017"]
+              files: [".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md"]
+              acceptance: ["Interaction invariants, causal boundaries, governance gates, authority limits, publication rules, and illegitimate cycle constraints are explicit."]
+            - id: "REQ-003-03-006"
+              title: "Review Interaction Architecture"
+              status: "PLANNED"
+              depends_on: ["REQ-003-03-001", "REQ-003-03-002", "REQ-003-03-003", "REQ-003-03-004", "REQ-003-03-005"]
+              produces: ["BBAPLT-RPT-015"]
+              files: [".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md"]
+              acceptance: ["Interaction Review records PASS or FAIL, verifies capability coverage, causal consistency, state propagation, constraints, Constitution alignment, Domain traceability, and technology neutrality."]
           documentation_areas: ["AREA-022"]
           requests:
             - id: "REQ-003-02-001"
