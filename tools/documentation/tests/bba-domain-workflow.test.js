@@ -92,3 +92,16 @@ test('Transitions and Guards define permitted movement, preconditions, postcondi
   assert.match(source, /It[\s\S]*cannot grant Authority,[\s\S]*remove a mandatory gate,[\s\S]*enlarge a Mission/)
   assert.match(source, /does not define state machines, event handlers, queues, workflow[\s\S]*engines/)
 })
+
+test('Decision Points and human gates preserve explicit human authority, outcomes, and bounded low-risk paths', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-058"/)
+  for (const point of ['Readiness', 'Quality acceptance', 'Institutional approval', 'Publication', 'Risk', 'Exception', 'Completion']) assert.match(source, new RegExp(`\\| ${point} \\|`))
+  assert.match(source, /Every mandatory human gate identifies the decision scope,[\s\S]*competent role,[\s\S]*evidence/)
+  assert.match(source, /gate is satisfied only by the explicit action of the competent human[\s\S]*Authority/)
+  assert.match(source, /Agent preparation, automated evaluation, silence,[\s\S]*does not constitute human Approval/)
+  assert.match(source, /A Policy may permit a low-risk path without individual human Review/)
+  assert.match(source, /cannot waive[\s\S]*final institutional[\s\S]*Approval,[\s\S]*regulated content review/)
+  assert.match(source, /Workflow cannot approve itself, promote an Agent's recommendation/)
+  assert.match(source, /does not define approval interfaces, signatures, authentication/)
+})

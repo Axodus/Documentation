@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1080
+Source Documents: 1081
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1080
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1080 |
-| Canonical documents | 488 |
+| Total source documents | 1081 |
+| Canonical documents | 489 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 730 |
+| Declared relationships | 734 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1080
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 154 |
+| GUIDE | 155 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1080
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 226 |
+| PROJECT | 227 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1080
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 328 |
+| DRAFT | 329 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -133,6 +133,7 @@ Source Documents: 1080
 | BBAPLT-GDE-055 | BBA Platform Workflow Work Items and Assignment Binding | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md](./bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md) |
 | BBAPLT-GDE-056 | BBA Platform Workflow Entry and Exit Criteria | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md](./bba-platform/domain/BBAPLT-GDE-056-ENTRY-AND-EXIT-CRITERIA.md) |
 | BBAPLT-GDE-057 | BBA Platform Workflow Transitions and Guards | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md](./bba-platform/domain/BBAPLT-GDE-057-TRANSITIONS-AND-GUARDS.md) |
+| BBAPLT-GDE-058 | BBA Platform Workflow Decision Points and Human Gates | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md](./bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

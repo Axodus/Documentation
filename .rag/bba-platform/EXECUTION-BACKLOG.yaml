@@ -584,7 +584,7 @@ program:
               acceptance: ["Transitions and Guards define permitted semantic movement, preconditions, postconditions, and blocked paths without prescribing workflow engines."]
             - id: "REQ-002-05-007"
               title: "Define Decision Points and Human Gates"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-006"]
               produces: ["BBAPLT-GDE-058"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md"]

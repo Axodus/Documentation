@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1080,
+  "document_count": 1081,
   "documents": [
     {
       "aliases": [],
@@ -8653,6 +8653,36 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Workflow Transitions and Guards",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-058",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-037",
+        "BBAPLT-GDE-045",
+        "BBAPLT-GDE-049",
+        "BBAPLT-GDE-057",
+        "EPIC-002",
+        "REQ-002-05-007"
+      ],
+      "sha256": "fc62276f54c9a0935c4004ce65dea3d97a4f059c1332d69fb73aba7d35ede83e",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Workflow Decision Points and Human Gates",
       "version": "0.1.0"
     },
     {
@@ -26242,6 +26272,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-058",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
+      "target": "BBAPLT-GDE-057",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-058",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
+      "target": "BBAPLT-GDE-037",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-058",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
+      "target": "BBAPLT-GDE-045",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-058",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-058-DECISION-POINTS-AND-HUMAN-GATES.md",
+      "target": "BBAPLT-GDE-049",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -29089,19 +29143,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 488,
-    "declared_relationships": 730,
+    "compliant_documents": 489,
+    "declared_relationships": 734,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 226,
+      "PROJECT": 227,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 92,
+      "D1": 93,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -29140,7 +29194,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 54,
+      "BBA Domain Governance": 55,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -29149,13 +29203,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 328,
+      "DRAFT": 329,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 154,
+      "GUIDE": 155,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -29175,6 +29229,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1080
+    "total_documents": 1081
   }
 }
