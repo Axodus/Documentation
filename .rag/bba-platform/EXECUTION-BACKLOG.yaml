@@ -1068,7 +1068,7 @@ program:
               acceptance: ["Quality Attributes, scenarios, constraints, priorities, measures, thresholds, trade-offs, and evidence obligations are defined independently of implementation."]
             - id: "REQ-003-05-002"
               title: "Define Semantic Consistency and Tenant Isolation"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-05-001"]
               produces: ["BBAPLT-ARCH-024"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-024-SEMANTIC-CONSISTENCY-AND-TENANT-ISOLATION.md"]
