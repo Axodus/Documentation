@@ -4802,6 +4802,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-055",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-055",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
+      "title": "BBA Platform Workflow Work Items and Assignment Binding"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12263,6 +12273,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-052-WORKFLOW-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-053-WORKFLOW-DEFINITION.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13017,6 +13028,7 @@
       "BBAPLT-GDE-052",
       "BBAPLT-GDE-053",
       "BBAPLT-GDE-054",
+      "BBAPLT-GDE-055",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13442,17 +13454,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 177,
+    "DEPENDS_ON": 178,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 415,
+    "RELATES_TO": 418,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 718,
+    "declared": 722,
     "derived": 0,
     "duplicates": 0,
-    "total": 718,
+    "total": 722,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14925,6 +14937,30 @@
       "source": "BBAPLT-GDE-054",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-054-WORKFLOW-STAGES.md",
       "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-055",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
+      "target": "BBAPLT-GDE-054",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-055",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
+      "target": "BBAPLT-GDE-032",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-055",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
+      "target": "BBAPLT-GDE-033",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-055",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md",
+      "target": "BBAPLT-GDE-036",
       "type": "RELATES_TO"
     },
     {

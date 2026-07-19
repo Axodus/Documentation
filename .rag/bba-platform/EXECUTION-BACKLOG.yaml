@@ -563,7 +563,7 @@ program:
               acceptance: ["Workflow Stage defines a bounded semantic phase with purpose, inputs, outputs, roles, criteria, gates, and exit meaning."]
             - id: "REQ-002-05-004"
               title: "Define Work Items and Assignment Binding"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-003"]
               produces: ["BBAPLT-GDE-055"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md"]

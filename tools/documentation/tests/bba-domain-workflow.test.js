@@ -56,3 +56,15 @@ test('Workflow Stage defines bounded purpose, work, criteria, gates, outputs, an
   assert.match(source, /Rework[\s\S]*return work to a prior[\s\S]*Stage/)
   assert.match(source, /does not define pipeline steps, queue partitions, workers/)
 })
+
+test('Work Items bind existing Mission Assignments without expanding authority or Asset meaning', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-055-WORK-ITEMS-AND-ASSIGNMENT-BINDING.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-055"/)
+  for (const element of ['Mission and Tenant', 'Workflow and Stage', 'Purpose and scope', 'Assignment Binding', 'Inputs', 'Expected Outputs', 'Criteria and gates', 'Exception Path', 'Accountability reference']) assert.match(source, new RegExp(`\\| ${element} \\|`))
+  assert.match(source, /Assignment Binding does not create a second Assignment/)
+  assert.match(source, /existing Mission, Tenant, Agent, Role, Responsibility, Capabilities/)
+  assert.match(source, /A Work Item cannot widen Assignment scope, replace the human supervisor/)
+  assert.match(source, /A Deliverable[\s\S]*formal[\s\S]*only[\s\S]*expected by the bound[\s\S]*Assignment/)
+  assert.match(source, /does not decide[\s\S]*Asset[\s\S]*identity[\s\S]*version[\s\S]*semantics/)
+  assert.match(source, /does not define task records, tickets, messages, queues, workers/)
+})
