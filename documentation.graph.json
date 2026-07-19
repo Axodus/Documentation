@@ -5531,6 +5531,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-097",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-097",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md",
+      "title": "BBA Platform Configuration Secrets and Dependency Management"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13134,6 +13144,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
@@ -14029,6 +14040,7 @@
       "BBAPLT-GDE-094",
       "BBAPLT-GDE-095",
       "BBAPLT-GDE-096",
+      "BBAPLT-GDE-097",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14467,17 +14479,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 265,
+    "DEPENDS_ON": 266,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 585,
+    "RELATES_TO": 587,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 976,
+    "declared": 979,
     "derived": 0,
     "duplicates": 0,
-    "total": 976,
+    "total": 979,
     "unresolved": 1
   },
   "relationship_types": [
@@ -17210,6 +17222,24 @@
       "source": "BBAPLT-GDE-096",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-080",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-097",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md",
+      "target": "BBAPLT-GDE-096",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-097",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md",
+      "target": "BBAPLT-GDE-080",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-097",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md",
+      "target": "BBAPLT-GDE-094",
       "type": "RELATES_TO"
     },
     {

@@ -1368,7 +1368,7 @@ program:
               acceptance: ["Runtime and environment boundaries implement certified Architecture boundaries and preserve Tenant isolation."]
             - id: "REQ-004-05-002"
               title: "Define Configuration Secrets and Dependency Management"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-05-001"]
               produces: ["BBAPLT-GDE-097"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md"]

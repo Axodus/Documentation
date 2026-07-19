@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1160
+Source Documents: 1161
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1160
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1160 |
-| Canonical documents | 567 |
+| Total source documents | 1161 |
+| Canonical documents | 568 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 976 |
+| Declared relationships | 979 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1160
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 216 |
+| GUIDE | 217 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1160
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 305 |
+| PROJECT | 306 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1160
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 407 |
+| DRAFT | 408 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -140,6 +140,7 @@ Source Documents: 1160
 | BBAPLT-GDE-094 | BBA Platform Authentication and Authorization Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md) |
 | BBAPLT-GDE-095 | BBA Platform API Versioning Compatibility and Error Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md) |
 | BBAPLT-GDE-096 | BBA Platform Runtime and Environment Boundaries | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md](./bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md) |
+| BBAPLT-GDE-097 | BBA Platform Configuration Secrets and Dependency Management | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md](./bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-021 | BBA Platform Frontend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md) |
