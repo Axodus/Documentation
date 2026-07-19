@@ -109,3 +109,15 @@ test('Connector State Model defines guarded semantic movement and terminal retir
   assert.match(source, /Workflow[\s\S]*readiness[\s\S]*cannot satisfy a semantic Guard/)
   assert.match(source, /does not define state machines,[\s\S]*events,[\s\S]*status[\s\S]*codes,[\s\S]*health[\s\S]*checks/)
 })
+
+test('Connector Interaction Model references established domains without controlling them', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-071"/)
+  for (const domain of ['Mission', 'Institutional Asset', 'AI Workforce', 'Workflow', 'Human Governance']) assert.match(source, new RegExp(`\\| ${domain} \\|`))
+  assert.match(source, /participates in a domain interaction by carrying bounded context/)
+  assert.match(source, /Every interaction preserves:/)
+  for (const concept of ['Connector identity', 'Tenant and Mission context', 'Asset identity', 'Authority', 'evidence', 'applicable Rule']) assert.match(source, new RegExp(concept))
+  assert.match(source, /does not transfer ownership[\s\S]*interaction's purpose,[\s\S]*authority,[\s\S]*accountability/)
+  assert.match(source, /never makes an external party an Agent,[\s\S]*Steward,[\s\S]*Approver,[\s\S]*Authority/)
+  assert.match(source, /does not define interaction protocols,[\s\S]*message[\s\S]*contracts,[\s\S]*API[\s\S]*operations,[\s\S]*event choreography/)
+})

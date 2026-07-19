@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1094
+Source Documents: 1095
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1094
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1094 |
-| Canonical documents | 502 |
+| Total source documents | 1095 |
+| Canonical documents | 503 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 781 |
+| Declared relationships | 786 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1094
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 167 |
+| GUIDE | 168 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1094
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 240 |
+| PROJECT | 241 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1094
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 342 |
+| DRAFT | 343 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -146,6 +146,7 @@ Source Documents: 1094
 | BBAPLT-GDE-068 | BBA Platform Connector Context and Translation Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md](./bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md) |
 | BBAPLT-GDE-069 | BBA Platform Connector Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md) |
 | BBAPLT-GDE-070 | BBA Platform Connector State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md) |
+| BBAPLT-GDE-071 | BBA Platform Connector Interaction Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md](./bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

@@ -4975,6 +4975,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-071",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-071",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      "title": "BBA Platform Connector Interaction Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12462,6 +12472,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13233,6 +13244,7 @@
       "BBAPLT-GDE-068",
       "BBAPLT-GDE-069",
       "BBAPLT-GDE-070",
+      "BBAPLT-GDE-071",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13659,17 +13671,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 194,
+    "DEPENDS_ON": 195,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 461,
+    "RELATES_TO": 465,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 781,
+    "declared": 786,
     "derived": 0,
     "duplicates": 0,
-    "total": 781,
+    "total": 786,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15502,6 +15514,36 @@
       "source": "BBAPLT-GDE-070",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md",
       "target": "BBAPLT-GDE-060",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-071",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      "target": "BBAPLT-GDE-070",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-071",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-071",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-071",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-071",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      "target": "BBAPLT-GDE-052",
       "type": "RELATES_TO"
     },
     {

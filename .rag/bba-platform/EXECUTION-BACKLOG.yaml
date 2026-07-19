@@ -690,7 +690,7 @@ program:
               acceptance: ["Connector states, transitions, guards, terminal states, and reactivation conditions are semantically distinct from lifecycle labels."]
             - id: "REQ-002-06-008"
               title: "Define Connector Interaction Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-007"]
               produces: ["BBAPLT-GDE-071"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md"]
