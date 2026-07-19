@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1107
+Source Documents: 1108
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1107
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1107 |
-| Canonical documents | 515 |
+| Total source documents | 1108 |
+| Canonical documents | 516 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 826 |
+| Declared relationships | 828 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1107
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 177 |
+| GUIDE | 178 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1107
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 253 |
+| PROJECT | 254 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1107
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 355 |
+| DRAFT | 356 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -82,6 +82,7 @@ Source Documents: 1107
 | BBAPLT-ARCH-003 | BBA Platform Bounded Context Architecture | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md](./bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md) |
 | BBAPLT-ARCH-004 | BBA Platform Logical Component Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md) |
 | BBAPLT-ARCH-005 | BBA Platform Canonical Information Flow | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md](./bba-platform/architecture/BBAPLT-ARCH-005-CANONICAL-INFORMATION-FLOW.md) |
+| BBAPLT-ARCH-006 | BBA Platform Architecture Glossary and Taxonomy | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md](./bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

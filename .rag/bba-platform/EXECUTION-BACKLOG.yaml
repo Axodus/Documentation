@@ -857,8 +857,8 @@ program:
         - id: "SPRINT-003-01"
           display_id: "SPRINT-01"
           name: "Architecture Foundation"
-          status: "IN_PROGRESS"
-          status_reason: "ARCHITECTURE_ROLLOUT_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "ARCHITECTURE_FOUNDATION_PASS"
           documentation_areas: ["AREA-021"]
           requests:
             - id: "REQ-003-01-001"
@@ -898,7 +898,7 @@ program:
               acceptance: ["Semantic information flows, ownership, creation, alteration, approval, consumption, archiving, publication, and state changes are documented without transport mechanisms."]
             - id: "REQ-003-01-006"
               title: "Define Architecture Glossary and Taxonomy"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-01-005"]
               produces: ["BBAPLT-ARCH-006"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-006-ARCHITECTURE-GLOSSARY-AND-TAXONOMY.md"]
