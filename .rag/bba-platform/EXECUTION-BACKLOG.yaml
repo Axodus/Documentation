@@ -718,7 +718,7 @@ program:
               acceptance: ["Connector constraints protect Tenant isolation, authority, semantic integrity, lineage, governance compliance, and trust boundaries."]
             - id: "REQ-002-06-012"
               title: "Define Cross-Domain Interaction Matrix"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-011"]
               produces: ["BBAPLT-GDE-075"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md"]

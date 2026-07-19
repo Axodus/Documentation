@@ -5015,6 +5015,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-075",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-075",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
+      "title": "BBA Platform Connector Cross-Domain Interaction Matrix"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12506,6 +12516,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13281,6 +13292,7 @@
       "BBAPLT-GDE-072",
       "BBAPLT-GDE-073",
       "BBAPLT-GDE-074",
+      "BBAPLT-GDE-075",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13707,17 +13719,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 198,
+    "DEPENDS_ON": 199,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 471,
+    "RELATES_TO": 475,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 795,
+    "declared": 800,
     "derived": 0,
     "duplicates": 0,
-    "total": 795,
+    "total": 800,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15634,6 +15646,36 @@
       "source": "BBAPLT-GDE-074",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md",
       "target": "BBAPLT-GDE-063",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-075",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
+      "target": "BBAPLT-GDE-074",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-075",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-075",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-075",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-075",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md",
+      "target": "BBAPLT-RPT-009",
       "type": "RELATES_TO"
     },
     {

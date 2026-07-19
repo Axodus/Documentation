@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1098
+Source Documents: 1099
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1098
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1098 |
-| Canonical documents | 506 |
+| Total source documents | 1099 |
+| Canonical documents | 507 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 795 |
+| Declared relationships | 800 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1098
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 171 |
+| GUIDE | 172 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1098
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 244 |
+| PROJECT | 245 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1098
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 346 |
+| DRAFT | 347 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -150,6 +150,7 @@ Source Documents: 1098
 | BBAPLT-GDE-072 | BBA Platform Connector Rules | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md](./bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md) |
 | BBAPLT-GDE-073 | BBA Platform Connector Policies | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md](./bba-platform/domain/BBAPLT-GDE-073-CONNECTOR-POLICIES.md) |
 | BBAPLT-GDE-074 | BBA Platform Connector Constraints | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md](./bba-platform/domain/BBAPLT-GDE-074-CONNECTOR-CONSTRAINTS.md) |
+| BBAPLT-GDE-075 | BBA Platform Connector Cross-Domain Interaction Matrix | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md](./bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

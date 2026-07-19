@@ -162,3 +162,16 @@ test('Connector Constraints protect Tenant, authority, meaning, lineage, governa
   assert.match(source, /cannot be hidden by a successful technical transfer,[\s\S]*retry,[\s\S]*replacement executor/)
   assert.match(source, /does not define network isolation,[\s\S]*encryption,[\s\S]*quotas,[\s\S]*authorization enforcement/)
 })
+
+test('Connector interaction matrix preserves ownership across all established domains', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-075-CROSS-DOMAIN-INTERACTION-MATRIX.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-075"/)
+  for (const domain of ['Mission', 'Institutional Asset', 'AI Workforce', 'Human Governance', 'Workflow']) assert.match(source, new RegExp(`\\| ${domain} \\|`))
+  assert.match(source, /Mission owns purpose,[\s\S]*scope,[\s\S]*lifecycle,[\s\S]*Steward/)
+  assert.match(source, /Asset Domain owns identity,[\s\S]*lineage,[\s\S]*versions,[\s\S]*publication meaning/)
+  assert.match(source, /AI Workforce owns Agent,[\s\S]*Capability,[\s\S]*Assignment,[\s\S]*Responsibility/)
+  assert.match(source, /Human Governance owns institutional Authority,[\s\S]*Approval,[\s\S]*Stewardship,[\s\S]*Accountability/)
+  assert.match(source, /Workflow owns coordination,[\s\S]*Criteria,[\s\S]*Guards,[\s\S]*Transitions/)
+  assert.match(source, /Connector participation is a relationship to a domain,[\s\S]*not ownership of that[\s\S]*domain/)
+  assert.match(source, /does not define integration topology,[\s\S]*APIs,[\s\S]*protocols,[\s\S]*events,[\s\S]*queues/)
+})
