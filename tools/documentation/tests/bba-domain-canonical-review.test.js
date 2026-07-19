@@ -12,6 +12,7 @@ test('Domain canonical review activates with eight audit-only REQs', async () =>
   const report = await read('.rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md')
   assert.match(backlog, /id: "SPRINT-002-07"[\s\S]*status: "IN_PROGRESS"/)
   assert.match(backlog, /status_reason: "DOMAIN_CANONICAL_REVIEW_ACTIVE"/)
+  assert.match(backlog, /id: "REQ-002-07-002"[\s\S]*status: "DONE"/)
   for (const id of ['REQ-002-07-001', 'REQ-002-07-002', 'REQ-002-07-003', 'REQ-002-07-004', 'REQ-002-07-005', 'REQ-002-07-006', 'REQ-002-07-007', 'REQ-002-07-008']) {
     assert.match(backlog, new RegExp(`id: "${id}"`))
     assert.match(graph, new RegExp(`"${id}"`))
@@ -20,5 +21,7 @@ test('Domain canonical review activates with eight audit-only REQs', async () =>
   assert.match(report, /document_id: "BBAPLT-RPT-011"/)
   assert.match(report, /Audit evidence is being accumulated/)
   assert.match(report, /This report is audit-only/)
+  assert.match(report, /## Cross-Domain Consistency Audit/)
+  assert.match(report, /mutually referential but non-substitutive/)
   await access(resolve(root, '.rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md'))
 })

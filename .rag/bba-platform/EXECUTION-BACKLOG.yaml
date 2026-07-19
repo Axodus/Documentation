@@ -747,7 +747,7 @@ program:
               acceptance: ["Canonical review scope, six-domain inventory, review contract, evidence index, and audit-only boundary are established."]
             - id: "REQ-002-07-002"
               title: "Review Cross-Domain Consistency"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-07-001"]
               produces: ["BBAPLT-RPT-011"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]

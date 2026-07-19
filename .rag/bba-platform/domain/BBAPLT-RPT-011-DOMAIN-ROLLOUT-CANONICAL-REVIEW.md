@@ -63,12 +63,30 @@ ownership, Product-to-Domain traceability, architecture boundaries, explicit
 gaps, and readiness for Architecture Layer documentation. A finding is not a
 new domain concept and does not authorize implementation.
 
+## Cross-Domain Consistency Audit
+
+REQ-002-07-002 records the ownership boundaries found across the completed
+domain areas:
+
+| Domain | Canonical responsibility | Relationship to adjacent domains |
+| --- | --- | --- |
+| Mission | Purpose, scope, lifecycle, objectives, and Steward relationship | Provides the institutional context for assignments, assets, workflow, and external interaction |
+| Institutional Asset | Identity, lineage, versions, representations, authority, and publication meaning | Records what a Mission produces or transforms without becoming a file or transport concern |
+| AI Workforce | Agent identity, Capability, Assignment, Responsibility, Deliverable, and quality obligations | Performs bounded work for Missions and produces or transforms Assets under Human Governance |
+| Human Governance | Authority, Approval, Stewardship, Accountability, Delegation, and Escalation | Retains institutional decision authority and governs critical gates |
+| Workflow | Semantic coordination, Stages, Guards, Transitions, decision points, and completion criteria | Coordinates domain work without redefining authority, ownership, or Asset identity |
+| Connector | External boundary, context translation, semantic integrity, and interaction participation | Carries meaning across boundaries without creating Missions, authority, or domain rules |
+
+The audit found the six areas mutually referential but non-substitutive. Open
+implementation questions remain deferred to the Architecture Layer and are not
+treated as domain inconsistencies.
+
 ## Evidence Index
 
 | REQ | Audit evidence | Result |
 | --- | --- | --- |
-| REQ-002-07-001 | Scope, inventory, and review contract | IN_PROGRESS |
-| REQ-002-07-002 | Cross-domain consistency matrix | PENDING |
+| REQ-002-07-001 | Scope, inventory, and review contract | PASS |
+| REQ-002-07-002 | Cross-domain consistency matrix | PASS |
 | REQ-002-07-003 | Ubiquitous Language audit | PENDING |
 | REQ-002-07-004 | Duplication and conflict audit | PENDING |
 | REQ-002-07-005 | Product-to-Domain traceability audit | PENDING |
