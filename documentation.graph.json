@@ -5481,6 +5481,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-092",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-092",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
+      "title": "BBA Platform Core Domain API Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13069,6 +13079,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
@@ -13958,6 +13969,7 @@
       "BBAPLT-GDE-089",
       "BBAPLT-GDE-090",
       "BBAPLT-GDE-091",
+      "BBAPLT-GDE-092",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14395,17 +14407,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 255,
+    "DEPENDS_ON": 256,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 575,
+    "RELATES_TO": 577,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 956,
+    "declared": 959,
     "derived": 0,
     "duplicates": 0,
-    "total": 956,
+    "total": 959,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17048,6 +17060,24 @@
       "source": "BBAPLT-GDE-091",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md",
       "target": "BBAPLT-ARCH-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-092",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
+      "target": "BBAPLT-GDE-091",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-092",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-092",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md",
+      "target": "BBAPLT-GDE-081",
       "type": "RELATES_TO"
     },
     {

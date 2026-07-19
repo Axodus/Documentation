@@ -1319,7 +1319,7 @@ program:
               acceptance: ["API contracts derive from logical interfaces and preserve ownership, authority, identity, lineage, and Tenant boundaries."]
             - id: "REQ-004-04-002"
               title: "Define Core Domain API Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-04-001"]
               produces: ["BBAPLT-GDE-092"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md"]
