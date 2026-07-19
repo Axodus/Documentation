@@ -1306,48 +1306,48 @@ program:
         - id: "SPRINT-004-04"
           display_id: "SPRINT-04"
           name: "API and Integration Contracts"
-          status: "IN_PROGRESS"
-          status_reason: "API_INTEGRATION_CONTRACTS_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "API_INTEGRATION_CONTRACTS_PASS"
           documentation_areas: ["AREA-034", "AREA-035"]
           requests:
             - id: "REQ-004-04-001"
               title: "Define API Contract Principles"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-03-006"]
               produces: ["BBAPLT-GDE-091"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md"]
               acceptance: ["API contracts derive from logical interfaces and preserve ownership, authority, identity, lineage, and Tenant boundaries."]
             - id: "REQ-004-04-002"
               title: "Define Core Domain API Contracts"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-04-001"]
               produces: ["BBAPLT-GDE-092"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-092-CORE-DOMAIN-API-CONTRACTS.md"]
               acceptance: ["Mission, Asset, Workforce, Governance, Workflow, and Publication contracts are explicit and traceable."]
             - id: "REQ-004-04-003"
               title: "Define Connector Integration Contracts"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-04-002"]
               produces: ["BBAPLT-GDE-093"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-093-CONNECTOR-INTEGRATION-CONTRACTS.md"]
               acceptance: ["Connector contracts preserve translation, trust, semantic integrity, authority, accountability, and external boundary rules."]
             - id: "REQ-004-04-004"
               title: "Define Authentication and Authorization Contracts"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-04-003"]
               produces: ["BBAPLT-GDE-094"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-094-AUTHENTICATION-AND-AUTHORIZATION-CONTRACTS.md"]
               acceptance: ["Technical access contracts implement Human Governance authority and Tenant isolation without replacing domain Authority or Permission semantics."]
             - id: "REQ-004-04-005"
               title: "Define API Versioning Compatibility and Error Contracts"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-04-004"]
               produces: ["BBAPLT-GDE-095"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md"]
               acceptance: ["API evolution, compatibility, errors, deprecation, and failure semantics preserve certified information and interaction invariants."]
             - id: "REQ-004-04-006"
               title: "Review API and Integration Contracts"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-04-001", "REQ-004-04-002", "REQ-004-04-003", "REQ-004-04-004", "REQ-004-04-005"]
               produces: ["BBAPLT-RPT-022"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md"]
@@ -1355,8 +1355,8 @@ program:
         - id: "SPRINT-004-05"
           display_id: "SPRINT-05"
           name: "Infrastructure and Runtime Boundaries"
-          status: "PLANNED"
-          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "INFRASTRUCTURE_RUNTIME_BOUNDARIES_ACTIVE"
           documentation_areas: ["AREA-033", "AREA-035"]
           requests:
             - id: "REQ-004-05-001"

@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1158,
+  "document_count": 1159,
   "documents": [
     {
       "aliases": [],
@@ -8887,6 +8887,35 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Frontend Architecture Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DEVELOPMENT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-022",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D2",
+      "owner": "BBA Development Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-091",
+        "BBAPLT-GDE-092",
+        "BBAPLT-GDE-093",
+        "BBAPLT-GDE-094",
+        "BBAPLT-GDE-095",
+        "EPIC-004",
+        "REQ-004-04-006"
+      ],
+      "sha256": "c5db7edc873f04df5b29eabe128f3f94d1ac62972fb38cd44c09de6072d31a66",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "API and Integration Contracts Review",
       "version": "0.1.0"
     },
     {
@@ -30283,6 +30312,36 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-091",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-092",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-093",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-094",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-095",
+      "type": "DEPENDS_ON"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -32722,20 +32781,20 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 565,
-    "declared_relationships": 968,
+    "compliant_documents": 566,
+    "declared_relationships": 973,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 303,
+      "PROJECT": 304,
       "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
       "D1": 169,
-      "D2": 325,
+      "D2": 326,
       "D3": 84,
       "D4": 1,
       "UNSPECIFIED": 579
@@ -32773,7 +32832,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Architecture Governance": 32,
-      "BBA Development Governance": 23,
+      "BBA Development Governance": 24,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -32784,7 +32843,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 405,
+      "DRAFT": 406,
       "UNSPECIFIED": 579
     },
     "documents_by_type": {
@@ -32797,7 +32856,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 16,
       "RELEASE": 1,
-      "REPORT": 268,
+      "REPORT": 269,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -32810,6 +32869,6 @@
     "generated_documents": 8,
     "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 1158
+    "total_documents": 1159
   }
 }

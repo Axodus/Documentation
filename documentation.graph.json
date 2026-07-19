@@ -5709,6 +5709,16 @@
       "title": "BBA Platform Frontend Architecture Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-022",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-022",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "title": "API and Integration Contracts Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -13116,6 +13126,7 @@
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
+      ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -14025,6 +14036,7 @@
       "BBAPLT-RPT-019",
       "BBAPLT-RPT-020",
       "BBAPLT-RPT-021",
+      "BBAPLT-RPT-022",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14443,17 +14455,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 259,
+    "DEPENDS_ON": 264,
     "DOCUMENTS": 17,
     "REALIZES": 13,
     "RELATES_TO": 583,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 968,
+    "declared": 973,
     "derived": 0,
     "duplicates": 0,
-    "total": 968,
+    "total": 973,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17835,6 +17847,36 @@
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
       "target": "BBAPLT-RPT-020",
       "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-091",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-092",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-093",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-094",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-022",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      "target": "BBAPLT-GDE-095",
+      "type": "DEPENDS_ON"
     },
     {
       "source": "BUSINESS-GDE-001",
