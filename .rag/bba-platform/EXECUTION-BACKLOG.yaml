@@ -938,7 +938,7 @@ program:
               acceptance: ["Conceptual coordination, temporal dependencies, synchronization, preconditions, postconditions, waiting, blocking, refusal, and escalation are defined without events, messages, or queues."]
             - id: "REQ-003-03-004"
               title: "Define State Propagation Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-03-003"]
               produces: ["BBAPLT-ARCH-016"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md"]
