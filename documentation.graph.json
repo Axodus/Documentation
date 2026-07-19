@@ -5329,6 +5329,16 @@
       "title": "BBA Platform Logical Interface Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-015",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-015",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
+      "title": "BBA Platform Interaction Architecture Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12687,6 +12697,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
+      ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13569,6 +13580,7 @@
       "BBAPLT-RPT-011",
       "BBAPLT-RPT-012",
       "BBAPLT-RPT-014",
+      "BBAPLT-RPT-015",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -13987,17 +13999,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 222,
+    "DEPENDS_ON": 223,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 505,
+    "RELATES_TO": 507,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 853,
+    "declared": 856,
     "derived": 0,
     "duplicates": 0,
-    "total": 853,
+    "total": 856,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16688,6 +16700,24 @@
       "source": "BBAPLT-RPT-014",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       "target": "BBAPLT-ARCH-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-015",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-017",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-015",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-013",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-015",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-016",
       "type": "RELATES_TO"
     },
     {
