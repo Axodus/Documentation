@@ -1208,8 +1208,8 @@ program:
         - id: "SPRINT-004-02"
           display_id: "SPRINT-02"
           name: "Backend Architecture"
-          status: "IN_PROGRESS"
-          status_reason: "BACKEND_ARCHITECTURE_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "BACKEND_ARCHITECTURE_PASS"
           documentation_areas: ["AREA-033", "AREA-034"]
           requests:
             - id: "REQ-004-02-001"
@@ -1249,7 +1249,7 @@ program:
               acceptance: ["Backend error, security, observability, resilience, and scalability practices implement certified Quality Attributes."]
             - id: "REQ-004-02-006"
               title: "Review Backend Architecture"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-02-001", "REQ-004-02-002", "REQ-004-02-003", "REQ-004-02-004", "REQ-004-02-005"]
               produces: ["BBAPLT-RPT-020"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md"]
@@ -1257,8 +1257,8 @@ program:
         - id: "SPRINT-004-03"
           display_id: "SPRINT-03"
           name: "Frontend Architecture"
-          status: "PLANNED"
-          status_reason: "DEVELOPMENT_ROLLOUT_PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "FRONTEND_ARCHITECTURE_ACTIVE"
           documentation_areas: ["AREA-033", "AREA-034"]
           requests:
             - id: "REQ-004-03-001"
