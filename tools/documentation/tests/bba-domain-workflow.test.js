@@ -178,7 +178,7 @@ test('Workflow Constraints protect scope, authority, evidence, quality, concurre
 test('Workflow Domain review closes the Sprint and hands off to Connector Domain', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const review = await read('.rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md')
-  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "DOMAIN_CANONICAL_REVIEW_PASS"/)
   for (const id of ['REQ-002-05-001', 'REQ-002-05-002', 'REQ-002-05-003', 'REQ-002-05-004', 'REQ-002-05-005', 'REQ-002-05-006', 'REQ-002-05-007', 'REQ-002-05-008', 'REQ-002-05-009', 'REQ-002-05-010', 'REQ-002-05-011', 'REQ-002-05-012', 'REQ-002-05-013']) assert.match(backlog, new RegExp(`id: "${id}"[\\s\\S]*status: "DONE"`))
   assert.match(backlog, /id: "SPRINT-002-05"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "WORKFLOW_CANONICAL_REVIEW_PASS"/)
   assert.match(backlog, /id: "SPRINT-002-06"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "CONNECTOR_CANONICAL_REVIEW_PASS"/)

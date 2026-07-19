@@ -10,7 +10,7 @@ test('EPIC-002 Mission Domain foundation is active with namespaced execution IDs
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
   assert.match(backlog, /id: "EPIC-001"[\s\S]*status_reason: "WAITING_DOMAIN_VALIDATION"/)
-  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"/)
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "PASS_CLOSED"/)
   assert.match(backlog, /id: "SPRINT-002-01"[\s\S]*status: "PASS_CLOSED"/)
   assert.match(backlog, /id: "SPRINT-001-03"[\s\S]*status: "PLANNED"/)
   for (const id of ['SPRINT-002-01', 'SPRINT-002-02', 'SPRINT-002-03', 'SPRINT-002-04', 'SPRINT-002-05', 'SPRINT-002-06']) {
@@ -102,7 +102,7 @@ test('Mission Domain Review closes the Sprint and hands off to Institutional Ass
   const source = await read(path)
   await access(resolve(root, path))
   assert.match(backlog, /id: "EPIC-001"[\s\S]*status_reason: "WAITING_DOMAIN_VALIDATION"/)
-  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"/)
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "PASS_CLOSED"/)
   assert.match(backlog, /id: "SPRINT-002-01"[\s\S]*status: "PASS_CLOSED"/)
   for (const id of ['REQ-002-01-001', 'REQ-002-01-002', 'REQ-002-01-003', 'REQ-002-01-004', 'REQ-002-01-005', 'REQ-002-01-006', 'REQ-002-01-007']) {
     const request = backlog.match(new RegExp(`id: "${id}"[\\s\\S]*?status: "([A-Z_]+)"`))

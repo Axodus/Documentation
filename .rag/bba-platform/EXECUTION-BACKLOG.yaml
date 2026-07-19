@@ -194,8 +194,8 @@ program:
     - id: "EPIC-002"
       name: "Domain Documentation Rollout"
       documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
-      status: "IN_PROGRESS"
-      status_reason: "DOMAIN_ROLLOUT_ACTIVE"
+      status: "PASS_CLOSED"
+      status_reason: "DOMAIN_CANONICAL_REVIEW_PASS"
       sprints:
         - id: "SPRINT-002-01"
           display_id: "SPRINT-01"
@@ -733,8 +733,8 @@ program:
         - id: "SPRINT-002-07"
           display_id: "SPRINT-07"
           name: "Domain Rollout Canonical Review"
-          status: "IN_PROGRESS"
-          status_reason: "DOMAIN_CANONICAL_REVIEW_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "DOMAIN_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
           cross_cutting_architecture_area: "AREA-021"
           requests:
@@ -789,7 +789,7 @@ program:
               acceptance: ["Domain completeness, coherence, risks, gaps, architecture entry criteria, and deferred decisions are consolidated."]
             - id: "REQ-002-07-008"
               title: "Close Domain Rollout Canonical Review"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-07-001", "REQ-002-07-002", "REQ-002-07-003", "REQ-002-07-004", "REQ-002-07-005", "REQ-002-07-006", "REQ-002-07-007"]
               produces: ["BBAPLT-RPT-011"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]

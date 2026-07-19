@@ -179,7 +179,7 @@ test('Connector interaction matrix preserves ownership across all established do
 test('Connector Domain review closes the Sprint and hands off to EPIC canonical review', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const review = await read('.rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md')
-  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DOMAIN_ROLLOUT_ACTIVE"/)
+  assert.match(backlog, /id: "EPIC-002"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "DOMAIN_CANONICAL_REVIEW_PASS"/)
   for (const id of ['REQ-002-06-001', 'REQ-002-06-002', 'REQ-002-06-003', 'REQ-002-06-004', 'REQ-002-06-005', 'REQ-002-06-006', 'REQ-002-06-007', 'REQ-002-06-008', 'REQ-002-06-009', 'REQ-002-06-010', 'REQ-002-06-011', 'REQ-002-06-012', 'REQ-002-06-013']) assert.match(backlog, new RegExp(`id: "${id}"[\\s\\S]*status: "DONE"`))
   assert.match(backlog, /id: "SPRINT-002-06"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "CONNECTOR_CANONICAL_REVIEW_PASS"/)
   assert.match(review, /document_id: "BBAPLT-RPT-010"/)
