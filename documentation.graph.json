@@ -5449,6 +5449,16 @@
       "title": "BBA Platform Information Architecture Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-017",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-017",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "title": "BBA Platform Quality Attributes and Cross-Cutting Architecture Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12819,6 +12829,7 @@
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
+      ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13713,6 +13724,7 @@
       "BBAPLT-RPT-014",
       "BBAPLT-RPT-015",
       "BBAPLT-RPT-016",
+      "BBAPLT-RPT-017",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14131,17 +14143,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 234,
+    "DEPENDS_ON": 235,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 533,
+    "RELATES_TO": 536,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 893,
+    "declared": 897,
     "derived": 0,
     "duplicates": 0,
-    "total": 893,
+    "total": 897,
     "unresolved": 0
   },
   "relationship_types": [
@@ -17072,6 +17084,30 @@
       "source": "BBAPLT-RPT-016",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
       "target": "BBAPLT-RPT-015",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-027",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-015",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-016",
       "type": "RELATES_TO"
     },
     {

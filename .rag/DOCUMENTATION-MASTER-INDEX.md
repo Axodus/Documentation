@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1132
+Source Documents: 1133
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1132
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1132 |
-| Canonical documents | 540 |
+| Total source documents | 1133 |
+| Canonical documents | 541 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 893 |
+| Declared relationships | 897 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1132
 | PROPOSAL | 1 |
 | REFERENCE | 15 |
 | RELEASE | 1 |
-| REPORT | 263 |
+| REPORT | 264 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1132
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 278 |
+| PROJECT | 279 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1132
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 380 |
+| DRAFT | 381 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -107,6 +107,7 @@ Source Documents: 1132
 | BBAPLT-RPT-014 | BBA Platform Logical Interface Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md) |
 | BBAPLT-RPT-015 | BBA Platform Interaction Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-016 | BBA Platform Information Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md) |
+| BBAPLT-RPT-017 | BBA Platform Quality Attributes and Cross-Cutting Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
 | BBA-STD-001 | BBA Platform Decision Traceability | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md](./bba-platform/BBA-DOC-DECISION-TRACEABILITY.md) |
 | BBA-ROAD-002 | BBA Platform Documentation Roadmap | ROADMAP | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md](./bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md) |

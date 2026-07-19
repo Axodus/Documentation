@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1132,
+  "document_count": 1133,
   "documents": [
     {
       "aliases": [],
@@ -7902,6 +7902,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Information Architecture Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-017",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-027",
+        "BBAPLT-RPT-012",
+        "BBAPLT-RPT-015",
+        "BBAPLT-RPT-016",
+        "EPIC-003",
+        "REQ-003-05-006"
+      ],
+      "sha256": "9d4fb2bde6cc6bfbb74b663496cf97e7676eab75215ca4b3ad7dbb1effcd95c2",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Quality Attributes and Cross-Cutting Architecture Review",
       "version": "0.1.0"
     },
     {
@@ -29131,6 +29159,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-027",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-015",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-016",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -31570,19 +31622,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 540,
-    "declared_relationships": 893,
+    "compliant_documents": 541,
+    "declared_relationships": 897,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 278,
+      "PROJECT": 279,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 144,
+      "D1": 145,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31620,7 +31672,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 30,
+      "BBA Architecture Governance": 31,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31631,7 +31683,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 380,
+      "DRAFT": 381,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -31644,7 +31696,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 263,
+      "REPORT": 264,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -31657,6 +31709,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1132
+    "total_documents": 1133
   }
 }

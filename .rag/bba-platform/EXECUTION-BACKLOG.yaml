@@ -1055,8 +1055,8 @@ program:
         - id: "SPRINT-003-05"
           display_id: "SPRINT-05"
           name: "Quality Attributes and Cross-Cutting Architecture"
-          status: "IN_PROGRESS"
-          status_reason: "QUALITY_ATTRIBUTES_ARCHITECTURE_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "QUALITY_ATTRIBUTES_ARCHITECTURE_PASS"
           documentation_areas: ["AREA-025"]
           requests:
             - id: "REQ-003-05-001"
@@ -1096,7 +1096,7 @@ program:
               acceptance: ["Resilience, graceful degradation, recovery meaning, scalability objectives, capacity boundaries, and transversal governance are defined without selecting topology or infrastructure."]
             - id: "REQ-003-05-006"
               title: "Review Quality Attributes and Cross-Cutting Architecture"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-05-001", "REQ-003-05-002", "REQ-003-05-003", "REQ-003-05-004", "REQ-003-05-005"]
               produces: ["BBAPLT-RPT-017"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-017-QUALITY-ATTRIBUTES-ARCHITECTURE-REVIEW.md"]
