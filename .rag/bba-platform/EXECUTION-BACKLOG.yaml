@@ -924,7 +924,7 @@ program:
               acceptance: ["Semantic collaboration, roles, entry points, exit points, responsibility, causal meaning, and interaction outcomes are defined without implementation mechanisms."]
             - id: "REQ-003-03-002"
               title: "Define Capability Interaction Flows and Interaction Catalog"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-03-001"]
               produces: ["BBAPLT-ARCH-013", "BBAPLT-ARCH-014"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md", ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md"]

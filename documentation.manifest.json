@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1115,
+  "document_count": 1117,
   "documents": [
     {
       "aliases": [],
@@ -7384,6 +7384,62 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Interaction Model",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-013"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-013",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-012",
+        "BBAPLT-ARCH-014",
+        "EPIC-003",
+        "REQ-003-03-002"
+      ],
+      "sha256": "9fbe8607dff57f6005b9fa4a057c3dafdfff6dd3cace2a31eac34f17c8b3ebcc",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Interaction Catalog",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [
+        "BBAPLT-ARC-014"
+      ],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-014",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-012",
+        "BBAPLT-ARCH-013",
+        "EPIC-003",
+        "REQ-003-03-002"
+      ],
+      "sha256": "6a8d5d31437785620e74d8a6aec37aa79a79a3de7ee9682d25ec2d930bb877f1",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Capability Interaction Flows",
       "version": "0.1.0"
     },
     {
@@ -26168,6 +26224,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-ARCH-013",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md",
+      "target": "BBAPLT-ARCH-012",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-013",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md",
+      "target": "BBAPLT-ARCH-014",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md",
+      "target": "BBAPLT-ARCH-013",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-014",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md",
+      "target": "BBAPLT-ARCH-012",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-GDE-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       "target": "BBA-ADR-0003",
@@ -30779,19 +30859,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 523,
-    "declared_relationships": 843,
+    "compliant_documents": 525,
+    "declared_relationships": 847,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 261,
+      "PROJECT": 263,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 127,
+      "D1": 129,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -30829,7 +30909,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 13,
+      "BBA Architecture Governance": 15,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -30840,13 +30920,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 363,
+      "DRAFT": 365,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 184,
+      "GUIDE": 186,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -30866,6 +30946,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1115
+    "total_documents": 1117
   }
 }

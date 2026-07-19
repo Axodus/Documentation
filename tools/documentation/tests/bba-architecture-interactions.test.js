@@ -20,4 +20,18 @@ test('Interaction Architecture activates with six semantic REQs', async () => {
   for (const term of ['Interaction', 'causal', 'entry point', 'exit point', 'Provider', 'Consumer', 'Steward']) assert.match(interaction, new RegExp(term, 'i'))
   assert.match(interaction, /does not define[\s\S]*(event|message|queue|API|runtime|deployment)/i)
   await access(resolve(root, '.rag/bba-platform/architecture/BBAPLT-ARCH-012-INTERACTION-MODEL.md'))
+  const catalog = await read('.rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md')
+  const flows = await read('.rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md')
+  assert.match(backlog, /id: "REQ-003-03-002"[\s\S]*status: "DONE"/)
+  assert.match(catalog, /document_id: "BBAPLT-ARCH-013"/)
+  assert.match(flows, /document_id: "BBAPLT-ARCH-014"/)
+  for (let index = 1; index <= 11; index++) assert.match(catalog, new RegExp(`INT-003-${String(index).padStart(3, '0')}`))
+  for (const capability of ['Mission Orchestration', 'Institutional Knowledge', 'AI Workforce', 'Brand and Identity', 'Editorial Production', 'Review and Quality', 'Publishing', 'Distribution', 'Analytics and Learning', 'Human Governance', 'Connector Coordination']) {
+    assert.match(catalog, new RegExp(capability))
+    assert.match(flows, new RegExp(capability))
+  }
+  for (const field of ['Interaction ID', 'Context of Origin', 'Context of Destination', 'Semantic Trigger', 'Expected Outcome', 'Postconditions']) assert.match(catalog, new RegExp(field))
+  assert.match(flows, /does not define[\s\S]*(event|message|queue|API|runtime|deployment)/i)
+  await access(resolve(root, '.rag/bba-platform/architecture/BBAPLT-ARCH-013-INTERACTION-CATALOG.md'))
+  await access(resolve(root, '.rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md'))
 })
