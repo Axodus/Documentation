@@ -169,28 +169,82 @@ program:
         - id: "SPRINT-001-03"
           display_id: "SPRINT-03"
           name: "Product Final Consistency Review"
-          status: "PLANNED"
-          status_reason: "WAITING_DOMAIN_VALIDATION"
+          status: "IN_PROGRESS"
+          status_reason: "PRODUCT_FINAL_CONSISTENCY_REVIEW_ACTIVE"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-004", "AREA-005", "AREA-006", "AREA-007", "AREA-008", "AREA-009", "AREA-010"]
           requests:
             - id: "REQ-001-03-001"
-              title: "Review Product and Domain Consistency"
-              status: "PLANNED"
-              depends_on: ["REQ-002-01-007"]
-              produces: ["BBAPLT-RPT-004"]
-              acceptance: ["Product terms, boundaries, capabilities, solutions, Missions, Assets, and governance are compared against the approved Mission Domain review." ]
+              title: "Activate Product Final Review"
+              status: "DONE"
+              depends_on: ["REQ-002-07-008"]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Product final review scope, Product Layer inventory, audit-only boundary, and DRAFT report are established after Domain certification."]
             - id: "REQ-001-03-002"
-              title: "Reconcile Product and Domain Divergences"
+              title: "Audit Product and Domain Alignment"
               status: "PLANNED"
               depends_on: ["REQ-001-03-001"]
-              produces: ["BBAPLT-GDE-017"]
-              acceptance: ["Necessary Product corrections are recorded without absorbing domain implementation details or changing Core semantics silently." ]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Product intent, capabilities, solutions, outcomes, Mission, Assets, governance, and Domain evidence are compared without modifying audited documents."]
             - id: "REQ-001-03-003"
-              title: "Freeze Product Layer Baseline v1.0"
+              title: "Audit Product Strategic Scope"
               status: "PLANNED"
               depends_on: ["REQ-001-03-002"]
-              produces: ["BBAPLT-RPT-005"]
-              acceptance: ["Product Layer v1.0 is reviewed, versioned, and explicitly frozen while future domain discoveries are routed through governed change control." ]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Product documents are verified as strategic and are checked for operational lifecycle, states, rules, policies, constraints, authority, and workflow leakage."]
+            - id: "REQ-001-03-004"
+              title: "Audit Redundancy and Responsibility Boundaries"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-003"]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Duplications, redundancies, and responsibility overlaps are recorded with layer ownership and recommendations, without silent corrections."]
+            - id: "REQ-001-03-005"
+              title: "Validate Bidirectional Traceability"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-004"]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Product-to-Domain and Domain-to-Product traceability are audited for Capabilities, concepts, strategic origins, and operational representations."]
+            - id: "REQ-001-03-006"
+              title: "Audit Architectural Neutrality"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-005"]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Product documents are checked for APIs, architecture, infrastructure, runtime, persistence, protocols, frameworks, technologies, and implementation models."]
+            - id: "REQ-001-03-007"
+              title: "Assess Product Layer Readiness"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-006"]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Completeness, coherence, consistency, traceability, strategic scope, domain independence, gaps, risks, recommendations, and Architecture entry criteria are classified."]
+            - id: "REQ-001-03-008"
+              title: "Close Product Final Consistency Review"
+              status: "PLANNED"
+              depends_on: ["REQ-001-03-001", "REQ-001-03-002", "REQ-001-03-003", "REQ-001-03-004", "REQ-001-03-005", "REQ-001-03-006", "REQ-001-03-007"]
+              produces: ["BBAPLT-RPT-012"]
+              files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
+              acceptance: ["Product Final Consistency Review records PASS or FAIL and closes SPRINT-001-03 and EPIC-001 only on PASS."]
+          superseded_requests:
+            - id: "REQ-001-03-HIST-001"
+              title: "Review Product and Domain Consistency (superseded planning record)"
+              status: "SUPERSEDED"
+              superseded_by: "REQ-001-03-002"
+              execution: false
+            - id: "REQ-001-03-HIST-002"
+              title: "Reconcile Product and Domain Divergences (superseded planning record)"
+              status: "SUPERSEDED"
+              superseded_by: "REQ-001-03-004"
+              execution: false
+            - id: "REQ-001-03-HIST-003"
+              title: "Freeze Product Layer Baseline (superseded planning record)"
+              status: "SUPERSEDED"
+              superseded_by: "REQ-001-03-008"
+              execution: false
     - id: "EPIC-002"
       name: "Domain Documentation Rollout"
       documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]

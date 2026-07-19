@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1101,
+  "document_count": 1102,
   "documents": [
     {
       "aliases": [],
@@ -9799,6 +9799,37 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Product Domain Framing Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.PRODUCT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-012",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Product Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-RPT-001",
+        "BBAPLT-RPT-002",
+        "BBAPLT-RPT-011",
+        "EPIC-001",
+        "EPIC-002",
+        "EPIC-003",
+        "REQ-001-03-008"
+      ],
+      "sha256": "13562868ff3cbc6b45a5bec16831ef85c6a51e839b23622f5a788d266a59ed98",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Product Final Consistency Review",
       "version": "0.1.0"
     },
     {
@@ -27765,6 +27796,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-012",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
+      "target": "BBAPLT-RPT-011",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-012",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
+      "target": "BBAPLT-RPT-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-012",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
+      "target": "BBAPLT-RPT-002",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -30204,19 +30253,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 509,
-    "declared_relationships": 811,
+    "compliant_documents": 510,
+    "declared_relationships": 814,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 247,
+      "PROJECT": 248,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 113,
+      "D1": 114,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -30256,7 +30305,7 @@
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
-      "BBA Product Governance": 14,
+      "BBA Product Governance": 15,
       "Governance Nucleus": 6,
       "Security": 6,
       "UNSPECIFIED": 578
@@ -30264,7 +30313,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 349,
+      "DRAFT": 350,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -30277,7 +30326,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 259,
+      "REPORT": 260,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -30290,6 +30339,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1101
+    "total_documents": 1102
   }
 }
