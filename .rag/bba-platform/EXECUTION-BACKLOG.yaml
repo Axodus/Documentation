@@ -1312,7 +1312,7 @@ program:
           requests:
             - id: "REQ-004-04-001"
               title: "Define API Contract Principles"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-03-006"]
               produces: ["BBAPLT-GDE-091"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-091-API-CONTRACT-PRINCIPLES.md"]
