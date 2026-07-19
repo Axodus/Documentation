@@ -1033,7 +1033,7 @@ program:
               acceptance: ["Information states, transitions, entry criteria, exit criteria, retention meaning, and terminal conditions are documented without persistence mechanisms."]
             - id: "REQ-003-04-004"
               title: "Define Information Classification"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-04-003"]
               produces: ["BBAPLT-ARCH-021"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-021-INFORMATION-CLASSIFICATION.md"]

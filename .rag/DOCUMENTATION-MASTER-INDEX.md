@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1124
+Source Documents: 1125
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1124
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1124 |
-| Canonical documents | 532 |
+| Total source documents | 1125 |
+| Canonical documents | 533 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 865 |
+| Declared relationships | 868 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1124
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 192 |
+| GUIDE | 193 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1124
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 270 |
+| PROJECT | 271 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1124
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 372 |
+| DRAFT | 373 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -97,6 +97,7 @@ Source Documents: 1124
 | BBAPLT-ARCH-018 | BBA Platform Canonical Information Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md) |
 | BBAPLT-ARCH-019 | BBA Platform Information Ownership Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md](./bba-platform/architecture/BBAPLT-ARCH-019-INFORMATION-OWNERSHIP-MODEL.md) |
 | BBAPLT-ARCH-020 | BBA Platform Information Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md](./bba-platform/architecture/BBAPLT-ARCH-020-INFORMATION-LIFECYCLE.md) |
+| BBAPLT-ARCH-021 | BBA Platform Information Classification | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-021-INFORMATION-CLASSIFICATION.md](./bba-platform/architecture/BBAPLT-ARCH-021-INFORMATION-CLASSIFICATION.md) |
 | BBAPLT-RPT-014 | BBA Platform Logical Interface Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md) |
 | BBAPLT-RPT-015 | BBA Platform Interaction Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md](./bba-platform/architecture/BBAPLT-RPT-015-INTERACTION-ARCHITECTURE-REVIEW.md) |
 | BBA-REF-001 | BBA Platform Concept Map | REFERENCE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/BBA-DOC-CONCEPT-MAP.md](./bba-platform/BBA-DOC-CONCEPT-MAP.md) |
