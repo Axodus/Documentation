@@ -196,7 +196,7 @@ program:
               acceptance: ["Product documents are verified as strategic and are checked for operational lifecycle, states, rules, policies, constraints, authority, and workflow leakage."]
             - id: "REQ-001-03-004"
               title: "Audit Redundancy and Responsibility Boundaries"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-001-03-003"]
               produces: ["BBAPLT-RPT-012"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md"]
