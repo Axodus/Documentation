@@ -42,3 +42,18 @@ test('Connector identity and classifications remain semantic and technology-inde
   assert.match(source, /Classification cannot enlarge the Connector's responsibility,[\s\S]*authority,[\s\S]*Mission scope/)
   assert.match(source, /does not define identifiers,[\s\S]*schemas,[\s\S]*endpoints,[\s\S]*API contracts/)
 })
+
+test('Connector responsibilities preserve authority, identity, accountability, and boundary scope', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-066"/)
+  for (const responsibility of ['Receive external requests', 'Deliver institutional results', 'Forward information', 'Preserve context', 'Translate meaning', 'Surface exceptions']) assert.match(source, new RegExp(`\\| ${responsibility} \\|`))
+  assert.match(source, /do not execute[\s\S]*institutional decision[\s\S]*represented by the exchange/)
+  assert.match(source, /Connector never:/)
+  assert.match(source, /changes a domain Rule/)
+  assert.match(source, /creates institutional Authority/)
+  assert.match(source, /creates, closes, cancels/)
+  assert.match(source, /changes Institutional Asset identity,[\s\S]*Ownership,[\s\S]*lineage,[\s\S]*publication authority/)
+  assert.match(source, /changes Workflow semantics,[\s\S]*bypasses a Guard,[\s\S]*removes a human gate/)
+  assert.match(source, /institutional Accountability remains with the competent human role/)
+  assert.match(source, /does not define request handlers,[\s\S]*message delivery,[\s\S]*APIs,[\s\S]*protocols/)
+})

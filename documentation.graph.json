@@ -4925,6 +4925,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-066",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-066",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
+      "title": "BBA Platform Connector Responsibilities"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12407,6 +12417,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-063-WORKFLOW-CONSTRAINTS.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-064-CONNECTOR-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13173,6 +13184,7 @@
       "BBAPLT-GDE-063",
       "BBAPLT-GDE-064",
       "BBAPLT-GDE-065",
+      "BBAPLT-GDE-066",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13599,17 +13611,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 189,
+    "DEPENDS_ON": 190,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 449,
+    "RELATES_TO": 452,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 764,
+    "declared": 768,
     "derived": 0,
     "duplicates": 0,
-    "total": 764,
+    "total": 768,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15340,6 +15352,30 @@
       "source": "BBAPLT-GDE-065",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-065-CONNECTOR-IDENTITY-AND-CLASSIFICATION.md",
       "target": "BBAPLT-GDE-065",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-066",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
+      "target": "BBAPLT-GDE-065",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-066",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
+      "target": "BBAPLT-GDE-021",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-066",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
+      "target": "BBAPLT-GDE-034",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-066",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
+      "target": "BBAPLT-GDE-048",
       "type": "RELATES_TO"
     },
     {
