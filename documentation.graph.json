@@ -4461,6 +4461,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-017",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-017",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
+      "title": "BBA Platform Interaction Constraints"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12675,6 +12685,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-014-CAPABILITY-INTERACTION-FLOWS.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-015-COORDINATION-MODEL.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
       ".rag/bba-platform/architecture/BBAPLT-RPT-014-LOGICAL-INTERFACE-REVIEW.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
@@ -13471,6 +13482,7 @@
       "BBAPLT-ARCH-014",
       "BBAPLT-ARCH-015",
       "BBAPLT-ARCH-016",
+      "BBAPLT-ARCH-017",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13975,17 +13987,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 221,
+    "DEPENDS_ON": 222,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 504,
+    "RELATES_TO": 505,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 851,
+    "declared": 853,
     "derived": 0,
     "duplicates": 0,
-    "total": 851,
+    "total": 853,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14492,6 +14504,18 @@
       "source": "BBAPLT-ARCH-016",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-016-STATE-PROPAGATION-MODEL.md",
       "target": "BBAPLT-ARCH-005",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-ARCH-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
+      "target": "BBAPLT-ARCH-016",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-017",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md",
+      "target": "BBAPLT-ARCH-010",
       "type": "RELATES_TO"
     },
     {

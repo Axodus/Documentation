@@ -945,7 +945,7 @@ program:
               acceptance: ["Authoritative state ownership, semantic propagation conditions, effects, non-inferences, and preservation invariants are documented without technical events."]
             - id: "REQ-003-03-005"
               title: "Define Interaction Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-03-004"]
               produces: ["BBAPLT-ARCH-017"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-017-INTERACTION-CONSTRAINTS.md"]
