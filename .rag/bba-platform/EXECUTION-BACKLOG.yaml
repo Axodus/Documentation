@@ -1284,14 +1284,14 @@ program:
               acceptance: ["Frontend interactions preserve Agent responsibility, Human Governance authority, approval, escalation, and accountability."]
             - id: "REQ-004-03-004"
               title: "Define Frontend API and State Consumption Contracts"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-03-003"]
               produces: ["BBAPLT-GDE-089"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md"]
               acceptance: ["Frontend consumption of APIs and semantic states preserves loading, error, review, authorization, lineage, and Tenant context."]
             - id: "REQ-004-03-005"
               title: "Define Frontend Quality and Accessibility Contracts"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-03-004"]
               produces: ["BBAPLT-GDE-090"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md"]

@@ -5451,6 +5451,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-089",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-089",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
+      "title": "BBA Platform Frontend API and State Consumption Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13026,6 +13036,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
@@ -13911,6 +13922,7 @@
       "BBAPLT-GDE-086",
       "BBAPLT-GDE-087",
       "BBAPLT-GDE-088",
+      "BBAPLT-GDE-089",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14347,17 +14359,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 251,
+    "DEPENDS_ON": 252,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 567,
+    "RELATES_TO": 569,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 944,
+    "declared": 947,
     "derived": 0,
     "duplicates": 0,
-    "total": 944,
+    "total": 947,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16946,6 +16958,24 @@
       "source": "BBAPLT-GDE-088",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
       "target": "BBAPLT-ARCH-017",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-089",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
+      "target": "BBAPLT-GDE-088",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-089",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-089",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-016",
       "type": "RELATES_TO"
     },
     {
