@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1151
+Source Documents: 1152
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1151
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1151 |
-| Canonical documents | 558 |
+| Total source documents | 1152 |
+| Canonical documents | 559 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 947 |
+| Declared relationships | 950 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -48,7 +48,7 @@ Source Documents: 1151
 | ROADMAP | 14 |
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
-| STANDARD | 8 |
+| STANDARD | 9 |
 | UNSPECIFIED | 579 |
 ## Documents by Authority
 
@@ -58,7 +58,7 @@ Source Documents: 1151
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 296 |
+| PROJECT | 297 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1151
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 398 |
+| DRAFT | 399 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -133,6 +133,7 @@ Source Documents: 1151
 | BBAPLT-GDE-087 | BBA Platform Mission and Asset Experience Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md) |
 | BBAPLT-GDE-088 | BBA Platform Workforce and Governance Experience Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md) |
 | BBAPLT-GDE-089 | BBA Platform Frontend API and State Consumption Contracts | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md) |
+| BBAPLT-GDE-090 | BBA Platform Frontend Quality and Accessibility Contracts | STANDARD | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md](./bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md) |
 | BBAPLT-RPT-019 | BBA Platform Development Foundation Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md](./bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md) |
 | BBAPLT-RPT-020 | BBA Platform Backend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |

@@ -5461,6 +5461,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-090",
+      "document_type": "STANDARD",
+      "node_id": "BBAPLT-GDE-090",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "title": "BBA Platform Frontend Quality and Accessibility Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13037,6 +13047,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
@@ -13923,6 +13934,7 @@
       "BBAPLT-GDE-087",
       "BBAPLT-GDE-088",
       "BBAPLT-GDE-089",
+      "BBAPLT-GDE-090",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14359,17 +14371,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 252,
+    "DEPENDS_ON": 253,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 569,
+    "RELATES_TO": 571,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 947,
+    "declared": 950,
     "derived": 0,
     "duplicates": 0,
-    "total": 947,
+    "total": 950,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16976,6 +16988,24 @@
       "source": "BBAPLT-GDE-089",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-089-FRONTEND-API-AND-STATE-CONSUMPTION-CONTRACTS.md",
       "target": "BBAPLT-ARCH-016",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-090",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "target": "BBAPLT-GDE-089",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-090",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-090",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-026",
       "type": "RELATES_TO"
     },
     {

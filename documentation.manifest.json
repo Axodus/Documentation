@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1151,
+  "document_count": 1152,
   "documents": [
     {
       "aliases": [],
@@ -8644,6 +8644,33 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Frontend API and State Consumption Contracts",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DEVELOPMENT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-090",
+      "document_state": "CURRENT",
+      "document_type": "STANDARD",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Development Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-023",
+        "BBAPLT-ARCH-026",
+        "BBAPLT-GDE-089",
+        "EPIC-004",
+        "REQ-004-03-005"
+      ],
+      "sha256": "07090d5c7a52c9e27e0d5d2fa1d68cc23986a2d96290042e63cc44cf8306bf8e",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Frontend Quality and Accessibility Contracts",
       "version": "0.1.0"
     },
     {
@@ -29320,6 +29347,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-090",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "target": "BBAPLT-GDE-089",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-090",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-090",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-090-FRONTEND-QUALITY-AND-ACCESSIBILITY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-026",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -32407,19 +32452,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 558,
-    "declared_relationships": 947,
+    "compliant_documents": 559,
+    "declared_relationships": 950,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 296,
+      "PROJECT": 297,
       "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
-      "D1": 162,
+      "D1": 163,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -32458,7 +32503,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Architecture Governance": 32,
-      "BBA Development Governance": 16,
+      "BBA Development Governance": 17,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -32469,7 +32514,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 398,
+      "DRAFT": 399,
       "UNSPECIFIED": 579
     },
     "documents_by_type": {
@@ -32488,13 +32533,13 @@
       "ROADMAP": 14,
       "RUNBOOK": 1,
       "SPECIFICATION": 10,
-      "STANDARD": 8,
+      "STANDARD": 9,
       "UNSPECIFIED": 579
     },
     "documents_missing_metadata": 579,
     "generated_documents": 8,
     "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 1151
+    "total_documents": 1152
   }
 }
