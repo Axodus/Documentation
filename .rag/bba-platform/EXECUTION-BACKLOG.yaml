@@ -730,6 +730,70 @@ program:
               produces: ["BBAPLT-RPT-010"]
               files: [".rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md"]
               acceptance: ["Connector Domain Review records PASS or FAIL, verifies cross-domain consistency and technical boundaries, lists gaps, and approves handoff to EPIC-002 canonical review when complete."]
+        - id: "SPRINT-002-07"
+          display_id: "SPRINT-07"
+          name: "Domain Rollout Canonical Review"
+          status: "IN_PROGRESS"
+          status_reason: "DOMAIN_CANONICAL_REVIEW_ACTIVE"
+          documentation_areas: ["AREA-011", "AREA-012", "AREA-013", "AREA-014", "AREA-015", "AREA-016", "AREA-017", "AREA-018", "AREA-019", "AREA-020"]
+          cross_cutting_architecture_area: "AREA-021"
+          requests:
+            - id: "REQ-002-07-001"
+              title: "Activate Canonical Review and Domain Inventory"
+              status: "DONE"
+              depends_on: ["REQ-002-06-013"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Canonical review scope, six-domain inventory, review contract, evidence index, and audit-only boundary are established."]
+            - id: "REQ-002-07-002"
+              title: "Review Cross-Domain Consistency"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-001"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Mission, Institutional Asset, AI Workforce, Human Governance, Workflow, and Connector relationships and ownership boundaries are audited."]
+            - id: "REQ-002-07-003"
+              title: "Audit Ubiquitous Language Usage"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-002"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Canonical names, forbidden synonyms, aliases, identity terms, lifecycle terms, and semantic definitions are audited across the domain layer."]
+            - id: "REQ-002-07-004"
+              title: "Audit Concept Duplication and Conflicts"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-003"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Duplicated, overlapping, contradictory, and ambiguously owned concepts are recorded as findings without silently modifying domain documents."]
+            - id: "REQ-002-07-005"
+              title: "Validate Product-to-Domain Traceability"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-004"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Product intent, capabilities, solutions, Mission value, Assets, governance, and outcomes have explicit Product-to-Domain traceability."]
+            - id: "REQ-002-07-006"
+              title: "Audit Domain Architecture Boundaries"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-005"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Domain documents are checked for leakage of APIs, databases, runtime, queues, protocols, frontend, infrastructure, authentication, authorization, and frameworks."]
+            - id: "REQ-002-07-007"
+              title: "Assess Domain Readiness and Open Gaps"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-006"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Domain completeness, coherence, risks, gaps, architecture entry criteria, and deferred decisions are consolidated."]
+            - id: "REQ-002-07-008"
+              title: "Close Domain Rollout Canonical Review"
+              status: "PLANNED"
+              depends_on: ["REQ-002-07-001", "REQ-002-07-002", "REQ-002-07-003", "REQ-002-07-004", "REQ-002-07-005", "REQ-002-07-006", "REQ-002-07-007"]
+              produces: ["BBAPLT-RPT-011"]
+              files: [".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md"]
+              acceptance: ["Canonical review records PASS or FAIL, closes SPRINT-002-07 and EPIC-002 only on PASS, and hands off to Product Final Consistency Review."]
     - id: "EPIC-003"
       name: "Canonical Review and Architecture Rollout"
       documentation_areas: ["AREA-021", "AREA-022", "AREA-023", "AREA-024", "AREA-025", "AREA-026", "AREA-027", "AREA-028", "AREA-029", "AREA-030", "AREA-031", "AREA-032"]

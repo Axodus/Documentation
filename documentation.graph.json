@@ -5113,6 +5113,16 @@
       "title": "BBA Platform Connector Domain Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-011",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-011",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "title": "BBA Platform Domain Rollout Canonical Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -12533,6 +12543,7 @@
       ".rag/bba-platform/domain/BBAPLT-RPT-008-HUMAN-GOVERNANCE-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md",
+      ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -13313,6 +13324,7 @@
       "BBAPLT-RPT-008",
       "BBAPLT-RPT-009",
       "BBAPLT-RPT-010",
+      "BBAPLT-RPT-011",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -13731,17 +13743,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 200,
+    "DEPENDS_ON": 201,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 478,
+    "RELATES_TO": 484,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 804,
+    "declared": 811,
     "derived": 0,
     "duplicates": 0,
-    "total": 804,
+    "total": 811,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16137,6 +16149,48 @@
     {
       "source": "BBAPLT-RPT-010",
       "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md",
+      "target": "BBAPLT-RPT-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-010",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-002",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-007",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-011",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
       "target": "BBAPLT-RPT-009",
       "type": "RELATES_TO"
     },
