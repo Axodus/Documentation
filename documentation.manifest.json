@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1149,
+  "document_count": 1150,
   "documents": [
     {
       "aliases": [],
@@ -8590,6 +8590,33 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Mission and Asset Experience Contracts",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DEVELOPMENT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-088",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Development Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-009",
+        "BBAPLT-ARCH-017",
+        "BBAPLT-GDE-087",
+        "EPIC-004",
+        "REQ-004-03-003"
+      ],
+      "sha256": "018168b86be98bf31a48f7099a67a42648a1239eceebf4a89af0adef506adae9",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Workforce and Governance Experience Contracts",
       "version": "0.1.0"
     },
     {
@@ -29230,6 +29257,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-088",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "target": "BBAPLT-GDE-087",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-088",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-088",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-017",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -32317,19 +32362,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 556,
-    "declared_relationships": 941,
+    "compliant_documents": 557,
+    "declared_relationships": 944,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 294,
+      "PROJECT": 295,
       "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
-      "D1": 160,
+      "D1": 161,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -32368,7 +32413,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Architecture Governance": 32,
-      "BBA Development Governance": 14,
+      "BBA Development Governance": 15,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -32379,13 +32424,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 396,
+      "DRAFT": 397,
       "UNSPECIFIED": 579
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 208,
+      "GUIDE": 209,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -32405,6 +32450,6 @@
     "generated_documents": 8,
     "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 1149
+    "total_documents": 1150
   }
 }

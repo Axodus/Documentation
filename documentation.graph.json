@@ -5441,6 +5441,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-088",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-088",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "title": "BBA Platform Workforce and Governance Experience Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -13015,6 +13025,7 @@
       ".rag/bba-platform/development/BBAPLT-GDE-085-BACKEND-RUNTIME-QUALITY-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-086-FRONTEND-RESPONSIBILITIES-AND-BOUNDARIES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
@@ -13899,6 +13910,7 @@
       "BBAPLT-GDE-085",
       "BBAPLT-GDE-086",
       "BBAPLT-GDE-087",
+      "BBAPLT-GDE-088",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14335,17 +14347,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 250,
+    "DEPENDS_ON": 251,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 565,
+    "RELATES_TO": 567,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 941,
+    "declared": 944,
     "derived": 0,
     "duplicates": 0,
-    "total": 941,
+    "total": 944,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16916,6 +16928,24 @@
       "source": "BBAPLT-GDE-087",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-087-MISSION-AND-ASSET-EXPERIENCE-CONTRACTS.md",
       "target": "BBAPLT-ARCH-020",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-088",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "target": "BBAPLT-GDE-087",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-088",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-009",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-088",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-088-WORKFORCE-AND-GOVERNANCE-EXPERIENCE-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-017",
       "type": "RELATES_TO"
     },
     {
