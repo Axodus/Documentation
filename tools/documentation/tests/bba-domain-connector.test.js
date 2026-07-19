@@ -121,3 +121,17 @@ test('Connector Interaction Model references established domains without control
   assert.match(source, /never makes an external party an Agent,[\s\S]*Steward,[\s\S]*Approver,[\s\S]*Authority/)
   assert.match(source, /does not define interaction protocols,[\s\S]*message[\s\S]*contracts,[\s\S]*API[\s\S]*operations,[\s\S]*event choreography/)
 })
+
+test('Connector Rules preserve identity, lineage, authority, accountability, Tenant, and Mission boundaries', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-072"/)
+  assert.match(source, /Connector identity remains distinct from external systems,[\s\S]*Assets,[\s\S]*Missions,[\s\S]*Agents/)
+  assert.match(source, /preserves Institutional Asset[\s\S]*identity,[\s\S]*lineage,[\s\S]*immutable version[\s\S]*meaning/)
+  assert.match(source, /preserves Mission purpose,[\s\S]*scope,[\s\S]*lifecycle,[\s\S]*accountability/)
+  assert.match(source, /never creates,[\s\S]*transfers/)
+  assert.match(source, /institutional[\s\S]*Authority/)
+  assert.match(source, /preserves Tenant Boundary[\s\S]*cannot share one Tenant's context/)
+  assert.match(source, /cannot bypass Workflow Guards,[\s\S]*human gates,[\s\S]*Reviews,[\s\S]*Approvals/)
+  assert.match(source, /discloses semantic loss,[\s\S]*uncertainty,[\s\S]*conflict,[\s\S]*risk/)
+  assert.match(source, /does not define rule engines,[\s\S]*authorization,[\s\S]*access control,[\s\S]*APIs,[\s\S]*protocols/)
+})

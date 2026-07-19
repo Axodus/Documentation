@@ -4985,6 +4985,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-072",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-072",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "title": "BBA Platform Connector Rules"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12473,6 +12483,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-070-CONNECTOR-STATE-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13245,6 +13256,7 @@
       "BBAPLT-GDE-069",
       "BBAPLT-GDE-070",
       "BBAPLT-GDE-071",
+      "BBAPLT-GDE-072",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13671,17 +13683,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 195,
+    "DEPENDS_ON": 196,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 465,
+    "RELATES_TO": 467,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 786,
+    "declared": 789,
     "derived": 0,
     "duplicates": 0,
-    "total": 786,
+    "total": 789,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15544,6 +15556,24 @@
       "source": "BBAPLT-GDE-071",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-071-INTERACTION-MODEL.md",
       "target": "BBAPLT-GDE-052",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-072",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "target": "BBAPLT-GDE-071",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-072",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "target": "BBAPLT-GDE-049",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-072",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "target": "BBAPLT-GDE-061",
       "type": "RELATES_TO"
     },
     {

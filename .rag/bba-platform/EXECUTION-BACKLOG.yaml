@@ -697,7 +697,7 @@ program:
               acceptance: ["Connector interactions with Mission, Institutional Asset, AI Workforce, Workflow, and Human Governance are defined without control transfer."]
             - id: "REQ-002-06-009"
               title: "Define Connector Rules"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-008"]
               produces: ["BBAPLT-GDE-072"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md"]

@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1095,
+  "document_count": 1096,
   "documents": [
     {
       "aliases": [],
@@ -9070,6 +9070,35 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Connector Interaction Model",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.DOMAIN",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-072",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Domain Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0002",
+        "BBA-ADR-0003",
+        "BBA-ADR-0004",
+        "BBAPLT-GDE-049",
+        "BBAPLT-GDE-061",
+        "BBAPLT-GDE-071",
+        "EPIC-002",
+        "REQ-002-06-009"
+      ],
+      "sha256": "3671641c2f7cb522b622fe64d31660e6a216a7d164357b7d877de3b89167dead",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Connector Rules",
       "version": "0.1.0"
     },
     {
@@ -27006,6 +27035,24 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-072",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "target": "BBAPLT-GDE-071",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-072",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "target": "BBAPLT-GDE-049",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-072",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-072-CONNECTOR-RULES.md",
+      "target": "BBAPLT-GDE-061",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -29871,19 +29918,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 503,
-    "declared_relationships": 786,
+    "compliant_documents": 504,
+    "declared_relationships": 789,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 241,
+      "PROJECT": 242,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 107,
+      "D1": 108,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -29922,7 +29969,7 @@
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
       "BBA Documentation Governance": 10,
-      "BBA Domain Governance": 69,
+      "BBA Domain Governance": 70,
       "BBA Product Governance": 14,
       "Governance Nucleus": 6,
       "Security": 6,
@@ -29931,13 +29978,13 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 343,
+      "DRAFT": 344,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
       "ADR": 29,
       "API": 1,
-      "GUIDE": 168,
+      "GUIDE": 169,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -29957,6 +30004,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1095
+    "total_documents": 1096
   }
 }
