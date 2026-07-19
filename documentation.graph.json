@@ -5341,6 +5341,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-078",
+      "document_type": "REFERENCE",
+      "node_id": "BBAPLT-GDE-078",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
+      "title": "BBA Platform Development Glossary and Taxonomy"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12885,6 +12895,7 @@
       ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
       ".rag/bba-platform/development/BBAPLT-DEV-001-DEVELOPMENT-CONSTITUTION.md",
       ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -13757,6 +13768,7 @@
       "BBAPLT-GDE-075",
       "BBAPLT-GDE-076",
       "BBAPLT-GDE-077",
+      "BBAPLT-GDE-078",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14191,17 +14203,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 238,
+    "DEPENDS_ON": 239,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 542,
+    "RELATES_TO": 543,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 906,
+    "declared": 908,
     "derived": 0,
     "duplicates": 0,
-    "total": 906,
+    "total": 908,
     "unresolved": 0
   },
   "relationship_types": [
@@ -16598,6 +16610,18 @@
       "source": "BBAPLT-GDE-077",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-077-ENGINEERING-PRINCIPLES.md",
       "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-078",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
+      "target": "BBAPLT-GDE-077",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-078",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md",
+      "target": "BBAPLT-ARCH-006",
       "type": "RELATES_TO"
     },
     {

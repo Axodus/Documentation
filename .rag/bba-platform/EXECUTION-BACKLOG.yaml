@@ -1179,14 +1179,14 @@ program:
               acceptance: ["Engineering principles define maintainability, modularity, dependency direction, tenant safety, and implementation discipline without choosing a framework."]
             - id: "REQ-004-01-003"
               title: "Define Development Glossary and Taxonomy"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-01-002"]
               produces: ["BBAPLT-GDE-078"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-078-DEVELOPMENT-GLOSSARY-AND-TAXONOMY.md"]
               acceptance: ["Development terms and implementation taxonomies are canonical and remain distinct from Domain and Architecture vocabulary."]
             - id: "REQ-004-01-004"
               title: "Define Implementation Traceability and ADR Practice"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-01-003"]
               produces: ["BBAPLT-GDE-079"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-079-IMPLEMENTATION-TRACEABILITY-AND-ADR-PRACTICE.md"]
