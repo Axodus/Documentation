@@ -81,3 +81,17 @@ test('Connector Context and Translation preserve canonical meaning and disclose 
   assert.match(source, /preserves Asset identity and lineage[\s\S]*Mission[\s\S]*context,[\s\S]*Tenant boundary,[\s\S]*Accountability/)
   assert.match(source, /does not define schemas,[\s\S]*field mappings,[\s\S]*serializers,[\s\S]*APIs,[\s\S]*protocols/)
 })
+
+test('Connector lifecycle preserves governance, history, and boundary meaning', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-069"/)
+  for (const state of ['Proposed', 'Active', 'Restricted', 'Suspended', 'Retired']) assert.match(source, new RegExp(`\\| ${state} \\|`))
+  assert.match(source, /not a process status,[\s\S]*health signal,[\s\S]*deployment state,[\s\S]*runtime condition/)
+  assert.match(source, /Every lifecycle decision identifies the Connector identity,[\s\S]*Tenant,[\s\S]*external relationship,[\s\S]*Accountability/)
+  assert.match(source, /Activation[\s\S]*requires a defined boundary/)
+  assert.match(source, /accountable human[\s\S]*role/)
+  assert.match(source, /canonical[\s\S]*context, applicable Rules/)
+  assert.match(source, /Retirement prevents new exchanges but preserves lineage,[\s\S]*decisions,[\s\S]*accountability/)
+  assert.match(source, /An Agent, Workflow,[\s\S]*cannot activate,[\s\S]*restrict,[\s\S]*suspend, or retire/)
+  assert.match(source, /does not define service health,[\s\S]*deployment,[\s\S]*connection state,[\s\S]*monitoring/)
+})

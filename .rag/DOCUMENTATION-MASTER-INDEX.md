@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-19T00:00:00Z
-Source Documents: 1092
+Source Documents: 1093
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1092
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1092 |
-| Canonical documents | 500 |
+| Total source documents | 1093 |
+| Canonical documents | 501 |
 | Legacy documents | 578 |
 | Template documents | 14 |
-| Declared relationships | 775 |
+| Declared relationships | 778 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1092
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 165 |
+| GUIDE | 166 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1092
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 238 |
+| PROJECT | 239 |
 | UNSPECIFIED | 578 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1092
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 340 |
+| DRAFT | 341 |
 | UNSPECIFIED | 578 |
 ## Canonical Documents
 
@@ -144,6 +144,7 @@ Source Documents: 1092
 | BBAPLT-GDE-066 | BBA Platform Connector Responsibilities | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md](./bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md) |
 | BBAPLT-GDE-067 | BBA Platform Connector Boundary Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md](./bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md) |
 | BBAPLT-GDE-068 | BBA Platform Connector Context and Translation Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md](./bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md) |
+| BBAPLT-GDE-069 | BBA Platform Connector Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md) |
 | BBAPLT-RPT-003 | BBA Platform Mission Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-006 | BBA Platform Institutional Asset Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md) |
 | BBAPLT-RPT-007 | BBA Platform AI Workforce Domain Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md](./bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md) |

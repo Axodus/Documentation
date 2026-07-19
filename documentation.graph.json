@@ -4955,6 +4955,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-069",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-069",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
+      "title": "BBA Platform Connector Lifecycle"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -12440,6 +12450,7 @@
       ".rag/bba-platform/domain/BBAPLT-GDE-066-CONNECTOR-RESPONSIBILITIES.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-067-BOUNDARY-MODEL.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
+      ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-003-MISSION-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-006-ASSET-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-007-AI-WORKFORCE-DOMAIN-REVIEW.md",
@@ -13209,6 +13220,7 @@
       "BBAPLT-GDE-066",
       "BBAPLT-GDE-067",
       "BBAPLT-GDE-068",
+      "BBAPLT-GDE-069",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -13635,17 +13647,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 192,
+    "DEPENDS_ON": 193,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 457,
+    "RELATES_TO": 459,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 775,
+    "declared": 778,
     "derived": 0,
     "duplicates": 0,
-    "total": 775,
+    "total": 778,
     "unresolved": 0
   },
   "relationship_types": [
@@ -15442,6 +15454,24 @@
       "source": "BBAPLT-GDE-068",
       "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-068-CONTEXT-AND-TRANSLATION-MODEL.md",
       "target": "BBAPLT-GDE-063",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-069",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-068",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-069",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-048",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-069",
+      "source_path": ".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md",
+      "target": "BBAPLT-GDE-049",
       "type": "RELATES_TO"
     },
     {

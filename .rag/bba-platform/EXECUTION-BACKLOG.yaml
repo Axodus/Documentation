@@ -676,7 +676,7 @@ program:
               acceptance: ["Semantic translation, canonical representation, context adaptation, and semantic loss are defined without technical contracts."]
             - id: "REQ-002-06-006"
               title: "Define Connector Lifecycle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-06-005"]
               produces: ["BBAPLT-GDE-069"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-069-CONNECTOR-LIFECYCLE.md"]
