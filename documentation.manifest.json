@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1126,
+  "document_count": 1127,
   "documents": [
     {
       "aliases": [],
@@ -7548,7 +7548,7 @@
         "EPIC-003",
         "REQ-003-04-001"
       ],
-      "sha256": "629effb2b73a3b04de9778c7b76eaa8e2868854751741fc15495dd316653cda8",
+      "sha256": "38056cbf22990763e4ca4b834615fcc1cd178b3f8d243724f5f3b7300c645b61",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-018-CANONICAL-INFORMATION-MODEL.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7635,7 +7635,7 @@
         "EPIC-003",
         "REQ-003-04-004"
       ],
-      "sha256": "d7942d87bf917cd933f7c4468db207b9df1ebc094f7c9fd2c27d237042fbe571",
+      "sha256": "3c531a4e0dde7ea62a4c6aff2527160423628e0d139adf8b095a15902dfd6146",
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-021-INFORMATION-CLASSIFICATION.md",
       "superseded_by": [],
       "supersedes": [],
@@ -7724,6 +7724,34 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "BBA Platform Interaction Architecture Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.PLATFORM.ARCHITECTURE",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-016",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-19",
+      "maturity_level": "D1",
+      "owner": "BBA Architecture Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0004",
+        "BBAPLT-ARCH-022",
+        "BBAPLT-RPT-011",
+        "BBAPLT-RPT-012",
+        "BBAPLT-RPT-015",
+        "EPIC-003",
+        "REQ-003-04-006"
+      ],
+      "sha256": "67f5f67ea10d06564e00f78511d715f1a46d56db1a9401cfa6d633d6147e0df4",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "BBA Platform Information Architecture Review",
       "version": "0.1.0"
     },
     {
@@ -28827,6 +28855,30 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-016",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-ARCH-022",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-016",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-011",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-016",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-016",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md",
+      "target": "BBAPLT-RPT-015",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -31266,19 +31318,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 534,
-    "declared_relationships": 872,
+    "compliant_documents": 535,
+    "declared_relationships": 876,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 272,
+      "PROJECT": 273,
       "UNSPECIFIED": 578
     },
     "documents_by_maturity": {
-      "D1": 138,
+      "D1": 139,
       "D2": 325,
       "D3": 84,
       "D4": 1,
@@ -31316,7 +31368,7 @@
       "Axodus Tokenomics / Academy": 1,
       "Axodus Trading": 1,
       "Axodus Treasury": 6,
-      "BBA Architecture Governance": 24,
+      "BBA Architecture Governance": 25,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
       "BBA Product Governance": 15,
@@ -31327,7 +31379,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 374,
+      "DRAFT": 375,
       "UNSPECIFIED": 578
     },
     "documents_by_type": {
@@ -31340,7 +31392,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 15,
       "RELEASE": 1,
-      "REPORT": 262,
+      "REPORT": 263,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -31353,6 +31405,6 @@
     "generated_documents": 8,
     "legacy_documents": 578,
     "template_documents": 14,
-    "total_documents": 1126
+    "total_documents": 1127
   }
 }

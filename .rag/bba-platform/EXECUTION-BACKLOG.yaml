@@ -1006,8 +1006,8 @@ program:
         - id: "SPRINT-003-04"
           display_id: "SPRINT-04"
           name: "Information Architecture"
-          status: "IN_PROGRESS"
-          status_reason: "INFORMATION_ARCHITECTURE_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "INFORMATION_ARCHITECTURE_PASS"
           documentation_areas: ["AREA-024"]
           requests:
             - id: "REQ-003-04-001"
@@ -1047,7 +1047,7 @@ program:
               acceptance: ["Information origin, provenance, lineage, semantic integrity, evidence, uncertainty, alteration history, and identity preservation are defined conceptually."]
             - id: "REQ-003-04-006"
               title: "Review Information Architecture"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-04-001", "REQ-003-04-002", "REQ-003-04-003", "REQ-003-04-004", "REQ-003-04-005"]
               produces: ["BBAPLT-RPT-016"]
               files: [".rag/bba-platform/architecture/BBAPLT-RPT-016-INFORMATION-ARCHITECTURE-REVIEW.md"]

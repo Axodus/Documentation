@@ -41,7 +41,7 @@ This document defines what information exists canonically in the BBA Platform
 Architecture Layer, how its meaning relates to the certified Product and
 Domain Layers, and which semantic relationships must remain explicit.
 
-It is an information model, not a physical data model. It does not select
+It is an information model, not a physical data model. It does not prescribe
 storage, schemas, tables, documents, serialization, indexes, search, caching,
 replication, or any other implementation mechanism.
 

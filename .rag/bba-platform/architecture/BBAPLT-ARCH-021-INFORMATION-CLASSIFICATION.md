@@ -127,10 +127,10 @@ material decisions remain accountable to human authority.
 
 ## Classification Invariants
 
-1. Class is not identity.
-2. Class is not ownership.
-3. Class is not authority.
-4. Class is not a permission or a Capability.
+1. Classification is not identity.
+2. Classification is not ownership.
+3. Classification is not authority.
+4. Classification is not a permission or a Capability.
 5. A change of class preserves prior classification, reason, and Lineage.
 6. External or Derived information never loses its source attribution and
    uncertainty merely because it is consumed internally.
