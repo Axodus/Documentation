@@ -132,3 +132,18 @@ test('Workflow completion and lifecycle distinguish semantic closure from execut
   assert.match(source, /Retirement[\s\S]*prevents a Workflow Definition[\s\S]*historical executions/)
   assert.match(source, /does not define database states,[\s\S]*state machines,[\s\S]*runtime termination/)
 })
+
+test('Workflow Rules preserve domain invariants and cannot be weakened by implementation', async () => {
+  const source = await read('.rag/bba-platform/domain/BBAPLT-GDE-061-WORKFLOW-RULES.md')
+  assert.match(source, /document_id: "BBAPLT-GDE-061"/)
+  assert.match(source, /Every Workflow[\s\S]*operates within exactly one declared Mission[\s\S]*Tenant boundary/)
+  assert.match(source, /Every Work Item[\s\S]*remains bound to a valid Assignment/)
+  assert.match(source, /Every Transition requires applicable Preconditions,[\s\S]*Guards,[\s\S]*Postconditions/)
+  assert.match(source, /Every consequential Decision Point[\s\S]*identifies competent human Authority/)
+  assert.match(source, /Agent cannot grant Authority,[\s\S]*remove a mandatory human gate,[\s\S]*declare final institutional Approval/)
+  assert.match(source, /Every Exception Path preserves reason,[\s\S]*evidence,[\s\S]*accountability/)
+  assert.match(source, /cannot alter Institutional Asset identity,[\s\S]*erase lineage,[\s\S]*rewrite[\s\S]*an immutable version/)
+  assert.match(source, /cannot cross a Tenant boundary[\s\S]*external Connector as an[\s\S]*internal domain[\s\S]*authority/)
+  assert.match(source, /no role,[\s\S]*Agent,[\s\S]*Policy,[\s\S]*Connector,[\s\S]*technical execution signal may contradict a Rule/)
+  assert.match(source, /does not define rule engines,[\s\S]*RBAC,[\s\S]*ABAC,[\s\S]*database constraints/)
+})

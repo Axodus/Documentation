@@ -605,7 +605,7 @@ program:
               acceptance: ["Workflow lifecycle and completion criteria distinguish semantic completion, suspension, cancellation, retirement, and technical execution state."]
             - id: "REQ-002-05-010"
               title: "Define Workflow Rules"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-002-05-009"]
               produces: ["BBAPLT-GDE-061"]
               files: [".rag/bba-platform/domain/BBAPLT-GDE-061-WORKFLOW-RULES.md"]
