@@ -4315,6 +4315,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-ARCH-004",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-ARCH-004",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md",
+      "title": "BBA Platform Logical Component Model"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-GDE-001",
       "document_type": "GUIDE",
       "node_id": "BBAPLT-GDE-001",
@@ -12506,6 +12516,7 @@
       ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
+      ".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md",
       ".rag/bba-platform/BBA-DOC-CONCEPT-MAP.md",
       ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       ".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md",
@@ -13288,6 +13299,7 @@
       "BBAPLT-ARCH-001",
       "BBAPLT-ARCH-002",
       "BBAPLT-ARCH-003",
+      "BBAPLT-ARCH-004",
       "BBAPLT-GDE-001",
       "BBAPLT-GDE-002",
       "BBAPLT-GDE-003",
@@ -13791,17 +13803,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 207,
+    "DEPENDS_ON": 208,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 489,
+    "RELATES_TO": 490,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 822,
+    "declared": 824,
     "derived": 0,
     "duplicates": 0,
-    "total": 822,
+    "total": 824,
     "unresolved": 0
   },
   "relationship_types": [
@@ -14153,6 +14165,18 @@
       "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
       "target": "BBAPLT-RPT-011",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-004",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md",
+      "target": "BBAPLT-ARCH-003",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-ARCH-004",
+      "source_path": ".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md",
+      "target": "BBAPLT-ARCH-001",
+      "type": "RELATES_TO"
     },
     {
       "source": "BBAPLT-GDE-001",

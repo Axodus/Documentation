@@ -884,7 +884,7 @@ program:
               acceptance: ["Context ownership, upstream/downstream relationships, Shared Kernel, ACL, Published Language, Conformist, Partnership, and boundaries are documented logically."]
             - id: "REQ-003-01-004"
               title: "Define Logical Component Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-003-01-003"]
               produces: ["BBAPLT-ARCH-004"]
               files: [".rag/bba-platform/architecture/BBAPLT-ARCH-004-LOGICAL-COMPONENT-MODEL.md"]
