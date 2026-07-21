@@ -1355,48 +1355,48 @@ program:
         - id: "SPRINT-004-05"
           display_id: "SPRINT-05"
           name: "Infrastructure and Runtime Boundaries"
-          status: "IN_PROGRESS"
-          status_reason: "INFRASTRUCTURE_RUNTIME_BOUNDARIES_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "INFRASTRUCTURE_RUNTIME_BOUNDARIES_PASS"
           documentation_areas: ["AREA-033", "AREA-035"]
           requests:
             - id: "REQ-004-05-001"
               title: "Define Runtime and Environment Boundaries"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-04-006"]
               produces: ["BBAPLT-GDE-096"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md"]
               acceptance: ["Runtime and environment boundaries implement certified Architecture boundaries and preserve Tenant isolation."]
             - id: "REQ-004-05-002"
               title: "Define Configuration Secrets and Dependency Management"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-05-001"]
               produces: ["BBAPLT-GDE-097"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md"]
               acceptance: ["Configuration, secrets, dependencies, and environment variation are governed without leaking credentials or changing domain meaning."]
             - id: "REQ-004-05-003"
               title: "Define Build and Delivery Boundaries"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-05-002"]
               produces: ["BBAPLT-GDE-098"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md"]
               acceptance: ["Build, CI/CD, artifact, promotion, and release boundaries are actionable and traceable to quality gates."]
             - id: "REQ-004-05-004"
               title: "Define Runtime Observability and Security Controls"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-05-003"]
               produces: ["BBAPLT-GDE-099"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md"]
               acceptance: ["Runtime observability, security, auditability, resilience, and incident evidence implement certified cross-cutting attributes."]
             - id: "REQ-004-05-005"
               title: "Define Infrastructure Change and Recovery Contracts"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-05-004"]
               produces: ["BBAPLT-GDE-100"]
               files: [".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md"]
               acceptance: ["Infrastructure changes, recovery, rollback, and operational handoff preserve governance, traceability, and resilience semantics."]
             - id: "REQ-004-05-006"
               title: "Review Infrastructure and Runtime Boundaries"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-05-001", "REQ-004-05-002", "REQ-004-05-003", "REQ-004-05-004", "REQ-004-05-005"]
               produces: ["BBAPLT-RPT-023"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md"]

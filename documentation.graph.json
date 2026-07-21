@@ -308,7 +308,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-19T00:00:00Z",
+  "generated_at": "2026-07-20T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -5541,6 +5541,36 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-098",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-098",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md",
+      "title": "BBA Platform Build and Delivery Boundaries"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-099",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-099",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md",
+      "title": "BBA Platform Runtime Observability and Security Controls"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-100",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-100",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
+      "title": "BBA Platform Infrastructure Change and Recovery Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBAPLT-POL-001",
       "document_type": "POLICY",
       "node_id": "BBAPLT-POL-001",
@@ -5737,6 +5767,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
       "title": "API and Integration Contracts Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-023",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-023",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      "title": "Infrastructure and Runtime Boundaries Review"
     },
     {
       "authority_level": "CORE",
@@ -13145,10 +13185,14 @@
       ".rag/bba-platform/development/BBAPLT-GDE-095-API-VERSIONING-COMPATIBILITY-AND-ERROR-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
       ".rag/bba-platform/development/BBAPLT-GDE-097-CONFIGURATION-SECRETS-AND-DEPENDENCY-MANAGEMENT.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md",
+      ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
       ".rag/bba-platform/development/BBAPLT-RPT-019-DEVELOPMENT-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-020-BACKEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
+      ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -14041,6 +14085,9 @@
       "BBAPLT-GDE-095",
       "BBAPLT-GDE-096",
       "BBAPLT-GDE-097",
+      "BBAPLT-GDE-098",
+      "BBAPLT-GDE-099",
+      "BBAPLT-GDE-100",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14061,6 +14108,7 @@
       "BBAPLT-RPT-020",
       "BBAPLT-RPT-021",
       "BBAPLT-RPT-022",
+      "BBAPLT-RPT-023",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14479,17 +14527,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 266,
+    "DEPENDS_ON": 274,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 587,
+    "RELATES_TO": 595,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 979,
+    "declared": 995,
     "derived": 0,
     "duplicates": 0,
-    "total": 979,
+    "total": 995,
     "unresolved": 1
   },
   "relationship_types": [
@@ -17243,6 +17291,72 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-GDE-098",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md",
+      "target": "BBAPLT-GDE-097",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-098",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md",
+      "target": "BBAPLT-ARCH-023",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-098",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-098-BUILD-AND-DELIVERY-BOUNDARIES.md",
+      "target": "BBAPLT-GDE-080",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-099",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md",
+      "target": "BBAPLT-GDE-098",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-099",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md",
+      "target": "BBAPLT-ARCH-026",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-099",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md",
+      "target": "BBAPLT-ARCH-027",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-099",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-099-RUNTIME-OBSERVABILITY-AND-SECURITY-CONTROLS.md",
+      "target": "BBAPLT-GDE-094",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-100",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
+      "target": "BBAPLT-GDE-099",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-GDE-100",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
+      "target": "BBAPLT-ARCH-027",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-100",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
+      "target": "BBAPLT-GDE-096",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-100",
+      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
+      "target": "BBAPLT-GDE-098",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BBAPLT-POL-001",
       "source_path": ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       "target": "BBAPLT-GDE-001",
@@ -17936,6 +18050,36 @@
       "source": "BBAPLT-RPT-022",
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
       "target": "BBAPLT-GDE-095",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-023",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      "target": "BBAPLT-GDE-096",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-023",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      "target": "BBAPLT-GDE-097",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-023",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      "target": "BBAPLT-GDE-098",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-023",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      "target": "BBAPLT-GDE-099",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-023",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      "target": "BBAPLT-GDE-100",
       "type": "DEPENDS_ON"
     },
     {
