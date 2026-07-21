@@ -308,7 +308,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-20T00:00:00Z",
+  "generated_at": "2026-07-21T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -5777,6 +5777,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
       "title": "Infrastructure and Runtime Boundaries Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-024",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-024",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
+      "title": "Development Canonical Review"
     },
     {
       "authority_level": "CORE",
@@ -13193,6 +13203,7 @@
       ".rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md",
       ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
+      ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md",
       ".rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md",
@@ -14109,6 +14120,7 @@
       "BBAPLT-RPT-021",
       "BBAPLT-RPT-022",
       "BBAPLT-RPT-023",
+      "BBAPLT-RPT-024",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14527,17 +14539,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 274,
+    "DEPENDS_ON": 279,
     "DOCUMENTS": 17,
     "REALIZES": 13,
     "RELATES_TO": 595,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 995,
+    "declared": 1000,
     "derived": 0,
     "duplicates": 0,
-    "total": 995,
+    "total": 1000,
     "unresolved": 1
   },
   "relationship_types": [
@@ -18080,6 +18092,36 @@
       "source": "BBAPLT-RPT-023",
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md",
       "target": "BBAPLT-GDE-100",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-024",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-019",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-024",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-020",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-024",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-021",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-024",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-022",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-024",
+      "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
+      "target": "BBAPLT-RPT-023",
       "type": "DEPENDS_ON"
     },
     {

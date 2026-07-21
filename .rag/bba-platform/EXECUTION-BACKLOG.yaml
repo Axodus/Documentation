@@ -1404,13 +1404,13 @@ program:
         - id: "SPRINT-004-06"
           display_id: "SPRINT-06"
           name: "Development Canonical Review"
-          status: "PLANNED"
-          status_reason: "DEVELOPMENT_CANONICAL_REVIEW_PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "DEVELOPMENT_CANONICAL_REVIEW_ACTIVE"
           documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
           requests:
             - id: "REQ-004-06-001"
               title: "Activate Development Canonical Review"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-05-006"]
               produces: ["BBAPLT-RPT-024"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]

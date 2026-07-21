@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-20T00:00:00Z
-Source Documents: 1165
+Generated At: 2026-07-21T00:00:00Z
+Source Documents: 1166
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1165
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1165 |
-| Canonical documents | 572 |
+| Total source documents | 1166 |
+| Canonical documents | 573 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 995 |
+| Declared relationships | 1000 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1165
 | PROPOSAL | 1 |
 | REFERENCE | 16 |
 | RELEASE | 1 |
-| REPORT | 270 |
+| REPORT | 271 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 14 |
@@ -58,7 +58,7 @@ Source Documents: 1165
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 310 |
+| PROJECT | 311 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1165
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 412 |
+| DRAFT | 413 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -149,6 +149,7 @@ Source Documents: 1165
 | BBAPLT-RPT-021 | BBA Platform Frontend Architecture Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md](./bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md) |
 | BBAPLT-RPT-022 | API and Integration Contracts Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md](./bba-platform/development/BBAPLT-RPT-022-API-INTEGRATION-CONTRACTS-REVIEW.md) |
 | BBAPLT-RPT-023 | Infrastructure and Runtime Boundaries Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md](./bba-platform/development/BBAPLT-RPT-023-INFRASTRUCTURE-RUNTIME-REVIEW.md) |
+| BBAPLT-RPT-024 | Development Canonical Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Development Governance | [.rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md](./bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md) |
 | BBAPLT-GDE-011 | BBA Platform Mission Domain Overview | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md](./bba-platform/domain/BBAPLT-GDE-011-MISSION-DOMAIN-OVERVIEW.md) |
 | BBAPLT-GDE-012 | BBA Platform Mission Lifecycle | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md](./bba-platform/domain/BBAPLT-GDE-012-MISSION-LIFECYCLE.md) |
 | BBAPLT-GDE-013 | BBA Platform Mission State Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md](./bba-platform/domain/BBAPLT-GDE-013-MISSION-STATE-MODEL.md) |
