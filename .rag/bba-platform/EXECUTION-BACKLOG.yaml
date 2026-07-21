@@ -1410,14 +1410,14 @@ program:
           requests:
             - id: "REQ-004-06-001"
               title: "Activate Development Canonical Review"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-05-006"]
               produces: ["BBAPLT-RPT-024"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
               acceptance: ["The audit-only review is activated and inventories all Development documents and Areas."]
             - id: "REQ-004-06-002"
               title: "Audit Product Domain Architecture Development Derivation"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-06-001"]
               produces: ["BBAPLT-RPT-024"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]

@@ -64,3 +64,19 @@ Boundaries documents.
 
 The final result is intentionally pending the five audit activities represented
 by REQ-004-06-002 through REQ-004-06-006.
+
+## Derivation Audit
+
+The Development Layer is derived through the following evidence chain:
+
+| Development area | Architecture evidence | Domain/Product basis | Result |
+| --- | --- | --- | --- |
+| Constitution and engineering principles | Architecture Constitution, Context, Components, and Quality Attributes | Product and Domain certifications | PASS |
+| Backend boundaries and realization | Logical Components, Interfaces, Information Flow, and Interaction Catalog | Mission, Asset, Workforce, Governance, Workflow, Connector | PASS |
+| Frontend responsibilities and state contracts | Context, Information Architecture, Interface and Interaction contracts | Product capabilities and certified Domain state meaning | PASS |
+| API and integration contracts | Logical Interface Contracts, Invariants, and Taxonomy | Connector, Authority, Tenant, Asset, and Lineage rules | PASS |
+| Runtime and infrastructure boundaries | Quality Attributes, Security, Resilience, and Governance constraints | Certified Domain invariants and Human Governance | PASS |
+
+No Development document claims authority to redefine Product intent, Domain
+meaning, or Architecture boundaries. Any future exception requires Change
+Control and explicit derivation evidence.
