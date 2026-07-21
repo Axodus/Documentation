@@ -9,8 +9,8 @@ const read = (path) => readFile(resolve(root, path), 'utf8')
 test('Development rollout is activated with the full execution backlog', async () => {
   const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
   const graph = await read('.rag/bba-platform/dependency-graph.yaml')
-  assert.match(backlog, /id: "EPIC-004"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DEVELOPMENT_ROLLOUT_ACTIVE"/)
-  assert.match(backlog, /id: "SPRINT-004-01"[\s\S]*status: "IN_PROGRESS"[\s\S]*status_reason: "DEVELOPMENT_CONSTITUTION_ACTIVE"/)
+  assert.match(backlog, /id: "EPIC-004"[\s\S]*status: "(?:IN_PROGRESS|PASS_CLOSED)"[\s\S]*status_reason: "(?:DEVELOPMENT_ROLLOUT_ACTIVE|DEVELOPMENT_LAYER_CERTIFIED)"/)
+  assert.match(backlog, /id: "SPRINT-004-01"[\s\S]*status: "(?:IN_PROGRESS|PASS_CLOSED)"[\s\S]*status_reason: "(?:DEVELOPMENT_CONSTITUTION_ACTIVE|DEVELOPMENT_FOUNDATION_PASS)"/)
   assert.equal((backlog.match(/            - id: "REQ-004-/g) ?? []).length, 36)
   for (const sprint of ['SPRINT-004-01', 'SPRINT-004-02', 'SPRINT-004-03', 'SPRINT-004-04', 'SPRINT-004-05', 'SPRINT-004-06']) assert.match(graph, new RegExp(`"${sprint}"`))
   for (const id of ['REQ-004-01-001', 'REQ-004-01-002', 'REQ-004-01-003', 'REQ-004-01-004', 'REQ-004-01-005', 'REQ-004-01-006', 'REQ-004-06-006']) assert.match(graph, new RegExp(`"${id}"`))
@@ -33,4 +33,11 @@ test('Development rollout is activated with the full execution backlog', async (
   const frontendReview = await read('.rag/bba-platform/development/BBAPLT-RPT-021-FRONTEND-ARCHITECTURE-REVIEW.md')
   assert.match(frontendReview, /document_id: "BBAPLT-RPT-021"/)
   assert.match(frontendReview, /Review Result[\s\S]*PASS/)
+
+  assert.match(backlog, /id: "SPRINT-004-06"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "DEVELOPMENT_CANONICAL_REVIEW_PASS"/)
+  assert.match(backlog, /id: "EPIC-004"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "DEVELOPMENT_LAYER_CERTIFIED"/)
+
+  const canonicalReview = await read('.rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md')
+  assert.match(canonicalReview, /document_id: "BBAPLT-RPT-024"/)
+  assert.match(canonicalReview, /Review Result[\s\S]*PASS/)
 })

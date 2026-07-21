@@ -1153,14 +1153,14 @@ program:
     - id: "EPIC-004"
       name: "Development Documentation Rollout"
       documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
-      status: "IN_PROGRESS"
-      status_reason: "DEVELOPMENT_ROLLOUT_ACTIVE"
+      status: "PASS_CLOSED"
+      status_reason: "DEVELOPMENT_LAYER_CERTIFIED"
       sprints:
         - id: "SPRINT-004-01"
           display_id: "SPRINT-01"
           name: "Development Constitution and Engineering Principles"
-          status: "IN_PROGRESS"
-          status_reason: "DEVELOPMENT_CONSTITUTION_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "DEVELOPMENT_FOUNDATION_PASS"
           documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
           requests:
             - id: "REQ-004-01-001"
@@ -1404,8 +1404,8 @@ program:
         - id: "SPRINT-004-06"
           display_id: "SPRINT-06"
           name: "Development Canonical Review"
-          status: "IN_PROGRESS"
-          status_reason: "DEVELOPMENT_CANONICAL_REVIEW_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "DEVELOPMENT_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-033", "AREA-034", "AREA-035"]
           requests:
             - id: "REQ-004-06-001"
@@ -1445,7 +1445,7 @@ program:
               acceptance: ["Development completeness, risks, gaps, and entry criteria for Operations are classified."]
             - id: "REQ-004-06-006"
               title: "Close Development Canonical Review"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-004-06-001", "REQ-004-06-002", "REQ-004-06-003", "REQ-004-06-004", "REQ-004-06-005"]
               produces: ["BBAPLT-RPT-024"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
