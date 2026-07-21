@@ -1431,14 +1431,14 @@ program:
               acceptance: ["Implementation contracts and durable technical decisions have complete ADR and traceability coverage."]
             - id: "REQ-004-06-004"
               title: "Audit Certified Invariant Preservation"
-              status: "IN_PROGRESS"
+              status: "DONE"
               depends_on: ["REQ-004-06-003"]
               produces: ["BBAPLT-RPT-024"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
               acceptance: ["Development documentation preserves Mission, Asset, Workforce, Governance, Workflow, Connector, Tenant, Authority, Accountability, and Lineage invariants."]
             - id: "REQ-004-06-005"
               title: "Assess Development Readiness for Operations"
-              status: "PLANNED"
+              status: "IN_PROGRESS"
               depends_on: ["REQ-004-06-004"]
               produces: ["BBAPLT-RPT-024"]
               files: [".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md"]
