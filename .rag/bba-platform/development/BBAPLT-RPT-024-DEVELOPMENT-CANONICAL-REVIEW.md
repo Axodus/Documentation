@@ -80,3 +80,18 @@ The Development Layer is derived through the following evidence chain:
 No Development document claims authority to redefine Product intent, Domain
 meaning, or Architecture boundaries. Any future exception requires Change
 Control and explicit derivation evidence.
+
+## ADR and Contract Coverage Audit
+
+| Decision class | Evidence | ADR disposition | Result |
+| --- | --- | --- | --- |
+| Development Constitution and source hierarchy | GDE-076–080 / certified layers | Covered by BBA-ADR-0004 and traceability practice | PASS |
+| Backend and frontend realization boundaries | GDE-081–090 / Architecture Components and Interfaces | Required durable choices reference ADR-0004; implementation selections remain future work | PASS |
+| API and Connector contracts | GDE-091–095 / Logical Interface Contracts | Contract ownership and evolution are documented; protocol choices are deferred | PASS |
+| Runtime and infrastructure boundaries | GDE-096–100 / Quality Attributes and Security | Runtime/provider choices remain future ADR candidates | PASS |
+| Changes that alter certified meaning | Change Control requirement in GDE-079 and GDE-080 | ADR or governed change record required before implementation | PASS |
+
+No uncovered durable technical decision was found in the current Development
+Layer. Future selections of technology, deployment, persistence, or provider
+must open an ADR when they create a durable architectural consequence; routine
+implementation detail may rely on the applicable contract and test evidence.
