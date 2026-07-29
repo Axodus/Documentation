@@ -1716,7 +1716,7 @@ program:
               acceptance: ["The review verifies Platform, Runtime, Products, and Experience boundaries without changing certified layers."]
             - id: "REQ-006-06-002"
               title: "Review Agency Product Aggregate Boundary"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-06-001"]
               produces: ["BBAPLT-RPT-030"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md"]

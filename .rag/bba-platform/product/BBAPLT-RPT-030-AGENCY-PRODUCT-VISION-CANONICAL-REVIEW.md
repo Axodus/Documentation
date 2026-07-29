@@ -46,8 +46,8 @@ normative and does not authorize implementation or mutate `BBA-Agency`.
 
 | Verification | Evidence | Result |
 | --- | --- | --- |
-| Platform and Agency boundaries are explicit | `BBAPLT-GDE-101`, `BBA-ADR-0006` | PENDING |
-| Agency Product is not a Domain Aggregate | `BBAPLT-GDE-101`, `BBAPLT-RPT-026` | PENDING |
+| Platform and Agency boundaries are explicit | `BBAPLT-GDE-101`, `BBA-ADR-0006` | PASS |
+| Agency Product is not a Domain Aggregate | `BBAPLT-GDE-101`, `BBAPLT-RPT-026` | PASS |
 | Agency Runtime preserves Human Governance | `BBAPLT-RPT-027` | PENDING |
 | Agency Experience preserves customer and Tenant boundaries | `BBAPLT-RPT-028` | PENDING |
 | Vocabulary extension is additive | `BBA-REF-002`, `BBAPLT-RPT-029` | PENDING |
