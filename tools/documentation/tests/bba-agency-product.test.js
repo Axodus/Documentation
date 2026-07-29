@@ -69,3 +69,10 @@ test('Agency Experience Sprint closes with service-oriented boundaries', async (
   assert.match(report, /does not certify[\s\S]*frontend implementation/)
   assert.match(report, /Workspace does not become a new Aggregate/)
 })
+
+test('Agency vocabulary extension is additive and non-normative', async () => {
+  const source = await read('.rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md')
+  for (const term of ['Agency', 'Agency Runtime', 'Agency Product', 'Agency Experience', 'Service Composition', 'Customer Outcome']) assert.match(source, new RegExp(`\\| ${term} \\|`))
+  assert.match(source, /The terms are not normative until `BBAPLT-GDE-101` is promoted/)
+  for (const existing of ['Mission', 'Institutional Asset', 'AI Workforce', 'Human Governance', 'Capability', 'Solution']) assert.match(source, new RegExp(`\\| ${existing} \\|`))
+})

@@ -25,8 +25,8 @@ review_cycle: "QUARTERLY"
 next_review: "2026-10-18"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "BBA-REF-001"}, {type: "RELATES_TO", target: "BBA-ADR-0002"}, {type: "RELATES_TO", target: "BBA-ADR-0003"}]
-related_epics: ["EPIC-000", "EPIC-002"]
-related_requirements: ["REQ-000-006"]
+related_epics: ["EPIC-000", "EPIC-002", "EPIC-006"]
+related_requirements: ["REQ-000-006", "REQ-006-05-001"]
 related_adrs: ["BBA-ADR-0002", "BBA-ADR-0003"]
 related_cores: []
 implementation_refs: []
@@ -48,6 +48,12 @@ production_gate_impact: "PRESERVES_CLOSED"
 | Tenant | Isolated organizational consumer of the platform. | Makes multi-tenancy explicit and neutral. | Axodus as default tenant | customer where contractually applicable | Mission, Solution |
 | Review | Governed assessment of an asset, claim, or transition. | Makes quality and approval explicit. | informal check | validation when scope is clear | Asset, Publication |
 | Publication | Authorized release of an asset to a destination. | Separates creation from public distribution. | deploy as universal synonym | release when context is editorial | Asset, Connector |
+| Agency | Customer-facing service business that composes BBA Platform capabilities under governed execution. | Makes the commercial experience explicit without changing Platform semantics. | platform as customer-facing service, agency as Domain Aggregate | BBA Agency | Platform, Agency Product, Agency Runtime, Agency Experience |
+| Agency Runtime | Proposed composition and execution-governance layer that coordinates Agency Product work over the Platform. | Separates agent execution concerns from customer-facing products and canonical Domain concepts. | runtime as institutional authority, Agent as authority | none | Agency Product, AI Workforce, Human Governance |
+| Agency Product | Versioned declarative composition oriented to a Customer Outcome. | Packages reusable capabilities into understandable and contractable services. | product as Aggregate, service as Mission | none | Agency, Service Composition, Customer Outcome, Capability |
+| Agency Experience | Customer-facing layer for discovering, briefing, tracking, reviewing, approving, and receiving Agency services. | Presents outcomes without exposing internal concepts as the primary commercial navigation. | frontend as product model, dashboard as Domain entity | none | Agency Product, Customer Outcome, Human Governance |
+| Service Composition | Declarative arrangement of capabilities, Agents, policies, workflows, reviews, deliverables, assets, publications, and connectors for an Agency Product. | Makes product assembly explicit while preserving ownership and authority boundaries. | pipeline as universal product meaning, composition as Aggregate | none | Agency Product, Capability, Workflow, Institutional Asset |
+| Customer Outcome | Intended result a customer expects and evaluates from a contracted Agency service. | Connects product composition to measurable customer value without replacing Domain concepts. | deliverable as outcome, output as accepted result | outcome | Agency Product, Deliverable, Review, Publication |
 
 ## Entry Contract
 
@@ -68,3 +74,23 @@ Each term entry has the following fields:
 Every future term entry must include canonical name, definition, motivation,
 forbidden synonyms, aliases, related concepts, lifecycle, examples, and
 non-examples. Domain documents must use canonical names exactly.
+
+## Agency Extension Entry Details
+
+The following entries are additive Product Governance vocabulary. They do not
+redefine the existing Domain vocabulary and remain subject to Product Vision
+2.0 review.
+
+| Canonical Name | Lifecycle | Examples | Non Examples |
+| --- | --- | --- | --- |
+| Agency | Proposed → Reviewed → Accepted or Retired | BBA Agency service business | BBA Platform Domain Aggregate |
+| Agency Runtime | Proposed → Reviewed → Accepted or Retired | Governed coordination layer | Database, queue, or runtime process |
+| Agency Product | Proposed → Versioned → Retired | Scientific Article composition | Mission or Aggregate |
+| Agency Experience | Proposed → Reviewed → Accepted or Retired | Hiring and approval experience | API or frontend framework |
+| Service Composition | Proposed → Versioned → Retired | Capabilities plus Agents plus Deliverables | Technical pipeline |
+| Customer Outcome | Proposed → Accepted, Rejected, or Superseded | Publication-ready article | Unreviewed draft treated as success |
+
+Each new entry uses the same motivation, forbidden-synonym, alias, related
+concept, lifecycle, example, and non-example contract as the canonical
+vocabulary. The terms are not normative until `BBAPLT-GDE-101` is promoted by
+a later governed Product review.

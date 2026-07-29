@@ -8258,9 +8258,11 @@
         "BBA-REF-001",
         "EPIC-000",
         "EPIC-002",
-        "REQ-000-006"
+        "EPIC-006",
+        "REQ-000-006",
+        "REQ-006-05-001"
       ],
-      "sha256": "b3fb3ed5d8c1ae6c797c9eb3e055ca824bcf33df619774b7910bd17de92d3912",
+      "sha256": "ab8e5a22e9937535db898a8471c58bf79f1f765fb3a109d7c47782d7c921d6fd",
       "source_path": ".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md",
       "superseded_by": [],
       "supersedes": [],

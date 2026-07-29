@@ -1655,12 +1655,13 @@ program:
               acceptance: ["The Agency Experience review records PASS or FAIL and confirms that no implementation surface was introduced."]
         - id: "SPRINT-006-05"
           name: "Governance Integration"
-          status: "PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "GOVERNANCE_INTEGRATION_ACTIVE"
           documentation_areas: ["AREA-000", "AREA-001", "AREA-002", "AREA-005"]
           requests:
             - id: "REQ-006-05-001"
               title: "Extend Ubiquitous Language with Agency Terms"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-04-006"]
               produces: ["BBA-REF-002"]
               files: [".rag/bba-platform/BBA-DOC-UBIQUITOUS-LANGUAGE.md"]
