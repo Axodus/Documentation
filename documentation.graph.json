@@ -308,7 +308,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-28T00:00:00Z",
+  "generated_at": "2026-07-29T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -5827,6 +5827,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md",
       "title": "Agency Runtime Governance Review"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-028",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-028",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      "title": "Agency Experience Review"
     },
     {
       "authority_level": "CORE",
@@ -13333,6 +13343,7 @@
       ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md",
+      ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -14169,6 +14180,7 @@
       "BBAPLT-RPT-025",
       "BBAPLT-RPT-026",
       "BBAPLT-RPT-027",
+      "BBAPLT-RPT-028",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14590,14 +14602,14 @@
     "DEPENDS_ON": 279,
     "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 603,
+    "RELATES_TO": 605,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1009,
+    "declared": 1011,
     "derived": 0,
     "duplicates": 0,
-    "total": 1009,
+    "total": 1011,
     "unresolved": 1
   },
   "relationship_types": [
@@ -18224,6 +18236,18 @@
       "source": "BBAPLT-RPT-027",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md",
       "target": "BBAPLT-RPT-026",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-028",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      "target": "BBAPLT-GDE-101",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-028",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      "target": "BBAPLT-RPT-027",
       "type": "RELATES_TO"
     },
     {

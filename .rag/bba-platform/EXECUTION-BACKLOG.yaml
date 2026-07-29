@@ -1607,12 +1607,13 @@ program:
               acceptance: ["The Runtime Governance review records PASS or FAIL and confirms the absence of implementation decisions."]
         - id: "SPRINT-006-04"
           name: "Agency Experience"
-          status: "PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "AGENCY_EXPERIENCE_ACTIVE"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-005", "AREA-010"]
           requests:
             - id: "REQ-006-04-001"
               title: "Define Agency Experience Principles"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-03-006"]
               produces: ["BBAPLT-RPT-028"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md"]

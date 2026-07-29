@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1170,
+  "document_count": 1171,
   "documents": [
     {
       "aliases": [],
@@ -11711,6 +11711,32 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Agency Runtime Governance Review",
+      "version": "0.1.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PROJECT",
+      "authority_scope": "BBA.AGENCY.EXPERIENCE.REVIEW",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-028",
+      "document_state": "CURRENT",
+      "document_type": "REPORT",
+      "last_updated": "2026-07-29",
+      "maturity_level": "D1",
+      "owner": "BBA Product Governance",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "BBA-ADR-0003",
+        "BBAPLT-GDE-101",
+        "BBAPLT-RPT-027",
+        "EPIC-006",
+        "REQ-006-04-001"
+      ],
+      "sha256": "2fcb861648fa264510c5a068183011eec39f85eecd9cb7c6384efb3f3a005117",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Agency Experience Review",
       "version": "0.1.0"
     },
     {
@@ -27229,7 +27255,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-28T00:00:00Z",
+  "generated_at": "2026-07-29T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -30865,6 +30891,18 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "BBAPLT-RPT-028",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      "target": "BBAPLT-GDE-101",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-028",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      "target": "BBAPLT-RPT-027",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "BUSINESS-GDE-001",
       "source_path": "docs/business/overview.md",
       "target": "CORE-GDE-001",
@@ -33304,19 +33342,19 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 577,
-    "declared_relationships": 1009,
+    "compliant_documents": 578,
+    "declared_relationships": 1011,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
       "PORTFOLIO": 29,
-      "PROJECT": 315,
+      "PROJECT": 316,
       "UNSPECIFIED": 579
     },
     "documents_by_maturity": {
-      "D1": 178,
+      "D1": 179,
       "D2": 328,
       "D3": 84,
       "D4": 1,
@@ -33358,7 +33396,7 @@
       "BBA Development Governance": 31,
       "BBA Documentation Governance": 10,
       "BBA Domain Governance": 75,
-      "BBA Product Governance": 19,
+      "BBA Product Governance": 20,
       "Governance Nucleus": 6,
       "Security": 6,
       "UNSPECIFIED": 579
@@ -33366,7 +33404,7 @@
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 417,
+      "DRAFT": 418,
       "UNSPECIFIED": 579
     },
     "documents_by_type": {
@@ -33379,7 +33417,7 @@
       "PROPOSAL": 1,
       "REFERENCE": 16,
       "RELEASE": 1,
-      "REPORT": 274,
+      "REPORT": 275,
       "REQUIREMENT": 1,
       "RESEARCH": 1,
       "ROADMAP": 14,
@@ -33392,6 +33430,6 @@
     "generated_documents": 8,
     "legacy_documents": 579,
     "template_documents": 14,
-    "total_documents": 1170
+    "total_documents": 1171
   }
 }
