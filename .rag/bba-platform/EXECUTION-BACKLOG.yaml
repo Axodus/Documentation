@@ -1559,8 +1559,8 @@ program:
               acceptance: ["The Service Composition review records PASS or FAIL and lists unresolved product decisions without silently changing certified layers."]
         - id: "SPRINT-006-03"
           name: "Agency Runtime Governance"
-          status: "IN_PROGRESS"
-          status_reason: "AGENCY_RUNTIME_GOVERNANCE_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "AGENCY_RUNTIME_GOVERNANCE_PASS"
           documentation_areas: ["AREA-005", "AREA-009", "AREA-010"]
           requests:
             - id: "REQ-006-03-001"
@@ -1600,7 +1600,7 @@ program:
               acceptance: ["Neurons remains explicitly undecided and has no normative price, token, supply, reward, credit, or tokenomics meaning."]
             - id: "REQ-006-03-006"
               title: "Review Agency Runtime Governance"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-03-001", "REQ-006-03-002", "REQ-006-03-003", "REQ-006-03-004", "REQ-006-03-005"]
               produces: ["BBAPLT-RPT-027"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md"]

@@ -51,3 +51,12 @@ test('Service Composition Sprint closes with declarative composition semantics',
   assert.match(report, /Review Result[\s\S]*PASS/)
   assert.match(report, /without creating a new[\s\S]*Domain Aggregate/)
 })
+
+test('Agency Runtime Governance Sprint closes without technical runtime decisions', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const report = await read('.rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-006-03"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "AGENCY_RUNTIME_GOVERNANCE_PASS"/)
+  assert.match(report, /Review Result[\s\S]*PASS/)
+  assert.match(report, /does not[\s\S]*authorize technical Runtime implementation/)
+  assert.match(report, /Human Governance remains authoritative/)
+})
