@@ -1579,7 +1579,7 @@ program:
               acceptance: ["Agent orchestration preserves AI Workforce responsibilities and Human Governance authority."]
             - id: "REQ-006-03-003"
               title: "Define Runtime Human Governance Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-03-002"]
               produces: ["BBAPLT-RPT-027"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md"]

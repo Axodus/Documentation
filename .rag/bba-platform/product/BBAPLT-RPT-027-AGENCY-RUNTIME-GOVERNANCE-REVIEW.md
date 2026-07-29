@@ -69,6 +69,20 @@ review of bounded Agent responsibilities for an Agency Product. It must retain:
 Delegation may decompose work but cannot increase authority, remove a required
 gate, cross a Tenant Boundary, or erase provenance and accountability.
 
+## Runtime Human Governance Model
+
+The Runtime must expose a governed decision surface for:
+
+- acceptance or rejection of consequential Deliverables;
+- resolution of material uncertainty, conflict, or missing evidence;
+- changes to an Agency Product composition or its acceptance meaning;
+- publication authorization and external boundary decisions;
+- escalation, exception handling, and conclusion of a Mission.
+
+Low-risk work may proceed without individual human review only when an explicit
+Policy allows it. This does not grant an Agent, Runtime, or Agency Product
+institutional Authority or Accountability.
+
 ## Review Status
 
 ```text
