@@ -91,6 +91,22 @@ agency_product:
 This is a conceptual specification shape. It is not a persistence schema, API
 payload, Aggregate contract, or authorization mechanism.
 
+## Customer Outcome Model
+
+```text
+Customer Outcome
+    = intended result
+    + acceptance meaning
+    + evidence obligations
+    + expected deliverables
+    + review and approval obligations
+    + known limitations
+```
+
+An outcome is successful only when the applicable acceptance meaning and
+governance obligations are satisfied. A draft, unsupported claim, or unreviewed
+result may be a useful output without being an accepted Customer Outcome.
+
 ## Review Status
 
 ```text

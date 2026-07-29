@@ -1531,7 +1531,7 @@ program:
               acceptance: ["The product specification records identity as a composition definition and preserves Platform domain identity and authority."]
             - id: "REQ-006-02-003"
               title: "Define Customer Outcome Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-02-002"]
               produces: ["BBAPLT-RPT-026"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md"]
