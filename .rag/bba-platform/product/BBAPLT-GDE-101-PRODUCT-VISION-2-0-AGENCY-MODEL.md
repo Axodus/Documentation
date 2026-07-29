@@ -219,6 +219,21 @@ traceable delivery. Pricing, financial settlement, autonomous institutional
 authority, unrestricted publication, and undefined `$Neurons` economics are
 outside the MVP until separately governed.
 
+## Journey Responsibility Contract
+
+| Journey stage | Agency responsibility | Platform or governance reference |
+| --- | --- | --- |
+| Briefing | Capture the customer's intended outcome, inputs, constraints, and approval expectations. | Mission intent and Tenant context. |
+| Product selection | Select a category and an Agency Product composition appropriate to the outcome. | Capability and Solution semantics. |
+| Runtime composition | Assemble bounded agent work, policies, evidence obligations, and deliverables. | AI Workforce, Workflow, and Human Governance. |
+| Platform coordination | Realize the work through canonical institutional capabilities. | Mission, Knowledge, Assets, Review, Publication, and Connectors. |
+| Review and approval | Present evidence, findings, decisions, and required human gates. | Human Governance authority and accountability. |
+| Delivery | Present the resulting deliverables and their limitations to the customer. | Institutional Asset identity, lineage, and publication boundary. |
+
+The Journey does not bypass a required governance gate, transfer institutional
+authority to an Agent or Agency Product, or make a customer-facing label a new
+Domain concept.
+
 ## External Implementation Context
 
 The `Axodus/BBA-Agency` `.rag` corpus is implementation context, not a
