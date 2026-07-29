@@ -52,10 +52,25 @@ normative and does not authorize implementation or mutate `BBA-Agency`.
 | Agency Experience preserves customer and Tenant boundaries | `BBAPLT-RPT-028` | PASS |
 | Vocabulary extension is additive | `BBA-REF-002`, `BBAPLT-RPT-029` | PASS |
 | External roadmap is non-normative handoff | `BBA-ROAD-004`, `BBA-STD-001` | PASS |
-| Certified layers and checksum remain valid | Foundation manifest and layer reviews | PENDING |
+| Certified layers and checksum remain valid | Foundation manifest and layer reviews | PASS |
+
+## Invariant and Manifest Audit
+
+- Product, Domain, Architecture, and Development certification states remain
+  unchanged.
+- Operations remains `PLANNED` and is not a dependency of EPIC-006.
+- Mission, Institutional Asset, AI Workforce, Human Governance, Workflow,
+  Connector, Tenant, Authority, Ownership, Stewardship, Accountability, and
+  Lineage semantics are preserved.
+- `EPIC-IMP-*` identifiers appear only as external references and handoff
+  evidence, never as Documentation execution nodes.
+- The Foundation checksum is recomputed from its governed document scope.
+
+Evidence: `FOUNDATION-MANIFEST.yaml`, `EXECUTION-BACKLOG.yaml`,
+`dependency-graph.yaml`, `BBA-ROAD-004`, and the preceding Sprint reports.
 
 ## Review Status
 
 ```text
-PARTIAL — review continues
+PARTIAL — final closure remains
 ```

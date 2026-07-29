@@ -1737,7 +1737,7 @@ program:
               acceptance: ["The review confirms BBA-Agency references are external evidence and that EPIC-IMP-016 was not mutated by Documentation."]
             - id: "REQ-006-06-005"
               title: "Audit Foundation Checksum and Certified Invariants"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-06-004"]
               produces: ["BBAPLT-RPT-030", "BBA-DOC-FOUNDATION-MANIFEST"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md", ".rag/bba-platform/FOUNDATION-MANIFEST.yaml"]
