@@ -1593,7 +1593,7 @@ program:
               acceptance: ["LLM selection is described as a product and governance concern; no provider, model, API, or runtime implementation is mandated."]
             - id: "REQ-006-03-005"
               title: "Define Neurons Placeholder Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-03-004"]
               produces: ["BBAPLT-RPT-027"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md"]

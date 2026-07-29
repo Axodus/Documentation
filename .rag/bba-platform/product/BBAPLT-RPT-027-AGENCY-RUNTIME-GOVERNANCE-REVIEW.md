@@ -99,6 +99,22 @@ orchestration framework, queue, database, or deployment strategy. A technical
 selection requires later Development or Architecture documentation and must
 preserve the Product, Domain, and Architecture sources.
 
+## `$Neurons` Placeholder Model
+
+```text
+$Neurons = RESERVED / UNDECIDED
+```
+
+Within this Sprint, `$Neurons` is not a price, currency, token, credit, asset,
+right, reward, supply, quota, conversion rate, or financial promise. It does
+not define consumption accounting, capacity measurement, settlement, or
+tokenomics.
+
+Any future interpretation requires an independent governed decision covering
+Product, Architecture, Security, Finance, Governance, and applicable legal or
+regulatory review. No Runtime behavior may depend on an undefined economic
+meaning.
+
 ## Review Status
 
 ```text
