@@ -2,13 +2,13 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-21T00:00:00Z
+Generated At: 2026-07-28T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1166
-- Declared relationships: 1000
+- Graph nodes: 1167
+- Declared relationships: 1003
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 1
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 279 |
 | `DOCUMENTS` | 17 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 595 |
+| `RELATES_TO` | 598 |
 | `VALIDATES` | 96 |
 
 ## Unresolved References

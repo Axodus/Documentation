@@ -308,7 +308,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-21T00:00:00Z",
+  "generated_at": "2026-07-28T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -5567,6 +5567,16 @@
       "publication_status": "DRAFT",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
       "title": "BBA Platform Infrastructure Change and Recovery Contracts"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-GDE-101",
+      "document_type": "GUIDE",
+      "node_id": "BBAPLT-GDE-101",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md",
+      "title": "BBA Agency Product Vision 2.0 and Agency Model"
     },
     {
       "authority_level": "PROJECT",
@@ -13285,6 +13295,7 @@
       ".rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md",
       ".rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md",
       ".rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md",
+      ".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md",
       ".rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md",
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
@@ -14099,6 +14110,7 @@
       "BBAPLT-GDE-098",
       "BBAPLT-GDE-099",
       "BBAPLT-GDE-100",
+      "BBAPLT-GDE-101",
       "BBAPLT-POL-001",
       "BBAPLT-RPT-001",
       "BBAPLT-RPT-002",
@@ -14542,14 +14554,14 @@
     "DEPENDS_ON": 279,
     "DOCUMENTS": 17,
     "REALIZES": 13,
-    "RELATES_TO": 595,
+    "RELATES_TO": 598,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1000,
+    "declared": 1003,
     "derived": 0,
     "duplicates": 0,
-    "total": 1000,
+    "total": 1003,
     "unresolved": 1
   },
   "relationship_types": [
@@ -17366,6 +17378,24 @@
       "source": "BBAPLT-GDE-100",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-100-INFRASTRUCTURE-CHANGE-AND-RECOVERY-CONTRACTS.md",
       "target": "BBAPLT-GDE-098",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-101",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md",
+      "target": "BBA-ADR-0003",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-101",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md",
+      "target": "BBAPLT-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-GDE-101",
+      "source_path": ".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md",
+      "target": "BBAPLT-GDE-008",
       "type": "RELATES_TO"
     },
     {

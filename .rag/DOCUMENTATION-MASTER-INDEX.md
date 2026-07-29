@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-21T00:00:00Z
-Source Documents: 1166
+Generated At: 2026-07-28T00:00:00Z
+Source Documents: 1167
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1166
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1166 |
-| Canonical documents | 573 |
+| Total source documents | 1167 |
+| Canonical documents | 574 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 1000 |
+| Declared relationships | 1003 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1166
 |---|---:|
 | ADR | 29 |
 | API | 1 |
-| GUIDE | 220 |
+| GUIDE | 221 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -58,7 +58,7 @@ Source Documents: 1166
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 311 |
+| PROJECT | 312 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1166
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 413 |
+| DRAFT | 414 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -231,6 +231,7 @@ Source Documents: 1166
 | BBAPLT-GDE-008 | BBA Platform Solutions and Use Cases | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md](./bba-platform/product/BBAPLT-GDE-008-SOLUTIONS-AND-USE-CASES.md) |
 | BBAPLT-GDE-009 | BBA Platform Institutional Asset Portfolio | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md](./bba-platform/product/BBAPLT-GDE-009-INSTITUTIONAL-ASSET-PORTFOLIO.md) |
 | BBAPLT-GDE-010 | BBA Platform Product Lifecycle and Success Outcomes | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md](./bba-platform/product/BBAPLT-GDE-010-PRODUCT-LIFECYCLE-AND-SUCCESS.md) |
+| BBAPLT-GDE-101 | BBA Agency Product Vision 2.0 and Agency Model | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md](./bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md) |
 | BBAPLT-POL-001 | BBA Platform Product Boundaries and Non-Goals | POLICY | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md](./bba-platform/product/BBAPLT-POL-001-PRODUCT-BOUNDARIES.md) |
 | BBAPLT-RPT-001 | BBA Platform Product Documentation Baseline Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md](./bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md) |
 | BBAPLT-RPT-002 | BBA Platform Product Domain Framing Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md](./bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md) |
