@@ -31,3 +31,13 @@ test('Initial service categories and Neurons boundary are explicit', async () =>
   for (const phrase of ['does not represent a price', 'currency', 'token', 'credit', 'asset', 'right', 'reward', 'supply']) assert.match(source, new RegExp(phrase, 'i'))
   assert.match(source, /UNDECIDED/)
 })
+
+test('Product Vision 2.0 Foundation Sprint closes without certifying the vision', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const report = await read('.rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-006-01"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "PRODUCT_VISION_2_FOUNDATION_PASS"/)
+  assert.match(backlog, /id: "SPRINT-006-02"[\s\S]*status: "PLANNED"/)
+  assert.match(report, /document_id: "BBAPLT-RPT-025"/)
+  assert.match(report, /Review Result[\s\S]*PASS/)
+  assert.match(report, /does not certify[\s\S]*BBAPLT-GDE-101[\s\S]*as normative/)
+})

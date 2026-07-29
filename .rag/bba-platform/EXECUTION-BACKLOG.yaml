@@ -1463,8 +1463,8 @@ program:
       sprints:
         - id: "SPRINT-006-01"
           name: "Product Vision 2.0 Foundation"
-          status: "IN_PROGRESS"
-          status_reason: "PRODUCT_VISION_2_FOUNDATION_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "PRODUCT_VISION_2_FOUNDATION_PASS"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-003", "AREA-004", "AREA-005", "AREA-009", "AREA-010"]
           requests:
             - id: "REQ-006-01-001"
@@ -1476,35 +1476,35 @@ program:
               acceptance: ["EPIC-006 is active, depends only on EPIC-001 through EPIC-004, and contains six sequential Sprints and 36 unique REQs."]
             - id: "REQ-006-01-002"
               title: "Create Product Vision 2.0 and Agency Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-01-001"]
               produces: ["BBAPLT-GDE-101"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md"]
               acceptance: ["The proposed Product Vision 2.0 defines Platform, Agency Runtime, Agency Products, Agency Experience, customers, outcomes, MVP limits, and external implementation context without becoming normative."]
             - id: "REQ-006-01-003"
               title: "Define Agency Product Composition Principle"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-01-002"]
               produces: ["BBAPLT-GDE-101"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md"]
               acceptance: ["The documents state that users consume Agency services and that Agency Products are declarative compositions, not Aggregates."]
             - id: "REQ-006-01-004"
               title: "Define Canonical Agency Customer Journey"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-01-003"]
               produces: ["BBAPLT-GDE-101"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md"]
               acceptance: ["The briefing-to-delivery journey connects Agency Product, Runtime, Platform, Assets, Review, Publication, and customer delivery without defining implementation."]
             - id: "REQ-006-01-005"
               title: "Define Agency Customers Outcomes and Service Categories"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-01-004"]
               produces: ["BBAPLT-GDE-101"]
               files: [".rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md"]
               acceptance: ["The product vision defines customer segments, outcomes, and the five canonical service categories: Scientific Writing, Advertising, Governance, Publication Strategy, and Research."]
             - id: "REQ-006-01-006"
               title: "Review Product Vision 2.0 Foundation"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-01-001", "REQ-006-01-002", "REQ-006-01-003", "REQ-006-01-004", "REQ-006-01-005"]
               produces: ["BBAPLT-RPT-025"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md"]

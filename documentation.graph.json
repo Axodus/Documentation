@@ -5799,6 +5799,16 @@
       "title": "Development Canonical Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-025",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-025",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
+      "title": "Product Vision 2.0 Foundation Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -13300,6 +13310,7 @@
       ".rag/bba-platform/product/BBAPLT-RPT-001-PRODUCT-BASELINE-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
+      ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -14133,6 +14144,7 @@
       "BBAPLT-RPT-022",
       "BBAPLT-RPT-023",
       "BBAPLT-RPT-024",
+      "BBAPLT-RPT-025",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14552,16 +14564,16 @@
   },
   "relationship_counts": {
     "DEPENDS_ON": 279,
-    "DOCUMENTS": 17,
+    "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 598,
+    "RELATES_TO": 599,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1003,
+    "declared": 1005,
     "derived": 0,
     "duplicates": 0,
-    "total": 1003,
+    "total": 1005,
     "unresolved": 1
   },
   "relationship_types": [
@@ -18153,6 +18165,18 @@
       "source_path": ".rag/bba-platform/development/BBAPLT-RPT-024-DEVELOPMENT-CANONICAL-REVIEW.md",
       "target": "BBAPLT-RPT-023",
       "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBAPLT-RPT-025",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
+      "target": "BBAPLT-GDE-101",
+      "type": "DOCUMENTS"
+    },
+    {
+      "source": "BBAPLT-RPT-025",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
+      "target": "BBAPLT-RPT-012",
+      "type": "RELATES_TO"
     },
     {
       "source": "BUSINESS-GDE-001",
