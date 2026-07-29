@@ -1545,7 +1545,7 @@ program:
               acceptance: ["Service categories are distinguished from individual Agency Products and use stable canonical identifiers."]
             - id: "REQ-006-02-005"
               title: "Define Service Composition Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-02-004"]
               produces: ["BBAPLT-RPT-026"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md"]

@@ -120,6 +120,19 @@ Categories organize discovery. Products define composition. Deliverables make
 the expected result verifiable. Outcomes define customer value. These levels
 must not be collapsed into Mission, Aggregate, or Bounded Context semantics.
 
+## Service Composition Constraints
+
+1. A composition cannot cross a Tenant Boundary without applicable authority.
+2. A composition cannot transfer Institutional Authority to an Agent, Product,
+   or Runtime mechanism.
+3. A composition cannot change Platform Ownership, Stewardship, Accountability,
+   Asset identity, version meaning, or Lineage.
+4. A composition cannot remove mandatory Review, Approval, Evidence, or
+   Publication obligations.
+5. A composition cannot silently create a Mission, Aggregate, Bounded Context,
+   or canonical Domain lifecycle.
+6. A composition must expose known limitations and unresolved dependencies.
+
 ## Review Status
 
 ```text
