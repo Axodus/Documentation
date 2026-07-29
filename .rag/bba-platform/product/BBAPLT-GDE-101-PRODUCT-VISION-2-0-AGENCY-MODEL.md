@@ -154,6 +154,19 @@ controls.
 Categories are not individual Agency Products. A Scientific Writing category
 may contain products such as Scientific Article or Whitepaper.
 
+## Initial Service Category Contract
+
+| Category ID | Required inputs | Typical deliverables | Required governance | Initial internal capabilities |
+| --- | --- | --- | --- | --- |
+| `AGENCY-SERVICE-CATEGORY-001` | Briefing, research material, target publication, citation requirements. | Manuscript, abstract, bibliography, submission package. | Evidence and human editorial or publication approval. | Research, Knowledge, structured writing, citation validation, Review. |
+| `AGENCY-SERVICE-CATEGORY-002` | Campaign brief, audience, brand constraints, channel intent. | Campaign concepts, copy, creative assets, delivery package. | Human approval for consequential claims and publication. | Audience analysis, creative production, Asset, Review, Connector. |
+| `AGENCY-SERVICE-CATEGORY-003` | Governance question, institutional context, evidence, policy constraints. | Analysis, policy material, decision brief, governance record. | Human authority, accountability, and evidence review. | Knowledge, Research, Governance, Review, Lineage. |
+| `AGENCY-SERVICE-CATEGORY-004` | Publication objective, audience, source assets, destination constraints. | Publication plan, channel strategy, submission package. | Human publication authority and Connector boundary review. | Knowledge curation, Editorial, Publication, Analytics, Connector. |
+| `AGENCY-SERVICE-CATEGORY-005` | Research question, scope, sources, evidence requirements. | Findings, evidence register, synthesis, research assets. | Evidence quality, uncertainty disclosure, and human acceptance. | Research, Knowledge, AI Workforce, Asset, Review. |
+
+Each category remains a product-facing grouping. It does not create a new
+Bounded Context, Aggregate, Authority, Ownership model, or technical service.
+
 ## Customer Outcome Model
 
 A Customer Outcome is the result a customer expects from a contracted service.

@@ -26,6 +26,7 @@ test('Agency Product remains a declarative composition', async () => {
 test('Initial service categories and Neurons boundary are explicit', async () => {
   const source = await read('.rag/bba-platform/product/BBAPLT-GDE-101-PRODUCT-VISION-2-0-AGENCY-MODEL.md')
   for (const category of ['Scientific Writing', 'Advertising', 'Governance', 'Publication Strategy', 'Research']) assert.match(source, new RegExp(category))
+  for (let index = 1; index <= 5; index += 1) assert.match(source, new RegExp(`AGENCY-SERVICE-CATEGORY-00${index}`))
   assert.match(source, /reserved and currently undefined economic concept/)
   for (const phrase of ['does not represent a price', 'currency', 'token', 'credit', 'asset', 'right', 'reward', 'supply']) assert.match(source, new RegExp(phrase, 'i'))
   assert.match(source, /UNDECIDED/)
