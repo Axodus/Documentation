@@ -11,7 +11,7 @@ Generator Version: 1.0.0
 - Declared relationships: 1023
 - Derived relationships: 0
 - Relationship types: 5
-- Unresolved references: 1
+- Unresolved references: 0
 - Duplicate references: 0
 - Orphan documents: 796
 - Cycles: 16
@@ -28,7 +28,7 @@ Generator Version: 1.0.0
 
 ## Unresolved References
 
-- BBAPLT-GDE-096 —RELATES_TO→ BBAPLT-ARC-007
+None.
 
 ## Duplicate References
 

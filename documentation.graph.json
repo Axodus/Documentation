@@ -14658,7 +14658,7 @@
     "derived": 0,
     "duplicates": 0,
     "total": 1023,
-    "unresolved": 1
+    "unresolved": 0
   },
   "relationship_types": [
     "DEPENDS_ON",
@@ -17413,7 +17413,7 @@
     {
       "source": "BBAPLT-GDE-096",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
-      "target": "BBAPLT-ARC-007",
+      "target": "BBAPLT-ARCH-007",
       "type": "RELATES_TO"
     },
     {
@@ -20808,12 +20808,5 @@
     }
   ],
   "schema_version": "1.0.0",
-  "unresolved_references": [
-    {
-      "source": "BBAPLT-GDE-096",
-      "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
-      "target": "BBAPLT-ARC-007",
-      "type": "RELATES_TO"
-    }
-  ]
+  "unresolved_references": []
 }

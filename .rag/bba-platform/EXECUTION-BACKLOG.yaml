@@ -1457,8 +1457,8 @@ program:
     - id: "EPIC-006"
       name: "BBA Agency Product Vision and Composition Governance"
       documentation_areas: ["AREA-001", "AREA-002", "AREA-003", "AREA-004", "AREA-005", "AREA-009", "AREA-010"]
-      status: "IN_PROGRESS"
-      status_reason: "AGENCY_PRODUCT_VISION_ACTIVE"
+      status: "PASS_CLOSED"
+      status_reason: "AGENCY_PRODUCT_VISION_PASS"
       depends_on: ["EPIC-001", "EPIC-002", "EPIC-003", "EPIC-004"]
       sprints:
         - id: "SPRINT-006-01"
@@ -1703,8 +1703,8 @@ program:
               acceptance: ["The Governance Integration review records PASS or FAIL and confirms additive vocabulary, ADR lifecycle, roadmap separation, and handoff integrity."]
         - id: "SPRINT-006-06"
           name: "Canonical Review"
-          status: "IN_PROGRESS"
-          status_reason: "AGENCY_PRODUCT_CANONICAL_REVIEW_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "AGENCY_PRODUCT_CANONICAL_REVIEW_PASS"
           documentation_areas: ["AREA-000", "AREA-001", "AREA-002", "AREA-003", "AREA-004", "AREA-005", "AREA-009", "AREA-010"]
           requests:
             - id: "REQ-006-06-001"
@@ -1744,7 +1744,7 @@ program:
               acceptance: ["The review records valid checksum evidence and confirms Product, Domain, Architecture, Development, Tenant, Authority, Ownership, and Accountability invariants remain intact."]
             - id: "REQ-006-06-006"
               title: "Close Agency Product Vision Canonical Review"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-06-001", "REQ-006-06-002", "REQ-006-06-003", "REQ-006-06-004", "REQ-006-06-005"]
               produces: ["BBAPLT-RPT-030"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md"]

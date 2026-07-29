@@ -72,5 +72,37 @@ Evidence: `FOUNDATION-MANIFEST.yaml`, `EXECUTION-BACKLOG.yaml`,
 ## Review Status
 
 ```text
-PARTIAL — final closure remains
+PASS
+```
+
+## Certification Decision
+
+EPIC-006 certifies the governance, consistency, traceability, and handoff of
+Product Vision 2.0. It does not certify `BBAPLT-GDE-101` as a normative
+extension of the Product Layer.
+
+| Governed item | Final state | Reason |
+| --- | --- | --- |
+| `EPIC-006` | `PASS_CLOSED` | `AGENCY_PRODUCT_VISION_PASS` |
+| `SPRINT-006-06` | `PASS_CLOSED` | `AGENCY_PRODUCT_CANONICAL_REVIEW_PASS` |
+| `BBAPLT-GDE-101` | `PROPOSED / NON_NORMATIVE_PENDING_REVIEW` | Promotion requires an independent governed review |
+| Product, Domain, Architecture, and Development certifications | Unchanged | EPIC-006 is additive |
+| `EPIC-005` | `PLANNED` | Operations is not a dependency of EPIC-006 |
+
+The review found no change to certified Domain Aggregates, Bounded Contexts,
+Authority, Ownership, Accountability, or Information Architecture. It also
+found no mutation of the external `BBA-Agency` backlog. External
+`EPIC-IMP-*` references remain non-normative implementation evidence.
+
+## Final Recommendation
+
+Use the governed Product Vision 2.0 package as a non-normative handoff for
+future product and implementation decisions. Any promotion of the vision,
+definition of `$Neurons`, or implementation commitment requires a separate
+governed decision.
+
+## Review Result
+
+```text
+PASS
 ```

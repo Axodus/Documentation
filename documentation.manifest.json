@@ -8855,13 +8855,13 @@
       "publication_status": "DRAFT",
       "related_documents": [
         "BBA-ADR-0004",
-        "BBAPLT-ARC-007",
+        "BBAPLT-ARCH-007",
         "BBAPLT-GDE-080",
         "BBAPLT-RPT-022",
         "EPIC-004",
         "REQ-004-05-001"
       ],
-      "sha256": "6fb18ae23291df5ed662edc98e59bac45c44fb79f6cc769e21103f7ff238023c",
+      "sha256": "fc3b25c6facd08b80b3be83caee46bd55cb8916aab300a6bf3044f15536e37b4",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
       "superseded_by": [],
       "supersedes": [],
@@ -11847,7 +11847,7 @@
         "EPIC-006",
         "REQ-006-06-001"
       ],
-      "sha256": "c0ef59cf74f73d90cf5cbd3098d7dc9aca98c3356625b05a02e8c27af116fdb5",
+      "sha256": "4c3e4cbfa2df0c35fd04fe76c7094e0697d3ce691f4d8ee5db7ea9e8f1f75ee4",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md",
       "superseded_by": [],
       "supersedes": [],
@@ -30132,7 +30132,7 @@
     {
       "source": "BBAPLT-GDE-096",
       "source_path": ".rag/bba-platform/development/BBAPLT-GDE-096-RUNTIME-AND-ENVIRONMENT-BOUNDARIES.md",
-      "target": "BBAPLT-ARC-007",
+      "target": "BBAPLT-ARCH-007",
       "type": "RELATES_TO"
     },
     {

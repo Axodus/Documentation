@@ -24,7 +24,7 @@ last_reviewed: null
 review_cycle: "QUARTERLY"
 next_review: "2026-10-19"
 supersedes: []
-relationships: [{type: "DEPENDS_ON", target: "BBAPLT-RPT-022"}, {type: "RELATES_TO", target: "BBAPLT-ARC-007"}, {type: "RELATES_TO", target: "BBAPLT-GDE-080"}]
+relationships: [{type: "DEPENDS_ON", target: "BBAPLT-RPT-022"}, {type: "RELATES_TO", target: "BBAPLT-ARCH-007"}, {type: "RELATES_TO", target: "BBAPLT-GDE-080"}]
 related_epics: ["EPIC-004"]
 related_requirements: ["REQ-004-05-001"]
 related_adrs: ["BBA-ADR-0004"]
