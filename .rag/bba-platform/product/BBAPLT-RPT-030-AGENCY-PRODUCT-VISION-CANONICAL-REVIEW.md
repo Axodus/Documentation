@@ -51,11 +51,11 @@ normative and does not authorize implementation or mutate `BBA-Agency`.
 | Agency Runtime preserves Human Governance | `BBAPLT-RPT-027` | PASS |
 | Agency Experience preserves customer and Tenant boundaries | `BBAPLT-RPT-028` | PASS |
 | Vocabulary extension is additive | `BBA-REF-002`, `BBAPLT-RPT-029` | PASS |
-| External roadmap is non-normative handoff | `BBA-ROAD-004`, `BBA-STD-001` | PENDING |
+| External roadmap is non-normative handoff | `BBA-ROAD-004`, `BBA-STD-001` | PASS |
 | Certified layers and checksum remain valid | Foundation manifest and layer reviews | PENDING |
 
 ## Review Status
 
 ```text
-DRAFT — canonical review in progress
+PARTIAL — review continues
 ```
