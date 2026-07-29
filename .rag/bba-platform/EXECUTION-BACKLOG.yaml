@@ -1682,7 +1682,7 @@ program:
               acceptance: ["The roadmap records external BBA-Agency implementation references without controlling its backlog."]
             - id: "REQ-006-05-004"
               title: "Update Documentation Program Roadmaps"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-05-003"]
               produces: ["BBA-ROAD-002", "BBA-ROAD-003"]
               files: [".rag/bba-platform/BBA-DOC-DOCUMENTATION-ROADMAP.md", ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md"]

@@ -25,7 +25,7 @@ review_cycle: "QUARTERLY"
 next_review: "2026-10-18"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "BBA-GDE-100"}, {type: "RELATES_TO", target: "BBA-ROAD-002"}, {type: "RELATES_TO", target: "BBA-STD-001"}]
-related_epics: ["EPIC-000", "EPIC-001", "EPIC-002", "EPIC-003", "EPIC-004", "EPIC-005"]
+related_epics: ["EPIC-000", "EPIC-001", "EPIC-002", "EPIC-003", "EPIC-004", "EPIC-005", "EPIC-006"]
 related_requirements: ["REQ-000-003", "REQ-000-008"]
 related_adrs: ["BBA-ADR-0001", "BBA-ADR-0004"]
 related_cores: []
@@ -67,9 +67,17 @@ PROGRAM-BBA-DOC
 | EPIC-003 | Complete Canonical Review and architecture knowledge. | AREA-021–AREA-032 |
 | EPIC-004 | Roll out development knowledge. | AREA-033–AREA-035 |
 | EPIC-005 | Roll out operational knowledge. | AREA-036–AREA-042 |
+| EPIC-006 | Govern the proposed BBA Agency Product Vision 2.0 and external handoff. | Existing Product Areas as an extension |
 
 ## REQ Contract
 
 Every REQ must be an imperative, independently actionable Coder request with
 explicit context, allowed files, non-goals, dependencies, acceptance criteria,
 validation commands, and expected evidence.
+
+## Cross-Repository Handoff
+
+`EPIC-006` belongs to `PROGRAM-BBA-DOC`. It governs Product Vision and handoff
+evidence. The implementation roadmap of `Axodus/BBA-Agency` remains external;
+its `EPIC-IMP-*` identifiers are references only and must not be inserted into
+the Documentation execution registry.

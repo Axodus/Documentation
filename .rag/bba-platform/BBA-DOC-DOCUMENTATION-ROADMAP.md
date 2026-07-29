@@ -25,7 +25,7 @@ review_cycle: "QUARTERLY"
 next_review: "2026-10-18"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "BBA-GDE-100"}, {type: "DOCUMENTS", target: "BBA-ROAD-003"}]
-related_epics: ["EPIC-000", "EPIC-001", "EPIC-002", "EPIC-003", "EPIC-004", "EPIC-005"]
+related_epics: ["EPIC-000", "EPIC-001", "EPIC-002", "EPIC-003", "EPIC-004", "EPIC-005", "EPIC-006"]
 related_requirements: ["REQ-000-003"]
 related_adrs: ["BBA-ADR-0004"]
 related_cores: []
@@ -55,11 +55,18 @@ EPIC-003 Canonical Review and Architecture Rollout
   ↓
 EPIC-004 Development Documentation Rollout
   ↓
+EPIC-006 BBA Agency Product Vision and Composition Governance
+  ↓
 EPIC-005 Operational Documentation Rollout
 ```
 
 Execution epics contain Sprints and REQs. They do not rename or replace the
 Documentation Layers or Documentation Areas in `DOCUMENTATION-MAP.yaml`.
+
+`EPIC-006` is a Product Governance Extension. It guides the external
+`BBA-Agency` implementation roadmap but does not import or control any
+`EPIC-IMP-*` identifier. `EPIC-005` remains a separate planned Operations
+Rollout and is not a dependency of `EPIC-006`.
 
 ## Milestones
 
