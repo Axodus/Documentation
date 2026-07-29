@@ -38,7 +38,7 @@ required_documents:
   - "BBA-ADR-0004"
 checksum_algorithm: "SHA-256(sorted relative path + NUL + file content)"
 checksum_scope: "governed_documents"
-checksum: "73d95e15b731ffc164c166e0d0186d23a29b3f7054978895ceae2dd3f10cc1a3"
+checksum: "7fd86129d3236da89f378d556fbe9a635d618d9c24107b74b56d8b6d6171fb7b"
 governed_documents:
   - path: ".rag/bba-platform/BBA-DOC-SPRINT-00-FOUNDATION-PLAN.md"
   - path: ".rag/bba-platform/BBA-DOC-DOCUMENTATION-STRATEGY.md"

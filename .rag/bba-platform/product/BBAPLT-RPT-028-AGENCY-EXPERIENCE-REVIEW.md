@@ -90,6 +90,22 @@ Hiring confirms the service contract and expected outcome. It does not itself
 authorize publication, alter Platform policies, or create institutional
 authority.
 
+## Approval Experience
+
+The experience must make the following explicit whenever applicable:
+
+- what decision is requested;
+- which Asset, Deliverable, claim, or Publication is affected;
+- what evidence and uncertainty are available;
+- what authority and accountability apply;
+- what happens after approval, rejection, revision, or escalation;
+- whether the action is reversible or creates an immutable version or
+  publication record.
+
+An approval action records Human Governance intent. It is not equivalent to a
+technical click, Agent output, or customer acknowledgement when a stronger
+institutional gate applies.
+
 ## Review Status
 
 ```text

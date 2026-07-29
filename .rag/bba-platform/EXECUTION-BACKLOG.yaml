@@ -1634,7 +1634,7 @@ program:
               acceptance: ["The hiring journey covers service selection, briefing, inputs, expected outcomes, review obligations, and delivery."]
             - id: "REQ-006-04-004"
               title: "Define Approval Experience"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-04-003"]
               produces: ["BBAPLT-RPT-028"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md"]
