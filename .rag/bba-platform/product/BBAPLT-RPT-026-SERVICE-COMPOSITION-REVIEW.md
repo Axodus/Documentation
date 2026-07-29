@@ -72,6 +72,25 @@ of the referenced Platform concepts.
 - Connector remains the external semantic boundary.
 - Tenant, Ownership, Stewardship, Authority, and Accountability are preserved.
 
+## Agency Product Specification
+
+```yaml
+agency_product:
+  identity: stable product-definition identity
+  category: one canonical service category
+  customer_outcome: explicit intended result
+  inputs: briefing, material, constraints, and approval expectations
+  capabilities: reusable Platform capabilities
+  agents: bounded responsibilities from the AI Workforce
+  policies: applicable product and governance policies
+  deliverables: expected outputs and Institutional Assets
+  review: required quality and Human Governance gates
+  publication: authorized preparation or Publication boundary
+```
+
+This is a conceptual specification shape. It is not a persistence schema, API
+payload, Aggregate contract, or authorization mechanism.
+
 ## Review Status
 
 ```text

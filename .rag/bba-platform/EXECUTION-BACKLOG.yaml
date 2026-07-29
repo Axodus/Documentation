@@ -1524,7 +1524,7 @@ program:
               acceptance: ["The report defines composition inputs, capabilities, agents, workflows, policies, deliverables, and outcomes without creating a new Aggregate."]
             - id: "REQ-006-02-002"
               title: "Define Agency Product Specification"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-02-001"]
               produces: ["BBAPLT-RPT-026"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md"]
