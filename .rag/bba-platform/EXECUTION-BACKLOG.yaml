@@ -1641,7 +1641,7 @@ program:
               acceptance: ["Approval experience preserves Human Governance authority and does not imply agent or customer authority beyond policy."]
             - id: "REQ-006-04-005"
               title: "Define Agency Experience Constraints"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-04-004"]
               produces: ["BBAPLT-RPT-028"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md"]

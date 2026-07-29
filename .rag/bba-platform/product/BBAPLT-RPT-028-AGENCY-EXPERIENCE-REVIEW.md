@@ -106,6 +106,20 @@ An approval action records Human Governance intent. It is not equivalent to a
 technical click, Agent output, or customer acknowledgement when a stronger
 institutional gate applies.
 
+## Experience Constraints
+
+- Do not expose a customer-facing label as a replacement for a canonical Domain
+  concept.
+- Do not conceal draft, uncertainty, unsupported evidence, rejection, failure,
+  blocked work, or unresolved limitations.
+- Do not imply that progress equals approval, publication, delivery, or
+  successful external distribution.
+- Do not expose another Tenant's information, Assets, Reviews, or outcomes.
+- Do not permit an experience action to bypass Human Governance or Connector
+  boundaries.
+- Do not persist or prescribe technical credentials, transport details, or
+  implementation state in the product model.
+
 ## Review Status
 
 ```text
