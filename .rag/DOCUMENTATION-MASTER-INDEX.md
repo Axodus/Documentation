@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-29T00:00:00Z
-Source Documents: 1174
+Source Documents: 1175
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1174
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1174 |
-| Canonical documents | 581 |
+| Total source documents | 1175 |
+| Canonical documents | 582 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 1019 |
+| Declared relationships | 1023 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -42,7 +42,7 @@ Source Documents: 1174
 | PROPOSAL | 1 |
 | REFERENCE | 16 |
 | RELEASE | 1 |
-| REPORT | 276 |
+| REPORT | 277 |
 | REQUIREMENT | 1 |
 | RESEARCH | 1 |
 | ROADMAP | 15 |
@@ -58,7 +58,7 @@ Source Documents: 1174
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 319 |
+| PROJECT | 320 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1174
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 421 |
+| DRAFT | 422 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -243,6 +243,7 @@ Source Documents: 1174
 | BBAPLT-RPT-027 | Agency Runtime Governance Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md](./bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md) |
 | BBAPLT-RPT-028 | Agency Experience Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md](./bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md) |
 | BBAPLT-RPT-029 | Agency Product Governance Integration Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md](./bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md) |
+| BBAPLT-RPT-030 | Agency Product Vision Canonical Review | REPORT | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md](./bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md) |
 | DOC-RPT-140 | Canonical Coherence Batch 01 Boundary Review | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md](./CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md) |
 | DOC-RPT-138 | Canonical Coherence Batch 01 Decision Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md) |
 | DOC-RPT-139 | Canonical Coherence Batch 01 Evidence Register | REPORT | DRAFT | PROJECT | 1.0.0 | Axodus Documentation Core | [.rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md](./CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md) |

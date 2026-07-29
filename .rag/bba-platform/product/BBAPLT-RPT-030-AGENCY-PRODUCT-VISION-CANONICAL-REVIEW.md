@@ -1,0 +1,61 @@
+---
+schema_version: "1.0.0"
+document_id: "BBAPLT-RPT-030"
+aliases: []
+document_type: "REPORT"
+title: "Agency Product Vision Canonical Review"
+summary: "Certifies the governance, consistency, traceability, and external handoff of Product Vision 2.0 without promoting it to a normative Product Layer extension."
+version: "0.1.0"
+publication_status: "DRAFT"
+document_state: "CURRENT"
+maturity_level: "D1"
+authority_scope: "BBA.AGENCY.PRODUCT.CANONICAL.REVIEW"
+authority_level: "PROJECT"
+author: "BBA Documentation Governance"
+owner: "BBA Documentation Governance"
+maintainer: "Documentation Maintainer"
+technical_reviewers: ["Documentation Architecture Reviewer", "Product Architecture Reviewer"]
+business_reviewers: ["BBA Product Reviewer"]
+security_reviewers: ["BBA Security Reviewer"]
+approver: null
+created_date: "2026-07-29"
+last_updated: "2026-07-29"
+last_reviewed: null
+review_cycle: "EVENT_DRIVEN"
+next_review: null
+supersedes: []
+relationships: [{type: "RELATES_TO", target: "BBAPLT-GDE-101"}, {type: "RELATES_TO", target: "BBAPLT-RPT-012"}, {type: "RELATES_TO", target: "BBAPLT-RPT-018"}, {type: "RELATES_TO", target: "BBAPLT-RPT-024"}]
+related_epics: ["EPIC-006"]
+related_requirements: ["REQ-006-06-001"]
+related_adrs: ["BBA-ADR-0003", "BBA-ADR-0004", "BBA-ADR-0006"]
+related_cores: ["Product Layer", "Domain Layer", "Architecture Layer", "Development Layer", "Agency Product", "Handoff"]
+implementation_refs: [{repository: "Axodus/Documentation", path: ".rag/bba-platform/", ref: "main", kind: "SOURCE", environment: "LOCAL"}, {repository: "Axodus/BBA-Agency", path: ".rag/architecture/EPIC-IMP-015-BBA-STANDALONE-PRODUCT-SURFACE.md", ref: "ce1e46b", kind: "SOURCE", environment: "LOCAL"}]
+production_gate_impact: "PRESERVES_CLOSED"
+---
+
+# Agency Product Vision Canonical Review
+
+## Review Boundary
+
+This is an audit and certification of the EPIC-006 governance process. It
+certifies consistency, traceability, vocabulary governance, external handoff,
+and preservation of certified layers. It does not certify `BBAPLT-GDE-101` as
+normative and does not authorize implementation or mutate `BBA-Agency`.
+
+## Review Matrix
+
+| Verification | Evidence | Result |
+| --- | --- | --- |
+| Platform and Agency boundaries are explicit | `BBAPLT-GDE-101`, `BBA-ADR-0006` | PENDING |
+| Agency Product is not a Domain Aggregate | `BBAPLT-GDE-101`, `BBAPLT-RPT-026` | PENDING |
+| Agency Runtime preserves Human Governance | `BBAPLT-RPT-027` | PENDING |
+| Agency Experience preserves customer and Tenant boundaries | `BBAPLT-RPT-028` | PENDING |
+| Vocabulary extension is additive | `BBA-REF-002`, `BBAPLT-RPT-029` | PENDING |
+| External roadmap is non-normative handoff | `BBA-ROAD-004`, `BBA-STD-001` | PENDING |
+| Certified layers and checksum remain valid | Foundation manifest and layer reviews | PENDING |
+
+## Review Status
+
+```text
+DRAFT — canonical review in progress
+```
