@@ -99,3 +99,13 @@ test('Agency roadmap is an external non-normative handoff', async () => {
   assert.doesNotMatch(backlog, /id: "EPIC-IMP-/)
   assert.doesNotMatch(backlog, /to: "EPIC-IMP-/)
 })
+
+test('Decision traceability preserves the Documentation to BBA Agency boundary', async () => {
+  const traceability = await read('.rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md')
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  assert.match(traceability, /Cross-Repository Handoff Contract/)
+  assert.match(traceability, /IMPLEMENTATION_EVIDENCE/)
+  assert.match(traceability, /EXTERNAL_NON_NORMATIVE/)
+  assert.match(traceability, /must not claim to have changed the external backlog/)
+  assert.match(backlog, /REQ-006-05-005[\s\S]*status: "DONE"/)
+})

@@ -1689,7 +1689,7 @@ program:
               acceptance: ["Program documents distinguish EPIC-006 from external EPIC-IMP identifiers and preserve the Documentation hierarchy."]
             - id: "REQ-006-05-005"
               title: "Register BBA Agency Handoff Traceability"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-05-004"]
               produces: ["BBA-STD-001", "BBA-ROAD-004"]
               files: [".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md", ".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md"]

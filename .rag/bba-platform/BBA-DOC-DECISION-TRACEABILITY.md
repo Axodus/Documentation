@@ -25,8 +25,8 @@ review_cycle: "QUARTERLY"
 next_review: "2026-10-18"
 supersedes: []
 relationships: [{type: "DEPENDS_ON", target: "BBA-ROAD-003"}, {type: "RELATES_TO", target: "BBA-STD-002"}]
-related_epics: ["EPIC-000"]
-related_requirements: ["REQ-000-008"]
+related_epics: ["EPIC-000", "EPIC-006"]
+related_requirements: ["REQ-000-008", "REQ-006-05-005"]
 related_adrs: ["BBA-ADR-0001", "BBA-ADR-0004"]
 related_cores: []
 implementation_refs: []
@@ -78,3 +78,17 @@ Commit
 | Commit evidence | Commit implementing the REQ. |
 
 Missing links are recorded as gaps and block the relevant gate.
+
+## Cross-Repository Handoff Contract
+
+| Element | Documentation authority | External implementation reference |
+| --- | --- | --- |
+| Product Vision 2.0 | `BBAPLT-GDE-101` | `Axodus/BBA-Agency/.rag/architecture/EPIC-IMP-014` through `EPIC-IMP-016` |
+| Composition decision | `BBA-ADR-0006` | External ADRs remain repository-owned |
+| Product roadmap | `BBA-ROAD-004` | BBA Agency backlog and state are external |
+| Evidence classification | `IMPLEMENTATION_EVIDENCE` / `EXTERNAL_NON_NORMATIVE` | Must not be treated as Product or Domain authority |
+| Handoff session | `019f8f47-2697-7600-8a2b-0057d4786214` | Context evidence only |
+
+Documentation may recommend that an external implementation epic wait for an
+accepted handoff. It must not claim to have changed the external backlog or
+external status.

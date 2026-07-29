@@ -8056,9 +8056,11 @@
         "BBA-ROAD-003",
         "BBA-STD-002",
         "EPIC-000",
-        "REQ-000-008"
+        "EPIC-006",
+        "REQ-000-008",
+        "REQ-006-05-005"
       ],
-      "sha256": "c1ede4aa7a386b115573ea6708a69fc1ba91cbce604d82acd935ba4bd6cee4f5",
+      "sha256": "15798f47d362db4344c9dc7de13a926b0c0b3784ed45a59bb37f054f85fbb91a",
       "source_path": ".rag/bba-platform/BBA-DOC-DECISION-TRACEABILITY.md",
       "superseded_by": [],
       "supersedes": [],
