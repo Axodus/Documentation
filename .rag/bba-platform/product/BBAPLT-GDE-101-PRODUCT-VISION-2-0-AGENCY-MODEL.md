@@ -58,6 +58,22 @@ The Platform remains the internal source of canonical Mission, Workflow,
 Knowledge, Review, Publication, Institutional Asset, Connector, and Human
 Governance semantics.
 
+## Product Composition Principle
+
+```text
+Agency Product
+    = Customer Outcome
+    + Service Composition
+    + governed capabilities
+    + bounded Agents
+    + applicable Policies
+    + expected Deliverables
+```
+
+This equation is a product composition rule, not a Domain Aggregate definition.
+It does not grant the Agency Product identity or authority over the composed
+Platform concepts.
+
 ## Four-Layer Agency Model
 
 ```text
