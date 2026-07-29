@@ -1668,11 +1668,11 @@ program:
               acceptance: ["Agency terms are added additively with full entry fields and no existing term is removed or redefined."]
             - id: "REQ-006-05-002"
               title: "Record Agency Composition ADR"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-05-001"]
-              produces: ["BBA-ADR-0005"]
-              files: [".rag/bba-platform/adr/BBA-ADR-0005-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md"]
-              acceptance: ["The ADR records Agency composition over certified Platform concepts while retaining the repository ADR lifecycle."]
+              produces: ["BBA-ADR-0006"]
+              files: [".rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md"]
+              acceptance: ["The next available ADR records Agency composition over certified Platform concepts while retaining the repository ADR lifecycle and preserving the existing BBA-ADR-0005."]
             - id: "REQ-006-05-003"
               title: "Create Agency Product Evolution Roadmap"
               status: "PLANNED"

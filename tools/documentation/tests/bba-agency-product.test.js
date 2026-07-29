@@ -76,3 +76,14 @@ test('Agency vocabulary extension is additive and non-normative', async () => {
   assert.match(source, /The terms are not normative until `BBAPLT-GDE-101` is promoted/)
   for (const existing of ['Mission', 'Institutional Asset', 'AI Workforce', 'Human Governance', 'Capability', 'Solution']) assert.match(source, new RegExp(`\\| ${existing} \\|`))
 })
+
+test('Agency composition uses the next free ADR without replacing the Asset ADR', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const agencyAdr = await read('.rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md')
+  const assetAdr = await read('.rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md')
+  assert.match(backlog, /REQ-006-05-002[\s\S]*produces: \["BBA-ADR-0006"\]/)
+  assert.match(agencyAdr, /document_id: "BBA-ADR-0006"/)
+  assert.match(agencyAdr, /status[\s\S]*PROPOSED/)
+  assert.match(assetAdr, /document_id: "BBA-ADR-0005"/)
+  assert.match(assetAdr, /Institutional Assets Are Immutable Knowledge Artifacts/)
+})

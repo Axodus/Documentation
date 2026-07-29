@@ -4199,6 +4199,16 @@
       "title": "Institutional Assets Are Immutable Knowledge Artifacts"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBA-ADR-0006",
+      "document_type": "ADR",
+      "node_id": "BBA-ADR-0006",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md",
+      "title": "Agency Composition Over Certified Platform"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BBA-GDE-001",
@@ -13181,6 +13191,7 @@
       ".rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md",
       ".rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md",
       ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
+      ".rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md",
       ".rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md",
@@ -14017,6 +14028,7 @@
       "BBA-ADR-0003",
       "BBA-ADR-0004",
       "BBA-ADR-0005",
+      "BBA-ADR-0006",
       "BBA-GDE-001",
       "BBA-GDE-100",
       "BBA-POL-001",
@@ -14602,14 +14614,14 @@
     "DEPENDS_ON": 279,
     "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 605,
+    "RELATES_TO": 607,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1011,
+    "declared": 1013,
     "derived": 0,
     "duplicates": 0,
-    "total": 1011,
+    "total": 1013,
     "unresolved": 1
   },
   "relationship_types": [
@@ -14768,6 +14780,18 @@
       "source": "BBA-ADR-0005",
       "source_path": ".rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md",
       "target": "BBAPLT-GDE-025",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0006",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md",
+      "target": "BBAPLT-GDE-101",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ADR-0006",
+      "source_path": ".rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md",
+      "target": "BBAPLT-RPT-026",
       "type": "RELATES_TO"
     },
     {

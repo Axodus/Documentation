@@ -5,7 +5,7 @@
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
 Generated At: 2026-07-29T00:00:00Z
-Source Documents: 1171
+Source Documents: 1172
 
 ## Navigation
 
@@ -22,18 +22,18 @@ Source Documents: 1171
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1171 |
-| Canonical documents | 578 |
+| Total source documents | 1172 |
+| Canonical documents | 579 |
 | Legacy documents | 579 |
 | Template documents | 14 |
-| Declared relationships | 1011 |
+| Declared relationships | 1013 |
 | Derived relationships | 0 |
 
 ## Documents by Type
 
 | Value | Count |
 |---|---:|
-| ADR | 29 |
+| ADR | 30 |
 | API | 1 |
 | GUIDE | 221 |
 | MEETING | 1 |
@@ -58,7 +58,7 @@ Source Documents: 1171
 | CORE | 244 |
 | MODULE | 1 |
 | PORTFOLIO | 29 |
-| PROJECT | 316 |
+| PROJECT | 317 |
 | UNSPECIFIED | 579 |
 ## Documents by Lifecycle
 
@@ -66,7 +66,7 @@ Source Documents: 1171
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 418 |
+| DRAFT | 419 |
 | UNSPECIFIED | 579 |
 ## Canonical Documents
 
@@ -77,6 +77,7 @@ Source Documents: 1171
 | BBA-ADR-0003 | Tenant-Neutral Core | ADR | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md](./bba-platform/adr/BBA-ADR-0003-TENANT-NEUTRAL-CORE.md) |
 | BBA-ADR-0004 | Domain Before Architecture | ADR | DRAFT | PROJECT | 0.1.0 | BBA Documentation Governance | [.rag/bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md](./bba-platform/adr/BBA-ADR-0004-DOMAIN-BEFORE-ARCHITECTURE.md) |
 | BBA-ADR-0005 | Institutional Assets Are Immutable Knowledge Artifacts | ADR | DRAFT | PROJECT | 0.1.0 | BBA Domain Governance | [.rag/bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md](./bba-platform/adr/BBA-ADR-0005-INSTITUTIONAL-ASSETS-IMMUTABLE-KNOWLEDGE-ARTIFACTS.md) |
+| BBA-ADR-0006 | Agency Composition Over Certified Platform | ADR | DRAFT | PROJECT | 0.1.0 | BBA Product Governance | [.rag/bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md](./bba-platform/adr/BBA-ADR-0006-AGENCY-COMPOSITION-OVER-CERTIFIED-PLATFORM.md) |
 | BBAPLT-ARCH-001 | BBA Platform Architecture Constitution | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md](./bba-platform/architecture/BBAPLT-ARCH-001-ARCHITECTURE-CONSTITUTION.md) |
 | BBAPLT-ARCH-002 | BBA Platform Canonical System Context | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md](./bba-platform/architecture/BBAPLT-ARCH-002-CANONICAL-SYSTEM-CONTEXT.md) |
 | BBAPLT-ARCH-003 | BBA Platform Bounded Context Architecture | GUIDE | DRAFT | PROJECT | 0.1.0 | BBA Architecture Governance | [.rag/bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md](./bba-platform/architecture/BBAPLT-ARCH-003-BOUNDED-CONTEXT-ARCHITECTURE.md) |
