@@ -1607,8 +1607,8 @@ program:
               acceptance: ["The Runtime Governance review records PASS or FAIL and confirms the absence of implementation decisions."]
         - id: "SPRINT-006-04"
           name: "Agency Experience"
-          status: "IN_PROGRESS"
-          status_reason: "AGENCY_EXPERIENCE_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "AGENCY_EXPERIENCE_PASS"
           documentation_areas: ["AREA-001", "AREA-002", "AREA-005", "AREA-010"]
           requests:
             - id: "REQ-006-04-001"
@@ -1648,7 +1648,7 @@ program:
               acceptance: ["Experience constraints preserve privacy, Tenant boundaries, evidence, accessibility, review, and non-normative product status."]
             - id: "REQ-006-04-006"
               title: "Review Agency Experience"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-04-001", "REQ-006-04-002", "REQ-006-04-003", "REQ-006-04-004", "REQ-006-04-005"]
               produces: ["BBAPLT-RPT-028"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md"]

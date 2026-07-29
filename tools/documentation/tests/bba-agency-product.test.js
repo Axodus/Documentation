@@ -60,3 +60,12 @@ test('Agency Runtime Governance Sprint closes without technical runtime decision
   assert.match(report, /does not[\s\S]*authorize technical Runtime implementation/)
   assert.match(report, /Human Governance remains authoritative/)
 })
+
+test('Agency Experience Sprint closes with service-oriented boundaries', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const report = await read('.rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-006-04"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "AGENCY_EXPERIENCE_PASS"/)
+  assert.match(report, /Review Result[\s\S]*PASS/)
+  assert.match(report, /does not certify[\s\S]*frontend implementation/)
+  assert.match(report, /Workspace does not become a new Aggregate/)
+})
