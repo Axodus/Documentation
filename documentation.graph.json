@@ -5859,6 +5859,16 @@
       "title": "Agency Experience Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-029",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-029",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md",
+      "title": "Agency Product Governance Integration Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -13366,6 +13376,7 @@
       ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
+      ".rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -14205,6 +14216,7 @@
       "BBAPLT-RPT-026",
       "BBAPLT-RPT-027",
       "BBAPLT-RPT-028",
+      "BBAPLT-RPT-029",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14626,14 +14638,14 @@
     "DEPENDS_ON": 280,
     "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 609,
+    "RELATES_TO": 612,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1016,
+    "declared": 1019,
     "derived": 0,
     "duplicates": 0,
-    "total": 1016,
+    "total": 1019,
     "unresolved": 1
   },
   "relationship_types": [
@@ -18302,6 +18314,24 @@
       "source": "BBAPLT-RPT-028",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-028-AGENCY-EXPERIENCE-REVIEW.md",
       "target": "BBAPLT-RPT-027",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-029",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md",
+      "target": "BBA-ADR-0006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-029",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md",
+      "target": "BBA-ROAD-004",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-029",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md",
+      "target": "BBAPLT-GDE-101",
       "type": "RELATES_TO"
     },
     {

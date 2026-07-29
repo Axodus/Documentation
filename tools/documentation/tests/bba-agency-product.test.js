@@ -109,3 +109,13 @@ test('Decision traceability preserves the Documentation to BBA Agency boundary',
   assert.match(traceability, /must not claim to have changed the external backlog/)
   assert.match(backlog, /REQ-006-05-005[\s\S]*status: "DONE"/)
 })
+
+test('Governance Integration Sprint closes while preserving proposal status', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const report = await read('.rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-006-05"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "GOVERNANCE_INTEGRATION_PASS"/)
+  assert.match(report, /document_id: "BBAPLT-RPT-029"/)
+  assert.match(report, /Review Result[\s\S]*PASS/)
+  assert.match(report, /BBA-ADR-0006[\s\S]*PROPOSED/)
+  assert.match(report, /BBAPLT-GDE-101[\s\S]*PROPOSED \/ NON_NORMATIVE_PENDING_REVIEW/)
+})

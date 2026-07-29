@@ -1655,8 +1655,8 @@ program:
               acceptance: ["The Agency Experience review records PASS or FAIL and confirms that no implementation surface was introduced."]
         - id: "SPRINT-006-05"
           name: "Governance Integration"
-          status: "IN_PROGRESS"
-          status_reason: "GOVERNANCE_INTEGRATION_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "GOVERNANCE_INTEGRATION_PASS"
           documentation_areas: ["AREA-000", "AREA-001", "AREA-002", "AREA-005"]
           requests:
             - id: "REQ-006-05-001"
@@ -1696,7 +1696,7 @@ program:
               acceptance: ["The handoff identifies BBA-Agency references as external non-normative implementation evidence and does not claim external backlog mutation."]
             - id: "REQ-006-05-006"
               title: "Review Governance Integration"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-05-001", "REQ-006-05-002", "REQ-006-05-003", "REQ-006-05-004", "REQ-006-05-005"]
               produces: ["BBAPLT-RPT-029"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-029-GOVERNANCE-INTEGRATION-REVIEW.md"]
