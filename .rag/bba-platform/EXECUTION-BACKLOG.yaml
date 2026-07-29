@@ -1559,12 +1559,13 @@ program:
               acceptance: ["The Service Composition review records PASS or FAIL and lists unresolved product decisions without silently changing certified layers."]
         - id: "SPRINT-006-03"
           name: "Agency Runtime Governance"
-          status: "PLANNED"
+          status: "IN_PROGRESS"
+          status_reason: "AGENCY_RUNTIME_GOVERNANCE_ACTIVE"
           documentation_areas: ["AREA-005", "AREA-009", "AREA-010"]
           requests:
             - id: "REQ-006-03-001"
               title: "Define Agency Runtime Principles"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-02-006"]
               produces: ["BBAPLT-RPT-027"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md"]
