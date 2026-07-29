@@ -5809,6 +5809,16 @@
       "title": "Product Vision 2.0 Foundation Review"
     },
     {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
+      "document_id": "BBAPLT-RPT-026",
+      "document_type": "REPORT",
+      "node_id": "BBAPLT-RPT-026",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
+      "title": "Service Composition Review"
+    },
+    {
       "authority_level": "CORE",
       "classification": "CANONICAL",
       "document_id": "BUSINESS-GDE-001",
@@ -13311,6 +13321,7 @@
       ".rag/bba-platform/product/BBAPLT-RPT-002-PRODUCT-DOMAIN-FRAMING-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-012-PRODUCT-FINAL-CONSISTENCY-REVIEW.md",
       ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
+      ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-BOUNDARY-REVIEW.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-DECISION-REGISTER.md",
       ".rag/CANONICAL-COHERENCE-BATCH-01-EVIDENCE-REGISTER.md",
@@ -14145,6 +14156,7 @@
       "BBAPLT-RPT-023",
       "BBAPLT-RPT-024",
       "BBAPLT-RPT-025",
+      "BBAPLT-RPT-026",
       "BUSINESS-GDE-001",
       "BUSINESS-GDE-002",
       "BUSINESS-GDE-003",
@@ -14566,14 +14578,14 @@
     "DEPENDS_ON": 279,
     "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 599,
+    "RELATES_TO": 601,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1005,
+    "declared": 1007,
     "derived": 0,
     "duplicates": 0,
-    "total": 1005,
+    "total": 1007,
     "unresolved": 1
   },
   "relationship_types": [
@@ -18176,6 +18188,18 @@
       "source": "BBAPLT-RPT-025",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-025-PRODUCT-VISION-2-0-FOUNDATION-REVIEW.md",
       "target": "BBAPLT-RPT-012",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-026",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
+      "target": "BBAPLT-GDE-008",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBAPLT-RPT-026",
+      "source_path": ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
+      "target": "BBAPLT-GDE-101",
       "type": "RELATES_TO"
     },
     {
