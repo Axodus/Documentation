@@ -53,6 +53,21 @@ frontend components, APIs, transport, persistence, or implementation behavior.
    material to the outcome.
 5. The experience never implies autonomous institutional authority.
 
+## Workspace Model
+
+The Agency Workspace is the customer's service-oriented view of active work.
+It may present:
+
+- selected Agency Product and Customer Outcome;
+- briefing, supplied materials, and missing inputs;
+- truthful progress and current limitations;
+- deliverables, evidence, Asset lineage, and review findings;
+- pending approvals, decisions, and required actions;
+- authorized delivery or Publication information.
+
+The Workspace is a presentation model. It does not become a new Aggregate,
+replace Mission or Workflow, or own the canonical information shown within it.
+
 ## Review Status
 
 ```text
