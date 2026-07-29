@@ -1675,7 +1675,7 @@ program:
               acceptance: ["The next available ADR records Agency composition over certified Platform concepts while retaining the repository ADR lifecycle and preserving the existing BBA-ADR-0005."]
             - id: "REQ-006-05-003"
               title: "Create Agency Product Evolution Roadmap"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-05-002"]
               produces: ["BBA-ROAD-004"]
               files: [".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md"]

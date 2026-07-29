@@ -4301,6 +4301,16 @@
     {
       "authority_level": "PROJECT",
       "classification": "CANONICAL",
+      "document_id": "BBA-ROAD-004",
+      "document_type": "ROADMAP",
+      "node_id": "BBA-ROAD-004",
+      "publication_status": "DRAFT",
+      "source_path": ".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md",
+      "title": "BBA Agency Product Evolution Roadmap"
+    },
+    {
+      "authority_level": "PROJECT",
+      "classification": "CANONICAL",
       "document_id": "BBA-STD-001",
       "document_type": "STANDARD",
       "node_id": "BBA-STD-001",
@@ -13336,6 +13346,7 @@
       ".rag/bba-platform/domain/BBAPLT-RPT-009-WORKFLOW-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-010-CONNECTOR-DOMAIN-REVIEW.md",
       ".rag/bba-platform/domain/BBAPLT-RPT-011-DOMAIN-ROLLOUT-CANONICAL-REVIEW.md",
+      ".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md",
       ".rag/bba-platform/product/BBAPLT-GDE-001-PRODUCT-VISION.md",
       ".rag/bba-platform/product/BBAPLT-GDE-002-PRODUCT-POSITIONING.md",
       ".rag/bba-platform/product/BBAPLT-GDE-003-CAPABILITIES.md",
@@ -14038,6 +14049,7 @@
       "BBA-ROAD-001",
       "BBA-ROAD-002",
       "BBA-ROAD-003",
+      "BBA-ROAD-004",
       "BBA-STD-001",
       "BBA-STD-002",
       "BBAPLT-ARCH-001",
@@ -14611,17 +14623,17 @@
     ]
   },
   "relationship_counts": {
-    "DEPENDS_ON": 279,
+    "DEPENDS_ON": 280,
     "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 607,
+    "RELATES_TO": 609,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1013,
+    "declared": 1016,
     "derived": 0,
     "duplicates": 0,
-    "total": 1013,
+    "total": 1016,
     "unresolved": 1
   },
   "relationship_types": [
@@ -14912,6 +14924,24 @@
       "source": "BBA-ROAD-003",
       "source_path": ".rag/bba-platform/BBA-DOC-MASTER-BACKLOG.md",
       "target": "BBA-STD-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ROAD-004",
+      "source_path": ".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md",
+      "target": "BBAPLT-GDE-101",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "BBA-ROAD-004",
+      "source_path": ".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md",
+      "target": "BBA-ADR-0006",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "BBA-ROAD-004",
+      "source_path": ".rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md",
+      "target": "BBA-ROAD-003",
       "type": "RELATES_TO"
     },
     {

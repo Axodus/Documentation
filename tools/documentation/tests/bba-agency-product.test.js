@@ -87,3 +87,15 @@ test('Agency composition uses the next free ADR without replacing the Asset ADR'
   assert.match(assetAdr, /document_id: "BBA-ADR-0005"/)
   assert.match(assetAdr, /Institutional Assets Are Immutable Knowledge Artifacts/)
 })
+
+test('Agency roadmap is an external non-normative handoff', async () => {
+  const roadmap = await read('.rag/bba-platform/product/BBA-ROAD-004-AGENCY-PRODUCT-EVOLUTION-ROADMAP.md')
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  assert.match(roadmap, /document_id: "BBA-ROAD-004"/)
+  for (const epic of ['EPIC-IMP-014', 'EPIC-IMP-015', 'EPIC-IMP-016', 'EPIC-IMP-017', 'EPIC-IMP-018', 'EPIC-IMP-019', 'EPIC-IMP-020']) assert.match(roadmap, new RegExp(epic))
+  assert.match(roadmap, /IMPLEMENTATION_EVIDENCE/)
+  assert.match(roadmap, /EXTERNAL_NON_NORMATIVE/)
+  assert.match(roadmap, /does not[\s\S]*claim external backlog mutation/)
+  assert.doesNotMatch(backlog, /id: "EPIC-IMP-/)
+  assert.doesNotMatch(backlog, /to: "EPIC-IMP-/)
+})
