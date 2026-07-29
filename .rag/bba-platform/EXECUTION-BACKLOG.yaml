@@ -1723,7 +1723,7 @@ program:
               acceptance: ["The review confirms Agency Product is declarative composition and not a Domain Aggregate."]
             - id: "REQ-006-06-003"
               title: "Review Agency Terminology Consistency"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-06-002"]
               produces: ["BBAPLT-RPT-030"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-030-AGENCY-PRODUCT-VISION-CANONICAL-REVIEW.md"]
