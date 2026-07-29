@@ -1511,8 +1511,8 @@ program:
               acceptance: ["The Sprint review records PASS or FAIL and verifies the non-normative status and certified-layer preservation."]
         - id: "SPRINT-006-02"
           name: "Service Composition"
-          status: "IN_PROGRESS"
-          status_reason: "SERVICE_COMPOSITION_ACTIVE"
+          status: "PASS_CLOSED"
+          status_reason: "SERVICE_COMPOSITION_PASS"
           documentation_areas: ["AREA-002", "AREA-004", "AREA-005"]
           requests:
             - id: "REQ-006-02-001"
@@ -1552,7 +1552,7 @@ program:
               acceptance: ["Composition constraints preserve Tenant, Authority, Ownership, Stewardship, Accountability, Lineage, and Aggregate boundaries."]
             - id: "REQ-006-02-006"
               title: "Review Service Composition"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-02-001", "REQ-006-02-002", "REQ-006-02-003", "REQ-006-02-004", "REQ-006-02-005"]
               produces: ["BBAPLT-RPT-026"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md"]

@@ -11680,7 +11680,7 @@
         "EPIC-006",
         "REQ-006-02-001"
       ],
-      "sha256": "67f0c251d8f6834de8f1ce0f4ef8ebc718ae35ca9b2818508ed7337555576bf2",
+      "sha256": "c64846db2649a271f5392fe15877e07bd7f503fc28948d9a9d218022e2dcdb47",
       "source_path": ".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md",
       "superseded_by": [],
       "supersedes": [],

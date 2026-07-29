@@ -41,3 +41,13 @@ test('Product Vision 2.0 Foundation Sprint closes without certifying the vision'
   assert.match(report, /Review Result[\s\S]*PASS/)
   assert.match(report, /does not certify[\s\S]*BBAPLT-GDE-101[\s\S]*as normative/)
 })
+
+test('Service Composition Sprint closes with declarative composition semantics', async () => {
+  const backlog = await read('.rag/bba-platform/EXECUTION-BACKLOG.yaml')
+  const report = await read('.rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md')
+  assert.match(backlog, /id: "SPRINT-006-02"[\s\S]*status: "PASS_CLOSED"[\s\S]*status_reason: "SERVICE_COMPOSITION_PASS"/)
+  assert.match(backlog, /id: "SPRINT-006-03"[\s\S]*status: "PLANNED"/)
+  assert.match(report, /document_id: "BBAPLT-RPT-026"/)
+  assert.match(report, /Review Result[\s\S]*PASS/)
+  assert.match(report, /without creating a new[\s\S]*Domain Aggregate/)
+})
