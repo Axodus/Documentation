@@ -54,6 +54,21 @@ boundary and does not select or prescribe technical runtime implementation.
 6. Runtime concerns must not redefine Mission, Workflow, Review, Publication,
    or Institutional Asset semantics.
 
+## Agent Orchestration Model
+
+Agent orchestration is the governed selection, assignment, coordination, and
+review of bounded Agent responsibilities for an Agency Product. It must retain:
+
+- the originating Customer Outcome and Mission context;
+- the Agent identity, Role, Capability, Responsibility, and Permission
+  distinctions;
+- the Assignment scope and expected Deliverables;
+- applicable evidence, uncertainty, quality, and Review obligations;
+- the human Steward or authority responsible for acceptance.
+
+Delegation may decompose work but cannot increase authority, remove a required
+gate, cross a Tenant Boundary, or erase provenance and accountability.
+
 ## Review Status
 
 ```text

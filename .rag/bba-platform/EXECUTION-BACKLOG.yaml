@@ -1572,7 +1572,7 @@ program:
               acceptance: ["Runtime principles describe governed composition and execution without selecting an implementation architecture."]
             - id: "REQ-006-03-002"
               title: "Define Agent Orchestration Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-03-001"]
               produces: ["BBAPLT-RPT-027"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md"]
