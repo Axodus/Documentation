@@ -1538,7 +1538,7 @@ program:
               acceptance: ["Customer outcomes are observable product goals and are not substituted for Domain entities or institutional authority."]
             - id: "REQ-006-02-004"
               title: "Define Agency Service Taxonomy"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-02-003"]
               produces: ["BBAPLT-RPT-026"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-026-SERVICE-COMPOSITION-REVIEW.md"]

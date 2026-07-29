@@ -107,6 +107,19 @@ An outcome is successful only when the applicable acceptance meaning and
 governance obligations are satisfied. A draft, unsupported claim, or unreviewed
 result may be a useful output without being an accepted Customer Outcome.
 
+## Service Taxonomy
+
+| Taxonomy level | Meaning | Example |
+| --- | --- | --- |
+| Service category | Stable market-facing grouping of related outcomes. | Scientific Writing |
+| Agency Product | Versioned declarative composition offered within a category. | Scientific Article |
+| Product deliverable | Expected result or Institutional Asset produced by a product. | Manuscript |
+| Customer Outcome | The accepted result the customer intended to obtain. | Publication-ready article |
+
+Categories organize discovery. Products define composition. Deliverables make
+the expected result verifiable. Outcomes define customer value. These levels
+must not be collapsed into Mission, Aggregate, or Bounded Context semantics.
+
 ## Review Status
 
 ```text
