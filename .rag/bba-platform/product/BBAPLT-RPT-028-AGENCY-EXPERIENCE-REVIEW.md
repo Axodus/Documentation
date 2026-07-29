@@ -68,6 +68,28 @@ It may present:
 The Workspace is a presentation model. It does not become a new Aggregate,
 replace Mission or Workflow, or own the canonical information shown within it.
 
+## Service Hiring Journey
+
+```text
+Discover a service
+    ↓
+Select a category and Agency Product
+    ↓
+Describe Customer Outcome and submit briefing
+    ↓
+Provide material, constraints, audience, and approval expectations
+    ↓
+Review scope, limitations, evidence obligations, and delivery boundary
+    ↓
+Confirm the proposed service composition
+    ↓
+Track governed progress and respond to requested decisions
+```
+
+Hiring confirms the service contract and expected outcome. It does not itself
+authorize publication, alter Platform policies, or create institutional
+authority.
+
 ## Review Status
 
 ```text
