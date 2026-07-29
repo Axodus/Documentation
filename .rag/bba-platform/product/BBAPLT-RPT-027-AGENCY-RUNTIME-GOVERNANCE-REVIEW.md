@@ -83,6 +83,22 @@ Low-risk work may proceed without individual human review only when an explicit
 Policy allows it. This does not grant an Agent, Runtime, or Agency Product
 institutional Authority or Accountability.
 
+## LLM Selection Model
+
+LLM selection is a governed product concern evaluated against:
+
+- task Capability and required quality;
+- evidence, uncertainty, and limitation obligations;
+- privacy, sovereignty, Tenant, and Connector boundaries;
+- latency, reliability, consumption, and cost objectives;
+- human review requirements and failure consequences;
+- substitution and fallback expectations.
+
+This model does not select a provider, named model, API, prompt format,
+orchestration framework, queue, database, or deployment strategy. A technical
+selection requires later Development or Architecture documentation and must
+preserve the Product, Domain, and Architecture sources.
+
 ## Review Status
 
 ```text

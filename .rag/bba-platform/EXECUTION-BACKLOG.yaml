@@ -1586,7 +1586,7 @@ program:
               acceptance: ["Human approvals, review gates, escalation, accountability, and limits of agent authority are explicit."]
             - id: "REQ-006-03-004"
               title: "Define LLM Selection Model"
-              status: "PLANNED"
+              status: "DONE"
               depends_on: ["REQ-006-03-003"]
               produces: ["BBAPLT-RPT-027"]
               files: [".rag/bba-platform/product/BBAPLT-RPT-027-AGENCY-RUNTIME-GOVERNANCE-REVIEW.md"]
