@@ -313,6 +313,9 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://docs.axodus.country'
+  },
   vite: {
     publicDir: fileURLToPath(new URL('../../public', import.meta.url))
   },
@@ -325,6 +328,14 @@ export default defineConfig({
     }
   },
   head: [
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-ZDH9R2NTWM' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || []
+      function gtag(){dataLayer.push(arguments)}
+      gtag('js', new Date())
+
+      gtag('config', 'G-ZDH9R2NTWM')
+    `],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap' }],
