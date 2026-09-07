@@ -28,3 +28,21 @@ Add `*.test.js` files under `tools/documentation/tests/` using `node:test` and `
 ## Commit & Pull Request Guidelines
 
 Recent commits follow Conventional Commit-style subjects, commonly `docs(scope): ...` and `chore(docs): ...`; keep subjects imperative and focused. Pull requests should explain what changed and why, identify canonical or superseded files, link related issues or requirements, and call out uncertainty. Include screenshots for visible VitePress changes. Never add secrets, fabricated integrations, or guaranteed-profit/risk-free claims.
+
+## AXODUS_WORKSPACE_COORDINATION
+
+This workspace is part of the federated Axodus portfolio. Read the root
+[`AGENTS.md`](../AGENTS.md) and the
+[Agent Coordination Protocol](../.instructions/AGENT_COORDINATION_PROTOCOL.md) before starting work.
+
+Keep this file's local rules authoritative for this repository. For every
+completed or materially blocked task, provide the required **Global Coordination
+Handoff**: workspace, scope, local status, validation, local records changed,
+dependencies, blockers or risks, priority impact, requested portfolio action,
+and preserved boundaries.
+
+Update this repository's existing local status, roadmap, task, validation,
+blocker, or report records when the authorized task requires it. Do not edit
+root portfolio records directly; the root Axodus orchestrator consolidates
+validated handoffs into global status, priorities, blockers, dependencies, and
+reports.
