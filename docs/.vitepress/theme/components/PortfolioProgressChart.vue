@@ -27,6 +27,7 @@ const nuclei: Nucleus[] = [
 ]
 
 const selectedName = ref(nuclei[0].name)
+const average = (nuclei.reduce((sum, nucleus) => sum + nucleus.completeness, 0) / nuclei.length).toFixed(1)
 const selected = computed(() => nuclei.find((nucleus) => nucleus.name === selectedName.value) ?? nuclei[0])
 </script>
 
@@ -46,7 +47,7 @@ const selected = computed(() => nuclei.find((nucleus) => nucleus.name === select
     <div class="portfolio-progress-summary">
       <div>
         <span>Documented average</span>
-        <strong>56.8%</strong>
+        <strong>{{ average }}%</strong>
       </div>
       <p>
         Percentage baseline: <time datetime="2026-06-30">30 June 2026</time>.
@@ -84,9 +85,12 @@ const selected = computed(() => nuclei.find((nucleus) => nucleus.name === select
     </div>
 
     <p class="portfolio-progress-note">
-      This chart measures documented implementation and validation evidence. It
-      does not measure production readiness, financial authority, security
+      This chart displays recorded estimates of functional completeness, informed
+      by implementation and validation evidence. These percentages were not
+      reassessed during the September status review. They do not measure
+      production readiness, financial authority, security
       certification, or live execution. No assessed nucleus is production-authorized.
+      <a href="https://github.com/Axodus/.github/blob/390f110/PORTFOLIO_PROGRESS_2026-09-07.md">Read the snapshot methodology</a>.
     </p>
   </section>
 </template>
