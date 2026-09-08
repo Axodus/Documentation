@@ -2,6 +2,21 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath } from 'node:url'
 import { pageStatusPlugin } from './theme/statusPlugin'
 
+const siteUrl = 'https://docs.axodus.country'
+const defaultDescription = 'Governed documentation for the Axodus ecosystem, covering its architecture, products, operational boundaries, and evidence-based status.'
+
+function routePath(page: string) {
+  const path = page
+    .replace(/(^|\/)index\.md$/, '$1')
+    .replace(/\.md$/, '')
+
+  return path === '' ? '/' : `/${path.replace(/^\//, '')}`
+}
+
+function absoluteUrl(path: string) {
+  return new URL(path, siteUrl).toString()
+}
+
 const overviewItems = [
   { text: 'Start Here', link: '/' },
   { text: 'Ecosystem Overview', link: '/overview/ecosystem-overview' },
@@ -314,18 +329,49 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://docs.axodus.country'
+    hostname: siteUrl,
+    transformItems: (items) => items.filter((item) => item.url !== 'README' && !item.url.endsWith('/README'))
   },
   vite: {
     publicDir: fileURLToPath(new URL('../../public', import.meta.url))
   },
   transformPageData(pageData) {
+    if (typeof pageData.frontmatter.summary === 'string') {
+      pageData.description = pageData.frontmatter.summary
+    }
+
     if (pageData.relativePath === 'index.md') {
       pageData.frontmatter.layout = 'home'
       pageData.frontmatter.sidebar = false
       pageData.frontmatter.aside = false
       pageData.frontmatter.pageClass = 'axodus-home-page'
     }
+  },
+  transformHead(context) {
+    const title = context.pageData.frontmatter.title || context.title || 'Axodus Documentation'
+    const description = context.pageData.frontmatter.summary || context.description || defaultDescription
+    const url = absoluteUrl(routePath(context.page))
+
+    return [
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ['script', { type: 'application/ld+json' }, JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: title,
+        description,
+        url,
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'Axodus Documentation',
+          url: absoluteUrl('/')
+        }
+      })]
+    ]
   },
   head: [
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-ZDH9R2NTWM' }],
@@ -346,14 +392,13 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#1e2636' }],
     ['meta', { name: 'application-name', content: 'Axodus Documentation' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Axodus Docs' }],
-    ['meta', { property: 'og:title', content: 'Axodus Documentation' }],
-    ['meta', { property: 'og:description', content: 'Governed infrastructure for coordinating knowledge, decisions, services, products, and ecosystem execution.' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://axodus-documentation.vercel.app/' }],
-    ['meta', { property: 'og:image', content: 'https://axodus-documentation.vercel.app/logo512.png' }],
+    ['meta', { property: 'og:site_name', content: 'Axodus Documentation' }],
+    ['meta', { property: 'og:locale', content: 'en_US' }],
+    ['meta', { property: 'og:image', content: absoluteUrl('/logo512.png') }],
     ['meta', { property: 'og:image:alt', content: 'Axodus brand mark' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
-    ['meta', { name: 'twitter:image', content: 'https://axodus-documentation.vercel.app/logo512.png' }]
+    ['meta', { name: 'twitter:image', content: absoluteUrl('/logo512.png') }]
   ],
   themeConfig: {
     logo: {
