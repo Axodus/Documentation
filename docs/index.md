@@ -19,8 +19,8 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-07-15"
-last_reviewed: "2026-07-15"
+last_updated: "2026-09-08"
+last_reviewed: "2026-09-08"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-01"
 supersedes: []
@@ -63,9 +63,11 @@ production_gate_impact: "PRESERVES_CLOSED"
 </div>
 
 <div class="ux-home-shell">
+  <PortfolioProgressChart />
+
   <section class="ux-section ux-paths" aria-labelledby="choose-your-path">
     <div class="ux-section-heading">
-      <p class="ux-section-index">01 / Orientation</p>
+      <p class="ux-section-index">02 / Orientation</p>
       <div>
         <h2 id="choose-your-path">Choose your path</h2>
         <p>Enter through the view that matches the question you need to answer.</p>
@@ -83,7 +85,7 @@ production_gate_impact: "PRESERVES_CLOSED"
 
   <section class="ux-section" aria-labelledby="core-system-map">
     <div class="ux-section-heading">
-      <p class="ux-section-index">02 / System map</p>
+      <p class="ux-section-index">03 / System map</p>
       <div>
         <h2 id="core-system-map">Core system map</h2>
         <p>Axodus nuclei are grouped by responsibility, not presented as equally mature or equally active.</p>
@@ -125,7 +127,7 @@ production_gate_impact: "PRESERVES_CLOSED"
 
   <section class="ux-section" aria-labelledby="how-axodus-works">
     <div class="ux-section-heading">
-      <p class="ux-section-index">03 / Execution</p>
+      <p class="ux-section-index">04 / Execution</p>
       <div>
         <h2 id="how-axodus-works">How Axodus works</h2>
         <p>A compact orientation to the governed lifecycle. Individual flows may remain prototype-stage or incomplete.</p>
@@ -144,7 +146,7 @@ production_gate_impact: "PRESERVES_CLOSED"
 
   <section class="ux-section" aria-labelledby="status-legend">
     <div class="ux-section-heading">
-      <p class="ux-section-index">04 / Interpretation</p>
+      <p class="ux-section-index">05 / Interpretation</p>
       <div>
         <h2 id="status-legend">Status legend</h2>
         <p>Labels communicate documentary or implementation posture. They do not grant authority or open operational gates.</p>
