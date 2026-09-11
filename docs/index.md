@@ -19,8 +19,8 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: "Documentation Coordinator"
 created_date: "2026-05-16"
-last_updated: "2026-09-08"
-last_reviewed: "2026-09-08"
+last_updated: "2026-09-11"
+last_reviewed: "2026-09-11"
 review_cycle: "QUARTERLY"
 next_review: "2026-10-01"
 supersedes: []

@@ -51,7 +51,7 @@ const selected = computed(() => nuclei.find((nucleus) => nucleus.name === select
       </div>
       <p>
         Percentage baseline: <time datetime="2026-06-30">30 June 2026</time>.
-        Status context: <time datetime="2026-09-07">7 September 2026</time>.
+        Status context: <time datetime="2026-09-11">11 September 2026</time>.
       </p>
       <p>Institutional is not assessed and is excluded from the average.</p>
     </div>
@@ -87,10 +87,10 @@ const selected = computed(() => nuclei.find((nucleus) => nucleus.name === select
     <p class="portfolio-progress-note">
       This chart displays recorded estimates of functional completeness, informed
       by implementation and validation evidence. These percentages were not
-      reassessed during the September status review. They do not measure
+      reassessed during the 11 September status review. They do not measure
       production readiness, financial authority, security
       certification, or live execution. No assessed nucleus is production-authorized.
-      <a href="https://github.com/Axodus/.github/blob/390f110/PORTFOLIO_PROGRESS_2026-09-07.md">Read the snapshot methodology</a>.
+      <a href="https://github.com/Axodus/.github/blob/main/PORTFOLIO_PROGRESS_2026-09-07.md">Read the snapshot methodology</a>.
     </p>
   </section>
 </template>
