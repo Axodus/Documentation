@@ -12,7 +12,11 @@ is outside this baseline. No maturity or publication-state metadata is promoted.
 
 Documentation CLI check passed: zero errors/warnings. Generate --check returned
 exit 0 with DRIFT and eight artifacts; this is not a clean generation result.
-Generated files were preserved. VitePress build and final diff checks pending.
+Generated files were preserved. VitePress build passed (exit 0, 27.25 seconds)
+with a chunk-size warning. Final diff, relative-link and nonempty-report checks
+passed; the 14 estimates still average 56.8%. Node emitted stream-fd warnings,
+but the check and build both finished successfully. Browser layout was not
+visually rechecked; this change only adjusts the date/caption.
 
 ## Publication and boundaries
 
@@ -26,4 +30,6 @@ its history through a merge and normal follow-up commits. No force-push occurred
 
 Updated index frontmatter review dates, chart review date/caption and task
 DOC-20260925-001. The report source is the 25 September organization review.
-Status: correction validation in progress; production gates unchanged.
+Status: COMPLETE / LOCAL_VALIDATED_WITH_DOCUMENTED_DEFECTS. Source correction
+pushed at 936bc9c; this closeout records validation. Deployed-site status is
+unverified and production gates remain unchanged.

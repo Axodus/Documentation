@@ -2,7 +2,7 @@
 
 Status: Active Recovery
 Version: 0.1.0
-Last Updated: 2026-09-07
+Last Updated: 2026-09-25
 Owner: Documentation Coordinator
 
 ---
@@ -84,4 +84,4 @@ Owner: Documentation Coordinator
 | DOC-REQ09-008 | Create Documentation Sprint 01 closeout report | Complete in REQ-09 | Documentation Coordinator | REQ-09 | Sprint closeout report created; publication remains disabled. |
 | DOC-20260907-001 | Add bounded portfolio development snapshot to the Documentation cover | Complete | Documentation Coordinator | Root portfolio progress visualization evidence | Interactive VitePress surface added and locally validated; publication remains separately gated. |
 | DOC-20260911-001 | Refresh portfolio development-statistics status context | Complete | Documentation Coordinator | 2026-09-11 weekly portfolio review | Kept the 30 June percentage baseline, refreshed the review date and methodology link, and recorded current evidence boundaries; documentation check and VitePress build passed. |
-| DOC-20260925-001 | Refresh portfolio development-statistics status context | Complete | Documentation Coordinator | 2026-09-25 weekly portfolio review | Kept the 30 June percentage baseline, refreshed the review date and methodology link, and recorded current evidence boundaries. |
+| DOC-20260925-001 | Refresh portfolio development-statistics status context | Complete | Documentation Coordinator | 2026-09-25 weekly portfolio review | Preserved the 30 June estimates; updated review dates/caption. Documentation check and VitePress build passed; eight generated-artifact drift items remain. Source correction pushed at 936bc9c. |
