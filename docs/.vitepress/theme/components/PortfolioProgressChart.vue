@@ -51,7 +51,7 @@ const selected = computed(() => nuclei.find((nucleus) => nucleus.name === select
       </div>
       <p>
         Percentage baseline: <time datetime="2026-06-30">30 June 2026</time>.
-        Status context: <time datetime="2026-09-11">11 September 2026</time>.
+        Status context: <time datetime="2026-09-25">25 September 2026</time>.
       </p>
       <p>Institutional is not assessed and is excluded from the average.</p>
     </div>
