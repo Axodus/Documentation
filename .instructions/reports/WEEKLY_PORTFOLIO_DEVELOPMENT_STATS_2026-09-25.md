@@ -1,0 +1,29 @@
+# Documentation Development Statistics - 25 September 2026
+
+## Scope and objective
+
+Refresh the repository-review context in docs/index.md and
+docs/.vitepress/theme/components/PortfolioProgressChart.vue, preserve all 14
+historical estimates, and link the current organization review from the profile.
+The 30 June baseline remains 56.8%; Institutional is unassessed and AgentsAI
+is outside this baseline. No maturity or publication-state metadata is promoted.
+
+## Validation
+
+Documentation CLI check passed: zero errors/warnings. Generate --check returned
+exit 0 with DRIFT and eight artifacts; this is not a clean generation result.
+Generated files were preserved. VitePress build and final diff checks pending.
+
+## Publication and boundaries
+
+The user explicitly authorized source commits/pushes in Documentation and the
+two organization repositories for development statistics. This is not a new
+deployed-site release, runtime activation or financial authorization.
+The first source commit was already published; subsequent corrections preserve
+its history through a merge and normal follow-up commits. No force-push occurred.
+
+## Records
+
+Updated index frontmatter review dates, chart review date/caption and task
+DOC-20260925-001. The report source is the 25 September organization review.
+Status: correction validation in progress; production gates unchanged.
