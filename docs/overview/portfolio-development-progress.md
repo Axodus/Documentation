@@ -35,20 +35,19 @@ production_gate_impact: "PRESERVES_CLOSED"
 
 # Portfolio Development Progress
 
-## Review status
+## Canonical baseline
 
-The deterministic development-progress methodology is frozen as
-`axodus-portfolio-development-progress/v1`. Its first calculated result is an
-experimental baseline submitted for final CTO acceptance. The historical
-56.8% value remains labelled as an editorial legacy comparison until that
-acceptance is recorded. The number below is not a production-readiness,
-financial-authority, or execution metric.
+The deterministic development-progress methodology is adopted as canonical under
+`axodus-portfolio-development-progress/v1` following formal CTO acceptance.
+The historical 56.8% figure is retired as the current measurement and preserved
+solely for migration history. This score is a development evidence metric, not a
+production-readiness, financial-authority, or runtime execution claim.
 
-## Baseline under review
+## Current portfolio development score
 
-- Portfolio: 71.5633% internal; 71.6% displayed.
-- ACS: 61.8000% internal; 61.8% displayed.
-- Trading: 70.9000% internal; 70.9% displayed.
+- **Portfolio**: **71.6%** (canonical internal: 71.5633%)
+- **ACS**: **61.8%** (canonical internal: 61.8000%)
+- **Trading**: **70.9%** (canonical internal: 70.9000%)
 - Repository evidence inventory: 18 repositories.
 - Canonical scoring population: 15 nuclei at equal exact weight `1/15`.
 - Institutional remains included in the population.
