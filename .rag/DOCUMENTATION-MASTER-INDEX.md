@@ -4,8 +4,8 @@
 
 Manifest Version: 1.1.0
 Generator Version: 1.0.0
-Generated At: 2026-07-29T00:00:00Z
-Source Documents: 1175
+Generated At: 2026-09-26T00:00:00Z
+Source Documents: 1183
 
 ## Navigation
 
@@ -22,11 +22,11 @@ Source Documents: 1175
 
 | Metric | Count |
 |---|---:|
-| Total source documents | 1175 |
-| Canonical documents | 582 |
-| Legacy documents | 579 |
+| Total source documents | 1183 |
+| Canonical documents | 583 |
+| Legacy documents | 586 |
 | Template documents | 14 |
-| Declared relationships | 1023 |
+| Declared relationships | 1024 |
 | Derived relationships | 0 |
 
 ## Documents by Type
@@ -35,7 +35,7 @@ Source Documents: 1175
 |---|---:|
 | ADR | 30 |
 | API | 1 |
-| GUIDE | 221 |
+| GUIDE | 222 |
 | MEETING | 1 |
 | PLAYBOOK | 2 |
 | POLICY | 9 |
@@ -49,7 +49,7 @@ Source Documents: 1175
 | RUNBOOK | 1 |
 | SPECIFICATION | 10 |
 | STANDARD | 9 |
-| UNSPECIFIED | 579 |
+| UNSPECIFIED | 586 |
 ## Documents by Authority
 
 | Value | Count |
@@ -57,17 +57,17 @@ Source Documents: 1175
 | COMPONENT | 2 |
 | CORE | 244 |
 | MODULE | 1 |
-| PORTFOLIO | 29 |
+| PORTFOLIO | 30 |
 | PROJECT | 320 |
-| UNSPECIFIED | 579 |
+| UNSPECIFIED | 586 |
 ## Documents by Lifecycle
 
 | Value | Count |
 |---|---:|
 | ACTIVE | 22 |
 | APPROVED | 152 |
-| DRAFT | 422 |
-| UNSPECIFIED | 579 |
+| DRAFT | 423 |
+| UNSPECIFIED | 586 |
 ## Canonical Documents
 
 | ID | Title | Type | Status | Authority | Version | Owner | Relative Path |
@@ -609,6 +609,7 @@ Source Documents: 1175
 | CORE-GDE-003 | Documentation Status | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/documentation-status.md](../docs/overview/documentation-status.md) |
 | CORE-GDE-001 | Ecosystem Overview | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/ecosystem-overview.md](../docs/overview/ecosystem-overview.md) |
 | CORE-GDE-006 | Axodus Execution Model | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/execution-model.md](../docs/overview/execution-model.md) |
+| CORE-GDE-021 | Portfolio Development Progress | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/portfolio-development-progress.md](../docs/overview/portfolio-development-progress.md) |
 | CORE-GDE-007 | Axodus Product and Nucleus Map | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/product-map.md](../docs/overview/product-map.md) |
 | CORE-GDE-004 | Risk Notices | GUIDE | APPROVED | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/risk-notices.md](../docs/overview/risk-notices.md) |
 | CORE-GDE-008 | Canonical Terminology | GUIDE | DRAFT | PORTFOLIO | 1.0.0 | Axodus Core | [docs/overview/terminology.md](../docs/overview/terminology.md) |
@@ -680,10 +681,13 @@ Source Documents: 1175
 | — | Documentation Rollback and Post-Publication Audit | — | — | — | — | — | [.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md](../.instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md) |
 | — | Documentation Standards | — | — | — | — | — | [.instructions/DOCUMENTATION_STANDARDS.md](../.instructions/DOCUMENTATION_STANDARDS.md) |
 | — | Documentation File Structure | — | — | — | — | — | [.instructions/FILE_STRUCTURE.md](../.instructions/FILE_STRUCTURE.md) |
+| — | — | — | — | — | — | — | [.instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md](../.instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md) |
+| — | Global Coordination Handoff | — | — | — | — | — | [.instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md](../.instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md) |
 | — | Documentation Ownership | — | — | — | — | — | [.instructions/OWNERSHIP.md](../.instructions/OWNERSHIP.md) |
 | — | Documentation Publication Boundaries | — | — | — | — | — | [.instructions/PUBLICATION_BOUNDARIES.md](../.instructions/PUBLICATION_BOUNDARIES.md) |
 | — | Axodus Documentation Instructions | — | — | — | — | — | [.instructions/README.md](../.instructions/README.md) |
 | — | Documentation Rebuild Protocol | — | — | — | — | — | [.instructions/REBUILD_PROTOCOL.md](../.instructions/REBUILD_PROTOCOL.md) |
+| — | Documentation Portfolio Progress Surface Report - 2026-09-07 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md](../.instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md) |
 | — | Documentation Sprint 01 Closeout Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md](../.instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md) |
 | — | Documentation Sprint 01 - VitePress Validation & Documentation Content Change Pipeline - 2026-06-04 | — | — | — | — | — | [.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md](../.instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md) |
 | — | reports | — | — | — | — | — | [.instructions/reports/README.md](../.instructions/reports/README.md) |
@@ -696,6 +700,10 @@ Source Documents: 1175
 | — | REQ-07 Documentation Content Correction Drafts Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md](../.instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md) |
 | — | REQ-08 Documentation Content Quality, Links and Consistency Validation Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md](../.instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md) |
 | — | REQ-09 Documentation Publication Governance and Release Workflow Report - 2026-06-05 | — | — | — | — | — | [.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md](../.instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md) |
+| — | SEO Technical Foundation - 2026-09-08 | — | — | — | — | — | [.instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md](../.instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md) |
+| — | Documentation Portfolio Development Statistics - 2026-09-11 | — | — | — | — | — | [.instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md](../.instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md) |
+| — | Documentation Development Statistics - 25 September 2026 | — | — | — | — | — | [.instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md](../.instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md) |
+| — | Development Statistics Reassessment — 26 September 2026 | — | — | — | — | — | [.instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md](../.instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md) |
 | — | REQ-05 Handoff - VitePress Local Build Validation | — | — | — | — | — | [.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md](../.instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md) |
 | — | REQ-06 Handoff - Documentation Content Inventory and Editorial Gap Analysis | — | — | — | — | — | [.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md](../.instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md) |
 | — | REQ-07 Handoff - Documentation Content Correction Drafts | — | — | — | — | — | [.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md](../.instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md) |

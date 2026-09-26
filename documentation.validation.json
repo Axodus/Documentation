@@ -412,6 +412,42 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
+      "source_path": ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
       "source_path": ".instructions/OWNERSHIP.md"
     },
     {
@@ -476,6 +512,24 @@
       "rule_id": "DOC-RULE-027",
       "severity": "INFO",
       "source_path": ".instructions/REBUILD_PROTOCOL.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md"
     },
     {
       "document_id": null,
@@ -700,6 +754,78 @@
       "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
       "rule_id": "DOC-RULE-001",
       "severity": "INFO",
+      "source_path": ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-029",
+      "field": null,
+      "message": "Legacy document is not present in the accepted baseline.",
+      "rule_id": "DOC-RULE-029",
+      "severity": "INFO",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md"
+    },
+    {
+      "document_id": null,
+      "error_code": "DOC-VAL-001",
+      "field": null,
+      "message": "Document does not declare Schema 1.0.0 and is classified as LEGACY.",
+      "rule_id": "DOC-RULE-001",
+      "severity": "INFO",
       "source_path": ".instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md"
     },
     {
@@ -884,10 +1010,10 @@
     },
     {
       "document_id": null,
-      "error_code": "DOC-VAL-027",
+      "error_code": "DOC-VAL-028",
       "field": null,
-      "message": "Legacy document path and hash match the accepted baseline.",
-      "rule_id": "DOC-RULE-027",
+      "message": "Legacy document hash differs from the accepted baseline.",
+      "rule_id": "DOC-RULE-028",
       "severity": "INFO",
       "source_path": ".instructions/TASK_REGISTER.md"
     },
@@ -12503,13 +12629,13 @@
     }
   ],
   "errors": 0,
-  "generated_at": "2026-07-29T00:00:00Z",
-  "legacy_documents": 579,
+  "generated_at": "2026-09-26T00:00:00Z",
+  "legacy_documents": 586,
   "repository_statistics": {
     "active_exceptions": 563,
     "authority_review_dispositions": 285,
     "baseline_entries": 563,
-    "changed_legacy": 39,
+    "changed_legacy": 40,
     "defer_with_risk_dispositions": 42,
     "disposition_entries": 563,
     "disposition_registry_valid": true,
@@ -12518,28 +12644,28 @@
     "exception_entries": 563,
     "expired_exceptions": 0,
     "governed_dispositions": 563,
-    "info": 1389,
+    "info": 1403,
     "invalid_exceptions": 0,
-    "known_legacy": 505,
-    "legacy_documents": 579,
+    "known_legacy": 504,
+    "legacy_documents": 586,
     "migrate_dispositions": 177,
-    "relationships": 1023,
+    "relationships": 1024,
     "removed_legacy": 19,
     "revoked_exceptions": 0,
     "security_review_dispositions": 59,
     "skipped_documents": 0,
     "template_documents": 14,
     "temporary_extension_candidates": 386,
-    "total_documents": 1175,
-    "unbaselined_legacy": 35,
+    "total_documents": 1183,
+    "unbaselined_legacy": 42,
     "undecided_dispositions": 0,
-    "validated_documents": 582,
+    "validated_documents": 583,
     "warnings": 0
   },
   "schema_version": "1.0.0",
   "skipped_documents": 0,
   "summary": "Validation completed without canonical document errors.",
-  "validated_documents": 582,
+  "validated_documents": 583,
   "validation_version": "1.1.0",
   "warnings": 0
 }

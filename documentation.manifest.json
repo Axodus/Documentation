@@ -1,6 +1,6 @@
 {
   "derived_relationships": [],
-  "document_count": 1175,
+  "document_count": 1183,
   "documents": [
     {
       "aliases": [],
@@ -455,6 +455,46 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
+      "sha256": "494c2083966fc34a5a7e5cfd8ce7fe0de5e54c53a9af35cd1803892cb4d64aac",
+      "source_path": ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": null,
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
+      "sha256": "edff93e842ce6b3b54654c9f33320599a85947dfce2c3fef9d7aa802b2a1c5b9",
+      "source_path": ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Global Coordination Handoff",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
       "sha256": "e40c06d76f51f7c4e322d0bca1245d1d67571a7f394316530afe7003d203f097",
       "source_path": ".instructions/OWNERSHIP.md",
       "superseded_by": [],
@@ -520,6 +560,26 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Documentation Rebuild Protocol",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
+      "sha256": "77f02541a752cc615621c7e8253ea25ea5d2e3fc660396d66c908ca23708d387",
+      "source_path": ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Portfolio Progress Surface Report - 2026-09-07",
       "version": null
     },
     {
@@ -775,6 +835,86 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
+      "sha256": "6e204679c1f44553a660e99a068e1ebacc7f920eeed9ff82e5a019434e5ff33b",
+      "source_path": ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "SEO Technical Foundation - 2026-09-08",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
+      "sha256": "bc8bc7bfdf1940294bf7a2be8743276204bd8bb793519623ddd6040057a808ea",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Portfolio Development Statistics - 2026-09-11",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
+      "sha256": "0759f3a97ee3ca39e8ed9f8042e41d7d8076cdadd72ace0979502fa7225000aa",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Documentation Development Statistics - 25 September 2026",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
+      "sha256": "bc0db884f0ca01726ac5aae44d409baa0a1d7e18d7e5101520b10d15a1fe42bd",
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Development Statistics Reassessment — 26 September 2026",
+      "version": null
+    },
+    {
+      "aliases": [],
+      "authority_level": null,
+      "authority_scope": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_state": null,
+      "document_type": null,
+      "last_updated": null,
+      "maturity_level": null,
+      "owner": null,
+      "publication_status": null,
+      "related_documents": [],
       "sha256": "8d1f0886474f355c96abdde01641fe8398a014b9ce1bee511dafcb4dccefa7fa",
       "source_path": ".instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md",
       "superseded_by": [],
@@ -975,7 +1115,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "98b01b0ecae8d1d28ab33a8dbe6b61b493f98e08dbb690d061bd11fba6619aab",
+      "sha256": "775dc0bcef107ad4d630256db613d2c67f865fc4add660dae2cab6537d7ddd31",
       "source_path": ".instructions/TASK_REGISTER.md",
       "superseded_by": [],
       "supersedes": [],
@@ -19868,7 +20008,7 @@
       "owner": null,
       "publication_status": null,
       "related_documents": [],
-      "sha256": "905a64c2e6edaa55453aa1f373b933f9546ef5ed45650939bea2aacabf94f2ea",
+      "sha256": "3770923cce9ec639a781cf2334337f56a0f816104790a6a7c7fddeec12876f5e",
       "source_path": "AGENTS.md",
       "superseded_by": [],
       "supersedes": [],
@@ -22577,7 +22717,7 @@
       "document_id": "DOC-GDE-006",
       "document_state": "CURRENT",
       "document_type": "GUIDE",
-      "last_updated": "2026-07-15",
+      "last_updated": "2026-09-26",
       "maturity_level": "D2",
       "owner": "Axodus Documentation Core",
       "publication_status": "DRAFT",
@@ -22591,7 +22731,7 @@
         "DOCUMENTATION-EPIC-07",
         "DOCUMENTATION-EPIC-07-REQ-07"
       ],
-      "sha256": "2739d5759123bd27f8f85c44795fb1cf423c74ef9460089d440a764afaf7f108",
+      "sha256": "f1e12f8322245b98c99e32684ddf162e05358bae139f9f3b38fb4955a5142fac",
       "source_path": "docs/index.md",
       "superseded_by": [],
       "supersedes": [],
@@ -24206,6 +24346,29 @@
       "superseded_by": [],
       "supersedes": [],
       "title": "Axodus Execution Model",
+      "version": "1.0.0"
+    },
+    {
+      "aliases": [],
+      "authority_level": "PORTFOLIO",
+      "authority_scope": "AXODUS",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-021",
+      "document_state": "CURRENT",
+      "document_type": "GUIDE",
+      "last_updated": "2026-09-26",
+      "maturity_level": "D2",
+      "owner": "Axodus Core",
+      "publication_status": "DRAFT",
+      "related_documents": [
+        "AXODUS-PORTFOLIO-REQ-01",
+        "CORE-GDE-003"
+      ],
+      "sha256": "99949d8bb05f7bb6025ddb4c4efd91cc6a37d1e99ef466c6f9d1a4382a1d7dd0",
+      "source_path": "docs/overview/portfolio-development-progress.md",
+      "superseded_by": [],
+      "supersedes": [],
+      "title": "Portfolio Development Progress",
       "version": "1.0.0"
     },
     {
@@ -27370,7 +27533,7 @@
     "documentation.manifest.json",
     "documentation.validation.json"
   ],
-  "generated_at": "2026-07-29T00:00:00Z",
+  "generated_at": "2026-09-26T00:00:00Z",
   "generation_method": {
     "encoding": "UTF-8",
     "execution": "AXODUS-DOCUMENTATION-EXEC-08",
@@ -31240,6 +31403,12 @@
       "type": "RELATES_TO"
     },
     {
+      "source": "CORE-GDE-021",
+      "source_path": "docs/overview/portfolio-development-progress.md",
+      "target": "CORE-GDE-003",
+      "type": "RELATES_TO"
+    },
+    {
       "source": "DEFI-GDE-001",
       "source_path": "docs/defi/overview.md",
       "target": "CORE-GDE-001",
@@ -33529,23 +33698,23 @@
   "repository": "Axodus/Documentation",
   "schema_version": "1.0.0",
   "statistics": {
-    "compliant_documents": 582,
-    "declared_relationships": 1023,
+    "compliant_documents": 583,
+    "declared_relationships": 1024,
     "derived_relationships": 0,
     "documents_by_authority_level": {
       "COMPONENT": 2,
       "CORE": 244,
       "MODULE": 1,
-      "PORTFOLIO": 29,
+      "PORTFOLIO": 30,
       "PROJECT": 320,
-      "UNSPECIFIED": 579
+      "UNSPECIFIED": 586
     },
     "documents_by_maturity": {
       "D1": 183,
-      "D2": 328,
+      "D2": 329,
       "D3": 84,
       "D4": 1,
-      "UNSPECIFIED": 579
+      "UNSPECIFIED": 586
     },
     "documents_by_owner": {
       "<facilitator>": 1,
@@ -33560,7 +33729,7 @@
       "Axodus Business": 7,
       "Axodus Business / ACS": 1,
       "Axodus Business / Governance": 2,
-      "Axodus Core": 29,
+      "Axodus Core": 30,
       "Axodus DeFi": 1,
       "Axodus DEX": 5,
       "Axodus DEX / Security": 1,
@@ -33586,18 +33755,18 @@
       "BBA Product Governance": 23,
       "Governance Nucleus": 6,
       "Security": 6,
-      "UNSPECIFIED": 579
+      "UNSPECIFIED": 586
     },
     "documents_by_publication_status": {
       "ACTIVE": 22,
       "APPROVED": 152,
-      "DRAFT": 422,
-      "UNSPECIFIED": 579
+      "DRAFT": 423,
+      "UNSPECIFIED": 586
     },
     "documents_by_type": {
       "ADR": 30,
       "API": 1,
-      "GUIDE": 221,
+      "GUIDE": 222,
       "MEETING": 1,
       "PLAYBOOK": 2,
       "POLICY": 9,
@@ -33611,12 +33780,12 @@
       "RUNBOOK": 1,
       "SPECIFICATION": 10,
       "STANDARD": 9,
-      "UNSPECIFIED": 579
+      "UNSPECIFIED": 586
     },
-    "documents_missing_metadata": 579,
+    "documents_missing_metadata": 586,
     "generated_documents": 8,
-    "legacy_documents": 579,
+    "legacy_documents": 586,
     "template_documents": 14,
-    "total_documents": 1175
+    "total_documents": 1183
   }
 }

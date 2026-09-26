@@ -308,7 +308,7 @@
   ],
   "derived_relationships": [],
   "duplicate_references": [],
-  "generated_at": "2026-07-29T00:00:00Z",
+  "generated_at": "2026-09-26T00:00:00Z",
   "generator_version": "1.0.0",
   "graph_metadata": {
     "cycle_policy": "RELATES_TO-only cycles are permitted and reported; other cycles are reported for validation by the Validation Engine.",
@@ -543,6 +543,26 @@
       "classification": "LEGACY",
       "document_id": null,
       "document_type": null,
+      "node_id": ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md",
+      "publication_status": null,
+      "source_path": ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md",
+      "title": null
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md",
+      "publication_status": null,
+      "source_path": ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md",
+      "title": "Global Coordination Handoff"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
       "node_id": ".instructions/OWNERSHIP.md",
       "publication_status": null,
       "source_path": ".instructions/OWNERSHIP.md",
@@ -577,6 +597,16 @@
       "publication_status": null,
       "source_path": ".instructions/REBUILD_PROTOCOL.md",
       "title": "Documentation Rebuild Protocol"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md",
+      "publication_status": null,
+      "source_path": ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md",
+      "title": "Documentation Portfolio Progress Surface Report - 2026-09-07"
     },
     {
       "authority_level": null,
@@ -697,6 +727,46 @@
       "publication_status": null,
       "source_path": ".instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md",
       "title": "REQ-09 Documentation Publication Governance and Release Workflow Report - 2026-06-05"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md",
+      "publication_status": null,
+      "source_path": ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md",
+      "title": "SEO Technical Foundation - 2026-09-08"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md",
+      "publication_status": null,
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md",
+      "title": "Documentation Portfolio Development Statistics - 2026-09-11"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md",
+      "publication_status": null,
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md",
+      "title": "Documentation Development Statistics - 25 September 2026"
+    },
+    {
+      "authority_level": null,
+      "classification": "LEGACY",
+      "document_id": null,
+      "document_type": null,
+      "node_id": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md",
+      "publication_status": null,
+      "source_path": ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md",
+      "title": "Development Statistics Reassessment — 26 September 2026"
     },
     {
       "authority_level": null,
@@ -6077,6 +6147,16 @@
       "publication_status": "DRAFT",
       "source_path": "docs/overview/terminology.md",
       "title": "Canonical Terminology"
+    },
+    {
+      "authority_level": "PORTFOLIO",
+      "classification": "CANONICAL",
+      "document_id": "CORE-GDE-021",
+      "document_type": "GUIDE",
+      "node_id": "CORE-GDE-021",
+      "publication_status": "DRAFT",
+      "source_path": "docs/overview/portfolio-development-progress.md",
+      "title": "Portfolio Development Progress"
     },
     {
       "authority_level": "CORE",
@@ -12092,10 +12172,13 @@
     ".instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md",
     ".instructions/DOCUMENTATION_STANDARDS.md",
     ".instructions/FILE_STRUCTURE.md",
+    ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md",
+    ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md",
     ".instructions/OWNERSHIP.md",
     ".instructions/PUBLICATION_BOUNDARIES.md",
     ".instructions/README.md",
     ".instructions/REBUILD_PROTOCOL.md",
+    ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md",
     ".instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md",
     ".instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md",
     ".instructions/reports/README.md",
@@ -12108,6 +12191,10 @@
     ".instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md",
     ".instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md",
     ".instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md",
+    ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md",
+    ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md",
+    ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md",
+    ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md",
     ".instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md",
     ".instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md",
     ".instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md",
@@ -12891,10 +12978,13 @@
       ".instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md",
       ".instructions/DOCUMENTATION_STANDARDS.md",
       ".instructions/FILE_STRUCTURE.md",
+      ".instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md",
+      ".instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md",
       ".instructions/OWNERSHIP.md",
       ".instructions/PUBLICATION_BOUNDARIES.md",
       ".instructions/README.md",
       ".instructions/REBUILD_PROTOCOL.md",
+      ".instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md",
       ".instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md",
       ".instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md",
       ".instructions/reports/README.md",
@@ -12907,6 +12997,10 @@
       ".instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md",
       ".instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md",
       ".instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md",
+      ".instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md",
+      ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md",
+      ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md",
+      ".instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md",
       ".instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md",
       ".instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md",
       ".instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md",
@@ -13901,6 +13995,7 @@
       "docs/overview/documentation-status.md",
       "docs/overview/ecosystem-overview.md",
       "docs/overview/execution-model.md",
+      "docs/overview/portfolio-development-progress.md",
       "docs/overview/product-map.md",
       "docs/overview/README.md",
       "docs/overview/risk-notices.md",
@@ -14247,6 +14342,7 @@
       "CORE-GDE-006",
       "CORE-GDE-007",
       "CORE-GDE-008",
+      "CORE-GDE-021",
       "DEFI-GDE-001",
       "DEX-GDE-001",
       "DEX-GDE-002",
@@ -14650,14 +14746,14 @@
     "DEPENDS_ON": 280,
     "DOCUMENTS": 18,
     "REALIZES": 13,
-    "RELATES_TO": 616,
+    "RELATES_TO": 617,
     "VALIDATES": 96
   },
   "relationship_statistics": {
-    "declared": 1023,
+    "declared": 1024,
     "derived": 0,
     "duplicates": 0,
-    "total": 1023,
+    "total": 1024,
     "unresolved": 0
   },
   "relationship_types": [
@@ -18518,6 +18614,12 @@
       "source": "CORE-GDE-008",
       "source_path": "docs/overview/terminology.md",
       "target": "CORE-GDE-001",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "CORE-GDE-021",
+      "source_path": "docs/overview/portfolio-development-progress.md",
+      "target": "CORE-GDE-003",
       "type": "RELATES_TO"
     },
     {

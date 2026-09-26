@@ -2,17 +2,17 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-29T00:00:00Z
+Generated At: 2026-09-26T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Source documents: 1175
-- Canonical metadata field coverage: 50.72%
-- Schema 1.0.0 canonical documents: 582
-- Legacy documents: 579
-- Documents missing canonical metadata: 579
-- Documents without YAML front matter: 579
+- Source documents: 1183
+- Canonical metadata field coverage: 50.46%
+- Schema 1.0.0 canonical documents: 583
+- Legacy documents: 586
+- Documents missing canonical metadata: 586
+- Documents without YAML front matter: 586
 - Template documents: 14
 - Template structural compliance: 14/14
 - Governance compliance: 12/12
@@ -21,38 +21,38 @@ Generator Version: 1.0.0
 
 | Field | Present | Missing | Coverage |
 |---|---:|---:|---:|
-| `schema_version` | 596 | 579 | 50.72% |
-| `document_id` | 596 | 579 | 50.72% |
-| `aliases` | 596 | 579 | 50.72% |
-| `document_type` | 596 | 579 | 50.72% |
-| `title` | 596 | 579 | 50.72% |
-| `summary` | 596 | 579 | 50.72% |
-| `version` | 596 | 579 | 50.72% |
-| `publication_status` | 596 | 579 | 50.72% |
-| `document_state` | 596 | 579 | 50.72% |
-| `maturity_level` | 596 | 579 | 50.72% |
-| `authority_scope` | 596 | 579 | 50.72% |
-| `authority_level` | 596 | 579 | 50.72% |
-| `author` | 596 | 579 | 50.72% |
-| `owner` | 596 | 579 | 50.72% |
-| `maintainer` | 596 | 579 | 50.72% |
-| `technical_reviewers` | 596 | 579 | 50.72% |
-| `business_reviewers` | 596 | 579 | 50.72% |
-| `security_reviewers` | 596 | 579 | 50.72% |
-| `approver` | 596 | 579 | 50.72% |
-| `created_date` | 596 | 579 | 50.72% |
-| `last_updated` | 596 | 579 | 50.72% |
-| `last_reviewed` | 596 | 579 | 50.72% |
-| `review_cycle` | 596 | 579 | 50.72% |
-| `next_review` | 596 | 579 | 50.72% |
-| `supersedes` | 596 | 579 | 50.72% |
-| `relationships` | 596 | 579 | 50.72% |
-| `related_epics` | 596 | 579 | 50.72% |
-| `related_requirements` | 596 | 579 | 50.72% |
-| `related_adrs` | 596 | 579 | 50.72% |
-| `related_cores` | 596 | 579 | 50.72% |
-| `implementation_refs` | 596 | 579 | 50.72% |
-| `production_gate_impact` | 596 | 579 | 50.72% |
+| `schema_version` | 597 | 586 | 50.46% |
+| `document_id` | 597 | 586 | 50.46% |
+| `aliases` | 597 | 586 | 50.46% |
+| `document_type` | 597 | 586 | 50.46% |
+| `title` | 597 | 586 | 50.46% |
+| `summary` | 597 | 586 | 50.46% |
+| `version` | 597 | 586 | 50.46% |
+| `publication_status` | 597 | 586 | 50.46% |
+| `document_state` | 597 | 586 | 50.46% |
+| `maturity_level` | 597 | 586 | 50.46% |
+| `authority_scope` | 597 | 586 | 50.46% |
+| `authority_level` | 597 | 586 | 50.46% |
+| `author` | 597 | 586 | 50.46% |
+| `owner` | 597 | 586 | 50.46% |
+| `maintainer` | 597 | 586 | 50.46% |
+| `technical_reviewers` | 597 | 586 | 50.46% |
+| `business_reviewers` | 597 | 586 | 50.46% |
+| `security_reviewers` | 597 | 586 | 50.46% |
+| `approver` | 597 | 586 | 50.46% |
+| `created_date` | 597 | 586 | 50.46% |
+| `last_updated` | 597 | 586 | 50.46% |
+| `last_reviewed` | 597 | 586 | 50.46% |
+| `review_cycle` | 597 | 586 | 50.46% |
+| `next_review` | 597 | 586 | 50.46% |
+| `supersedes` | 597 | 586 | 50.46% |
+| `relationships` | 597 | 586 | 50.46% |
+| `related_epics` | 597 | 586 | 50.46% |
+| `related_requirements` | 597 | 586 | 50.46% |
+| `related_adrs` | 597 | 586 | 50.46% |
+| `related_cores` | 597 | 586 | 50.46% |
+| `implementation_refs` | 597 | 586 | 50.46% |
+| `production_gate_impact` | 597 | 586 | 50.46% |
 
 ## Documents Without Front Matter
 
@@ -78,10 +78,13 @@ Generator Version: 1.0.0
 - .instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md
 - .instructions/DOCUMENTATION_STANDARDS.md
 - .instructions/FILE_STRUCTURE.md
+- .instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md
+- .instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md
 - .instructions/OWNERSHIP.md
 - .instructions/PUBLICATION_BOUNDARIES.md
 - .instructions/README.md
 - .instructions/REBUILD_PROTOCOL.md
+- .instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md
 - .instructions/reports/README.md
@@ -94,6 +97,10 @@ Generator Version: 1.0.0
 - .instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md
 - .instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md
 - .instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md
+- .instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md
 - .instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md
 - .instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md
 - .instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md
@@ -660,10 +667,13 @@ Generator Version: 1.0.0
 - .instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md
 - .instructions/DOCUMENTATION_STANDARDS.md
 - .instructions/FILE_STRUCTURE.md
+- .instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md
+- .instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md
 - .instructions/OWNERSHIP.md
 - .instructions/PUBLICATION_BOUNDARIES.md
 - .instructions/README.md
 - .instructions/REBUILD_PROTOCOL.md
+- .instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md
 - .instructions/reports/README.md
@@ -676,6 +686,10 @@ Generator Version: 1.0.0
 - .instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md
 - .instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md
 - .instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md
+- .instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md
 - .instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md
 - .instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md
 - .instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md

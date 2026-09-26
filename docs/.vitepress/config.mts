@@ -26,7 +26,8 @@ const overviewItems = [
   { text: 'Product Map', link: '/overview/product-map' },
   { text: 'Constitutional Model', link: '/overview/constitutional-model' },
   { text: 'Terminology', link: '/overview/terminology' },
-  { text: 'Documentation Status', link: '/overview/documentation-status' }
+  { text: 'Documentation Status', link: '/overview/documentation-status' },
+  { text: 'Portfolio Development Progress', link: '/overview/portfolio-development-progress' }
 ]
 
 const governanceItems = [

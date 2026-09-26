@@ -2,18 +2,18 @@
 
 > GENERATED FILE — DO NOT EDIT MANUALLY.
 
-Generated At: 2026-07-29T00:00:00Z
+Generated At: 2026-09-26T00:00:00Z
 Generator Version: 1.0.0
 
 ## Summary
 
-- Graph nodes: 1175
-- Declared relationships: 1023
+- Graph nodes: 1183
+- Declared relationships: 1024
 - Derived relationships: 0
 - Relationship types: 5
 - Unresolved references: 0
 - Duplicate references: 0
-- Orphan documents: 796
+- Orphan documents: 803
 - Cycles: 16
 
 ## Relationship Counts
@@ -23,7 +23,7 @@ Generator Version: 1.0.0
 | `DEPENDS_ON` | 280 |
 | `DOCUMENTS` | 18 |
 | `REALIZES` | 13 |
-| `RELATES_TO` | 616 |
+| `RELATES_TO` | 617 |
 | `VALIDATES` | 96 |
 
 ## Unresolved References
@@ -77,10 +77,13 @@ None.
 - .instructions/DOCUMENTATION_ROLLBACK_AND_POST_PUBLICATION_AUDIT.md
 - .instructions/DOCUMENTATION_STANDARDS.md
 - .instructions/FILE_STRUCTURE.md
+- .instructions/handoffs/Documentation/20260926T000000-portfolio-progress-reassessment-DOC-20260926-001.md
+- .instructions/handoffs/Documentation/20260926T063000-portfolio-progress-final-validation-DOC-20260926-002.md
 - .instructions/OWNERSHIP.md
 - .instructions/PUBLICATION_BOUNDARIES.md
 - .instructions/README.md
 - .instructions/REBUILD_PROTOCOL.md
+- .instructions/reports/DOCUMENTATION_PORTFOLIO_PROGRESS_SURFACE_2026-09-07.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_CLOSEOUT_REPORT_2026-06-05.md
 - .instructions/reports/DOCUMENTATION_SPRINT_01_VITEPRESS_AND_CONTENT_PIPELINE_2026-06-04.md
 - .instructions/reports/README.md
@@ -93,6 +96,10 @@ None.
 - .instructions/reports/REQ_07_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS_2026-06-05.md
 - .instructions/reports/REQ_08_DOCUMENTATION_CONTENT_QUALITY_LINKS_AND_CONSISTENCY_VALIDATION_2026-06-05.md
 - .instructions/reports/REQ_09_DOCUMENTATION_PUBLICATION_GOVERNANCE_AND_RELEASE_WORKFLOW_2026-06-05.md
+- .instructions/reports/SEO_TECHNICAL_FOUNDATION_2026-09-08.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-11.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-25.md
+- .instructions/reports/WEEKLY_PORTFOLIO_DEVELOPMENT_STATS_2026-09-26.md
 - .instructions/REQ_05_HANDOFF_VITEPRESS_LOCAL_BUILD_VALIDATION.md
 - .instructions/REQ_06_HANDOFF_DOCUMENTATION_CONTENT_INVENTORY.md
 - .instructions/REQ_07_HANDOFF_DOCUMENTATION_CONTENT_CORRECTION_DRAFTS.md
