@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: null
 created_date: "2026-09-26"
-last_updated: "2026-09-26"
+last_updated: "2026-10-02"
 last_reviewed: null
 review_cycle: "QUARTERLY"
 next_review: "2026-12-26"
@@ -57,6 +57,10 @@ validation record, and hashes are maintained in the local Axodus coordination
 workspace under `.instructions/portfolio_progress_*`. The Documentation
 Overview is a downstream reader and never a scoring input.
 
+The 2 October 2026 review generated a new repository-fingerprint manifest
+while preserving every capability state. The displayed portfolio, ACS, and
+Trading values therefore remain unchanged.
+
 ## What the score measures
 
 The score aggregates capability states across Research, Requirements and Scope,
@@ -82,8 +86,9 @@ provide coordination or supporting evidence and have no standalone program
 weight. Institutional is scored from its repository evidence and remains in the
 15-program denominator.
 
-The current root coordination guide validator reports 57 marker/link defects.
-They are classified as non-scoring quality defects under v1 because they are not
+The current root coordination guide validator reports 69 marker/link defects,
+up from 57 after Governance restored nested repositories. They are classified
+as non-scoring coordination-quality defects under v1 because they are not
 frozen product capability acceptance criteria. Generated Documentation reports
 are outputs, not scoring inputs.
 
