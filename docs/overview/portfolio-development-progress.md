@@ -19,7 +19,7 @@ business_reviewers: ["Portfolio Documentation Reviewer"]
 security_reviewers: ["Security Reviewer"]
 approver: null
 created_date: "2026-09-26"
-last_updated: "2026-10-09"
+last_updated: "2026-10-16"
 last_reviewed: null
 review_cycle: "QUARTERLY"
 next_review: "2026-12-26"
@@ -57,7 +57,7 @@ validation record, and hashes are maintained in the local Axodus coordination
 workspace under `.instructions/portfolio_progress_*`. The Documentation
 Overview is a downstream reader and never a scoring input.
 
-The 9 October 2026 review generated a new repository-fingerprint manifest
+The 16 October 2026 review generated a new repository-fingerprint manifest
 while preserving every capability state. The displayed portfolio, ACS, and
 Trading values therefore remain unchanged.
 
